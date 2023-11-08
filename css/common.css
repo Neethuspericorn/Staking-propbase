@@ -93,7 +93,9 @@ input:-webkit-autofill:active {
   box-shadow: inset 0 0 20px 20px #fff; }
 
 button {
-  outline: none; }
+  outline: none;
+  box-shadow: none;
+  border: none; }
 
 .btn-check:checked + .btn, .btn:first-child:active, :not(.btn-check) + .btn:active {
   color: inherit;

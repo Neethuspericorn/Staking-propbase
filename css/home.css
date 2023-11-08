@@ -16,8 +16,7 @@
   padding: 20px 55px 30px;
   align-items: center; }
   .welcome-cover .content-block {
-    flex: 1 1 auto;
-    padding-right: 20px; }
+    flex: 1 1 auto; }
     .welcome-cover .content-block .img-block {
       flex-shrink: 0;
       margin-right: 30px; }
@@ -56,7 +55,8 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    color: #292D32; }
+    color: #292D32;
+    border-radius: 13px; }
     .card-sec .h-card-block .top-block {
       flex: 1 1 auto; }
     .card-sec .h-card-block .bottom-block {
@@ -66,6 +66,7 @@
       margin-bottom: 20px;
       aspect-ratio: 2.0985; }
       .card-sec .h-card-block .img-block img {
+        border-radius: 12px;
         width: 100%;
         height: 100%;
         object-fit: cover; }

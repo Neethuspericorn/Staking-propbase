@@ -7,7 +7,7 @@
     align-items: center;
     .content-block{
         flex: 1 1 auto;
-        padding-right: 20px;
+        // padding-right: 20px;
         .img-block{
             flex-shrink: 0;
             margin-right: 30px;
@@ -58,6 +58,7 @@
         display: flex;
         flex-direction: column;
         color: $primary-dark;
+        border-radius: 13px;
         .top-block{
             flex: 1 1 auto;
         }
@@ -69,6 +70,7 @@
             margin-bottom: 20px;
             aspect-ratio: 2.0985;
             img{
+                border-radius: 12px;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
