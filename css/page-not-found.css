@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.not-found-cover {
+  padding: 15px;
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .not-found-cover .not-found-block {
+    text-align: center;
+    font-family: "Poppins", sans-serif; }
+    .not-found-cover .not-found-block h2 {
+      font-size: 46px;
+      font-weight: 700;
+      color: #292D32;
+      margin-bottom: 15px; }
+    .not-found-cover .not-found-block p {
+      color: #697F9B;
+      font-size: 18px; }
+    .not-found-cover .not-found-block .not-img {
+      width: 340px; }
+    .not-found-cover .not-found-block .back-btn-p {
+      margin-top: 30px;
+      margin-bottom: 0; }
+    .not-found-cover .not-found-block .back-btn {
+      display: inline-block;
+      border: solid 1px #292D32;
+      background-color: #292D32;
+      padding: 12px 55px;
+      font-size: 16px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 35px;
+      transition: .3s; }
+      .not-found-cover .not-found-block .back-btn:hover {
+        background-color: #fff;
+        color: #292D32; }
+
+@media (max-width: 1679px) {
+  .not-found-cover .not-found-block .not-img {
+    width: 260px; }
+
+  .not-found-cover .not-found-block h2 {
+    font-size: 36px; }
+
+  .not-found-cover .not-found-block p {
+    font-size: 16px; }
+
+  .not-found-cover .not-found-block .back-btn {
+    padding: 10px 50px;
+    font-size: 15px; } }
+@media (max-width: 1481px) {
+  .not-found-cover .not-found-block .not-img {
+    width: 230px; }
+
+  .not-found-cover .not-found-block h2 {
+    font-size: 32px; }
+
+  .not-found-cover .not-found-block p {
+    font-size: 15px; }
+
+  .not-found-cover .not-found-block .back-btn {
+    padding: 10px 45px; } }
+@media (max-width: 1199px) {
+  .not-found-cover .not-found-block .not-img {
+    width: 160px; }
+
+  .not-found-cover .not-found-block h2 {
+    font-size: 28px; } }
+@media (max-width: 991px) {
+  .not-found-cover .not-found-block .not-img {
+    width: 150px; }
+
+  .not-found-cover {
+    min-height: 75vh; }
+
+  .not-found-cover .not-found-block h2 {
+    font-size: 26px; }
+
+  .not-found-cover .not-found-block p {
+    font-size: 14px; }
+
+  .not-found-cover .not-found-block .back-btn {
+    padding: 10px 40px;
+    font-size: 14px; } }
+@media (max-width: 767px) {
+  .not-found-cover .not-found-block .not-img {
+    width: 140px; } }
+@media (max-width: 579px) {
+  .not-found-cover {
+    min-height: 50vh;
+    padding: 25px 15px; }
+
+  .not-found-cover .not-found-block h2 {
+    font-size: 22px; }
+
+  .not-found-cover .not-found-block .not-img {
+    width: 130px; }
+
+  .not-found-cover .not-found-block p br {
+    display: none; }
+
+  .not-found-cover .not-found-block .back-btn {
+    padding: 9px 34px;
+    font-size: 14px; } }
+
+/*# sourceMappingURL=page-not-found.css.map */

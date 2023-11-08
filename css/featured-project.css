@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.featured-sec .featured-slider {
+  margin-bottom: 15px; }
+  .featured-sec .featured-slider .slick-dots {
+    left: 80px;
+    width: auto;
+    bottom: 20px; }
+  .featured-sec .featured-slider .slick-dots li {
+    width: 10px;
+    margin: 0 1px; }
+    .featured-sec .featured-slider .slick-dots li button {
+      width: 10px; }
+      .featured-sec .featured-slider .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+        font-size: 5px;
+        line-height: 10px;
+        color: rgba(255, 255, 255, 0.65); }
+    .featured-sec .featured-slider .slick-dots li.slick-active button:before {
+      color: #fff; }
+  .featured-sec .featured-slider .item {
+    display: flex !important;
+    padding: 40px 30px 50px 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 225px;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .featured-sec .featured-slider .item .text-block {
+      flex: 1 1 auto;
+      padding-right: 50px;
+      color: #292D32; }
+      .featured-sec .featured-slider .item .text-block p {
+        font-size: 24px;
+        margin-bottom: 0;
+        font-weight: 600; }
+      .featured-sec .featured-slider .item .text-block h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 0; }
+    .featured-sec .featured-slider .item .logo-block {
+      flex: 0 0 auto; }
+      .featured-sec .featured-slider .item .logo-block .img-block {
+        margin-top: auto; }
+        .featured-sec .featured-slider .item .logo-block .img-block img {
+          max-width: 180px; }
+    .featured-sec .featured-slider .item.item-1 {
+      background-image: url("../img/feature-bg-1.png"); }
+
+@media (max-width: 1679px) {
+  .featured-sec .featured-slider .item .text-block p {
+    font-size: 20px; }
+
+  .featured-sec .featured-slider .item .text-block h2 {
+    font-size: 32px; }
+
+  .featured-sec .featured-slider .item {
+    height: 190px;
+    padding: 40px 30px 50px 60px; }
+
+  .featured-sec .featured-slider .slick-dots {
+    left: 60px; }
+
+  .featured-sec .featured-slider .item .logo-block .img-block img {
+    max-width: 160px; }
+
+  .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link {
+    font-size: 15px; } }
+@media (max-width: 1441px) {
+  .featured-sec .featured-slider .item .text-block h2 {
+    font-size: 28px; }
+
+  .featured-sec .featured-slider .item .text-block p {
+    font-size: 18px; } }
+@media (max-width: 1199px) {
+  .featured-sec .featured-slider .item {
+    height: 170px;
+    padding: 35px 25px 40px 30px; }
+
+  .featured-sec .featured-slider .slick-dots {
+    left: 30px;
+    bottom: 10px; }
+
+  .featured-sec .featured-slider .item .text-block h2 {
+    font-size: 24px; }
+
+  .featured-sec .featured-slider .item .text-block p {
+    font-size: 16px; }
+
+  .featured-sec .featured-slider .item .logo-block .img-block img {
+    max-width: 140px; } }
+@media (max-width: 767px) {
+  .featured-sec .featured-slider .item {
+    height: 140px;
+    padding: 15px 25px;
+    align-items: center;
+    background-position-x: center; }
+
+  .featured-sec .featured-slider .item .text-block h2 {
+    font-size: 20px; } }
+@media (max-width: 579px) {
+  .featured-sec .featured-slider .item .logo-block .img-block img {
+    max-width: 90px; }
+
+  .featured-sec .featured-slider .item .text-block h2 {
+    font-size: 16px; }
+
+  .featured-sec .featured-slider .item .text-block p {
+    font-size: 12px; }
+
+  .featured-sec .featured-slider .item .text-block {
+    padding-right: 25px; } }
+
+/*# sourceMappingURL=featured-project.css.map */

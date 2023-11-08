@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.sec-title-filter .exl-upload-btn {
+  flex-shrink: 0;
+  padding: 7px 30px;
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 400;
+  transition: .3s;
+  border: none; }
+  .sec-title-filter .exl-upload-btn img {
+    margin-left: 15px; }
+  .sec-title-filter .exl-upload-btn:hover {
+    opacity: .8; }
+
+@media (max-width: 1679px) {
+  .sec-title-filter .exl-upload-btn {
+    max-height: 36px;
+    margin-left: 8px;
+    padding: 6px 25px;
+    font-size: 13px; } }
+@media (max-width: 1481px) {
+  .sec-title-filter .exl-upload-btn {
+    padding: 6px 20px; }
+    .sec-title-filter .exl-upload-btn img {
+      margin-left: 8px;
+      width: 13px; } }
+@media (max-width: 1199px) {
+  .sec-title-filter .exl-upload-btn {
+    padding: 6px 15px; }
+    .sec-title-filter .exl-upload-btn img {
+      margin-left: 8px; } }
+@media (max-width: 767px) {
+  .sec-title-block.sec-title-filter {
+    flex-wrap: wrap; }
+    .sec-title-block.sec-title-filter .block-right {
+      width: 100%;
+      padding-top: 10px; }
+    .sec-title-block.sec-title-filter .title-search-box {
+      flex: 1 1 auto; } }
+@media (max-width: 579px) {
+  .sec-title-filter .exl-upload-btn img {
+    display: none; }
+
+  .sec-title-block.sec-title-filter .block-right {
+    flex-wrap: wrap; }
+
+  .sec-title-block.sec-title-filter .block-right .title-search-box {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 8px;
+    margin-right: 0 !important; }
+
+  .sec-title-block.sec-title-filter .exl-upload-btn {
+    margin-left: auto; } }
+
+/*# sourceMappingURL=asset-management.css.map */

@@ -1,0 +1,994 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.token-title-filter .exl-upload-btn img {
+  max-width: 16px; }
+
+@media (max-width: 767px) {
+  .sec-title-block.sec-title-filter.token-title-filter .block-right {
+    width: auto;
+    padding-top: 0; } }
+
+.claim-token-table .custom-table {
+  min-width: 400px; }
+
+@media (min-width: 579px) {
+  .buy-tokens-modal .modal-dialog {
+    max-width: 550px; } }
+@media (min-width: 768px) {
+  .buy-tokens-modal .modal-dialog {
+    max-width: 700px; } }
+@media (min-width: 992px) {
+  .buy-tokens-modal .modal-dialog {
+    max-width: 850px; } }
+.buy-tokens-modal .modal-title h2 {
+  text-align: left;
+  margin-bottom: 20px; }
+.buy-tokens-modal .modal-body {
+  padding: 0 65px 40px; }
+.buy-tokens-modal .property-card {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  background: #FFF;
+  display: flex;
+  border: 1px solid #E3E4F3; }
+  .buy-tokens-modal .property-card .img-block {
+    flex: 0 0 auto;
+    width: 255px; }
+    .buy-tokens-modal .property-card .img-block .img-cover {
+      width: 100%;
+      position: relative; }
+    .buy-tokens-modal .property-card .img-block .projected {
+      background: #0DAD4D;
+      right: 10px; }
+    .buy-tokens-modal .property-card .img-block .upcoming {
+      left: 10px;
+      background: #292D32; }
+    .buy-tokens-modal .property-card .img-block .projected, .buy-tokens-modal .property-card .img-block .upcoming {
+      display: inline-block;
+      position: absolute;
+      border-radius: 4px;
+      bottom: 5px;
+      color: #fff;
+      font-size: 10px;
+      padding: 3px 10px; }
+    .buy-tokens-modal .property-card .img-block .property-img-sm {
+      width: 100%;
+      height: 155px;
+      object-fit: cover;
+      border-radius: 8px; }
+  .buy-tokens-modal .property-card .details-block {
+    flex: 1 1 auto;
+    padding: 15px 15px 5px; }
+  .buy-tokens-modal .property-card .prop-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: #292D32; }
+  .buy-tokens-modal .property-card .unit-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; }
+  .buy-tokens-modal .property-card .img-txt-label {
+    display: flex;
+    align-items: center;
+    color: #697F9B;
+    font-size: 14px; }
+    .buy-tokens-modal .property-card .img-txt-label img {
+      margin-right: 8px;
+      line-height: 0; }
+    .buy-tokens-modal .property-card .img-txt-label .num {
+      color: #292D32;
+      padding-left: 3px;
+      font-size: 15px; }
+  .buy-tokens-modal .property-card .det-list .num {
+    padding-left: 10px;
+    padding-left: 3px; }
+  .buy-tokens-modal .property-card .loc-wrapper {
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center; }
+    .buy-tokens-modal .property-card .loc-wrapper .loc-det {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      color: #292D32; }
+      .buy-tokens-modal .property-card .loc-wrapper .loc-det img {
+        margin-right: 8px;
+        line-height: 0; }
+  .buy-tokens-modal .property-card .rental-det {
+    font-size: 12px;
+    color: #292D32;
+    margin-bottom: 13px; }
+    .buy-tokens-modal .property-card .rental-det img {
+      margin-right: 8px; }
+.buy-tokens-modal .price-card {
+  margin-bottom: 25px;
+  border: solid 1px #E3E4F3;
+  border-radius: 12px;
+  padding: 20px; }
+  .buy-tokens-modal .price-card .range-block {
+    margin-bottom: 15px; }
+  .buy-tokens-modal .price-card .price-row {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    .buy-tokens-modal .price-card .price-row:last-child {
+      margin-bottom: 0; }
+  .buy-tokens-modal .price-card .price-label {
+    color: #697F9B;
+    font-size: 14px; }
+  .buy-tokens-modal .price-card .price-det {
+    text-align: right;
+    color: #292D32;
+    font-size: 16px;
+    font-weight: 700; }
+.buy-tokens-modal .count-group {
+  display: flex;
+  align-items: center; }
+  .buy-tokens-modal .count-group .count-btn {
+    flex-shrink: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    transition: .3s;
+    padding: 0;
+    background-color: #F9F9FD;
+    border: solid 1px #E3E4F3;
+    border-radius: 50%; }
+    .buy-tokens-modal .count-group .count-btn img {
+      max-width: 100%; }
+    .buy-tokens-modal .count-group .count-btn:hover {
+      border-color: #292D32; }
+  .buy-tokens-modal .count-group .counter {
+    flex: 1 1 auto;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #292D32;
+    padding: 1px 5px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none; }
+  .buy-tokens-modal .count-group .tok-ma-btn {
+    border-radius: 22px;
+    border: 1px solid #E3E4F3;
+    background: #F3F4FA;
+    box-shadow: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    height: 32px;
+    padding: 4px 15px;
+    color: #697F9B;
+    margin-left: 8px;
+    transition: .3s;
+    flex-shrink: 0; }
+    .buy-tokens-modal .count-group .tok-ma-btn .max-tokn {
+      font-size: 11px; }
+    .buy-tokens-modal .count-group .tok-ma-btn:hover {
+      border-color: #292D32;
+      color: #292D32; }
+  .buy-tokens-modal .count-group .tok-reset-btn {
+    border-radius: 50%;
+    border: 1px solid #E3E4F3;
+    background: #F3F4FA;
+    box-shadow: none;
+    outline: none;
+    padding: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    transition: .3s;
+    width: 32px;
+    height: 32px; }
+    .buy-tokens-modal .count-group .tok-reset-btn:hover {
+      border-color: #292D32;
+      color: #292D32; }
+  .buy-tokens-modal .count-group .count-btn-group {
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    border: 1px solid #E3E4F3;
+    background: #F3F4FA;
+    padding: 3px;
+    height: 32px; }
+    .buy-tokens-modal .count-group .count-btn-group .count-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 25px;
+      overflow: hidden; }
+      .buy-tokens-modal .count-group .count-btn-group .count-btn img {
+        width: 100%;
+        height: 100%; }
+      .buy-tokens-modal .count-group .count-btn-group .count-btn.cursor-disable {
+        cursor: not-allowed; }
+        .buy-tokens-modal .count-group .count-btn-group .count-btn.cursor-disable:hover {
+          border-color: #E3E4F3; }
+.buy-tokens-modal .tokn-count-row {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between; }
+  .buy-tokens-modal .tokn-count-row .tokn-count-label {
+    color: #292D32;
+    font-size: 16px;
+    font-weight: 500; }
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600; }
+.buy-tokens-modal .wall-bal {
+  display: flex;
+  align-items: center;
+  color: #697F9B;
+  font-size: 12px;
+  padding-top: 5px; }
+  .buy-tokens-modal .wall-bal img {
+    line-height: 0;
+    margin-right: 8px;
+    margin-top: -2px; }
+  .buy-tokens-modal .wall-bal .wal-bal-label {
+    padding-right: 8px; }
+  .buy-tokens-modal .wall-bal .bal-amt {
+    font-size: 14px;
+    font-weight: 500; }
+.buy-tokens-modal .btn-cover-modal {
+  padding-bottom: 20px;
+  margin-top: 30px; }
+  .buy-tokens-modal .btn-cover-modal .btn-prmary {
+    padding: 12px 15px;
+    width: 280px;
+    border: none !important; }
+
+@media (max-width: 1679px) {
+  .buy-tokens-modal .property-card .prop-name {
+    font-size: 18px; }
+
+  .buy-tokens-modal .property-card .img-txt-label .num {
+    font-size: 14px; }
+
+  .buy-tokens-modal .price-card .price-row {
+    margin-bottom: 8px; }
+
+  .buy-tokens-modal .price-card .price-label {
+    font-size: 13px; }
+
+  .buy-tokens-modal .price-card .price-det {
+    font-size: 15px; }
+
+  .buy-tokens-modal .property-card .img-txt-label {
+    font-size: 13px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-count-label {
+    font-size: 15px; }
+
+  .buy-tokens-modal .price-card {
+    margin-bottom: 30px; }
+
+  .buy-tokens-modal .count-group .count-btn {
+    width: 30px; }
+
+  .buy-tokens-modal .count-group .counter {
+    font-size: 14px; }
+
+  .buy-tokens-modal .tokn-count-row {
+    margin-bottom: 25px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    font-size: 22px; }
+
+  .buy-tokens-modal .btn-cover-modal .btn-prmary {
+    width: 250px; }
+
+  .buy-tokens-modal .btn-cover-modal {
+    padding-bottom: 10px;
+    margin-top: 40px; }
+
+  .buy-tokens-modal .property-card .img-block .property-img-sm {
+    height: 145px; }
+
+  .buy-tokens-modal .price-card .range-block {
+    margin-bottom: 10px; } }
+@media (max-width: 1481px) {
+  .buy-tokens-modal .count-group .tok-ma-btn {
+    height: 30px; }
+
+  .buy-tokens-modal .count-group .tok-reset-btn {
+    height: 30px;
+    width: 30px; }
+
+  .buy-tokens-modal .count-group .tok-ma-btn {
+    font-size: 12px; }
+
+  .buy-tokens-modal .property-card .img-block {
+    flex: 0 0 auto;
+    width: 240px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    font-size: 20px; }
+
+  .buy-tokens-modal .property-card .prop-name {
+    font-size: 16px; }
+
+  .buy-tokens-modal .count-group .count-btn {
+    width: 28px; }
+
+  .buy-tokens-modal .tokn-count-row {
+    margin-bottom: 20px; }
+
+  .buy-tokens-modal .btn-cover-modal .btn-prmary {
+    width: 230px;
+    padding: 10px 15px; }
+
+  .buy-tokens-modal .price-card .price-det {
+    font-size: 14px; } }
+@media (max-width: 991px) {
+  .buy-tokens-modal .modal-body {
+    padding: 0 40px 30px; }
+
+  .buy-tokens-modal .property-card .img-block {
+    width: 220px; }
+
+  .buy-tokens-modal .modal-header {
+    padding: 10px 1rem; }
+
+  .buy-tokens-modal .property-card .img-block .property-img-sm {
+    height: 135px; }
+
+  .buy-tokens-modal .property-card .prop-name {
+    margin-bottom: 10px; } }
+@media (max-width: 767px) {
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    font-size: 18px; }
+
+  .buy-tokens-modal .modal-body {
+    padding: 0 20px 40px; }
+
+  .buy-tokens-modal .property-card {
+    flex-wrap: wrap; }
+
+  .buy-tokens-modal .property-card .img-block {
+    width: 100%; }
+
+  .buy-tokens-modal .property-card .details-block {
+    padding: 15px 0px 5px; } }
+@media (max-width: 579px) {
+  .buy-tokens-modal .btn-cover-modal .btn-prmary {
+    width: 190px;
+    padding: 9px 15px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-count-label {
+    font-size: 13px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    font-size: 16px; }
+
+  .buy-tokens-modal .price-card .price-label {
+    font-size: 12px; }
+
+  .buy-tokens-modal .price-card .price-det {
+    font-size: 13px; }
+
+  .buy-tokens-modal .price-card {
+    margin-bottom: 20px;
+    padding: 15px; }
+
+  .buy-tokens-modal .modal-body {
+    padding: 0 15px 25px; } }
+.token-success .modal-dialog {
+  max-width: 920px; }
+  @media (min-width: 579px) {
+    .token-success .modal-dialog {
+      max-width: 550px; } }
+  @media (min-width: 768px) {
+    .token-success .modal-dialog {
+      max-width: 700px; } }
+  @media (min-width: 992px) {
+    .token-success .modal-dialog {
+      max-width: 850px; } }
+.token-success .btn-cover .btn {
+  width: auto;
+  padding: 10px 35px; }
+.token-success .logout-modal-body {
+  padding-left: 45px;
+  padding-right: 45px; }
+  .token-success .logout-modal-body h2 {
+    font-weight: 600;
+    margin-top: 20px; }
+  .token-success .logout-modal-body p {
+    max-width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    color: #697F9B;
+    font-size: 16px;
+    margin-top: 15px; }
+  .token-success .logout-modal-body .token-modal-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .token-success .logout-modal-body .token-modal-info img {
+      margin-top: 2px;
+      margin-right: 15px; }
+      @media (max-width: 1679px) {
+        .token-success .logout-modal-body .token-modal-info img {
+          margin-top: 1px; } }
+    .token-success .logout-modal-body .token-modal-info p {
+      margin: 0;
+      max-width: 100%;
+      text-align: left;
+      font-size: 14px; }
+      @media (max-width: 1679px) {
+        .token-success .logout-modal-body .token-modal-info p {
+          font-size: 13px; } }
+.token-success .success-data-cover .success-card {
+  margin-top: 35px;
+  border-radius: 12px;
+  border: 1px solid #E3E4F3;
+  padding: 30px 20px; }
+  .token-success .success-data-cover .success-card .card-row {
+    margin-bottom: 15px; }
+    .token-success .success-data-cover .success-card .card-row:last-child {
+      margin-bottom: 0; }
+.token-success .success-data-cover .card-row {
+  align-items: center;
+  font-size: 14px; }
+  .token-success .success-data-cover .card-row .card-label {
+    color: #697F9B;
+    min-width: 110px;
+    font-size: 14px; }
+  .token-success .success-data-cover .card-row .card-data {
+    word-break: break-word;
+    margin-left: auto;
+    font-weight: 600;
+    padding-left: 15px; }
+  .token-success .success-data-cover .card-row .data-tnx-hash {
+    font-size: 16px; }
+.token-success .success-data-cover .token-total-block {
+  padding-top: 15px; }
+  .token-success .success-data-cover .token-total-block .tot-label h6 {
+    font-size: 16px;
+    color: #292D32;
+    font-weight: 500;
+    margin-bottom: 3px; }
+  .token-success .success-data-cover .token-total-block .tot-label .wal-bal {
+    display: flex;
+    align-items: center;
+    color: #697F9B;
+    font-size: 12px; }
+    .token-success .success-data-cover .token-total-block .tot-label .wal-bal img {
+      margin-right: 5px;
+      margin-top: -2px; }
+    .token-success .success-data-cover .token-total-block .tot-label .wal-bal .wal-amt {
+      padding-left: 5px;
+      font-size: 14px;
+      font-weight: 500; }
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    padding: 10px 0;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #292D32; }
+.token-success .tokn-count-row {
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-between; }
+  .token-success .tokn-count-row .tokn-count-label {
+    color: #292D32;
+    font-size: 16px;
+    font-weight: 500; }
+  .token-success .tokn-count-row .tokn-total {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600; }
+.token-success .wall-bal {
+  display: flex;
+  align-items: center;
+  color: #697F9B;
+  font-size: 12px;
+  padding-top: 5px; }
+  .token-success .wall-bal img {
+    line-height: 0;
+    margin-right: 8px;
+    margin-top: -2px; }
+  .token-success .wall-bal .wal-bal-label {
+    padding-right: 8px; }
+  .token-success .wall-bal .bal-amt {
+    font-size: 14px;
+    font-weight: 500; }
+
+.token-success .flex-1, .buy-tokens-modal .flex-1 {
+  flex: 1 1 auto; }
+.token-success .flex-0, .buy-tokens-modal .flex-0 {
+  flex: 0 0 auto; }
+
+.timeline-wrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex; }
+  .timeline-wrapper .timeline-col {
+    flex-grow: 1;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .timeline-wrapper .timeline-col:first-child .timeline-status {
+      width: 22px;
+      height: 22px;
+      border: none;
+      margin-top: -2px; }
+    .timeline-wrapper .timeline-col:first-child .status-block::after {
+      display: block; }
+    .timeline-wrapper .timeline-col:last-child .timeline-status {
+      margin-top: -2px;
+      width: 22px;
+      height: 22px;
+      border-color: #E3E4F3;
+      padding: 5px;
+      box-shadow: 0px 0px 0px 3px #fff inset;
+      background-color: #E3E4F3; }
+    .timeline-wrapper .timeline-col:last-child .status-block::after {
+      display: none; }
+    .timeline-wrapper .timeline-col.active:first-child .timeline-status {
+      background-image: url("../img/success-grn.svg");
+      background-position: center;
+      background-size: 100%; }
+    .timeline-wrapper .timeline-col.active:last-child .timeline-status {
+      box-shadow: none;
+      border: none;
+      background-image: url("../img/success-grn.svg");
+      background-position: center;
+      background-size: 100%; }
+    .timeline-wrapper .timeline-col.completed .status-block::after {
+      background-color: #0DAD4D; }
+    .timeline-wrapper .timeline-col .timeline-status {
+      z-index: 1;
+      position: relative;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #E3E4F3;
+      display: inline-block;
+      border: solid 2px #fff;
+      flex-shrink: 0; }
+    .timeline-wrapper .timeline-col .status-block {
+      height: 24px;
+      position: relative;
+      width: 100%;
+      text-align: center;
+      flex-shrink: 0; }
+      .timeline-wrapper .timeline-col .status-block::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 50%;
+        top: 8.5px;
+        background-color: #E3E4F3; }
+    .timeline-wrapper .timeline-col .info-block {
+      text-align: center;
+      padding-top: 8px; }
+      .timeline-wrapper .timeline-col .info-block .info-label {
+        font-size: 13px;
+        color: #292D32;
+        margin-bottom: 3px; }
+      .timeline-wrapper .timeline-col .info-block .info-time {
+        color: #697F9B;
+        font-size: 12px;
+        margin-bottom: 6px; }
+      .timeline-wrapper .timeline-col .info-block .time-det {
+        border-radius: 14px;
+        border: 1px solid #7DE0A5;
+        background: #E7FFF0;
+        font-size: 12px;
+        font-weight: 500;
+        color: #0DAD4D;
+        padding: 4px 20px;
+        display: inline-block;
+        white-space: nowrap; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .info-block .info-label {
+    font-size: 12px; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .info-block .info-time {
+    font-size: 11px; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .info-block .time-det {
+    font-size: 11px;
+    padding: 4px 12px; } }
+@media (max-width: 767px) {
+  .timeline-wrapper-modal .timeline-wrapper {
+    margin-top: 25px;
+    flex-wrap: wrap; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col {
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 18px; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .status-block {
+    text-align: left;
+    width: 25px;
+    height: 102%; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .status-block::after {
+    width: 2px;
+    height: 103%;
+    left: 7px;
+    top: 19px; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col:first-child .timeline-status,
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col:last-child .timeline-status {
+    margin-left: -3px; }
+  .timeline-wrapper-modal .timeline-wrapper .timeline-col .info-block {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 1px; } }
+@media (max-width: 1679px) {
+  .token-success .logout-modal-body .btn-cover {
+    padding-bottom: 35px;
+    margin-top: 30px; }
+
+  .token-success .success-data-cover .success-card {
+    margin-top: 25px;
+    padding: 20px; }
+
+  .token-success .tokn-count-row .tokn-count-label {
+    font-size: 15px; }
+
+  .token-success .tokn-count-row .tokn-total {
+    font-size: 21px; }
+
+  .token-success .logout-modal-body p {
+    font-size: 15px; }
+
+  .token-success .btn-cover .btn {
+    padding: 10px 28px; }
+
+  .token-success .success-data-cover .card-row .data-tnx-hash {
+    font-size: 15px; }
+
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    font-size: 22px; }
+
+  .token-success .success-data-cover .token-total-block .tot-label h6 {
+    font-size: 15px; } }
+@media (max-width: 1481px) {
+  .token-success .tokn-count-row .tokn-count-label {
+    font-size: 15px; }
+
+  .token-success .tokn-count-row .tokn-total {
+    font-size: 19px; }
+
+  .token-success .logout-modal-body {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .token-success .logout-modal-body p {
+    font-size: 14px; }
+
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    font-size: 20px; }
+
+  .buy-tokens-modal .count-group .count-btn-group {
+    height: 30px; } }
+@media (max-width: 991px) {
+  .token-success .logout-modal-body {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .token-success .logout-modal-body p {
+    font-size: 14px; }
+
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    font-size: 18px; }
+
+  .token-success .success-data-cover .token-total-block .tot-label h6 {
+    font-size: 14px; }
+
+  .token-success .success-data-cover .token-total-block .tot-label .wal-bal .wal-amt {
+    font-size: 13px; }
+
+  .token-success .success-data-cover .card-row .data-tnx-hash {
+    font-size: 14px; }
+
+  .token-success .success-data-cover .card-row .card-data,
+  .token-success .success-data-cover .card-row .card-label {
+    font-size: 13px; }
+
+  .token-success .success-data-cover .success-card {
+    padding: 25px 20px; } }
+@media (max-width: 767px) {
+  .token-success .logout-modal-body .btn-cover {
+    padding-bottom: 25px;
+    margin-top: 30px; }
+
+  .token-success .tokn-count-row .tokn-total {
+    font-size: 17px; }
+
+  .token-success .success-data-cover .success-card {
+    padding: 15px; } }
+@media (max-width: 579px) {
+  .token-success .success-data-cover .success-card {
+    margin-top: 14px; }
+
+  .buy-tokens-modal .wall-bal .bal-amt, .token-success .wall-bal .bal-amt {
+    font-size: 13px; }
+
+  .token-success .logout-modal-body {
+    padding-left: 0;
+    padding-right: 0; } }
+@media (max-width: 479px) {
+  .buy-tokens-modal .count-group .count-btn-group,
+  .buy-tokens-modal .count-group .tok-ma-btn, .buy-tokens-modal .count-group .tok-reset-btn {
+    margin: 2px; }
+
+  .buy-tokens-modal .count-group {
+    flex-wrap: wrap; }
+
+  .buy-tokens-modal .count-group .count-btn-group .count-btn {
+    width: 22px;
+    height: 22px; }
+
+  .buy-tokens-modal .count-group .counter {
+    font-size: 13px; }
+
+  .token-success .logout-modal-body .btn-cover {
+    padding-bottom: 15px;
+    margin-top: 20px; }
+
+  .token-success .success-data-cover .success-card .card-row {
+    margin-bottom: 10px; }
+
+  .token-success .tokn-count-row .tokn-count-label {
+    font-size: 14px; }
+
+  .token-success .success-data-cover .token-total-block .tot-label {
+    text-align: center; }
+
+  .token-success .success-data-cover .token-total-block {
+    flex-direction: column;
+    align-items: center; }
+
+  .token-success .success-data-cover .success-card {
+    margin-top: 25px; }
+
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    font-size: 20px; }
+
+  .token-success .success-data-cover .token-total-block .tot-amt {
+    margin-left: 0; }
+
+  .token-success .success-data-cover .success-card .card-row {
+    flex-direction: column;
+    align-items: flex-start; }
+
+  .token-success .success-data-cover .card-row .card-data {
+    margin-left: 0;
+    padding-left: 0; } }
+@media (max-width: 420px) {
+  .token-success .btn-cover .btn {
+    width: 100%; }
+
+  .logout-modal-body .btn-cover {
+    flex-wrap: wrap; }
+    .logout-modal-body .btn-cover .btn-prmary {
+      margin-top: 15px; } }
+.buy-tokens-modal .tokens-alert-sm {
+  display: flex;
+  color: #FC5252;
+  margin-bottom: 20px;
+  transition: .3s; }
+  .buy-tokens-modal .tokens-alert-sm img {
+    margin-top: -2px;
+    margin-right: 10px; }
+
+.token-reg-cover {
+  padding-top: 25px; }
+  .token-reg-cover .token-info-red {
+    display: flex;
+    padding: 8px 15px;
+    font-size: 12px;
+    color: #85744C;
+    background-color: #FFF6E1;
+    border-radius: 12px; }
+    .token-reg-cover .token-info-red img {
+      margin-top: -2px;
+      margin-right: 10px; }
+  .token-reg-cover .reg-input-block {
+    margin-top: 30px; }
+    .token-reg-cover .reg-input-block .alert-msg-cover .alert-msg {
+      font-size: 10px; }
+    .token-reg-cover .reg-input-block .text-label {
+      margin-bottom: 0;
+      padding-top: 10px;
+      color: #697F9B;
+      font-size: 12px; }
+    .token-reg-cover .reg-input-block .inp-block {
+      flex: 1 1 auto;
+      padding-right: 20px; }
+      .token-reg-cover .reg-input-block .inp-block ::-webkit-input-placeholder {
+        color: #7F97B5; }
+      .token-reg-cover .reg-input-block .inp-block :-moz-placeholder {
+        color: #7F97B5; }
+      .token-reg-cover .reg-input-block .inp-block ::-moz-placeholder {
+        color: #7F97B5; }
+      .token-reg-cover .reg-input-block .inp-block :-ms-input-placeholder {
+        color: #7F97B5; }
+      .token-reg-cover .reg-input-block .inp-block .custom-inp {
+        color: #292D32;
+        width: 100%; }
+    .token-reg-cover .reg-input-block .reg-btn-block {
+      flex: 0 0 auto; }
+    .token-reg-cover .reg-input-block .btn-prmary, .token-reg-cover .reg-input-block .custom-inp {
+      height: 48px; }
+    .token-reg-cover .reg-input-block .btn-prmary {
+      width: 155px;
+      padding: 2px 15px; }
+
+@media (max-width: 1679px) {
+  .buy-tokens-modal .tokens-alert-sm {
+    font-size: 15px; }
+
+  .token-reg-cover .reg-input-block {
+    margin-top: 20px; }
+
+  .token-reg-cover .reg-input-block .btn-prmary, .token-reg-cover .reg-input-block .custom-inp {
+    height: 45px; } }
+@media (max-width: 1481px) {
+  .buy-tokens-modal .tokens-alert-sm {
+    font-size: 14px; }
+
+  .token-reg-cover .reg-input-block .btn-prmary {
+    font-size: 14px; } }
+@media (max-width: 991px) {
+  .token-reg-cover .reg-input-block .btn-prmary, .token-reg-cover .reg-input-block .custom-inp {
+    height: 42px; } }
+@media (max-width: 767px) {
+  .token-reg-cover .reg-input-block .btn-prmary {
+    width: 120px;
+    padding: 2px 15px; }
+
+  .token-reg-cover .reg-input-block .inp-block {
+    flex: 1 1 auto;
+    padding-right: 10px; }
+
+  .token-reg-cover .reg-input-block .custom-inp {
+    padding: 8px 20px; }
+
+  .token-reg-cover .reg-input-block .btn-prmary, .token-reg-cover .reg-input-block .custom-inp {
+    height: 40px;
+    font-size: 13px; }
+
+  .token-success .tokn-count-row .tokn-total, .token-success .tokn-count-row .tokn-total {
+    font-size: 16px; }
+
+  .token-success .flex-1, .buy-tokens-modal .flex-1 {
+    padding-right: 10px; }
+
+  .token-success .tokn-count-row .tokn-count-label {
+    font-size: 13px; } }
+@media (max-width: 479px) {
+  .buy-tokens-modal .count-group .counter {
+    width: 40px;
+    padding: 1px 2px; }
+
+  .buy-tokens-modal .count-group .tok-ma-btn {
+    padding: 3px 5px; }
+
+  .token-success .wall-bal-left, .buy-tokens-modal .wall-bal-left {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 11px; }
+    .token-success .wall-bal-left img, .buy-tokens-modal .wall-bal-left img {
+      margin-top: 1px;
+      margin-right: 4px; }
+
+  .wall-bal-row {
+    padding-top: 5px; }
+
+  .buy-tokens-modal .wall-bal .bal-amt, .token-success .wall-bal .bal-amt {
+    font-size: 12px; }
+
+  .token-reg-cover .reg-input-block .btn-prmary {
+    width: 95px; } }
+@media (max-width: 1679px) {
+  .custom-modal.buy-tokens-modal .modal-dialog {
+    margin-top: 12px;
+    margin-bottom: 10px; }
+  .custom-modal.buy-tokens-modal .modal-header {
+    padding-bottom: 0;
+    padding-top: 5px; }
+  .custom-modal.buy-tokens-modal .modal-title h2 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+
+  .buy-tokens-modal .tokens-alert-sm {
+    font-size: 13px; }
+
+  .buy-tokens-modal .property-card .loc-wrapper {
+    padding-bottom: 8px; }
+
+  .buy-tokens-modal .property-card .loc-wrapper .loc-det {
+    font-size: 11px; }
+
+  .buy-tokens-modal .property-card .prop-name {
+    font-size: 16px;
+    margin-bottom: 8px; }
+
+  .buy-tokens-modal .property-card .rental-det {
+    margin-bottom: 7px; }
+
+  .buy-tokens-modal .property-card .img-block .property-img-sm {
+    height: 125px; }
+
+  .buy-tokens-modal .property-card .rental-det img {
+    margin-top: -1px; }
+
+  .buy-tokens-modal .price-card .price-label {
+    font-size: 12px; }
+
+  .buy-tokens-modal .price-card .price-row {
+    margin-bottom: 5px; }
+
+  .buy-tokens-modal .price-card {
+    padding: 10px 20px;
+    margin-bottom: 10px; }
+
+  .buy-tokens-modal .price-card .price-det {
+    font-size: 14px; }
+
+  .buy-tokens-modal .btn-cover-modal {
+    padding-bottom: 0;
+    margin-top: 15px; }
+
+  .buy-tokens-modal .tokn-count-row {
+    margin-bottom: 8px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-count-label {
+    font-size: 14px; }
+
+  .buy-tokens-modal .tokn-count-row .tokn-total {
+    font-size: 20px; }
+
+  .token-reg-cover {
+    padding-top: 5px; }
+
+  .buy-tokens-modal .property-card .details-block {
+    padding: 10px 15px 5px; }
+
+  .buy-tokens-modal .tokens-alert-sm {
+    margin-bottom: 5px; }
+
+  .buy-tokens-modal .modal-body {
+    padding-bottom: 20px; }
+
+  .buy-tokens-modal .timeline-wrapper {
+    margin-top: 12px;
+    margin-bottom: 10px; }
+
+  .buy-tokens-modal .property-card {
+    margin-bottom: 5px; } }
+
+/*# sourceMappingURL=tokens.css.map */

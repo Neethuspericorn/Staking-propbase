@@ -1,0 +1,97 @@
+@import "partials/partials";
+.welcome-cover{
+    border-radius: 12px;
+    border: 1px solid #292D32;
+    background: #292D32;
+    padding: 20px 55px 30px;
+    align-items: center;
+    .content-block{
+        flex: 1 1 auto;
+        padding-right: 20px;
+        .img-block{
+            flex-shrink: 0;
+            margin-right: 30px;
+        }
+        .text-block{
+            color: $primary-light;
+            padding-top: 15px;
+            h4{
+                font-size: 23px;
+                font-weight: 400;
+                span{
+                    font-weight: 700;
+                }
+            }
+            p{
+                font-size: 13px;
+                font-weight: 500;
+                color: #909AA6;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .btn-block{
+        flex: 0 0 auto;
+        .more-btn{
+            background-color: transparent;
+            border: solid 1px #6A7380;
+            color: $primary-light;
+            font-size: 14px;
+            width: 180px;
+            &:hover{
+                background-color: $primary-light;
+                color: $primary-dark;
+            }
+        }
+    }
+}
+
+.card-sec{
+    padding-top: 20px;
+    .h-card-col{
+        margin-bottom: 20px;
+    }
+    .h-card-block{
+        padding: 25px 40px 50px;
+        height: 100%;
+        background-color: $primary-light;
+        display: flex;
+        flex-direction: column;
+        color: $primary-dark;
+        .top-block{
+            flex: 1 1 auto;
+        }
+        .bottom-block{
+            padding-top: 10px;
+            flex: 0 0 auto;
+        }
+        .img-block{
+            margin-bottom: 20px;
+            aspect-ratio: 2.0985;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        h2{
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 14px;
+        }
+        .join-btn{
+            width: 100%;
+            background-color: #0DAD4D;
+            color: $primary-light;
+            padding: 12px 15px;
+            border: solid 1px #0DAD4D;
+            &:hover{
+                background-color: $primary-light;
+                color: #0DAD4D;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.welcome-cover {
+  border-radius: 12px;
+  border: 1px solid #292D32;
+  background: #292D32;
+  padding: 20px 55px 30px;
+  align-items: center; }
+  .welcome-cover .content-block {
+    flex: 1 1 auto;
+    padding-right: 20px; }
+    .welcome-cover .content-block .img-block {
+      flex-shrink: 0;
+      margin-right: 30px; }
+    .welcome-cover .content-block .text-block {
+      color: #fff;
+      padding-top: 15px; }
+      .welcome-cover .content-block .text-block h4 {
+        font-size: 23px;
+        font-weight: 400; }
+        .welcome-cover .content-block .text-block h4 span {
+          font-weight: 700; }
+      .welcome-cover .content-block .text-block p {
+        font-size: 13px;
+        font-weight: 500;
+        color: #909AA6;
+        margin-bottom: 0; }
+  .welcome-cover .btn-block {
+    flex: 0 0 auto; }
+    .welcome-cover .btn-block .more-btn {
+      background-color: transparent;
+      border: solid 1px #6A7380;
+      color: #fff;
+      font-size: 14px;
+      width: 180px; }
+      .welcome-cover .btn-block .more-btn:hover {
+        background-color: #fff;
+        color: #292D32; }
+
+.card-sec {
+  padding-top: 20px; }
+  .card-sec .h-card-col {
+    margin-bottom: 20px; }
+  .card-sec .h-card-block {
+    padding: 25px 40px 50px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #292D32; }
+    .card-sec .h-card-block .top-block {
+      flex: 1 1 auto; }
+    .card-sec .h-card-block .bottom-block {
+      padding-top: 10px;
+      flex: 0 0 auto; }
+    .card-sec .h-card-block .img-block {
+      margin-bottom: 20px;
+      aspect-ratio: 2.0985; }
+      .card-sec .h-card-block .img-block img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .card-sec .h-card-block h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      font-weight: 600; }
+    .card-sec .h-card-block p {
+      font-size: 14px; }
+    .card-sec .h-card-block .join-btn {
+      width: 100%;
+      background-color: #0DAD4D;
+      color: #fff;
+      padding: 12px 15px;
+      border: solid 1px #0DAD4D; }
+      .card-sec .h-card-block .join-btn:hover {
+        background-color: #fff;
+        color: #0DAD4D; }
+
+/*# sourceMappingURL=home.css.map */

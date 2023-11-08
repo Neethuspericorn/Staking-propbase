@@ -1,2 +1,0 @@
-# Staking-propbase
-Staking Website
