@@ -1,0 +1,361 @@
+@import "partials/partials";
+.filter-wrapper
+{
+    margin-bottom:15px;
+}
+.staking-dashboard-outer
+{
+    display:flex;
+    .welcome-stake-outer
+    {
+        background: $primary-light;
+        margin-right: 15px;
+        padding:50px 50px;
+        display: flex;
+        align-items: center;
+        border-radius:6px;
+        @media(max-width:1679px)
+        {
+            padding:20px 30px;
+        }
+        .img-sec-stake
+        {
+            img
+            {
+                height: 130px;
+            }
+        }
+        .detail-sec-stake
+        {
+            padding-left:45px;
+            .props-badge
+            {
+                .props-name
+                {
+                    background: #657181;
+                    display: inline-block;
+                    padding: 6px 17px;
+                    border-radius: 50px;
+                    color:  $primary-light;
+                    margin-bottom: 13px;
+                    font-size: 14px;
+                    font-weight:500;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .welcome-txt
+            {
+                h3
+                {
+                    font-size: 20px;
+                    margin-top: 10px;
+                    font-weight: 600;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 16px;
+                    }
+                }
+                p
+                {
+                    color:$text-grey;
+                    font-size: 14px;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .total-value-outer
+    {
+        background: $primary-light;
+        padding: 30px 22px;
+        border-radius:6px;
+        flex: 0 0 28%;
+        @media(max-width:1679px)
+        {
+            padding:20px 22px;
+        }
+        .stake-tot-locked
+        {
+            border-bottom: 1px solid $border-grey;
+            padding-bottom: 14px;
+            
+            h3
+            {
+                font-size:20px;
+                font-weight: 600;
+                color: #292D32;
+                display: flex;
+                align-items: center;
+                @media(max-width:1679px)
+                {
+                    font-size: 17px;
+                }
+                .txt-sec
+                {
+                    display: inline-block;
+                    margin-left: 6px;
+                    margin-top: 3px;
+                }
+                .img-sec img
+                {
+                    @media(max-width:1679px)
+                    {
+                        height: 16px;
+                    }
+                }
+            }
+            h2
+            {
+                font-weight: 700;
+                font-size: 23px;
+                @media(max-width:1679px)
+                {
+                    font-size:19px;
+                }
+            }
+        }
+        .tot-detl-outer
+        {
+            padding-top: 30px;
+            .total-inner {
+                margin-bottom: 25px;
+                display: flex;
+                justify-content: space-between;
+                @media(max-width:1679px)
+                {
+                    margin-bottom: 20px;
+                }
+                .label-txt
+                {
+                    color:$label-txt-blue;
+                    font-size:14px;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 13px;
+                    }
+                }
+                .label-num {
+                    color:$dark-black;
+                    font-weight:600;
+                    font-size:16px;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+.card-section-outer
+{
+    padding-top: 15px;
+    .h-card-col
+    {
+        padding-right: 15px;
+        padding-left: 0;
+        &:nth-child(1) {
+          
+            padding-left: 15px !important;
+        }
+        .h-card-block
+        {
+            border-radius: 6px;
+            @media(max-width:1679px)
+            {
+                padding: 25px 25px 50px;
+            }
+            
+        }
+    }
+    .top-block
+    {
+        .heading-txt
+        {
+            display:flex;
+            align-items: center;
+            margin-bottom:35px;
+            img
+            {
+                height:40px;
+            }
+            h2
+            {
+                margin-bottom: 0;
+                padding-left: 11px;
+                font-size:19px;
+                @media(max-width:1679px)
+                {
+                    font-size: 17px;
+                }
+            }
+        }
+        .txt-content
+        {
+            font-size: 15px;
+            margin-top: 13px;
+            @media(max-width:1679px)
+            {
+                font-size: 13px;
+            }
+        }
+        ul
+        {
+            padding-left: 31px;
+            li
+            {
+                font-size: 15px;
+                margin-bottom: 10px;
+                @media(max-width:1679px)
+                {
+                    font-size: 13px;
+                }
+            }
+        }
+        .pool-cap-txt
+        {
+            margin-top:50px;
+            .pool-label
+            {
+                font-weight: 600;
+                font-size: 16px;
+                @media(max-width:1679px)
+                {
+                    font-size: 13px;
+                }
+            }
+            .pool-cont
+            {
+                font-weight: 600;
+                font-size: 20px;
+                @media(max-width:1679px)
+                {
+                    font-size: 16px;
+                }
+            }
+        }
+        .progress-bar-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            margin-bottom: 12px;
+            .progress-count {
+                color:$success-green;
+                font-weight: 600;
+                font-size: 15px;
+                @media(max-width:1679px)
+                {
+                    font-size: 13px;
+                }
+            }
+        }
+        .btn-outer
+        {
+            display:flex;
+        }
+        .btn-default
+        {
+            border-radius: 28px;
+            border: 1px solid $border-grey-1;
+            font-size: 15px;
+            font-weight: 500;
+            width: 47%;
+            padding: 9px;
+            background: #fff;
+            margin-right: 10px;
+            @media(max-width:1679px)
+            {
+                font-size: 13px;
+            }
+        }
+        .list-order-outer {
+            margin-top: 20px;
+            border-bottom: 1px solid $border-grey;
+            padding-bottom: 14px;
+            .list-order {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                .label-content {
+                    color:$label-txt-blue;
+                    font-weight: 500;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 13px;
+                    }
+                }
+                .data-content {
+                    font-size: 15px;
+                    font-weight: 500;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+       
+    }
+    .bottom-block
+    {
+        .badge-staking-date span {
+            border: 1px solid $btn-border-green;
+            background: $light-green;
+            padding: 7px 26px;
+            border-radius: 50px;
+            margin-bottom: 17px;
+            margin-top: 12px;
+            color:$btn-green-text;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 500;
+            @media(max-width:1679px)
+            {
+                font-size: 11px;
+            }
+        }
+        .btn-outr {
+            display: flex;
+            .btn-stake
+            {
+                margin-right:11px;
+                background-color:$success-green;
+                color: #fff;
+                padding: 12px 15px;
+                border: solid 1px $success-green;
+                width: 50%;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50px;
+                @media(max-width:1679px)
+                {
+                    padding:8px 15px;
+                    font-size: 14px;
+                }
+            }
+            .btn-unstake
+            {
+                background: $primary-light;
+                color: $label-txt-blue;
+                padding: 12px 15px;
+                border: 1px solid $border-grey-1;
+                width: 50%;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50px;
+                @media(max-width:1679px)
+                { 
+                    padding:6px 12px;
+                    font-size: 14px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
