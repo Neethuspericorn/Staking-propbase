@@ -16,6 +16,11 @@
 .staking-dashboard-outer {
   display: flex;
 }
+@media (max-width: 1100px) {
+  .staking-dashboard-outer {
+    flex-direction: column;
+  }
+}
 .staking-dashboard-outer .welcome-stake-outer {
   background: #fff;
   margin-right: 15px;
@@ -29,11 +34,38 @@
     padding: 20px 30px;
   }
 }
+@media (max-width: 1100px) {
+  .staking-dashboard-outer .welcome-stake-outer {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .staking-dashboard-outer .welcome-stake-outer {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+}
 .staking-dashboard-outer .welcome-stake-outer .img-sec-stake img {
   height: 130px;
 }
+@media (max-width: 575px) {
+  .staking-dashboard-outer .welcome-stake-outer .img-sec-stake {
+    order: 2;
+  }
+}
 .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake {
   padding-left: 45px;
+}
+@media (max-width: 1150px) {
+  .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake {
+    padding-left: 8px;
+  }
+}
+@media (max-width: 575px) {
+  .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake {
+    padding-left: 0px;
+  }
 }
 .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name {
   background: #657181;
@@ -60,6 +92,11 @@
     font-size: 16px;
   }
 }
+@media (max-width: 991px) {
+  .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt h3 {
+    font-size: 14px;
+  }
+}
 .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt p {
   color: #6e6c6c;
   font-size: 14px;
@@ -80,9 +117,24 @@
     padding: 20px 22px;
   }
 }
+@media (max-width: 1199px) {
+  .staking-dashboard-outer .total-value-outer {
+    flex: 0 0 35%;
+  }
+}
+@media (max-width: 1100px) {
+  .staking-dashboard-outer .total-value-outer {
+    margin-top: 15px;
+  }
+}
 .staking-dashboard-outer .total-value-outer .stake-tot-locked {
   border-bottom: 1px solid #e3e4f3;
   padding-bottom: 14px;
+}
+@media (max-width: 991px) {
+  .staking-dashboard-outer .total-value-outer .stake-tot-locked {
+    padding-bottom: 8px;
+  }
 }
 .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 {
   font-size: 20px;
@@ -94,6 +146,11 @@
 @media (max-width: 1679px) {
   .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 {
     font-size: 17px;
+  }
+}
+@media (max-width: 1199px) {
+  .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 {
+    font-size: 15px;
   }
 }
 .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .txt-sec {
@@ -115,8 +172,18 @@
     font-size: 19px;
   }
 }
+@media (max-width: 1199px) {
+  .staking-dashboard-outer .total-value-outer .stake-tot-locked h2 {
+    font-size: 17px;
+  }
+}
 .staking-dashboard-outer .total-value-outer .tot-detl-outer {
   padding-top: 30px;
+}
+@media (max-width: 991px) {
+  .staking-dashboard-outer .total-value-outer .tot-detl-outer {
+    padding-top: 0px;
+  }
 }
 .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner {
   margin-bottom: 25px;
@@ -126,6 +193,12 @@
 @media (max-width: 1679px) {
   .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner {
+    margin-bottom: 0px;
+    padding-top: 15px;
   }
 }
 .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-txt {
@@ -147,6 +220,11 @@
     font-size: 14px;
   }
 }
+@media (max-width: 1199px) {
+  .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-num {
+    padding-left: 5px;
+  }
+}
 
 .card-section-outer {
   padding-top: 15px;
@@ -154,6 +232,17 @@
 .card-section-outer .h-card-col {
   padding-right: 15px;
   padding-left: 0;
+}
+@media (max-width: 1199px) {
+  .card-section-outer .h-card-col {
+    width: 100%;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .card-section-outer .h-card-col {
+    margin-bottom: 15px;
+  }
 }
 .card-section-outer .h-card-col:nth-child(1) {
   padding-left: 15px !important;
@@ -166,10 +255,25 @@
     padding: 25px 25px 50px;
   }
 }
+@media (max-width: 991px) {
+  .card-section-outer .h-card-col .h-card-block {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .card-section-outer .h-card-col .h-card-block {
+    padding: 25px 19px 50px;
+  }
+}
 .card-section-outer .top-block .heading-txt {
   display: flex;
   align-items: center;
   margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .card-section-outer .top-block .heading-txt {
+    margin-bottom: 20px;
+  }
 }
 .card-section-outer .top-block .heading-txt img {
   height: 40px;
@@ -208,6 +312,11 @@
 .card-section-outer .top-block .pool-cap-txt {
   margin-top: 50px;
 }
+@media (max-width: 991px) {
+  .card-section-outer .top-block .pool-cap-txt {
+    margin-top: 20px;
+  }
+}
 .card-section-outer .top-block .pool-cap-txt .pool-label {
   font-weight: 600;
   font-size: 16px;
@@ -245,6 +354,11 @@
 .card-section-outer .top-block .btn-outer {
   display: flex;
 }
+@media (max-width: 450px) {
+  .card-section-outer .top-block .btn-outer {
+    flex-direction: column;
+  }
+}
 .card-section-outer .top-block .btn-default {
   border-radius: 28px;
   border: 1px solid #B4BFCD;
@@ -258,6 +372,13 @@
 @media (max-width: 1679px) {
   .card-section-outer .top-block .btn-default {
     font-size: 13px;
+  }
+}
+@media (max-width: 450px) {
+  .card-section-outer .top-block .btn-default {
+    width: 100%;
+    margin-bottom: 13px;
+    margin-right: 0;
   }
 }
 .card-section-outer .top-block .list-order-outer {
@@ -279,6 +400,11 @@
     font-size: 13px;
   }
 }
+@media (max-width: 370px) {
+  .card-section-outer .top-block .list-order-outer .list-order .label-content {
+    font-size: 12px;
+  }
+}
 .card-section-outer .top-block .list-order-outer .list-order .data-content {
   font-size: 15px;
   font-weight: 500;
@@ -286,6 +412,11 @@
 @media (max-width: 1679px) {
   .card-section-outer .top-block .list-order-outer .list-order .data-content {
     font-size: 13px;
+  }
+}
+@media (max-width: 370px) {
+  .card-section-outer .top-block .list-order-outer .list-order .data-content {
+    font-size: 12px;
   }
 }
 .card-section-outer .bottom-block .badge-staking-date span {
@@ -305,8 +436,18 @@
     font-size: 11px;
   }
 }
+@media (max-width: 575px) {
+  .card-section-outer .bottom-block .badge-staking-date span {
+    padding: 7px 12px;
+  }
+}
 .card-section-outer .bottom-block .btn-outr {
   display: flex;
+}
+@media (max-width: 375px) {
+  .card-section-outer .bottom-block .btn-outr {
+    flex-direction: column;
+  }
 }
 .card-section-outer .bottom-block .btn-outr .btn-stake {
   margin-right: 11px;
@@ -325,6 +466,13 @@
     font-size: 14px;
   }
 }
+@media (max-width: 375px) {
+  .card-section-outer .bottom-block .btn-outr .btn-stake {
+    width: 100%;
+    margin-bottom: 13px;
+    margin-right: 0;
+  }
+}
 .card-section-outer .bottom-block .btn-outr .btn-unstake {
   background: #fff;
   color: #697F9B;
@@ -340,6 +488,11 @@
     padding: 6px 12px;
     font-size: 14px;
     line-height: 26px;
+  }
+}
+@media (max-width: 375px) {
+  .card-section-outer .bottom-block .btn-outr .btn-unstake {
+    width: 100%;
   }
 }
 

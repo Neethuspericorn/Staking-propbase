@@ -6,6 +6,10 @@
 .staking-dashboard-outer
 {
     display:flex;
+    @media(max-width:1100px)
+    {
+            flex-direction: column;
+    }
     .welcome-stake-outer
     {
         background: $primary-light;
@@ -18,16 +22,38 @@
         {
             padding:20px 30px;
         }
+        @media(max-width:1100px)
+        {
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+        @media(max-width:575px)
+        {
+            flex-direction: column;
+            padding: 20px 20px;
+        }
         .img-sec-stake
         {
             img
             {
                 height: 130px;
             }
+            @media(max-width:575px)
+            {
+                order: 2;
+            }
         }
         .detail-sec-stake
         {
             padding-left:45px;
+            @media(max-width:1150px)
+            {
+                padding-left:8px;
+            }
+            @media(max-width:575px)
+            {
+                padding-left:0px;
+            }
             .props-badge
             {
                 .props-name
@@ -57,6 +83,10 @@
                     {
                         font-size: 16px;
                     }
+                    @media(max-width:991px)
+                    {
+                        font-size: 14px;
+                    }
                 }
                 p
                 {
@@ -80,10 +110,22 @@
         {
             padding:20px 22px;
         }
+        @media(max-width:1199px)
+        {
+            flex: 0 0 35%;
+        }
+        @media(max-width:1100px)
+        {
+            margin-top: 15px;
+        }
         .stake-tot-locked
         {
             border-bottom: 1px solid $border-grey;
             padding-bottom: 14px;
+            @media(max-width:991px)
+            {
+                padding-bottom: 8px;
+            }
             
             h3
             {
@@ -95,6 +137,10 @@
                 @media(max-width:1679px)
                 {
                     font-size: 17px;
+                }
+                @media(max-width:1199px)
+                {
+                    font-size: 15px;
                 }
                 .txt-sec
                 {
@@ -118,11 +164,19 @@
                 {
                     font-size:19px;
                 }
+                @media(max-width:1199px)
+                {
+                    font-size: 17px;
+                }
             }
         }
         .tot-detl-outer
         {
             padding-top: 30px;
+            @media(max-width:991px)
+            {
+                padding-top: 0px;
+            }
             .total-inner {
                 margin-bottom: 25px;
                 display: flex;
@@ -130,6 +184,11 @@
                 @media(max-width:1679px)
                 {
                     margin-bottom: 20px;
+                }
+                @media(max-width:991px)
+                {
+                    margin-bottom:0px;
+                    padding-top: 15px;
                 }
                 .label-txt
                 {
@@ -148,6 +207,10 @@
                     {
                         font-size: 14px;
                     }
+                    @media(max-width:1199px)
+                    {
+                        padding-left: 5px;
+                    }
                 }
             }
         }
@@ -160,6 +223,15 @@
     {
         padding-right: 15px;
         padding-left: 0;
+        @media(max-width:1199px)
+        {
+            width:100%;
+            padding-left:15px;
+        }
+        @media(max-width:991px)
+        {
+            margin-bottom: 15px;
+        }
         &:nth-child(1) {
           
             padding-left: 15px !important;
@@ -171,6 +243,14 @@
             {
                 padding: 25px 25px 50px;
             }
+            @media(max-width:991px)
+            {
+                padding-bottom:30px;
+            }
+            @media(max-width:767px)
+            {
+                padding: 25px 19px 50px;
+            }
             
         }
     }
@@ -181,6 +261,10 @@
             display:flex;
             align-items: center;
             margin-bottom:35px;
+            @media(max-width:991px)
+            {
+                margin-bottom:20px;
+            }
             img
             {
                 height:40px;
@@ -221,6 +305,10 @@
         .pool-cap-txt
         {
             margin-top:50px;
+            @media(max-width:991px)
+            {
+                margin-top: 20px;
+            }
             .pool-label
             {
                 font-weight: 600;
@@ -258,6 +346,10 @@
         .btn-outer
         {
             display:flex;
+            @media(max-width:450px)
+            {
+                flex-direction: column;
+            }
         }
         .btn-default
         {
@@ -272,6 +364,12 @@
             @media(max-width:1679px)
             {
                 font-size: 13px;
+            }
+            @media(max-width:450px)
+            {
+                width: 100%;
+                margin-bottom: 13px;
+                margin-right: 0;
             }
         }
         .list-order-outer {
@@ -289,6 +387,10 @@
                     {
                         font-size: 13px;
                     }
+                    @media(max-width:370px)
+                    {
+                        font-size: 12px;
+                    }
                 }
                 .data-content {
                     font-size: 15px;
@@ -296,6 +398,10 @@
                     @media(max-width:1679px)
                     {
                         font-size: 13px;
+                    }
+                    @media(max-width:370px)
+                    {
+                        font-size: 12px;
                     }
                 }
             }
@@ -319,9 +425,17 @@
             {
                 font-size: 11px;
             }
+            @media(max-width:575px)
+            {
+                padding: 7px 12px;
+            }
         }
         .btn-outr {
             display: flex;
+            @media(max-width:375px)
+            {
+                flex-direction: column;
+            }
             .btn-stake
             {
                 margin-right:11px;
@@ -337,6 +451,12 @@
                 {
                     padding:8px 15px;
                     font-size: 14px;
+                }
+                @media(max-width:375px)
+                {
+                    width: 100%;
+                    margin-bottom: 13px;
+                    margin-right: 0;
                 }
             }
             .btn-unstake
@@ -354,6 +474,10 @@
                     padding:6px 12px;
                     font-size: 14px;
                     line-height: 26px;
+                }
+                @media(max-width:375px)
+                {
+                    width: 100%;
                 }
             }
         }
