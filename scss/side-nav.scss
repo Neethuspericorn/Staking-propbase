@@ -231,7 +231,7 @@
         width: 95px;
         max-width: 95px;
     }
-    .nav-block .nav-logo-wrapper .nav-logo .logo-txt, 
+    .nav-block .nav-logo-wrapper .nav-logo .logo-txt, .nav-footer-block, 
     .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label{
         display: none;
     }
@@ -261,6 +261,7 @@
 @media($sm-991){
     .nav-block .nav-footer-block{
         padding-top: 35px;
+        display: block;
     }
     .nav-block .nav-logo-wrapper .nav-toggle-btn{
         border: solid 1px transparent;
@@ -295,7 +296,7 @@
         width: 100%;
         background-color: $primary-light;
         left: 0;
-        top: calc(-100% - 200px);
+        top: -100vh;
         transition: .3s;
         z-index: 9;
         height: 100vh;
