@@ -46,6 +46,7 @@
             .input-group
             {
                 margin-bottom: 25px;
+                position: relative;
                 label
                 {
                     color: #697F9B;
@@ -64,14 +65,46 @@
                     height: 60px;
                     margin-top:15px;
                     color: #fff;
-                    padding: 7px 25px;
+                    padding: 7px 44px 7px 56px;
                     @media(max-width:1679px)
                     {
                         height: 50px;
                         margin-top: 15px;
-                        padding: 7px 25px;
                     }
                 }
+                .icon-left
+                {
+                    position: absolute;
+                    left: 30px;
+                    top:60px;
+                    @media(max-width:1679px)
+                    {
+                        left: 24px;
+                        top: 52px;
+                    }
+                }
+                .icon-left-ps
+                {
+                    position: absolute;
+                    left: 30px;
+                    top: 58px;
+                    @media(max-width:1679px)
+                    {
+                        left: 24px;
+                        top: 49px;
+                    }
+                }
+                img.icon-pass {
+                    position: absolute;
+                    right: 18px;
+                    top: 61px;
+                    cursor: pointer;
+                    @media(max-width:1679px)
+                    {
+                        top: 54px;
+                    }
+                }
+                
                
             }
             .login-btn {
@@ -103,6 +136,7 @@
                 .fgt-link {
                     color: #D3E3F8;
                     font-size: 15px;
+                    cursor: pointer;
                     @media(max-width:1679px)
                     {
                         font-size: 14px;
@@ -214,6 +248,160 @@
         @media(max-width:1679px)
         {
             font-size: 14px;
+        }
+    }
+}
+.fgt-modal
+{
+    .modal-dialog {
+        max-width:700px !important;
+
+        .modal-content
+        {
+            padding: 54px;
+            border-radius: 25px;
+        }
+        .modal-header
+        {
+            border-bottom: 0;
+            padding-bottom: 0;
+            .close
+            {
+                position: absolute;
+                right: 14px;
+                top: 20px;
+            }
+            .heading-top {
+                display: flex;
+                .modal-title
+                {
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 300;
+                    margin-bottom: 3px;
+                    span
+                    {
+                        font-weight: 600;
+                    }
+                }
+                h5
+                {
+                    font-size: 12px;
+                    color: #292D32;
+                    padding-right: 15px;
+                }
+                .icon-sec
+                {
+                    img
+                    {
+                        height: 150px;
+                        margin-top: -42px;
+                    }
+                }
+            }
+        }
+        .modal-body
+        {
+            padding-top: 0;
+            .form-group
+            {
+                .input-group
+                {
+                    flex-direction: column;
+                    label
+                    {
+                        color: #697F9B;
+                    }
+                    .form-control
+                    {
+                        width: 100%;
+                        background: transparent;
+                        border: 1px solid #5E6C84;
+                        border-radius: 50px !important;
+                        height: 60px;
+                        margin-top: 15px;
+                        color: #333;
+                        padding-left: 53px;
+                    }
+                    .fgt-mail-icon
+                    {
+                        position: absolute;
+                        top: 63px;
+                        left: 22px
+                    }
+                }
+                .btn-otr
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 40px;
+                  .back-login-btn
+                    {
+                        background: transparent;
+                        color: #697F9B;
+                        font-size: 16px;
+                        font-weight: 400;
+                        display: flex;
+                        align-items: center;
+                        img
+                        {
+                            margin-right: 9px;
+                        }
+                    }
+                    .send-btn
+                    {
+                        background: #292D32;
+                        font-size: 16px;
+                        color: #fff;
+                        height: 52px;
+                        padding: 15px 15px;
+                        min-width: 155px;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+.reset-modal
+{
+    .modal-dialog
+    {
+        max-width:550px !important;
+        .modal-header 
+        {
+            padding-left: 0;
+            .heading-top
+            {
+                width: 100%;
+            }
+        }
+        .modal-body
+        {
+            .form-group {
+                margin-top: 30px;
+            }
+            .input-group {
+                margin-bottom: 19px;
+                .form-control
+                {
+                    padding-right: 48px;
+                }
+            }
+            .fgt-mail-icon
+            {
+                top: 59px;
+            }
+            .fgt-view-icon
+            {
+                position: absolute;
+                right: 21px;
+                top: 62px;
+            }
+            .send-btn
+            {
+                width: 100%;
+            }
         }
     }
 }

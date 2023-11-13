@@ -51,6 +51,7 @@
 }
 .login-wrapper .login-left-block .form-group .input-group {
   margin-bottom: 25px;
+  position: relative;
 }
 .login-wrapper .login-left-block .form-group .input-group label {
   color: #697F9B;
@@ -69,13 +70,45 @@
   height: 60px;
   margin-top: 15px;
   color: #fff;
-  padding: 7px 25px;
+  padding: 7px 44px 7px 56px;
 }
 @media (max-width: 1679px) {
   .login-wrapper .login-left-block .form-group .input-group .form-control {
     height: 50px;
     margin-top: 15px;
-    padding: 7px 25px;
+  }
+}
+.login-wrapper .login-left-block .form-group .input-group .icon-left {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+@media (max-width: 1679px) {
+  .login-wrapper .login-left-block .form-group .input-group .icon-left {
+    left: 24px;
+    top: 52px;
+  }
+}
+.login-wrapper .login-left-block .form-group .input-group .icon-left-ps {
+  position: absolute;
+  left: 30px;
+  top: 58px;
+}
+@media (max-width: 1679px) {
+  .login-wrapper .login-left-block .form-group .input-group .icon-left-ps {
+    left: 24px;
+    top: 49px;
+  }
+}
+.login-wrapper .login-left-block .form-group .input-group img.icon-pass {
+  position: absolute;
+  right: 18px;
+  top: 61px;
+  cursor: pointer;
+}
+@media (max-width: 1679px) {
+  .login-wrapper .login-left-block .form-group .input-group img.icon-pass {
+    top: 54px;
   }
 }
 .login-wrapper .login-left-block .form-group .login-btn {
@@ -115,6 +148,7 @@
 .login-wrapper .login-left-block .bottom-content .fgt-link {
   color: #D3E3F8;
   font-size: 15px;
+  cursor: pointer;
 }
 @media (max-width: 1679px) {
   .login-wrapper .login-left-block .bottom-content .fgt-link {
@@ -213,6 +247,123 @@
   .login-wrapper .copyright-login {
     font-size: 14px;
   }
+}
+
+.fgt-modal .modal-dialog {
+  max-width: 700px !important;
+}
+.fgt-modal .modal-dialog .modal-content {
+  padding: 54px;
+  border-radius: 25px;
+}
+.fgt-modal .modal-dialog .modal-header {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.fgt-modal .modal-dialog .modal-header .close {
+  position: absolute;
+  right: 14px;
+  top: 20px;
+}
+.fgt-modal .modal-dialog .modal-header .heading-top {
+  display: flex;
+}
+.fgt-modal .modal-dialog .modal-header .heading-top .modal-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+.fgt-modal .modal-dialog .modal-header .heading-top .modal-title span {
+  font-weight: 600;
+}
+.fgt-modal .modal-dialog .modal-header .heading-top h5 {
+  font-size: 12px;
+  color: #292D32;
+  padding-right: 15px;
+}
+.fgt-modal .modal-dialog .modal-header .heading-top .icon-sec img {
+  height: 150px;
+  margin-top: -42px;
+}
+.fgt-modal .modal-dialog .modal-body {
+  padding-top: 0;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .input-group {
+  flex-direction: column;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .input-group label {
+  color: #697F9B;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #5E6C84;
+  border-radius: 50px !important;
+  height: 60px;
+  margin-top: 15px;
+  color: #333;
+  padding-left: 53px;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
+  position: absolute;
+  top: 63px;
+  left: 22px;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .btn-otr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn {
+  background: transparent;
+  color: #697F9B;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img {
+  margin-right: 9px;
+}
+.fgt-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
+  background: #292D32;
+  font-size: 16px;
+  color: #fff;
+  height: 52px;
+  padding: 15px 15px;
+  min-width: 155px;
+  border-radius: 50px;
+}
+
+.reset-modal .modal-dialog {
+  max-width: 550px !important;
+}
+.reset-modal .modal-dialog .modal-header {
+  padding-left: 0;
+}
+.reset-modal .modal-dialog .modal-header .heading-top {
+  width: 100%;
+}
+.reset-modal .modal-dialog .modal-body .form-group {
+  margin-top: 30px;
+}
+.reset-modal .modal-dialog .modal-body .input-group {
+  margin-bottom: 19px;
+}
+.reset-modal .modal-dialog .modal-body .input-group .form-control {
+  padding-right: 48px;
+}
+.reset-modal .modal-dialog .modal-body .fgt-mail-icon {
+  top: 59px;
+}
+.reset-modal .modal-dialog .modal-body .fgt-view-icon {
+  position: absolute;
+  right: 21px;
+  top: 62px;
+}
+.reset-modal .modal-dialog .modal-body .send-btn {
+  width: 100%;
 }
 
 /*# sourceMappingURL=login.css.map */

@@ -21,10 +21,13 @@
                     <div class="input-group">
                         <label>Email ID</label>
                         <input type="text" class="form-control">
+                        <img src="img/mail-icon.svg" class="icon-left">
                     </div>
                     <div class="input-group">
                         <label>Password</label>
                         <input type="password" class="form-control">
+                        <img src="img/pass-icon.svg" class="icon-left-ps">
+                        <img src="img/view.svg" class="icon-pass">
                     </div>
                     <button class="login-btn">
                         Login
@@ -36,7 +39,7 @@
                                 <span class="checkmark"></span>
                               </label>
                         </div>
-                        <div class="fgt-link">
+                        <div class="fgt-link" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">
                             Forgot Password
                         </div>
                     </div>
@@ -52,7 +55,91 @@
             </div>
        </div>
     </div>
-    
+     <!-- Forgot Password -->
+     <div class="modal fade fgt-modal " id="forgotPasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img src="img/close-modal.svg" class="close">
+               </button>
+               <div class="heading-top">
+                <div class="header-sec">
+                    <h4 class="modal-title" id="exampleModalLabel">Forgot <span>Password</span></h4>
+                    <h5>
+                        Enter your registered mail id to send a link in your mail
+                        And change your password 
+                    </h5>
+                </div>
+                <div class="icon-sec">
+                    <img src="img/fgt-img.svg" class="icon-right">
+                </div>
+            </div>
+            </div>
+            <div class="modal-body">
+               
+                <div class="form-group">
+                    <div class="input-group">
+                        <label>Email ID</label>
+                        <input type="text" class="form-control">
+                        <img src="img/mail-icon.svg" class="fgt-mail-icon">
+                    </div>
+                    <div class="btn-otr">
+                        <button class="back-login-btn">
+                            <img src="img/back-arw.svg">
+                            Back to login
+                        </button>
+                        <button class="send-btn">
+                           Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+      <!-- Reset Password -->
+      <div class="modal fade fgt-modal reset-modal" id="resetPasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img src="img/close-modal.svg" class="close">
+               </button>
+               <div class="heading-top">
+                <div class="header-sec">
+                    <h4 class="modal-title" id="exampleModalLabel">Reset <span>Password</span></h4>
+                    <h5>
+                        Enter your new password
+                    </h5>
+                </div>
+                
+            </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="input-group">
+                        <label>Enter a new password</label>
+                        <input type="password" class="form-control">
+                        <img src="img/pass-icon.svg" class="fgt-mail-icon">
+                        <img src="img/view.svg" class="fgt-view-icon">
+                    </div>
+                    <div class="input-group">
+                        <label>Re-Enter password</label>
+                        <input type="password" class="form-control">
+                        <img src="img/pass-icon.svg" class="fgt-mail-icon">
+                        <img src="img/view.svg" class="fgt-view-icon">
+                    </div>
+                    <div class="btn-otr">
+                        <button class="send-btn">
+                           Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     
     
     <script src="js/jquery-3.2.1.min.js"></script>
