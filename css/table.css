@@ -9,14 +9,6 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-/* how to use this variabile*/
-/* .forms{
-   @include placeholder{
-    opacity: 1;color: #a5aeb7;
-  } */
-/* @include transition (.2s ease-out all); */
-/*    @include flexbox();
-    @include justify-content (center);*/
 .table-sec {
   border-radius: 8px;
   overflow: hidden;
@@ -37,7 +29,8 @@
     color: #000;
     border-bottom: solid 1px #E3E4F3 !important; }
   .table-cover .custom-table .th-sort {
-    padding-left: 5px; }
+    padding-left: 5px;
+    cursor: pointer; }
   .table-cover .custom-table tbody td {
     color: #697F9B;
     font-size: 15px;
@@ -58,14 +51,17 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #E3E4F3;
-    padding: 0;
+    background-color: #fff;
+    padding: 2px;
     margin: 2px 4px;
     border-radius: 50%;
     border: none;
-    transition: .3s;
-    border: solid 1px transparent; }
-    .table-cover .custom-table .td-action-btn:hover {
+    transition: .3s; }
+    .table-cover .custom-table .td-action-btn img {
+      transition: .3s;
+      border: solid 1px transparent;
+      border-radius: 50%; }
+    .table-cover .custom-table .td-action-btn:hover img {
       border-color: #000; }
   .table-cover .custom-table .td-btn-disable {
     cursor: not-allowed;
@@ -81,6 +77,10 @@
     color: #0DAD4D; }
   .table-cover .custom-table .text-blue {
     color: #0C15F9; }
+  .table-cover .custom-table .text-dark {
+    color: #383C40; }
+  .table-cover .custom-table .text-light-blue {
+    color: #A2A2DF; }
 
 .table-pagination-cover {
   display: flex;
@@ -195,7 +195,7 @@
   background: #e3e4f38c; }
 
 .td-ellipsis {
-  max-width: 12ch;
+  max-width: 9ch;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
