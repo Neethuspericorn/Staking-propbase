@@ -1,8 +1,20 @@
 @import "partials/partials";
+.body-wrapper
+{
+    @media(max-width:991px)
+    {
+        min-height: auto;
+    }
+  
+}
 .login-wrapper
 {
     display:flex;
     width: 100%;
+    @media(max-width:991px)
+    {
+        flex-direction: column;
+    }
     .login-left-block
     {
         width: 750px;
@@ -13,6 +25,15 @@
         @media(max-width:1679px)
         {
             padding: 55px 74px 30px;
+        }
+        @media(max-width:991px)
+        {
+           width:100%;
+           order: 2;
+        }
+        @media(max-width:575px)
+        {
+            padding: 40px 30px 30px;
         }
         .logo-section-block
         {
@@ -34,6 +55,12 @@
                     margin-top: 25px;
                     margin-bottom: 60px;
                     font-size: 21px;
+                }
+                @media(max-width:575px)
+                {
+                    margin-top: 13px;
+                    margin-bottom: 30px;
+                    font-size: 19px;
                 }
                 span
                 {
@@ -133,6 +160,15 @@
                 {
                     margin-top: 40px;
                 }
+                @media(max-width:420px)
+                {
+                    margin-top: 23px;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 26px;
+
+                }
                 .fgt-link {
                     color: #D3E3F8;
                     font-size: 15px;
@@ -223,6 +259,10 @@
         background-image:url("../img/login-bg.svg");
         flex-grow: 1;
         background-size:cover;
+        @media(max-width:991px)
+        {
+            height: 170px;
+        }
         .login-welcome-txt {
             color: #ffffff;
             padding-left: 150px;
@@ -235,6 +275,23 @@
                 padding-left: 100px;
                 margin-top: 102px;
                 width: 500px;
+            }
+            @media(max-width:1280px)
+            {
+                padding-left:50px;
+                padding-right: 50px;
+            }
+            @media(max-width:991px)
+            {
+                padding-left: 80px;
+                margin-top: 53px;
+            }
+            @media(max-width:575px)
+            {
+                padding-left: 52px;
+                margin-top: 53px;
+                width: 100%;
+                padding-right: 52px;
             }
         }
     }
@@ -254,17 +311,33 @@
 .fgt-modal
 {
     .modal-dialog {
-        max-width:700px !important;
+        max-width:600px !important;
+        @media(max-width:991px)
+        {
+            max-width: 96% !important;
+        }
 
         .modal-content
         {
             padding: 54px;
             border-radius: 25px;
+            @media(max-width:575px)
+            {
+                padding: 20px;
+            }
+            @media(max-width:350px)
+            {
+                padding:10px;
+            }
         }
         .modal-header
         {
             border-bottom: 0;
             padding-bottom: 0;
+            @media(max-width:575px)
+            {
+                padding-left: 0;
+            }
             .close
             {
                 position: absolute;
@@ -273,12 +346,28 @@
             }
             .heading-top {
                 display: flex;
+                @media(max-width:575px)
+                {
+                    flex-direction: column;
+                }
+                .header-sec
+                {
+                    @media(max-width:575px)
+                    {
+                        order: 2;
+                    }
+                }
                 .modal-title
                 {
                     font-family: Poppins;
                     font-size: 20px;
                     font-weight: 300;
                     margin-bottom: 3px;
+                    @media(max-width:991px)
+                    {
+                        font-size: 18px;
+                        margin-top: 16px;
+                    }
                     span
                     {
                         font-weight: 600;
@@ -296,6 +385,15 @@
                     {
                         height: 150px;
                         margin-top: -42px;
+                        @media(max-width:991px)
+                        {
+                            height: 130px;
+                        }
+                        @media(max-width:575px)
+                        {
+                            height: 115px;
+                            margin-top: -10px;
+                        }
                     }
                 }
             }
@@ -305,12 +403,20 @@
             padding-top: 0;
             .form-group
             {
+                @media(max-width:575px)
+                {
+                    padding-top:15px;
+                }
                 .input-group
                 {
                     flex-direction: column;
                     label
                     {
                         color: #697F9B;
+                        @media(max-width:991px)
+                        {
+                            font-size: 14px;
+                        }
                     }
                     .form-control
                     {
@@ -322,12 +428,20 @@
                         margin-top: 15px;
                         color: #333;
                         padding-left: 53px;
+                        @media(max-width:991px)
+                        {
+                            height: 50px;
+                        }
                     }
                     .fgt-mail-icon
                     {
                         position: absolute;
                         top: 63px;
-                        left: 22px
+                        left: 22px;
+                        @media(max-width:991px)
+                        {
+                            top: 54px;
+                        }
                     }
                 }
                 .btn-otr
@@ -335,6 +449,13 @@
                     display: flex;
                     justify-content: space-between;
                     margin-top: 40px;
+                    @media(max-width:575px)
+                    {
+                        margin-top: 25px;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
                   .back-login-btn
                     {
                         background: transparent;
@@ -343,6 +464,10 @@
                         font-weight: 400;
                         display: flex;
                         align-items: center;
+                        @media(max-width:575px)
+                        {
+                            order: 2;
+                        }
                         img
                         {
                             margin-right: 9px;
@@ -357,6 +482,11 @@
                         padding: 15px 15px;
                         min-width: 155px;
                         border-radius: 50px;
+                        @media(max-width:575px)
+                        {
+                            width: 100%;
+                            margin-bottom: 17px;
+                        }
                     }
                 }
             }
@@ -368,6 +498,10 @@
     .modal-dialog
     {
         max-width:550px !important;
+        @media(max-width:575px)
+        {
+            max-width: 96% !important;
+        }
         .modal-header 
         {
             padding-left: 0;
@@ -397,6 +531,10 @@
                 position: absolute;
                 right: 21px;
                 top: 62px;
+                @media(max-width:991px)
+                {
+                    top: 56px;
+                }
             }
             .send-btn
             {
