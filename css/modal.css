@@ -9,35 +9,28 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-/* how to use this variabile*/
-/* .forms{
-   @include placeholder{
-    opacity: 1;color: #a5aeb7;
-  } */
-/* @include transition (.2s ease-out all); */
-/*    @include flexbox();
-    @include justify-content (center);*/
 .modal-backdrop.show {
   background: #01040B;
-  opacity: 0.75; }
+  opacity: 0.75;
+}
 
 .custom-modal {
-  font-family: "Poppins", sans-serif; }
-  .custom-modal .modal-sm {
-    max-width: 450px !important;
-    width: 100%;
-    margin-left: auto !important;
-    margin-right: auto !important; }
-
+  font-family: "Poppins", sans-serif;
+}
 @media (min-width: 1200px) {
   .custom-modal .modal-xl {
-    max-width: 895px; }
+    max-width: 895px;
+  }
   .custom-modal .modal-lg {
-    max-width: 1050px; }
+    max-width: 1050px;
+  }
   .custom-modal .modal-sm {
-    max-width: 450px; } }
+    max-width: 450px;
+  }
+}
 .custom-modal .modal-header {
-  border: 0; }
+  border: 0;
+}
 .custom-modal .btn-close {
   margin: 2px;
   padding: 0;
@@ -47,149 +40,209 @@
   box-shadow: none;
   background-image: none;
   opacity: 1;
-  transition: .3s; }
-  .custom-modal .btn-close img {
-    max-width: 100%; }
-  .custom-modal .btn-close:hover {
-    opacity: .8; }
+  transition: 0.3s;
+}
+.custom-modal .btn-close img {
+  max-width: 100%;
+}
+.custom-modal .btn-close:hover {
+  opacity: 0.8;
+}
 .custom-modal .modal-content {
   border-radius: 16px;
-  background: #FFF; }
+  background: #FFF;
+}
 .custom-modal .btn-cover-modal {
-  padding-bottom: 40px;
-  margin-top: 50px; }
-  @media (max-width: 579px) {
-    .custom-modal .btn-cover-modal {
-      padding-bottom: 30px;
-      margin-top: 35px; } }
+  text-align: right;
+  margin-top: 30px;
+}
+@media (max-width: 579px) {
+  .custom-modal .btn-cover-modal {
+    margin-top: 25px;
+  }
+}
+.custom-modal .btn-cover-modal .btn {
+  height: auto;
+  box-shadow: none;
+  width: 137px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.custom-modal .btn-cover-modal .btn:hover {
+  opacity: 0.8;
+}
+@media (max-width: 1679px) {
   .custom-modal .btn-cover-modal .btn {
-    height: auto;
-    box-shadow: none;
-    width: 137px;
-    margin: 0 5px; }
-    @media (max-width: 1679px) {
-      .custom-modal .btn-cover-modal .btn {
-        font-size: 14px;
-        width: 120px;
-        padding: 8px 15px; } }
-    @media (max-width: 579px) {
-      .custom-modal .btn-cover-modal .btn {
-        width: 100px; } }
-  .custom-modal .btn-cover-modal .btn-prmary {
-    color: #fff !important;
-    background-color: #292D32 !important; }
+    font-size: 14px;
+    width: 120px;
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 579px) {
+  .custom-modal .btn-cover-modal .btn {
+    width: 100px;
+  }
+}
+.custom-modal .btn-cover-modal .btn-save {
+  background-color: #0DAD4D;
+  color: #fff;
+}
+.custom-modal .btn-cover-modal .btn-prmary {
+  color: #fff !important;
+  background-color: #292D32 !important;
+}
 .custom-modal .modal-title h2 {
-  text-align: center;
   margin-bottom: 40px;
   font-size: 24px;
   font-weight: 600;
-  color: #292D32; }
-  @media (max-width: 1679px) {
-    .custom-modal .modal-title h2 {
-      font-size: 22px;
-      margin-bottom: 30px; } }
-  @media (max-width: 1199px) {
-    .custom-modal .modal-title h2 {
-      font-size: 20px;
-      margin-bottom: 20px; } }
-  @media (max-width: 767px) {
-    .custom-modal .modal-title h2 {
-      font-size: 18px; } }
+  color: #292D32;
+}
+@media (max-width: 1679px) {
+  .custom-modal .modal-title h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .custom-modal .modal-title h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .custom-modal .modal-title h2 {
+    font-size: 18px;
+  }
+}
+.custom-modal .inp-block-modal {
+  margin-bottom: 30px;
+}
+.custom-modal .inp-block-modal textarea {
+  resize: none;
+  height: 100px;
+}
+.custom-modal .inp-block-modal .form-label {
+  color: #697F9B;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  display: block;
+}
+.custom-modal .inp-block-modal .custom-inp {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #D1D1D7;
+  background: #FFF;
+  font-size: 14px;
+  color: #000;
+  padding: 10px 20px;
+}
+.custom-modal .inp-block-modal .custom-inp-disable {
+  background-color: #F8F8F8;
+  border-color: #F8F8F8;
+}
+.custom-modal .inp-block-modal .alert-msg {
+  left: 0;
+}
 
+@media (max-width: 1679px) {
+  .custom-modal .modal-header {
+    padding-bottom: 0;
+  }
+  .custom-modal .btn-cover-modal {
+    margin-top: 20px;
+  }
+  .custom-modal .inp-block-modal {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 1441px) {
+  .custom-modal .modal-title h2 {
+    margin-bottom: 20px;
+  }
+  .custom-modal .inp-block-modal .custom-inp {
+    padding: 8px 18px;
+  }
+}
+@media (max-width: 579px) {
+  .custom-modal .modal-body {
+    padding-top: 0;
+  }
+  .custom-modal .inp-block-modal .custom-inp {
+    padding: 8px 15px;
+  }
+}
 .conect-wallet {
   display: flex;
   flex-wrap: wrap;
   max-width: 900px;
   margin: auto auto 65px;
   position: relative;
-  padding: 0 50px; }
-  .conect-wallet p {
-    margin: 0 auto;
-    max-width: 550px;
-    color: #697F9B;
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163.5%; }
-  .conect-wallet .wallet-title {
-    color: #292D32;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 163.5%;
-    width: 100%;
-    margin-bottom: 20px; }
-  .conect-wallet .walles-otr {
-    display: flex;
-    width: 100%;
-    column-gap: 27px;
-    margin-top: 40px; }
-    .conect-wallet .walles-otr .wallet-btn {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      color: #697F9B;
-      font: 500 16px/22px "Poppins", sans-serif;
-      padding: 5px 15px;
-      border-radius: 8px;
-      border: 1px solid #E3E4F3;
-      background: #FFF;
-      flex: 1 1 0%;
-      height: 64px;
-      box-shadow: none; }
-      .conect-wallet .walles-otr .wallet-btn:hover, .conect-wallet .walles-otr .wallet-btn.active {
-        border: 1px solid #292D32;
-        background: #F3F4FA;
-        color: #292D32; }
-      .conect-wallet .walles-otr .wallet-btn .wallet-icon {
-        border: 1px solid #ddd;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 17px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden; }
-
-.btn-cover {
-  margin-top: 35px;
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
-.primary-button {
-  box-shadow: none;
-  max-width: 100%;
-  border-radius: 24px;
-  background: #292D32;
-  border-radius: 27px;
-  width: 240px;
-  height: 48px;
-  padding: 8px 15px;
-  color: #fff;
-  font-size: 16px;
+  padding: 0 50px;
+}
+.conect-wallet p {
+  margin: 0 auto;
+  max-width: 550px;
+  color: #697F9B;
+  text-align: center;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  border: 1px solid transparent;
-  box-shadow: none;
-  transition: .3s; }
-  .primary-button:hover {
-    background: #F3F4FA;
-    color: #292D32;
-    border-color: #292D32; }
-
-.modal_content .modal-title {
+  line-height: 163.5%;
+}
+.conect-wallet .wallet-title {
+  color: #292D32;
   text-align: center;
-  font: normal 28px/36px "Poppins", sans-serif;
-  color: #fff; }
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 163.5%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.conect-wallet .walles-otr {
+  display: flex;
+  width: 100%;
+  column-gap: 27px;
+  margin-top: 40px;
+}
+.conect-wallet .walles-otr .wallet-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #697F9B;
+  font: 500 16px/22px "Poppins", sans-serif;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: 1px solid #E3E4F3;
+  background: #FFF;
+  flex: 1 1 0%;
+  height: 64px;
+  box-shadow: none;
+}
+.conect-wallet .walles-otr .wallet-btn:hover, .conect-wallet .walles-otr .wallet-btn.active {
+  border: 1px solid #292D32;
+  background: #F3F4FA;
+  color: #292D32;
+}
+.conect-wallet .walles-otr .wallet-btn .wallet-icon {
+  border: 1px solid #ddd;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 
 @media (min-width: 576px) {
   .custom-modal .modal-medium {
-    max-width: 830px; } }
+    max-width: 830px;
+  }
+}
 .connect-wallet-info {
   background: #0E2248;
   border-radius: 9px;
@@ -202,99 +255,101 @@
   position: absolute;
   bottom: -80px;
   transform: translate(-50%, -50%);
-  left: 50%; }
-  .connect-wallet-info p {
-    color: #FFB44D;
-    font: normal normal 300 13px/17px "Poppins", sans-serif;
-    margin-bottom: 0; }
-  .connect-wallet-info .icon-info {
-    margin-right: 10px; }
-
-.dark-bg .modal-content {
-  background-color: #070F2C; }
-.dark-bg .msg-ful-msg p {
-  color: #B3BDE2; }
-
-.privacy-policy {
-  text-align: center;
-  max-width: 350px;
-  margin: 35px auto 0; }
-  .privacy-policy p {
-    font: 300 14px/23px "Poppins", sans-serif;
-    color: #fff; }
-  .privacy-policy a {
-    color: #4798E8; }
-
+  left: 50%;
+}
+.connect-wallet-info p {
+  color: #FFB44D;
+  font: normal normal 300 13px/17px "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+.connect-wallet-info .icon-info {
+  margin-right: 10px;
+}
 .modal-header .btn-close {
-  margin-left: auto !important; }
+  margin-left: auto !important;
+}
 
 .conect-wallet .walles-otr .wallet-btn {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 @media (max-width: 1679px) {
   .conect-wallet {
-    margin-bottom: 55px; }
-
+    margin-bottom: 55px;
+  }
   .conect-wallet .wallet-title {
-    font-size: 21px; }
-
+    font-size: 21px;
+  }
   .conect-wallet .walles-otr .wallet-btn {
     font-size: 15px;
-    height: 58px; } }
+    height: 58px;
+  }
+}
 @media (max-width: 1481px) {
   .conect-wallet p {
-    font-size: 13px; }
-
+    font-size: 13px;
+  }
   .conect-wallet .wallet-title {
-    font-size: 20px; }
-
+    font-size: 20px;
+  }
   .conect-wallet .walles-otr .wallet-btn {
     font-size: 14px;
-    height: 55px; }
-
+    height: 55px;
+  }
   .conect-wallet .walles-otr .wallet-btn .wallet-icon {
     width: 28px;
-    height: 28px; }
-
+    height: 28px;
+  }
   .connect-wallet-modal .btn-cover .primary-button {
     font-size: 14px;
-    height: 46px; } }
+    height: 46px;
+  }
+}
 @media (max-width: 1199px) {
   .connect-wallet-modal .btn-cover .primary-button {
-    width: 205px; } }
+    width: 205px;
+  }
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .connect-wallet-modal .modal-dialog {
-    max-width: 750px; } }
+    max-width: 750px;
+  }
+}
 @media (max-width: 767px) {
   .conect-wallet .walles-otr {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
-
+    flex-direction: column;
+  }
   .privacy-policy p {
-    font: 300 13px/23px "Poppins", sans-serif; }
-
+    font: 300 13px/23px "Poppins", sans-serif;
+  }
   .connect-wallet-info {
-    bottom: -90px; }
-
+    bottom: -90px;
+  }
   .connect-wallet-modal .btn-cover .primary-button {
-    height: 45px; }
-
+    height: 45px;
+  }
   .modal-header {
-    padding-bottom: 0; }
-
+    padding-bottom: 0;
+  }
   .conect-wallet .walles-otr {
-    margin-top: 30px; }
-
+    margin-top: 30px;
+  }
   .conect-wallet {
     margin-bottom: 30px;
-    padding: 0 35px; } }
+    padding: 0 35px;
+  }
+}
 @media (max-width: 479px) {
   .conect-wallet {
-    padding: 0 10px; } }
+    padding: 0 10px;
+  }
+}
 .logout-modal-body .img-block {
-  text-align: center; }
+  text-align: center;
+}
 .logout-modal-body h2 {
   color: #292D32;
   text-align: center;
@@ -302,98 +357,131 @@
   font-size: 24px;
   font-weight: 500;
   margin-top: 40px;
-  padding: 0 50px; }
-  @media (max-width: 991px) {
-    .logout-modal-body h2 {
-      padding: 0 30px; } }
-  @media (max-width: 479px) {
-    .logout-modal-body h2 {
-      padding: 0 15px; } }
+  padding: 0 50px;
+}
+@media (max-width: 991px) {
+  .logout-modal-body h2 {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 479px) {
+  .logout-modal-body h2 {
+    padding: 0 15px;
+  }
+}
 .logout-modal-body .btn-cover {
   padding-bottom: 50px;
-  margin-top: 50px; }
-  .logout-modal-body .btn-cover .btn {
-    box-shadow: none;
-    width: 137px;
-    margin: 0 5px; }
-  .logout-modal-body .btn-cover .btn-prmary {
-    color: #fff !important;
-    background-color: #292D32 !important; }
+  margin-top: 50px;
+}
+.logout-modal-body .btn-cover .btn {
+  box-shadow: none;
+  width: 137px;
+  margin: 0 5px;
+}
+.logout-modal-body .btn-cover .btn-prmary {
+  color: #fff !important;
+  background-color: #292D32 !important;
+}
 
 @media (min-width: 992px) {
   .logout-modal .modal-dialog {
-    max-width: 600px; } }
+    max-width: 600px;
+  }
+}
 @media (min-width: 1481px) {
   .logout-modal .modal-dialog {
-    max-width: 680px; } }
+    max-width: 680px;
+  }
+}
 @media (min-width: 1680px) {
   .logout-modal .modal-dialog {
-    max-width: 730px; } }
+    max-width: 730px;
+  }
+}
 
 @media (max-width: 1679px) {
   .logout-modal-body .img-block img {
-    width: 75px; }
-
+    width: 75px;
+  }
   .logout-modal-body h2 {
-    font-size: 21px; }
-
+    font-size: 21px;
+  }
   .logout-modal-body .btn-cover .btn {
-    font-size: 15px; } }
+    font-size: 15px;
+  }
+}
 @media (max-width: 1481px) {
   .logout-modal-body .img-block img {
-    width: 70px; }
-
+    width: 70px;
+  }
   .logout-modal-body h2 {
     font-size: 18px;
-    margin-top: 35px; }
-
+    margin-top: 35px;
+  }
   .logout-modal-body .btn-cover .btn {
-    font-size: 14px; }
-
+    font-size: 14px;
+  }
   .logout-modal-body .btn-cover {
     padding-bottom: 45px;
-    margin-top: 45px; } }
+    margin-top: 45px;
+  }
+}
 @media (max-width: 991px) {
   .logout-modal-body .img-block img {
-    width: 65px; }
-
+    width: 65px;
+  }
   .logout-modal-body h2 {
-    margin-top: 30px; }
-
+    margin-top: 30px;
+  }
   .logout-modal-body .btn-cover {
     padding-bottom: 40px;
-    margin-top: 40px; }
-
+    margin-top: 40px;
+  }
   .logout-modal-body .btn-cover .btn {
-    padding: 9px 15px !important; } }
+    padding: 9px 15px !important;
+  }
+}
 @media (max-width: 579px) {
   .logout-modal-body .btn-cover .btn {
-    font-size: 13px; }
-
+    font-size: 13px;
+  }
   .logout-modal-body .img-block img {
-    width: 60px; }
-
+    width: 60px;
+  }
   .logout-modal-body h2 {
-    margin-top: 25px; }
-
+    margin-top: 25px;
+  }
   .logout-modal-body .btn-cover {
     padding-bottom: 30px;
-    margin-top: 30px; }
-
+    margin-top: 30px;
+  }
   .logout-modal-body .btn-cover .btn {
     padding: 8px 15px !important;
-    width: 120px; } }
-@media (min-width: 576px) {
-  .mint-modal .modal-dialog {
-    max-width: 550px; } }
-.mint-modal .mint-modal-body {
-  padding: 0 40px; }
-  @media (max-width: 479px) {
-    .mint-modal .mint-modal-body {
-      padding: 0 15px; } }
-  .mint-modal .mint-modal-body .inp-block .custom-inp {
-    width: 100%; }
-.mint-modal .btn-cover-modal {
-  justify-content: flex-end; }
+    width: 120px;
+  }
+}
+.crate-stake-modal .crate-stake-modal-body {
+  padding: 15px 64px 70px;
+}
+@media (max-width: 1679px) {
+  .crate-stake-modal .crate-stake-modal-body {
+    padding: 15px 60px 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .crate-stake-modal .crate-stake-modal-body {
+    padding: 0 40px 30px;
+  }
+}
+@media (max-width: 479px) {
+  .crate-stake-modal .crate-stake-modal-body {
+    padding: 0 0 15px;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .crate-stake-modal .modal-dialog {
+    max-width: 700px;
+  }
+}
 
 /*# sourceMappingURL=modal.css.map */

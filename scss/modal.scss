@@ -1,0 +1,497 @@
+@import "partials/partials";
+
+.modal-backdrop.show {
+    background: #01040B;
+    opacity: 0.75;
+}
+
+.custom-modal {
+    font-family: $font-primary;
+    @media (min-width: 1200px) {
+        .modal-xl {
+            max-width: 895px;
+        }
+
+        .modal-lg {
+            max-width: 1050px;
+        }
+
+        .modal-sm {
+            max-width: 450px;
+        }
+    }
+
+    .modal-header {
+        border: 0;
+    }
+
+    .btn-close {
+        margin: 2px;
+        padding: 0;
+        margin-left: auto;
+        width: 20px;
+        height: 20px;
+        box-shadow: none;
+        background-image: none;
+        opacity: 1;
+        transition: .3s;
+        img {
+            max-width: 100%;
+        }
+        &:hover{
+            opacity: .8;
+        }
+    }
+
+    .modal-content {
+        border-radius: 16px;
+        background: #FFF;
+    }
+    .btn-cover-modal{
+        text-align: right;
+        margin-top: 30px;
+        @media(max-width:579px) {
+            margin-top: 25px;
+        }
+        .btn{
+            height: auto;
+            box-shadow: none;
+            width: 137px;
+            margin: 0 5px;
+            transition: .3s;
+            &:hover{
+                opacity: .8;
+            }
+            @media(max-width:1679px) {
+                font-size: 14px;
+                width: 120px;
+                padding: 8px 15px;
+            }
+            @media(max-width:579px) {
+                width: 100px;
+            }
+        }
+        .btn-save{
+            background-color: $success-green;
+            color: $primary-light;
+        }
+        .btn-prmary{
+            color: #fff !important;
+            background-color: $primary-dark !important;
+        }
+    }
+    .modal-title{
+        h2{
+            margin-bottom: 40px;
+            font-size: 24px;
+            font-weight: 600;
+            color: $primary-dark;
+            @media(max-width:1679px) {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            @media(max-width:1199px) {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            @media(max-width:767px) {
+                font-size: 18px;
+            }
+        }
+    }
+    .inp-block-modal{
+        margin-bottom: 30px;
+        textarea{
+            resize: none;
+            height: 100px;
+        }
+        .form-label{
+            color: $label-txt-blue;
+            font-size: 14px;
+            font-family: $font-primary;
+            font-weight: 400;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .custom-inp{
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #D1D1D7;
+            background: #FFF;
+            font-size: 14px;
+            color: #000;
+            padding: 10px 20px;
+        }
+        .custom-inp-disable{
+            background-color: #F8F8F8;
+            border-color: #F8F8F8;
+        }
+        .alert-msg{
+            left: 0;
+        }
+    }
+}
+
+@media($sm-1679){
+    .custom-modal .modal-header{
+        padding-bottom: 0;
+    }
+    .custom-modal .btn-cover-modal{
+        margin-top: 20px;
+    }
+    .custom-modal .inp-block-modal {
+        margin-bottom: 25px;
+    }
+}
+@media($sm-1441){
+    .custom-modal .modal-title h2 {
+        margin-bottom: 20px;
+    }
+    .custom-modal .inp-block-modal .custom-inp{
+        padding: 8px 18px;
+    }
+}
+@media($sm-579){
+    .custom-modal .modal-body{
+        padding-top: 0;
+    }
+    .custom-modal .inp-block-modal .custom-inp{
+        padding: 8px 15px;
+    }
+}
+
+.conect-wallet {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto auto 65px;
+    position: relative;
+    padding: 0 50px;
+
+    p {
+        margin: 0 auto;
+        max-width: 550px;
+        color: #697F9B;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 163.5%;
+    }
+
+    .wallet-title {
+        color: #292D32;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 163.5%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .walles-otr {
+        display: flex;
+        width: 100%;
+        column-gap: 27px;
+        margin-top: 40px;
+
+        .wallet-btn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #697F9B;
+            font: 500 16px/22px $font-primary;
+            padding: 5px 15px;
+            border-radius: 8px;
+            border: 1px solid #E3E4F3;
+            background: #FFF;
+            flex: 1 1 0%;
+            height: 64px;
+            box-shadow: none;
+
+            &:hover,
+            &.active {
+                border: 1px solid #292D32;
+                background: #F3F4FA;
+                color: #292D32;
+            }
+
+            .wallet-icon {
+                border: 1px solid #ddd;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                margin-right: 17px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+
+        }
+    }
+}
+
+
+
+@media (min-width: 576px) {
+
+    .custom-modal .modal-medium {
+        max-width: 830px
+    }
+}
+
+.connect-wallet-info {
+    background: #0E2248;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 5px 20px;
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -80px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+    p {
+        color: #FFB44D;
+        font: normal normal 300 13px/17px $font-primary;
+        margin-bottom: 0;
+    }
+
+    .icon-info {
+        margin-right: 10px;
+
+        img {}
+    }
+}
+
+
+.modal-header {
+    .btn-close {
+        margin-left: auto !important;
+    }
+}
+
+.conect-wallet .walles-otr .wallet-btn {
+    margin-bottom: 15px;
+}
+
+@media(max-width:1679px) {
+    .conect-wallet {
+        margin-bottom: 55px;
+    }
+    .conect-wallet .wallet-title{
+        font-size: 21px;
+    }
+    .conect-wallet .walles-otr .wallet-btn{
+        font-size: 15px;
+        height: 58px;
+    }
+}
+@media(max-width:1481px) {
+    .conect-wallet p{
+        font-size: 13px;
+    }
+    .conect-wallet .wallet-title {
+        font-size: 20px;
+    }
+    .conect-wallet .walles-otr .wallet-btn {
+        font-size: 14px;
+        height: 55px;
+    }
+    .conect-wallet .walles-otr .wallet-btn .wallet-icon {
+        width: 28px;
+        height: 28px;
+    }
+    .connect-wallet-modal .btn-cover .primary-button{
+        font-size: 14px;
+        height: 46px;
+    }
+}
+@media(max-width:1199px) {
+    .connect-wallet-modal .btn-cover .primary-button{
+        width: 205px;
+    }
+}
+@media(min-width: 768px) and (max-width:992px) {
+    .connect-wallet-modal .modal-dialog{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px) {
+    .conect-wallet .walles-otr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .privacy-policy p {
+        font: 300 13px/23px $font-primary;
+
+    }
+
+    .connect-wallet-info {
+        bottom: -90px;
+    }
+
+    .connect-wallet-modal .btn-cover .primary-button {
+        // width: 100%;
+        height: 45px;
+    }
+
+    .modal-header {
+        padding-bottom: 0;
+    }
+    .conect-wallet .walles-otr {
+        margin-top: 30px;
+    }
+    .conect-wallet {
+        margin-bottom: 30px;
+        padding: 0 35px;
+    }
+}
+
+@media(max-width:579px) {
+}
+
+@media(max-width:479px) {
+    .conect-wallet {
+        padding: 0 10px;
+    }
+}
+
+// Logout modal
+.logout-modal-body{
+    .img-block{
+        text-align: center;        
+    }
+    h2{
+        color: $primary-dark;
+        text-align: center;
+        font-family: $font-primary;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 40px;
+        padding: 0 50px;
+        @media(max-width:991px) {
+            padding: 0 30px;
+        }
+        @media(max-width:479px) {
+            padding: 0 15px;
+        }
+    }
+    .btn-cover{
+        padding-bottom: 50px;
+        margin-top: 50px;
+        .btn{
+            box-shadow: none;
+            width: 137px;
+            margin: 0 5px;
+        }
+        .btn-prmary{
+            color: #fff !important;
+            background-color: $primary-dark !important;
+        }
+    }
+}
+.logout-modal{
+    .modal-dialog{
+        @media (min-width: 992px) {
+            max-width: 600px;
+        }
+        @media (min-width: 1481px) {
+            max-width: 680px;
+        }
+        @media (min-width: 1680px) {
+            max-width: 730px;
+        }
+    }
+}
+@media(max-width:1679px) {
+    .logout-modal-body .img-block img{
+        width: 75px;
+    }
+    .logout-modal-body h2{
+        font-size: 21px;
+    }
+    .logout-modal-body .btn-cover .btn{
+        font-size: 15px;
+    }
+}
+@media(max-width:1481px) {
+    .logout-modal-body .img-block img{
+        width: 70px;
+    }
+    .logout-modal-body h2{
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .logout-modal-body .btn-cover .btn{
+        font-size: 14px;
+    }
+    .logout-modal-body .btn-cover {
+        padding-bottom: 45px;
+        margin-top: 45px;
+    }
+}
+@media(max-width:991px) {
+    .logout-modal-body .img-block img{
+        width: 65px;
+    }
+    .logout-modal-body h2{
+        margin-top: 30px;
+    }
+    .logout-modal-body .btn-cover {
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+    .logout-modal-body .btn-cover .btn{
+        padding: 9px 15px !important;
+    }
+}
+@media(max-width:579px) {
+    .logout-modal-body .btn-cover .btn {
+        font-size: 13px;
+    }
+    .logout-modal-body .img-block img{
+        width: 60px;
+    }
+    .logout-modal-body h2{
+        margin-top: 25px;
+    }
+    .logout-modal-body .btn-cover {
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+    .logout-modal-body .btn-cover .btn{
+        padding: 8px 15px !important;
+        width: 120px;
+    }
+}
+
+
+// Create stake
+.crate-stake-modal{
+    .crate-stake-modal-body{
+        padding: 15px 64px 70px;
+        @media($sm-1679){
+            padding: 15px 60px 40px;
+        }
+        @media($sm-1199){
+            padding: 0 40px 30px;
+        }
+        @media($sm-479){
+            padding: 0 0 15px;
+        }
+    }
+    .modal-dialog{
+        @media (min-width: 767px) and (max-width: 991px)  {
+            max-width: 700px;
+        }
+    }
+}
