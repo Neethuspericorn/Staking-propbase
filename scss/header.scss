@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
     min-height: 85px;
     .header-title-block{
         .header-title{
@@ -13,6 +13,7 @@
             font-weight: 700;
         }
         .live-active{
+            display: inline-block;
             white-space: unset;
             max-width: none;
             opacity: 1 !important;
@@ -30,11 +31,28 @@
         display: flex;
         align-items: center;
         .buy-btn{
+            flex-shrink: 0;
             max-width: none;
             background-color: $primary-dark;
             color: $primary-light;
             width: 185px;
             margin-right: 15px;
+            .buy-label{
+                @media (max-width:1200px) {
+                    display: none;
+                }
+            }
+            .cart-mob{
+                display: none;
+                @media (max-width:1200px) {
+                    display: block;
+                }
+            }
+            @media (max-width:1200px) {
+                padding: 0 !important;
+                border: none;
+                background: none;
+            }
         }
     }
     .info-block{
@@ -83,6 +101,7 @@
         margin-left: 15px;
         border-radius: 20px;
         border: none;
+        border: solid 1px #F3F4FA;
         background: #F3F4FA;
         padding: 8px 30px;
         transition: .3s;
@@ -109,11 +128,43 @@
         }
     }
 }
+
+// Wallet btn
+.wallet-btn-cover{
+    position: relative;
+    .wallet-btn-copy{
+        position: absolute;
+        right: 8px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: #F0F0F8;
+        border: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        line-height: 0;
+    }
+    .wallet-btn{
+        min-width: 150px;
+    }
+}
+
 @media($sm-1679){
+    .header-wrapper .login-btn img {
+        margin-left: 15px;
+    }
+    .header-wrapper .info-block{
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    .header-wrapper .info-block .info-val-end {
+        margin-left: 30px;
+    }
     .header-wrapper .right-block .buy-btn{
         width: 150px;
     }
-    .header-wrapper .wallet-btn, .header-wrapper .login-btn{
+    .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .buy-btn{
         font-size: 13px;
         padding: 8px 20px;
     }
@@ -122,16 +173,113 @@
         height: 36px;
     }
     .header-wrapper {
-        padding: 10px 15px;
+        padding: 15px;
         min-height: 70px;
+    }
+    .nav-block .nav-footer-block .welcome-msg{
+        font-size: 15px;
+    }
+    .filter-wrapper {
+        padding: 13px 20px;
     }
 }
 
+@media($sm-1481){
+    .nav-block .nav-footer-block .welcome-msg{
+        font-size: 14px;
+        max-width: 200px;
+    }
+    .header-wrapper .wallet-btn, .header-wrapper .login-btn{
+        padding: 8px 16px;
+    }
+    .header-wrapper .right-block .buy-btn {
+        margin-right: 8px;
+    }
+    .header-wrapper .info-block .info-val {
+        margin-left: 6px;
+    }
+    .header-wrapper .login-btn{
+        margin-left: 8px;
+    }
+    .header-wrapper .login-btn img {
+        margin-left: 10px;
+    }
+    .header-wrapper .info-block{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .header-wrapper .info-block .info-val-end {
+        margin-left: 20px;
+    }
+    .header-wrapper .right-block .buy-btn{
+        width: auto;
+    }
+}
+@media($sm-1199){
+    .header-wrapper .header-title-block .live-active .status{
+        margin-right: 5px;
+    }
+    .header-wrapper .info-block {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .header-wrapper .info-block .info-val-end {
+        margin-left: 15px;
+    }
+    .header-wrapper .login-btn img {
+        margin-left: 5px;
+    }
+    .header-wrapper .right-block .buy-btn {
+        margin-right: 5px;
+    }
+    .header-wrapper .login-btn {
+        margin-left: 5px;
+    }
+    .header-wrapper .wallet-btn, .header-wrapper .login-btn {
+        padding: 8px 12px;
+    }
+    .header-wrapper .header-title-block{
+        flex: 1 1 auto;
+        padding-right: 15px;
+    }
+}
 @media($sm-991){
     .header-wrapper .wallet-btn, .header-wrapper .login-btn {
-        padding: 6px 20px;
+        padding: 6px 15px;
     }
     .header-wrapper .prof-avt {
         margin-left: 20px;
+    }
+}
+@media($sm-767){
+    .header-wrapper .header-btn-web, .wallet-btn-cover-web{
+        display: none;
+    }
+}
+@media($sm-479){
+    .header-wrapper{
+        flex-wrap: wrap;
+    }
+    .header-wrapper .right-block{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .header-wrapper .info-block{
+        padding-top: 4px;
+    }
+}
+@media(max-width: 350px){
+    .filter-wrapper .block-left{
+        width: 100%;
+    }
+    .filter-wrapper {
+        padding: 13px 10px;
+    }
+    .filter-wrapper .filter-nav-btn{
+        margin-right: 5px;
+        flex-grow: 1;
+        &:last-child{
+            margin-right: 0;
+        }
     }
 }

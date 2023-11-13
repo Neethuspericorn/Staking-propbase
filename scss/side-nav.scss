@@ -74,6 +74,10 @@
         }
     }
     .navbar-collapse-block{
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        background-color: $primary-dark;
         .navbar-ul{
             list-style: none;
             padding: 0 10px;
@@ -121,6 +125,42 @@
                     &.active{
                         font-weight: 600;
                     }
+                }
+            }
+        }
+        .mob-nav-btn-block{
+            width: 100%;
+            padding: 25px;
+            @media (min-width: 767px) {
+                display: none;
+            }
+            .wallet-btn-cover{
+                position: relative;
+                .wallet-btn-copy{
+                    right: 20px;
+                }
+            }
+            .wallet-btn, .login-btn {
+                border-radius: 40px;
+                min-height: 52px;
+                padding: 12px 15px;
+                width: 100%;display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 15px;
+
+            }
+            .wallet-btn{
+                color: $primary-light;
+                background-color: $primary-dark;
+                border: solid 1px $primary-light;
+            }
+            .login-btn {
+                margin-top: 15px;
+                color: $primary-dark;
+                background-color: $primary-light;
+                img{
+                    margin-left: 25px;
                 }
             }
         }
@@ -201,6 +241,9 @@
     }
 }
 @media($sm-1679){
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label{
+        font-size: 15px;
+    }
     .nav-block {
         width: 270px;
     }
@@ -216,6 +259,16 @@
     }
 }
 @media($sm-991){
+    .nav-block .nav-footer-block{
+        padding-top: 35px;
+        display: block;
+    }
+    .nav-block .nav-logo-wrapper .nav-toggle-btn{
+        border: solid 1px transparent;
+    }
+    .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn {
+        border-color: #fff;
+    }
     .body-wrapper .content-block-outer{
         padding-top: 70px;
         max-width: 100%;
@@ -223,7 +276,7 @@
     }
     .body-wrapper .nav-block .nav-logo-wrapper{
         width: 100%;
-        background-color: $primary-light;
+        background-color: $primary-dark;
         position: fixed;
         top: 0;
         left: 0;
@@ -243,11 +296,12 @@
         width: 100%;
         background-color: $primary-light;
         left: 0;
-        top: calc(-100% - 200px);
+        top: -100vh;
         transition: .3s;
         z-index: 9;
         height: 100vh;
         padding-top: 70px;
+        overflow-y: auto;
     }
     .nav-collapse .navbar-collapse-block{
         top: 0;
@@ -256,8 +310,6 @@
         border-radius: 43px;
         width: 43px;
         height: 43px;
-        border: 1px solid #B0B0B0;
-        background: $primary-light;
     }
     .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line{
         width: 16px !important;
@@ -290,9 +342,7 @@
     }
 }
 @media($sm-767){
-    .header-wrapper .wallet-btn{
-        display: none;
-    }
+
     .nav-collapse .navbar-collapse-block{
         display: flex;
         flex-direction: column;
@@ -301,6 +351,9 @@
 }
 
 @media($sm-579){
+    .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn, .nav-block .navbar-collapse-block .mob-nav-btn-block .login-btn{
+        min-height: 48px;
+    }
     .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link {
         padding-left: 20px;
     }

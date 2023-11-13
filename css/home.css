@@ -20,6 +20,8 @@
     .welcome-cover .content-block .img-block {
       flex-shrink: 0;
       margin-right: 30px; }
+      .welcome-cover .content-block .img-block img {
+        max-width: 145px; }
     .welcome-cover .content-block .text-block {
       color: #fff;
       padding-top: 15px; }
@@ -85,5 +87,77 @@
       .card-sec .h-card-block .join-btn:hover {
         background-color: #fff;
         color: #0DAD4D; }
+
+@media (max-width: 1679px) {
+  .card-sec .h-card-block {
+    padding: 20px 30px 40px; }
+
+  .welcome-cover .content-block .text-block h4 {
+    font-size: 21px; }
+
+  .card-sec .h-card-block h2 {
+    font-size: 19px;
+    margin-bottom: 15px; }
+
+  .card-sec .h-card-block .join-btn {
+    padding: 10px 15px;
+    font-size: 15px; } }
+@media (max-width: 1441px) {
+  .card-sec .h-card-block {
+    padding: 15px 20px 30px; }
+
+  .card-sec .h-card-block h2 {
+    font-size: 17px;
+    margin-bottom: 15px; }
+
+  .welcome-cover .content-block .text-block h4 {
+    font-size: 19px; }
+
+  .welcome-cover {
+    padding: 20px 55px 25px; } }
+@media (max-width: 1199px) {
+  .welcome-cover {
+    padding: 20px 30px 25px; }
+
+  .welcome-cover .content-block .text-block h4 {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  .card-sec .h-card-block .join-btn {
+    font-size: 14px; } }
+@media (max-width: 579px) {
+  .welcome-cover .content-block .img-block {
+    flex-shrink: 0;
+    margin-right: 10px; }
+
+  .welcome-cover {
+    padding: 20px 20px 25px; }
+
+  .card-sec .h-card-block {
+    padding: 15px; }
+
+  .card-sec .h-card-block p {
+    font-size: 13px; } }
+@media (max-width: 479px) {
+  .welcome-cover .content-block {
+    flex-wrap: wrap;
+    flex-direction: column; }
+
+  .welcome-cover .content-block .text-block {
+    order: 1;
+    padding-top: 0; }
+
+  .welcome-cover .content-block .img-block {
+    order: 2;
+    padding-top: 25px;
+    text-align: center;
+    width: 100%; }
+    .welcome-cover .content-block .img-block img {
+      max-width: 100%; }
+
+  .welcome-cover {
+    padding: 25px; }
+
+  .welcome-cover .content-block .text-block p {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=home.css.map */
