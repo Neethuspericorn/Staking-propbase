@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/staking.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
     <div class="body-wrapper">
@@ -293,8 +294,8 @@
                                         <span>Staking starts on 23 May 2023</span>
                                     </div>
                                     <div class="btn-outr">
-                                        <a href="#" class="btn-stake">Stake</a>
-                                        <a href="#" class="btn-unstake">Unstake</a>
+                                        <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
+                                        <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
                                     </div>
                                     
                                 </div>
@@ -384,8 +385,8 @@
                                         <span>Staking starts on 23 May 2023</span>
                                     </div>
                                     <div class="btn-outr">
-                                        <a href="#" class="btn-stake">Stake</a>
-                                        <a href="#" class="btn-unstake">Unstake</a>
+                                        <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#successModal">Stake</a>
+                                        <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#failureModal">Unstake</a>
                                     </div>
                                     
                                 </div>
@@ -490,7 +491,261 @@
         </div>
     </div>
     
-    
+       <!-- Staking modal -->
+       <div class="modal fade custom-modal stake-modal" id="stakingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <h2>
+                            <img src="img/clock-icon.svg">
+                            Short Term Staking Pool Rewards
+                        </h2>
+                    </div>
+                    <div class="pool-cap-txt">
+                        <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
+                    </div>
+                    <div class="progress-bar-section">
+                        <div class="progress-bar">
+                        </div>
+                        <div class="progress-count">
+                             33%
+                        </div>
+                    </div>
+                    <div class="btn-outer">
+                        <button class="btn-default">APY:40%</button>
+                        <button class="btn-default btn-duration">Duration:3 Months</button>
+                    </div>
+                    <div class="lock-period">
+                       Lock-In Period : 01 May to 01 June
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">                         
+                            <input type="text" class="form-control" placeholder="0.01">
+                            <div class="badges">
+                                <div class="num-badge">25%</div>
+                                <div class="num-badge">25%</div>
+                                <div class="num-badge">Max</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rwd-inner">
+                        <div class="detail-outer">
+                        <div class="img-sec">
+                            <img src="img/reward-icon.svg">
+                        </div> 
+                        <div class="prop-sec">
+                            <span>Expected Rewards :</span>
+                            <span>1,000</span>
+                        </div>
+                    </div>
+                        <div class="detail-outer">
+                            <div class="img-sec">
+                                <img src="img/wallet.svg">
+                           </div> 
+                           <div class="prop-sec">
+                                <span>Available $Props :</span>
+                                <span>34,000,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-otr">
+                        <a href="#" class="btn-stake">Stake</a>
+                    </div>
+                    <div class="policy-stake">
+                        <div class="head-policy">
+                            <img src="img/info-icon.svg">
+                            Policy for staking
+                        </div>
+                        <div class="policy-text">
+                            <p>
+                            You can unstake and withdrawal at any time, withdrawing before the end of the lockup period will 
+                            result in a 5% penalty of the total staked amount
+                            </p>
+                            <p>
+                            Confirming another staking deposit will reset the first action lockup period but not affect the amount 
+                            of staking earnings for previously staked amounts but withdrawal of the total amount will be reset and
+                             only available with a penalty af the final lockup ends. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       </div>
+       <!-- withdraw modal -->
+       <div class="modal fade custom-modal stake-modal" id="unstakingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <h2>
+                            <img src="img/clock-icon.svg">
+                            Short Term Staking Pool Rewards
+                        </h2>
+                    </div>
+                    <div class="pool-cap-txt">
+                        <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
+                    </div>
+                    <div class="progress-bar-section">
+                        <div class="progress-bar">
+                        </div>
+                        <div class="progress-count">
+                             33%
+                        </div>
+                    </div>
+                    <div class="btn-outer">
+                        <button class="btn-default">APY:40%</button>
+                        <button class="btn-default btn-duration">Duration:3 Months</button>
+                    </div>
+                    <div class="lock-period">
+                       Lock-In Period : 01 May to 01 June
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">                         
+                            <input type="text" class="form-control" placeholder="0.01">
+                            <div class="badges">
+                                <div class="num-badge">25%</div>
+                                <div class="num-badge">25%</div>
+                                <div class="num-badge max-active">Max</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rwd-inner">
+                        <div class="detail-outer">
+                            <div class="img-sec">
+                                <img src="img/reward-icon.svg">
+                            </div> 
+                            <div class="prop-sec">
+                                <span class="prop-label">Estimated Penalty (5%):</span>
+                                <span class="props-col">15,111 $PROPS</span>
+                            </div>
+                        </div>
+                        <div class="detail-outer">
+                            <div class="img-sec">
+                                 <img src="img/wallet.svg">
+                            </div> 
+                            <div class="prop-sec">
+                                <span class="prop-label">Stacked $Props :</span>
+                                <span class="prop-num">34,000,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-otr">
+                        <a href="#" class="btn-stake withdraw-btn">Withdraw</a>
+                    </div>
+                    <div class="policy-stake">
+                        <div class="head-policy">
+                            <img src="img/info-icon.svg">
+                            Policy for staking
+                        </div>
+                        <div class="policy-text">
+                            <p>
+                            You can unstake and withdrawal at any time, withdrawing before the end of the lockup period will 
+                            result in a 5% penalty of the total staked amount
+                            </p>
+                            <p>
+                            Confirming another staking deposit will reset the first action lockup period but not affect
+                             the amount of staking earnings for previously staked amounts but withdrawal of the total 
+                             amount will be reset and only available with a penalty af the final lockup ends. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       </div>
+        <!-- success modal -->
+        <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="crate-stake-modal-body">
+                        <div class="modal-title">
+                            <img src="img/suceess-icon.svg">
+                            <h2>
+                                Staking was Successful!
+                            </h2>
+                            <h5>
+                                You have successfully staked the amount
+                            </h5>
+                        </div>
+                        <div class="stake-detail">
+                            <div class="stake-amt">
+                                <div class="stake-amt-txt">
+                                    Staked Amount
+                                </div>
+                                <div class="stake-rupees">
+                                    34,000
+                                </div>
+                            </div>
+                            <div class="stake-amt">
+                                <div class="stake-amt-txt">
+                                    Txn Hash
+                                </div>
+                                <div class="stake-rupees">
+                                    0xdd57254632hrg4325432435464675r4t464654
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn-black">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+         <!-- fail modal -->
+         <div class="modal fade custom-modal success-modal fail-modal" id="failureModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="crate-stake-modal-body">
+                        <div class="modal-title">
+                            <img src="img/fail-icon.svg">
+                            <h2>
+                                Staking Failed
+                            </h2>
+                            <h5>
+                                There was a problem staking. Please try again
+                            </h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn-black">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
     
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
