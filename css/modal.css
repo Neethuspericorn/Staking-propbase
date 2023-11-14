@@ -207,6 +207,12 @@
   column-gap: 27px;
   margin-top: 40px;
 }
+.conect-wallet .walles-otr .wallet-btn-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
 .conect-wallet .walles-otr .wallet-btn {
   display: flex;
   align-items: center;
@@ -273,6 +279,15 @@
   margin-bottom: 15px;
 }
 
+.connect-wallet-modal .btn-cover {
+  margin-top: 35px;
+  width: 100%;
+  text-align: center;
+}
+.connect-wallet-modal .btn-cover .primary-btn {
+  width: 240px;
+}
+
 @media (max-width: 1679px) {
   .conect-wallet {
     margin-bottom: 55px;
@@ -300,13 +315,13 @@
     width: 28px;
     height: 28px;
   }
-  .connect-wallet-modal .btn-cover .primary-button {
+  .connect-wallet-modal .btn-cover .primary-btn {
     font-size: 14px;
     height: 46px;
   }
 }
 @media (max-width: 1199px) {
-  .connect-wallet-modal .btn-cover .primary-button {
+  .connect-wallet-modal .btn-cover .primary-btn {
     width: 205px;
   }
 }
@@ -316,6 +331,17 @@
   }
 }
 @media (max-width: 767px) {
+  .conect-wallet .walles-otr .wallet-btn-inner {
+    max-width: 100%;
+    width: 160px;
+    text-align: left;
+  }
+  .conect-wallet .walles-otr .wallet-btn {
+    justify-content: center;
+  }
+  .connect-wallet-modal .btn-cover {
+    margin-top: 25px;
+  }
   .conect-wallet .walles-otr {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -328,7 +354,7 @@
   .connect-wallet-info {
     bottom: -90px;
   }
-  .connect-wallet-modal .btn-cover .primary-button {
+  .connect-wallet-modal .btn-cover .primary-btn {
     height: 45px;
   }
   .modal-header {
@@ -340,6 +366,10 @@
   .conect-wallet {
     margin-bottom: 30px;
     padding: 0 35px;
+  }
+  .conect-wallet .walles-otr .wallet-btn {
+    height: 50px;
+    flex: 1 1 auto;
   }
 }
 @media (max-width: 479px) {
