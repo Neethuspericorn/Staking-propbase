@@ -275,6 +275,34 @@ button{
         }
 
     }
+    .download-excel-btn{
+        display: flex;
+        align-items: center;
+        border: 1px solid #E3E4F3;
+        background: #FFF;
+        color: #697F9B;
+        font-size: 14px;
+        padding: 8px 25px;
+        font-weight: 400;
+        flex-shrink: 0;
+        .add-label-web{
+            margin-right: 15px;
+        }
+        @media($sm-1199){
+            padding: 8px 18px;
+        }
+        @media($sm-767){
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            .add-label-web{
+                display: none;
+            }
+        }
+    }
 }
 @media($sm-479){
     .sec-title-block.sec-title-filter{
