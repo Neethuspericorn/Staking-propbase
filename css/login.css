@@ -22,6 +22,7 @@
 @media (max-width: 991px) {
   .login-wrapper {
     flex-direction: column;
+    height: 100vh;
   }
 }
 .login-wrapper .login-left-block {
@@ -39,7 +40,7 @@
 @media (max-width: 991px) {
   .login-wrapper .login-left-block {
     width: 100%;
-    order: 2;
+    height: 100%;
   }
 }
 @media (max-width: 575px) {
@@ -260,7 +261,7 @@
 }
 @media (max-width: 991px) {
   .login-wrapper .login-right-block {
-    height: 170px;
+    display: none;
   }
 }
 .login-wrapper .login-right-block .login-welcome-txt {
