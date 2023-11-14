@@ -101,6 +101,7 @@
   margin-top: 15px;
   color: #fff;
   padding: 7px 44px 7px 56px;
+  box-shadow: none !important;
 }
 @media (max-width: 1679px) {
   .login-wrapper .login-left-block .form-group .input-group .form-control {
