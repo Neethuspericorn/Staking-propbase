@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
     <div class="body-wrapper">
@@ -88,7 +89,7 @@
 
                     <div class="mob-nav-btn-block">
                         <div class="wallet-btn-cover">
-                            <button class="wallet-btn">
+                            <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">
                                 0xf7e2...1380bf
                             </button>
                             <button class="wallet-btn-copy copy-btn">
@@ -140,7 +141,7 @@
                     </div>
                     <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button>
                     <div class="wallet-btn-cover wallet-btn-cover-web">
-                        <button class="wallet-btn">0xf7e2...1380bf</button>
+                        <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
                         <button class="wallet-btn-copy copy-btn">
                             <img src="img/copy.svg" alt="">
                         </button>
@@ -236,7 +237,56 @@
         </div>
     </div>
     
+    <!-- Connect wallet Modal -->   
+    <div class="modal fade custom-modal connect-wallet-modal" id="walletModal" tabindex="-1" aria-labelledby="walletModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="conect-wallet">
+                        <div class="wallet-title">Connect a Wallet</div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Et nisl risus auctor dignissim. Libero malesuada ut at
+                            ultricies massa vitae. Non aliquet molestie purus.</p>
+                        <div class="walles-otr">
+                            <button class="btn wallet-btn active">
+                                <div class="wallet-btn-inner">
+                                    <div class="wallet-icon">
+                                        <img src="img/petra-wallet.png" alt="">
+                                    </div>
+                                    Petra Wallet
+                                </div>
+                            </button>
+                            <button class="btn wallet-btn">
+                                <div class="wallet-btn-inner">
+                                    <div class="wallet-icon">
+                                        <img src="img/martian-wallet.png" alt="">
+                                    </div>
+                                    Martian Wallet
+                                </div>
+                            </button>
+                            <button class="btn wallet-btn">
+                                <div class="wallet-btn-inner">
+                                    <div class="wallet-icon">
+                                        <img src="img/pontem-wallet.png" alt="">
+                                    </div>
+                                    Pontem Wallet
+                                </div>
+                            </button>
+                        </div>
     
+                        <div class="btn-cover">
+                            <button class="btn primary-btn">Connect</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
