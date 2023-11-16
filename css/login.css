@@ -103,7 +103,8 @@
         top: 55px;
         cursor: pointer;
         background: none;
-        border: none; }
+        border: none;
+        z-index: 9; }
         @media (max-width: 1679px) {
           .login-wrapper .login-left-block .form-group .input-group .icon-pass {
             top: 46px; } }
@@ -388,7 +389,8 @@
     right: 21px;
     background: none;
     border: none;
-    top: 54px; }
+    top: 54px;
+    z-index: 9; }
     @media (max-width: 991px) {
       .reset-modal .modal-dialog .modal-body .fgt-view-icon {
         top: 56px; } }

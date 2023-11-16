@@ -130,6 +130,7 @@
                     cursor: pointer;
                     background: none;
                     border: none;
+                    z-index: 9;
                     @media(max-width:1679px)
                     {
                         top: 46px;
@@ -537,6 +538,7 @@
                 background: none;
                 border: none;
                 top: 54px;
+                z-index: 9;
                 @media(max-width:991px)
                 {
                     top: 56px;
