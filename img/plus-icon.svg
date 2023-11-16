@@ -1,0 +1,26 @@
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="g141">
+<g id="g143">
+<path id="path145" d="M7.5 4.86328V10.1367" stroke="#697F9B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g147">
+<path id="path149" d="M4.86328 7.5H10.1367" stroke="#697F9B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g151">
+<g id="Clip path group">
+<mask id="mask0_577_15679" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="15" height="15">
+<g id="clipPath157">
+<path id="path155" d="M0 0H15V15H0V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_577_15679)">
+<g id="g153">
+<g id="g159">
+<path id="path161" d="M11.0771 13.418C10.0335 14.0501 8.80925 14.4141 7.5 14.4141C3.68147 14.4141 0.585938 11.3185 0.585938 7.5C0.585938 3.68145 3.68147 0.585938 7.5 0.585938C11.3186 0.585938 14.4141 3.68145 14.4141 7.5C14.4141 8.91993 13.9763 10.2399 13.2422 11.3379" stroke="#697F9B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
