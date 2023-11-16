@@ -640,16 +640,10 @@
     height: 48px;
     min-width: 232px;
     margin-top: 17px;
-<<<<<<< HEAD
     font-size: 15px;
     @media(max-width:1679px)
     {
         font-size: 14px;
-=======
-    @media(max-width:1679px)
-    {
-        font-size: 15px;
->>>>>>> dc5340635d42acbe0809e4b03dd77c39a7933725
     }
     @media(max-width:575px)
     {
@@ -672,7 +666,6 @@
         margin-top: 25px;
     }
 }
-<<<<<<< HEAD
 .vesting-confirm
 {
     .modal-dialog
@@ -752,35 +745,4 @@
         }
     }
    
-=======
-
-
-.logout-modal{
-    .btn-block{
-        .btn-black.btn-border{
-            background-color: #fff;
-            color: $primary-dark;
-            margin-right: 8px;
-        }
-        @media(max-width:1679px) {
-            .btn-black{
-                min-width: auto;
-                width: 180px;
-            }
-        }
-        @media(max-width:767px) {
-            .btn-black{
-                width: 150px;
-            }
-        }
-        @media(max-width:400px) {
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            display: flex;
-            .btn-black{
-                width: calc(50% - 4px);
-            }
-        }
-    }
->>>>>>> dc5340635d42acbe0809e4b03dd77c39a7933725
 }

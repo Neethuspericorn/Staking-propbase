@@ -415,24 +415,20 @@
     margin-left: 20px;
   }
   .header-wrapper .right-block .buy-btn {
-    width: auto;
-  }
-}
+    width: auto; } }
 @media (max-width: 1300px) {
   .header-wrapper .header-title-block .live-active .label-web {
-    display: none;
-  }
-}
+    display: none; } }
 @media (max-width: 1199px) {
   .header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
-    min-width: 135px;
-  }
+    min-width: 135px; }
+
   .header-wrapper .right-block .notify-dropdown .notify-btn {
-    width: 40px;
-  }
+    width: 40px; }
+
   .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
-    width: 150px;
-  }
+    width: 150px; }
+
   .header-wrapper .header-title-block .live-active .status {
     margin-right: 5px;
   }
@@ -471,15 +467,11 @@
   .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
     width: 36px;
     height: 36px;
-    padding: 0;
-  }
-  .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
-    width: 100%;
-  }
-  .header-wrapper .right-block .my-acc-dropdown .my-acc-btn::after {
-    display: none;
-  }
-}
+    padding: 0; }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
+      width: 100%; }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn::after {
+      display: none; } }
 @media (max-width: 991px) {
   .header-wrapper .right-block .notify-dropdown .dropdown-menu {
     width: 340px;

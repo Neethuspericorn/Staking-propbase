@@ -220,7 +220,7 @@
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <button class="dropdown-item" type="button">
+                                    <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
                                         <img src="img/lock-drpdown.svg" alt=""> Change password
                                     </button>
                                 </li>
@@ -401,6 +401,49 @@
         </div>
     </div>
 
+     <!-- change Password -->
+     <div class="modal fade fgt-modal change-pass-modal" id="changePasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img src="img/close-modal.svg" class="close">
+               </button>
+               <div class="heading-top">
+                <div class="header-sec">
+                    <h4 class="modal-title" id="exampleModalLabel">Forgot <span>Password</span></h4>
+                    <h5>
+                        Enter your registered mail id to send a link in your mail
+                        And change your password 
+                    </h5>
+                </div>
+                <div class="icon-sec">
+                    <img src="img/fgt-img.svg" class="icon-right">
+                </div>
+            </div>
+            </div>
+            <div class="modal-body">
+               
+                <div class="form-group">
+                    <div class="input-group">
+                        <label>Email ID</label>
+                        <input type="text" class="form-control">
+                        <img src="img/mail-icon.svg" class="fgt-mail-icon">
+                    </div>
+                    <div class="btn-otr">
+                        <button class="back-login-btn">
+                            <img src="img/back-arw.svg">
+                            Back to login
+                        </button>
+                        <button class="send-btn">
+                           Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
