@@ -138,6 +138,7 @@
   cursor: pointer;
   background: none;
   border: none;
+  z-index: 9;
 }
 @media (max-width: 1679px) {
   .login-wrapper .login-left-block .form-group .input-group .icon-pass {

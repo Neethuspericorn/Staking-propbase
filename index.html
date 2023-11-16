@@ -225,8 +225,8 @@
                                     </button>
                                 </li>
                                 <li>
-                                    <button class="dropdown-item" type="button">
-                                        <img src="img/lock-drpdown.svg" alt=""> Logout
+                                    <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <img src="img/logout-drpdwn.svg" alt=""> Logout
                                     </button>
                                 </li>
                             </ul>
@@ -374,6 +374,33 @@
         </div>
     </div>
     
+    <!-- Logout modal -->
+    <div class="modal fade custom-modal success-modal logout-modal" id="logoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <img src="img/log.svg">
+                        <h2 class=" mt-2">
+                            Are you sure <br>you want to logout ?
+                        </h2>
+                    </div>
+                    <div class="text-center mt-3 mt-md-4 btn-block">
+                        <button class="btn-black btn-border">Go Back</button>
+                        <button class="btn-black">logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -131,7 +131,7 @@
             <div class="header-wrapper shadow-bg">
                 <div class="header-title-block">
                     <div class="live-active wallet-btn">
-                        <span class="status"></span> Live on APTOS mainnet
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
                     </div>
                 </div>
                 <div class="right-block">
@@ -142,7 +142,8 @@
                     </div>
                     <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button>
                     <div class="wallet-btn-cover wallet-btn-cover-web">
-                        <button class="wallet-btn">0xf7e2...1380bf</button>
+                        <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                        <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
                         <button class="wallet-btn-copy copy-btn">
                             <img src="img/copy.svg" alt="">
                         </button>
@@ -161,7 +162,6 @@
                                 <button class="filter-nav-btn active">Staking</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="staking-dashboard-outer col-12">
@@ -209,6 +209,16 @@
                     </div>
                 </div>             
                 <div class="card-sec card-section-outer">
+                    <div class="filter-wrapper d-flex">
+                        <div class="block-left">
+                            <div class="filter-nav-btn-wrapper d-flex">
+                                <button class="filter-nav-btn active">All</button>
+                                <button class="filter-nav-btn">Upcoming</button>
+                                <button class="filter-nav-btn">Active</button>
+                                <button class="filter-nav-btn">Done</button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-4 h-card-col">
                             <div class="h-card-block">
