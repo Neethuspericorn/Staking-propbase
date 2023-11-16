@@ -525,11 +525,27 @@
                 .form-control
                 {
                     padding-right: 48px;
+                    @media(max-width:1679px)
+                    {
+                        height: 53px !important;
+                    }
+                    @media(max-width:991px)
+                    {
+                        height: 50px !important;
+                    }
                 }
             }
             .fgt-mail-icon
             {
-                top: 59px;
+                top: 59px !important;
+                @media(max-width:1679px)
+                {
+                    top: 55px !important;
+                }
+                @media(max-width:991px)
+                {
+                    top: 52px !important;
+                }
             }
             .fgt-view-icon
             {
@@ -538,10 +554,13 @@
                 background: none;
                 border: none;
                 top: 54px;
-                z-index: 9;
+                @media(max-width:1679px)
+                {
+                    top: 50px;
+                }
                 @media(max-width:991px)
                 {
-                    top: 56px;
+                    top: 46px;
                 }
             }
             .send-btn
