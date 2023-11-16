@@ -497,6 +497,9 @@
   height: 48px;
   min-width: 232px;
   margin-top: 17px; }
+  @media (max-width: 1679px) {
+    .btn-black {
+      font-size: 15px; } }
   @media (max-width: 575px) {
     .btn-black {
       height: 45px;
@@ -509,5 +512,24 @@
       max-width: 96%; } }
 .fail-modal .btn-black {
   margin-top: 25px; }
+
+.logout-modal .btn-block .btn-black.btn-border {
+  background-color: #fff;
+  color: #292D32;
+  margin-right: 8px; }
+@media (max-width: 1679px) {
+  .logout-modal .btn-block .btn-black {
+    min-width: auto;
+    width: 180px; } }
+@media (max-width: 767px) {
+  .logout-modal .btn-block .btn-black {
+    width: 150px; } }
+@media (max-width: 400px) {
+  .logout-modal .btn-block {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    display: flex; }
+    .logout-modal .btn-block .btn-black {
+      width: calc(50% - 4px); } }
 
 /*# sourceMappingURL=modal.css.map */
