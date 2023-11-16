@@ -410,7 +410,21 @@
         width: auto;
     }
 }
+@media(max-width: 1300px){
+    .header-wrapper .header-title-block .live-active .label-web{
+        display: none;
+    }
+}
 @media($sm-1199){
+    .header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
+        min-width: 135px;
+    }
+    .header-wrapper .right-block .notify-dropdown .notify-btn {
+        width: 40px;
+    }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
+        width: 150px;
+    }
     .header-wrapper .header-title-block .live-active .status{
         margin-right: 5px;
     }
@@ -431,14 +445,14 @@
         margin-left: 5px;
     }
     .header-wrapper .wallet-btn, .header-wrapper .login-btn {
-        padding: 8px 10px;
+        padding: 6px 10px;
     }
     .header-wrapper .header-title-block{
         flex: 1 1 auto;
         padding-right: 15px;
     }
 }
-@media($sm-991){
+@media(max-width: 1100px){
     .header-wrapper .right-block .notify-dropdown .notify-btn{
         width: 36px;
         height: 36px;
@@ -457,9 +471,10 @@
             display: none;
         }
     }
-    .header-wrapper .header-title-block .live-active .label-web{
-        display: none;
-    }
+}
+
+@media($sm-991){
+    
     .header-wrapper .right-block .notify-dropdown .dropdown-menu{
         width: 340px;
     }
