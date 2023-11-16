@@ -317,6 +317,7 @@
 {
     .modal-dialog {
         max-width:600px !important;
+        font-family:$font-primary;
         @media(max-width:991px)
         {
             max-width: 96% !important;
@@ -351,6 +352,8 @@
             }
             .heading-top {
                 display: flex;
+                width: 100%;
+                justify-content: space-between;
                 @media(max-width:575px)
                 {
                     flex-direction: column;
@@ -418,10 +421,7 @@
                     label
                     {
                         color: #697F9B;
-                        @media(max-width:991px)
-                        {
-                            font-size: 14px;
-                        }
+                        font-size: 14px;
                     }
                     .form-control
                     {
@@ -537,14 +537,14 @@
             }
             .fgt-mail-icon
             {
-                top: 59px !important;
+                top: 56px !important;
                 @media(max-width:1679px)
                 {
-                    top: 55px !important;
+                    top: 53px !important;
                 }
                 @media(max-width:991px)
                 {
-                    top: 52px !important;
+                    top: 51px !important;
                 }
             }
             .fgt-view-icon
@@ -553,14 +553,15 @@
                 right: 21px;
                 background: none;
                 border: none;
-                top: 54px;
+                top: 53px;
                 @media(max-width:1679px)
                 {
                     top: 50px;
+                    padding: 0;
                 }
                 @media(max-width:991px)
                 {
-                    top: 46px;
+                    top: 49px;
                 }
             }
             .send-btn

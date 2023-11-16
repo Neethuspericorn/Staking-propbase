@@ -755,4 +755,187 @@
   }
 }
 
+.change-pass-modal .modal-dialog {
+  max-width: 600px !important;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog {
+    max-width: 96% !important;
+  }
+}
+.change-pass-modal .modal-dialog .modal-content {
+  padding: 54px;
+  border-radius: 25px;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .change-pass-modal .modal-dialog .modal-content {
+    padding: 10px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-header {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-header {
+    padding-left: 0;
+  }
+}
+.change-pass-modal .modal-dialog .modal-header .close {
+  position: absolute;
+  right: 14px;
+  top: 20px;
+}
+.change-pass-modal .modal-dialog .modal-header .heading-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-header .heading-top {
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-header .heading-top .header-sec {
+    order: 2;
+  }
+}
+.change-pass-modal .modal-dialog .modal-header .heading-top .modal-title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog .modal-header .heading-top .modal-title {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-header .heading-top .modal-title span {
+  font-weight: 600;
+}
+.change-pass-modal .modal-dialog .modal-header .heading-top h5 {
+  font-size: 12px;
+  color: #292D32;
+  padding-right: 15px;
+}
+.change-pass-modal .modal-dialog .modal-header .heading-top .icon-sec img {
+  height: 150px;
+  margin-top: -42px;
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog .modal-header .heading-top .icon-sec img {
+    height: 130px;
+  }
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-header .heading-top .icon-sec img {
+    height: 115px;
+    margin-top: -10px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body {
+  padding-top: 0;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group {
+    padding-top: 15px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .input-group {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .input-group label {
+  color: #697F9B;
+  font-size: 14px;
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #5E6C84;
+  border-radius: 50px !important;
+  height: 60px;
+  margin-top: 11px;
+  color: #333;
+  padding-left: 53px;
+}
+@media (max-width: 1679px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+    height: 55px;
+  }
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+    height: 50px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
+  position: absolute;
+  top: 52px;
+  left: 22px;
+}
+@media (max-width: 1679px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
+    top: 49px;
+  }
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
+    top: 47px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-view-icon {
+  position: absolute;
+  right: 21px;
+  background: none;
+  border: none;
+  top: 48px;
+}
+@media (max-width: 1679px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-view-icon {
+    top: 45px;
+  }
+}
+@media (max-width: 991px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-view-icon {
+    top: 43px;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .btn-otr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .btn-otr {
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.change-pass-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
+  background: #292D32;
+  font-size: 16px;
+  color: #fff;
+  height: 52px;
+  padding: 15px 15px;
+  min-width: 155px;
+  border-radius: 50px;
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .change-pass-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
+    margin-bottom: 17px;
+  }
+}
+
 /*# sourceMappingURL=modal.css.map */
