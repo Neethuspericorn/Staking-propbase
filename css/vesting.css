@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.accordian-section-outer .card-section .acrd-list-header {
+  border-top-left-radius: 8px;
+  border: 1px solid #E3E4F3;
+  background: #F9F9FD;
+  padding: 18px 16px;
+  border-top-right-radius: 8px;
+  color: #292D32;
+  font-weight: 500;
+  font-size: 15px;
+}
+.accordian-section-outer .card-section .acrd-list-header img {
+  height: 24px;
+  margin-right: 7px;
+}
+.accordian-section-outer .card-section .acrd-detail-section {
+  padding: 35px 45px;
+  background: #fff;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DDDEEA;
+  padding-bottom: 20px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
+  display: flex;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+  margin-right: 70px;
+  padding: 12px 23px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner label {
+  color: #697F9B;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner .value-txt {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
+  display: flex;
+  align-items: center;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
+  margin-right: 32px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
+  border: 1px solid #D1D1D7;
+  background: #FFF;
+  height: 45px;
+  border-radius: 45px !important;
+  min-width: 280px !important;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
+  margin-left: 17px !important;
+  border-radius: 28px;
+  background: #0DAD4D;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  min-width: 130px;
+  border-radius: 50px !important;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn span {
+  margin-left: 6px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn.dealloc-btn {
+  background: #FF6C6C !important;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer {
+  padding: 25px 10px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer h3 {
+  color: #313131;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 26px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
+  display: flex;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .input-group {
+  margin-right: 42px;
+  display: flex;
+  flex-direction: column;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .input-group label {
+  color: #697F9B;
+  margin-bottom: 12px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .input-group .form-control {
+  width: 100% !important;
+  background: #F9F9FD;
+  border: none;
+  height: 45px;
+}
+
+/*# sourceMappingURL=vesting.css.map */
