@@ -744,5 +744,38 @@
             }
         }
     }
+<<<<<<< HEAD
    
+=======
+}
+
+
+.logout-modal{
+    .btn-block{
+        .btn-black.btn-border{
+            background-color: #fff;
+            color: $primary-dark;
+            margin-right: 8px;
+        }
+        @media(max-width:1679px) {
+            .btn-black{
+                min-width: auto;
+                width: 180px;
+            }
+        }
+        @media(max-width:767px) {
+            .btn-black{
+                width: 150px;
+            }
+        }
+        @media(max-width:400px) {
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            display: flex;
+            .btn-black{
+                width: calc(50% - 4px);
+            }
+        }
+    }
+>>>>>>> 1ee46a47acb9f95e1b851df0b4f055288741648a
 }

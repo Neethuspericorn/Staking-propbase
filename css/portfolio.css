@@ -137,7 +137,7 @@
   border: 1px solid #E3E4F3;
   background: #FFF;
   padding: 10px 22px;
-  padding-right: 40px;
+  padding-right: 40px !important;
   font-size: 14px;
   font-weight: 500;
   color: #292D32;
@@ -438,19 +438,19 @@
   }
   .portfolio-sec .portfolio-card .card-table th:first-child,
 .portfolio-sec .portfolio-card .card-table td:first-child {
-    padding-left: 20px;
+    padding-left: 15px;
   }
   .portfolio-sec .portfolio-card .card-table th:last-child,
 .portfolio-sec .portfolio-card .card-table td:last-child {
-    padding-right: 20px;
+    padding-right: 15px;
   }
   .portfolio-sec .portfolio-card .card-table th,
 .portfolio-sec .portfolio-card .card-table td {
-    padding: 12px 10px;
+    padding: 12px 8px;
     font-size: 12px;
   }
   .portfolio-sec .portfolio-card .card-table .claim-btn {
-    padding: 5px 18px;
+    padding: 5px 15px;
     font-size: 12px;
   }
   .portfolio-sec .portfolio-card .title-wrapper .title-btn-block .select-block .sel-label {
@@ -462,6 +462,89 @@
   }
   .portfolio-sec .portfolio-card .table-pagination-cover {
     padding: 15px;
+  }
+}
+@media (max-width: 1481px) {
+  .portfolio-sec .portfolio-card .title-wrapper .title-block h2 {
+    font-size: 17px;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img {
+    max-width: 20px;
+  }
+  .portfolio-sec .portfolio-card {
+    padding: 18px;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper {
+    padding-bottom: 15px;
+  }
+  .portfolio-sec .lg-graph .graph-det-top {
+    padding: 20px 18px 15px;
+  }
+  .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p {
+    font-size: 14px;
+  }
+  .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn {
+    padding: 4px 10px;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon {
+    margin-right: 10px;
+  }
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate {
+    font-size: 16px;
+  }
+  .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block {
+    padding-top: 10px;
+  }
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
+    width: 46px;
+    height: 46px;
+  }
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img {
+    max-width: 25px;
+  }
+  .portfolio-sec .my-portfolio-col {
+    width: 400px;
+  }
+}
+@media (max-width: 1199px) {
+  .portfolio-sec .portfolio-col {
+    width: 100%;
+  }
+  .portfolio-sec .lg-row {
+    flex-wrap: wrap;
+  }
+  .portfolio-sec .lg-graph .graph-title-block {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 579px) {
+  .portfolio-sec .lg-graph .graph-det-top {
+    padding: 15px 15px 15px;
+  }
+  .portfolio-sec .portfolio-card {
+    padding: 15px;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper .title-block h2 {
+    font-size: 16px;
+  }
+  .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:first-child {
+    padding-left: 15px;
+  }
+  .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:last-child {
+    padding-right: 15px;
+  }
+  .portfolio-sec .portfolio-card .card-table {
+    min-width: max-content;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper {
+    flex-wrap: wrap;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper .title-btn-block {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .portfolio-sec .portfolio-card .title-wrapper .title-btn-block .title-sel {
+    flex: 1 1 auto;
   }
 }
 
