@@ -80,6 +80,9 @@
 .login-wrapper .login-left-block .logo-section-block .welcome-text span {
   font-weight: 700;
 }
+.login-wrapper .login-left-block .form-group .alert-msg-cover .alert-msg {
+  top: 103%;
+}
 .login-wrapper .login-left-block .form-group .input-group {
   margin-bottom: 25px;
   position: relative;
@@ -100,7 +103,7 @@
   border-radius: 50px !important;
   height: 60px;
   margin-top: 15px;
-  color: #fff;
+  color: #fff !important;
   padding: 7px 44px 7px 56px;
   box-shadow: none !important;
 }
@@ -432,6 +435,7 @@
   margin-top: 15px;
   color: #333;
   padding-left: 53px;
+  box-shadow: none !important;
 }
 @media (max-width: 991px) {
   .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
@@ -440,7 +444,7 @@
 }
 .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
   position: absolute;
-  top: 63px;
+  top: 59px;
   left: 22px;
 }
 @media (max-width: 991px) {

@@ -72,6 +72,10 @@
         }
         .form-group
         {
+           .alert-msg-cover .alert-msg
+            {
+                top: 103%;
+            }
             .input-group
             {
                 margin-bottom: 25px;
@@ -93,7 +97,7 @@
                     border-radius: 50px !important;
                     height: 60px;
                     margin-top:15px;
-                    color: #fff;
+                    color: #fff !important;
                     padding: 7px 44px 7px 56px;
                     box-shadow: none !important;
                     &::placeholder
@@ -438,6 +442,7 @@
                         margin-top: 15px;
                         color: #333;
                         padding-left: 53px;
+                        box-shadow: none !important;
                         @media(max-width:991px)
                         {
                             height: 50px;
@@ -446,7 +451,7 @@
                     .fgt-mail-icon
                     {
                         position: absolute;
-                        top: 63px;
+                        top: 59px;
                         left: 22px;
                         @media(max-width:991px)
                         {
@@ -538,6 +543,7 @@
                     {
                         height: 50px !important;
                     }
+                   
                 }
             }
             .fgt-mail-icon
