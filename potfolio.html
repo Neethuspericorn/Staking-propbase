@@ -561,9 +561,9 @@
     </div>
 
     <!-- claimRewardModal -->
-    <div class="modal fade custom-modal claim-reward-modal show" style="display: block; background-color: #ddd;"
+    <div class="modal fade custom-modal claim-reward-modal"
         id="claimRewardModal" tabindex="-1" aria-labelledby="claimRewardModalLabel">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
@@ -571,22 +571,78 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="crate-stake-modal-body">
+                    <div class="claim-reward-modal-body">
                         <div class="modal-title">
                             <h4>
-                                Are you sure you want to Allocate 120 rewards?
+                                <span class="title-icon">
+                                    <img src="img/rward-modal.svg" alt="">
+                                </span> 
+                                Claim Earning
                             </h4>
                         </div>
+
+                        <div class="claim-count-block">
+                            <p>Claim Token Count</p>
+                            <h4>6435</h4>
+                        </div>
     
-                        <div class="text-center btn-otr">
-                            <button class="btn-cancel">Cancel</button>
-                            <button class="btn-black">Confirm</button>
+                        <div class="btn-otr">
+                            <button class="btn-def claim-btn">Claim</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- success modal -->
+    <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <img src="img/suceess-icon.svg">
+                        <h2>
+                            Claim Successful!
+                        </h2>
+                        <h5>
+                            You have successfully claimed the required amount
+                        </h5>
+                    </div>
+                    <div class="stake-detail pb-2">
+                        <div class="stake-amt">
+                            <div class="stake-amt-txt">
+                                Txn Hash
+                            </div>
+                            <div class="stake-rupees">
+                                0xdd57254632hrg4325432435464675r4t464654
+                            </div>
+                        </div>
+                        <div class="stake-amt mb-0">
+                            <div class="stake-amt-txt">
+                                Claimed Token Count
+                            </div>
+                            <div class="stake-rupees">
+                                64
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn-black">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

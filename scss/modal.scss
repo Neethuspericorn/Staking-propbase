@@ -1012,5 +1012,85 @@
 }
 
 .claim-reward-modal{
-    
+    @media (min-width: 992px){
+        .modal-dialog, .modal-xl {
+            max-width: 600px;
+        }
+    }
+    .claim-reward-modal-body{
+        padding: 0 60px 50px;
+        .modal-title{
+            h4{
+                color: $primary-dark;
+                display: flex;
+                align-items: center;
+                font-size: 21px;
+                font-weight: 600;
+                .title-icon{
+                    width: 58px;
+                    height: 58px;
+                    flex-shrink: 0;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #F3F4FA;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .claim-count-block{
+            padding-top: 25px;
+            p{
+                color: #697F9B;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            h4{
+                color: $primary-dark;
+                font-size: 23px;
+                font-weight: 600;
+            }
+        }
+        .btn-otr{
+            padding-top: 40px;
+            .claim-btn{
+                width: 100%;
+                background-color: $success-green;
+                color: $primary-light;
+                transition: .3s;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+@media($sm-1441){
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4{
+        font-size: 19px;
+    }
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
+        width: 55px;
+        height: 55px;
+        img{
+            width: 26px;
+        }
+    }
+}
+@media($sm-991){
+    .claim-reward-modal .claim-reward-modal-body {
+        padding: 0 35px 40px;
+    }
+}
+@media($sm-579){
+    .claim-reward-modal .claim-reward-modal-body .claim-count-block h4{
+        font-size: 21px;
+    }
+}
+@media($sm-479){
+    .claim-reward-modal .claim-reward-modal-body {
+        padding: 0 15px 30px;
+    }
 }
