@@ -223,4 +223,37 @@
 .td-text-nowrap {
   white-space: nowrap; }
 
+.table-no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10vh 15px; }
+  .table-no-data p {
+    padding-top: 15px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0; }
+
+@media (max-width: 1679px) {
+  .table-no-data .img-block img {
+    width: 105px; }
+
+  .table-no-data p {
+    font-size: 14px; } }
+@media (max-width: 1481px) {
+  .table-no-data .img-block img {
+    width: 95px; }
+
+  .table-no-data p {
+    font-size: 13px; } }
+@media (max-width: 991px) {
+  .table-no-data .img-block img {
+    width: 80px; } }
+@media (max-width: 767px) {
+  .table-no-data .img-block img {
+    width: 65px; } }
+
 /*# sourceMappingURL=table.css.map */

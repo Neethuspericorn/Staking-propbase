@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
     <div class="body-wrapper">
@@ -349,7 +350,7 @@
                                                     <td class="txt-light">30%</td>
                                                     <td class="txt-grn">3500</td>
                                                     <td>
-                                                        <button class="btn-def claim-btn">Claim</button>
+                                                        <button class="btn-def claim-btn" data-bs-toggle="modal" data-bs-target="#claimRewardModal">Claim</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -552,17 +553,40 @@
                             </div>
                         </div>
 
-                        
-
                     </div>
                 </div>
-               
-                
+                               
             </div>
-
         </div>
     </div>
+
+    <!-- claimRewardModal -->
+    <div class="modal fade custom-modal claim-reward-modal show" style="display: block; background-color: #ddd;"
+        id="claimRewardModal" tabindex="-1" aria-labelledby="claimRewardModalLabel">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="crate-stake-modal-body">
+                        <div class="modal-title">
+                            <h4>
+                                Are you sure you want to Allocate 120 rewards?
+                            </h4>
+                        </div>
     
+                        <div class="text-center btn-otr">
+                            <button class="btn-cancel">Cancel</button>
+                            <button class="btn-black">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
