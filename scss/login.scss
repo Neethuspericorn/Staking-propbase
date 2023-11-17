@@ -26,6 +26,7 @@
         @media(max-width:1679px)
         {
             padding: 55px 74px 30px;
+            width:630px;
         }
         @media(max-width:991px)
         {
@@ -95,6 +96,10 @@
                     color: #fff;
                     padding: 7px 44px 7px 56px;
                     box-shadow: none !important;
+                    &::placeholder
+                    {
+                        color: #5E6C84;
+                    }
                     @media(max-width:1679px)
                     {
                         height: 50px;
