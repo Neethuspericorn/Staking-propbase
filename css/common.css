@@ -605,4 +605,7 @@ button {
 .progress-bar-block .range-value {
   font-weight: 600; }
 
+.progress-bar {
+  background-color: #0dad4d !important; }
+
 /*# sourceMappingURL=common.css.map */

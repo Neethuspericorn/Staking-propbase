@@ -579,4 +579,7 @@
         .stake-modal .modal-body .policy-stake .policy-text {
           font-size: 11px; } }
 
+.card-section-outer .top-block .progress-bar-section .progress-bar-block .progress {
+  height: 8px; }
+
 /*# sourceMappingURL=staking.css.map */
