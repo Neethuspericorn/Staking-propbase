@@ -598,5 +598,11 @@ button {
 @media (max-width: 767px) {
   .table-no-data .img-block img {
     width: 65px; } }
+.progress-bar-block .progress-bar {
+  border-radius: 5px; }
+.progress-bar-block .progress {
+  background-color: #E3E4F3; }
+.progress-bar-block .range-value {
+  font-weight: 600; }
 
 /*# sourceMappingURL=common.css.map */

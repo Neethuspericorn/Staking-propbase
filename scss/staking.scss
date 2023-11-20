@@ -330,13 +330,17 @@
         }
         .progress-bar-section {
             display: flex;
-            justify-content: space-between;
             margin-top: 8px;
             margin-bottom: 12px;
+            .progress-bar-block{
+                flex: 1 1 auto;
+            }
             .progress-count {
+                flex: 0 0 auto;
                 color:$success-green;
                 font-weight: 600;
                 font-size: 15px;
+                padding-left: 15px;
                 @media(max-width:1679px)
                 {
                     font-size: 13px;

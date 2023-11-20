@@ -734,3 +734,17 @@ button{
         width: 65px;
     }
 }
+
+
+// Range block
+.progress-bar-block{
+    .progress-bar{
+        border-radius: 5px;
+    }
+    .progress{
+        background-color: #E3E4F3;
+    }
+    .range-value{
+        font-weight: 600;
+    }
+}

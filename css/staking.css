@@ -231,13 +231,16 @@
           font-size: 16px; } }
   .card-section-outer .top-block .progress-bar-section {
     display: flex;
-    justify-content: space-between;
     margin-top: 8px;
     margin-bottom: 12px; }
+    .card-section-outer .top-block .progress-bar-section .progress-bar-block {
+      flex: 1 1 auto; }
     .card-section-outer .top-block .progress-bar-section .progress-count {
+      flex: 0 0 auto;
       color: #0DAD4D;
       font-weight: 600;
-      font-size: 15px; }
+      font-size: 15px;
+      padding-left: 15px; }
       @media (max-width: 1679px) {
         .card-section-outer .top-block .progress-bar-section .progress-count {
           font-size: 13px; } }
