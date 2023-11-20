@@ -59,6 +59,9 @@
             width: 137px;
             margin: 0 5px;
             transition: .3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             &:hover{
                 opacity: .8;
             }
@@ -142,13 +145,17 @@
     .custom-modal .inp-block-modal {
         margin-bottom: 25px;
     }
-}
-@media($sm-1441){
     .custom-modal .modal-title h2 {
         margin-bottom: 20px;
     }
     .custom-modal .inp-block-modal .custom-inp{
         padding: 8px 18px;
+    }
+    .custom-modal .inp-block-modal textarea{
+        height: 85px;
+    }
+    .custom-modal .inp-block-modal .form-label{
+        font-size: 13px;
     }
 }
 @media($sm-579){
@@ -513,7 +520,7 @@
     .crate-stake-modal-body{
         padding: 15px 64px 70px;
         @media($sm-1679){
-            padding: 15px 60px 40px;
+            padding: 0 60px 40px;
         }
         @media($sm-1199){
             padding: 0 40px 30px;
