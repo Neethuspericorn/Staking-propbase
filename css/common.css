@@ -608,4 +608,8 @@ button {
 .progress-bar {
   background-color: #0dad4d !important; }
 
+.spinner-border {
+  width: 25px;
+  height: 25px; }
+
 /*# sourceMappingURL=common.css.map */

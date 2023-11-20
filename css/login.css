@@ -78,6 +78,7 @@
         height: 60px;
         margin-top: 15px;
         color: #fff !important;
+        -webkit-text-fill-color: #fff !important;
         padding: 7px 44px 7px 56px;
         box-shadow: none !important; }
         .login-wrapper .login-left-block .form-group .input-group .form-control::placeholder {
@@ -120,7 +121,10 @@
       border-radius: 35px;
       height: 60px;
       font-weight: 500;
-      font-size: 20px; }
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
       @media (max-width: 1679px) {
         .login-wrapper .login-left-block .form-group .login-btn {
           margin-top: 30px;
@@ -368,7 +372,10 @@
         height: 52px;
         padding: 15px 15px;
         min-width: 155px;
-        border-radius: 50px; }
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
         @media (max-width: 575px) {
           .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
             width: 100%;

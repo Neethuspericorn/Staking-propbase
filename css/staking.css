@@ -232,7 +232,8 @@
   .card-section-outer .top-block .progress-bar-section {
     display: flex;
     margin-top: 8px;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    align-items: center; }
     .card-section-outer .top-block .progress-bar-section .progress-bar-block {
       flex: 1 1 auto; }
     .card-section-outer .top-block .progress-bar-section .progress-count {
