@@ -612,4 +612,7 @@ button {
   width: 25px;
   height: 25px; }
 
+.not-allowed {
+  cursor: not-allowed !important; }
+
 /*# sourceMappingURL=common.css.map */
