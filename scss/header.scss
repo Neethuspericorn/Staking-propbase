@@ -502,7 +502,7 @@
     }
 }
 @media($sm-767){
-    .header-wrapper .header-btn-web, .wallet-btn-cover-web{
+    .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web{
         display: none;
     }
 }
@@ -530,8 +530,11 @@
                 position: static;
             }
             .right-block{
-                margin-top: 12px;
-                padding-top: 15px;
+                margin-top: 0;
+                padding-top: 0;
+                &:before{
+                    display: none;
+                }
             }
         }
     }

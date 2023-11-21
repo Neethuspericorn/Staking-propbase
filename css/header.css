@@ -435,7 +435,7 @@
   .header-wrapper .prof-avt {
     margin-left: 20px; } }
 @media (max-width: 767px) {
-  .header-wrapper .header-btn-web, .wallet-btn-cover-web {
+  .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web {
     display: none; } }
 @media (max-width: 579px) {
   .header-wrapper .right-block .buy-btn {
@@ -459,8 +459,10 @@
       .header-wrapper.header-offline .admin-h-btn-block {
         position: static; }
       .header-wrapper.header-offline .right-block {
-        margin-top: 12px;
-        padding-top: 15px; }
+        margin-top: 0;
+        padding-top: 0; }
+        .header-wrapper.header-offline .right-block:before {
+          display: none; }
 
   .header-wrapper .right-block {
     margin-top: 12px;
