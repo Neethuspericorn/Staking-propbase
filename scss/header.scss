@@ -509,6 +509,7 @@
 @media($sm-579){
     .header-wrapper .right-block .buy-btn{
         margin-right: 0;
+        margin-left: auto;
     }
     .header-wrapper .header-title-block{
         flex: 0 0 auto;
@@ -522,6 +523,16 @@
             top: -50px;
             right: 0;
             z-index: 1;
+        }
+        &.header-offline{
+            position: static;
+            .admin-h-btn-block{
+                position: static;
+            }
+            .right-block{
+                margin-top: 12px;
+                padding-top: 15px;
+            }
         }
     }
     
@@ -546,7 +557,16 @@
         padding-top: 4px;
     }
 }
-@media(max-width: 350px){
+@media(max-width: 360px){
+    .header-wrapper.header-offline {
+        padding: 15px 10px;
+    }
+    .header-wrapper.header-offline .info-block .info-val-end {
+        margin-left: 10px;
+    }
+    .header-wrapper.header-offline .info-block {
+        font-size: 11px;
+    }
     .filter-wrapper .block-left{
         width: 100%;
     }
