@@ -274,9 +274,12 @@
         width: 105px;
     }
 }
-@media(min-width: 992px){
-    .th-w-min-160{
-        width: 160px;
+.th-w-210{
+    width: 160px;
+}
+@media($sm-1679){
+    .th-w-210{
+        width: 170px;
     }
 }
 .td-text-nowrap{

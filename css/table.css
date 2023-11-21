@@ -220,9 +220,12 @@
 
   .th-w-105 {
     width: 105px; } }
-@media (min-width: 992px) {
-  .th-w-min-160 {
-    width: 70px; } }
+.th-w-210 {
+  width: 160px; }
+
+@media (max-width: 1679px) {
+  .th-w-210 {
+    width: 170px; } }
 .td-text-nowrap {
   white-space: nowrap; }
 
