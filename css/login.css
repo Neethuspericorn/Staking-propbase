@@ -328,6 +328,9 @@
   }
 }
 
+.fgt-modal .alert-msg-cover .alert-msg {
+  top: 104% !important;
+}
 .fgt-modal .modal-dialog {
   max-width: 600px !important;
   font-family: "Poppins", sans-serif;
@@ -441,6 +444,11 @@
   padding-left: 53px;
   box-shadow: none !important;
 }
+@media (max-width: 1679px) {
+  .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+    font-size: 15px;
+  }
+}
 @media (max-width: 991px) {
   .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
     height: 50px;
@@ -453,7 +461,8 @@
 }
 @media (max-width: 991px) {
   .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon {
-    top: 48.8px;
+    top: 49px;
+    left: 18px;
   }
 }
 .fgt-modal .modal-dialog .modal-body .form-group .btn-otr {
