@@ -1,0 +1,109 @@
+@import "partials/partials";
+
+$dark-bg: #000;
+$dark-border: #484848;
+$primary-blue: #2966FF;
+$dark-border-2: #696969;
+
+.theme-dark{
+    color: $primary-light;
+    background-color: $dark-bg;
+    // bg dark
+    .nav-block .navbar-collapse-block, .nav-block, .body-wrapper .content-block-outer, 
+    .header-wrapper, .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
+    .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, 
+    .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover
+    {
+        background-color: $dark-bg;
+    }
+    // text light
+    .header-wrapper .info-block, .header-wrapper .header-title-block .live-active, .header-wrapper .wallet-btn, 
+    .header-wrapper .login-btn, .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, 
+    .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .card-sec .h-card-block .join-btn, .welcome-cover
+    {
+        color: $primary-light;
+    }
+
+    // full border color 2
+    .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
+    .header-wrapper .wallet-btn{
+        border-color: $dark-border-2;
+    }
+    // full border
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn{
+        border: solid 1px $dark-border-2;
+    }
+
+    // Blue block
+    .header-wrapper .wallet-btn, .card-sec .h-card-block .join-btn{
+        background-color: $primary-blue;
+    }
+
+    // img white
+
+    .header-wrapper .login-btn img{
+        filter: grayscale(1) invert(1);
+    }
+
+
+    .nav-block{
+        border-right: solid 1px $dark-border;
+        border-top: solid 1px $dark-border;
+    }
+    .header-wrapper{
+        border-bottom: solid 1px $dark-border;
+    }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img{
+        border: solid 1px $dark-border-2;
+        border-radius: 50%;
+    }
+    .property-listing-cover{
+        margin-bottom: 20px;
+        .filter-wrapper{
+            margin-bottom: 0;
+            border-bottom: solid 1px $dark-border;
+        }
+    }
+    .filter-wrapper .filter-nav-btn{
+        border: none;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 0;
+            bottom: -15px;
+            height: 3px;
+            border-radius: 1.5px;
+            background-color: $primary-blue;
+            transition: .3s;
+        }
+        &.active, &:hover{
+            &::after{
+                width: 100%;
+            }
+        }
+    }
+    .card-sec .h-card-block {
+        border: solid 1px $dark-border;
+        .join-btn{
+            border: solid 1px $primary-blue;
+            &:hover{
+                background-color: $primary-light;
+                color: $primary-blue;
+            }
+        }
+    }
+
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link{
+        &::after{
+            background-color: #0C121F;
+        }
+        &.active{
+            color: $primary-blue;
+            img{
+                filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%);
+            }
+        }
+    }
+}

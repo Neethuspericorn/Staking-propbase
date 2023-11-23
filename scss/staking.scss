@@ -731,6 +731,9 @@
             text-align: center;
             line-height: 48px;
             text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             @media(max-width:1679px)
             {
                 height: 50px;
@@ -814,5 +817,26 @@
 .card-section-outer .top-block .progress-bar-section .progress-bar-block{
     .progress{
         height: 8px;
+    }
+}
+
+.progress-bar-section {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    align-items: center;
+    .progress-bar-block{
+        flex: 1 1 auto;
+    }
+    .progress-count {
+        flex: 0 0 auto;
+        color:$success-green;
+        font-weight: 600;
+        font-size: 15px;
+        padding-left: 15px;
+        @media(max-width:1679px)
+        {
+            font-size: 13px;
+        }
     }
 }

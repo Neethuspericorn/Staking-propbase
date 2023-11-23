@@ -278,6 +278,8 @@ button{
     .download-excel-btn{
         display: flex;
         align-items: center;
+        justify-content: center;
+        min-width: 190px;
         border: 1px solid #E3E4F3;
         background: #FFF;
         color: #697F9B;
@@ -290,10 +292,12 @@ button{
         }
         @media($sm-1199){
             padding: 8px 18px;
+            min-width: 175px;
         }
         @media($sm-767){
             width: 40px;
             height: 40px;
+            min-width: auto;
             padding: 0;
             display: inline-flex;
             align-items: center;
