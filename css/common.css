@@ -243,6 +243,9 @@ button {
     padding: 8px 25px;
     font-weight: 400;
     flex-shrink: 0; }
+    .sec-title-block .download-excel-btn .spinner-border {
+      width: 18px;
+      height: 18px; }
     .sec-title-block .download-excel-btn .add-label-web {
       margin-right: 15px; }
     @media (max-width: 1199px) {

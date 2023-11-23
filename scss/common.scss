@@ -287,6 +287,10 @@ button{
         padding: 8px 25px;
         font-weight: 400;
         flex-shrink: 0;
+        .spinner-border{
+            width: 18px;
+            height: 18px;
+        }
         .add-label-web{
             margin-right: 15px;
         }
