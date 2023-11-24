@@ -50,13 +50,16 @@
           padding-left: 0px; } }
       .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name {
         background: #657181;
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
         padding: 6px 17px;
         border-radius: 50px;
         color: #fff;
         margin-bottom: 13px;
         font-size: 14px;
         font-weight: 500; }
+        .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name img {
+          margin-right: 10px; }
         @media (max-width: 1679px) {
           .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name {
             font-size: 12px; } }
