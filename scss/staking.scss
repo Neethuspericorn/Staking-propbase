@@ -342,7 +342,7 @@
             }
             .progress-count {
                 flex: 0 0 auto;
-                color:$success-green;
+                color:$primary-blue;
                 font-weight: 600;
                 font-size: 15px;
                 padding-left: 15px;
@@ -448,10 +448,10 @@
             .btn-stake
             {
                 margin-right:11px;
-                background-color:$success-green;
+                background-color:$primary-blue;
                 color: #fff;
                 padding: 12px 15px;
-                border: solid 1px $success-green;
+                border: solid 1px $primary-blue;
                 width: 50%;
                 text-align: center;
                 text-decoration: none;
@@ -564,7 +564,7 @@
         }
         .lock-period
         {
-            color: #697F9B;
+            color: $text-primary-light;
             font-weight: 500;
             font-size: 16px;
             margin-top: 10px;
@@ -585,14 +585,18 @@
             align-items: stretch;
             width: 100%;
             margin-top:25px;
-            
+            @include placeholder{
+                color: $text-primary-light;
+            }
             .form-control
             {
+                color: $text-primary-dark;
                 border: 1px solid #B4BFCD;
                 border-radius: 50px !important;
                 height: 60px;
                 padding: 20px;
                 font-size:14px;
+                font-weight: 600;
                 @media(max-width:1679px)
                 {
                     height: 50px;
@@ -665,7 +669,7 @@
                 }
                 span
                 {
-                    color: #697F9B;
+                    color: $text-primary-light;
                     font-size: 16px;
                     font-weight: 500;
                     @media(max-width:1679px)
@@ -678,12 +682,14 @@
         }
         .pool-cap-txt
         {
+            color: $text-primary-dark;
             @media(max-width:991px)
             {
                 margin-top: 20px;
             }
             .pool-label
             {
+                color: $text-primary-dark;
                 font-weight: 600;
                 font-size: 16px;
                 @media(max-width:1679px)
@@ -693,6 +699,7 @@
             }
             .pool-cont
             {
+                color: $text-primary-dark;
                 font-weight: 600;
                 font-size: 20px;
                 @media(max-width:1679px)
@@ -707,7 +714,7 @@
             margin-top: 8px;
             margin-bottom: 15px;
             .progress-count {
-                color:$success-green;
+                color:$primary-blue;
                 font-weight: 600;
                 font-size: 15px;
                 @media(max-width:1679px)
@@ -752,6 +759,7 @@
         {
             border-radius: 28px;
             border: 1px solid $border-grey-1;
+            color: $text-primary-dark;
             font-size: 15px;
             font-weight: 500;
             width: 47%;
@@ -759,6 +767,9 @@
             background: #fff;
             margin-right: 10px;
             height: 50px;
+            span{
+                font-weight: 600;
+            }
             @media(max-width:1679px)
             {
                 font-size: 13px;
@@ -834,7 +845,7 @@
     }
     .progress-count {
         flex: 0 0 auto;
-        color:$success-green;
+        color:$primary-blue;
         font-weight: 600;
         font-size: 15px;
         padding-left: 15px;

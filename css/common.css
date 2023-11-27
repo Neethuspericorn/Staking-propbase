@@ -41,7 +41,7 @@ ul, ol {
   padding: 15px; }
 
 .primary-btn {
-  background-color: #292D32;
+  background-color: #2E4276;
   border-radius: 34px;
   color: #fff;
   font-weight: 500;
@@ -54,11 +54,11 @@ ul, ol {
 .btn-border {
   background-color: #fff;
   border-radius: 34px;
-  color: #292D32;
+  color: #2E4276;
   font-weight: 500;
   padding: 10px 15px;
   transition: .3s;
-  border: solid 1px #292D32 !important; }
+  border: solid 1px #2E4276 !important; }
   .btn-border:hover {
     opacity: .8; }
 
@@ -66,7 +66,7 @@ ul, ol {
   text-decoration: none;
   display: inline-block;
   border-radius: 34px;
-  color: #292D32;
+  color: #2E4276;
   font-weight: 500;
   padding: 10px 15px;
   transition: .3s ease-in-out;
@@ -97,9 +97,9 @@ button {
   box-shadow: none;
   border: none; }
 
-select, input {
+select, input, textarea {
   outline: none;
-  box-shadow: none; }
+  box-shadow: none !important; }
 
 .btn-check:checked + .btn, .btn:first-child:active, :not(.btn-check) + .btn:active {
   color: inherit;
@@ -141,7 +141,7 @@ button {
       background: #F7F7FC; }
     .filter-wrapper .filter-nav-btn.active {
       font-weight: 500;
-      color: #292D32; }
+      color: #2E4276; }
 
 @media (max-width: 1679px) {
   .filter-wrapper .filter-nav-btn {
@@ -294,7 +294,7 @@ button {
     outline: none !important;
     border: none !important; }
   .title-search-box .input-group .form-control {
-    color: #292D32;
+    color: #2E4276;
     font-size: 14px;
     padding-left: 25px; }
 
@@ -369,7 +369,7 @@ button {
   box-shadow: none;
   font-size: 16px;
   font-weight: 500;
-  color: #292D32;
+  color: #2E4276;
   padding: 0 25px;
   outline: none; }
   @media (max-width: 1679px) {
@@ -451,7 +451,7 @@ button {
       margin-bottom: 0;
       font-style: normal;
       font-weight: 500;
-      color: #292D32; }
+      color: #2E4276; }
   .filter-dropdown-menu .filter-form-content .custom-input-group {
     background-color: #fff; }
   .filter-dropdown-menu .filter-form-content .inp-cover {
@@ -470,7 +470,7 @@ button {
       margin-bottom: 15px; }
       .filter-dropdown-menu .filter-form-content .price-range-block .price-title .value {
         font-weight: 600;
-        color: #292D32; }
+        color: #2E4276; }
   .filter-dropdown-menu .filter-form-content .btn-block {
     border-top: solid 1px #E3E4F3;
     padding: 25px;
@@ -485,12 +485,12 @@ button {
       .filter-dropdown-menu .filter-form-content .btn-block .btn:hover {
         opacity: .8; }
       .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-reset {
-        border: 1px solid #292D32;
+        border: 1px solid #2E4276;
         background: #FFF; }
       .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-save {
         color: #fff;
-        border: 1px solid #292D32;
-        background: #292D32; }
+        border: 1px solid #2E4276;
+        background: #2E4276; }
 
 @media (max-width: 1679px) {
   .filter-dropdown-group .filter-dropdown-btn {

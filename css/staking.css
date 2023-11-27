@@ -241,7 +241,7 @@
       flex: 1 1 auto; }
     .card-section-outer .top-block .progress-bar-section .progress-count {
       flex: 0 0 auto;
-      color: #0DAD4D;
+      color: #2966FF;
       font-weight: 600;
       font-size: 15px;
       padding-left: 15px; }
@@ -255,7 +255,7 @@
         flex-direction: column; } }
   .card-section-outer .top-block .btn-default {
     border-radius: 28px;
-    border: 1px solid #B4BFCD;
+    border: 1px solid #B6C3E5;
     font-size: 15px;
     font-weight: 500;
     width: 47%;
@@ -320,10 +320,10 @@
         flex-direction: column; } }
     .card-section-outer .bottom-block .btn-outr .btn-stake {
       margin-right: 11px;
-      background-color: #0DAD4D;
+      background-color: #2966FF;
       color: #fff;
       padding: 12px 15px;
-      border: solid 1px #0DAD4D;
+      border: solid 1px #2966FF;
       width: 50%;
       text-align: center;
       text-decoration: none;
@@ -341,7 +341,7 @@
       background: #fff;
       color: #697F9B;
       padding: 12px 15px;
-      border: 1px solid #B4BFCD;
+      border: 1px solid #B6C3E5;
       width: 50%;
       text-align: center;
       text-decoration: none;
@@ -398,7 +398,7 @@
     height: 38px;
     margin-right: 8px; }
   .stake-modal .modal-body .lock-period {
-    color: #697F9B;
+    color: #8393BA;
     font-weight: 500;
     font-size: 16px;
     margin-top: 10px;
@@ -416,12 +416,22 @@
     align-items: stretch;
     width: 100%;
     margin-top: 25px; }
+    .stake-modal .modal-body .input-group ::-webkit-input-placeholder {
+      color: #8393BA; }
+    .stake-modal .modal-body .input-group :-moz-placeholder {
+      color: #8393BA; }
+    .stake-modal .modal-body .input-group ::-moz-placeholder {
+      color: #8393BA; }
+    .stake-modal .modal-body .input-group :-ms-input-placeholder {
+      color: #8393BA; }
     .stake-modal .modal-body .input-group .form-control {
+      color: #2E4276;
       border: 1px solid #B4BFCD;
       border-radius: 50px !important;
       height: 60px;
       padding: 20px;
-      font-size: 14px; }
+      font-size: 14px;
+      font-weight: 600; }
       @media (max-width: 1679px) {
         .stake-modal .modal-body .input-group .form-control {
           height: 50px; } }
@@ -476,34 +486,38 @@
       .stake-modal .modal-body .rwd-inner .detail-outer img {
         margin-right: 5px; }
       .stake-modal .modal-body .rwd-inner .detail-outer span {
-        color: #697F9B;
+        color: #8393BA;
         font-size: 16px;
         font-weight: 500; }
         @media (max-width: 1679px) {
           .stake-modal .modal-body .rwd-inner .detail-outer span {
             font-size: 13px; } }
-  @media (max-width: 991px) {
-    .stake-modal .modal-body .pool-cap-txt {
-      margin-top: 20px; } }
-  .stake-modal .modal-body .pool-cap-txt .pool-label {
-    font-weight: 600;
-    font-size: 16px; }
-    @media (max-width: 1679px) {
-      .stake-modal .modal-body .pool-cap-txt .pool-label {
-        font-size: 13px; } }
-  .stake-modal .modal-body .pool-cap-txt .pool-cont {
-    font-weight: 600;
-    font-size: 20px; }
-    @media (max-width: 1679px) {
-      .stake-modal .modal-body .pool-cap-txt .pool-cont {
-        font-size: 16px; } }
+  .stake-modal .modal-body .pool-cap-txt {
+    color: #2E4276; }
+    @media (max-width: 991px) {
+      .stake-modal .modal-body .pool-cap-txt {
+        margin-top: 20px; } }
+    .stake-modal .modal-body .pool-cap-txt .pool-label {
+      color: #2E4276;
+      font-weight: 600;
+      font-size: 16px; }
+      @media (max-width: 1679px) {
+        .stake-modal .modal-body .pool-cap-txt .pool-label {
+          font-size: 13px; } }
+    .stake-modal .modal-body .pool-cap-txt .pool-cont {
+      color: #2E4276;
+      font-weight: 600;
+      font-size: 20px; }
+      @media (max-width: 1679px) {
+        .stake-modal .modal-body .pool-cap-txt .pool-cont {
+          font-size: 16px; } }
   .stake-modal .modal-body .progress-bar-section {
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
     margin-bottom: 15px; }
     .stake-modal .modal-body .progress-bar-section .progress-count {
-      color: #0DAD4D;
+      color: #2966FF;
       font-weight: 600;
       font-size: 15px; }
       @media (max-width: 1679px) {
@@ -535,7 +549,8 @@
     background: #DFAB45; }
   .stake-modal .modal-body .btn-default {
     border-radius: 28px;
-    border: 1px solid #B4BFCD;
+    border: 1px solid #B6C3E5;
+    color: #2E4276;
     font-size: 15px;
     font-weight: 500;
     width: 47%;
@@ -543,6 +558,8 @@
     background: #fff;
     margin-right: 10px;
     height: 50px; }
+    .stake-modal .modal-body .btn-default span {
+      font-weight: 600; }
     @media (max-width: 1679px) {
       .stake-modal .modal-body .btn-default {
         font-size: 13px;
@@ -598,7 +615,7 @@
     flex: 1 1 auto; }
   .progress-bar-section .progress-count {
     flex: 0 0 auto;
-    color: #0DAD4D;
+    color: #2966FF;
     font-weight: 600;
     font-size: 15px;
     padding-left: 15px; }
