@@ -542,35 +542,37 @@
                         <button class="btn-default btn-duration">Duration:3 Months</button>
                     </div>
                     <div class="lock-period">
-                       Lock-In Period : 01 May to 01 June
+                       Lock-In Period : <span>01 May to 01 June</span>
                     </div>
                     <div class="form-group">
-                        <div class="input-group">                         
+                        <div class="input-group alert-msg-cover">
                             <input type="text" class="form-control" placeholder="0.01">
                             <div class="badges">
                                 <div class="num-badge">25%</div>
-                                <div class="num-badge">25%</div>
-                                <div class="num-badge">Max</div>
+                                <div class="num-badge">50%</div>
+                                <div class="num-badge">75%</div>
+                                <div class="num-badge max-active">Max</div>
                             </div>
+                            <span class="alert-msg">Required *</span>
                         </div>
                     </div>
                     <div class="rwd-inner">
                         <div class="detail-outer">
-                        <div class="img-sec">
-                            <img src="img/reward-icon.svg">
-                        </div> 
-                        <div class="prop-sec">
-                            <span>Expected Rewards :</span>
-                            <span>1,000</span>
+                            <div class="img-sec">
+                                <img src="img/reward-icon.svg">
+                            </div>
+                            <div class="prop-sec">
+                                <span>Expected Rewards :</span>
+                                <span class="cnt">1,000</span>
+                            </div>
                         </div>
-                    </div>
                         <div class="detail-outer">
                             <div class="img-sec">
                                 <img src="img/wallet.svg">
-                           </div> 
-                           <div class="prop-sec">
+                            </div>
+                            <div class="prop-sec">
                                 <span>Available $Props :</span>
-                                <span>34,000,000</span>
+                                <span class="cnt">34,000,000</span>
                             </div>
                         </div>
                     </div>
@@ -600,7 +602,7 @@
         </div>
        </div>
        <!-- withdraw modal -->
-       <div class="modal fade custom-modal stake-modal show" style="display: block; background-color: #ddd;" id="unstakingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal fade custom-modal stake-modal" id="unstakingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -631,40 +633,60 @@
                         <button class="btn-default btn-duration">Duration: <span>3 Months</span></button>
                     </div>
                     <div class="lock-period">
-                       Lock-In Period : 01 May to 01 June
+                       Lock-In Period : <span>01 May to 01 June</span>
                     </div>
                     <div class="form-group">
-                        <div class="input-group">                         
+                        <div class="input-group alert-msg-cover">                         
                             <input type="text" class="form-control" placeholder="0.01">
                             <div class="badges">
                                 <div class="num-badge">25%</div>
-                                <div class="num-badge">25%</div>
+                                <div class="num-badge">50%</div>
+                                <div class="num-badge">75%</div>
                                 <div class="num-badge max-active">Max</div>
                             </div>
+                            <span class="alert-msg">Required *</span>
                         </div>
                     </div>
-                    <div class="rwd-inner">
+                    <div class="rwd-inner rwd-col-inner">
                         <div class="detail-outer">
                             <div class="img-sec">
                                 <img src="img/reward-icon.svg">
                             </div> 
                             <div class="prop-sec">
-                                <span class="prop-label">Estimated Penalty (5%):</span>
-                                <span class="props-col">15,111 $PROPS</span>
+                                <span class="prop-label">Unstake $PROPS</span>
                             </div>
+                            <div class="props-col">1354.546546</div>
                         </div>
                         <div class="detail-outer">
                             <div class="img-sec">
-                                 <img src="img/wallet.svg">
+                                <img src="img/penalty.svg">
                             </div> 
                             <div class="prop-sec">
-                                <span class="prop-label">Stacked $Props :</span>
-                                <span class="prop-num">34,000,000</span>
+                                <span class="prop-label">Penalty (5%)</span>
                             </div>
+                            <div class="props-col">5.564564 $PROPS</div>
+                        </div>
+                        <div class="detail-outer">
+                            <div class="img-sec">
+                                <img src="img/wallet.svg">
+                            </div> 
+                            <div class="prop-sec">
+                                <span class="prop-label">Staked $PROPS</span>
+                            </div>
+                            <div class="props-col">150.525252</div>
+                        </div>
+                        <div class="detail-outer">
+                            <div class="img-sec">
+                                <img src="img/avail-rewards.svg">
+                            </div> 
+                            <div class="prop-sec">
+                                <span class="prop-label">Staked $PROPS</span>
+                            </div>
+                            <div class="props-col">150.525252</div>
                         </div>
                     </div>
                     <div class="btn-otr">
-                        <a href="#" class="btn-stake withdraw-btn">Withdraw</a>
+                        <a href="#" class="btn-stake withdraw-btn">Unstake</a>
                     </div>
                     <div class="policy-stake">
                         <div class="head-policy">

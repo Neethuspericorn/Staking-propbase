@@ -399,10 +399,11 @@
     margin-right: 8px; }
   .stake-modal .modal-body .lock-period {
     color: #8393BA;
-    font-weight: 500;
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px; }
+    .stake-modal .modal-body .lock-period span {
+      font-weight: 500; }
     @media (max-width: 1679px) {
       .stake-modal .modal-body .lock-period {
         font-size: 14px; } }
@@ -415,7 +416,8 @@
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
-    margin-top: 25px; }
+    margin-top: 25px;
+    margin-bottom: 20px; }
     .stake-modal .modal-body .input-group ::-webkit-input-placeholder {
       color: #8393BA; }
     .stake-modal .modal-body .input-group :-moz-placeholder {
@@ -450,8 +452,9 @@
           top: 9px; } }
       .stake-modal .modal-body .input-group .badges .num-badge {
         border-radius: 25px;
-        background: #EFF0F9;
         padding: 9px 28px;
+        border: solid 1px #B6C3E5;
+        color: #2E4276;
         margin-right: 8px;
         font-size: 14px;
         font-weight: 500;
@@ -466,7 +469,7 @@
             font-size: 11px;
             margin-right: 4px; } }
       .stake-modal .modal-body .input-group .badges .max-active {
-        background: #0DAD4D;
+        background: #2966FF;
         color: #fff; }
   .stake-modal .modal-body .rwd-inner {
     margin-top: 25px;
@@ -484,7 +487,8 @@
         .stake-modal .modal-body .rwd-inner .detail-outer {
           margin-bottom: 16px; } }
       .stake-modal .modal-body .rwd-inner .detail-outer img {
-        margin-right: 5px; }
+        margin-right: 15px;
+        max-width: 19px; }
       .stake-modal .modal-body .rwd-inner .detail-outer span {
         color: #8393BA;
         font-size: 16px;
@@ -492,6 +496,22 @@
         @media (max-width: 1679px) {
           .stake-modal .modal-body .rwd-inner .detail-outer span {
             font-size: 13px; } }
+      .stake-modal .modal-body .rwd-inner .detail-outer .cnt {
+        color: #2E4276;
+        font-weight: 600; }
+      .stake-modal .modal-body .rwd-inner .detail-outer .props-col, .stake-modal .modal-body .rwd-inner .detail-outer .prop-num {
+        font-weight: 600;
+        color: #2E4276; }
+    .stake-modal .modal-body .rwd-inner.rwd-col-inner {
+      display: flex;
+      flex-wrap: wrap; }
+      .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer {
+        width: 50%;
+        flex-wrap: wrap;
+        margin-bottom: 30px; }
+        .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col {
+          padding-top: 6px;
+          width: 100%; }
   .stake-modal .modal-body .pool-cap-txt {
     color: #2E4276; }
     @media (max-width: 991px) {
@@ -530,7 +550,7 @@
         flex-direction: column; } }
   .stake-modal .modal-body .btn-stake {
     border-radius: 24px;
-    background: #0DAD4D;
+    background: #2966FF;
     color: #fff;
     display: inline-block;
     width: 100%;
@@ -540,7 +560,10 @@
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    transition: .3s; }
+    .stake-modal .modal-body .btn-stake:hover {
+      opacity: .8; }
     @media (max-width: 1679px) {
       .stake-modal .modal-body .btn-stake {
         height: 50px;
