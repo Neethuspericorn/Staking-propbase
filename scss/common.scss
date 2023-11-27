@@ -16,7 +16,8 @@ ul,ol{
         z-index: 1001;
     }
     .content-block-outer{
-        background: #F7F7FC;
+        background: #F3F4FA;
+        // background: #F7F7FC;
         flex: 1 1 auto;
         transition: .3s;
         max-width: calc(100% - 300px);
@@ -142,18 +143,30 @@ button{
         min-width: 120px;
         padding: 10px 15px;
         font-size: 14px;
-        border-radius: 20px;
-        border: 1px solid #E3E4F3;
         background: $primary-light;
-        color: #7F97B5;
+        color: $input-text-color;
         transition: .3s;
         margin-right: 15px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -14px;
+            border-radius: 1.5px;
+            width: 0;
+            height: 3px;
+            display: block;
+            transition: .3s ease-in-out;
+            background-color: $primary-blue;
+        }
         &:last-child{
             margin-right: 0;
         }
         &:hover, &.active{
-            border: 0.9px solid #292D32;
-            background: #F7F7FC;
+            &::after{
+                width: 100%;
+            }
         }
         &.active{
             font-weight: 500;

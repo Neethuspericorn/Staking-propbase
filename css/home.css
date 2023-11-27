@@ -77,16 +77,17 @@
       margin-bottom: 20px;
       font-weight: 600; }
     .card-sec .h-card-block p {
+      color: #4D6090;
       font-size: 14px; }
     .card-sec .h-card-block .join-btn {
       width: 100%;
-      background-color: #0DAD4D;
+      background-color: #2966FF;
       color: #fff;
       padding: 12px 15px;
-      border: solid 1px #0DAD4D; }
+      border: solid 1px #2966FF; }
       .card-sec .h-card-block .join-btn:hover {
         background-color: #fff;
-        color: #0DAD4D; }
+        color: #2966FF; }
 
 @media (max-width: 1679px) {
   .card-sec .h-card-block {

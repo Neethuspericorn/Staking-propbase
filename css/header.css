@@ -27,7 +27,11 @@
       white-space: unset;
       max-width: none;
       opacity: 1 !important;
-      color: #019419; }
+      color: #019419;
+      background-color: #fff;
+      border: solid 1px #4D6090;
+      color: #4D6090;
+      font-weight: 500; }
       .header-wrapper .header-title-block .live-active .status {
         width: 8px;
         height: 8px;
@@ -41,8 +45,9 @@
     .header-wrapper .right-block .buy-btn {
       flex-shrink: 0;
       max-width: none;
-      background-color: #2E4276;
-      color: #fff;
+      background-color: #fff;
+      color: #4D6090;
+      border: solid 1px #4D6090;
       width: 185px;
       margin-right: 15px; }
       @media (max-width: 1200px) {
@@ -159,18 +164,22 @@
         max-height: 40px;
         padding: 7px 18px 7px 13px;
         border-radius: 20px;
-        background: #F3F4FA;
+        background: #E8EFFF;
         border: none;
         display: flex;
         align-items: center;
         font-size: 14px;
-        color: #2E4276; }
+        color: #4D6090; }
         .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-label {
           margin-left: 10px;
           margin-right: 8px; }
         .header-wrapper .right-block .my-acc-dropdown .my-acc-btn::after {
           margin-left: auto;
-          margin-right: 10px; }
+          margin-right: 10px;
+          border-top-color: #4D6090;
+          border-top: 0.4em solid;
+          border-right: 0.4em solid transparent;
+          border-left: 0.4em solid transparent; }
       .header-wrapper .right-block .my-acc-dropdown .dropdown-menu {
         border-radius: 10px;
         background: #FFF;
@@ -192,7 +201,7 @@
             background: #F0F1F9; }
   .header-wrapper .info-block {
     font-size: 16px;
-    color: #2E4276;
+    color: #4D6090;
     margin-right: 40px; }
     .header-wrapper .info-block .info-label {
       font-weight: 600; }
@@ -212,8 +221,8 @@
       background-color: #F0F0F8; }
   .header-wrapper .wallet-btn {
     border-radius: 20px;
-    border: 1px solid #000;
-    background: #fff;
+    color: #fff;
+    background: #2966FF;
     padding: 8px 30px;
     font-size: 14px;
     transition: .3s;
@@ -227,14 +236,13 @@
     margin-left: 15px;
     border-radius: 20px;
     border: none;
-    border: solid 1px #F3F4FA;
-    background: #F3F4FA;
+    background: #E8EFFF;
     padding: 8px 30px;
     transition: .3s;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #292D32;
+    color: #4D6090;
     font-size: 14px; }
     .header-wrapper .login-btn img {
       margin-left: 25px; }

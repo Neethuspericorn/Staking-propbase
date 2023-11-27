@@ -85,17 +85,18 @@
             font-weight: 600;
         }
         p{
+            color: $input-text-color;
             font-size: 14px;
         }
         .join-btn{
             width: 100%;
-            background-color: #0DAD4D;
+            background-color: $primary-blue;
             color: $primary-light;
             padding: 12px 15px;
-            border: solid 1px #0DAD4D;
+            border: solid 1px $primary-blue;
             &:hover{
                 background-color: $primary-light;
-                color: #0DAD4D;
+                color: $primary-blue;
             }
         }
     }
