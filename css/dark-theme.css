@@ -11,105 +11,135 @@
 /* placeholder mixin */
 .theme-dark {
   color: #fff;
-  background-color: #000; }
-  .theme-dark .nav-block .navbar-collapse-block, .theme-dark .nav-block, .theme-dark .body-wrapper .content-block-outer,
-  .theme-dark .header-wrapper, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-  .theme-dark .header-wrapper .wallet-btn, .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
-  .theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
-  .theme-dark .portfolio-sec .portfolio-card
-   {
-    background-color: #000; }
-  .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
-  .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
-  .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .card-sec .h-card-block .join-btn, .theme-dark .welcome-cover,
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p,
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn,
-  .theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block h2,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-label,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val,
-  .theme-dark .portfolio-sec .portfolio-card .card-table th, .theme-dark .portfolio-sec .portfolio-card .card-table td
-   {
-    color: #fff; }
-  .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-  .theme-dark .header-wrapper .wallet-btn {
-    border-color: #4E4E4E; }
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card {
-    border: solid 1px #4E4E4E; }
-  .theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
-    background-color: #2966FF; }
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
-    color: #2966FF; }
-  .theme-dark .header-wrapper .login-btn img, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img {
-    filter: grayscale(1) invert(1) brightness(2); }
-  .theme-dark .nav-block {
-    border-right: solid 1px #484848;
-    border-top: solid 1px #484848; }
-  .theme-dark .header-wrapper {
-    border-bottom: solid 1px #484848; }
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
-    border: solid 1px #4E4E4E;
-    border-radius: 50%; }
-  .theme-dark .property-listing-cover {
-    margin-bottom: 20px; }
-    .theme-dark .property-listing-cover .filter-wrapper {
-      margin-bottom: 0;
-      border-bottom: solid 1px #484848; }
-  .theme-dark .filter-wrapper .filter-nav-btn {
-    border: none;
-    position: relative; }
-    .theme-dark .filter-wrapper .filter-nav-btn::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      width: 0;
-      bottom: -15px;
-      height: 3px;
-      border-radius: 1.5px;
-      background-color: #2966FF;
-      transition: .3s; }
-    .theme-dark .filter-wrapper .filter-nav-btn.active::after, .theme-dark .filter-wrapper .filter-nav-btn:hover::after {
-      width: 100%; }
-  .theme-dark .card-sec .h-card-block {
-    border: solid 1px #484848; }
-    .theme-dark .card-sec .h-card-block .join-btn {
-      border: solid 1px #2966FF; }
-      .theme-dark .card-sec .h-card-block .join-btn:hover {
-        background-color: #fff;
-        color: #2966FF; }
-  .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link::after {
-    background-color: #0C121F; }
-  .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active {
-    color: #2966FF; }
-    .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active img {
-      filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%); }
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover,
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn {
-    background-color: #151618; }
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn:hover, .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn.active {
-    background-color: #2B2C2E; }
-  .theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td {
-    border: none;
-    border-bottom: solid 1px #191919; }
-  .theme-dark .portfolio-sec .lg-graph {
-    border: solid 1px #4E4E4E; }
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
-    background-color: #2B2C2E; }
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover {
-    border-color: #696969; }
-  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title {
-    background-color: #202020; }
-  .theme-dark .portfolio-sec .portfolio-card .card-table th {
-    background-color: #1A1A1B; }
-  .theme-dark .portfolio-sec .portfolio-card .card-table td {
-    border: none;
-    border-bottom: solid 1px #191919; }
-  .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child::after,
-  .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after {
-    display: none; }
+  background-color: #000;
+}
+.theme-dark .nav-block .navbar-collapse-block, .theme-dark .nav-block, .theme-dark .body-wrapper .content-block-outer,
+.theme-dark .header-wrapper, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
+.theme-dark .header-wrapper .wallet-btn, .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
+.theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
+.theme-dark .portfolio-sec .portfolio-card {
+  background-color: #000;
+}
+.theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
+.theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
+.theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .card-sec .h-card-block .join-btn, .theme-dark .welcome-cover,
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p,
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn,
+.theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block h2,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-label,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val,
+.theme-dark .portfolio-sec .portfolio-card .card-table th, .theme-dark .portfolio-sec .portfolio-card .card-table td {
+  color: #fff;
+}
+.theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
+.theme-dark .header-wrapper .wallet-btn {
+  border-color: #4E4E4E;
+}
+.theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card {
+  border: solid 1px #4E4E4E;
+}
+.theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
+  background-color: #2966FF;
+}
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
+  color: #2966FF;
+}
+.theme-dark .header-wrapper .login-btn img, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img {
+  filter: grayscale(1) invert(1) brightness(2);
+}
+.theme-dark .nav-block {
+  border-right: solid 1px #484848;
+  border-top: solid 1px #484848;
+}
+.theme-dark .header-wrapper {
+  border-bottom: solid 1px #484848;
+}
+.theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
+  border: solid 1px #4E4E4E;
+  border-radius: 50%;
+}
+.theme-dark .property-listing-cover {
+  margin-bottom: 20px;
+}
+.theme-dark .property-listing-cover .filter-wrapper {
+  margin-bottom: 0;
+  border-bottom: solid 1px #484848;
+}
+.theme-dark .filter-wrapper .filter-nav-btn {
+  border: none;
+  position: relative;
+}
+.theme-dark .filter-wrapper .filter-nav-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  bottom: -15px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #2966FF;
+  transition: 0.3s;
+}
+.theme-dark .filter-wrapper .filter-nav-btn.active::after, .theme-dark .filter-wrapper .filter-nav-btn:hover::after {
+  width: 100%;
+}
+.theme-dark .card-sec .h-card-block {
+  border: solid 1px #484848;
+}
+.theme-dark .card-sec .h-card-block .join-btn {
+  border: solid 1px #2966FF;
+}
+.theme-dark .card-sec .h-card-block .join-btn:hover {
+  background-color: #fff;
+  color: #2966FF;
+}
+.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link::after {
+  background-color: #0C121F;
+}
+.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active {
+  color: #2966FF;
+}
+.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active img {
+  filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%);
+}
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover,
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn {
+  background-color: #151618;
+}
+.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn:hover, .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn.active {
+  background-color: #2B2C2E;
+}
+.theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td {
+  border: none;
+  border-bottom: solid 1px #191919;
+}
+.theme-dark .portfolio-sec .lg-graph {
+  border: solid 1px #4E4E4E;
+}
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
+  background-color: #2B2C2E;
+}
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover {
+  border-color: #696969;
+}
+.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title {
+  background-color: #202020;
+}
+.theme-dark .portfolio-sec .portfolio-card .card-table th {
+  background-color: #1A1A1B;
+}
+.theme-dark .portfolio-sec .portfolio-card .card-table td {
+  border: none;
+  border-bottom: solid 1px #191919;
+}
+.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child::after,
+.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after {
+  display: none;
+}
 
 /*# sourceMappingURL=dark-theme.css.map */
