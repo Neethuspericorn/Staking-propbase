@@ -20,7 +20,7 @@
     {
         width: 750px;
         padding: 94px 94px 30px;
-        background: #292D32;
+        background: $primary-light;
         display:flex;
         flex-direction:column;
         @media(max-width:1679px)
@@ -48,7 +48,7 @@
                 }
             }
             .welcome-text {
-                color: #fff;
+                color:$primary-dark;
                 margin-top:30px;
                 margin-bottom: 75px;
                 font-size: 25px;
@@ -67,6 +67,21 @@
                 span
                 {
                     font-weight:700;
+                }
+                h4
+                {
+                    font-size: 16px;
+                    color:$sub-text-color;
+                    font-weight: 500;
+                    margin-top: 10px;
+                    @media(max-width:1679px)
+                    {
+                        font-size:15px;
+                    }
+                    @media(max-width:575px)
+                    {
+                        font-size:14px;
+                    }
                 }
             }
         }
@@ -93,17 +108,21 @@
                 {
                     width: 100%;
                     background: transparent;
-                    border: 1px solid #5E6C84;
+                    border: 1px solid $border-color;
                     border-radius: 50px !important;
                     height: 60px;
                     margin-top:15px;
-                    color: #fff !important;
-                    -webkit-text-fill-color: #fff !important;
+                    color:$input-text-color !important;
+                    -webkit-text-fill-color:$input-text-color !important;
                     padding: 7px 44px 7px 56px;
                     box-shadow: none !important;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 14px;
+                    }
                     &::placeholder
                     {
-                        color: #5E6C84; 
+                        color: $input-text-color; 
                     }
                     @media(max-width:1679px)
                     {
@@ -150,7 +169,7 @@
                
             }
             .login-btn {
-                background: #fff;
+                background:$primary-blue;
                 width: 100%;
                 margin-top: 40px;
                 border-radius: 35px;
@@ -160,6 +179,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                color:$primary-light;
                 @media(max-width:1679px)
                 {
                     margin-top: 30px;
@@ -188,7 +208,7 @@
 
                 }
                 .fgt-link {
-                    color: #D3E3F8;
+                    color:$blue-text-single;
                     font-size: 15px;
                     cursor: pointer;
                     @media(max-width:1679px)
@@ -208,7 +228,7 @@
                     -moz-user-select: none;
                     -ms-user-select: none;
                     user-select: none;
-                    color: #D3E3F8;
+                    color: $label-txt-blue;
                     font-size: 15px;
                     @media(max-width:1679px)
                     {
@@ -243,7 +263,7 @@
                 
                 /* When the checkbox is checked, add a blue background */
                 .checkbox-container input:checked ~ .checkmark {
-                    background-color: #ffffff;
+                    background-color: $bg-color-check;
                 }
                 
                 /* Create the checkmark/indicator (hidden when not checked) */
@@ -260,11 +280,11 @@
                 
                 /* Style the checkmark/indicator */
                 .checkbox-container .checkmark:after {
-                    left: 9px;
+                    left:8px;
                     top: 2px;
                     width: 6px;
                     height: 15px;
-                    border: solid #697F9B;
+                    border: solid $blue-text-single;
                     border-width: 0 3px 3px 0;
                     -webkit-transform: rotate(45deg);
                     -ms-transform: rotate(45deg);
@@ -388,6 +408,7 @@
                     font-size: 20px;
                     font-weight: 300;
                     margin-bottom: 3px;
+                    color:$primary-dark;
                     @media(max-width:991px)
                     {
                         font-size: 18px;
@@ -401,8 +422,9 @@
                 h5
                 {
                     font-size: 12px;
-                    color: #292D32;
+                    color: #6176AE;
                     padding-right: 15px;
+                    font-weight: 400;
                 }
                 .icon-sec
                 {
@@ -437,14 +459,14 @@
                     flex-direction: column;
                     label
                     {
-                        color: #697F9B;
+                        color: $input-text-color;
                         font-size: 14px;
                     }
                     .form-control
                     {
                         width: 100%;
                         background: transparent;
-                        border: 1px solid #5E6C84;
+                        border: 1px solid #6982C0;
                         border-radius: 50px !important;
                         height: 60px;
                         margin-top: 10px;
@@ -503,7 +525,7 @@
                     }
                     .send-btn
                     {
-                        background: #292D32;
+                        background: $blue-text-single;
                         font-size: 16px;
                         color: #fff;
                         height: 52px;
@@ -564,14 +586,14 @@
             }
             .fgt-mail-icon
             {
-                top: 56px !important;
+                top: 51px !important;
                 @media(max-width:1679px)
                 {
-                    top: 53px !important;
+                    top: 48px !important;
                 }
                 @media(max-width:991px)
                 {
-                    top: 51px !important;
+                    top: 46px !important;
                 }
             }
             .fgt-view-icon
@@ -580,16 +602,16 @@
                 right: 21px;
                 background: none;
                 border: none;
-                top: 53px;
+                top: 49px;
                 z-index: 9;
                 @media(max-width:1679px)
                 {
-                    top: 50px;
+                    top:45px;
                     padding: 0;
                 }
                 @media(max-width:991px)
                 {
-                    top: 49px;
+                    top: 44px;
                 }
             }
             .send-btn

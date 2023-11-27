@@ -23,7 +23,7 @@
   .login-wrapper .login-left-block {
     width: 750px;
     padding: 94px 94px 30px;
-    background: #292D32;
+    background: #fff;
     display: flex;
     flex-direction: column; }
     @media (max-width: 1679px) {
@@ -43,7 +43,7 @@
         .login-wrapper .login-left-block .logo-section-block .logo-img {
           height: 28px; } }
     .login-wrapper .login-left-block .logo-section-block .welcome-text {
-      color: #fff;
+      color: #2E4276;
       margin-top: 30px;
       margin-bottom: 75px;
       font-size: 25px; }
@@ -59,6 +59,17 @@
           font-size: 19px; } }
       .login-wrapper .login-left-block .logo-section-block .welcome-text span {
         font-weight: 700; }
+      .login-wrapper .login-left-block .logo-section-block .welcome-text h4 {
+        font-size: 16px;
+        color: #768BC2;
+        font-weight: 500;
+        margin-top: 10px; }
+        @media (max-width: 1679px) {
+          .login-wrapper .login-left-block .logo-section-block .welcome-text h4 {
+            font-size: 15px; } }
+        @media (max-width: 575px) {
+          .login-wrapper .login-left-block .logo-section-block .welcome-text h4 {
+            font-size: 14px; } }
     .login-wrapper .login-left-block .form-group .alert-msg-cover .alert-msg {
       top: 103%; }
     .login-wrapper .login-left-block .form-group .input-group {
@@ -73,16 +84,19 @@
       .login-wrapper .login-left-block .form-group .input-group .form-control {
         width: 100%;
         background: transparent;
-        border: 1px solid #5E6C84;
+        border: 1px solid #6982C0;
         border-radius: 50px !important;
         height: 60px;
         margin-top: 15px;
-        color: #fff !important;
-        -webkit-text-fill-color: #fff !important;
+        color: #4D6090 !important;
+        -webkit-text-fill-color: #4D6090 !important;
         padding: 7px 44px 7px 56px;
         box-shadow: none !important; }
+        @media (max-width: 1679px) {
+          .login-wrapper .login-left-block .form-group .input-group .form-control {
+            font-size: 14px; } }
         .login-wrapper .login-left-block .form-group .input-group .form-control::placeholder {
-          color: #5E6C84; }
+          color: #4D6090; }
         @media (max-width: 1679px) {
           .login-wrapper .login-left-block .form-group .input-group .form-control {
             height: 50px;
@@ -115,7 +129,7 @@
           .login-wrapper .login-left-block .form-group .input-group .icon-pass {
             top: 46px; } }
     .login-wrapper .login-left-block .form-group .login-btn {
-      background: #fff;
+      background: #2966FF;
       width: 100%;
       margin-top: 40px;
       border-radius: 35px;
@@ -124,7 +138,8 @@
       font-size: 20px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      color: #fff; }
       @media (max-width: 1679px) {
         .login-wrapper .login-left-block .form-group .login-btn {
           margin-top: 30px;
@@ -153,7 +168,7 @@
           justify-content: center;
           margin-bottom: 26px; } }
       .login-wrapper .login-left-block .bottom-content .fgt-link {
-        color: #D3E3F8;
+        color: #3072F3;
         font-size: 15px;
         cursor: pointer; }
         @media (max-width: 1679px) {
@@ -170,7 +185,7 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        color: #D3E3F8;
+        color: #697F9B;
         font-size: 15px; }
         @media (max-width: 1679px) {
           .login-wrapper .login-left-block .bottom-content .checkbox-container {
@@ -192,7 +207,7 @@
       .login-wrapper .login-left-block .bottom-content .checkbox-container:hover input ~ .checkmark {
         background-color: #ccc; }
       .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark {
-        background-color: #ffffff; }
+        background-color: #D3E3F8; }
       .login-wrapper .login-left-block .bottom-content .checkbox-container .checkmark:after {
         content: "";
         position: absolute;
@@ -200,11 +215,11 @@
       .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark:after {
         display: block; }
       .login-wrapper .login-left-block .bottom-content .checkbox-container .checkmark:after {
-        left: 9px;
+        left: 8px;
         top: 2px;
         width: 6px;
         height: 15px;
-        border: solid #697F9B;
+        border: solid #3072F3;
         border-width: 0 3px 3px 0;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -294,7 +309,8 @@
         font-family: Poppins;
         font-size: 20px;
         font-weight: 300;
-        margin-bottom: 3px; }
+        margin-bottom: 3px;
+        color: #2E4276; }
         @media (max-width: 991px) {
           .fgt-modal .modal-dialog .modal-header .heading-top .modal-title {
             font-size: 18px;
@@ -303,8 +319,9 @@
           font-weight: 600; }
       .fgt-modal .modal-dialog .modal-header .heading-top h5 {
         font-size: 12px;
-        color: #292D32;
-        padding-right: 15px; }
+        color: #6176AE;
+        padding-right: 15px;
+        font-weight: 400; }
       .fgt-modal .modal-dialog .modal-header .heading-top .icon-sec img {
         height: 150px;
         margin-top: -42px; }
@@ -323,12 +340,12 @@
     .fgt-modal .modal-dialog .modal-body .form-group .input-group {
       flex-direction: column; }
       .fgt-modal .modal-dialog .modal-body .form-group .input-group label {
-        color: #697F9B;
+        color: #4D6090;
         font-size: 14px; }
       .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
         width: 100%;
         background: transparent;
-        border: 1px solid #5E6C84;
+        border: 1px solid #6982C0;
         border-radius: 50px !important;
         height: 60px;
         margin-top: 10px;
@@ -372,7 +389,7 @@
         .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img {
           margin-right: 9px; }
       .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
-        background: #292D32;
+        background: #3072F3;
         font-size: 16px;
         color: #fff;
         height: 52px;
@@ -409,27 +426,27 @@
         .reset-modal .modal-dialog .modal-body .input-group .form-control {
           height: 50px !important; } }
   .reset-modal .modal-dialog .modal-body .fgt-mail-icon {
-    top: 56px !important; }
+    top: 51px !important; }
     @media (max-width: 1679px) {
       .reset-modal .modal-dialog .modal-body .fgt-mail-icon {
-        top: 53px !important; } }
+        top: 48px !important; } }
     @media (max-width: 991px) {
       .reset-modal .modal-dialog .modal-body .fgt-mail-icon {
-        top: 51px !important; } }
+        top: 46px !important; } }
   .reset-modal .modal-dialog .modal-body .fgt-view-icon {
     position: absolute;
     right: 21px;
     background: none;
     border: none;
-    top: 53px;
+    top: 49px;
     z-index: 9; }
     @media (max-width: 1679px) {
       .reset-modal .modal-dialog .modal-body .fgt-view-icon {
-        top: 50px;
+        top: 45px;
         padding: 0; } }
     @media (max-width: 991px) {
       .reset-modal .modal-dialog .modal-body .fgt-view-icon {
-        top: 49px; } }
+        top: 44px; } }
   .reset-modal .modal-dialog .modal-body .send-btn {
     width: 100%; }
 
