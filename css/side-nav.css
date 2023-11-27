@@ -11,7 +11,7 @@
 /* placeholder mixin */
 .nav-block {
   width: 300px;
-  background: #2E4276;
+  background: #292D32;
   box-shadow: 0px 4px 112px 0px rgba(0, 0, 0, 0.08);
   border-radius: 0 16px 0 0;
   transition: .3s; }
@@ -74,7 +74,7 @@
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    background-color: #2E4276; }
+    background-color: #292D32; }
     .nav-block .navbar-collapse-block .navbar-ul {
       list-style: none;
       padding: 0 10px;
@@ -136,11 +136,11 @@
         font-size: 15px; }
       .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn {
         color: #fff;
-        background-color: #2E4276;
+        background-color: #292D32;
         border: solid 1px #fff; }
       .nav-block .navbar-collapse-block .mob-nav-btn-block .login-btn {
         margin-top: 15px;
-        color: #2E4276;
+        color: #292D32;
         background-color: #fff; }
         .nav-block .navbar-collapse-block .mob-nav-btn-block .login-btn img {
           margin-left: 25px; }
@@ -160,7 +160,7 @@
         padding: 15px;
         text-decoration: none;
         display: inline-block;
-        color: #2E4276;
+        color: #292D32;
         transition: .3s;
         white-space: nowrap;
         overflow: hidden;
@@ -236,7 +236,7 @@
 
   .body-wrapper .nav-block .nav-logo-wrapper {
     width: 100%;
-    background-color: #2E4276;
+    background-color: #292D32;
     position: fixed;
     top: 0;
     left: 0;
