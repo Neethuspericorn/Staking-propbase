@@ -41,7 +41,7 @@ ul,ol{
 
 
 .primary-btn{
-    background-color: $primary-dark;
+    background-color: $primary-blue;
     border-radius: 34px;
     color: $primary-light;
     font-weight: 500;
@@ -239,6 +239,7 @@ button{
         font-weight: 700;
         display: flex;
         align-items: center;
+        color: $primary-dark;
     }
     &.sec-title-filter{
         display: flex;
@@ -295,7 +296,7 @@ button{
         min-width: 190px;
         border: 1px solid #E3E4F3;
         background: #FFF;
-        color: #697F9B;
+        color: $text-primary-light;
         font-size: 14px;
         padding: 8px 25px;
         font-weight: 400;
@@ -377,7 +378,7 @@ button{
 .inp-block{
     .form-label{
         width: 100%;
-        color: #697F9B;
+        color: $text-primary-light;
         font-weight: 500;
         font-size: 12px;
         margin-bottom: 8px;
@@ -517,7 +518,7 @@ button{
         border-radius: 20px;
         border: 1px solid #E3E4F3 !important;
         background: #FFF !important;
-        color: #697F9B;
+        color: $text-primary-light;
         justify-content: space-between;
         display: inline-flex;
         align-items: center;
@@ -579,7 +580,7 @@ button{
             background: #F7F7FC;
             padding: 20px 25px;
             .price-title{
-                color: #697F9B;
+                color: $text-primary-light;
                 font-size: 14px;
                 margin-bottom: 15px;
                 .value{
@@ -722,7 +723,7 @@ button{
     padding: 10vh 15px;
     p{
         padding-top: 15px;
-        color: #000;
+        color: $primary-dark;
         font-family: $font-primary;
         font-size: 16px;
         font-weight: 600;

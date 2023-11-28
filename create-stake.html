@@ -311,8 +311,11 @@
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                                 <img src="img/td-delete.svg" alt="">
                                             </button>
+                                            <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                                <img src="img/td-add-rewards.svg" alt="">
+                                            </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
-                                                <img src="img/td-success.svg" alt="">
+                                                <img src="img/td-aptos.svg" alt="">
                                             </button>
                                         </div>
                                     </td>
@@ -336,8 +339,11 @@
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                                 <img src="img/td-delete.svg" alt="">
                                             </button>
+                                            <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                                <img src="img/td-add-rewards.svg" alt="">
+                                            </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
-                                                <img src="img/td-success.svg" alt="">
+                                                <img src="img/td-aptos.svg" alt="">
                                             </button>
                                         </div>
                                     </td>
@@ -361,8 +367,11 @@
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                                 <img src="img/td-delete.svg" alt="">
                                             </button>
+                                            <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                                <img src="img/td-add-rewards.svg" alt="">
+                                            </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
-                                                <img src="img/td-success.svg" alt="">
+                                                <img src="img/td-aptos.svg" alt="">
                                             </button>
                                         </div>
                                     </td>
@@ -386,8 +395,11 @@
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                                 <img src="img/td-delete.svg" alt="">
                                             </button>
+                                            <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                                <img src="img/td-add-rewards.svg" alt="">
+                                            </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
-                                                <img src="img/td-success.svg" alt="">
+                                                <img src="img/td-aptos.svg" alt="">
                                             </button>
                                         </div>
                                     </td>
@@ -465,17 +477,37 @@
                         </div>
                         <div class="crate-stake-inp-sec">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="inp-block inp-block-modal alert-msg-cover">
-                                        <label for="" class="form-label">Number of Tokens <sup>*</sup></label>
+                                        <label for="" class="form-label">Stake Type <sup>*</sup></label>
                                         <input class="custom-inp" type="text">
                                         <span class="alert-msg">Required *</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="inp-block inp-block-modal alert-msg-cover">
                                         <label for="" class="form-label">Pool Cap ($PROPS)</label>
                                         <input class="custom-inp" type="text">
+                                        <span class="alert-msg">Required *</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="inp-block inp-block-modal alert-msg-cover">
+                                        <label for="" class="form-label">Choose Avatar   
+                                            <span> <img src="img/avtr-i.svg" alt=""></span></label>
+                                        <div class="img-box-cover custom-inp">
+                                            <div class="img-name-block">
+                                                <span class="img-name">Blue Lorem Image</span>
+                                                <button class="img-remove-btn">
+                                                    <img src="img/img-remove.svg" alt="">
+                                                </button>
+                                            </div>
+                                            <button class="img-select-btn" data-bs-target="#imageModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">
+                                                Select
+                                            </button>
+                                        </div>
+
+                                        <!-- <input class="custom-inp" type="text"> -->
                                         <span class="alert-msg">Required *</span>
                                     </div>
                                 </div>
@@ -508,7 +540,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="inp-block inp-block-modal alert-msg-cover">
-                                        <label for="" class="form-label">Total value locked</label>
+                                        <label for="" class="form-label">Minimum stake $PROPS</label>
                                         <input class="custom-inp" type="text">
                                         <span class="alert-msg">Required *</span>
                                     </div>
@@ -529,6 +561,13 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="modal-info-cover">
+                            <div class="modal-info-block">
+                                <img src="img/i-dark.svg" alt=""> 
+                                Lorem ipsum dolor sit amet consectetur. Tincidunt in.
+                            </div>
+                        </div>
                         
                         <div class="btn-cover-modal">
                             <button data-bs-dismiss="modal" class="btn btn-def btn-border">Cancel</button>
@@ -539,6 +578,209 @@
             </div>
         </div>
     </div>
+
+    <!-- Image select modal -->
+    
+    <div class="modal fade custom-modal choose-avatar-modal" data-bs-backdrop="static" id="imageModalToggle" aria-hidden="true" aria-labelledby="imageModalToggleLabel" tabindex="-1">    
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <a type="button" href="#createStakeModal" role="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </a> -->
+                <a data-bs-toggle="modal" href="#createStakeModal" role="button" class="btn-close" >
+                    <img src="img/modal-close.svg" alt="">
+                </a>
+            </div>
+            <div class="modal-body">
+                <div class="choose-avatar-modal-body">
+                    <div class="modal-title">
+                        <h2>Choose Avatar</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Et nisl risus auctor dignissim. Libero malesuada ut at ultricies massa vitae. Non aliquet molestie purus.</p>
+                    </div>
+                    <div class="avatar-block-row">
+                        <div class="avatar-card">
+                            <button class="avatar-select-btn active">
+                                <span class="select-toggle"></span>
+                                <img src="img/avtr-2.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-card">
+                            <button class="avatar-select-btn">
+                                <span class="select-toggle"></span>
+                                <img src="img/avtr-3.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-card">
+                            <button class="avatar-select-btn">
+                                <span class="select-toggle"></span>
+                                <img src="img/avtr-4.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-card">
+                            <button class="avatar-select-btn">
+                                <span class="select-toggle"></span>
+                                <img src="img/avtr-1.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="text-center btn-block">
+                        <a data-bs-toggle="modal" href="#createStakeModal" role="button" class="btn-black back-toggle-btn" >Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- claimRewardModal -->
+    <div class="modal fade custom-modal claim-reward-modal"
+        id="claimRewardModal" tabindex="-1" aria-labelledby="claimRewardModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="claim-reward-modal-body">
+                        <div class="modal-title">
+                            <h4>
+                                <span class="title-icon">
+                                    <img src="img/rward-modal.svg" alt="">
+                                </span> 
+                                Add Reward
+                            </h4>
+                        </div>
+
+                        <div class="claim-det-cover">
+                            <div class="claim-det-row d-flex">
+                                <div class="claim-det-label">
+                                    <img src="img/pool.svg" alt=""> Pool Cap
+                                </div>
+                                <div class="claim-det-count">
+                                    13,600
+                                </div>
+                            </div>
+                            <div class="claim-det-row d-flex">
+                                <div class="claim-det-label">
+                                    <img src="img/apy.svg" alt=""> APY %
+                                </div>
+                                <div class="claim-det-count">
+                                    35%
+                                </div>
+                            </div>
+                            <div class="claim-det-row d-flex">
+                                <div class="claim-det-label">
+                                    <img src="img/rwd-rqd.svg" alt=""> Rewards Required
+                                </div>
+                                <div class="claim-det-count txt-green">
+                                    23455
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="btn-otr">
+                            <button class="btn-def claim-btn">Allocate</button>
+                        </div>
+
+                        <div class="modal-info-cover">
+                            <div class="modal-info-block">
+                                <img src="img/i-dark.svg" alt=""> 
+                                Please connect to your wallet holding reward.
+                            </div>
+                        </div>
+
+                        <div class="connected-wallet-block">
+                            <div class="wallet-label">
+                                <img src="img/wallet.svg" alt=""> Wallet Connected
+                            </div>
+                            <div class="wallet-addrs">
+                                Lbcfr7sAHTD9CgdQo3HTMTkV8LK4ZnX71.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alocating success modal -->
+    <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <img src="img/suceess-icon.svg">
+                        <h2 class=" mt-2">
+                            Allocating Rewards was Successful!
+                        </h2>
+                        <h5>
+                            You have successfully Allocated Rewards
+                        </h5>
+                    </div>
+                    <div class="text-center mt-3 mt-md-4">
+                        <button class="btn-black">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Commit to Aptos Modal -->
+    <div class="modal fade custom-modal claim-reward-modal aptos-modal"
+        id="CommitAptosModal" tabindex="-1" aria-labelledby="CommitAptosModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="claim-reward-modal-body">
+                        <div class="modal-title">
+                            <h4>
+                                <span class="title-icon">
+                                    <img src="img/aptos.svg" alt="">
+                                </span> 
+                                Commit to Aptos
+                            </h4>
+                        </div>
+
+                        <div class="aptos-text-block">
+                            "By clicking 'Proceed,' you commit to staking with Aptos. Also, 
+                            ensure that you are connected to the admin wallet address."
+                        </div>
+    
+                        <div class="btn-otr">
+                            <button class="btn-def claim-btn">Proceed</button>
+                        </div>
+
+                        <div class="modal-info-cover">
+                            <div class="modal-info-block">
+                                <img src="img/i-dark.svg" alt=""> 
+                                Please connect to your wallet set as admin.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- success modal -->
     <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -600,6 +842,7 @@
     
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
 </body>

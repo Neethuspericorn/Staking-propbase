@@ -3,7 +3,7 @@
     border-radius: 8px;
     overflow: hidden;
     padding-bottom: 5px;
-    border: 1px solid #E3E4F3;
+    border: 1px solid $table-border;
     background-color: #fff;
     margin-bottom: 5px;
 }
@@ -18,8 +18,8 @@
                 padding: 15px 20px;
                 font-weight: 600;
                 font-size: 14px;
-                color: #000;
-                border-bottom: solid 1px #E3E4F3 !important;
+                color: $primary-dark;
+                border-bottom: solid 1px $table-border !important;
             }
         }
         .th-sort{
@@ -28,10 +28,10 @@
         }
         tbody{
             td{
-                color: #697F9B;
+                color: $text-primary-light;
                 font-size: 15px;
                 padding: 15px 20px;
-                border-color: #E3E4F3;
+                border-color: $table-border;
                 vertical-align: middle;
             }
             tr{
@@ -95,7 +95,7 @@
             color: #0C15F9;
         }
         .text-dark{
-            color: #383C40;
+            color: $primary-dark !important;
         }
         .text-light-blue{
             color: #A2A2DF;
@@ -110,25 +110,25 @@
     background-color: #fff;
     padding: 15px 30px;
     border-radius: 8px;
-    border: 1px solid #E3E4F3;
+    border: 1px solid $table-border;
     .select-block{
-        color: #697F9B;
+        color: $text-primary-light;
         font-size: 12px;
         .pagination-select{
             margin-left: 8px;
             box-shadow: none;
             outline: none;
             border-radius: 8px;
-            border: 1px solid #E3E4F3;
+            border: 1px solid $table-border;
             background: #FFF;
-            color: #697F9B;
+            color: $text-primary-light;
             font-size: 12px;
             padding: 5px 7px;
             width: 55px;
         }
     }
     .entries-block{
-        color: #697F9B;
+        color: $text-primary-light;
         font-size: 12px;
     }
     .pagination-block{
@@ -138,7 +138,7 @@
                     margin: 0 4px;
                     color: #ADC3DF;
                     font-size: 12px;
-                    border: solid 1px #E3E4F3;
+                    border: solid 1px $table-border;
                     border-radius: 50%;
                     width: 26px;
                     height: 26px;
@@ -148,8 +148,8 @@
                     justify-content: center;
                     flex-shrink: 0;
                     &.active, &:hover{
-                        background-color: #E3E4F3;
-                        color: #697F9B;
+                        background-color: $table-border;
+                        color: $text-primary-light;
                     }
                 }
                 .page-link-dots{
