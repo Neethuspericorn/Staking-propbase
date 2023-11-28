@@ -58,7 +58,7 @@
             {
                 .props-name
                 {
-                    background: #657181;
+                    background: #A5B6DD;
                     display: inline-flex;
                     align-items: center;
                     padding: 6px 17px;
@@ -83,6 +83,7 @@
                     font-size: 20px;
                     margin-top: 10px;
                     font-weight: 600;
+                    color: #2E4276;
                     @media(max-width:1679px)
                     {
                         font-size: 16px;
@@ -151,13 +152,16 @@
                     display: inline-block;
                     margin-left: 6px;
                     margin-top: 3px;
+                    font-size: 16px;
+                    @media(max-width:1679px)
+                    {
+                        font-size:15px;
+                    }
                 }
                 .img-sec img
                 {
-                    @media(max-width:1679px)
-                    {
-                        height: 16px;
-                    }
+                    height: 30px;
+                    margin-right: 6px;    
                 }
             }
             h2
@@ -176,7 +180,7 @@
         }
         .tot-detl-outer
         {
-            padding-top: 30px;
+            padding-top: 20px;
             @media(max-width:991px)
             {
                 padding-top: 0px;
@@ -196,15 +200,15 @@
                 }
                 .label-txt
                 {
-                    color:$label-txt-blue;
-                    font-size:14px;
+                    color:$text-grey;
+                    font-size: 15px;
                     @media(max-width:1679px)
                     {
-                        font-size: 13px;
+                        font-size: 14px;
                     }
                 }
                 .label-num {
-                    color:$dark-black;
+                    color:$label-num;
                     font-weight:600;
                     font-size:16px;
                     @media(max-width:1679px)
@@ -220,21 +224,45 @@
         }
     }
 }
+.filter-wrapper
+{
+    @media(max-width:475px)
+    {
+        padding: 13px 10px;
+    }
+    .filter-nav-btn
+    {
+        @media(max-width:475px)
+        {
+            min-width: 45px;
+            padding: 7px 12px;
+        }
+    }
+}
 .card-section-outer
 {
     padding-top: 15px;
+    
     .h-card-col
     {
         padding-right: 15px;
         padding-left: 0;
+        @media(max-width:1350px)
+        {
+            width: 50%;
+        }
         @media(max-width:1199px)
         {
-            width:100%;
-            padding-left:15px;
+            padding-right: 12px !important;
+            padding-left: 4px !important;
         }
         @media(max-width:991px)
         {
             margin-bottom: 15px;
+        }
+        @media(max-width:700px)
+        {
+            width: 100%;
         }
         &:nth-child(1) {
           
@@ -245,7 +273,7 @@
             border-radius: 6px;
             @media(max-width:1679px)
             {
-                padding: 25px 25px 50px;
+                padding: 25px 25px 40px;
             }
             @media(max-width:991px)
             {
@@ -258,20 +286,51 @@
             
         }
     }
+    .staking-outer
+    {
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        
+        @media(max-width:1199px)
+        {
+            flex-wrap: wrap;
+        }
+        
+    }
     .top-block
     {
         .heading-txt
         {
             display:flex;
-            align-items: center;
-            margin-bottom:35px;
+            margin-bottom: 15px;
+           
+            .img-txt
+            {
+                display:flex;
+            }
             @media(max-width:991px)
             {
                 margin-bottom:20px;
             }
             img
             {
-                height:40px;
+                height: 90px;
+            }
+            .desc-content
+            {
+                h2
+                {
+                    display: flex;
+                    align-items: center;
+                }
+                p.txt-content
+                {
+                    margin-top: 5px;
+                    padding-left: 12px;
+                    max-height: 50px;
+                    overflow: hidden;
+                }
             }
             h2
             {
@@ -280,7 +339,7 @@
                 font-size:19px;
                 @media(max-width:1679px)
                 {
-                    font-size: 17px;
+                    font-size: 15px;
                 }
             }
         }
@@ -288,9 +347,87 @@
         {
             font-size: 15px;
             margin-top: 13px;
-            @media(max-width:1679px)
+            @media(max-width:1700px)
             {
-                font-size: 13px;
+                font-size: 12px;
+            }
+           
+        }
+        .timer-section
+        {
+            font-size: 13px;
+            label
+            {
+                color: #4D6090;
+                font-size: 15px;
+                 @media(max-width:1679px)
+                {
+                    font-size: 12px;
+                }
+            }
+            ul
+            {
+                padding: 0;
+                list-style: none;
+                display: flex;
+                margin-top: 15px;
+                .dot-seprator
+                {
+                    width: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #4D6090;
+                    font-size: 31px;
+                    margin-right: 8px;
+                    margin-left: 8px;
+                    margin-top: -10px;
+                    @media(max-width:1679px)
+                    {
+                        font-size: 25px;
+                        margin-right: 2px;
+                        margin-left: 2px;
+                    }
+                }
+                li
+                {
+                    background: #E6EEFF;
+                    border-radius: 8px;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .label-count {
+                        color: #4D6090;
+                        padding: 10px 0px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        @media(max-width:1679px)
+                        {
+                            font-size: 13px;
+
+                        }
+                    }
+                    .num-txt {
+                        background: #C8D9FF;
+                        width: 100%;
+                        text-align: center;
+                        padding: 2px 0px 2px;
+                        color: #4D6090;
+                        font-weight: 400;
+                        font-size: 14px;
+                        border-radius: 0px 0px 10px 10px;
+                        span
+                        {
+                            border-bottom:2px solid #4D6090;
+                        }
+                        @media(max-width:1679px)
+                        {
+                            padding: 2px 0px 1px;
+                            font-size: 11px;
+                        }
+                    }
+                }
             }
         }
         ul
@@ -308,11 +445,7 @@
         }
         .pool-cap-txt
         {
-            margin-top:50px;
-            @media(max-width:991px)
-            {
-                margin-top: 20px;
-            }
+            margin-top: 20px;
             .pool-label
             {
                 font-weight: 600;
@@ -383,8 +516,6 @@
         }
         .list-order-outer {
             margin-top: 20px;
-            border-bottom: 1px solid $border-grey;
-            padding-bottom: 14px;
             .list-order {
                 display: flex;
                 justify-content: space-between;
@@ -419,6 +550,9 @@
     }
     .bottom-block
     {
+        margin-top: 15px;
+        border-top: 1px solid $border-grey;
+        padding-top: 24px !important;
         .badge-staking-date span {
             border: 1px solid $btn-border-green;
             background: $light-green;

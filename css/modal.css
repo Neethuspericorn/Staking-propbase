@@ -364,12 +364,12 @@
     color: #fff !important;
     background-color: #2E4276 !important; }
 
-@media (min-width: 992px) {
+@media (max-width: 1679px) {
   .logout-modal .modal-dialog {
-    max-width: 600px; } }
-@media (min-width: 1481px) {
+    max-width: 550px !important; } }
+@media (max-width: 991px) {
   .logout-modal .modal-dialog {
-    max-width: 680px; } }
+    max-width: 96%; } }
 @media (min-width: 1680px) {
   .logout-modal .modal-dialog {
     max-width: 730px; } }
@@ -696,7 +696,8 @@
       .change-pass-modal .modal-dialog .modal-header .heading-top .modal-title {
         font-size: 20px;
         font-weight: 300;
-        margin-bottom: 3px; }
+        margin-bottom: 3px;
+        color: #2E4276; }
         @media (max-width: 991px) {
           .change-pass-modal .modal-dialog .modal-header .heading-top .modal-title {
             font-size: 18px;
@@ -705,8 +706,9 @@
           font-weight: 600; }
       .change-pass-modal .modal-dialog .modal-header .heading-top h5 {
         font-size: 12px;
-        color: #292D32;
-        padding-right: 15px; }
+        color: #697F9B;
+        padding-right: 15px;
+        font-weight: 400; }
       .change-pass-modal .modal-dialog .modal-header .heading-top .icon-sec img {
         height: 150px;
         margin-top: -42px; }
@@ -727,19 +729,22 @@
       margin-bottom: 20px; }
       .change-pass-modal .modal-dialog .modal-body .form-group .input-group label {
         color: #697F9B;
+        color: #4D6090;
         font-size: 14px; }
       .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
         width: 100%;
         background: transparent;
-        border: 1px solid #5E6C84;
+        border: 1px solid #6982C0;
         border-radius: 50px !important;
         height: 60px;
         margin-top: 11px;
         color: #333;
-        padding-left: 53px; }
+        padding-left: 53px;
+        font-size: 15px; }
         @media (max-width: 1679px) {
           .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
-            height: 55px; } }
+            height: 55px;
+            font-size: 14px; } }
         @media (max-width: 991px) {
           .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
             height: 50px; } }
@@ -776,7 +781,7 @@
           align-items: center;
           justify-content: center; } }
       .change-pass-modal .modal-dialog .modal-body .form-group .btn-otr .send-btn {
-        background: #292D32;
+        background: #3072F3;
         font-size: 16px;
         color: #fff;
         height: 52px;
