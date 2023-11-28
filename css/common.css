@@ -237,20 +237,6 @@ button {
   }
 }
 .sec-title-block {
-  padding-bottom: 15px; }
-  .sec-title-block .sec-title {
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    color: #2E4276; }
-  .sec-title-block.sec-title-filter {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .sec-title-block.sec-title-filter .block-right {
-      display: flex; }
   padding-bottom: 15px;
 }
 .sec-title-block .sec-title {
@@ -259,6 +245,7 @@ button {
   font-weight: 700;
   display: flex;
   align-items: center;
+  color: #2E4276;
 }
 .sec-title-block.sec-title-filter {
   display: flex;
@@ -322,7 +309,7 @@ button {
   min-width: 190px;
   border: 1px solid #E3E4F3;
   background: #FFF;
-  color: #697F9B;
+  color: #8393BA;
   font-size: 14px;
   padding: 8px 25px;
   font-weight: 400;
@@ -350,34 +337,6 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 190px;
-    border: 1px solid #E3E4F3;
-    background: #FFF;
-    color: #8393BA;
-    font-size: 14px;
-    padding: 8px 25px;
-    font-weight: 400;
-    flex-shrink: 0; }
-    .sec-title-block .download-excel-btn .spinner-border {
-      width: 18px;
-      height: 18px; }
-    .sec-title-block .download-excel-btn .add-label-web {
-      margin-right: 15px; }
-    @media (max-width: 1199px) {
-      .sec-title-block .download-excel-btn {
-        padding: 8px 18px;
-        min-width: 175px; } }
-    @media (max-width: 767px) {
-      .sec-title-block .download-excel-btn {
-        width: 40px;
-        height: 40px;
-        min-width: auto;
-        padding: 0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center; }
-        .sec-title-block .download-excel-btn .add-label-web {
-          display: none; } }
   }
   .sec-title-block .download-excel-btn .add-label-web {
     display: none;
@@ -600,64 +559,6 @@ button {
   border-radius: 12px;
   background-color: #FFF;
   border: none;
-  box-shadow: 0px 3px 12px 8px rgba(0, 0, 0, 0.06); }
-  .filter-dropdown-menu .filter-title {
-    position: relative;
-    border-bottom: solid 1px #E3E4F3;
-    padding: 24px; }
-    .filter-dropdown-menu .filter-title .filter-close-btn {
-      position: absolute;
-      right: 15px;
-      top: 15px;
-      padding: 2px;
-      border: none;
-      line-height: 0;
-      background-color: transparent; }
-    .filter-dropdown-menu .filter-title h4 {
-      font-size: 14px;
-      margin-bottom: 0;
-      font-style: normal;
-      font-weight: 500;
-      color: #2E4276; }
-  .filter-dropdown-menu .filter-form-content .custom-input-group {
-    background-color: #fff; }
-  .filter-dropdown-menu .filter-form-content .inp-cover {
-    padding: 25px 50px 30px; }
-  .filter-dropdown-menu .filter-form-content .custom-inp {
-    width: 100%; }
-  .filter-dropdown-menu .filter-form-content .inp-block {
-    margin-bottom: 25px; }
-  .filter-dropdown-menu .filter-form-content .price-range-block {
-    border-radius: 19px;
-    background: #F7F7FC;
-    padding: 20px 25px; }
-    .filter-dropdown-menu .filter-form-content .price-range-block .price-title {
-      color: #8393BA;
-      font-size: 14px;
-      margin-bottom: 15px; }
-      .filter-dropdown-menu .filter-form-content .price-range-block .price-title .value {
-        font-weight: 600;
-        color: #2E4276; }
-  .filter-dropdown-menu .filter-form-content .btn-block {
-    border-top: solid 1px #E3E4F3;
-    padding: 25px;
-    text-align: right; }
-    .filter-dropdown-menu .filter-form-content .btn-block .btn {
-      box-shadow: none;
-      min-width: 124px;
-      padding: 8px 15px;
-      text-align: center;
-      border-radius: 20px;
-      transition: .3s; }
-      .filter-dropdown-menu .filter-form-content .btn-block .btn:hover {
-        opacity: .8; }
-      .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-reset {
-        border: 1px solid #2E4276;
-        background: #FFF; }
-      .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-save {
-        color: #fff;
-        border: 1px solid #2E4276;
-        background: #2E4276; }
   box-shadow: 0px 3px 12px 8px rgba(0, 0, 0, 0.06);
 }
 .filter-dropdown-menu .filter-title {
@@ -699,7 +600,7 @@ button {
   padding: 20px 25px;
 }
 .filter-dropdown-menu .filter-form-content .price-range-block .price-title {
-  color: #697F9B;
+  color: #8393BA;
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -729,8 +630,8 @@ button {
 }
 .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-save {
   color: #fff;
-  border: 1px solid #2E4276;
-  background: #2E4276;
+  border: 1px solid #3072F3;
+  background: #3072F3;
 }
 
 @media (max-width: 1679px) {
@@ -831,19 +732,11 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10vh 15px; }
-  .table-no-data p {
-    padding-top: 15px;
-    color: #2E4276;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 0; }
   padding: 10vh 15px;
 }
 .table-no-data p {
   padding-top: 15px;
-  color: #000;
+  color: #2E4276;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;

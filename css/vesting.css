@@ -10,314 +10,429 @@
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
 .accordian-section-outer {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
+.accordian-section-outer .card-section .acrd-list-header {
+  border-top-left-radius: 8px;
+  border: 1px solid #E3E4F3;
+  background: #F9F9FD;
+  padding: 18px 16px;
+  border-top-right-radius: 8px;
+  color: #292D32;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1679px) {
   .accordian-section-outer .card-section .acrd-list-header {
-    border-top-left-radius: 8px;
-    border: 1px solid #E3E4F3;
-    background: #F9F9FD;
-    padding: 18px 16px;
-    border-top-right-radius: 8px;
-    color: #292D32;
-    font-weight: 500;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between; }
-    @media (max-width: 1679px) {
-      .accordian-section-outer .card-section .acrd-list-header {
-        font-size: 14px;
-        padding: 12px 16px; } }
-    .accordian-section-outer .card-section .acrd-list-header .header-txt img {
-      height: 24px;
-      margin-right: 7px; }
-      @media (max-width: 1679px) {
-        .accordian-section-outer .card-section .acrd-list-header .header-txt img {
-          height: 20px; } }
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+}
+.accordian-section-outer .card-section .acrd-list-header .header-txt img {
+  height: 24px;
+  margin-right: 7px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-list-header .header-txt img {
+    height: 20px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section {
+  padding: 35px 45px 27px;
+  background: #fff;
+}
+@media (max-width: 1679px) {
   .accordian-section-outer .card-section .acrd-detail-section {
-    padding: 35px 45px 27px;
-    background: #fff; }
-    @media (max-width: 1679px) {
-      .accordian-section-outer .card-section .acrd-detail-section {
-        padding: 20px 20px 27px; } }
-    @media (max-width: 1199px) {
-      .accordian-section-outer .card-section .acrd-detail-section {
-        padding: 10px 20px 27px; } }
-    @media (max-width: 375px) {
-      .accordian-section-outer .card-section .acrd-detail-section {
-        padding: 10px 10px 27px; } }
-    .accordian-section-outer .card-section .acrd-detail-section .top-card {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid #DDDEEA;
-      padding-bottom: 20px;
-      position: relative; }
-      @media (max-width: 1199px) {
-        .accordian-section-outer .card-section .acrd-detail-section .top-card {
-          flex-direction: column; } }
-      .accordian-section-outer .card-section .acrd-detail-section .top-card .edit-icon {
-        position: absolute;
-        right: 21px;
-        top: 6px; }
-        @media (max-width: 575px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .edit-icon {
-            right: 0px;
-            top: 12px; } }
-      .accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
-        display: flex; }
-        @media (max-width: 1199px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
-            width: 100%; } }
-        @media (max-width: 375px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
-            flex-direction: column; } }
-      .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
-        margin-right: 20px;
-        padding: 12px 23px; }
-        @media (max-width: 1679px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
-            margin-right: 0px; } }
-        @media (max-width: 1440px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
-            padding: 12px 15px; } }
-        @media (max-width: 575px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
-            padding: 12px 8px; } }
-        @media (max-width: 375px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
-            padding: 7px 0px; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner label {
-          color: #697F9B;
-          font-weight: 400;
-          font-size: 14px;
-          margin-bottom: 7px; }
-          @media (max-width: 1679px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner label {
-              font-size: 13px; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner .value-txt {
-          color: #000;
-          font-weight: 600;
-          font-size: 17px; }
-          @media (max-width: 1679px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner .value-txt {
-              font-size: 15px; } }
-      .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
-        display: flex;
-        align-items: center;
-        justify-content: end; }
-        @media (max-width: 1199px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
-            width: 100%;
-            justify-content: left !important;
-            margin-top: 13px; } }
-        @media (max-width: 575px) {
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
-            flex-direction: column; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
-          margin-right: 32px; }
-          @media (max-width: 1679px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
-              margin-right: 15px; } }
-          @media (max-width: 575px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
-              margin-right: 0;
-              margin-bottom: 22px;
-              width: 100%; } }
-          @media (max-width: 375px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer .input-group {
-              flex-direction: column; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
-          border: 1px solid #D1D1D7;
-          background: #FFF;
-          height: 45px;
-          border-radius: 45px !important; }
-          @media (max-width: 1679px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
-              height: 40px; } }
-          @media (max-width: 375px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
-              width: 100%;
-              margin-bottom: 15px; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
-          margin-left: 17px !important;
-          border-radius: 28px;
-          background: #0DAD4D;
-          color: #fff;
-          font-weight: 500;
-          font-size: 15px;
-          min-width: 130px;
-          border-radius: 50px !important;
-          height: 45px; }
-          .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn span {
-            margin-left: 6px; }
-          @media (max-width: 1679px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
-              margin-left: 9px !important;
-              min-width: 110px;
-              font-size: 13px;
-              height: 40px; } }
-          @media (max-width: 375px) {
-            .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
-              margin-left: 0px !important; } }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .deallocate-out {
-          margin-right: 0px !important; }
-        .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn.dealloc-btn {
-          background: #FF6C6C !important; }
-    .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer {
-      padding: 25px 10px; }
-      .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer h3 {
-        color: #313131;
-        font-weight: 600;
-        font-size: 17px;
-        margin-bottom: 26px; }
-      .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
-        display: flex;
-        margin-bottom: 15px; }
-        @media (max-width: 650px) {
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
-            flex-wrap: wrap; } }
-        @media (max-width: 650px) {
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
-            position: relative;
-            border-bottom: 1px solid #DDDEEA;
-            padding-bottom: 24px; } }
-        .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
-          margin-right: 40px;
-          width: 24%; }
-          @media (max-width: 1199px) {
-            .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
-              margin-right: 15px;
-              width: 30%; } }
-          @media (max-width: 650px) {
-            .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
-              width: 45%; } }
-          @media (max-width: 475px) {
-            .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
-              width: 100%;
-              margin-right: 0; } }
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block label {
-            color: #697F9B;
-            margin-bottom: 9px;
-            font-size: 14px; }
-            @media (max-width: 1679px) {
-              .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block label {
-                font-size: 13px; } }
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group {
-            border-radius: 5px;
-            border: none;
-            background: #F9F9FD;
-            height: 48px;
-            margin-right: 0;
-            padding-left: 11px;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: nowrap; }
-            @media (max-width: 1679px) {
-              .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group {
-                height: 40px;
-                padding-left: 8px; } }
-            .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text {
-              background: transparent;
-              border: none;
-              padding: 5px; }
-              .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text img {
-                height: 15px; }
-                @media (max-width: 1679px) {
-                  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text img {
-                    height: 12px; } }
-            .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .form-control {
-              background: transparent;
-              border: none;
-              box-shadow: none;
-              padding-left: 8px;
-              color: #000;
-              font-size: 14px;
-              font-weight: 500; }
-      @media (max-width: 575px) {
-        .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .arw-sec img {
-          height: 22px; } }
-      .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr {
-        display: flex;
-        align-items: center; }
-        @media (max-width: 575px) {
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr {
-            position: absolute;
-            top: -30px;
-            right: 0; } }
-        .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .edit-icon {
-          width: 25px;
-          height: 25px;
-          background: #E3E4F3;
-          border-radius: 50px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-top: 27px;
-          cursor: pointer; }
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .edit-icon img {
-            height: 10px; }
-        .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .delete-icon {
-          width: 25px;
-          height: 25px;
-          background: #FFE3E3;
-          border-radius: 50px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-left: 16px;
-          margin-top: 27px;
-          cursor: pointer; }
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .delete-icon img {
-            height: 10px; }
-      .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
-        border: 1px dashed #697F9B;
-        border-radius: 28px;
-        color: #697F9B;
-        font-size: 14px;
-        background: transparent;
-        margin-top: 24px;
-        height: 41px;
-        padding-left: 28px;
-        padding-right: 28px;
-        margin-right: 4px; }
-        @media (max-width: 1679px) {
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
-            font-size: 13px; } }
-        @media (max-width: 475px) {
-          .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
-            width: 100%;
-            margin-top: 9px; } }
-    .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr {
-      border-top: 1px solid #DDDEEA;
-      text-align: right; }
-      .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
-        border-radius: 28px;
-        background: #0DAD4D;
-        color: #fff;
-        height: 45px;
-        margin-top: 22px;
-        margin-top: 15px;
-        padding: 6px 32px;
-        font-size: 15px; }
-        @media (max-width: 1679px) {
-          .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
-            height: 40px;
-            font-size: 14px; } }
-        @media (max-width: 475px) {
-          .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
-            width: 100%; } }
-      .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
-        border-radius: 28px;
-        background: #292D32;
-        color: #fff;
-        height: 45px;
-        margin-top: 22px;
-        margin-top: 15px;
-        padding: 6px 32px; }
-        @media (max-width: 1679px) {
-          .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
-            height: 40px;
-            font-size: 14px; } }
-        @media (max-width: 475px) {
-          .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
-            width: 100%; } }
+    padding: 20px 20px 27px;
+  }
+}
+@media (max-width: 1199px) {
+  .accordian-section-outer .card-section .acrd-detail-section {
+    padding: 10px 20px 27px;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section {
+    padding: 10px 10px 27px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DDDEEA;
+  padding-bottom: 20px;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card {
+    flex-direction: column;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .edit-icon {
+  position: absolute;
+  right: 21px;
+  top: 6px;
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .edit-icon {
+    right: 0px;
+    top: 12px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
+  display: flex;
+}
+@media (max-width: 1199px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .left-card-section {
+    flex-direction: column;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+  margin-right: 20px;
+  padding: 12px 23px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1440px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+    padding: 12px 15px;
+  }
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+    padding: 12px 8px;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner {
+    padding: 7px 0px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner label {
+  color: #697F9B;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner label {
+    font-size: 13px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner .value-txt {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .card-inner .value-txt {
+    font-size: 15px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+@media (max-width: 1199px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
+    width: 100%;
+    justify-content: left !important;
+    margin-top: 13px;
+  }
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section {
+    flex-direction: column;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
+  margin-right: 32px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer {
+    margin-right: 0;
+    margin-bottom: 22px;
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-outer .input-group {
+    flex-direction: column;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
+  border: 1px solid #D1D1D7;
+  background: #FFF;
+  height: 45px;
+  border-radius: 45px !important;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
+    height: 40px;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
+  margin-left: 17px !important;
+  border-radius: 28px;
+  background: #0DAD4D;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  min-width: 130px;
+  border-radius: 50px !important;
+  height: 45px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn span {
+  margin-left: 6px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
+    margin-left: 9px !important;
+    min-width: 110px;
+    font-size: 13px;
+    height: 40px;
+  }
+}
+@media (max-width: 375px) {
+  .accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn {
+    margin-left: 0px !important;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .deallocate-out {
+  margin-right: 0px !important;
+}
+.accordian-section-outer .card-section .acrd-detail-section .top-card .right-section .allocate-btn.dealloc-btn {
+  background: #FF6C6C !important;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer {
+  padding: 25px 10px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer h3 {
+  color: #313131;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 26px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+@media (max-width: 650px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group {
+    position: relative;
+    border-bottom: 1px solid #DDDEEA;
+    padding-bottom: 24px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
+  margin-right: 40px;
+  width: 24%;
+}
+@media (max-width: 1199px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
+    margin-right: 15px;
+    width: 30%;
+  }
+}
+@media (max-width: 650px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
+    width: 45%;
+  }
+}
+@media (max-width: 475px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block label {
+  color: #697F9B;
+  margin-bottom: 9px;
+  font-size: 14px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block label {
+    font-size: 13px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group {
+  border-radius: 5px;
+  border: none;
+  background: #F9F9FD;
+  height: 48px;
+  margin-right: 0;
+  padding-left: 11px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group {
+    height: 40px;
+    padding-left: 8px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text {
+  background: transparent;
+  border: none;
+  padding: 5px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text img {
+  height: 15px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .input-group-text img {
+    height: 12px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .form-group .inp-block .input-group .form-control {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding-left: 8px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .arw-sec img {
+    height: 22px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 575px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr {
+    position: absolute;
+    top: -30px;
+    right: 0;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .edit-icon {
+  width: 25px;
+  height: 25px;
+  background: #E3E4F3;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+  cursor: pointer;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .edit-icon img {
+  height: 10px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .delete-icon {
+  width: 25px;
+  height: 25px;
+  background: #FFE3E3;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-top: 27px;
+  cursor: pointer;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .action-otr .delete-icon img {
+  height: 10px;
+}
+.accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
+  border: 1px dashed #697F9B;
+  border-radius: 28px;
+  color: #697F9B;
+  font-size: 14px;
+  background: transparent;
+  margin-top: 24px;
+  height: 41px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-right: 4px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
+    font-size: 13px;
+  }
+}
+@media (max-width: 475px) {
+  .accordian-section-outer .card-section .acrd-detail-section .vesting-schedule-outer .vesting-btn-otr .vesting-btn {
+    width: 100%;
+    margin-top: 9px;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .save-btn-otr {
+  border-top: 1px solid #DDDEEA;
+  text-align: right;
+}
+.accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
+  border-radius: 28px;
+  background: #0DAD4D;
+  color: #fff;
+  height: 45px;
+  margin-top: 22px;
+  margin-top: 15px;
+  padding: 6px 32px;
+  font-size: 15px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 475px) {
+  .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .save-btn {
+    width: 100%;
+  }
+}
+.accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
+  border-radius: 28px;
+  background: #292D32;
+  color: #fff;
+  height: 45px;
+  margin-top: 22px;
+  margin-top: 15px;
+  padding: 6px 32px;
+}
+@media (max-width: 1679px) {
+  .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 475px) {
+  .accordian-section-outer .card-section .acrd-detail-section .save-btn-otr .commit-btn {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=vesting.css.map */
