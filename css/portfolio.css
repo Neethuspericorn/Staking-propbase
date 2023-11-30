@@ -204,6 +204,7 @@
   color: #2E4276;
   font-weight: 500;
   display: flex;
+  align-items: center;
 }
 @media (max-width: 1679px) {
   .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate {
@@ -217,7 +218,7 @@
   }
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img {
-  margin-right: 8px;
+  margin-right: 20px;
 }
 @media (max-width: 400px) {
   .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img {

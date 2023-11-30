@@ -1,7 +1,8 @@
 @import "partials/partials";
 .modal-backdrop.show {
     background: rgba(0, 0, 0, 0.40);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
+    opacity: 1;
 }
 
 .custom-modal {
@@ -695,6 +696,8 @@
                     color:$label-txt-blue;
                     font-weight: 400;
                     font-size: 14px;
+                    flex-shrink: 0;
+                    padding-right: 15px;
                     @media(max-width:1679px)
                     {
                         font-size: 13px;
@@ -1116,6 +1119,7 @@
     .claim-reward-modal-body{
         padding: 0 60px 50px;
         .modal-title{
+            margin-bottom: 30px;
             h4{
                 color: $primary-dark;
                 display: flex;
@@ -1132,6 +1136,10 @@
                     background-color: #F3F4FA;
                     border-radius: 50%;
                     margin-right: 15px;
+                    padding: 5px;
+                    img{
+                        width: 27px;
+                    }
                 }
             }
         }
@@ -1175,6 +1183,9 @@
                 color: $primary-dark;
                 font-size: 15px;
                 font-weight: 600;
+                &.txt-green{
+                    color: $green !important;
+                }
             }
         }
         .btn-otr{

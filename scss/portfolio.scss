@@ -206,6 +206,7 @@
                                 color: #2E4276;
                                 font-weight: 500;
                                 display:flex;
+                                align-items: center;
                                 @media(max-width:1679px)
                                 {
                                     font-size:14px;
@@ -218,7 +219,7 @@
                             }
                             .icon-img
                             {
-                                margin-right:8px;
+                                margin-right:20px;
                                 @media(max-width:400px)
                                 {
                                     display:none;
