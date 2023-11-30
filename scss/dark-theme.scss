@@ -15,7 +15,7 @@ $dark-block-2: #2B2C2E;
     .header-wrapper, .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
     .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, 
     .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover, .portfolio-sec .lg-graph, 
-    .portfolio-sec .portfolio-card
+    .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover
     {
         background-color: $dark-bg;
     }
@@ -31,8 +31,9 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title, 
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label, 
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val, 
-    .portfolio-sec .portfolio-card .card-table th, .portfolio-sec .portfolio-card .card-table td
-
+    .portfolio-sec .portfolio-card .card-table th, .portfolio-sec .portfolio-card .card-table td, 
+    .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate, 
+    .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block
     {
         color: $primary-light;
     }
@@ -60,7 +61,9 @@ $dark-block-2: #2B2C2E;
 
     .header-wrapper .login-btn img, .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img, 
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img, 
-    .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img{
+    .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img, 
+    .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img, 
+    {
         filter: grayscale(1) invert(1) brightness(2);
     }
 
@@ -156,7 +159,13 @@ $dark-block-2: #2B2C2E;
     }
     .portfolio-sec .portfolio-card .card-table td{
         border: none;
-        border-bottom: solid 1px #191919;
+        border-bottom: solid 1px #191919 !important;
+    }
+    .portfolio-sec .portfolio-card .card-table tbody tr:last-child td{
+        border-bottom: none !important;
+        &:last-child, &:first-child{
+            border-radius: 0;
+        }
     }
     .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child::after, 
     .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after{
@@ -229,4 +238,20 @@ $dark-block-2: #2B2C2E;
     {
         color:#fff;
     }
+    .table-pagination-cover .pagination-block .pagination .page-item .page-link{
+        border-color: #484848;
+        background-color: $dark-bg;
+        color: $primary-light;
+        img{
+            filter: grayscale(1) brightness(2);
+        }
+        &.active, &:hover{
+            border-color: $primary-blue;
+        }
+    }
+    .portfolio-sec .portfolio-card .table-pagination-cover{
+        border-radius: 0;
+        border: none;
+        border-top: solid 1px $dark-border-2;
+    }    
 }

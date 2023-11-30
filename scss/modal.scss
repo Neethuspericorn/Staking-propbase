@@ -695,6 +695,8 @@
                     color:$label-txt-blue;
                     font-weight: 400;
                     font-size: 14px;
+                    flex-shrink: 0;
+                    padding-right: 15px;
                     @media(max-width:1679px)
                     {
                         font-size: 13px;
