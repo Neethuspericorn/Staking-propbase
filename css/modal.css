@@ -11,7 +11,8 @@
 /* placeholder mixin */
 .modal-backdrop.show {
   background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(2px); }
+  backdrop-filter: blur(4px);
+  opacity: 1; }
 
 .custom-modal {
   font-family: "Poppins", sans-serif; }
@@ -830,22 +831,27 @@
     max-width: 600px; } }
 .claim-reward-modal .claim-reward-modal-body {
   padding: 0 60px 50px; }
-  .claim-reward-modal .claim-reward-modal-body .modal-title h4 {
-    color: #2E4276;
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    font-weight: 600; }
-    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
-      width: 58px;
-      height: 58px;
-      flex-shrink: 0;
-      display: inline-flex;
+  .claim-reward-modal .claim-reward-modal-body .modal-title {
+    margin-bottom: 30px; }
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 {
+      color: #2E4276;
+      display: flex;
       align-items: center;
-      justify-content: center;
-      background-color: #F3F4FA;
-      border-radius: 50%;
-      margin-right: 15px; }
+      font-size: 21px;
+      font-weight: 600; }
+      .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
+        width: 58px;
+        height: 58px;
+        flex-shrink: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3F4FA;
+        border-radius: 50%;
+        margin-right: 15px;
+        padding: 5px; }
+        .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
+          width: 27px; }
   .claim-reward-modal .claim-reward-modal-body .claim-det-cover {
     padding-top: 40px; }
     .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row {
@@ -879,6 +885,8 @@
       color: #2E4276;
       font-size: 15px;
       font-weight: 600; }
+      .claim-reward-modal .claim-reward-modal-body .claim-count-block h4.txt-green {
+        color: #0DAD4D !important; }
   .claim-reward-modal .claim-reward-modal-body .btn-otr {
     padding-top: 30px; }
     .claim-reward-modal .claim-reward-modal-body .btn-otr .claim-btn {

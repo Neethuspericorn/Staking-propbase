@@ -15,7 +15,8 @@ $dark-block-2: #2B2C2E;
     .header-wrapper, .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
     .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, 
     .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover, .portfolio-sec .lg-graph, 
-    .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover
+    .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover, 
+    .custom-modal .modal-content
     {
         background-color: $dark-bg;
     }
@@ -33,14 +34,16 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val, 
     .portfolio-sec .portfolio-card .card-table th, .portfolio-sec .portfolio-card .card-table td, 
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate, 
-    .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block
+    .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block, 
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4, .claim-reward-modal .claim-reward-modal-body .claim-count-block p, 
+    .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
     {
         color: $primary-light;
     }
 
     // full border color 2
     .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
-    .header-wrapper .wallet-btn{
+    .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail{
         border-color: $dark-border-2;
     }
     // full border
@@ -63,10 +66,15 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img, 
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img, 
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img, 
+    .custom-modal .btn-close img
     {
         filter: grayscale(1) invert(1) brightness(2);
     }
 
+    // img white
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img{
+        filter: grayscale(1) brightness(2);
+    }
 
     .nav-block{
         border-right: solid 1px $dark-border;
@@ -149,7 +157,7 @@ $dark-block-2: #2B2C2E;
         background-color: $dark-block-2;
     }
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover{
-        border-color: $dark-border-3;
+        border-color: #2B2B2B;
     }
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title{
         background-color: #202020;
@@ -230,10 +238,10 @@ $dark-block-2: #2B2C2E;
     .success-modal .modal-dialog.modal-dialog-centered .modal-content {
         background: #000;
     }
-    .success-modal .modal-body .modal-title h5,.success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
-    {
-        color: #9EB3CD;
-    }
+    // .success-modal .modal-body .modal-title h5, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
+    // {
+    //     color: #9EB3CD;
+    // }
     .success-modal .modal-body .modal-title h2,.success-modal .modal-body .stake-detail .stake-amt .stake-rupees
     {
         color:#fff;
@@ -253,5 +261,14 @@ $dark-block-2: #2B2C2E;
         border-radius: 0;
         border: none;
         border-top: solid 1px $dark-border-2;
-    }    
+    } 
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon{
+        background-color: #2B2C2E;
+    }
+    .success-modal .modal-body .modal-title h5{
+        color: #809EC3;
+    }
+    .custom-modal .modal-dialog .modal-content{
+        border: 1px solid #272727;
+    }
 }
