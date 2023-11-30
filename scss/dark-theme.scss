@@ -229,4 +229,154 @@ $dark-block-2: #2B2C2E;
     {
         color:#fff;
     }
+    .staking-dashboard-outer .welcome-stake-outer,.staking-dashboard-outer .total-value-outer
+    {
+       background-color:$dark-black;
+       border:1px solid $dark-border 
+    }
+    .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name
+    {
+        background:$bg-dark-blue;
+    }
+    .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt h3,
+    .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .txt-sec,
+    .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-txt,
+    .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-num,
+    .card-section-outer .top-block .heading-txt .desc-content p.txt-content,
+    .card-section-outer .top-block .timer-section label,
+    .card-section-outer .top-block .timer-section ul li .label-count,
+    .card-section-outer .top-block .list-order-outer .list-order .label-content,
+    .staking-dashboard-outer .total-value-outer .stake-tot-locked .text-percent-count,
+    .stake-modal .modal-body .crate-stake-modal-body .modal-title h2,
+    .stake-modal .modal-body .pool-cap-txt .pool-label,
+    .stake-modal .modal-body .pool-cap-txt .pool-cont,
+    .stake-modal .modal-body .progress-bar-section .progress-count,
+    .stake-modal .modal-body .btn-default,
+    .stake-modal .modal-body .rwd-inner .detail-outer span,
+    .stake-modal .modal-body .rwd-inner .detail-outer .cnt,
+    .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col
+    {
+        color:$primary-light;
+    }
+    .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt p
+    {
+        color:$light-grey-txt;
+    }
+    .staking-dashboard-outer .total-value-outer .stake-tot-locked
+    {
+        border-bottom: 1px solid #484848;
+    }
+    .card-section-outer .top-block .timer-section ul li
+    {
+        background: #2B2C2E;
+    }
+    .card-section-outer .top-block .timer-section ul li .num-txt
+    {
+        background: #151618;
+        color: #A3A3A3;
+    }
+    .card-section-outer .top-block .btn-default
+    {
+        background: transparent;
+        color: #fff;
+        border: 1px solid #B4BFCD;
+    }
+    .card-section-outer .bottom-block
+    {
+        border-top: 1px solid #353535;
+    }
+    .card-section-outer .bottom-block .btn-outr .btn-unstake {
+        background: transparent;
+        color: #ffffff;
+    }
+    button.login-btn.header-btn-web
+    {
+        border: 1px solid #4E4E4E;
+    }
+    .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .img-sec img
+    {
+        filter: grayscale(1) brightness(3);
+    }
+    .card-section-outer .top-block .icon-head-top .img-icon.d-none
+    {
+        display:block !important;
+    }
+    .card-section-outer .top-block .icon-head-top .img-icon-white
+    {
+        display:none !important;
+    }
+    .table-no-data p
+    {
+        color: #ffffff;
+    }
+    .stake-modal
+    {
+       .modal-content
+        {
+            border: 1px solid #272727;
+            background: #000;
+        }
+        .modal-body .btn-default
+        {
+            background: transparent;
+        }
+        .modal-body .btn-default
+        {
+            border: 1px solid #B2B2B2;
+        }
+        .modal-body .lock-period
+        {
+            color: #B2B2B2;
+        }
+        .modal-body .policy-stake {
+            border: 1px solid #2B2B2B;
+            background: #0F0F0F;
+        }
+        .modal-body .policy-stake .head-policy,.modal-body .policy-stake .policy-text
+        {
+            color: #B2B2B2;
+        }
+        .modal-body .input-group .form-control
+        {
+            background: transparent;
+            border: 1px solid #3F3F3F;
+        }
+        .modal-body .input-group .badges .num-badge
+        {
+            border: 1px solid #B2B2B2;
+            color: #fff;
+        }
+        .modal-body .input-group .badges .max-active
+        {
+            border: 1px solid #2966FF;
+        }
+        .modal-body .crate-stake-modal-body .modal-title img
+        {
+            background: transparent;
+            filter: grayscale(1) brightness(3);
+        }
+        .modal-body .policy-stake .head-policy img
+        {
+            filter: grayscale(1) brightness(3);
+        }
+        .modal-body .rwd-inner .detail-outer img
+        {
+            filter: grayscale(1) brightness(1);
+        }
+        .modal-body .input-group .form-control
+        {
+            color: #B2B2B2;
+        }
+    }
+    .stake-modal .modal-body .withdraw-btn {
+        background: #EE8728;
+    }
+    .table-no-data .img-block .no-data-img.d-none
+    {
+        display:block !important;
+    }
+    .table-no-data .img-block .no-data-img
+    {
+        display:none !important;
+    }
 }

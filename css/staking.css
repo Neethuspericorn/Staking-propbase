@@ -135,10 +135,23 @@
 .staking-dashboard-outer .total-value-outer .stake-tot-locked {
   border-bottom: 1px solid #e3e4f3;
   padding-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 991px) {
   .staking-dashboard-outer .total-value-outer .stake-tot-locked {
     padding-bottom: 8px;
+  }
+}
+.staking-dashboard-outer .total-value-outer .stake-tot-locked .text-percent-count {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2E4276;
+}
+@media (max-width: 1679px) {
+  .staking-dashboard-outer .total-value-outer .stake-tot-locked .text-percent-count {
+    font-size: 18px;
   }
 }
 .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 {
@@ -302,9 +315,17 @@
   padding-left: 0;
   padding-right: 0;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1350px) {
   .card-section-outer .staking-outer {
     flex-wrap: wrap;
+  }
+}
+.card-section-outer .top-block .icon-head-top {
+  justify-content: end;
+}
+@media (max-width: 1679px) {
+  .card-section-outer .top-block .icon-head-top .img-icon {
+    height: 22px;
   }
 }
 .card-section-outer .top-block .heading-txt {
@@ -670,7 +691,7 @@
 }
 @media (max-width: 1679px) {
   .stake-modal .modal-body .crate-stake-modal-body .modal-title h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 18px;
   }
 }
@@ -702,7 +723,9 @@
 }
 @media (max-width: 1679px) {
   .stake-modal .modal-body .lock-period {
-    font-size: 14px;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 2px;
   }
 }
 @media (max-width: 767px) {
@@ -797,7 +820,7 @@
 @media (max-width: 1679px) {
   .stake-modal .modal-body .rwd-inner {
     margin-top: 15px;
-    margin-bottom: 18px;
+    margin-bottom: 9px;
   }
 }
 .stake-modal .modal-body .rwd-inner .detail-outer {
@@ -809,7 +832,7 @@
 }
 @media (max-width: 1679px) {
   .stake-modal .modal-body .rwd-inner .detail-outer {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 }
 .stake-modal .modal-body .rwd-inner .detail-outer img {
@@ -842,6 +865,11 @@
   width: 50%;
   flex-wrap: wrap;
   margin-bottom: 30px;
+}
+@media (max-width: 1679px) {
+  .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer {
+    margin-bottom: 20px;
+  }
 }
 .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col {
   padding-top: 6px;
@@ -944,7 +972,7 @@
 @media (max-width: 1679px) {
   .stake-modal .modal-body .btn-default {
     font-size: 13px;
-    height: 45px;
+    height: 40px;
   }
 }
 @media (max-width: 450px) {
@@ -962,7 +990,8 @@
 }
 @media (max-width: 1679px) {
   .stake-modal .modal-body .policy-stake {
-    margin-top: 20px;
+    margin-top: 15px;
+    padding: 10px 15px;
   }
 }
 @media (max-width: 575px) {
@@ -998,6 +1027,9 @@
   .stake-modal .modal-body .policy-stake .policy-text {
     font-size: 11px;
   }
+}
+.stake-modal .modal-body .policy-stake .policy-text p {
+  margin-bottom: 8px;
 }
 
 .card-section-outer .top-block .progress-bar-section .progress-bar-block .progress {

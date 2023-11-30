@@ -7,6 +7,7 @@
     }
   
 }
+
 .login-wrapper
 {
     display:flex;
@@ -345,6 +346,9 @@
             font-size: 14px;
         }
     }
+}
+button.close-modal {
+    background: transparent;
 }
 .fgt-modal
 {

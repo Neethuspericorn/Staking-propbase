@@ -350,6 +350,10 @@
   }
 }
 
+button.close-modal {
+  background: transparent;
+}
+
 .fgt-modal .alert-msg-cover .alert-msg {
   top: 104% !important;
 }
