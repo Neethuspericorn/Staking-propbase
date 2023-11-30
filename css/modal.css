@@ -1131,7 +1131,9 @@
   color: #0DAD4D;
 }
 .claim-reward-modal .claim-reward-modal-body .claim-count-block {
-  padding-top: 25px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .claim-reward-modal .claim-reward-modal-body .claim-count-block p {
   color: #697F9B;
@@ -1141,11 +1143,11 @@
 }
 .claim-reward-modal .claim-reward-modal-body .claim-count-block h4 {
   color: #2E4276;
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 600;
 }
 .claim-reward-modal .claim-reward-modal-body .btn-otr {
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .claim-reward-modal .claim-reward-modal-body .btn-otr .claim-btn {
   width: 100%;

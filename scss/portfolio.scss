@@ -28,6 +28,13 @@
                 display: flex;
                 .g-logo{
                     margin-right: 15px;
+                    img
+                    {
+                        @media(max-width:1679px)
+                        {
+                            height: 34px;
+                        }    
+                    }
                 }
                 .graph-det{
                     p{
@@ -42,7 +49,7 @@
                         margin-bottom: 0;
                         font-weight: 700;
                         span{
-                            color: $green;
+                            color: $light-blue;
                             margin-left: 15px;
                             font-weight: 500;
                         }
@@ -53,7 +60,7 @@
                 padding: 8px 0;
                 .filter-btn-cover{
                     border-radius: 4px;
-                    background: #F0F2F5;
+                    background: #E8EFFF;
                     padding: 5px;
                     display: flex;
                     .filter-btn{
@@ -63,7 +70,8 @@
                         font-weight: 500;
                         transition: .3s;
                         border-radius: 5px;
-                        color: #5E6C84;
+                        color: #2E4276;
+                        background: #E8EFFF;
                         &.active, &:hover{
                             background-color: $primary-light;
                         }
@@ -79,7 +87,7 @@
                         border: solid 1px #EEEFF8;
                         padding: 11px 15px;
                         font-size: 14px;
-                        color: #697686;
+                        color: #8393BA;
                         &:first-child{
                             padding-left: 45px;
                         }
@@ -87,6 +95,11 @@
                             text-align: right;
                             padding-right: 45px;
                         }
+                    }
+                    .val-txt
+                    {
+                        color: #2E4276;
+                        font-weight: 600;
                     }
                 }
             }
@@ -160,30 +173,67 @@
                     margin-bottom: 45px;
                     .c-icon{
                         border-radius: 50%;
-                        width: 58px;
-                        height: 58px;
+                        width: 52px;
+                        height: 52px;
                         display: inline-flex;
                         align-items: center;
                         justify-content: center;
                         padding: 5px;
                         background-color: #f3f4fa;
                         img{
-                            max-width: 30px;
+                            max-width:27px;
                             max-height: 100%;
                         }
                     }
                     .c-det{
                         padding-left: 20px;
                         .c-label{
-                            color: #697F9B;
+                            color: #8393BA;
                             font-size: 14px;
                             margin-bottom: 2px;
+                        }
+                        .props-value
+                        {
+                            display:flex;
+                            @media(max-width:400px)
+                            {
+                                 flex-wrap: wrap;
+                            }
+                            .d-rate
+                            {
+                                margin-left: 65px;
+                                font-size: 16px;
+                                color: #2E4276;
+                                font-weight: 500;
+                                display:flex;
+                                @media(max-width:1679px)
+                                {
+                                    font-size:14px;
+                                }
+                                @media(max-width:400px)
+                                {
+                                    margin-top: 9px;
+                                    margin-left:0px;
+                                }
+                            }
+                            .icon-img
+                            {
+                                margin-right:8px;
+                                @media(max-width:400px)
+                                {
+                                    display:none;
+                                }
+                            }
                         }
                         .c-rate{
                             margin-bottom: 0;
                             font-size: 21px;
                             font-weight: 600;
                             color: $primary-dark;
+                            @media(max-width:400px)
+                            {
+                                width: 100%;
+                            }
                         }
                     }
                 }
@@ -196,7 +246,7 @@
                     font-size: 14px;
                     font-weight: 600;
                     color: $primary-dark;
-                    background-color: #F3F4FA;
+                    background-color:#E8EFFF;
                     border-radius: 20px;
                     padding: 12px 27px;
                     display: flex;
@@ -211,7 +261,7 @@
                     margin-bottom: 20px;
                     .tab-label{
                         font-size: 14px;
-                        color: #697F9B;
+                        color: #8393BA;
                         padding-right: 15px;
                     }
                     .tab-val{
@@ -223,14 +273,12 @@
                 }
             }
         }
-        .sm-table-block{
-        }
         .card-table{
             width: 100%;
             margin: 0;
             th{
-                background-color: #F3F4FA;
-                color: #4C4F61;
+                background-color: #E8EFFF;
+                color: #2E4276;
                 font-size: 14px;
                 font-weight: 600;
                 padding: 20px 15px;
@@ -300,8 +348,8 @@
                     }
                 }
             }
-            .txt-light{
-                color: #697F9B;
+            .txt-blue{
+                color:#5B8AFF;
             }
             .txt-grn{
                 color: $green;
@@ -309,11 +357,25 @@
             .txt-b{
                 font-weight: 500;
             }
+            .btn-stakes
+            {
+                display:flex;
+                white-space: nowrap;
+            }
             .claim-btn{
                 color: $primary-light;
                 font-size: 14px;
-                padding: 5px 30px;
-                background-color: $green;
+                padding:8px 30px;
+                background-color:$light-blue;
+            }
+            .rewards-btn
+            {
+                background-color:$light-dark;
+                margin-right: 6px;
+            }
+            .unstake-btn
+            {
+                background-color:$orange;
             }
         }
         .table-pagination-cover{

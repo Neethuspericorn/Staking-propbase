@@ -162,4 +162,71 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after{
         display: none;
     }
+    // login dark
+    .login-left-block
+    {
+        background: $dark-black;
+        .logo-section-block
+        {
+            img.logo-img {
+                display: none;
+            }
+            img.logo-img.d-none {
+                display: block !important;
+            }
+            .welcome-text,.welcome-text h4,.form-group .input-group label,.bottom-content .checkbox-container
+            {
+                color:$primary-light;
+    
+            }
+        }
+        .form-group .input-group label
+        {
+            color:$primary-light;
+        }
+        .form-group .input-group .form-control
+        {
+                color:$primary-light !important;
+                -webkit-text-fill-color:$primary-light!important;
+                border: 1px solid $primary-light;
+         }    
+    }
+    //fgt modal
+    .fgt-modal
+    {
+        .modal-content {
+            background: #000;
+        }
+        .modal-dialog .modal-header
+        {
+            .heading-top h5,.heading-top .modal-title
+            {
+                color: #ffffff;
+            }
+            .input-group .form-control
+            {
+                border: 1px solid #ffffff;
+            }
+            
+        }
+        .modal-dialog .modal-body .form-group .input-group label
+        {
+            color: #ffffff;
+        }
+        .modal-dialog  .modal-body .form-group .input-group .form-control
+        {
+            border: 1px solid #ffffff;
+        }
+    }
+    .success-modal .modal-dialog.modal-dialog-centered .modal-content {
+        background: #000;
+    }
+    .success-modal .modal-body .modal-title h5,.success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
+    {
+        color: #9EB3CD;
+    }
+    .success-modal .modal-body .modal-title h2,.success-modal .modal-body .stake-detail .stake-amt .stake-rupees
+    {
+        color:#fff;
+    }
 }

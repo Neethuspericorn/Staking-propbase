@@ -1162,7 +1162,9 @@
             }
         }
         .claim-count-block{
-            padding-top: 25px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
             p{
                 color:$label-txt-blue;
                 font-size: 13px;
@@ -1171,12 +1173,12 @@
             }
             h4{
                 color: $primary-dark;
-                font-size: 23px;
+                font-size: 15px;
                 font-weight: 600;
             }
         }
         .btn-otr{
-            padding-top: 10px;
+            padding-top:30px;
             .claim-btn{
                 width: 100%;
                 background-color: $primary-blue;

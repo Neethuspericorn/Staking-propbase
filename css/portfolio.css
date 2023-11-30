@@ -41,6 +41,11 @@
 .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo {
   margin-right: 15px;
 }
+@media (max-width: 1679px) {
+  .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img {
+    height: 34px;
+  }
+}
 .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p {
   color: #2E4276;
   font-size: 15px;
@@ -54,7 +59,7 @@
   font-weight: 700;
 }
 .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
-  color: #0DAD4D;
+  color: #2966FF;
   margin-left: 15px;
   font-weight: 500;
 }
@@ -63,7 +68,7 @@
 }
 .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover {
   border-radius: 4px;
-  background: #F0F2F5;
+  background: #E8EFFF;
   padding: 5px;
   display: flex;
 }
@@ -74,7 +79,8 @@
   font-weight: 500;
   transition: 0.3s;
   border-radius: 5px;
-  color: #5E6C84;
+  color: #2E4276;
+  background: #E8EFFF;
 }
 .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn.active, .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn:hover {
   background-color: #fff;
@@ -86,7 +92,7 @@
   border: solid 1px #EEEFF8;
   padding: 11px 15px;
   font-size: 14px;
-  color: #697686;
+  color: #8393BA;
 }
 .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:first-child {
   padding-left: 45px;
@@ -94,6 +100,10 @@
 .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:last-child {
   text-align: right;
   padding-right: 45px;
+}
+.portfolio-sec .lg-graph .graph-table-block .graph-table tr .val-txt {
+  color: #2E4276;
+  font-weight: 600;
 }
 .portfolio-sec .portfolio-card {
   background-color: #fff;
@@ -160,8 +170,8 @@
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
   border-radius: 50%;
-  width: 58px;
-  height: 58px;
+  width: 52px;
+  height: 52px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -169,22 +179,61 @@
   background-color: #f3f4fa;
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img {
-  max-width: 30px;
+  max-width: 27px;
   max-height: 100%;
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det {
   padding-left: 20px;
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-label {
-  color: #697F9B;
+  color: #8393BA;
   font-size: 14px;
   margin-bottom: 2px;
+}
+.portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value {
+  display: flex;
+}
+@media (max-width: 400px) {
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value {
+    flex-wrap: wrap;
+  }
+}
+.portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate {
+  margin-left: 65px;
+  font-size: 16px;
+  color: #2E4276;
+  font-weight: 500;
+  display: flex;
+}
+@media (max-width: 1679px) {
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate {
+    margin-top: 9px;
+    margin-left: 0px;
+  }
+}
+.portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img {
+  margin-right: 8px;
+}
+@media (max-width: 400px) {
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img {
+    display: none;
+  }
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate {
   margin-bottom: 0;
   font-size: 21px;
   font-weight: 600;
   color: #2E4276;
+}
+@media (max-width: 400px) {
+  .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate {
+    width: 100%;
+  }
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block {
   padding-bottom: 20px;
@@ -195,7 +244,7 @@
   font-size: 14px;
   font-weight: 600;
   color: #2E4276;
-  background-color: #F3F4FA;
+  background-color: #E8EFFF;
   border-radius: 20px;
   padding: 12px 27px;
   display: flex;
@@ -211,7 +260,7 @@
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label {
   font-size: 14px;
-  color: #697F9B;
+  color: #8393BA;
   padding-right: 15px;
 }
 .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val {
@@ -225,8 +274,8 @@
   margin: 0;
 }
 .portfolio-sec .portfolio-card .card-table th {
-  background-color: #F3F4FA;
-  color: #4C4F61;
+  background-color: #E8EFFF;
+  color: #2E4276;
   font-size: 14px;
   font-weight: 600;
   padding: 20px 15px;
@@ -288,8 +337,8 @@
   border-right: solid 1px #E3E4F3;
   border-bottom: solid 1px #E3E4F3;
 }
-.portfolio-sec .portfolio-card .card-table .txt-light {
-  color: #697F9B;
+.portfolio-sec .portfolio-card .card-table .txt-blue {
+  color: #5B8AFF;
 }
 .portfolio-sec .portfolio-card .card-table .txt-grn {
   color: #0DAD4D;
@@ -297,11 +346,22 @@
 .portfolio-sec .portfolio-card .card-table .txt-b {
   font-weight: 500;
 }
+.portfolio-sec .portfolio-card .card-table .btn-stakes {
+  display: flex;
+  white-space: nowrap;
+}
 .portfolio-sec .portfolio-card .card-table .claim-btn {
   color: #fff;
   font-size: 14px;
-  padding: 5px 30px;
-  background-color: #0DAD4D;
+  padding: 8px 30px;
+  background-color: #2966FF;
+}
+.portfolio-sec .portfolio-card .card-table .rewards-btn {
+  background-color: #484D65;
+  margin-right: 6px;
+}
+.portfolio-sec .portfolio-card .card-table .unstake-btn {
+  background-color: #EE8728;
 }
 .portfolio-sec .portfolio-card .table-pagination-cover {
   border-radius: 8px;
