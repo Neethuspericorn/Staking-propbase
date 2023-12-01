@@ -214,31 +214,31 @@ $dark-block-2: #2B2C2E;
     .fgt-modal
     {
         .modal-content {
-            background: #000;
+            background:$dark-black;
         }
         .modal-dialog .modal-header
         {
             .heading-top h5,.heading-top .modal-title
             {
-                color: #ffffff;
+                color: $primary-light;
             }
             .input-group .form-control
             {
-                border: 1px solid #ffffff;
+                border: 1px solid $primary-light;
             }
             
         }
         .modal-dialog .modal-body .form-group .input-group label
         {
-            color: #ffffff;
+            color: $primary-light;
         }
         .modal-dialog  .modal-body .form-group .input-group .form-control
         {
-            border: 1px solid #ffffff;
+            border: 1px solid $primary-light;
         }
     }
     .success-modal .modal-dialog.modal-dialog-centered .modal-content {
-        background: #000;
+        background:$dark-black;
     }
     // .success-modal .modal-body .modal-title h5, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
     // {
@@ -246,7 +246,7 @@ $dark-block-2: #2B2C2E;
     // }
     .success-modal .modal-body .modal-title h2,.success-modal .modal-body .stake-detail .stake-amt .stake-rupees
     {
-        color:#fff;
+        color:$primary-light;
     }
     .staking-dashboard-outer .welcome-stake-outer,.staking-dashboard-outer .total-value-outer
     {
@@ -298,7 +298,7 @@ $dark-block-2: #2B2C2E;
     .card-section-outer .top-block .btn-default
     {
         background: transparent;
-        color: #fff;
+        color:$primary-light;
         border: 1px solid #B4BFCD;
     }
     .card-section-outer .bottom-block
@@ -307,7 +307,7 @@ $dark-block-2: #2B2C2E;
     }
     .card-section-outer .bottom-block .btn-outr .btn-unstake {
         background: transparent;
-        color: #ffffff;
+        color:$primary-light;
     }
     button.login-btn.header-btn-web
     {
@@ -327,14 +327,14 @@ $dark-block-2: #2B2C2E;
     }
     .table-no-data p
     {
-        color: #ffffff;
+        color:$primary-light;
     }
     .stake-modal
     {
        .modal-content
         {
             border: 1px solid #272727;
-            background: #000;
+            background:$dark-black;
         }
         .modal-body .btn-default
         {
@@ -364,7 +364,7 @@ $dark-block-2: #2B2C2E;
         .modal-body .input-group .badges .num-badge
         {
             border: 1px solid #B2B2B2;
-            color: #fff;
+            color:$primary-light;
         }
         .modal-body .input-group .badges .max-active
         {
@@ -403,7 +403,7 @@ $dark-block-2: #2B2C2E;
     {
         border: 1px solid #484848;
         background: transparent;
-        color: #ffffff;
+        color:$primary-light;
     }
     .custom-modal.crate-stake-modal .inp-block-modal .form-label {
         color: #9EB3CD;
@@ -411,7 +411,7 @@ $dark-block-2: #2B2C2E;
     .crate-stake-modal .img-box-cover .img-name-block .img-name,
     .custom-modal.crate-stake-modal .modal-title h2
     {
-        color: #ffffff;
+        color:$primary-light;
     }
     .custom-modal.crate-stake-modal .btn-cover-modal .btn-border {
         color: #ffffff !important;
@@ -425,9 +425,82 @@ $dark-block-2: #2B2C2E;
     .crate-stake-modal .img-box-cover .img-select-btn
     {
         background-color: #242734;
-        color: #ffffff;
+        color:$primary-light;
     }
-
+    .delete-confirm .btn-otr .btn-cancel
+    {
+        border: 1px solid #eae0e0;
+        background: transparent;
+    }
+    .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label,
+    .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count,
+    .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label
+    {
+        color:$primary-light;
+    }
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon
+    {
+        background-color: #242734;
+    }
+    .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label img,
+    .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label img
+    {
+        filter: grayscale(1) brightness(2);
+    }
+    .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block {
+        background-color: #251E0D;
+        color: #FBCB5E;
+    }
+    .custom-modal .modal-info-cover .modal-info-block img
+    {
+        filter: grayscale(0) brightness(2);
+    }
+    .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-addrs
+    {
+        border: 1px solid #3E3E3E;
+        background: #1A1A1B;
+        color: #E2E2E2;
+    }
+    .claim-reward-modal.aptos-modal .aptos-text-block
+    {
+        color: #9EB3CD;
+    }
+    .claim-reward-modal.aptos-modal .claim-reward-modal-body .modal-title h4 .title-icon img
+    {
+        filter: grayscale(0) brightness(6);
+    }
+    .custom-modal .modal-title h2
+    {
+        color:$primary-light;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .modal-title p
+    {
+        color: #809EC3;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn
+    {
+        border: 1px solid #484848;
+    background:$dark-black;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active
+    {
+        background-color: #242B3A;
+        border-color: #2966FF;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle
+    {
+        background-color: #2966FF !important;
+        border-color: #2966FF !important;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle
+    {
+        box-shadow: inset 0 0 0px 3px #000;
+    }
+    .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn .select-toggle
+    {
+        border: solid 1px #484848;
+        background-color: #242734;
+    }
 
     // CreATE STAKEABLE
     .title-search-box .input-group{

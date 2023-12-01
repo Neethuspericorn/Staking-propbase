@@ -182,16 +182,16 @@
   background: #000;
 }
 .theme-dark .fgt-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-header .heading-top .modal-title {
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark .fgt-modal .modal-dialog .modal-header .input-group .form-control {
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group label {
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 .theme-dark .success-modal .modal-dialog.modal-dialog-centered .modal-content {
   background: #000;
@@ -249,7 +249,7 @@
 }
 .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake {
   background: transparent;
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark button.login-btn.header-btn-web {
   border: 1px solid #4E4E4E;
@@ -264,7 +264,7 @@
   display: none !important;
 }
 .theme-dark .table-no-data p {
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark .stake-modal .modal-content {
   border: 1px solid #272727;
@@ -322,14 +322,14 @@
 .theme-dark .custom-modal.crate-stake-modal .inp-block-modal .custom-inp {
   border: 1px solid #484848;
   background: transparent;
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark .custom-modal.crate-stake-modal .inp-block-modal .form-label {
   color: #9EB3CD;
 }
 .theme-dark .crate-stake-modal .img-box-cover .img-name-block .img-name,
 .theme-dark .custom-modal.crate-stake-modal .modal-title h2 {
-  color: #ffffff;
+  color: #fff;
 }
 .theme-dark .custom-modal.crate-stake-modal .btn-cover-modal .btn-border {
   color: #ffffff !important;
@@ -342,7 +342,66 @@
 }
 .theme-dark .crate-stake-modal .img-box-cover .img-select-btn {
   background-color: #242734;
-  color: #ffffff;
+  color: #fff;
+}
+.theme-dark .delete-confirm .btn-otr .btn-cancel {
+  border: 1px solid #eae0e0;
+  background: transparent;
+}
+.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label,
+.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count,
+.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label {
+  color: #fff;
+}
+.theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
+  background-color: #242734;
+}
+.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label img,
+.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label img {
+  filter: grayscale(1) brightness(2);
+}
+.theme-dark .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block {
+  background-color: #251E0D;
+  color: #FBCB5E;
+}
+.theme-dark .custom-modal .modal-info-cover .modal-info-block img {
+  filter: grayscale(0) brightness(2);
+}
+.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-addrs {
+  border: 1px solid #3E3E3E;
+  background: #1A1A1B;
+  color: #E2E2E2;
+}
+.theme-dark .claim-reward-modal.aptos-modal .aptos-text-block {
+  color: #9EB3CD;
+}
+.theme-dark .claim-reward-modal.aptos-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
+  filter: grayscale(0) brightness(6);
+}
+.theme-dark .custom-modal .modal-title h2 {
+  color: #fff;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .modal-title p {
+  color: #809EC3;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn {
+  border: 1px solid #484848;
+  background: #000;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active {
+  background-color: #242B3A;
+  border-color: #2966FF;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
+  background-color: #2966FF !important;
+  border-color: #2966FF !important;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
+  box-shadow: inset 0 0 0px 3px #000;
+}
+.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn .select-toggle {
+  border: solid 1px #484848;
+  background-color: #242734;
 }
 .theme-dark .title-search-box .input-group ::-webkit-input-placeholder {
   color: #fff;
