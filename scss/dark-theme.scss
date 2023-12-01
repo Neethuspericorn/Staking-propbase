@@ -396,4 +396,32 @@ $dark-block-2: #2B2C2E;
     {
         display:none !important;
     }
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp
+    {
+        border: 1px solid #484848;
+        background: transparent;
+        color: #ffffff;
+    }
+    .custom-modal.crate-stake-modal .inp-block-modal .form-label {
+        color: #9EB3CD;
+    }
+    .crate-stake-modal .img-box-cover .img-name-block .img-name,
+    .custom-modal.crate-stake-modal .modal-title h2
+    {
+        color: #ffffff;
+    }
+    .custom-modal.crate-stake-modal .btn-cover-modal .btn-border {
+        color: #ffffff !important;
+        border-color: #9EB3CD !important;
+        background: transparent;
+    }
+    .custom-modal.crate-stake-modal .modal-info-cover .modal-info-block {
+        background-color: #251E0D;
+        color: #FBCB5E;
+    }
+    .crate-stake-modal .img-box-cover .img-select-btn
+    {
+        background-color: #242734;
+        color: #ffffff;
+    }
 }

@@ -965,6 +965,7 @@
   color: #333;
   padding-left: 53px;
   font-size: 15px;
+  padding-right: 64px;
 }
 @media (max-width: 1679px) {
   .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
@@ -998,6 +999,7 @@
   background: none;
   border: none;
   top: 48px;
+  z-index: 10;
 }
 @media (max-width: 1679px) {
   .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-view-icon {
