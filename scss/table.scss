@@ -83,22 +83,22 @@
             font-weight: 500;
         }
         .text-red{
-            color: #FC5252;
+            color: #FC5252 !important;
         }
         .text-orange{
-            color: #F3AA01;
+            color: #F3AA01 !important;
         }
         .text-green{
-            color: #0DAD4D;
+            color: #0DAD4D !important;
         }
         .text-blue{
-            color: #0C15F9;
+            color: #0C15F9 !important;
         }
         .text-dark{
             color: $primary-dark !important;
         }
         .text-light-blue{
-            color: #A2A2DF;
+            color: #A2A2DF !important;
         }
     }
 }

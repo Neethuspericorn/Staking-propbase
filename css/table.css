@@ -70,17 +70,17 @@
   .table-cover .custom-table .text-b {
     font-weight: 500; }
   .table-cover .custom-table .text-red {
-    color: #FC5252; }
+    color: #FC5252 !important; }
   .table-cover .custom-table .text-orange {
-    color: #F3AA01; }
+    color: #F3AA01 !important; }
   .table-cover .custom-table .text-green {
-    color: #0DAD4D; }
+    color: #0DAD4D !important; }
   .table-cover .custom-table .text-blue {
-    color: #0C15F9; }
+    color: #0C15F9 !important; }
   .table-cover .custom-table .text-dark {
     color: #2E4276 !important; }
   .table-cover .custom-table .text-light-blue {
-    color: #A2A2DF; }
+    color: #A2A2DF !important; }
 
 .table-pagination-cover {
   display: flex;
