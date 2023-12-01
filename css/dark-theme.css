@@ -18,7 +18,7 @@
 .theme-dark .header-wrapper .wallet-btn, .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
 .theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
 .theme-dark .portfolio-sec .portfolio-card, .theme-dark .portfolio-sec .portfolio-card .table-pagination-cover,
-.theme-dark .custom-modal .modal-content {
+.theme-dark .custom-modal .modal-content, .theme-dark .title-search-box .input-group, .theme-dark .title-search-box .input-group .form-control {
   background-color: #000;
 }
 .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -36,11 +36,12 @@
 .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate,
 .theme-dark .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .theme-dark .table-pagination-cover .entries-block,
 .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt {
+.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
+.theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn {
   color: #fff;
 }
 .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-.theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail {
+.theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
   border-color: #4E4E4E;
 }
 .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card {
@@ -221,7 +222,8 @@
 .theme-dark .stake-modal .modal-body .btn-default,
 .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer span,
 .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer .cnt,
-.theme-dark .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col {
+.theme-dark .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col,
+.theme-dark .sec-title-block .sec-title {
   color: #fff;
 }
 .theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt p {
@@ -341,6 +343,93 @@
 .theme-dark .crate-stake-modal .img-box-cover .img-select-btn {
   background-color: #242734;
   color: #ffffff;
+}
+.theme-dark .title-search-box .input-group ::-webkit-input-placeholder {
+  color: #fff;
+}
+.theme-dark .title-search-box .input-group :-moz-placeholder {
+  color: #fff;
+}
+.theme-dark .title-search-box .input-group ::-moz-placeholder {
+  color: #fff;
+}
+.theme-dark .title-search-box .input-group :-ms-input-placeholder {
+  color: #fff;
+}
+.theme-dark .title-search-box .input-group img, .theme-dark .filter-dropdown-group .filter-dropdown-btn img {
+  filter: grayscale(1) brightness(4);
+}
+.theme-dark .filter-dropdown-group .filter-dropdown-btn {
+  border-color: #4E4E4E !important;
+}
+.theme-dark .filter-dropdown-group .filter-dropdown-btn {
+  background-color: #000 !important;
+}
+.theme-dark .table-cover .custom-table thead th {
+  background-color: #1A1A1B;
+  color: #fff;
+  border-color: #242424 !important;
+}
+.theme-dark .table-cover .custom-table .th-sort img {
+  filter: grayscale(1) brightness(4);
+}
+.theme-dark .table-cover .custom-table tbody td {
+  background-color: #000;
+  color: #fff;
+  border-color: #242424;
+}
+.theme-dark .table-cover .custom-table .text-dark {
+  color: #fff !important;
+}
+.theme-dark .table-sec {
+  border-color: #3E3E3E;
+  background-color: #000;
+}
+.theme-dark .table-cover .custom-table .td-action-btn {
+  border-color: #000;
+}
+.theme-dark .table-cover .custom-table .td-action-btn:hover img {
+  border-color: #fff;
+}
+.theme-dark .table-cover .custom-table .td-action-btn .edit-icon {
+  filter: grayscale(1) invert(1) brightness(2);
+  border-color: #fff;
+}
+.theme-dark .table-cover .custom-table .td-action-btn .edit-icon:hover {
+  border-color: #000;
+}
+.theme-dark .table-cover .custom-table .tr-completed td {
+  background-color: #031A0B;
+}
+.theme-dark .table-pagination-cover {
+  background-color: #000;
+}
+.theme-dark .portfolio-sec .portfolio-card .table-pagination-cover, .theme-dark .table-pagination-cover {
+  border-color: #3E3E3E;
+}
+.theme-dark .table-pagination-cover .select-block {
+  color: #fff;
+}
+.theme-dark .table-pagination-cover .select-block .pagination-select {
+  border-color: #e3e4f3;
+  background-color: #000;
+  color: #fff;
+}
+.theme-dark .table-pagination-cover .pagination .page-item .page-link {
+  background-color: #000;
+  border-color: #3E3E3E;
+  color: #fff;
+}
+.theme-dark .table-pagination-cover .pagination .page-item .page-link img {
+  filter: grayscale(1) brightness(4);
+}
+.theme-dark .table-pagination-cover .pagination .page-item .page-link:hover, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active {
+  background-color: #2D2D2D;
+  color: #fff;
+  border-color: #6F6F6F;
+}
+.theme-dark .table-pagination-cover .pagination .page-item .page-link:hover img, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active img {
+  filter: none;
 }
 
 /*# sourceMappingURL=dark-theme.css.map */

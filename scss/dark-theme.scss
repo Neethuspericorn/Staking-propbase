@@ -16,7 +16,8 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, 
     .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover, .portfolio-sec .lg-graph, 
     .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover, 
-    .custom-modal .modal-content
+    .custom-modal .modal-content, .title-search-box .input-group, .title-search-box .input-group .form-control, 
+    
     {
         background-color: $dark-bg;
     }
@@ -36,14 +37,15 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate, 
     .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block, 
     .claim-reward-modal .claim-reward-modal-body .modal-title h4, .claim-reward-modal .claim-reward-modal-body .claim-count-block p, 
-    .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt
+    .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt, 
+    .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn
     {
         color: $primary-light;
     }
 
     // full border color 2
     .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
-    .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail{
+    .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail, .title-search-box .input-group{
         border-color: $dark-border-2;
     }
     // full border
@@ -163,7 +165,7 @@ $dark-block-2: #2B2C2E;
         background-color: #202020;
     }
     .portfolio-sec .portfolio-card .card-table th{
-        background-color: #1A1A1B;
+        background-color: $table-th;
     }
     .portfolio-sec .portfolio-card .card-table td{
         border: none;
@@ -271,7 +273,8 @@ $dark-block-2: #2B2C2E;
     .stake-modal .modal-body .btn-default,
     .stake-modal .modal-body .rwd-inner .detail-outer span,
     .stake-modal .modal-body .rwd-inner .detail-outer .cnt,
-    .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col
+    .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col,
+    .sec-title-block .sec-title
     {
         color:$primary-light;
     }
@@ -424,4 +427,95 @@ $dark-block-2: #2B2C2E;
         background-color: #242734;
         color: #ffffff;
     }
+
+
+    // CreATE STAKEABLE
+    .title-search-box .input-group{
+        @include placeholder{
+            color: $primary-light;
+        }
+    }
+    .title-search-box .input-group img, .filter-dropdown-group .filter-dropdown-btn img{
+        filter: grayscale(1) brightness(4);
+    }
+    .filter-dropdown-group .filter-dropdown-btn{
+        border-color: $dark-border-2 !important;
+    }
+    .filter-dropdown-group .filter-dropdown-btn
+    {
+        background-color: $dark-bg !important;
+    }
+
+
+    // Table common
+    .table-cover .custom-table thead th{
+        background-color: $table-th;
+        color: $primary-light;
+        border-color: $table-bodrer !important;
+    }
+    .table-cover .custom-table .th-sort img{
+        filter: grayscale(1) brightness(4);
+    }
+    .table-cover .custom-table tbody td{
+        background-color: $dark-bg;
+        color: $primary-light;
+        border-color: $table-bodrer;
+    }
+    .table-cover .custom-table .text-dark{
+        color: $primary-light !important;
+    }
+    .table-sec{
+        border-color: #3E3E3E;
+        background-color: $dark-bg;
+    }
+    .table-cover .custom-table .td-action-btn{
+        border-color: $dark-bg;
+        &:hover img{
+            border-color: $primary-light;
+        }
+    }
+    .table-cover .custom-table .td-action-btn .edit-icon{
+        filter: grayscale(1) invert(1) brightness(2);
+        border-color: $primary-light;
+        &:hover{
+            border-color: $dark-bg;
+        }
+    }
+    .table-cover .custom-table .tr-completed{
+        td{
+            background-color: #031A0B;
+        }
+    }
+    .table-pagination-cover{
+        background-color: $dark-bg;
+    }
+    .portfolio-sec .portfolio-card .table-pagination-cover, .table-pagination-cover{
+        border-color: #3E3E3E;
+    }
+    .table-pagination-cover{
+        .select-block{
+            color: $primary-light;
+            .pagination-select{
+                border-color: $border-grey;
+                background-color: $dark-bg;
+                color: $primary-light;
+            }
+        }
+        .pagination .page-item .page-link{
+           background-color: $dark-bg;
+           border-color: #3E3E3E;
+           color: $primary-light;
+           img{
+            filter: grayscale(1) brightness(4);
+           }
+           &:hover, &.active{
+            background-color: #2D2D2D;
+            color: $primary-light;
+            border-color: #6F6F6F;
+            img{
+                filter: none;
+            }
+           }
+        }
+    } 
 }
