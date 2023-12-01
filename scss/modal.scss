@@ -991,6 +991,7 @@
                         color: #333;
                         padding-left: 53px;
                         font-size: 15px;
+                        padding-right: 64px;
                         @media(max-width:1679px)
                         {
                             height: 55px;
@@ -1022,6 +1023,7 @@
                         background: none;
                         border: none;
                         top: 48px;
+                        z-index: 10;
                         @media(max-width:1679px)
                         {
                             top: 45px;
