@@ -68,6 +68,12 @@
   --highlight-color: #262525 !important;
   background-color: #212020 !important;
 }
+.theme-dark .portfolio-sec .copy-btn {
+  background: rgba(89, 89, 93, 0.55) !important;
+}
+.theme-dark .portfolio-sec .copy-btn img {
+  filter: grayscale(1) brightness(2);
+}
 .theme-dark .nav-block {
   border-right: solid 1px #484848;
   border-top: solid 1px #484848;
@@ -482,17 +488,17 @@
   color: #fff;
 }
 .theme-dark .table-pagination-cover .pagination .page-item .page-link {
-  background-color: #000;
-  border-color: #3E3E3E;
-  color: #fff;
+  background-color: #000 !important;
+  border-color: #3E3E3E !important;
+  color: #fff !important;
 }
 .theme-dark .table-pagination-cover .pagination .page-item .page-link img {
   filter: grayscale(1) brightness(4);
 }
 .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active {
-  background-color: #2D2D2D;
-  color: #fff;
-  border-color: #6F6F6F;
+  background-color: #2D2D2D !important;
+  color: #fff !important;
+  border-color: #6F6F6F !important;
 }
 .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover img, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active img {
   filter: none;
