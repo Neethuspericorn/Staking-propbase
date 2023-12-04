@@ -128,6 +128,7 @@
 .theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td {
   border: none;
   border-bottom: solid 1px #191919;
+  background-color: #000;
 }
 .theme-dark .portfolio-sec .lg-graph {
   border: solid 1px #4E4E4E;
