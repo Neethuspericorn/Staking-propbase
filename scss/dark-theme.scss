@@ -77,7 +77,11 @@ $dark-block-2: #2B2C2E;
     .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img{
         filter: grayscale(1) brightness(2);
     }
-
+    .react-loading-skeleton {
+        --base-color: #262525 !important;
+        --highlight-color: #262525 !important;
+        background-color: #212020 !important;
+    }
     .nav-block{
         border-right: solid 1px $dark-border;
         border-top: solid 1px $dark-border;
@@ -169,9 +173,11 @@ $dark-block-2: #2B2C2E;
         background-color: $table-th;
     }
     .portfolio-sec .portfolio-card .card-table td{
-        border: none;
+        border: none !important;
         border-bottom: solid 1px #191919 !important;
+        background-color:$dark-black;
     }
+   
     .portfolio-sec .portfolio-card .card-table tbody tr:last-child td{
         border-bottom: none !important;
         &:last-child, &:first-child{
