@@ -38,7 +38,7 @@
 .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
 .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
 .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn {
-  color: #fff;
+  color: #fff !important;
 }
 .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
 .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
@@ -84,6 +84,9 @@
 .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
   border: solid 1px #4E4E4E;
   border-radius: 50%;
+}
+.theme-dark button.login-btn {
+  border: 1px solid #4E4E4E !important;
 }
 .theme-dark .property-listing-cover {
   margin-bottom: 20px;

@@ -40,7 +40,7 @@ $dark-block-2: #2B2C2E;
     .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt, 
     .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn
     {
-        color: $primary-light;
+        color: $primary-light !important;
     }
 
     // full border color 2
@@ -100,6 +100,9 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img{
         border: solid 1px $dark-border-2;
         border-radius: 50%;
+    }
+    button.login-btn {
+        border: 1px solid #4E4E4E !important;
     }
     .property-listing-cover{
         margin-bottom: 20px;
