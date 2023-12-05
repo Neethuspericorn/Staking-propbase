@@ -11,500 +11,377 @@
 /* placeholder mixin */
 .theme-dark {
   color: #fff;
-  background-color: #000;
-}
-.theme-dark .nav-block .navbar-collapse-block, .theme-dark .nav-block, .theme-dark .body-wrapper .content-block-outer,
-.theme-dark .header-wrapper, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-.theme-dark .header-wrapper .wallet-btn, .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
-.theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
-.theme-dark .portfolio-sec .portfolio-card, .theme-dark .portfolio-sec .portfolio-card .table-pagination-cover,
-.theme-dark .custom-modal .modal-content, .theme-dark .title-search-box .input-group, .theme-dark .title-search-box .input-group .form-control {
-  background-color: #000;
-}
-.theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
-.theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
-.theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .card-sec .h-card-block .join-btn, .theme-dark .welcome-cover,
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p,
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn,
-.theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block h2,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-label,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val,
-.theme-dark .portfolio-sec .portfolio-card .card-table th, .theme-dark .portfolio-sec .portfolio-card .card-table td,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate,
-.theme-dark .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .theme-dark .table-pagination-cover .entries-block,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
-.theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn {
-  color: #fff !important;
-}
-.theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-.theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
-  border-color: #4E4E4E;
-}
-.theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card {
-  border: solid 1px #4E4E4E;
-}
-.theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
-  background-color: #2966FF;
-}
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
-  color: #2966FF;
-}
-.theme-dark .header-wrapper .login-btn img, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img,
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img,
-.theme-dark .custom-modal .btn-close img {
-  filter: grayscale(1) invert(1) brightness(2);
-}
-.theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
-  filter: grayscale(1) brightness(2);
-}
-.theme-dark .react-loading-skeleton {
-  --base-color: #262525 !important;
-  --highlight-color: #262525 !important;
-  background-color: #212020 !important;
-}
-.theme-dark .portfolio-sec .copy-btn {
-  background: rgba(89, 89, 93, 0.55) !important;
-}
-.theme-dark .portfolio-sec .copy-btn img {
-  filter: grayscale(1) brightness(2);
-}
-.theme-dark .nav-block {
-  border-right: solid 1px #484848;
-  border-top: solid 1px #484848;
-}
-.theme-dark .header-wrapper {
-  border-bottom: solid 1px #484848;
-}
-.theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
-  border: solid 1px #4E4E4E;
-  border-radius: 50%;
-}
-.theme-dark button.login-btn {
-  border: 1px solid #4E4E4E !important;
-}
-.theme-dark .property-listing-cover {
-  margin-bottom: 20px;
-}
-.theme-dark .property-listing-cover .filter-wrapper {
-  margin-bottom: 0;
-  border-bottom: solid 1px #484848;
-}
-.theme-dark .filter-wrapper .filter-nav-btn {
-  border: none;
-  position: relative;
-}
-.theme-dark .filter-wrapper .filter-nav-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 0;
-  bottom: -15px;
-  height: 3px;
-  border-radius: 1.5px;
-  background-color: #2966FF;
-  transition: 0.3s;
-}
-.theme-dark .filter-wrapper .filter-nav-btn.active::after, .theme-dark .filter-wrapper .filter-nav-btn:hover::after {
-  width: 100%;
-}
-.theme-dark .card-sec .h-card-block {
-  border: solid 1px #484848;
-}
-.theme-dark .card-sec .h-card-block .join-btn {
-  border: solid 1px #2966FF;
-}
-.theme-dark .card-sec .h-card-block .join-btn:hover {
-  background-color: #fff;
-  color: #2966FF;
-}
-.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link::after {
-  background-color: #0C121F;
-}
-.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active {
-  color: #2966FF;
-}
-.theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active img {
-  filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%);
-}
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover,
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn {
-  background-color: #151618;
-}
-.theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn:hover, .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn.active {
-  background-color: #2B2C2E;
-}
-.theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td {
-  border: none;
-  border-bottom: solid 1px #191919;
-  background-color: #000;
-}
-.theme-dark .portfolio-sec .lg-graph {
-  border: solid 1px #4E4E4E;
-}
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
-  background-color: #2B2C2E;
-}
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover {
-  border-color: #2B2B2B;
-}
-.theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title {
-  background-color: #202020;
-}
-.theme-dark .portfolio-sec .portfolio-card .card-table th {
-  background-color: #1A1A1B;
-}
-.theme-dark .portfolio-sec .portfolio-card .card-table td {
-  border: none !important;
-  border-bottom: solid 1px #191919 !important;
-  background-color: #000;
-}
-.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td {
-  border-bottom: none !important;
-}
-.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child, .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child {
-  border-radius: 0;
-}
-.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child::after,
-.theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after {
-  display: none;
-}
-.theme-dark .login-left-block {
-  background: #000;
-}
-.theme-dark .login-left-block .logo-section-block img.logo-img {
-  display: none;
-}
-.theme-dark .login-left-block .logo-section-block img.logo-img.d-none {
-  display: block !important;
-}
-.theme-dark .login-left-block .logo-section-block .welcome-text, .theme-dark .login-left-block .logo-section-block .welcome-text h4, .theme-dark .login-left-block .logo-section-block .form-group .input-group label, .theme-dark .login-left-block .logo-section-block .bottom-content .checkbox-container {
-  color: #fff;
-}
-.theme-dark .login-left-block .form-group .input-group label {
-  color: #fff;
-}
-.theme-dark .login-left-block .form-group .input-group .form-control {
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
-  border: 1px solid #fff;
-}
-.theme-dark .fgt-modal .modal-content {
-  background: #000;
-}
-.theme-dark .fgt-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-header .heading-top .modal-title {
-  color: #fff;
-}
-.theme-dark .fgt-modal .modal-dialog .modal-header .input-group .form-control {
-  border: 1px solid #fff;
-}
-.theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group label {
-  color: #fff;
-}
-.theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
-  border: 1px solid #fff;
-}
-.theme-dark .success-modal .modal-dialog.modal-dialog-centered .modal-content {
-  background: #000;
-}
-.theme-dark .success-modal .modal-body .modal-title h2, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-rupees {
-  color: #fff;
-}
-.theme-dark .staking-dashboard-outer .welcome-stake-outer, .theme-dark .staking-dashboard-outer .total-value-outer {
-  background-color: #000;
-  border: 1px solid #484848;
-}
-.theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name {
-  background: #1D355C;
-}
-.theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt h3,
-.theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .txt-sec,
-.theme-dark .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-txt,
-.theme-dark .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-num,
-.theme-dark .card-section-outer .top-block .heading-txt .desc-content p.txt-content,
-.theme-dark .card-section-outer .top-block .timer-section label,
-.theme-dark .card-section-outer .top-block .timer-section ul li .label-count,
-.theme-dark .card-section-outer .top-block .list-order-outer .list-order .label-content,
-.theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked .text-percent-count,
-.theme-dark .stake-modal .modal-body .crate-stake-modal-body .modal-title h2,
-.theme-dark .stake-modal .modal-body .pool-cap-txt .pool-label,
-.theme-dark .stake-modal .modal-body .pool-cap-txt .pool-cont,
-.theme-dark .stake-modal .modal-body .progress-bar-section .progress-count,
-.theme-dark .stake-modal .modal-body .btn-default,
-.theme-dark .stake-modal .modal-body .rwd-inner .detail-outer span,
-.theme-dark .stake-modal .modal-body .rwd-inner .detail-outer .cnt,
-.theme-dark .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col,
-.theme-dark .sec-title-block .sec-title {
-  color: #fff;
-}
-.theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt p {
-  color: #9E9E9E;
-}
-.theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked {
-  border-bottom: 1px solid #484848;
-}
-.theme-dark .card-section-outer .top-block .timer-section ul li {
-  background: #2B2C2E;
-}
-.theme-dark .card-section-outer .top-block .timer-section ul li .num-txt {
-  background: #151618;
-  color: #A3A3A3;
-}
-.theme-dark .card-section-outer .top-block .btn-default {
-  background: transparent;
-  color: #fff;
-  border: 1px solid #B4BFCD;
-}
-.theme-dark .card-section-outer .bottom-block {
-  border-top: 1px solid #353535;
-}
-.theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake {
-  background: transparent;
-  color: #fff;
-}
-.theme-dark button.login-btn.header-btn-web {
-  border: 1px solid #4E4E4E;
-}
-.theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .img-sec img {
-  filter: grayscale(1) brightness(3);
-}
-.theme-dark .card-section-outer .top-block .icon-head-top .img-icon.d-none {
-  display: block !important;
-}
-.theme-dark .card-section-outer .top-block .icon-head-top .img-icon-white {
-  display: none !important;
-}
-.theme-dark .table-no-data p {
-  color: #fff;
-}
-.theme-dark .stake-modal .modal-content {
-  border: 1px solid #272727;
-  background: #000;
-}
-.theme-dark .stake-modal .modal-body .btn-default {
-  background: transparent;
-}
-.theme-dark .stake-modal .modal-body .btn-default {
-  border: 1px solid #B2B2B2;
-}
-.theme-dark .stake-modal .modal-body .lock-period {
-  color: #B2B2B2;
-}
-.theme-dark .stake-modal .modal-body .policy-stake {
-  border: 1px solid #2B2B2B;
-  background: #0F0F0F;
-}
-.theme-dark .stake-modal .modal-body .policy-stake .head-policy, .theme-dark .stake-modal .modal-body .policy-stake .policy-text {
-  color: #B2B2B2;
-}
-.theme-dark .stake-modal .modal-body .input-group .form-control {
-  background: transparent;
-  border: 1px solid #3F3F3F;
-}
-.theme-dark .stake-modal .modal-body .input-group .badges .num-badge {
-  border: 1px solid #B2B2B2;
-  color: #fff;
-}
-.theme-dark .stake-modal .modal-body .input-group .badges .max-active {
-  border: 1px solid #2966FF;
-}
-.theme-dark .stake-modal .modal-body .crate-stake-modal-body .modal-title img {
-  background: transparent;
-  filter: grayscale(1) brightness(3);
-}
-.theme-dark .stake-modal .modal-body .policy-stake .head-policy img {
-  filter: grayscale(1) brightness(3);
-}
-.theme-dark .stake-modal .modal-body .rwd-inner .detail-outer img {
-  filter: grayscale(1) brightness(1);
-}
-.theme-dark .stake-modal .modal-body .input-group .form-control {
-  color: #B2B2B2;
-}
-.theme-dark .stake-modal .modal-body .withdraw-btn {
-  background: #EE8728;
-}
-.theme-dark .table-no-data .img-block .no-data-img.d-none {
-  display: block !important;
-}
-.theme-dark .table-no-data .img-block .no-data-img {
-  display: none !important;
-}
-.theme-dark .custom-modal.crate-stake-modal .inp-block-modal .custom-inp {
-  border: 1px solid #484848;
-  background: transparent;
-  color: #fff;
-}
-.theme-dark .custom-modal.crate-stake-modal .inp-block-modal .form-label {
-  color: #9EB3CD;
-}
-.theme-dark .crate-stake-modal .img-box-cover .img-name-block .img-name,
-.theme-dark .custom-modal.crate-stake-modal .modal-title h2 {
-  color: #fff;
-}
-.theme-dark .custom-modal.crate-stake-modal .btn-cover-modal .btn-border {
-  color: #ffffff !important;
-  border-color: #9EB3CD !important;
-  background: transparent;
-}
-.theme-dark .custom-modal.crate-stake-modal .modal-info-cover .modal-info-block {
-  background-color: #251E0D;
-  color: #FBCB5E;
-}
-.theme-dark .crate-stake-modal .img-box-cover .img-select-btn {
-  background-color: #242734;
-  color: #fff;
-}
-.theme-dark .delete-confirm .btn-otr .btn-cancel {
-  border: 1px solid #eae0e0;
-  background: transparent;
-}
-.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label {
-  color: #fff;
-}
-.theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
-  background-color: #242734;
-}
-.theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label img,
-.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label img {
-  filter: grayscale(1) brightness(2);
-}
-.theme-dark .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block {
-  background-color: #251E0D;
-  color: #FBCB5E;
-}
-.theme-dark .custom-modal .modal-info-cover .modal-info-block img {
-  filter: grayscale(0) brightness(2);
-}
-.theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-addrs {
-  border: 1px solid #3E3E3E;
-  background: #1A1A1B;
-  color: #E2E2E2;
-}
-.theme-dark .claim-reward-modal.aptos-modal .aptos-text-block {
-  color: #9EB3CD;
-}
-.theme-dark .claim-reward-modal.aptos-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
-  filter: grayscale(0) brightness(6);
-}
-.theme-dark .custom-modal .modal-title h2 {
-  color: #fff;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .modal-title p {
-  color: #809EC3;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn {
-  border: 1px solid #484848;
-  background: #000;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active {
-  background-color: #242B3A;
-  border-color: #2966FF;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
-  background-color: #2966FF !important;
-  border-color: #2966FF !important;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
-  box-shadow: inset 0 0 0px 3px #000;
-}
-.theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn .select-toggle {
-  border: solid 1px #484848;
-  background-color: #242734;
-}
-.theme-dark .title-search-box .input-group ::-webkit-input-placeholder {
-  color: #fff;
-}
-.theme-dark .title-search-box .input-group :-moz-placeholder {
-  color: #fff;
-}
-.theme-dark .title-search-box .input-group ::-moz-placeholder {
-  color: #fff;
-}
-.theme-dark .title-search-box .input-group :-ms-input-placeholder {
-  color: #fff;
-}
-.theme-dark .title-search-box .input-group img, .theme-dark .filter-dropdown-group .filter-dropdown-btn img {
-  filter: grayscale(1) brightness(4);
-}
-.theme-dark .filter-dropdown-group .filter-dropdown-btn {
-  border-color: #4E4E4E !important;
-}
-.theme-dark .filter-dropdown-group .filter-dropdown-btn {
-  background-color: #000 !important;
-}
-.theme-dark .table-cover .custom-table thead th {
-  background-color: #1A1A1B;
-  color: #fff;
-  border-color: #242424 !important;
-}
-.theme-dark .table-cover .custom-table .th-sort img {
-  filter: grayscale(1) brightness(4);
-}
-.theme-dark .table-cover .custom-table tbody td {
-  background-color: #000;
-  color: #fff;
-  border-color: #242424;
-}
-.theme-dark .table-cover .custom-table .text-dark {
-  color: #fff !important;
-}
-.theme-dark .table-sec {
-  border-color: #3E3E3E;
-  background-color: #000;
-}
-.theme-dark .table-cover .custom-table .td-action-btn {
-  border-color: #000;
-}
-.theme-dark .table-cover .custom-table .td-action-btn:hover img {
-  border-color: #fff;
-}
-.theme-dark .table-cover .custom-table .td-action-btn .edit-icon {
-  filter: grayscale(1) invert(1) brightness(2);
-  border-color: #fff;
-}
-.theme-dark .table-cover .custom-table .td-action-btn .edit-icon:hover {
-  border-color: #000;
-}
-.theme-dark .table-cover .custom-table .tr-completed td {
-  background-color: #031A0B;
-}
-.theme-dark .table-pagination-cover {
-  background-color: #000;
-}
-.theme-dark .portfolio-sec .portfolio-card .table-pagination-cover, .theme-dark .table-pagination-cover {
-  border-color: #3E3E3E;
-}
-.theme-dark .table-pagination-cover .select-block {
-  color: #fff;
-}
-.theme-dark .table-pagination-cover .select-block .pagination-select {
-  border-color: #e3e4f3;
-  background-color: #000;
-  color: #fff;
-}
-.theme-dark .table-pagination-cover .pagination .page-item .page-link {
-  background-color: #000 !important;
-  border-color: #3E3E3E !important;
-  color: #fff !important;
-}
-.theme-dark .table-pagination-cover .pagination .page-item .page-link img {
-  filter: grayscale(1) brightness(4);
-}
-.theme-dark .table-pagination-cover .pagination .page-item .page-link:hover, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active {
-  background-color: #2D2D2D !important;
-  color: #fff !important;
-  border-color: #6F6F6F !important;
-}
-.theme-dark .table-pagination-cover .pagination .page-item .page-link:hover img, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active img {
-  filter: none;
-}
+  background-color: #000; }
+  .theme-dark .nav-block .navbar-collapse-block, .theme-dark .nav-block, .theme-dark .body-wrapper .content-block-outer,
+  .theme-dark .header-wrapper, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
+  .theme-dark .header-wrapper .wallet-btn, .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
+  .theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
+  .theme-dark .portfolio-sec .portfolio-card, .theme-dark .portfolio-sec .portfolio-card .table-pagination-cover,
+  .theme-dark .custom-modal .modal-content, .theme-dark .title-search-box .input-group, .theme-dark .title-search-box .input-group .form-control,
+  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn
+   {
+    background-color: #000; }
+  .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
+  .theme-dark .header-wrapper .login-btn, .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn,
+  .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .card-sec .h-card-block .join-btn, .theme-dark .welcome-cover,
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p,
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn,
+  .theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block h2,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-label,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .c-rate,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val,
+  .theme-dark .portfolio-sec .portfolio-card .card-table th, .theme-dark .portfolio-sec .portfolio-card .card-table td,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate,
+  .theme-dark .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .theme-dark .table-pagination-cover .entries-block,
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
+  .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn, .theme-dark .card-sec .h-card-block p
+   {
+    color: #fff !important; }
+  .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
+  .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
+    border-color: #4E4E4E; }
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card,
+  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn {
+    border: solid 1px #4E4E4E; }
+  .theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
+    background-color: #2966FF; }
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
+    color: #2966FF; }
+  .theme-dark .header-wrapper .login-btn img, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img,
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img,
+  .theme-dark .custom-modal .btn-close img
+   {
+    filter: grayscale(1) invert(1) brightness(2); }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
+    filter: grayscale(1) brightness(2); }
+  .theme-dark .react-loading-skeleton {
+    --base-color: #262525 !important;
+    --highlight-color: #262525 !important;
+    background-color: #212020 !important; }
+  .theme-dark .portfolio-sec .copy-btn {
+    background: rgba(89, 89, 93, 0.55) !important; }
+    .theme-dark .portfolio-sec .copy-btn img {
+      filter: grayscale(1) brightness(2); }
+  .theme-dark .nav-block {
+    border-right: solid 1px #484848;
+    border-top: solid 1px #484848; }
+  .theme-dark .header-wrapper {
+    border-bottom: solid 1px #484848; }
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
+    border: solid 1px #4E4E4E;
+    border-radius: 50%; }
+  .theme-dark button.login-btn {
+    border: 1px solid #4E4E4E !important; }
+  .theme-dark .property-listing-cover {
+    margin-bottom: 20px; }
+    .theme-dark .property-listing-cover .filter-wrapper {
+      margin-bottom: 0;
+      border-bottom: solid 1px #484848; }
+  .theme-dark .filter-wrapper .filter-nav-btn {
+    border: none;
+    position: relative; }
+    .theme-dark .filter-wrapper .filter-nav-btn::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 0;
+      bottom: -15px;
+      height: 3px;
+      border-radius: 1.5px;
+      background-color: #2966FF;
+      transition: .3s; }
+    .theme-dark .filter-wrapper .filter-nav-btn.active::after, .theme-dark .filter-wrapper .filter-nav-btn:hover::after {
+      width: 100%; }
+  .theme-dark .card-sec .h-card-block {
+    border: solid 1px #484848; }
+    .theme-dark .card-sec .h-card-block .join-btn {
+      border: solid 1px #2966FF; }
+      .theme-dark .card-sec .h-card-block .join-btn:hover {
+        background-color: #fff;
+        color: #2966FF !important; }
+  .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link::after {
+    background-color: #0C121F; }
+  .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active {
+    color: #2966FF; }
+    .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active img {
+      filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%); }
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover,
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn {
+    background-color: #151618; }
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn:hover, .theme-dark .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover .filter-btn.active {
+    background-color: #2B2C2E; }
+  .theme-dark .portfolio-sec .lg-graph .graph-table-block .graph-table tr td {
+    border: none;
+    border-bottom: solid 1px #191919;
+    background-color: #000; }
+  .theme-dark .portfolio-sec .lg-graph {
+    border: solid 1px #4E4E4E; }
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon {
+    background-color: #2B2C2E; }
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover {
+    border-color: #2B2B2B; }
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title {
+    background-color: #202020; }
+  .theme-dark .portfolio-sec .portfolio-card .card-table th {
+    background-color: #1A1A1B; }
+  .theme-dark .portfolio-sec .portfolio-card .card-table td {
+    border: none !important;
+    border-bottom: solid 1px #191919 !important;
+    background-color: #000; }
+  .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td {
+    border-bottom: none !important; }
+    .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child, .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child {
+      border-radius: 0; }
+  .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:first-child::after,
+  .theme-dark .portfolio-sec .portfolio-card .card-table tbody tr:last-child td:last-child::after {
+    display: none; }
+  .theme-dark .login-left-block {
+    background: #000; }
+    .theme-dark .login-left-block .logo-section-block img.logo-img {
+      display: none; }
+    .theme-dark .login-left-block .logo-section-block img.logo-img.d-none {
+      display: block !important; }
+    .theme-dark .login-left-block .logo-section-block .welcome-text, .theme-dark .login-left-block .logo-section-block .welcome-text h4, .theme-dark .login-left-block .logo-section-block .form-group .input-group label, .theme-dark .login-left-block .logo-section-block .bottom-content .checkbox-container {
+      color: #fff; }
+    .theme-dark .login-left-block .form-group .input-group label {
+      color: #fff; }
+    .theme-dark .login-left-block .form-group .input-group .form-control {
+      color: #fff !important;
+      -webkit-text-fill-color: #fff !important;
+      border: 1px solid #fff; }
+  .theme-dark .fgt-modal .modal-content {
+    background: #000; }
+  .theme-dark .fgt-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-header .heading-top .modal-title {
+    color: #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-header .input-group .form-control {
+    border: 1px solid #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group label {
+    color: #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+    border: 1px solid #fff; }
+  .theme-dark .success-modal .modal-dialog.modal-dialog-centered .modal-content {
+    background: #000; }
+  .theme-dark .success-modal .modal-body .modal-title h2, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-rupees {
+    color: #fff; }
+  .theme-dark .staking-dashboard-outer .welcome-stake-outer, .theme-dark .staking-dashboard-outer .total-value-outer {
+    background-color: #000;
+    border: 1px solid #484848; }
+  .theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .props-badge .props-name {
+    background: #1D355C; }
+  .theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt h3,
+  .theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .txt-sec,
+  .theme-dark .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-txt,
+  .theme-dark .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner .label-num,
+  .theme-dark .card-section-outer .top-block .heading-txt .desc-content p.txt-content,
+  .theme-dark .card-section-outer .top-block .timer-section label,
+  .theme-dark .card-section-outer .top-block .timer-section ul li .label-count,
+  .theme-dark .card-section-outer .top-block .list-order-outer .list-order .label-content,
+  .theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked .text-percent-count,
+  .theme-dark .stake-modal .modal-body .crate-stake-modal-body .modal-title h2,
+  .theme-dark .stake-modal .modal-body .pool-cap-txt .pool-label,
+  .theme-dark .stake-modal .modal-body .pool-cap-txt .pool-cont,
+  .theme-dark .stake-modal .modal-body .progress-bar-section .progress-count,
+  .theme-dark .stake-modal .modal-body .btn-default,
+  .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer span,
+  .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer .cnt,
+  .theme-dark .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col,
+  .theme-dark .sec-title-block .sec-title {
+    color: #fff; }
+  .theme-dark .staking-dashboard-outer .welcome-stake-outer .detail-sec-stake .welcome-txt p {
+    color: #9E9E9E; }
+  .theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked {
+    border-bottom: 1px solid #484848; }
+  .theme-dark .card-section-outer .top-block .timer-section ul li {
+    background: #2B2C2E; }
+  .theme-dark .card-section-outer .top-block .timer-section ul li .num-txt {
+    background: #151618;
+    color: #A3A3A3; }
+  .theme-dark .card-section-outer .top-block .btn-default {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #B4BFCD; }
+  .theme-dark .card-section-outer .bottom-block {
+    border-top: 1px solid #353535; }
+  .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake {
+    background: transparent;
+    color: #fff; }
+  .theme-dark button.login-btn.header-btn-web {
+    border: 1px solid #4E4E4E; }
+  .theme-dark .staking-dashboard-outer .total-value-outer .stake-tot-locked h3 .img-sec img {
+    filter: grayscale(1) brightness(3); }
+  .theme-dark .card-section-outer .top-block .icon-head-top .img-icon.d-none {
+    display: block !important; }
+  .theme-dark .card-section-outer .top-block .icon-head-top .img-icon-white {
+    display: none !important; }
+  .theme-dark .table-no-data p {
+    color: #fff; }
+  .theme-dark .stake-modal .modal-content {
+    border: 1px solid #272727;
+    background: #000; }
+  .theme-dark .stake-modal .modal-body .btn-default {
+    background: transparent; }
+  .theme-dark .stake-modal .modal-body .btn-default {
+    border: 1px solid #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .lock-period {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .policy-stake {
+    border: 1px solid #2B2B2B;
+    background: #0F0F0F; }
+  .theme-dark .stake-modal .modal-body .policy-stake .head-policy, .theme-dark .stake-modal .modal-body .policy-stake .policy-text {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .input-group .form-control {
+    background: transparent;
+    border: 1px solid #3F3F3F; }
+  .theme-dark .stake-modal .modal-body .input-group .badges .num-badge {
+    border: 1px solid #B2B2B2;
+    color: #fff; }
+  .theme-dark .stake-modal .modal-body .input-group .badges .max-active {
+    border: 1px solid #2966FF; }
+  .theme-dark .stake-modal .modal-body .crate-stake-modal-body .modal-title img {
+    background: transparent;
+    filter: grayscale(1) brightness(3); }
+  .theme-dark .stake-modal .modal-body .policy-stake .head-policy img {
+    filter: grayscale(1) brightness(3); }
+  .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer img {
+    filter: grayscale(1) brightness(1); }
+  .theme-dark .stake-modal .modal-body .input-group .form-control {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .withdraw-btn {
+    background: #EE8728; }
+  .theme-dark .table-no-data .img-block .no-data-img.d-none {
+    display: block !important; }
+  .theme-dark .table-no-data .img-block .no-data-img {
+    display: none !important; }
+  .theme-dark .custom-modal.crate-stake-modal .inp-block-modal .custom-inp {
+    border: 1px solid #484848;
+    background: transparent;
+    color: #fff; }
+  .theme-dark .custom-modal.crate-stake-modal .inp-block-modal .form-label {
+    color: #9EB3CD; }
+  .theme-dark .crate-stake-modal .img-box-cover .img-name-block .img-name,
+  .theme-dark .custom-modal.crate-stake-modal .modal-title h2 {
+    color: #fff; }
+  .theme-dark .custom-modal.crate-stake-modal .btn-cover-modal .btn-border {
+    color: #ffffff !important;
+    border-color: #9EB3CD !important;
+    background: transparent; }
+  .theme-dark .custom-modal.crate-stake-modal .modal-info-cover .modal-info-block {
+    background-color: #251E0D;
+    color: #FBCB5E; }
+  .theme-dark .crate-stake-modal .img-box-cover .img-select-btn {
+    background-color: #242734;
+    color: #fff; }
+  .theme-dark .delete-confirm .btn-otr .btn-cancel {
+    border: 1px solid #eae0e0;
+    background: transparent; }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label,
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count,
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label {
+    color: #fff; }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon {
+    background-color: #242734; }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label img,
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label img {
+    filter: grayscale(1) brightness(2); }
+  .theme-dark .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block {
+    background-color: #251E0D;
+    color: #FBCB5E; }
+  .theme-dark .custom-modal .modal-info-cover .modal-info-block img {
+    filter: grayscale(0) brightness(2); }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-addrs {
+    border: 1px solid #3E3E3E;
+    background: #1A1A1B;
+    color: #E2E2E2; }
+  .theme-dark .claim-reward-modal.aptos-modal .aptos-text-block {
+    color: #9EB3CD; }
+  .theme-dark .claim-reward-modal.aptos-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
+    filter: grayscale(0) brightness(6); }
+  .theme-dark .custom-modal .modal-title h2 {
+    color: #fff; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .modal-title p {
+    color: #809EC3; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn {
+    border: 1px solid #484848;
+    background: #000; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active {
+    background-color: #242B3A;
+    border-color: #2966FF; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
+    background-color: #2966FF !important;
+    border-color: #2966FF !important; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active .select-toggle {
+    box-shadow: inset 0 0 0px 3px #000; }
+  .theme-dark .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn .select-toggle {
+    border: solid 1px #484848;
+    background-color: #242734; }
+  .theme-dark .title-search-box .input-group ::-webkit-input-placeholder {
+    color: #fff; }
+  .theme-dark .title-search-box .input-group :-moz-placeholder {
+    color: #fff; }
+  .theme-dark .title-search-box .input-group ::-moz-placeholder {
+    color: #fff; }
+  .theme-dark .title-search-box .input-group :-ms-input-placeholder {
+    color: #fff; }
+  .theme-dark .title-search-box .input-group img, .theme-dark .filter-dropdown-group .filter-dropdown-btn img {
+    filter: grayscale(1) brightness(4); }
+  .theme-dark .filter-dropdown-group .filter-dropdown-btn {
+    border-color: #4E4E4E !important; }
+  .theme-dark .filter-dropdown-group .filter-dropdown-btn {
+    background-color: #000 !important; }
+  .theme-dark .table-cover .custom-table thead th {
+    background-color: #1A1A1B;
+    color: #fff;
+    border-color: #242424 !important; }
+  .theme-dark .table-cover .custom-table .th-sort img {
+    filter: grayscale(1) brightness(4); }
+  .theme-dark .table-cover .custom-table tbody td {
+    background-color: #000;
+    color: #fff;
+    border-color: #242424; }
+  .theme-dark .table-cover .custom-table .text-dark {
+    color: #fff !important; }
+  .theme-dark .table-sec {
+    border-color: #3E3E3E;
+    background-color: #000; }
+  .theme-dark .table-cover .custom-table .td-action-btn {
+    border-color: #000; }
+    .theme-dark .table-cover .custom-table .td-action-btn:hover img {
+      border-color: #fff; }
+  .theme-dark .table-cover .custom-table .td-action-btn .edit-icon {
+    filter: grayscale(1) invert(1) brightness(2);
+    border-color: #fff; }
+    .theme-dark .table-cover .custom-table .td-action-btn .edit-icon:hover {
+      border-color: #000; }
+  .theme-dark .table-cover .custom-table .tr-completed td {
+    background-color: #031A0B; }
+  .theme-dark .table-pagination-cover {
+    background-color: #000; }
+  .theme-dark .portfolio-sec .portfolio-card .table-pagination-cover, .theme-dark .table-pagination-cover {
+    border-color: #3E3E3E; }
+  .theme-dark .table-pagination-cover .select-block {
+    color: #fff; }
+    .theme-dark .table-pagination-cover .select-block .pagination-select {
+      border-color: #e3e4f3;
+      background-color: #000;
+      color: #fff; }
+  .theme-dark .table-pagination-cover .pagination .page-item .page-link {
+    background-color: #000 !important;
+    border-color: #3E3E3E !important;
+    color: #fff !important; }
+    .theme-dark .table-pagination-cover .pagination .page-item .page-link img {
+      filter: grayscale(1) brightness(4); }
+    .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active {
+      background-color: #2D2D2D !important;
+      color: #fff !important;
+      border-color: #6F6F6F !important; }
+      .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover img, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active img {
+        filter: none; }
+  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn .notify-icon img {
+    filter: grayscale(1) brightness(4); }
 
 /*# sourceMappingURL=dark-theme.css.map */

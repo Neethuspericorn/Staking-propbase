@@ -17,7 +17,7 @@ $dark-block-2: #2B2C2E;
     .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover, .portfolio-sec .lg-graph, 
     .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover, 
     .custom-modal .modal-content, .title-search-box .input-group, .title-search-box .input-group .form-control, 
-    
+    .header-wrapper .right-block .notify-dropdown .notify-btn
     {
         background-color: $dark-bg;
     }
@@ -38,7 +38,7 @@ $dark-block-2: #2B2C2E;
     .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block, 
     .claim-reward-modal .claim-reward-modal-body .modal-title h4, .claim-reward-modal .claim-reward-modal-body .claim-count-block p, 
     .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt, 
-    .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn
+    .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn, .card-sec .h-card-block p
     {
         color: $primary-light !important;
     }
@@ -49,7 +49,8 @@ $dark-block-2: #2B2C2E;
         border-color: $dark-border-2;
     }
     // full border
-    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .portfolio-sec .portfolio-card{
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .portfolio-sec .portfolio-card, 
+    .header-wrapper .right-block .notify-dropdown .notify-btn{
         border: solid 1px $dark-border-2;
     }
 
@@ -84,7 +85,7 @@ $dark-block-2: #2B2C2E;
     }
     .portfolio-sec .copy-btn
     {
-        background: rgb(89 89 93 / 55%) !important;
+        background: rgba(89, 89, 93, 0.55) !important;
         img
         {
             filter: grayscale(1) brightness(2);
@@ -137,7 +138,7 @@ $dark-block-2: #2B2C2E;
             border: solid 1px $primary-blue;
             &:hover{
                 background-color: $primary-light;
-                color: $primary-blue;
+                color: $primary-blue !important;
             }
         }
     }
@@ -609,4 +610,7 @@ $dark-block-2: #2B2C2E;
            }
         }
     } 
+    .header-wrapper .right-block .notify-dropdown .notify-btn .notify-icon img{
+        filter: grayscale(1) brightness(4);        
+    }
 }
