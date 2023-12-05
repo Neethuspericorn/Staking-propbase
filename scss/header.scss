@@ -61,6 +61,33 @@
                 background: none;
             }
         }
+        .buy-pros-block{
+            display: flex;
+            align-items: center;
+            padding-right: 35px;
+            padding-left: 80px;
+            .pros-label{
+                display: inline-block;
+                color: #4D6090;
+                font-size: 14px;
+                padding-right: 15px;
+            }
+            .buy-pros-btn{
+                margin-left: 8px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 56px;
+                height: 40px;
+                border: solid 1px #4D6090;
+                border-radius: 40px;
+                transition: .3s;
+                &:hover{
+                    border-color: $primary-blue;
+                    opacity: .8;
+                }
+            }
+        }
         .notify-dropdown{
             margin-left: 12px;
             .notify-btn{
@@ -325,6 +352,17 @@
 }
 
 @media($sm-1679){
+    .header-wrapper .right-block .buy-pros-block{
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+    .header-wrapper .right-block .buy-pros-block .buy-pros-btn{
+        height: 34px;
+        width: 50px;
+    }
+    .header-wrapper .right-block .buy-pros-block .pros-label{
+        padding-right: 10px;
+    }
     .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon {
         width: 42px;
         height: 42px;
@@ -382,6 +420,14 @@
 }
 
 @media($sm-1481){
+    .header-wrapper .right-block .buy-pros-block .pros-label{
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .header-wrapper .right-block .buy-pros-block {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     .header-wrapper .wallet-btn-cover-web .wallet-btn-connected{
         min-width: 140px;
     }
@@ -424,6 +470,13 @@
     }
 }
 @media($sm-1199){
+    .header-wrapper .right-block .buy-pros-block .pros-label{
+        display: none;
+    }
+    .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
+        height: 40px;
+        width: 40px;
+    }
     .header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
         min-width: 135px;
     }
@@ -461,6 +514,13 @@
     }
 }
 @media(max-width: 1100px){
+    .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
+        height: 36px;
+        width: 36px;
+        img{
+            max-width: 16px;
+        }
+    }
     .header-wrapper .right-block .notify-dropdown .notify-btn{
         width: 36px;
         height: 36px;
@@ -515,9 +575,14 @@
     }
 }
 @media($sm-579){
+    .header-wrapper .right-block .buy-pros-block{
+        padding-right: 0;
+        padding-left: 0;
+    }
     .header-wrapper .right-block .buy-btn{
         margin-right: 0;
         margin-left: auto;
+        margin-left: 5px;
     }
     .header-wrapper .header-title-block{
         flex: 0 0 auto;

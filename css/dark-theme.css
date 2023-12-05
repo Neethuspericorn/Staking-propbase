@@ -37,14 +37,15 @@
   .theme-dark .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .theme-dark .table-pagination-cover .entries-block,
   .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
   .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
-  .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn, .theme-dark .card-sec .h-card-block p
+  .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn, .theme-dark .card-sec .h-card-block p,
+  .theme-dark .header-wrapper .right-block .buy-pros-block .pros-label
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
   .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
     border-color: #4E4E4E; }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card,
-  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn {
+  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
     border: solid 1px #4E4E4E; }
   .theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
     background-color: #2966FF; }
@@ -54,11 +55,11 @@
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img,
-  .theme-dark .custom-modal .btn-close img
-   {
+  .theme-dark .custom-modal .btn-close img {
     filter: grayscale(1) invert(1) brightness(2); }
-  .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img {
-    filter: grayscale(1) brightness(2); }
+  .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img,
+  .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn img {
+    filter: grayscale(1) brightness(4); }
   .theme-dark .react-loading-skeleton {
     --base-color: #262525 !important;
     --highlight-color: #262525 !important;
@@ -383,5 +384,9 @@
         filter: none; }
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn .notify-icon img {
     filter: grayscale(1) brightness(4); }
+  .theme-dark .portfolio-sec .portfolio-card .tokenomics-graph-block .img-light {
+    display: none; }
+  .theme-dark .portfolio-sec .portfolio-card .tokenomics-graph-block .img-dark {
+    display: block; }
 
 /*# sourceMappingURL=dark-theme.css.map */

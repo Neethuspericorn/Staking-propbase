@@ -38,7 +38,8 @@ $dark-block-2: #2B2C2E;
     .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots, .table-pagination-cover .entries-block, 
     .claim-reward-modal .claim-reward-modal-body .modal-title h4, .claim-reward-modal .claim-reward-modal-body .claim-count-block p, 
     .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt, 
-    .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn, .card-sec .h-card-block p
+    .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn, .card-sec .h-card-block p, 
+    .header-wrapper .right-block .buy-pros-block .pros-label
     {
         color: $primary-light !important;
     }
@@ -50,7 +51,7 @@ $dark-block-2: #2B2C2E;
     }
     // full border
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .portfolio-sec .portfolio-card, 
-    .header-wrapper .right-block .notify-dropdown .notify-btn{
+    .header-wrapper .right-block .notify-dropdown .notify-btn, .header-wrapper .right-block .buy-pros-block .buy-pros-btn{
         border: solid 1px $dark-border-2;
     }
 
@@ -69,15 +70,17 @@ $dark-block-2: #2B2C2E;
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img, 
     .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img, 
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img, 
-    .custom-modal .btn-close img
+    .custom-modal .btn-close img,
     {
         filter: grayscale(1) invert(1) brightness(2);
     }
 
     // img white
-    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img{
-        filter: grayscale(1) brightness(2);
+    .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img, 
+    .header-wrapper .right-block .buy-pros-block .buy-pros-btn img{
+        filter: grayscale(1) brightness(4);
     }
+    
     .react-loading-skeleton {
         --base-color: #262525 !important;
         --highlight-color: #262525 !important;
@@ -612,5 +615,13 @@ $dark-block-2: #2B2C2E;
     } 
     .header-wrapper .right-block .notify-dropdown .notify-btn .notify-icon img{
         filter: grayscale(1) brightness(4);        
+    }
+    .portfolio-sec .portfolio-card .tokenomics-graph-block{
+        .img-light{
+            display: none;
+        }
+        .img-dark{
+            display: block;
+        }
     }
 }
