@@ -19,14 +19,16 @@
             color: $primary-light;
             padding-top: 15px;
             h4{
-                font-size: 23px;
+                // font-size: 23px;
+                font-size: 1.438rem;
                 font-weight: 400;
                 span{
                     font-weight: 700;
                 }
             }
             p{
-                font-size: 13px;
+                // font-size: 13px;
+                font-size: 0.813rem;
                 font-weight: 500;
                 color: #909AA6;
                 margin-bottom: 0;
@@ -81,12 +83,14 @@
         }
         h2{
             font-size: 22px;
+            font-size: 1.438rem;
             margin-bottom: 20px;
             font-weight: 600;
         }
         p{
             color: $input-text-color;
             font-size: 14px;
+            font-size: 0.875rem;
         }
         .join-btn{
             width: 100%;
@@ -107,7 +111,7 @@
         padding: 20px 25px 40px;
     }
     .welcome-cover .content-block .text-block h4{
-        font-size: 21px;
+        // font-size: 21px;
     }
     .card-sec .h-card-block h2 {
         font-size: 19px;
@@ -115,7 +119,7 @@
     }
     .card-sec .h-card-block .join-btn{
         padding: 10px 15px;
-        font-size: 15px;
+        // font-size: 15px;
     }
 }
 @media($sm-1441){
@@ -127,7 +131,7 @@
         margin-bottom: 15px;
     }
     .welcome-cover .content-block .text-block h4{
-        font-size: 19px;
+        // font-size: 19px;
     }
     .welcome-cover{
         padding: 20px 55px 25px;
@@ -143,7 +147,7 @@
 }
 @media($sm-767){
     .card-sec .h-card-block .join-btn {
-        font-size: 14px;
+        // font-size: 14px;
     }
 }
 

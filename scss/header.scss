@@ -542,7 +542,9 @@
 }
 
 @media($sm-991){
-    
+    .header-wrapper .right-block .buy-pros-block{
+        padding-right: 0;
+    }
     .header-wrapper .right-block .notify-dropdown .dropdown-menu{
         width: 340px;
     }

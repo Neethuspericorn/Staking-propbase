@@ -474,6 +474,9 @@
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn::after {
       display: none; } }
 @media (max-width: 991px) {
+  .header-wrapper .right-block .buy-pros-block {
+    padding-right: 0; }
+
   .header-wrapper .right-block .notify-dropdown .dropdown-menu {
     width: 340px; }
 

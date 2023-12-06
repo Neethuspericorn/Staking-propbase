@@ -22,7 +22,7 @@
             padding: 35px 40px 25px;
         }
         .graph-title-block{
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             .graph-title{
                 flex: 1 1 auto;
                 display: flex;
@@ -477,6 +477,12 @@
     .portfolio-sec .portfolio-card .tokenomics-graph-block img{
         max-height: 300px;
     }
+    .portfolio-sec .lg-graph .graph-block{
+        max-height: 350px;
+    }
+    .portfolio-sec .lg-graph .graph-title-block {
+        margin-bottom: 20px;
+    }
     .portfolio-sec .portfolio-card .title-wrapper .title-block h2{
         font-size: 18px;
     }
@@ -570,6 +576,9 @@
 }
 
 @media($sm-1481){
+    .portfolio-sec .lg-graph .graph-block{
+        max-height: 300px;
+    }
     .portfolio-sec .portfolio-card .title-wrapper .title-block h2 {
         font-size: 17px;
     }
@@ -619,11 +628,14 @@
         flex-wrap: wrap;
     }
     .portfolio-sec .lg-graph .graph-title-block {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
 
 @media($sm-579){
+    .portfolio-sec .lg-graph .graph-title-block{
+        flex-wrap: wrap;
+    }
     .portfolio-sec .lg-graph .graph-det-top {
         padding: 15px 15px 15px;
     }

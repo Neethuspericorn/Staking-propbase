@@ -1,4 +1,13 @@
 @import "partials/partials";
+body{
+    font-size: 16px;
+    @media($sm-1679){
+        font-size: 15px;
+    }
+    @media($sm-1481){
+        font-size: 14px;
+    }
+}
 ul,ol{
     margin: 0;
     padding: 0;
@@ -37,6 +46,8 @@ ul,ol{
 
 .body-content-outer{
     padding: 15px;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 
