@@ -138,7 +138,7 @@ button {
   .filter-wrapper .filter-nav-btn {
     min-width: 120px;
     padding: 10px 15px;
-    font-size: 14px;
+    font-size: 0.879rem;
     background: #fff;
     color: #4D6090;
     transition: .3s;
@@ -175,8 +175,7 @@ button {
     min-width: 90px; } }
 @media (max-width: 767px) {
   .filter-wrapper .filter-nav-btn {
-    min-width: 80px;
-    font-size: 13px; }
+    min-width: 80px; }
 
   .filter-wrapper .title-search-box .input-group {
     width: 100%; }
@@ -634,7 +633,7 @@ button {
   font-weight: 600; }
 
 .progress-bar {
-  background-color: #0dad4d !important; }
+  background-color: #2966FF !important; }
 
 .spinner-border {
   width: 25px;

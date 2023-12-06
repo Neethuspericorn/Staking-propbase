@@ -82,6 +82,7 @@
     margin-bottom: 20px; }
     .theme-dark .property-listing-cover .filter-wrapper {
       margin-bottom: 0;
+      border-radius: 0;
       border-bottom: solid 1px #484848; }
   .theme-dark .filter-wrapper .filter-nav-btn {
     border: none;
@@ -388,5 +389,7 @@
     display: none; }
   .theme-dark .portfolio-sec .portfolio-card .tokenomics-graph-block .img-dark {
     display: block; }
+  .theme-dark .sec-title-block .create-btn {
+    border: solid 1px #4E4E4E; }
 
 /*# sourceMappingURL=dark-theme.css.map */

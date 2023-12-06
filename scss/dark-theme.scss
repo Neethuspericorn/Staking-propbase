@@ -112,6 +112,7 @@ $dark-block-2: #2B2C2E;
         margin-bottom: 20px;
         .filter-wrapper{
             margin-bottom: 0;
+            border-radius: 0;
             border-bottom: solid 1px $dark-border;
         }
     }
@@ -623,5 +624,9 @@ $dark-block-2: #2B2C2E;
         .img-dark{
             display: block;
         }
+    }
+
+    .sec-title-block .create-btn{
+        border: solid 1px $dark-border-2;
     }
 }

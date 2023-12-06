@@ -158,6 +158,8 @@
           @media (max-width: 400px) {
             .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value {
               flex-wrap: wrap; } }
+          .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .c-rate {
+            min-width: 80px; }
           .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .d-rate {
             margin-left: 65px;
             font-size: 16px;
@@ -304,7 +306,8 @@
     text-align: center; }
     .portfolio-sec .portfolio-card .tokenomics-graph-block img {
       max-width: 100%;
-      max-height: 400px; }
+      max-height: 400px;
+      margin: 0 auto; }
     .portfolio-sec .portfolio-card .tokenomics-graph-block .img-dark {
       display: none; }
 
