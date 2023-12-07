@@ -86,7 +86,7 @@
           display: flex;
           align-items: center;
           color: #fff;
-          font-size: 16px;
+          font-size: 1rem;
           padding: 8px 15px;
           padding-left: 28px;
           min-height: 40px;
@@ -210,9 +210,6 @@
   align-items: flex-start; }
 
 @media (max-width: 1679px) {
-  .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label {
-    font-size: 15px; }
-
   .nav-block {
     width: 270px; }
 

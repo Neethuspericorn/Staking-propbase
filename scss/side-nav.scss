@@ -89,7 +89,8 @@
                     display: flex;
                     align-items: center;
                     color: $primary-light;
-                    font-size: 16px;
+                    // font-size: 16px;
+                    font-size: 1rem;
                     padding: 8px 15px;
                     padding-left: 28px;
                     min-height: 40px;
@@ -251,7 +252,7 @@
 }
 @media($sm-1679){
     .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label{
-        font-size: 15px;
+        // font-size: 15px;
     }
     .nav-block {
         width: 270px;

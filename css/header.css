@@ -71,7 +71,7 @@
       .header-wrapper .right-block .buy-pros-block .pros-label {
         display: inline-block;
         color: #4D6090;
-        font-size: 14px;
+        font-size: 0.875rem;
         padding-right: 15px; }
       .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
         margin-left: 8px;
@@ -223,7 +223,6 @@
           .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item:hover {
             background: #F0F1F9; }
   .header-wrapper .info-block {
-    font-size: 16px;
     color: #4D6090;
     margin-right: 40px; }
     .header-wrapper .info-block .info-label {
@@ -247,7 +246,7 @@
     color: #fff;
     background: #2966FF;
     padding: 8px 30px;
-    font-size: 14px;
+    font-size: 0.875rem;
     transition: .3s;
     white-space: nowrap;
     overflow: hidden;
@@ -340,7 +339,6 @@
     margin-left: 15px; }
 
   .header-wrapper .info-block {
-    font-size: 15px;
     margin-right: 25px; }
 
   .header-wrapper .info-block .info-val-end {
@@ -350,7 +348,7 @@
     width: 150px; }
 
   .header-wrapper .wallet-btn, .header-wrapper .login-btn, .header-wrapper .right-block .buy-btn {
-    font-size: 13px;
+    font-size: 0.813rem;
     padding: 8px 20px; }
 
   .header-wrapper .prof-avt img {
@@ -368,7 +366,7 @@
     padding: 13px 20px; } }
 @media (max-width: 1481px) {
   .header-wrapper .right-block .buy-pros-block .pros-label {
-    font-size: 13px;
+    font-size: 0.813rem;
     padding-right: 5px; }
 
   .header-wrapper .right-block .buy-pros-block {
@@ -401,7 +399,6 @@
     margin-left: 10px; }
 
   .header-wrapper .info-block {
-    font-size: 14px;
     margin-right: 20px; }
 
   .header-wrapper .info-block .info-val-end {
@@ -433,7 +430,7 @@
     margin-right: 5px; }
 
   .header-wrapper .info-block {
-    font-size: 13px;
+    font-size: 0.813rem;
     margin-right: 10px; }
 
   .header-wrapper .info-block .info-val-end {
