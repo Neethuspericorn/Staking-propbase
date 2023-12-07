@@ -18,7 +18,9 @@
   .theme-dark .filter-wrapper, .theme-dark .filter-wrapper .filter-nav-btn, .theme-dark .card-sec .h-card-block, .theme-dark .welcome-cover, .theme-dark .portfolio-sec .lg-graph,
   .theme-dark .portfolio-sec .portfolio-card, .theme-dark .portfolio-sec .portfolio-card .table-pagination-cover,
   .theme-dark .custom-modal .modal-content, .theme-dark .title-search-box .input-group, .theme-dark .title-search-box .input-group .form-control,
-  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn
+  .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .sec-title-block .download-excel-btn,
+  .theme-dark .filter-dropdown-group .filter-dropdown-menu, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -38,11 +40,14 @@
   .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4, .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block p,
   .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .theme-dark .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt,
   .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn, .theme-dark .card-sec .h-card-block p,
-  .theme-dark .header-wrapper .right-block .buy-pros-block .pros-label
+  .theme-dark .header-wrapper .right-block .buy-pros-block .pros-label, .theme-dark .sec-title-block .download-excel-btn, .theme-dark .filter-dropdown-menu .filter-title h4,
+  .theme-dark .inp-block .form-label, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
-  .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group {
+  .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group,
+  .theme-dark .sec-title-block .download-excel-btn {
     border-color: #4E4E4E; }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card,
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
@@ -58,7 +63,7 @@
   .theme-dark .custom-modal .btn-close img {
     filter: grayscale(1) invert(1) brightness(2); }
   .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img,
-  .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn img {
+  .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn img, .theme-dark .sec-title-block .download-excel-btn img {
     filter: grayscale(1) brightness(4); }
   .theme-dark .react-loading-skeleton {
     --base-color: #262525 !important;
@@ -391,5 +396,74 @@
   .theme-dark .card-section-outer .filter-wrapper {
     border-radius: 0;
     border-bottom: solid 1px #484848; }
+  .theme-dark .table-cover .copy-btn {
+    background-color: #2d2d2d; }
+    .theme-dark .table-cover .copy-btn img {
+      filter: grayscale(1) brightness(4); }
+  .theme-dark .filter-dropdown-group .filter-dropdown-menu {
+    border: solid 1px #484848; }
+  .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp, .theme-dark .filter-dropdown-menu .filter-title,
+  .theme-dark .filter-dropdown-menu .filter-form-content .btn-block {
+    border-color: #484848; }
+  .theme-dark .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-reset {
+    border: 1px solid #9EB3CD;
+    background: #000;
+    color: #fff; }
+  .theme-dark .inp-block .custom-selectbox {
+    background-image: url(../img/select-arrw-light.svg); }
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu {
+    border: solid 1px #484848; }
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #131313; }
+  .theme-dark .ant-picker .ant-picker-input > input, .theme-dark .ant-picker .ant-picker-separator {
+    color: #fff; }
+  .theme-dark .ant-picker-suffix .anticon svg {
+    color: #fff; }
+  .theme-dark .ant-picker-dropdown .ant-picker-panel-container {
+    background-color: #000;
+    border: solid 1px #484848; }
+  .theme-dark .ant-picker-dropdown .ant-picker-header-view button {
+    color: #fff; }
+  .theme-dark .ant-picker-dropdown .ant-picker-content th, .theme-dark .ant-picker-dropdown .ant-picker-content td {
+    color: #fff; }
+  .theme-dark .ant-picker-dropdown .ant-picker-range-arrow::before {
+    background: #000; }
+  .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+    background: #131313; }
+  .theme-dark .ant-picker-dropdown .ant-picker-header {
+    border-bottom-color: #484848; }
+  .theme-dark .custom-modal .modal-content {
+    border: solid 1px #242424; }
+  .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+    background: #2A384A; }
+  .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single)::before,
+  .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single)::before {
+    background: #2A384A; }
+  .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range:hover .ant-picker-cell-inner::after {
+    background: #484D65; }
+  .theme-dark .anticon.anticon-close-circle {
+    background: #000; }
+    .theme-dark .anticon.anticon-close-circle svg {
+      fill: #fff; }
+  .theme-dark .ant-picker .ant-picker-input ::-webkit-input-placeholder {
+    color: #fff !important; }
+  .theme-dark .ant-picker .ant-picker-input :-moz-placeholder {
+    color: #fff !important; }
+  .theme-dark .ant-picker .ant-picker-input ::-moz-placeholder {
+    color: #fff !important; }
+  .theme-dark .ant-picker .ant-picker-input :-ms-input-placeholder {
+    color: #fff !important; }
+  .theme-dark .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
+  .theme-dark .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+    background: #000;
+    border-color: #484848 !important; }
+  .theme-dark .filter-dropdown-menu .react-custom-select .css-1jqq78o-placeholder {
+    color: #fff; }
+  .theme-dark .react-custom-select .css-1xc3v61-indicatorContainer svg {
+    fill: #fff; }
+  .theme-dark .react-custom-select .css-19bb58m, .theme-dark .react-custom-select .css-1dimb5e-singleValue {
+    color: #fff; }
+  .theme-dark .react-custom-select .css-1jj59y3-MenuList2 {
+    background: #292D32; }
 
 /*# sourceMappingURL=dark-theme.css.map */

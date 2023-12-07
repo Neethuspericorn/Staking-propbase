@@ -652,7 +652,8 @@
     width: 180px; } }
 @media (max-width: 767px) {
   .logout-modal .btn-block .btn-black {
-    width: 150px; } }
+    width: 150px;
+    height: 42px; } }
 @media (max-width: 400px) {
   .logout-modal .btn-block {
     justify-content: space-between;

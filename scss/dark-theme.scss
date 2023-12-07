@@ -17,7 +17,9 @@ $dark-block-2: #2B2C2E;
     .filter-wrapper, .filter-wrapper .filter-nav-btn, .card-sec .h-card-block, .welcome-cover, .portfolio-sec .lg-graph, 
     .portfolio-sec .portfolio-card, .portfolio-sec .portfolio-card .table-pagination-cover, 
     .custom-modal .modal-content, .title-search-box .input-group, .title-search-box .input-group .form-control, 
-    .header-wrapper .right-block .notify-dropdown .notify-btn
+    .header-wrapper .right-block .notify-dropdown .notify-btn, .sec-title-block .download-excel-btn, 
+    .filter-dropdown-group .filter-dropdown-menu, .filter-dropdown-menu .filter-form-content .custom-inp, 
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu
     {
         background-color: $dark-bg;
     }
@@ -39,14 +41,18 @@ $dark-block-2: #2B2C2E;
     .claim-reward-modal .claim-reward-modal-body .modal-title h4, .claim-reward-modal .claim-reward-modal-body .claim-count-block p, 
     .claim-reward-modal .claim-reward-modal-body .claim-count-block h4, .success-modal .modal-body .stake-detail .stake-amt .stake-amt-txt, 
     .title-search-box .input-group .form-control, .filter-dropdown-group .filter-dropdown-btn, .card-sec .h-card-block p, 
-    .header-wrapper .right-block .buy-pros-block .pros-label
+    .header-wrapper .right-block .buy-pros-block .pros-label, .sec-title-block .download-excel-btn, .filter-dropdown-menu .filter-title h4, 
+    .inp-block .form-label, .filter-dropdown-menu .filter-form-content .custom-inp, 
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item
+
     {
         color: $primary-light !important;
     }
 
     // full border color 2
     .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
-    .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail, .title-search-box .input-group{
+    .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail, .title-search-box .input-group, 
+    .sec-title-block .download-excel-btn{
         border-color: $dark-border-2;
     }
     // full border
@@ -77,7 +83,7 @@ $dark-block-2: #2B2C2E;
 
     // img white
     .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img, 
-    .header-wrapper .right-block .buy-pros-block .buy-pros-btn img{
+    .header-wrapper .right-block .buy-pros-block .buy-pros-btn img, .sec-title-block .download-excel-btn img{
         filter: grayscale(1) brightness(4);
     }
     
@@ -630,5 +636,113 @@ $dark-block-2: #2B2C2E;
     .card-section-outer .filter-wrapper{
         border-radius: 0;
         border-bottom: solid 1px $dark-border;        
+    }
+    .table-cover{
+        .copy-btn{
+            background-color: #2d2d2d;
+            img{
+                filter: grayscale(1) brightness(4);
+            }
+        }
+    }
+
+    // Filter Dropdown
+    .filter-dropdown-group .filter-dropdown-menu{
+        border: solid 1px $dark-border;
+    }
+    .filter-dropdown-menu .filter-form-content .custom-inp, .filter-dropdown-menu .filter-title, 
+    .filter-dropdown-menu .filter-form-content .btn-block{
+        border-color: $dark-border;
+    }
+    .filter-dropdown-menu .filter-form-content .btn-block .btn.btn-reset{
+        border: 1px solid #9EB3CD;
+        background: $dark-bg;
+        color: $primary-light;
+    }
+    .inp-block .custom-selectbox {
+        background-image: url(../img/select-arrw-light.svg);
+    }
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu{
+        border: solid 1px $dark-border;
+    }
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item{
+        &:hover{
+            background-color: #131313;
+        }
+    }
+
+    // Calendar
+    .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator
+    {
+        color: $primary-light;
+    }
+    .ant-picker-suffix .anticon svg{
+        color: $primary-light;
+    }
+    .ant-picker-dropdown .ant-picker-panel-container{
+        background-color: $dark-bg;
+        border: solid 1px $dark-border;
+    }
+    .ant-picker-dropdown .ant-picker-header-view button{
+        color: $primary-light;
+    }
+    .ant-picker-dropdown .ant-picker-content th, .ant-picker-dropdown .ant-picker-content td{
+        color: $primary-light;
+    }
+    .ant-picker-dropdown .ant-picker-range-arrow::before{
+        background: $dark-bg;
+    }
+    .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before{
+        background: #131313;
+    }
+    .ant-picker-dropdown .ant-picker-header{
+        border-bottom-color: $dark-border;
+    }
+    .custom-modal .modal-content{
+        border: solid 1px $table-bodrer;
+    }
+    .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before{
+        background: #2A384A;
+    }
+   .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single)::before, 
+   .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single)::before {
+        background:  #2A384A;
+    }
+   .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range:hover .ant-picker-cell-inner::after {
+       background: $light-dark;
+    }
+    .anticon.anticon-close-circle{
+        background: $dark-bg;
+        svg{
+            fill: $primary-light;
+        }
+    }
+   .ant-picker .ant-picker-input  {
+        @include placeholder{
+            color: $primary-light !important;
+        }
+    }
+
+    // Select
+    .filter-dropdown-menu .react-custom-select .css-13cymwt-control, 
+    .filter-dropdown-menu .react-custom-select .css-t3ipsp-control{
+        background: $dark-bg;
+        border-color: #484848 !important;
+    }
+    .filter-dropdown-menu .react-custom-select .css-1jqq78o-placeholder{
+        color: $primary-light;
+    }
+    .react-custom-select .css-1xc3v61-indicatorContainer{
+        svg{
+            fill: $primary-light;
+        }
+    }
+    .react-custom-select {
+        .css-19bb58m, .css-1dimb5e-singleValue{
+            color: $primary-light;
+        }
+        .css-1jj59y3-MenuList2{
+            background: $nav-dark;
+        }
     }
 }

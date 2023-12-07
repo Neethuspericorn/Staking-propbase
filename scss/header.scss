@@ -471,14 +471,29 @@
     .header-wrapper .header-title-block .live-active .label-web{
         display: none;
     }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn{
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        &::after{
+            display: none;
+        }
+    }
+    
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-label{
+        display: none;
+    }
 }
 @media($sm-1199){
     .header-wrapper .right-block .buy-pros-block .pros-label{
         display: none;
     }
     .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
-        height: 40px;
-        width: 40px;
+        height: 36px;
+        width: 36px;
     }
     .header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
         min-width: 135px;
@@ -486,9 +501,7 @@
     .header-wrapper .right-block .notify-dropdown .notify-btn {
         width: 40px;
     }
-    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
-        width: 150px;
-    }
+   
     .header-wrapper .header-title-block .live-active .status{
         margin-right: 5px;
     }
@@ -528,20 +541,7 @@
         width: 36px;
         height: 36px;
     }
-    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-label{
-        display: none;
-    }
-    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn{
-        width: 36px;
-        height: 36px;
-        padding: 0;
-        img{
-            width: 100%;
-        }
-        &::after{
-            display: none;
-        }
-    }
+    
 }
 
 @media($sm-991){
