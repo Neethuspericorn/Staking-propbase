@@ -109,7 +109,6 @@ $dark-block-2: #2B2C2E;
         border: 1px solid #4E4E4E !important;
     }
     .property-listing-cover{
-        margin-bottom: 20px;
         .filter-wrapper{
             margin-bottom: 0;
             border-radius: 0;
@@ -124,7 +123,7 @@ $dark-block-2: #2B2C2E;
             position: absolute;
             left: 0;
             width: 0;
-            bottom: -15px;
+            bottom: -14px;
             height: 3px;
             border-radius: 1.5px;
             background-color: $primary-blue;
