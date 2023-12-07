@@ -391,5 +391,8 @@
     display: block; }
   .theme-dark .sec-title-block .create-btn {
     border: solid 1px #4E4E4E; }
+  .theme-dark .card-section-outer .filter-wrapper {
+    border-radius: 0;
+    border-bottom: solid 1px #484848; }
 
 /*# sourceMappingURL=dark-theme.css.map */
