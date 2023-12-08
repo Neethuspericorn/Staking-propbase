@@ -476,15 +476,19 @@
   .theme-dark .react-custom-select .css-19bb58m, .theme-dark .react-custom-select .css-1dimb5e-singleValue {
     color: #fff; }
   .theme-dark .react-custom-select .css-1jj59y3-MenuList2 {
-    background: #292D32; }
+    background: #292D32 !important; }
+  .theme-dark .react-custom-select .css-1nmdiq5-menu {
+    background: #292D32 !important; }
   .theme-dark .react-custom-select .css-d7l1ni-option {
     background-color: #1D355C; }
   .theme-dark .conect-wallet .walles-otr .wallet-btn {
     border-color: #484848;
-    color: #B2B2B2; }
+    color: #B2B2B2;
+    background-color: #000 !important; }
     .theme-dark .conect-wallet .walles-otr .wallet-btn.active {
       color: #fff;
-      border-color: #fff; }
+      border-color: #fff;
+      background-color: #000 !important; }
     .theme-dark .conect-wallet .walles-otr .wallet-btn:hover {
       border-color: #fff; }
   .theme-dark .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark {

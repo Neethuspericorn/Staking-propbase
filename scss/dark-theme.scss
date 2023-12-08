@@ -752,7 +752,10 @@ $dark-block-2: #2B2C2E;
             color: $primary-light;
         }
         .css-1jj59y3-MenuList2{
-            background: $nav-dark;
+            background: $nav-dark !important;
+        }
+        .css-1nmdiq5-menu{
+            background: $nav-dark !important;
         }
         .css-d7l1ni-option{
             background-color: $bg-dark-blue;
@@ -761,9 +764,11 @@ $dark-block-2: #2B2C2E;
     .conect-wallet .walles-otr .wallet-btn{
         border-color: $dark-border;
         color: #B2B2B2;
+        background-color: $dark-bg !important;
         &.active{
             color: $primary-light;
             border-color: $primary-light;
+            background-color: $dark-bg !important;
         }
         &:hover{
             border-color: $primary-light;
