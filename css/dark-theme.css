@@ -20,7 +20,8 @@
   .theme-dark .custom-modal .modal-content, .theme-dark .title-search-box .input-group, .theme-dark .title-search-box .input-group .form-control,
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .sec-title-block .download-excel-btn,
   .theme-dark .filter-dropdown-group .filter-dropdown-menu, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
+  .theme-dark .change-pass-modal .modal-dialog .modal-content
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -42,7 +43,12 @@
   .theme-dark .title-search-box .input-group .form-control, .theme-dark .filter-dropdown-group .filter-dropdown-btn, .theme-dark .card-sec .h-card-block p,
   .theme-dark .header-wrapper .right-block .buy-pros-block .pros-label, .theme-dark .sec-title-block .download-excel-btn, .theme-dark .filter-dropdown-menu .filter-title h4,
   .theme-dark .inp-block .form-label, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item, .theme-dark .conect-wallet .wallet-title, .theme-dark .conect-wallet p,
+  .theme-dark .login-wrapper .login-left-block .bottom-content .checkbox-container, .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top .modal-title,
+  .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top, .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group label,
+  .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control,
+  .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control,
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -60,10 +66,16 @@
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det .props-value .icon-img,
-  .theme-dark .custom-modal .btn-close img {
+  .theme-dark .custom-modal .btn-close img, .theme-dark .fgt-modal .modal-dialog .modal-header .close-modal img
+   {
     filter: grayscale(1) invert(1) brightness(2); }
   .theme-dark .claim-reward-modal .claim-reward-modal-body .modal-title h4 .title-icon img,
-  .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn img, .theme-dark .sec-title-block .download-excel-btn img {
+  .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn img, .theme-dark .sec-title-block .download-excel-btn img,
+  .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group .fgt-view-icon img,
+  .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group img, .theme-dark .change-pass-modal .modal-dialog .modal-header .close-modal img,
+  .theme-dark .login-wrapper .login-left-block .form-group .input-group .icon-pass img, .theme-dark .login-wrapper .login-left-block .form-group .input-group img,
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon,
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img {
     filter: grayscale(1) brightness(4); }
   .theme-dark .react-loading-skeleton {
     --base-color: #262525 !important;
@@ -432,7 +444,7 @@
     background: #131313; }
   .theme-dark .ant-picker-dropdown .ant-picker-header {
     border-bottom-color: #484848; }
-  .theme-dark .custom-modal .modal-content {
+  .theme-dark .custom-modal .modal-content, .theme-dark .change-pass-modal .modal-dialog .modal-content {
     border: solid 1px #242424; }
   .theme-dark .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before {
     background: #2A384A; }
@@ -467,5 +479,20 @@
     background: #292D32; }
   .theme-dark .react-custom-select .css-d7l1ni-option {
     background-color: #1D355C; }
+  .theme-dark .conect-wallet .walles-otr .wallet-btn {
+    border-color: #484848;
+    color: #B2B2B2; }
+    .theme-dark .conect-wallet .walles-otr .wallet-btn.active {
+      color: #fff;
+      border-color: #fff; }
+    .theme-dark .conect-wallet .walles-otr .wallet-btn:hover {
+      border-color: #fff; }
+  .theme-dark .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark {
+    background-color: #000;
+    border: solid 1px #D3E3F8; }
+  .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 1px solid #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

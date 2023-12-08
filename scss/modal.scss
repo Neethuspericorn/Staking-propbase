@@ -850,6 +850,7 @@
             .btn-black{
                 min-width: auto;
                 width: 180px;
+                height: 45px;
             }
         }
         @media(max-width:767px) {
@@ -899,11 +900,18 @@
             {
                 padding-left: 0;
             }
-            .close
-            {
+            .close-modal{
                 position: absolute;
                 right: 14px;
                 top: 20px;
+                padding: 0;
+                background: none;
+            }
+            .close
+            {
+                // position: absolute;
+                // right: 14px;
+                // top: 20px;
             }
             .heading-top {
                 display: flex;

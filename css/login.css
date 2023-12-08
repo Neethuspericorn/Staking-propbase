@@ -294,10 +294,12 @@ button.close-modal {
     @media (max-width: 575px) {
       .fgt-modal .modal-dialog .modal-header {
         padding-left: 0; } }
-    .fgt-modal .modal-dialog .modal-header .close {
+    .fgt-modal .modal-dialog .modal-header .close-modal {
       position: absolute;
       right: 14px;
-      top: 20px; }
+      top: 20px;
+      padding: 0;
+      background: none; }
     .fgt-modal .modal-dialog .modal-header .heading-top {
       display: flex;
       width: 100%;

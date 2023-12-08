@@ -649,7 +649,8 @@
 @media (max-width: 1679px) {
   .logout-modal .btn-block .btn-black {
     min-width: auto;
-    width: 180px; } }
+    width: 180px;
+    height: 45px; } }
 @media (max-width: 767px) {
   .logout-modal .btn-block .btn-black {
     width: 150px;
@@ -683,10 +684,12 @@
     @media (max-width: 575px) {
       .change-pass-modal .modal-dialog .modal-header {
         padding-left: 0; } }
-    .change-pass-modal .modal-dialog .modal-header .close {
+    .change-pass-modal .modal-dialog .modal-header .close-modal {
       position: absolute;
       right: 14px;
-      top: 20px; }
+      top: 20px;
+      padding: 0;
+      background: none; }
     .change-pass-modal .modal-dialog .modal-header .heading-top {
       display: flex;
       width: 100%;

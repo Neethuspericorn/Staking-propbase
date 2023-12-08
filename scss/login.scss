@@ -385,11 +385,18 @@ button.close-modal {
             {
                 padding-left: 0;
             }
-            .close
-            {
+            .close-modal{
                 position: absolute;
                 right: 14px;
                 top: 20px;
+                padding: 0;
+                background: none;
+            }
+            .close
+            {
+                // position: absolute;
+                // right: 14px;
+                // top: 20px;
             }
             .heading-top {
                 display: flex;
