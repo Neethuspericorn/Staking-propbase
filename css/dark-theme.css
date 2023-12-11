@@ -21,7 +21,7 @@
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .sec-title-block .download-excel-btn,
   .theme-dark .filter-dropdown-group .filter-dropdown-menu, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
-  .theme-dark .change-pass-modal .modal-dialog .modal-content
+  .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -48,7 +48,7 @@
   .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top, .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group label,
   .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control,
   .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control,
-  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -498,5 +498,19 @@
     color: #fff !important;
     -webkit-text-fill-color: #fff !important;
     border: 1px solid #fff; }
+  .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu {
+    border: 1px solid #484848; }
+    .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title .count {
+      color: #fff;
+      background-color: #2966FF; }
+    .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item {
+      border-color: #484848;
+      background-color: #000; }
+      .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item.unread {
+        background-color: #121622; }
+      .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon {
+        background-color: #1B2439; }
+      .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .det p, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .det .time {
+        color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

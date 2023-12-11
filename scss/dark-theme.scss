@@ -20,7 +20,7 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .notify-dropdown .notify-btn, .sec-title-block .download-excel-btn, 
     .filter-dropdown-group .filter-dropdown-menu, .filter-dropdown-menu .filter-form-content .custom-inp, 
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
-    .change-pass-modal .modal-dialog .modal-content
+    .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu
     {
         background-color: $dark-bg;
     }
@@ -49,7 +49,7 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-header .heading-top , .change-pass-modal .modal-dialog .modal-body .form-group .input-group label, 
     .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .change-pass-modal .modal-dialog .modal-header .heading-top h5, .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
-    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn
+    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title
     {
         color: $primary-light !important;
     }
@@ -782,5 +782,28 @@ $dark-block-2: #2B2C2E;
         color: #fff !important;
         -webkit-text-fill-color: #fff !important;
         border: 1px solid #fff;
+    }
+    .header-wrapper .right-block .notify-dropdown .dropdown-menu{
+        border: 1px solid #484848;
+        .notify-title .count{
+            color: $primary-light;
+            background-color: $primary-blue;
+        }
+        .dropdown-item{
+            border-color: #484848;
+            background-color: $dark-bg;
+            &.unread{
+                background-color: #121622;
+            }
+            .icon{
+                background-color: #1B2439;
+            }
+            .det {
+                p, .time{
+                    color: $primary-light;
+                }
+                
+            }
+        }
     }
 }
