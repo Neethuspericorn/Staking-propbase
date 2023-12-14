@@ -509,7 +509,7 @@
       .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item.unread {
         background-color: #121622; }
       .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon {
-        background-color: #1B2439; }
+        background-color: #1B2439 !important; }
       .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .det p, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .det .time {
         color: #fff; }
 
