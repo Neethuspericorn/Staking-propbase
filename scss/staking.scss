@@ -113,12 +113,12 @@
         flex: 0 0 28%;
         @media(max-width:1679px)
         {
-            flex: 0 0 32%;
+            flex: 0 0 35%;
             padding:20px 22px;
         }
         @media(max-width:1441px)
         {
-            flex: 0 0 35%;
+            flex: 0 0 40%;
             padding:20px 22px;
         }
         @media(max-width:1199px)
@@ -147,7 +147,7 @@
                 color: #2E4276;
                 @media(max-width:1679px)
                 {
-                    font-size:18px;
+                    font-size:17px;
                 }
             }
             h3
@@ -173,13 +173,16 @@
                     font-size: 16px;
                     @media(max-width:1679px)
                     {
-                        font-size:15px;
+                        font-size:14px;
                     }
                 }
                 .img-sec img
                 {
                     height: 30px;
                     margin-right: 6px;    
+                    @media(max-width:1679px){
+                        height: 26px;
+                    }
                 }
             }
             h2
@@ -218,6 +221,7 @@
                 }
                 .label-txt
                 {
+                    padding-right: 10px;
                     color:$text-grey;
                     font-size: 15px;
                     @media(max-width:1679px)
@@ -229,6 +233,7 @@
                     color:$label-num;
                     font-weight:600;
                     font-size:16px;
+                    text-align: right;
                     @media(max-width:1679px)
                     {
                         font-size: 14px;
@@ -333,10 +338,11 @@
         {
             display:flex;
             margin-bottom: 15px;
-           
             .img-txt
             {
                 display:flex;
+                align-items: center;
+                flex-shrink: 0;
             }
             @media(max-width:991px)
             {
@@ -345,9 +351,13 @@
             img
             {
                 height: 90px;
+                @media(max-width:991px){
+                    height: 75px;
+                }
             }
             .desc-content
             {
+                padding-top: 10px;
                 h2
                 {
                     display: flex;
