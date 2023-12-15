@@ -251,6 +251,86 @@
                 }
             }
         }
+
+
+        .buy-pros-dropdown{
+            margin-right: 12px;
+            .buy-pros-btn{
+                width: 160px;
+                max-height: 40px;
+                padding: 7px 18px 7px 13px;
+                border-radius: 20px;
+                background: $primary-light;
+                border: none;
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: $input-text-color;
+                border: solid 1px $input-text-color;
+                margin-left: 10px;
+                @media($sm-579){
+                    margin-left: 0;
+                }
+                .cart-mob{
+                    display: none;
+                    @media($sm-1199){
+                        display: block;
+                    }
+                }
+                @media($sm-1679){
+                    font-size: 13px;
+                    width: 150px;
+                }
+                @media($sm-1481){
+                    font-size: 13px;
+                    width: 145px;
+                }
+                .acc-label{
+                    margin-left: 10px;
+                    margin-right: 8px;
+                    @media($sm-1199){
+                        display: none;
+                    }
+                }
+                &::after{
+                    margin-left: auto;
+                    margin-right: 2px;
+                    border-top-color: $input-text-color;
+                    border-top: 0.4em solid;
+                    border-right: 0.4em solid transparent;
+                    border-left: 0.4em solid transparent;
+                }
+            }
+            .dropdown-menu{
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.06);
+                border: none;
+                padding: 5px;
+                margin-top: 20px !important;
+                min-width: 190px;
+                .dropdown-item{
+                    display: flex;
+                    align-items: center;
+                    border-radius: 8px;
+                    height: 52px;
+                    font-size: 13px;
+                    color: $primary-dark;
+                    transition: .3s;
+                    .icon{
+                        flex-grow: 0;
+                        margin-right: 10px;
+                        width: 22px;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                    &:hover{
+                        background: #F0F1F9;
+                    }
+                }
+            }
+        }
     }
     .info-block{
         // font-size: 16px;
@@ -423,6 +503,9 @@
 }
 
 @media($sm-1481){
+    .header-wrapper .right-block .buy-pros-dropdown{
+        margin-right: 8px;
+    }
     .header-wrapper .right-block .buy-pros-block .pros-label{
         font-size: 0.813rem;
         padding-right: 5px;
@@ -488,6 +571,16 @@
     }
 }
 @media($sm-1199){
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after{
+        display: none;
+    }
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+    }
     .header-wrapper .right-block .buy-pros-block .pros-label{
         display: none;
     }
@@ -530,6 +623,13 @@
     }
 }
 @media(max-width: 1100px){
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn{
+        width: 36px;
+        height: 36px;
+        img{
+            max-width: 15px;
+        }
+    }
     .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
         height: 36px;
         width: 36px;
@@ -545,6 +645,9 @@
 }
 
 @media($sm-991){
+    .header-wrapper .right-block .buy-pros-dropdown{
+        margin-right: 0;
+    }
     .header-wrapper .right-block .buy-pros-block{
         padding-right: 0;
     }

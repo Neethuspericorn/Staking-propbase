@@ -81,6 +81,23 @@
     .custom-modal .btn-cover-modal .btn-prmary {
       color: #fff !important;
       background-color: #2966FF !important; }
+  .custom-modal .success-btn-block {
+    padding-top: 10px; }
+    .custom-modal .success-btn-block .btn-border {
+      border-color: #E3E4F3 !important;
+      background-color: #EFF4FF;
+      color: #3072F3;
+      margin-right: 15px;
+      height: 48px;
+      width: 250px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; }
+      @media (max-width: 1679px) {
+        .custom-modal .success-btn-block .btn-border {
+          font-size: 14px; } }
+      .custom-modal .success-btn-block .btn-border img {
+        margin-right: 8px; }
   .custom-modal .modal-title h2 {
     margin-bottom: 40px;
     font-size: 24px;
@@ -157,9 +174,22 @@
 
   .custom-modal .inp-block-modal .form-label {
     font-size: 13px; } }
+@media (max-width: 991px) {
+  .custom-modal .success-btn-block .btn-border {
+    margin-right: 0;
+    max-width: 100%; }
+  .custom-modal .success-btn-block .btn-black {
+    width: 250px;
+    max-width: 100%; }
+
+  .custom-modal .success-btn-block {
+    padding-top: 20px; } }
 @media (max-width: 579px) {
   .custom-modal .modal-body {
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .custom-modal .success-btn-block .btn-border {
+    height: 45px; } }
 .conect-wallet {
   display: flex;
   flex-wrap: wrap;

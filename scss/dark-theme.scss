@@ -20,7 +20,8 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .notify-dropdown .notify-btn, .sec-title-block .download-excel-btn, 
     .filter-dropdown-group .filter-dropdown-menu, .filter-dropdown-menu .filter-form-content .custom-inp, 
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
-    .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu
+    .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu
     {
         background-color: $dark-bg;
     }
@@ -49,7 +50,8 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-header .heading-top , .change-pass-modal .modal-dialog .modal-body .form-group .input-group label, 
     .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .change-pass-modal .modal-dialog .modal-header .heading-top h5, .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
-    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title
+    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item
     {
         color: $primary-light !important;
     }
@@ -62,7 +64,8 @@ $dark-block-2: #2B2C2E;
     }
     // full border
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .portfolio-sec .portfolio-card, 
-    .header-wrapper .right-block .notify-dropdown .notify-btn, .header-wrapper .right-block .buy-pros-block .buy-pros-btn{
+    .header-wrapper .right-block .notify-dropdown .notify-btn, .header-wrapper .right-block .buy-pros-block .buy-pros-btn, 
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn{
         border: solid 1px $dark-border-2;
     }
 
@@ -93,7 +96,8 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-body .form-group .input-group img, .change-pass-modal .modal-dialog .modal-header .close-modal img, 
     .login-wrapper .login-left-block .form-group .input-group .icon-pass img, .login-wrapper .login-left-block .form-group .input-group img, 
     .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon, 
-    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img{
+    .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img, 
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob{
         filter: grayscale(1) brightness(4);
     }
     
@@ -680,6 +684,7 @@ $dark-block-2: #2B2C2E;
             background-color: #131313;
         }
     }
+    
 
     // Calendar
     .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator
@@ -804,6 +809,25 @@ $dark-block-2: #2B2C2E;
                 }
                 
             }
+        }
+    }
+    .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu{
+        border: solid 1px $dark-border;
+        .dropdown-item:hover{
+            background-color: #131313;
+        }
+    }
+    .logout-modal .btn-block .btn-black.btn-border{
+        border-color: #FFF !important;
+        background-color: $dark-bg;
+        color: #fff;
+    }
+    .custom-modal .success-btn-block .btn-border{
+        border-color: #FFF !important;
+        background-color: $dark-bg;
+        color: #fff;
+        img{
+            filter: grayscale(1) brightness(4);
         }
     }
 }

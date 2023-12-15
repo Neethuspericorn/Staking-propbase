@@ -225,7 +225,8 @@
   .card-section-outer .staking-outer {
     display: flex;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    flex-wrap: wrap; }
     @media (max-width: 1350px) {
       .card-section-outer .staking-outer {
         flex-wrap: wrap; } }
@@ -255,7 +256,7 @@
         display: flex;
         align-items: center;
         word-break: break-word;
-        text-transform: uppercase; }
+        text-transform: capitalize; }
       .card-section-outer .top-block .heading-txt .desc-content p.txt-content {
         margin-top: 5px;
         padding-left: 12px;

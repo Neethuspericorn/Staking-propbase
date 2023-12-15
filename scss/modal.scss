@@ -93,6 +93,26 @@
             background-color: $primary-blue !important;
         }
     }
+    .success-btn-block{
+        padding-top: 10px;
+        .btn-border{
+            border-color: #E3E4F3 !important;
+            background-color: #EFF4FF;
+            color: #3072F3;
+            margin-right: 15px;
+            height: 48px;
+            width: 250px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            @media(max-width:1679px) {
+                font-size: 14px;
+            }
+            img{
+                margin-right: 8px;
+            }
+        }
+    }
     .modal-title{
         h2{
             margin-bottom: 40px;
@@ -185,9 +205,29 @@
         font-size: 13px;
     }
 }
+@media($sm-991){
+    .custom-modal .success-btn-block {
+        .btn-border{
+            margin-right: 0;
+            max-width: 100%;
+        }
+        .btn-black{
+            width: 250px;
+            max-width: 100%;
+        }
+    }
+    .custom-modal .success-btn-block {
+        padding-top: 20px;
+    }
+}
 @media($sm-579){
     .custom-modal .modal-body{
         padding-top: 0;
+    }
+    .custom-modal .success-btn-block {
+        .btn-border{
+           height: 45px;
+        }
     }
 }
 
