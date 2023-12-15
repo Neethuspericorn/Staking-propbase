@@ -582,10 +582,12 @@
         padding: 9px 28px;
         border: solid 1px #B6C3E5;
         color: #2E4276;
+        background-color: #fff;
         margin-right: 8px;
         font-size: 14px;
         font-weight: 500;
-        z-index: 99; }
+        z-index: 99;
+        transition: .3s; }
         @media (max-width: 1679px) {
           .stake-modal .modal-body .input-group .badges .num-badge {
             font-size: 13px;
@@ -595,6 +597,8 @@
             padding: 6px 15px;
             font-size: 11px;
             margin-right: 4px; } }
+        .stake-modal .modal-body .input-group .badges .num-badge:hover {
+          border-color: #2966FF !important; }
       .stake-modal .modal-body .input-group .badges .max-active {
         background: #2966FF;
         color: #fff; }

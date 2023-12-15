@@ -803,10 +803,12 @@
                     padding: 9px 28px;
                     border: solid 1px $border-grey-1;
                     color: $text-primary-dark;
+                    background-color: $primary-light;
                     margin-right: 8px;
                     font-size: 14px;
                     font-weight: 500;
                     z-index: 99;
+                    transition: .3s;
                     @media(max-width:1679px)
                     {
                         font-size: 13px;
@@ -817,6 +819,9 @@
                         padding: 6px 15px;
                         font-size: 11px;
                         margin-right: 4px;
+                    }
+                    &:hover{
+                        border-color: $primary-blue !important;
                     }
                 }
                 .max-active

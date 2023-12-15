@@ -406,6 +406,10 @@ $dark-block-2: #2B2C2E;
         {
             border: 1px solid #B2B2B2;
             color:$primary-light;
+            background-color: $dark-bg;
+            &.max-active{
+                background: $primary-blue;
+            }
         }
         .modal-body .input-group .badges .max-active
         {
@@ -422,11 +426,16 @@ $dark-block-2: #2B2C2E;
         }
         .modal-body .rwd-inner .detail-outer img
         {
-            filter: grayscale(1) brightness(1);
+            filter: grayscale(1) brightness(4);
         }
         .modal-body .input-group .form-control
         {
-            color: #B2B2B2;
+            color: #fff;
+        }
+        .modal-body .input-group{
+            @include placeholder{
+                color: #B2B2B2;
+            }
         }
     }
     .stake-modal .modal-body .withdraw-btn {

@@ -259,7 +259,10 @@
     border: 1px solid #3F3F3F; }
   .theme-dark .stake-modal .modal-body .input-group .badges .num-badge {
     border: 1px solid #B2B2B2;
-    color: #fff; }
+    color: #fff;
+    background-color: #000; }
+    .theme-dark .stake-modal .modal-body .input-group .badges .num-badge.max-active {
+      background: #2966FF; }
   .theme-dark .stake-modal .modal-body .input-group .badges .max-active {
     border: 1px solid #2966FF; }
   .theme-dark .stake-modal .modal-body .crate-stake-modal-body .modal-title img {
@@ -268,8 +271,16 @@
   .theme-dark .stake-modal .modal-body .policy-stake .head-policy img {
     filter: grayscale(1) brightness(3); }
   .theme-dark .stake-modal .modal-body .rwd-inner .detail-outer img {
-    filter: grayscale(1) brightness(1); }
+    filter: grayscale(1) brightness(4); }
   .theme-dark .stake-modal .modal-body .input-group .form-control {
+    color: #fff; }
+  .theme-dark .stake-modal .modal-body .input-group ::-webkit-input-placeholder {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .input-group :-moz-placeholder {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .input-group ::-moz-placeholder {
+    color: #B2B2B2; }
+  .theme-dark .stake-modal .modal-body .input-group :-ms-input-placeholder {
     color: #B2B2B2; }
   .theme-dark .stake-modal .modal-body .withdraw-btn {
     background: #EE8728; }
