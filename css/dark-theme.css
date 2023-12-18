@@ -549,5 +549,7 @@
     opacity: 0.3; }
   .theme-dark .portfolio-sec .portfolio-card .card-table .txt-blue {
     color: #5B8AFF !important; }
+  .theme-dark .progress-bar-block .progress {
+    background-color: #383A3D !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */
