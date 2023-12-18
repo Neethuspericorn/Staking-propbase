@@ -351,14 +351,17 @@
             }
             img
             {
-                height: 90px;
+                max-height: 90px;
                 @media(max-width:991px){
-                    height: 75px;
+                    max-height: 75px;
                 }
             }
             .desc-content
             {
                 padding-top: 10px;
+                @media(max-width:1679px){
+                    padding-top: 5px;
+                }
                 h2
                 {
                     display: flex;
@@ -517,7 +520,7 @@
             }
             .progress-count {
                 flex: 0 0 auto;
-                color:$primary-blue;
+                color:#0C15F9;
                 font-weight: 600;
                 font-size: 15px;
                 padding-left: 15px;
@@ -1053,7 +1056,13 @@
 
 .card-section-outer .top-block .progress-bar-section .progress-bar-block{
     .progress{
-        height: 8px;
+        height: 16px;
+        @media(max-width:1679px){
+            height: 14px;
+        }
+        @media(max-width:1481px){
+            height: 12px;
+        }
     }
 }
 

@@ -31,7 +31,8 @@
       background-color: #fff;
       border: solid 1px #4D6090;
       color: #4D6090;
-      font-weight: 500; }
+      font-weight: 500;
+      font-size: 1rem; }
       .header-wrapper .header-title-block .live-active .status {
         width: 8px;
         height: 8px;
@@ -370,6 +371,9 @@
     min-width: 150px; }
 
 @media (max-width: 1679px) {
+  .header-wrapper .header-title-block .live-active {
+    font-size: .875rem; }
+
   .header-wrapper .right-block .buy-pros-block {
     padding-right: 20px;
     padding-left: 40px; }
@@ -433,6 +437,9 @@
   .filter-wrapper {
     padding: 13px 20px; } }
 @media (max-width: 1481px) {
+  .header-wrapper .header-title-block .live-active {
+    font-size: .813rem; }
+
   .header-wrapper .right-block .buy-pros-dropdown {
     margin-right: 8px; }
 

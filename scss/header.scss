@@ -23,6 +23,7 @@
             border: solid 1px $input-text-color;
             color: $input-text-color;
             font-weight: 500;
+            font-size: 1rem;
             .status{
                 width: 8px;
                 height: 8px;
@@ -435,6 +436,9 @@
 }
 
 @media($sm-1679){
+    .header-wrapper .header-title-block .live-active{
+        font-size: .875rem;
+    }
     .header-wrapper .right-block .buy-pros-block{
         padding-right: 20px;
         padding-left: 40px;
@@ -503,6 +507,9 @@
 }
 
 @media($sm-1481){
+    .header-wrapper .header-title-block .live-active{
+        font-size: .813rem;
+    }
     .header-wrapper .right-block .buy-pros-dropdown{
         margin-right: 8px;
     }

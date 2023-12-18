@@ -73,13 +73,14 @@
         height: 100%;
         object-fit: cover; }
     .card-sec .h-card-block h2 {
-      font-size: 1.438rem;
+      font-size: 1.375rem;
       margin-bottom: 20px;
       font-weight: 600; }
     .card-sec .h-card-block p {
       color: #4D6090;
       font-size: 14px;
-      font-size: 0.875rem; }
+      font-size: 0.875rem;
+      text-align: justify; }
     .card-sec .h-card-block .join-btn {
       width: 100%;
       background-color: #2966FF;

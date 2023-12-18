@@ -839,4 +839,17 @@ $dark-block-2: #2B2C2E;
             filter: grayscale(1) brightness(4);
         }
     }
+    .ant-picker-dropdown .ant-picker-time-panel-column>li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
+        color: white !important;
+    }
+    .ant-picker-dropdown .ant-picker-time-panel-column>li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+        background-color: $primary-blue !important;
+
+    }
+    .ant-picker-dropdown .ant-picker-time-panel-column>li.ant-picker-time-panel-cell-disabled .ant-picker-time-panel-cell-inner {
+        opacity: 0.3;
+    }
+    .portfolio-sec .portfolio-card .card-table .txt-blue{
+        color: #5B8AFF !important;
+    }
 }

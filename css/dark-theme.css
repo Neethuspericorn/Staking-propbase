@@ -541,5 +541,13 @@
     color: #fff; }
     .theme-dark .custom-modal .success-btn-block .btn-border img {
       filter: grayscale(1) brightness(4); }
+  .theme-dark .ant-picker-dropdown .ant-picker-time-panel-column > li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
+    color: white !important; }
+  .theme-dark .ant-picker-dropdown .ant-picker-time-panel-column > li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    background-color: #2966FF !important; }
+  .theme-dark .ant-picker-dropdown .ant-picker-time-panel-column > li.ant-picker-time-panel-cell-disabled .ant-picker-time-panel-cell-inner {
+    opacity: 0.3; }
+  .theme-dark .portfolio-sec .portfolio-card .card-table .txt-blue {
+    color: #5B8AFF !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */
