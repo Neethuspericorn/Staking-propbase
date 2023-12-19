@@ -1,7 +1,10 @@
 @import "partials/partials";
 .filter-wrapper
 {
-    margin-bottom:15px;
+    margin-bottom:20px;
+    @media(max-width:1679px){
+        margin-bottom:15px;
+    }
 }
 .staking-dashboard-outer
 {
@@ -373,8 +376,9 @@
                 {
                     margin-top: 5px;
                     padding-left: 12px;
-                    max-height: 50px;
+                    max-height: 40px;
                     overflow: hidden;
+                    text-align: left;
                 }
             }
             h2
@@ -390,12 +394,8 @@
         }
         .txt-content
         {
-            font-size: 15px;
             margin-top: 13px;
-            @media(max-width:1700px)
-            {
-                font-size: 12px;
-            }
+            font-size: 13px;
            
         }
         .timer-section
@@ -635,6 +635,9 @@
                 text-align: center;
                 text-decoration: none;
                 border-radius: 50px;
+                &.not-allowed{
+                    opacity: .5;
+                }
                 @media(max-width:1679px)
                 {
                     padding:8px 15px;
@@ -657,6 +660,9 @@
                 text-align: center;
                 text-decoration: none;
                 border-radius: 50px;
+                &.not-allowed{
+                    opacity: .5;
+                }
                 @media(max-width:1679px)
                 { 
                     padding:6px 12px;

@@ -10,7 +10,10 @@
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
 .filter-wrapper {
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
+  @media (max-width: 1679px) {
+    .filter-wrapper {
+      margin-bottom: 15px; } }
 
 .staking-dashboard-outer {
   display: flex; }
@@ -263,8 +266,9 @@
       .card-section-outer .top-block .heading-txt .desc-content p.txt-content {
         margin-top: 5px;
         padding-left: 12px;
-        max-height: 50px;
-        overflow: hidden; }
+        max-height: 40px;
+        overflow: hidden;
+        text-align: left; }
     .card-section-outer .top-block .heading-txt h2 {
       margin-bottom: 0;
       padding-left: 11px;
@@ -273,11 +277,8 @@
         .card-section-outer .top-block .heading-txt h2 {
           font-size: 15px; } }
   .card-section-outer .top-block .txt-content {
-    font-size: 15px;
-    margin-top: 13px; }
-    @media (max-width: 1700px) {
-      .card-section-outer .top-block .txt-content {
-        font-size: 12px; } }
+    margin-top: 13px;
+    font-size: 13px; }
   .card-section-outer .top-block .timer-section {
     font-size: 13px; }
     .card-section-outer .top-block .timer-section label {
@@ -456,6 +457,8 @@
         text-align: center;
         text-decoration: none;
         border-radius: 50px; }
+        .card-section-outer .bottom-block .btn-outr .btn-stake.not-allowed {
+          opacity: .5; }
         @media (max-width: 1679px) {
           .card-section-outer .bottom-block .btn-outr .btn-stake {
             padding: 8px 15px;
@@ -474,6 +477,8 @@
         text-align: center;
         text-decoration: none;
         border-radius: 50px; }
+        .card-section-outer .bottom-block .btn-outr .btn-unstake.not-allowed {
+          opacity: .5; }
         @media (max-width: 1679px) {
           .card-section-outer .bottom-block .btn-outr .btn-unstake {
             padding: 6px 12px;

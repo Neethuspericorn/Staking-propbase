@@ -51,7 +51,8 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .change-pass-modal .modal-dialog .modal-header .heading-top h5, .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
-    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
+    .card-section-outer .top-block .progress-bar-section .progress-count
     {
         color: $primary-light !important;
     }
@@ -855,4 +856,18 @@ $dark-block-2: #2B2C2E;
     .progress-bar-block .progress {
         background-color: #383A3D !important;
     }
+    .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img{
+        filter: grayscale(1) brightness(1);
+    }
+    .card-section-outer .top-block .timer-section ul .dot-seprator{
+        color: $primary-light;
+    }
+    .card-section-outer .bottom-block .btn-outr {
+        .btn-stake, .btn-unstake{
+            &.not-allowed{
+                opacity: .6;
+            }
+        }
+    }
 }
+

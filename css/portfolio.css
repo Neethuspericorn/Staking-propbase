@@ -26,6 +26,7 @@
   .portfolio-sec .lg-graph .graph-det-top {
     padding: 35px 40px 25px; }
   .portfolio-sec .lg-graph .graph-title-block {
+    align-items: center;
     margin-bottom: 30px; }
     .portfolio-sec .lg-graph .graph-title-block .graph-title {
       flex: 1 1 auto;
@@ -34,7 +35,7 @@
         margin-right: 15px; }
         @media (max-width: 1679px) {
           .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img {
-            height: 34px; } }
+            height: 40px; } }
       .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p {
         color: #2E4276;
         font-size: 15px; }
@@ -76,8 +77,12 @@
       .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:first-child {
         padding-left: 45px; }
       .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:last-child {
+        font-size: 15px;
         text-align: right;
         padding-right: 45px; }
+        @media (max-width: 1679px) {
+          .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:last-child {
+            font-size: 14px; } }
     .portfolio-sec .lg-graph .graph-table-block .graph-table tr .val-txt {
       color: #2E4276;
       font-weight: 600; }

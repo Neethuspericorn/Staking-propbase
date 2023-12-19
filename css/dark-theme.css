@@ -50,7 +50,8 @@
   .theme-dark .change-pass-modal .modal-dialog .modal-body .form-group .input-group .form-control,
   .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control,
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title,
-  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item
+  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item,
+  .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -551,5 +552,11 @@
     color: #5B8AFF !important; }
   .theme-dark .progress-bar-block .progress {
     background-color: #383A3D !important; }
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img {
+    filter: grayscale(1) brightness(1); }
+  .theme-dark .card-section-outer .top-block .timer-section ul .dot-seprator {
+    color: #fff; }
+  .theme-dark .card-section-outer .bottom-block .btn-outr .btn-stake.not-allowed, .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake.not-allowed {
+    opacity: .6; }
 
 /*# sourceMappingURL=dark-theme.css.map */
