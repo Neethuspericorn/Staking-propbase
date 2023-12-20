@@ -343,9 +343,9 @@ $dark-block-2: #2B2C2E;
         color:$primary-light;
         border: 1px solid #B4BFCD;
     }
-    .card-section-outer .bottom-block
+    .card-section-outer .bottom-block::before
     {
-        border-top: 1px solid #353535;
+        background-color: #353535;
     }
     .card-section-outer .bottom-block .btn-outr .btn-unstake {
         background: transparent;

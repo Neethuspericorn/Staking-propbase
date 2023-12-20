@@ -226,8 +226,8 @@
     background: transparent;
     color: #fff;
     border: 1px solid #B4BFCD; }
-  .theme-dark .card-section-outer .bottom-block {
-    border-top: 1px solid #353535; }
+  .theme-dark .card-section-outer .bottom-block::before {
+    background-color: #353535; }
   .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake {
     background: transparent;
     color: #fff; }

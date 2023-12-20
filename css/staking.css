@@ -423,8 +423,25 @@
             font-size: 12px; } }
   .card-section-outer .bottom-block {
     margin-top: 15px;
-    border-top: 1px solid #e3e4f3;
-    padding-top: 24px !important; }
+    padding-top: 24px !important;
+    position: relative; }
+    .card-section-outer .bottom-block::before {
+      position: absolute;
+      top: 0;
+      background-color: #e3e4f3;
+      content: '';
+      left: -40px;
+      width: calc(100% + 80px);
+      height: 1px;
+      display: block; }
+      @media (max-width: 1679px) {
+        .card-section-outer .bottom-block::before {
+          left: -25px;
+          width: calc(100% + 50px); } }
+      @media (max-width: 767px) {
+        .card-section-outer .bottom-block::before {
+          left: -19px;
+          width: calc(100% + 38px); } }
     .card-section-outer .bottom-block .badge-staking-date span {
       border: 1px solid #7DE0A5;
       background: #E7FFF0;
@@ -567,6 +584,7 @@
       border-radius: 50px !important;
       height: 60px;
       padding: 20px;
+      padding-left: 27px;
       font-size: 14px;
       font-weight: 600; }
       @media (max-width: 1679px) {
@@ -637,10 +655,15 @@
             font-size: 13px; } }
       .stake-modal .modal-body .rwd-inner .detail-outer .cnt {
         color: #2E4276;
-        font-weight: 600; }
+        font-weight: 600;
+        padding-left: 10px; }
       .stake-modal .modal-body .rwd-inner .detail-outer .props-col, .stake-modal .modal-body .rwd-inner .detail-outer .prop-num {
         font-weight: 600;
         color: #2E4276; }
+      .stake-modal .modal-body .rwd-inner .detail-outer .penalty-cnt {
+        color: #FC5252 !important; }
+      .stake-modal .modal-body .rwd-inner .detail-outer .withdraw-cnt {
+        color: #0DAD4D !important; }
     .stake-modal .modal-body .rwd-inner.rwd-col-inner {
       display: flex;
       flex-wrap: wrap; }

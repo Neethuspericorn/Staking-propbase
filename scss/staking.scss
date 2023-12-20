@@ -596,8 +596,27 @@
     .bottom-block
     {
         margin-top: 15px;
-        border-top: 1px solid $border-grey;
+        // border-top: 1px solid $border-grey;
         padding-top: 24px !important;
+        position: relative;
+        &::before{
+            position: absolute;
+            top: 0;
+            background-color: $border-grey;
+            content: '';
+            left: -40px;
+            width: calc(100% + 80px);
+            height: 1px;
+            display: block;
+            @media(max-width:1679px){
+                left: -25px;
+                width: calc(100% + 50px);
+            }
+            @media(max-width:767px){
+                left: -19px;
+                width: calc(100% + 38px);
+            }
+        }
         .badge-staking-date span {
             border: 1px solid $btn-border-green;
             background: $light-green;
@@ -785,6 +804,7 @@
                 border-radius: 50px !important;
                 height: 60px;
                 padding: 20px;
+                padding-left: 27px;
                 font-size:14px;
                 font-weight: 600;
                 @media(max-width:1679px)
@@ -877,10 +897,17 @@
                 .cnt{
                     color: $text-primary-dark;
                     font-weight: 600;
+                    padding-left: 10px;
                 }
                 .props-col, .prop-num{
                     font-weight: 600;
                     color: $text-primary-dark;
+                }
+                .penalty-cnt{
+                    color: #FC5252 !important;
+                }
+                .withdraw-cnt{
+                    color: #0DAD4D !important;
                 }
               
             }

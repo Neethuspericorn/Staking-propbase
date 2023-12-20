@@ -229,6 +229,7 @@
       font-size: 14px;
       font-weight: 600;
       padding: 20px 15px;
+      vertical-align: middle;
       border: none; }
       .portfolio-sec .portfolio-card .card-table th:first-child {
         padding-left: 35px;
