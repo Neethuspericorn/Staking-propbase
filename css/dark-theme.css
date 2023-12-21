@@ -22,7 +22,8 @@
   .theme-dark .filter-dropdown-group .filter-dropdown-menu, .theme-dark .filter-dropdown-menu .filter-form-content .custom-inp,
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
   .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu,
-  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu
+  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu,
+  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -64,8 +65,6 @@
     border: solid 1px #4E4E4E; }
   .theme-dark .header-wrapper .wallet-btn, .theme-dark .card-sec .h-card-block .join-btn {
     background-color: #2966FF; }
-  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
-    color: #2966FF; }
   .theme-dark .header-wrapper .login-btn img, .theme-dark .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img,
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-title img,
@@ -558,5 +557,15 @@
     color: #fff; }
   .theme-dark .card-section-outer .bottom-block .btn-outr .btn-stake.not-allowed, .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake.not-allowed {
     opacity: .6; }
+  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper {
+    border-color: #484848; }
+  .theme-dark .nav-block .nav-logo-wrapper .nav-toggle-btn {
+    border: solid 1px #484848; }
+  .theme-dark .nav-block .nav-logo-wrapper .nav-toggle-btn {
+    background-color: #151618; }
+  .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block {
+    background-color: #151618; }
+  .theme-dark .filter-wrapper .filter-nav-btn.active {
+    color: #2966FF !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */

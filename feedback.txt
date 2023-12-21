@@ -1,0 +1,37 @@
+1. +/- SYmbol in header $props
+2 . Remove Modal BLur
+3. Portfloio --> Right block space add blocks
+4. Table responsive scrollbar color
+5. Mob Nav color to black
+6. White mode in side Nav
+7. Dark mode toggle btn in nav toggle
+8. Nav toggle change position to below the logo
+9. Below header staking app testnet link
+10. Pagination in staking page
+11. Alligment issue in staking card
+12. Change header btn color connect wallt to black and Buy pros blue
+13. Header Btn size sam as aptos net 
+14. padding issue in stakin btn block same padding in 4 side / Make shorter / Btns spacing should be same
+15. No date found change text to No upcoming staking
+16. Porfolio graph number - color to red and + color to green --> Logo to dark
+17. Welcome txt background
+18. Tab view active btn txt color to blue
+19. Liquid swap in Buy props select
+20. Change staking card certic logo
+21. Ad certic to home section
+22. Portfolio White mode darken the text below graph
+23. Portfolio Right block label text to darken
+24. Add terms and conditions in nav below support
+25. Home welcome page to excitement
+
+ 
+Client
+15. Horizontal Nav Bar is Grey but should be black  --> Fixed
+27. Check out the card alignment for the next row, its slightly larger than the top row  --> Fixed
+28. Buy PROPS should be in Blue and Connect wallet should be black with grey outline.   --> Fixed
+29 Also, These button height should be a bit taller, the exact same height as the ‘Live on Aptos Testnet’  --> Fixed
+31. Buttons should be centered vertically, meaning the distanced from the top of the button to grey line, should be   the same as on the bottom  --> Fixed
+37. I see that its positive but in blue, we would want to add a + and change to green and likewise a  - for red --> Fixed
+38. Also our logo should be white on black background and black on white background --> Fixed
+39. The Staking writing should be in blue if highlighted, this can be across all similar fields and other places in the dapp where the same thing occurs --> Fixed
+40. When underlined in blue the text should also be blue --> Fixed

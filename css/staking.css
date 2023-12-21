@@ -196,43 +196,32 @@
 
 .card-section-outer {
   padding-top: 15px; }
-  .card-section-outer .h-card-col {
-    padding-right: 15px;
-    padding-left: 0; }
-    @media (max-width: 1350px) {
-      .card-section-outer .h-card-col {
-        width: 50%; } }
-    @media (max-width: 1199px) {
-      .card-section-outer .h-card-col {
-        padding-right: 12px !important;
-        padding-left: 4px !important; } }
-    @media (max-width: 991px) {
-      .card-section-outer .h-card-col {
-        margin-bottom: 15px; } }
-    @media (max-width: 700px) {
-      .card-section-outer .h-card-col {
-        width: 100%; } }
-    .card-section-outer .h-card-col:nth-child(1) {
-      padding-left: 15px !important; }
-    .card-section-outer .h-card-col .h-card-block {
-      border-radius: 6px; }
-      @media (max-width: 1679px) {
-        .card-section-outer .h-card-col .h-card-block {
-          padding: 25px 25px 40px; } }
-      @media (max-width: 991px) {
-        .card-section-outer .h-card-col .h-card-block {
-          padding-bottom: 30px; } }
-      @media (max-width: 767px) {
-        .card-section-outer .h-card-col .h-card-block {
-          padding: 25px 19px 50px; } }
-  .card-section-outer .staking-outer {
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-    flex-wrap: wrap; }
-    @media (max-width: 1350px) {
-      .card-section-outer .staking-outer {
-        flex-wrap: wrap; } }
+  @media (max-width: 1350px) {
+    .card-section-outer .h-card-col {
+      width: 50%; } }
+  @media (max-width: 1199px) {
+    .card-section-outer .h-card-col {
+      padding-right: 12px !important;
+      padding-left: 4px !important; } }
+  @media (max-width: 991px) {
+    .card-section-outer .h-card-col {
+      margin-bottom: 15px; } }
+  @media (max-width: 700px) {
+    .card-section-outer .h-card-col {
+      width: 100%; } }
+  .card-section-outer .h-card-col:nth-child(1) {
+    padding-left: 15px !important; }
+  .card-section-outer .h-card-col .h-card-block {
+    border-radius: 6px; }
+    @media (max-width: 1679px) {
+      .card-section-outer .h-card-col .h-card-block {
+        padding: 25px 25px; } }
+    @media (max-width: 767px) {
+      .card-section-outer .h-card-col .h-card-block {
+        padding: 25px 19px; } }
+  @media (max-width: 1350px) {
+    .card-section-outer .staking-outer {
+      flex-wrap: wrap; } }
   .card-section-outer .top-block .icon-head-top {
     justify-content: end; }
     @media (max-width: 1679px) {
@@ -465,7 +454,7 @@
         .card-section-outer .bottom-block .btn-outr {
           flex-direction: column; } }
       .card-section-outer .bottom-block .btn-outr .btn-stake {
-        margin-right: 11px;
+        margin-right: 20px;
         background-color: #2966FF;
         color: #fff;
         padding: 12px 15px;

@@ -29,6 +29,20 @@
                 display: flex;
                 .g-logo{
                     margin-right: 15px;
+                    .g-logo-block{
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        background-color: #2E4276;
+                        line-height: 0;
+                        img{
+                            margin-top: -2px;
+                            width: 18px;
+                        }
+                    }
                     img
                     {
                         @media(max-width:1679px)
@@ -53,6 +67,12 @@
                             color: $light-blue;
                             margin-left: 15px;
                             font-weight: 500;
+                            &.incs{
+                                color: #FC5252;
+                            }
+                            &.decs{
+                                color: #0DAD4D;
+                            }
                         }
                     }
                 }
@@ -641,7 +661,11 @@
         margin-bottom: 15px;
     }
 }
-
+@media($sm-991){
+    .portfolio-sec .portfolio-card .card-table{
+        min-width: max-content;
+    }
+}
 @media($sm-579){
     .portfolio-sec .lg-graph .graph-title-block{
         flex-wrap: wrap;

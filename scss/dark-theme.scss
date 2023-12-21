@@ -1,7 +1,7 @@
 @import "partials/partials";
 
 $dark-bg: #000;
-$dark-border: #484848;
+$dark-border: $dark-border;
 $dark-border-2:#4E4E4E;
 $dark-border-3: #696969;
 $dark-border-4: #2B2B2B;
@@ -21,7 +21,8 @@ $dark-block-2: #2B2C2E;
     .filter-dropdown-group .filter-dropdown-menu, .filter-dropdown-menu .filter-form-content .custom-inp, 
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
     .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
-    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
+    .body-wrapper .nav-block .nav-logo-wrapper
     {
         background-color: $dark-bg;
     }
@@ -74,11 +75,6 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .wallet-btn, .card-sec .h-card-block .join-btn{
         background-color: $primary-blue;
     }
-    // text blue
-    .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span{
-        color: $primary-blue;
-    }
-
     // img white
 
     .header-wrapper .login-btn img, .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img, 
@@ -326,7 +322,7 @@ $dark-block-2: #2B2C2E;
     }
     .staking-dashboard-outer .total-value-outer .stake-tot-locked
     {
-        border-bottom: 1px solid #484848;
+        border-bottom: 1px solid $dark-border;
     }
     .card-section-outer .top-block .timer-section ul li
     {
@@ -452,7 +448,7 @@ $dark-block-2: #2B2C2E;
     }
     .custom-modal.crate-stake-modal .inp-block-modal .custom-inp
     {
-        border: 1px solid #484848;
+        border: 1px solid $dark-border;
         background: transparent;
         color:$primary-light;
     }
@@ -530,7 +526,7 @@ $dark-block-2: #2B2C2E;
     }
     .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn
     {
-        border: 1px solid #484848;
+        border: 1px solid $dark-border;
     background:$dark-black;
     }
     .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn.active
@@ -549,7 +545,7 @@ $dark-block-2: #2B2C2E;
     }
     .choose-avatar-modal .choose-avatar-modal-body .avatar-block-row .avatar-card .avatar-select-btn .select-toggle
     {
-        border: solid 1px #484848;
+        border: solid 1px $dark-border;
         background-color: #242734;
     }
 
@@ -752,7 +748,7 @@ $dark-block-2: #2B2C2E;
     .filter-dropdown-menu .react-custom-select .css-13cymwt-control, 
     .filter-dropdown-menu .react-custom-select .css-t3ipsp-control{
         background: $dark-bg;
-        border-color: #484848 !important;
+        border-color: $dark-border !important;
     }
     .filter-dropdown-menu .react-custom-select .css-1jqq78o-placeholder{
         color: $primary-light;
@@ -799,13 +795,13 @@ $dark-block-2: #2B2C2E;
         border: 1px solid #fff;
     }
     .header-wrapper .right-block .notify-dropdown .dropdown-menu{
-        border: 1px solid #484848;
+        border: 1px solid $dark-border;
         .notify-title .count{
             color: $primary-light;
             background-color: $primary-blue;
         }
         .dropdown-item{
-            border-color: #484848;
+            border-color: $dark-border;
             background-color: $dark-bg;
             &.unread{
                 background-color: #121622;
@@ -868,6 +864,21 @@ $dark-block-2: #2B2C2E;
                 opacity: .6;
             }
         }
+    }
+    .body-wrapper .nav-block .nav-logo-wrapper{
+        border-color: $dark-border;
+    }
+    .nav-block .nav-logo-wrapper .nav-toggle-btn{
+        border: solid 1px $dark-border;
+    }
+    .nav-block .nav-logo-wrapper .nav-toggle-btn{
+        background-color: #151618;
+    }
+    .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block{
+        background-color: #151618;
+    }
+    .filter-wrapper .filter-nav-btn.active{
+        color: $primary-blue !important;
     }
 }
 

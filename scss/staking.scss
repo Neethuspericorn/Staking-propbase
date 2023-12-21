@@ -271,8 +271,8 @@
     
     .h-card-col
     {
-        padding-right: 15px;
-        padding-left: 0;
+        // padding-right: 15px;
+        // padding-left: 0;
         @media(max-width:1350px)
         {
             width: 50%;
@@ -299,26 +299,21 @@
             border-radius: 6px;
             @media(max-width:1679px)
             {
-                padding: 25px 25px 40px;
-            }
-            @media(max-width:991px)
-            {
-                padding-bottom:30px;
+                padding: 25px 25px;
             }
             @media(max-width:767px)
             {
-                padding: 25px 19px 50px;
+                padding: 25px 19px;
             }
             
         }
     }
     .staking-outer
     {
-        display: flex;
-        padding-left: 0;
-        padding-right: 0;
-        flex-wrap: wrap;
-        
+        // display: flex;
+        // padding-left: 0;
+        // padding-right: 0;
+        // flex-wrap: wrap;
         @media(max-width:1350px)
         {
             flex-wrap: wrap;
@@ -645,7 +640,7 @@
             }
             .btn-stake
             {
-                margin-right:11px;
+                margin-right:20px;
                 background-color:$primary-blue;
                 color: #fff;
                 padding: 12px 15px;
