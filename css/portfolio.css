@@ -60,11 +60,17 @@
         .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span {
           color: #2966FF;
           margin-left: 15px;
-          font-weight: 500; }
+          font-weight: 500;
+          font-size: 15px; }
           .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span.incs {
-            color: #FC5252; }
-          .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span.decs {
             color: #0DAD4D; }
+            .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span.incs img {
+              transform: rotate(180deg);
+              margin-top: -2px; }
+          .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span.decs {
+            color: #FC5252; }
+            .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det .g-rate span.decs img {
+              filter: brightness(0) saturate(100%) invert(60%) sepia(59%) saturate(6568%) hue-rotate(331deg) brightness(125%) contrast(147%); }
     .portfolio-sec .lg-graph .graph-title-block .g-filter-block {
       padding: 8px 0; }
       .portfolio-sec .lg-graph .graph-title-block .g-filter-block .filter-btn-cover {

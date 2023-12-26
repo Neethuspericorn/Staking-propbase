@@ -67,11 +67,19 @@
                             color: $light-blue;
                             margin-left: 15px;
                             font-weight: 500;
+                            font-size: 15px;
                             &.incs{
-                                color: #FC5252;
+                                color: #0DAD4D;
+                                img{
+                                    transform: rotate(180deg);
+                                    margin-top: -2px;
+                                }
                             }
                             &.decs{
-                                color: #0DAD4D;
+                                color: #FC5252;
+                                    img{
+                                        filter: brightness(0) saturate(100%) invert(60%) sepia(59%) saturate(6568%) hue-rotate(331deg) brightness(125%) contrast(147%);
+                                    }
                             }
                         }
                     }

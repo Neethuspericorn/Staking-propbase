@@ -53,7 +53,8 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-header .heading-top h5, .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
-    .card-section-outer .top-block .progress-bar-section .progress-count
+    .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label, 
+    .nav-block .nav-footer-block .welcome-msg
     {
         color: $primary-light !important;
     }
@@ -94,7 +95,7 @@ $dark-block-2: #2B2C2E;
     .login-wrapper .login-left-block .form-group .input-group .icon-pass img, .login-wrapper .login-left-block .form-group .input-group img, 
     .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon, 
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img, 
-    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob{
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob, .header-wrapper .theme-toggle-btn-block .theme-toggle-btn img{
         filter: grayscale(1) brightness(4);
     }
     
@@ -879,6 +880,21 @@ $dark-block-2: #2B2C2E;
     }
     .filter-wrapper .filter-nav-btn.active{
         color: $primary-blue !important;
+    }
+    .welcome-cover .content-block .img-block {
+        .wlcm-dark{
+            display: block;
+        }
+        .wlcm-white{
+            display: none;
+        }
+    }
+    .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line{
+        background-color: $primary-light;
+    }
+    .nav-block .nav-logo-wrapper .nav-logo img, .nav-block .nav-footer-block .nav-footer-logo a img, 
+    .nav-block .nav-footer-block .nav-soc-block .nav-soc img, .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link img{
+        filter: none;
     }
 }
 

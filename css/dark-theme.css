@@ -52,7 +52,8 @@
   .theme-dark .change-pass-modal .modal-dialog .modal-header .heading-top h5, .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control,
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item,
-  .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count
+  .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count, .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label,
+  .theme-dark .nav-block .nav-footer-block .welcome-msg
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -79,7 +80,7 @@
   .theme-dark .login-wrapper .login-left-block .form-group .input-group .icon-pass img, .theme-dark .login-wrapper .login-left-block .form-group .input-group img,
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group .fgt-mail-icon,
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn img,
-  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob {
+  .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob, .theme-dark .header-wrapper .theme-toggle-btn-block .theme-toggle-btn img {
     filter: grayscale(1) brightness(4); }
   .theme-dark .react-loading-skeleton {
     --base-color: #262525 !important;
@@ -567,5 +568,14 @@
     background-color: #151618; }
   .theme-dark .filter-wrapper .filter-nav-btn.active {
     color: #2966FF !important; }
+  .theme-dark .welcome-cover .content-block .img-block .wlcm-dark {
+    display: block; }
+  .theme-dark .welcome-cover .content-block .img-block .wlcm-white {
+    display: none; }
+  .theme-dark .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line {
+    background-color: #fff; }
+  .theme-dark .nav-block .nav-logo-wrapper .nav-logo img, .theme-dark .nav-block .nav-footer-block .nav-footer-logo a img,
+  .theme-dark .nav-block .nav-footer-block .nav-soc-block .nav-soc img, .theme-dark .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link img {
+    filter: none; }
 
 /*# sourceMappingURL=dark-theme.css.map */

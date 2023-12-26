@@ -1,8 +1,8 @@
 @import "partials/partials";
 .welcome-cover{
     border-radius: 12px;
-    border: 1px solid #292D32;
-    background: #292D32;
+    // border: 1px solid #292D32;
+    background: $primary-light;
     padding: 20px 55px 30px;
     align-items: center;
     .content-block{
@@ -14,12 +14,16 @@
             img{
                 max-width: 145px;
             }
+            .wlcm-dark{
+                display: none;
+            }
         }
         .text-block{
             color: $primary-light;
             padding-top: 15px;
             h4{
                 // font-size: 23px;
+                color: #486191;
                 font-size: 1.438rem;
                 font-weight: 400;
                 span{
@@ -30,7 +34,7 @@
                 // font-size: 13px;
                 font-size: 0.813rem;
                 font-weight: 500;
-                color: #909AA6;
+                color: #8B93A3;
                 margin-bottom: 0;
             }
         }

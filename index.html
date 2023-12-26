@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/dark-theme.css">
 </head>
-<body class="">
+<body class="theme-dark">
     <div class="body-wrapper">
         <!-- Side nav -->
         <div class="nav-block">
@@ -83,11 +83,23 @@
                         </li>
                         <li class="nav-item nav-item-logout">
                             <a class="nav-link" href="#">
+                                <img src="img/transactions.svg" alt="">
+                                <span class="nav-label">Transactions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/terms.svg" alt="">
+                                <span class="nav-label">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
                                 <img src="img/support-nav.svg" alt="">
                                 <span class="nav-label">Support</span>
                             </a>
                         </li>
-                        <li class="nav-item nav-item-logout">
+                        <!-- <li class="nav-item nav-item-logout">
                             <div class="nav-link" href="#">
                                 <img src="img/dark-mode.svg" alt="">
                                 <span class="nav-label">Dark Mode</span>
@@ -96,7 +108,7 @@
                                     <label class="form-check-label" for="flexSwitchCheckDefault"></label>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <div class="mob-nav-btn-block">
@@ -147,9 +159,11 @@
                 </div>
                 <div class="right-block">
                     <div class="info-block">
-                        <span class="info-label">$Props: </span>
                         <span class="info-val">$0.0035</span>
-                        <span class="info-val info-val-end">03.54%</span>
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
                     </div>
 
                     <!-- <div class="buy-pros-block">
@@ -161,6 +175,11 @@
                             <img src="img/mexc.svg" alt="">
                         </a>
                     </div> -->
+                    <div class="theme-toggle-btn-block">
+                        <button class="theme-toggle-btn">
+                            <img src="img/theme-light.svg" alt="">
+                        </button>
+                    </div>
                     <div class="buy-pros-select-block">
                         <div class="btn-group buy-pros-dropdown">
                             <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -180,6 +199,20 @@
                                         <span class="icon">
                                             <img src="img/pros-pan.svg" alt="">
                                         </span> Pancake
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <span class="icon">
+                                            <img src="img/coin-liquid.svg" alt="">
+                                        </span> Liquidswap
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item item-disbaled" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <span class="icon">
+                                            <img src="img/coin-chaing.svg" alt="">
+                                        </span> Chainge Finance
                                     </a>
                                 </li>
                             </ul>
@@ -300,7 +333,8 @@
                 <div class="welcome-cover">
                     <div class="content-block d-flex">
                         <div class="img-block">
-                            <img src="img/home-welcome.svg" alt="">
+                            <img class="wlcm-dark" src="img/home-welcome.svg" alt="">
+                            <img class="wlcm-white" src="img/welcome-img.png" alt="">
                         </div>
                         <div class="text-block">
                             <h4>Welcome to <span>$PROPS</span></h4>
