@@ -896,5 +896,14 @@ $dark-block-2: #2B2C2E;
     .nav-block .nav-footer-block .nav-soc-block .nav-soc img, .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link img{
         filter: none;
     }
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:focus{
+        -webkit-text-fill-color: #fff;
+    }
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp:-webkit-autofill{
+        -webkit-text-fill-color: #fff;
+    }
 }
 
