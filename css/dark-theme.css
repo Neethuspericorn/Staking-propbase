@@ -592,8 +592,8 @@
   .theme-dark .header-wrapper .right-block:before {
     background-color: #484848; }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img {
-    background: #000;
-    filter: grayscale(1) brightness(4);
-    border: solid 1px #161616; }
+    filter: grayscale(1) brightness(4); }
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-icon {
+    background: #282829; }
 
 /*# sourceMappingURL=dark-theme.css.map */

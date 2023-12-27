@@ -917,10 +917,14 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block:before{
         background-color: #484848;
     }
-    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img{
-        background: #000;
-        filter: grayscale(1) brightness(4);
-        border: solid 1px #161616;
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
+        img{
+            filter: grayscale(1) brightness(4);
+        }
+        .acc-icon{
+            background: #282829;
+            // border-color: #4E4E4E;
+        }
     }
 }
 
