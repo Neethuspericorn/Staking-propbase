@@ -10,8 +10,7 @@
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
 .modal-backdrop.show {
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(4px);
+  background: #2E313999;
   opacity: 1; }
 
 .custom-modal {

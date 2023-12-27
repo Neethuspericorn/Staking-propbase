@@ -1,7 +1,6 @@
 @import "partials/partials";
 .modal-backdrop.show {
-    background: rgba(0, 0, 0, 0.40);
-    backdrop-filter: blur(4px);
+    background: #2E313999;    
     opacity: 1;
 }
 
