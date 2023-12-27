@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.terms-sec {
+  padding: 40px 140px; }
+  .terms-sec .terms-title {
+    border-bottom: solid 1px #D6DCEE;
+    margin-bottom: 30px; }
+    .terms-sec .terms-title h2 {
+      padding-bottom: 30px;
+      color: #2E4276;
+      margin-bottom: 0;
+      font-size: 27px;
+      font-weight: 700; }
+
+/*# sourceMappingURL=terms.css.map */

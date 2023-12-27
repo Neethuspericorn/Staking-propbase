@@ -53,8 +53,8 @@ $dark-block-2: #2B2C2E;
     .change-pass-modal .modal-dialog .modal-header .heading-top h5, .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control, 
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
-    .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label, 
-    .nav-block .nav-footer-block .welcome-msg
+    .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .nav-footer-block .welcome-msg, 
+    .welcome-cover .content-block .text-block h4
     {
         color: $primary-light !important;
     }
@@ -120,7 +120,7 @@ $dark-block-2: #2B2C2E;
         border-bottom: solid 1px $dark-border;
     }
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img{
-        border: solid 1px $dark-border-2;
+        
         border-radius: 50%;
     }
     button.login-btn {
@@ -873,7 +873,7 @@ $dark-block-2: #2B2C2E;
         border: solid 1px $dark-border;
     }
     .nav-block .nav-logo-wrapper .nav-toggle-btn{
-        background-color: #151618;
+        background-color: $dark-bg;
     }
     .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block{
         background-color: #151618;
@@ -904,6 +904,23 @@ $dark-block-2: #2B2C2E;
     }
     .custom-modal.crate-stake-modal .inp-block-modal .custom-inp:-webkit-autofill{
         -webkit-text-fill-color: #fff;
+    }
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label{
+        color: $primary-light;
+    }
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link.active .nav-label {
+        color: $primary-blue;
+    }
+    .welcome-cover .content-block .text-block p{
+        color: #9e9e9e;
+    }
+    .header-wrapper .right-block:before{
+        background-color: #484848;
+    }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn img{
+        background: #000;
+        filter: grayscale(1) brightness(4);
+        border: solid 1px #161616;
     }
 }
 

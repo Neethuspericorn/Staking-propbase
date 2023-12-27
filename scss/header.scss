@@ -62,6 +62,10 @@
                 background: none;
             }
         }
+        .header-btn-cover{
+            display: flex;
+            align-items: center;
+        }
         .buy-pros-block{
             display: flex;
             align-items: center;
@@ -215,6 +219,10 @@
                 align-items: center;
                 font-size: 14px;
                 color: $input-text-color;
+                img{
+                    background-color: $primary-light;
+                    border-radius: 50%;
+                }
                 .acc-label{
                     margin-left: 10px;
                     margin-right: 8px;
@@ -620,6 +628,12 @@
     .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-label{
         display: none;
     }
+    .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
+        background-color: transparent;
+        img{
+            background-color: rgba(243, 244, 250, 0.63);
+        }
+    }
 }
 @media($sm-1199){
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after{
@@ -750,7 +764,7 @@
     .header-wrapper{
         flex-wrap: wrap;
         position: relative;
-        .admin-h-btn-block{
+        .header-btn-cover{
             position: absolute;
             top: -47px;
             right: 0;
@@ -792,14 +806,26 @@
         padding-top: 4px;
     }
     .header-wrapper .theme-toggle-btn-block {
-        position: absolute;
-        top: -47px;
-        right: 95px;
-        height: 36px;
-        margin-right: 0;
+        
         .theme-toggle-btn{
             height: 36px;
         }
+    }
+    .header-wrapper .theme-toggle-btn-block{
+        margin-right: 15px;
+    }
+}
+@media(max-width: 479px){
+    .header-wrapper .header-title-block .live-active {
+        font-size: .625rem;
+        padding: 6px 9px;
+    }
+    .header-wrapper .header-title-block .live-active .status {
+        width: 6px;
+        height: 6px;
+    }
+    .header-wrapper .theme-toggle-btn-block {
+        margin-right: 5px;
     }
 }
 @media(max-width: 360px){

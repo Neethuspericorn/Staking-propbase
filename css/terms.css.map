@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,qHAA6G;AC0DnF,0CAA0C;AAEzC,+BAA+B;AAC/B,mDAAmD;AACnD,2BAA2B;AAC7B,2DAA2D;AAC3D,+DAA+D;AAC/D,kCAAkC;AAClC,2DAA2D;AAE3D,+DAA+D;ACpEhG,uBAAuB;ACCvB,UAAU;EACN,OAAO,EAAE,UAAU;EACnB,uBAAY;IACR,aAAa,EAAE,iBAAiB;IAChC,aAAa,EAAE,IAAI;IACnB,0BAAE;MACE,cAAc,EAAE,IAAI;MACpB,KAAK,EAAE,OAAO;MACd,aAAa,EAAE,CAAC;MAChB,SAAS,EAAE,IAAI;MACf,WAAW,EAAE,GAAG",
+"sources": ["../scss/partials/_fonts.scss","../scss/partials/_variables.scss","../scss/partials/_mixins.scss","../scss/terms.scss"],
+"names": [],
+"file": "terms.css"
+}
