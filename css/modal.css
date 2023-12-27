@@ -474,6 +474,8 @@
   margin-top: 15px; }
 .crate-stake-modal .modal-info-cover {
   padding-top: 15px; }
+.crate-stake-modal .inp-block-modal .form-label img {
+  max-height: 60px; }
 .crate-stake-modal .img-box-cover {
   display: flex;
   align-items: center;
