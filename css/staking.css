@@ -209,8 +209,6 @@
   @media (max-width: 700px) {
     .card-section-outer .h-card-col {
       width: 100%; } }
-  .card-section-outer .h-card-col:nth-child(1) {
-    padding-left: 15px !important; }
   .card-section-outer .h-card-col .h-card-block {
     border-radius: 6px; }
     @media (max-width: 1679px) {
