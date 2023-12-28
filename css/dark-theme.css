@@ -308,6 +308,7 @@
     background-color: #242734;
     color: #fff; }
   .theme-dark .delete-confirm .btn-otr .btn-cancel {
+    color: #fff;
     border: 1px solid #eae0e0;
     background: transparent; }
   .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label,
@@ -547,6 +548,8 @@
     background-color: #2966FF !important; }
   .theme-dark .ant-picker-dropdown .ant-picker-cell-disabled {
     opacity: 0.3; }
+  .theme-dark .ant-btn-primary:disabled, .theme-dark .ant-btn {
+    color: #fff; }
   .theme-dark .ant-picker-dropdown .ant-picker-time-panel-column > li.ant-picker-time-panel-cell-disabled .ant-picker-time-panel-cell-inner {
     opacity: 0.3; }
   .theme-dark .portfolio-sec .portfolio-card .card-table .txt-blue {
