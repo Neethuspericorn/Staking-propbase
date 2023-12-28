@@ -789,6 +789,9 @@
     }
 }
 @media($sm-767){
+    .header-wrapper .info-block .info-label{
+        margin-left: 0;
+    }
     .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web{
         display: none;
     }
@@ -862,6 +865,9 @@
     }
 }
 @media(max-width: 479px){
+    .header-wrapper .info-block{
+        font-size: .75rem;
+    }
     .header-wrapper .header-title-block .live-active {
         font-size: .625rem;
         padding: 6px 9px;

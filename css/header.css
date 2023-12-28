@@ -677,6 +677,9 @@
   .header-wrapper .prof-avt {
     margin-left: 20px; } }
 @media (max-width: 767px) {
+  .header-wrapper .info-block .info-label {
+    margin-left: 0; }
+
   .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web {
     display: none; }
 
@@ -736,6 +739,9 @@
   .header-wrapper .theme-toggle-btn-block {
     margin-right: 15px; } }
 @media (max-width: 479px) {
+  .header-wrapper .info-block {
+    font-size: .75rem; }
+
   .header-wrapper .header-title-block .live-active {
     font-size: .625rem;
     padding: 6px 9px; }
