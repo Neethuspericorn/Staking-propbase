@@ -155,7 +155,15 @@
                 </div>
             </div>
 
-            <div class="body-content-outer">  
+            <div class="body-content-outer">
+                <!-- staking app badge -->
+                <div class="staking-app-badge">
+                    <p>Propbase Staking App Testnet</p>
+                    <button class="badge-close">
+                        <img src="img/badge-close.svg" alt="">
+                    </button>
+                </div>
+
                 <div class="property-listing-cover">
                     <div class="filter-wrapper d-flex">
                         <div class="block-left">
@@ -236,10 +244,10 @@
                         <!-- No data -->
                         <div class="table-no-data w-100">
                             <div class="img-block">
-                                <img src="img/no-data.svg" alt="" class="no-data-img">
-                                <img src="img/no-data-black.svg" alt="" class="no-data-img d-none">
+                                <img src="img/no-pools-dark.svg" alt="" class="no-data-img">
+                                <img src="img/no-pools-dark.svg" alt="" class="no-data-img d-none">
                             </div>
-                            <p>NO DATA FOUND</p>
+                            <p>No Upcoming Staking Pools</p>
                         </div>
                         <div class="staking-outer">
                             <div class="row gx-lg-4 gx-md-3">
@@ -247,8 +255,408 @@
                                     <div class="h-card-block">
                                         <div class="top-block">
                                             <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
+                                            </div>
+                                            <div class="heading-txt">
+                                                <div class="img-txt">
+                                                    <img src="img/stake-img-1.svg">
+                                                </div>
+                                                <div class="desc-content">
+                                                    <h2>Long Term Staking Pool</h2>
+                                                    <p class="txt-content">
+                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="banner-img-block">
+                                                <img src="img/pool-1.png" alt="">
+                                            </div>
+                                            <div class="timer-section">
+                                                <label>Stake Starts in : </label>
+                                                <ul>
+                                                    <li>
+                                                        <div class="label-count">00</div>
+                                                        <div class="num-txt">
+                                                           <span> DAYS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">23</div>
+                                                        <div class="num-txt">
+                                                            <span>HOURS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">34</div>
+                                                        <div class="num-txt">
+                                                            <span>MINS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">40</div>
+                                                        <div class="num-txt">
+                                                            <span>SECS</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pool-cap-txt">
+                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
+                                            </div>
+                                            <div class="progress-bar-section">
+                                                <div class="progress-bar-block">
+                                                </div>
+                                                <div class="progress-count">
+                                                     33%
+                                                </div>
+                                            </div>
+                                            <div class="btn-outer">
+                                                <button class="btn-default">APY:40%</button>
+                                                <button class="btn-default btn-duration">Duration:3 Months</button>
+                                            </div>
+                                            <div class="list-order-outer">
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Lock-In Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Staking Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total Value Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Your $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Expected Rewards
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-block">
+                                            <div class="btn-outr">
+                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
+                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-4 h-card-col">
+                                    <div class="h-card-block">
+                                        <div class="top-block">
+                                            <div class="icon-head-top d-flex">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
+                                            </div>
+                                            <div class="heading-txt">
+                                                <div class="img-txt">
+                                                    <img src="img/stake-img-1.svg">
+                                                </div>
+                                                <div class="desc-content">
+                                                    <h2>Long Term Staking Pool</h2>
+                                                    <p class="txt-content">
+                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="banner-img-block">
+                                                <img src="img/pool-2.png" alt="">
+                                            </div>
+                                            <div class="timer-section">
+                                                <label>Stake Starts in : </label>
+                                                <ul>
+                                                    <li>
+                                                        <div class="label-count">00</div>
+                                                        <div class="num-txt">
+                                                           <span> DAYS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">23</div>
+                                                        <div class="num-txt">
+                                                            <span>HOURS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">34</div>
+                                                        <div class="num-txt">
+                                                            <span>MINS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">40</div>
+                                                        <div class="num-txt">
+                                                            <span>SECS</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pool-cap-txt">
+                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
+                                            </div>
+                                            <div class="progress-bar-section">
+                                                <div class="progress-bar-block">
+                                                </div>
+                                                <div class="progress-count">
+                                                     33%
+                                                </div>
+                                            </div>
+                                            <div class="btn-outer">
+                                                <button class="btn-default">APY:40%</button>
+                                                <button class="btn-default btn-duration">Duration:3 Months</button>
+                                            </div>
+                                            <div class="list-order-outer">
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Lock-In Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Staking Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total Value Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Your $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Expected Rewards
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-block">
+                                            <div class="btn-outr">
+                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
+                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 h-card-col">
+                                    <div class="h-card-block">
+                                        <div class="top-block">
+                                            <div class="icon-head-top d-flex">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
+                                            </div>
+                                            <div class="heading-txt">
+                                                <div class="img-txt">
+                                                    <img src="img/stake-img-1.svg">
+                                                </div>
+                                                <div class="desc-content">
+                                                    <h2>Long Term Staking Pool</h2>
+                                                    <p class="txt-content">
+                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="banner-img-block">
+                                                <img src="img/pool-3.png" alt="">
+                                            </div>
+                                            <div class="timer-section">
+                                                <label>Stake Starts in : </label>
+                                                <ul>
+                                                    <li>
+                                                        <div class="label-count">00</div>
+                                                        <div class="num-txt">
+                                                           <span> DAYS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">23</div>
+                                                        <div class="num-txt">
+                                                            <span>HOURS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">34</div>
+                                                        <div class="num-txt">
+                                                            <span>MINS</span>
+                                                        </div>
+                                                    </li>
+                                                    <div class="dot-seprator">
+                                                        :
+                                                    </div>
+                                                    <li>
+                                                        <div class="label-count">40</div>
+                                                        <div class="num-txt">
+                                                            <span>SECS</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pool-cap-txt">
+                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
+                                            </div>
+                                            <div class="progress-bar-section">
+                                                <div class="progress-bar-block">
+                                                </div>
+                                                <div class="progress-count">
+                                                     33%
+                                                </div>
+                                            </div>
+                                            <div class="btn-outer">
+                                                <button class="btn-default">APY:40%</button>
+                                                <button class="btn-default btn-duration">Duration:3 Months</button>
+                                            </div>
+                                            <div class="list-order-outer">
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Lock-In Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Staking Period
+                                                    </div>
+                                                    <div class="data-content">
+                                                        01 May 23 - 01 June 23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total Value Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Total $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                        0123
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Your $PROPS Staked
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                                <div class="list-order">
+                                                    <div class="label-content">
+                                                        Expected Rewards
+                                                    </div>
+                                                    <div class="data-content">
+                                                         23
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-block">
+                                            <div class="btn-outr">
+                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
+                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 h-card-col">
+                                    <div class="h-card-block">
+                                        <div class="top-block">
+                                            <div class="icon-head-top d-flex">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
                                             </div>
                                             <div class="heading-txt">
                                                 <div class="img-txt">
@@ -378,399 +786,8 @@
                                     <div class="h-card-block">
                                         <div class="top-block">
                                             <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
-                                            </div>
-                                            <div class="heading-txt">
-                                                <div class="img-txt">
-                                                    <img src="img/stake-img-1.svg">
-                                                </div>
-                                                <div class="desc-content">
-                                                    <h2>Long Term Staking Pool</h2>
-                                                    <p class="txt-content">
-                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="timer-section">
-                                                <label>Stake Starts in : </label>
-                                                <ul>
-                                                    <li>
-                                                        <div class="label-count">00</div>
-                                                        <div class="num-txt">
-                                                           <span> DAYS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">23</div>
-                                                        <div class="num-txt">
-                                                            <span>HOURS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">34</div>
-                                                        <div class="num-txt">
-                                                            <span>MINS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">40</div>
-                                                        <div class="num-txt">
-                                                            <span>SECS</span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="pool-cap-txt">
-                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
-                                            </div>
-                                            <div class="progress-bar-section">
-                                                <div class="progress-bar-block">
-                                                </div>
-                                                <div class="progress-count">
-                                                     33%
-                                                </div>
-                                            </div>
-                                            <div class="btn-outer">
-                                                <button class="btn-default">APY:40%</button>
-                                                <button class="btn-default btn-duration">Duration:3 Months</button>
-                                            </div>
-                                            <div class="list-order-outer">
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Lock-In Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Staking Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total Value Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Your $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Expected Rewards
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bottom-block">
-                                            <div class="btn-outr">
-                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
-                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 h-card-col">
-                                    <div class="h-card-block">
-                                        <div class="top-block">
-                                            <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
-                                            </div>
-                                            <div class="heading-txt">
-                                                <div class="img-txt">
-                                                    <img src="img/stake-img-1.svg">
-                                                </div>
-                                                <div class="desc-content">
-                                                    <h2>Long Term Staking Pool</h2>
-                                                    <p class="txt-content">
-                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="timer-section">
-                                                <label>Stake Starts in : </label>
-                                                <ul>
-                                                    <li>
-                                                        <div class="label-count">00</div>
-                                                        <div class="num-txt">
-                                                           <span> DAYS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">23</div>
-                                                        <div class="num-txt">
-                                                            <span>HOURS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">34</div>
-                                                        <div class="num-txt">
-                                                            <span>MINS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">40</div>
-                                                        <div class="num-txt">
-                                                            <span>SECS</span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="pool-cap-txt">
-                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
-                                            </div>
-                                            <div class="progress-bar-section">
-                                                <div class="progress-bar-block">
-                                                </div>
-                                                <div class="progress-count">
-                                                     33%
-                                                </div>
-                                            </div>
-                                            <div class="btn-outer">
-                                                <button class="btn-default">APY:40%</button>
-                                                <button class="btn-default btn-duration">Duration:3 Months</button>
-                                            </div>
-                                            <div class="list-order-outer">
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Lock-In Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Staking Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total Value Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Your $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Expected Rewards
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bottom-block">
-                                            <div class="btn-outr">
-                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
-                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 h-card-col">
-                                    <div class="h-card-block">
-                                        <div class="top-block">
-                                            <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
-                                            </div>
-                                            <div class="heading-txt">
-                                                <div class="img-txt">
-                                                    <img src="img/stake-img-1.svg">
-                                                </div>
-                                                <div class="desc-content">
-                                                    <h2>Long Term Staking Pool</h2>
-                                                    <p class="txt-content">
-                                                        Enjoy the benefits of high yeild staking and unlock and with withdrawal anytime
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="timer-section">
-                                                <label>Stake Starts in : </label>
-                                                <ul>
-                                                    <li>
-                                                        <div class="label-count">00</div>
-                                                        <div class="num-txt">
-                                                           <span> DAYS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">23</div>
-                                                        <div class="num-txt">
-                                                            <span>HOURS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">34</div>
-                                                        <div class="num-txt">
-                                                            <span>MINS</span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="dot-seprator">
-                                                        :
-                                                    </div>
-                                                    <li>
-                                                        <div class="label-count">40</div>
-                                                        <div class="num-txt">
-                                                            <span>SECS</span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="pool-cap-txt">
-                                                <span class="pool-label">Pool Cap: </span><span class="pool-cont">20,000,000 $PROPS</span>
-                                            </div>
-                                            <div class="progress-bar-section">
-                                                <div class="progress-bar-block">
-                                                </div>
-                                                <div class="progress-count">
-                                                     33%
-                                                </div>
-                                            </div>
-                                            <div class="btn-outer">
-                                                <button class="btn-default">APY:40%</button>
-                                                <button class="btn-default btn-duration">Duration:3 Months</button>
-                                            </div>
-                                            <div class="list-order-outer">
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Lock-In Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Staking Period
-                                                    </div>
-                                                    <div class="data-content">
-                                                        01 May 23 - 01 June 23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total Value Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Total $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                        0123
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Your $PROPS Staked
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                                <div class="list-order">
-                                                    <div class="label-content">
-                                                        Expected Rewards
-                                                    </div>
-                                                    <div class="data-content">
-                                                         23
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bottom-block">
-                                            <div class="btn-outr">
-                                                <a href="#" class="btn-stake" data-bs-toggle="modal" data-bs-target="#stakingModal">Stake</a>
-                                                <a href="#" class="btn-unstake" data-bs-toggle="modal" data-bs-target="#unstakingModal">Unstake</a>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4 h-card-col">
-                                    <div class="h-card-block">
-                                        <div class="top-block">
-                                            <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
                                             </div>
                                             <div class="heading-txt">
                                                 <div class="img-txt">
@@ -902,8 +919,8 @@
                                     <div class="h-card-block">
                                         <div class="top-block">
                                             <div class="icon-head-top d-flex">
-                                                <img src="img/certik.svg" class="img-icon img-icon-white">
-                                                <img src="img/icon-white-per.svg" class="img-icon d-none">
+                                                <img src="img/certik-icon.svg" alt="">
+                                                <span class="certik-label">Certik Audited</span>
                                             </div>
                                             <div class="heading-txt">
                                                 <div class="img-txt">

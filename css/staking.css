@@ -221,11 +221,29 @@
     .card-section-outer .staking-outer {
       flex-wrap: wrap; } }
   .card-section-outer .top-block .icon-head-top {
-    justify-content: end; }
+    justify-content: end;
+    align-items: center; }
+    .card-section-outer .top-block .icon-head-top .certik-label {
+      padding-left: 9px;
+      font-size: 12px;
+      font-style: italic; }
     @media (max-width: 1679px) {
       .card-section-outer .top-block .icon-head-top .img-icon {
         height: 22px; } }
+  .card-section-outer .top-block .banner-img-block {
+    aspect-ratio: 1.779;
+    width: 100%;
+    margin-bottom: 17px; }
+    @media (max-width: 767px) {
+      .card-section-outer .top-block .banner-img-block {
+        max-height: 230px; } }
+    .card-section-outer .top-block .banner-img-block img {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
   .card-section-outer .top-block .heading-txt {
+    padding-top: 15px;
     display: flex;
     margin-bottom: 15px; }
     .card-section-outer .top-block .heading-txt .img-txt {
@@ -452,7 +470,7 @@
         .card-section-outer .bottom-block .btn-outr {
           flex-direction: column; } }
       .card-section-outer .bottom-block .btn-outr .btn-stake {
-        margin-right: 20px;
+        margin-right: 10px;
         background-color: #2966FF;
         color: #fff;
         padding: 12px 15px;

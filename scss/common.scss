@@ -806,3 +806,27 @@ button{
 .legend-l31H9iuA, .menu-Tx5xMZww.context-menu{
     display: none !important;
 }
+.staking-app-badge{
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid #DFD04C;
+    background-color: #FFF27E;
+    color: #70650C;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    padding: 7px 15px;
+    padding-left: 30px;
+    p{
+        margin: 0;
+    }
+    .badge-close{
+        padding: 0;
+        line-height: 0;
+        background-color: transparent;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        margin-left: auto;
+    }
+}

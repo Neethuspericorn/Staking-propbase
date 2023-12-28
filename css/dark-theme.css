@@ -23,7 +23,7 @@
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
   .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu,
-  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper
+  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper, .theme-dark .portfolio-sec .portfolio-card-sm
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -53,12 +53,12 @@
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item,
   .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count, .theme-dark .nav-block .nav-footer-block .welcome-msg,
-  .theme-dark .welcome-cover .content-block .text-block h4
+  .theme-dark .welcome-cover .content-block .text-block h4, .theme-dark .portfolio-sec .portfolio-card-sm .label-block, .theme-dark .portfolio-sec .portfolio-card-sm .num-block
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
   .theme-dark .header-wrapper .wallet-btn, .theme-dark .success-modal .modal-body .stake-detail, .theme-dark .title-search-box .input-group,
-  .theme-dark .sec-title-block .download-excel-btn {
+  .theme-dark .sec-title-block .download-excel-btn, .theme-dark .portfolio-sec .portfolio-card-sm {
     border-color: #4E4E4E; }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn, .theme-dark .portfolio-sec .portfolio-card,
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn, .theme-dark .header-wrapper .right-block .buy-pros-block .buy-pros-btn,
@@ -408,9 +408,9 @@
     .theme-dark .table-pagination-cover .pagination .page-item .page-link img {
       filter: grayscale(1) brightness(4); }
     .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active {
-      background-color: #2D2D2D !important;
+      background-color: #2966FF !important;
       color: #fff !important;
-      border-color: #6F6F6F !important; }
+      border-color: #608EFF !important; }
       .theme-dark .table-pagination-cover .pagination .page-item .page-link:hover img, .theme-dark .table-pagination-cover .pagination .page-item .page-link.active img {
         filter: none; }
   .theme-dark .header-wrapper .right-block .notify-dropdown .notify-btn .notify-icon img {
@@ -559,7 +559,7 @@
   .theme-dark .progress-bar-block .progress {
     background-color: #383A3D !important; }
   .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img {
-    filter: grayscale(1) brightness(1); }
+    filter: brightness(0); }
   .theme-dark .card-section-outer .top-block .timer-section ul .dot-seprator {
     color: #fff; }
   .theme-dark .card-section-outer .bottom-block .btn-outr .btn-stake.not-allowed, .theme-dark .card-section-outer .bottom-block .btn-outr .btn-unstake.not-allowed {
@@ -571,7 +571,7 @@
   .theme-dark .nav-block .nav-logo-wrapper .nav-toggle-btn {
     background-color: #000; }
   .theme-dark .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block {
-    background-color: #151618; }
+    background-color: #fff; }
   .theme-dark .filter-wrapper .filter-nav-btn.active {
     color: #2966FF !important; }
   .theme-dark .welcome-cover .content-block .img-block .wlcm-dark {
@@ -602,5 +602,15 @@
     filter: grayscale(1) brightness(4); }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-icon {
     background: #282829; }
+  .theme-dark .staking-app-badge {
+    background-color: #353113;
+    border-color: #60591C;
+    color: #FFEE57; }
+  .theme-dark .staking-app-badge .badge-close img {
+    filter: brightness(0) saturate(100%) invert(78%) sepia(83%) saturate(340%) hue-rotate(354deg) brightness(106%) contrast(101%); }
+  .theme-dark .portfolio-sec .portfolio-card-sm .label-block .icon {
+    background-color: #202020; }
+    .theme-dark .portfolio-sec .portfolio-card-sm .label-block .icon img {
+      filter: none; }
 
 /*# sourceMappingURL=dark-theme.css.map */

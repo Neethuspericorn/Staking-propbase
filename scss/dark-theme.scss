@@ -22,7 +22,7 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
     .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
-    .body-wrapper .nav-block .nav-logo-wrapper
+    .body-wrapper .nav-block .nav-logo-wrapper, .portfolio-sec .portfolio-card-sm
     {
         background-color: $dark-bg;
     }
@@ -54,7 +54,7 @@ $dark-block-2: #2B2C2E;
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
     .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .nav-footer-block .welcome-msg, 
-    .welcome-cover .content-block .text-block h4
+    .welcome-cover .content-block .text-block h4, .portfolio-sec .portfolio-card-sm .label-block, .portfolio-sec .portfolio-card-sm .num-block
     {
         color: $primary-light !important;
     }
@@ -62,7 +62,7 @@ $dark-block-2: #2B2C2E;
     // full border color 2
     .header-wrapper .header-title-block .live-active, .header-wrapper .right-block .buy-btn, 
     .header-wrapper .wallet-btn, .success-modal .modal-body .stake-detail, .title-search-box .input-group, 
-    .sec-title-block .download-excel-btn{
+    .sec-title-block .download-excel-btn, .portfolio-sec .portfolio-card-sm{
         border-color: $dark-border-2;
     }
     // full border
@@ -631,9 +631,9 @@ $dark-block-2: #2B2C2E;
             filter: grayscale(1) brightness(4);
            }
            &:hover, &.active{
-            background-color: #2D2D2D !important;
+            background-color: #2966FF !important;
             color: $primary-light !important;
-            border-color: #6F6F6F !important;
+            border-color: #608EFF !important;
             img{
                 filter: none;
             }
@@ -864,7 +864,7 @@ $dark-block-2: #2B2C2E;
         background-color: #383A3D !important;
     }
     .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img{
-        filter: grayscale(1) brightness(1);
+        filter: brightness(0);
     }
     .card-section-outer .top-block .timer-section ul .dot-seprator{
         color: $primary-light;
@@ -886,7 +886,7 @@ $dark-block-2: #2B2C2E;
         background-color: $dark-bg;
     }
     .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block{
-        background-color: #151618;
+        background-color: $primary-light;
     }
     .filter-wrapper .filter-nav-btn.active{
         color: $primary-blue !important;
@@ -939,5 +939,20 @@ $dark-block-2: #2B2C2E;
     // input, textarea{
     //     caret-color: $primary-light;
     // }
+    .staking-app-badge{
+        background-color: #353113;
+        border-color: #60591C;
+        color: #FFEE57;
+    }
+    .staking-app-badge .badge-close img{
+        filter: brightness(0) saturate(100%) invert(78%) sepia(83%) saturate(340%) hue-rotate(354deg) brightness(106%) contrast(101%);
+    }
+    .portfolio-sec .portfolio-card-sm .label-block .icon{
+        background-color: #202020;
+        img{
+            filter: none;
+        }
+    }
 }
+
 

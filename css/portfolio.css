@@ -40,14 +40,11 @@
           width: 44px;
           height: 44px;
           border-radius: 50%;
-          background-color: #2E4276;
+          background-color: #000;
           line-height: 0; }
           .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo .g-logo-block img {
             margin-top: -2px;
-            width: 18px; }
-        @media (max-width: 1679px) {
-          .portfolio-sec .lg-graph .graph-title-block .graph-title .g-logo img {
-            height: 40px; } }
+            width: 21px; }
       .portfolio-sec .lg-graph .graph-title-block .graph-title .graph-det p {
         color: #2E4276;
         font-size: 15px; }
@@ -110,7 +107,6 @@
       font-weight: 600; }
 .portfolio-sec .portfolio-card {
   background-color: #fff;
-  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 28px;
@@ -338,6 +334,40 @@
       margin: 0 auto; }
     .portfolio-sec .portfolio-card .tokenomics-graph-block .img-dark {
       display: none; }
+.portfolio-sec .portfolio-card-sm {
+  background-color: #fff;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 28px;
+  border-radius: 9px;
+  border: solid 1px #fff; }
+  @media (max-width: 1679px) {
+    .portfolio-sec .portfolio-card-sm {
+      padding: 15px 20px; } }
+  .portfolio-sec .portfolio-card-sm .label-block {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #8393BA; }
+    .portfolio-sec .portfolio-card-sm .label-block .icon {
+      width: 31px;
+      height: 31px;
+      background-color: #202020;
+      background-color: #E8EFFF;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px; }
+      .portfolio-sec .portfolio-card-sm .label-block .icon img {
+        filter: brightness(0) saturate(100%) invert(13%) sepia(21%) saturate(369%) hue-rotate(173deg) brightness(93%) contrast(87%);
+        max-width: 100%; }
+  .portfolio-sec .portfolio-card-sm .num-block {
+    color: #2E4276;
+    font-size: 16px;
+    font-weight: 600; }
 
 .table-pagination-cover {
   display: flex;
