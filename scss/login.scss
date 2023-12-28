@@ -632,3 +632,153 @@ button.close-modal {
         }
     }
 }
+
+
+// Passcode
+.passcode-body-cover{
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: {
+        image: url('../img/passcode-bg.svg');
+        size: cover;
+        color: #000;
+    };
+    background-position-x: right;
+    .passcode-content-block{
+        width: 1000px;
+        max-width: 100%;
+        padding: 95px 25px 165px;
+        border-radius: 16px;
+        border: 1px solid #373737;
+        background: #010101;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .logo-block{
+            margin-bottom: 40px;
+            img{
+                height: 35px;
+            }
+        }
+        h2{
+            font-size: 23px;
+            color: $primary-light;
+            font-weight: 400;
+            margin-bottom: 11px;
+            span{
+                font-weight: 700;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+            color: #9FA0A3;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .form-block{
+            width: 405px;
+            max-width: 100%;
+            margin-top: 48px;
+            .alert-msg-cover .alert-msg{
+                left: 0;
+            }
+            .inp-block{
+                margin-bottom: 15px;
+                .form-label{
+                    color: #9FA0A3;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                }
+                .form-control{
+                    padding: 5px 25px;
+                    height: 50px;
+                    font-size: 15px;
+                    width: 100%;
+                    border-radius: 8px;
+                    border: 1px solid #484848;
+                    background: #000;
+                    color: $primary-light;
+                }
+            }
+            .btn-block{
+                padding-top: 15px;
+                text-align: center;
+                .proceed-btn{
+                    width: 223px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1679px){
+    .passcode-body-cover .passcode-content-block {
+        width: 900px;
+        max-width: 100%;
+        padding: 80px 25px 140px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control{
+        height: 46px;
+    }
+}
+@media(max-width:1481px){
+    .passcode-body-cover .passcode-content-block h2 {
+        font-size: 21px;
+    }
+    .passcode-body-cover .passcode-content-block .logo-block img {
+        height: 33px;
+    }
+    .passcode-body-cover .passcode-content-block .logo-block {
+        margin-bottom: 30px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block{
+        margin-top: 40px;
+    }
+    .passcode-body-cover .passcode-content-block {
+        padding: 80px 25px 110px;
+        width: 800px;
+    }
+}
+@media(max-width:991px){
+    .passcode-body-cover .passcode-content-block {
+        padding: 80px 25px 110px;
+        width: 650px;
+    }
+}
+@media(max-width:767px){
+    .passcode-body-cover .passcode-content-block {
+        padding: 60px 25px 80px;
+        width: 500px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block .btn-block .proceed-btn {
+        width: 185px;
+    }
+}
+
+@media(max-width:579px){
+    .passcode-body-cover .passcode-content-block {
+        padding: 40px 20px 60px;
+    }
+    .passcode-body-cover .passcode-content-block .logo-block img {
+        height: 31px;
+    }
+    .passcode-body-cover .passcode-content-block h2 {
+        font-size: 20px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block {
+        margin-top: 35px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control {
+        height: 42px;
+        font-size: 15px;
+    }
+}
