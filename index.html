@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/dark-theme.css">
 </head>
-<body class="theme-dark">
+<body class="">
     <div class="body-wrapper">
         <!-- Side nav -->
         <div class="nav-block">
@@ -156,6 +156,45 @@
                     <div class="live-active wallet-btn">
                         <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
                     </div>
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                <span class="acc-label">Buy $PROPS</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                        <span class="icon">
+                                            <img src="img/pros-mex.svg" alt="">
+                                        </span> MEXC
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <span class="icon">
+                                            <img src="img/pros-pan.svg" alt="">
+                                        </span> Pancake
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <span class="icon">
+                                            <img src="img/coin-liquid.svg" alt="">
+                                        </span> Liquidswap
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item item-disbaled" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                        <span class="icon">
+                                            <img src="img/coin-chaing.svg" alt="">
+                                        </span> Chainge Finance
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="right-block">
                     <div class="info-block">
