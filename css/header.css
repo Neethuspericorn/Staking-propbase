@@ -645,6 +645,9 @@
     align-items: center;
     justify-content: center; } }
 @media (max-width: 1199px) {
+  .header-wrapper .theme-toggle-btn-block {
+    margin-right: 10px; }
+
   .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after {
     display: none; }
 
@@ -671,8 +674,11 @@
   .header-wrapper .header-title-block .live-active .status {
     margin-right: 5px; }
 
+  .header-wrapper .header-title-block .live-active {
+    font-size: .75rem; }
+
   .header-wrapper .info-block {
-    font-size: 0.813rem;
+    font-size: 0.75rem;
     margin-right: 10px; }
 
   .header-wrapper .info-block .info-val-end {

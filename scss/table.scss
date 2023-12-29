@@ -136,7 +136,8 @@
             .page-item{
                 .page-link{
                     margin: 0 4px;
-                    color: #ADC3DF;
+                    // color: #ADC3DF;
+                    color: #697F9B;
                     font-size: 12px;
                     border: solid 1px $table-border;
                     border-radius: 50%;
@@ -148,8 +149,9 @@
                     justify-content: center;
                     flex-shrink: 0;
                     &.active, &:hover{
-                        background-color: $table-border;
-                        color: $text-primary-light;
+                        background-color: $light-blue;
+                        color: #fff;
+                        border-color: #608EFF;
                     }
                 }
                 .page-link-dots{

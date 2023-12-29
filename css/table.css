@@ -109,7 +109,7 @@
     font-size: 12px; }
   .table-pagination-cover .pagination-block .pagination .page-item .page-link {
     margin: 0 4px;
-    color: #ADC3DF;
+    color: #697F9B;
     font-size: 12px;
     border: solid 1px #F2F2FC;
     border-radius: 50%;
@@ -121,8 +121,9 @@
     justify-content: center;
     flex-shrink: 0; }
     .table-pagination-cover .pagination-block .pagination .page-item .page-link.active, .table-pagination-cover .pagination-block .pagination .page-item .page-link:hover {
-      background-color: #F2F2FC;
-      color: #8393BA; }
+      background-color: #2966FF;
+      color: #fff;
+      border-color: #608EFF; }
   .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots {
     margin: 0;
     color: #ADC3DF;

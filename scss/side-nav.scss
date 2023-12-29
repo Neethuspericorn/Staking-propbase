@@ -316,7 +316,31 @@
         min-height: 70px;
     }
 }
+@media($sm-1199){
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link{
+        font-size: 0.813rem;
+    }
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item {
+        margin-bottom: 10px;
+    }
+    .nav-block {
+        width: 235px;
+    }
+    .body-wrapper .content-block-outer {
+        max-width: calc(100% - 235px);
+    }
+}
+
 @media($sm-991){
+    .nav-collapse .nav-block .nav-logo-wrapper .nav-logo .logo-txt img{
+        width: auto !important;
+    }
+    .nav-collapse .nav-block .nav-logo-wrapper .nav-logo .logo-txt {
+        opacity: 1 !important;
+    }
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link{
+        font-size: 1rem;
+    }
     .nav-block .nav-footer-block{
         padding-top: 35px;
         display: block;
