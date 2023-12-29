@@ -377,7 +377,7 @@
     align-items: center; }
     .header-wrapper .info-block .info-label {
       font-weight: 600;
-      margin-left: 10px; }
+      margin-left: 0; }
     .header-wrapper .info-block .info-val {
       margin-left: 10px;
       font-weight: 500; }
@@ -747,11 +747,11 @@
     padding: 6px 15px; }
 
   .header-wrapper .prof-avt {
-    margin-left: 20px; } }
-@media (max-width: 767px) {
-  .header-wrapper .info-block .info-label {
-    margin-left: 0; }
+    margin-left: 20px; }
 
+  .header-wrapper .info-block .info-label {
+    margin-left: 0; } }
+@media (max-width: 767px) {
   .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web {
     display: none; }
 

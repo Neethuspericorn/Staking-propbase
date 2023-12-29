@@ -442,7 +442,7 @@
         align-items: center;
         .info-label{
             font-weight: 600;
-            margin-left: 10px;
+            margin-left: 0;
         }
         .info-val{
             margin-left: 10px;
@@ -870,11 +870,11 @@
     .header-wrapper .prof-avt {
         margin-left: 20px;
     }
-}
-@media($sm-767){
     .header-wrapper .info-block .info-label{
         margin-left: 0;
     }
+}
+@media($sm-767){
     .header-wrapper .header-btn-web, .header-wrapper .login-btn, .wallet-btn-cover-web{
         display: none;
     }
