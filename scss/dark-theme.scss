@@ -21,7 +21,7 @@ $dark-block-2: #2B2C2E;
     .filter-dropdown-group .filter-dropdown-menu, .filter-dropdown-menu .filter-form-content .custom-inp, 
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
     .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
-    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
+    .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
     .body-wrapper .nav-block .nav-logo-wrapper, .portfolio-sec .portfolio-card-sm, .header-wrapper .header-title-block .dropdown-menu
     {
         background-color: $dark-bg;
@@ -74,7 +74,7 @@ $dark-block-2: #2B2C2E;
     }
 
     // Blue block
-    .header-wrapper .wallet-btn, .card-sec .h-card-block .join-btn{
+    .card-sec .h-card-block .join-btn{
         background-color: $primary-blue;
     }
     // img white
@@ -966,6 +966,12 @@ $dark-block-2: #2B2C2E;
     }
     .custom-modal .inp-block-modal .custom-inp-disable{
         background-color: #242734 !important;
+    }
+    .header-wrapper .wallet-btn-cover .wallet-btn-copy{
+        background-color: #282829;
+        img{
+            filter: grayscale(1) brightness(4);
+        }
     }
 }
 

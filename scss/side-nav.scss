@@ -184,13 +184,18 @@
 
             }
             .wallet-btn{
-                color: $primary-light;
-                background-color: $primary-light;
+                // color: $primary-light;
+                // background-color: $primary-blue;
+                background-color: transparent;
+                color: #4d6090;
+                border: solid 1px #4D6090;
             }
             .login-btn {
                 margin-top: 15px;
                 color: $nav-dark;
-                background-color: $primary-light;
+                background-color: transparent;
+                color: #4d6090;
+                border: solid 1px #4D6090;
                 img{
                     margin-left: 25px;
                 }

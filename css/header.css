@@ -328,7 +328,7 @@
         @media (max-width: 1481px) {
           .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn {
             font-size: 13px;
-            width: 145px; } }
+            width: 130px; } }
         .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .acc-label {
           margin-left: 10px;
           margin-right: 8px; }
@@ -400,7 +400,7 @@
           filter: brightness(0) saturate(100%) invert(60%) sepia(59%) saturate(6568%) hue-rotate(331deg) brightness(125%) contrast(147%); }
   .header-wrapper .theme-toggle-btn-block {
     display: inline-flex;
-    margin-right: 25px; }
+    margin-right: 20px; }
     @media (max-width: 1441px) {
       .header-wrapper .theme-toggle-btn-block {
         margin-right: 15px; } }
@@ -483,6 +483,21 @@
   .wallet-btn-cover .wallet-btn {
     min-width: 150px; }
 
+@media (max-width: 1800px) {
+  .header-wrapper .info-block {
+    font-size: 14px; }
+
+  .header-wrapper .theme-toggle-btn-block {
+    margin-right: 15px; }
+
+  .header-wrapper .right-block .buy-pros-dropdown {
+    margin-right: 10px; }
+
+  .header-wrapper .info-block .info-val-end {
+    margin-left: 25px; }
+
+  .header-wrapper .info-block {
+    margin-right: 20px; } }
 @media (max-width: 1679px) {
   .header-wrapper .header-title-block .live-active {
     font-size: .875rem; }
@@ -550,6 +565,12 @@
   .filter-wrapper {
     padding: 13px 20px; } }
 @media (max-width: 1481px) {
+  .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
+    width: 154px; }
+
+  .header-wrapper .info-block {
+    font-size: 13px; }
+
   .header-wrapper .header-title-block .live-active {
     font-size: .813rem; }
 
