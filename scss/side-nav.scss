@@ -13,26 +13,36 @@
     }
     .nav-logo-wrapper{
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
+        flex-direction: column;
         padding: 15px 15px 15px 35px;
-        align-items: center;
+        // align-items: center;
         flex-wrap: wrap;
         min-height: 85px;
         .nav-logo{
+            overflow: hidden;
+            max-width: 100%;
             padding: 10px 0;
             display: flex;
             align-items: center;
+            justify-content: center;
+            .logo-img{
+                flex-shrink: 0;
+            }
             img{
                 filter: brightness(0) saturate(100%) invert(36%) sepia(37%) saturate(616%) hue-rotate(185deg) brightness(92%) contrast(88%);
             }
             .logo-txt{
+                width: 105px;
                 padding-left: 5px;
             }
         }
         .toggle-btn-block{
             padding: 10px 0;
+            display: flex;
         }
         .nav-toggle-btn{
+            margin-left: auto;
             transition: .3s;
             position: relative;
             width: 32px;
@@ -84,7 +94,7 @@
         .navbar-ul{
             list-style: none;
             padding: 0 10px;
-            padding-top: 30px;
+            padding-top: 15px;
             .nav-item{
                 margin-bottom: 12px;
                 .nav-link{
@@ -175,8 +185,7 @@
             }
             .wallet-btn{
                 color: $primary-light;
-                background-color: $nav-dark;
-                border: solid 1px $primary-light;
+                background-color: $primary-light;
             }
             .login-btn {
                 margin-top: 15px;
@@ -257,12 +266,26 @@
     }
 }
 .nav-collapse{
-    .nav-block{
-        width: 95px;
-        max-width: 95px;
+    .nav-block .nav-logo-wrapper .nav-toggle-btn{
+        margin-left: -2px;
     }
-    .nav-block .nav-logo-wrapper .nav-logo .logo-txt, .nav-footer-block, 
-    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label{
+    .nav-block .nav-logo-wrapper .nav-logo .logo-txt{
+        opacity: 0;
+        img{
+            width: 0;
+        }
+    }
+    // .nav-block .nav-logo-wrapper .nav-logo{
+    //     justify-content: flex-start;
+    // }
+    .nav-block{
+        width: 84px;
+        max-width: 84px;
+    }
+    // .nav-block .nav-logo-wrapper .nav-logo .logo-txt,
+     .nav-footer-block, 
+    .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label
+    {
         display: none;
     }
     .nav-block .nav-logo-wrapper{
@@ -304,8 +327,14 @@
         max-width: 100%;
         width: 100%;
     }
+    .nav-block .nav-logo-wrapper .nav-logo .logo-txt{
+        width: auto;
+    }
     .body-wrapper .nav-block .nav-logo-wrapper{
         width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         background-color: $primary-light;
         position: fixed;
         top: 0;

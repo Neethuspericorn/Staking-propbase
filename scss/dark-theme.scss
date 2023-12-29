@@ -22,7 +22,7 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
     .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
-    .body-wrapper .nav-block .nav-logo-wrapper, .portfolio-sec .portfolio-card-sm
+    .body-wrapper .nav-block .nav-logo-wrapper, .portfolio-sec .portfolio-card-sm, .header-wrapper .header-title-block .dropdown-menu
     {
         background-color: $dark-bg;
     }
@@ -54,7 +54,8 @@ $dark-block-2: #2B2C2E;
     .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title, 
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
     .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .nav-footer-block .welcome-msg, 
-    .welcome-cover .content-block .text-block h4, .portfolio-sec .portfolio-card-sm .label-block, .portfolio-sec .portfolio-card-sm .num-block
+    .welcome-cover .content-block .text-block h4, .portfolio-sec .portfolio-card-sm .label-block, .portfolio-sec .portfolio-card-sm .num-block, 
+    .header-wrapper .header-title-block .dropdown-menu .dropdown-item
     {
         color: $primary-light !important;
     }
@@ -684,10 +685,11 @@ $dark-block-2: #2B2C2E;
     .inp-block .custom-selectbox {
         background-image: url(../img/select-arrw-light.svg);
     }
-    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu{
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .header-wrapper .header-title-block .dropdown-menu{
         border: solid 1px $dark-border;
     }
-    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item{
+    .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item, 
+    .header-wrapper .header-title-block .dropdown-menu .dropdown-item{
         &:hover{
             background-color: #131313;
         }
@@ -952,6 +954,18 @@ $dark-block-2: #2B2C2E;
         img{
             filter: none;
         }
+    }
+    .welcome-cover{
+        border-color: $dark-border;
+    }
+    .custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label {
+        background-color: #111217;
+        .def-img{
+            filter: none;
+        }
+    }
+    .custom-modal .inp-block-modal .custom-inp-disable{
+        background-color: #242734 !important;
     }
 }
 

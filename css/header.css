@@ -17,13 +17,52 @@
   min-height: 85px; }
   .header-wrapper .header-title-block {
     display: flex; }
+    .header-wrapper .header-title-block .dropdown-toggle::after {
+      margin-left: 18px; }
+      @media (max-width: 1199px) {
+        .header-wrapper .header-title-block .dropdown-toggle::after {
+          margin-left: 8px; } }
+    .header-wrapper .header-title-block .live-active .label-web {
+      margin-right: 5px; }
+    .header-wrapper .header-title-block .dropdown-menu {
+      border-radius: 10px;
+      background: #FFF;
+      box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.06);
+      border: none;
+      padding: 5px;
+      margin-top: 20px !important;
+      min-width: 190px; }
+      .header-wrapper .header-title-block .dropdown-menu .dropdown-item {
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        height: 52px;
+        font-size: 13px;
+        color: #2E4276;
+        transition: .3s; }
+        .header-wrapper .header-title-block .dropdown-menu .dropdown-item .status {
+          margin-top: -2px;
+          width: 8px;
+          height: 8px;
+          display: inline-block;
+          background-color: #343333;
+          margin-right: 12px;
+          border-radius: 50%; }
+          .header-wrapper .header-title-block .dropdown-menu .dropdown-item .status.active {
+            background-color: #009518; }
+        .header-wrapper .header-title-block .dropdown-menu .dropdown-item:hover {
+          background: #F0F1F9; }
+        .header-wrapper .header-title-block .dropdown-menu .dropdown-item.item-disbaled {
+          opacity: .5;
+          cursor: not-allowed; }
     .header-wrapper .header-title-block .header-title {
       margin-bottom: 0;
       color: #2E4276;
       font-size: 16px;
       font-weight: 700; }
     .header-wrapper .header-title-block .live-active {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
       white-space: unset;
       max-width: none;
       opacity: 1 !important;
@@ -362,6 +401,9 @@
   .header-wrapper .theme-toggle-btn-block {
     display: inline-flex;
     margin-right: 25px; }
+    @media (max-width: 1441px) {
+      .header-wrapper .theme-toggle-btn-block {
+        margin-right: 15px; } }
     .header-wrapper .theme-toggle-btn-block .theme-toggle-btn {
       display: inline-flex;
       align-items: center;
@@ -703,7 +745,7 @@
       position: absolute;
       top: -45px;
       right: 0;
-      z-index: 1; }
+      z-index: 2; }
     .header-wrapper.header-offline {
       position: static; }
       .header-wrapper.header-offline .admin-h-btn-block {

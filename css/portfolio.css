@@ -92,7 +92,7 @@
       border: solid 1px #EEEFF8;
       padding: 11px 15px;
       font-size: 14px;
-      color: #8393BA; }
+      color: #2E4276; }
       .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:first-child {
         padding-left: 45px; }
       .portfolio-sec .lg-graph .graph-table-block .graph-table tr td:last-child {
@@ -231,7 +231,7 @@
       margin-bottom: 20px; }
       .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-label {
         font-size: 14px;
-        color: #8393BA;
+        color: #2E4276;
         padding-right: 15px; }
       .portfolio-sec .portfolio-card .my-portfolio-content .sm-table-block .locked-tab-row .tab-val {
         flex-grow: 0;
@@ -350,7 +350,7 @@
     display: flex;
     align-items: center;
     font-size: 14px;
-    color: #8393BA; }
+    color: #2E4276; }
     .portfolio-sec .portfolio-card-sm .label-block .icon {
       width: 31px;
       height: 31px;
@@ -397,7 +397,7 @@
     font-size: 12px; }
   .table-pagination-cover .pagination-block .pagination .page-item .page-link {
     margin: 0 4px;
-    color: #ADC3DF;
+    color: #697F9B;
     font-size: 12px;
     border: solid 1px #E3E4F3;
     border-radius: 50%;
@@ -409,8 +409,9 @@
     justify-content: center;
     flex-shrink: 0; }
     .table-pagination-cover .pagination-block .pagination .page-item .page-link.active, .table-pagination-cover .pagination-block .pagination .page-item .page-link:hover {
-      background-color: #E3E4F3;
-      color: #697F9B; }
+      background-color: #2966FF;
+      color: #fff;
+      border-color: #608EFF; }
   .table-pagination-cover .pagination-block .pagination .page-item .page-link-dots {
     margin: 0;
     color: #ADC3DF;

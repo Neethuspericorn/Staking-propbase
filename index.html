@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/dark-theme.css">
 </head>
-<body class="">
+<body class="theme-dark">
     <div class="body-wrapper">
         <!-- Side nav -->
         <div class="nav-block">
@@ -153,42 +153,23 @@
             <!-- Header -->
             <div class="header-wrapper shadow-bg">
                 <div class="header-title-block">
-                    <div class="live-active wallet-btn">
+                    <!-- <div class="live-active wallet-btn">
                         <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
-                    </div>
+                    </div> -->
                     <div class="aptos-select-block">
                         <div class="btn-group live-aptos-dropdown">
-                            <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img class="cart-mob" src="img/buy_token.svg" alt="">
-                                <span class="acc-label">Buy $PROPS</span>
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
-                                        <span class="icon">
-                                            <img src="img/pros-mex.svg" alt="">
-                                        </span> MEXC
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                                        <span class="icon">
-                                            <img src="img/pros-pan.svg" alt="">
-                                        </span> Pancake
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                                        <span class="icon">
-                                            <img src="img/coin-liquid.svg" alt="">
-                                        </span> Liquidswap
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item item-disbaled" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                                        <span class="icon">
-                                            <img src="img/coin-chaing.svg" alt="">
-                                        </span> Chainge Finance
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
                                     </a>
                                 </li>
                             </ul>
@@ -372,6 +353,7 @@
                                 <button class="filter-nav-btn active">Home</button>
                                 <button class="filter-nav-btn">Portfolio</button>
                                 <button class="filter-nav-btn">Staking</button>
+                                <button class="filter-nav-btn">Transactions</button>
                             </div>
                         </div>
 

@@ -515,6 +515,8 @@ button.close-modal {
           border: 1px solid #484848;
           background: #000;
           color: #fff; }
+          .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control:-webkit-autofill {
+            -webkit-text-fill-color: #fff; }
       .passcode-body-cover .passcode-content-block .form-block .btn-block {
         padding-top: 15px;
         text-align: center; }
@@ -547,8 +549,12 @@ button.close-modal {
     margin-top: 40px; }
 
   .passcode-body-cover .passcode-content-block {
-    padding: 80px 25px 110px;
-    width: 800px; } }
+    padding: 75px 25px 90px;
+    width: 700px; }
+
+  .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control {
+    height: 43px;
+    font-size: 15px; } }
 @media (max-width: 991px) {
   .passcode-body-cover .passcode-content-block {
     padding: 80px 25px 110px;

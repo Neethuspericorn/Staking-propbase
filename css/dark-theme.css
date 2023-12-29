@@ -23,7 +23,7 @@
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
   .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu,
-  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper, .theme-dark .portfolio-sec .portfolio-card-sm
+  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper, .theme-dark .portfolio-sec .portfolio-card-sm, .theme-dark .header-wrapper .header-title-block .dropdown-menu
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -53,7 +53,8 @@
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .btn-otr .back-login-btn, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .notify-title,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item,
   .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count, .theme-dark .nav-block .nav-footer-block .welcome-msg,
-  .theme-dark .welcome-cover .content-block .text-block h4, .theme-dark .portfolio-sec .portfolio-card-sm .label-block, .theme-dark .portfolio-sec .portfolio-card-sm .num-block
+  .theme-dark .welcome-cover .content-block .text-block h4, .theme-dark .portfolio-sec .portfolio-card-sm .label-block, .theme-dark .portfolio-sec .portfolio-card-sm .num-block,
+  .theme-dark .header-wrapper .header-title-block .dropdown-menu .dropdown-item
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -439,9 +440,10 @@
     color: #fff; }
   .theme-dark .inp-block .custom-selectbox {
     background-image: url(../img/select-arrw-light.svg); }
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu {
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .header-wrapper .header-title-block .dropdown-menu {
     border: solid 1px #484848; }
-  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item:hover {
+  .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu .dropdown-item:hover,
+  .theme-dark .header-wrapper .header-title-block .dropdown-menu .dropdown-item:hover {
     background-color: #131313; }
   .theme-dark .ant-picker .ant-picker-input > input, .theme-dark .ant-picker .ant-picker-separator {
     color: #fff; }
@@ -612,5 +614,13 @@
     background-color: #202020; }
     .theme-dark .portfolio-sec .portfolio-card-sm .label-block .icon img {
       filter: none; }
+  .theme-dark .welcome-cover {
+    border-color: #484848; }
+  .theme-dark .custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label {
+    background-color: #111217; }
+    .theme-dark .custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label .def-img {
+      filter: none; }
+  .theme-dark .custom-modal .inp-block-modal .custom-inp-disable {
+    background-color: #242734 !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */

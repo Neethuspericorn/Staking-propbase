@@ -704,6 +704,9 @@ button.close-modal {
                     border: 1px solid #484848;
                     background: #000;
                     color: $primary-light;
+                    &:-webkit-autofill{
+                        -webkit-text-fill-color: #fff;
+                    }
                 }
             }
             .btn-block{
@@ -744,8 +747,12 @@ button.close-modal {
         margin-top: 40px;
     }
     .passcode-body-cover .passcode-content-block {
-        padding: 80px 25px 110px;
-        width: 800px;
+        padding: 75px 25px 90px;
+        width: 700px;
+    }
+    .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control {
+        height: 43px;
+        font-size: 15px;
     }
 }
 @media(max-width:991px){

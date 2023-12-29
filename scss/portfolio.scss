@@ -116,7 +116,8 @@
                         border: solid 1px #EEEFF8;
                         padding: 11px 15px;
                         font-size: 14px;
-                        color: #8393BA;
+                        // color: #8393BA;
+                        color: #2E4276;
                         &:first-child{
                             padding-left: 45px;
                         }
@@ -298,7 +299,8 @@
                     margin-bottom: 20px;
                     .tab-label{
                         font-size: 14px;
-                        color: #8393BA;
+                        // color: #8393BA;
+                        color: #2E4276;
                         padding-right: 15px;
                     }
                     .tab-val{
@@ -457,7 +459,8 @@
             display: flex;
             align-items: center;
             font-size: 14px;
-            color: #8393BA;
+            // color: #8393BA;
+            color: #2E4276;
             .icon{
                 width: 31px;
                 height: 31px;
@@ -517,7 +520,8 @@
             .page-item{
                 .page-link{
                     margin: 0 4px;
-                    color: #ADC3DF;
+                    // color: #ADC3DF;
+                    color: #697F9B;
                     font-size: 12px;
                     border: solid 1px #E3E4F3;
                     border-radius: 50%;
@@ -529,8 +533,11 @@
                     justify-content: center;
                     flex-shrink: 0;
                     &.active, &:hover{
-                        background-color: #E3E4F3;
-                        color: #697F9B;
+                        // background-color: #E3E4F3;
+                        // color: #697F9B;
+                        background-color: $light-blue;
+                        color: #fff;
+                        border-color: #608EFF;
                     }
                 }
                 .page-link-dots{
