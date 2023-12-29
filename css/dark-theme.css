@@ -626,5 +626,12 @@
     background-color: #282829; }
     .theme-dark .header-wrapper .wallet-btn-cover .wallet-btn-copy img {
       filter: grayscale(1) brightness(4); }
+  .theme-dark .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn {
+    border-color: #4E4E4E;
+    color: #fff; }
+  .theme-dark .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn-cover .wallet-btn-copy {
+    background-color: #282829; }
+    .theme-dark .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn-cover .wallet-btn-copy img {
+      filter: grayscale(1) brightness(4); }
 
 /*# sourceMappingURL=dark-theme.css.map */

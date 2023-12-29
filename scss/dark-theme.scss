@@ -973,6 +973,16 @@ $dark-block-2: #2B2C2E;
             filter: grayscale(1) brightness(4);
         }
     }
+    .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn{
+        border-color: $dark-border-2;
+        color: $primary-light;
+    }
+    .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn-cover .wallet-btn-copy{
+        background-color: #282829;
+        img{
+            filter: grayscale(1) brightness(4);
+        }
+    }
 }
 
 
