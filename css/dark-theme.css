@@ -23,7 +23,8 @@
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
   .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu,
-  .theme-dark .body-wrapper .nav-block .nav-logo-wrapper, .theme-dark .portfolio-sec .portfolio-card-sm, .theme-dark .header-wrapper .header-title-block .dropdown-menu
+  .theme-dark .portfolio-sec .portfolio-card-sm, .theme-dark .header-wrapper .header-title-block .dropdown-menu,
+  .theme-dark .terms-sec
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -54,7 +55,8 @@
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item,
   .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count, .theme-dark .nav-block .nav-footer-block .welcome-msg,
   .theme-dark .welcome-cover .content-block .text-block h4, .theme-dark .portfolio-sec .portfolio-card-sm .label-block, .theme-dark .portfolio-sec .portfolio-card-sm .num-block,
-  .theme-dark .header-wrapper .header-title-block .dropdown-menu .dropdown-item
+  .theme-dark .header-wrapper .header-title-block .dropdown-menu .dropdown-item, .theme-dark .terms-sec .terms-title h2, .theme-dark .terms-sec .terms-body-sec h3,
+  .theme-dark .terms-sec .terms-body-sec p
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -633,5 +635,16 @@
     background-color: #282829; }
     .theme-dark .nav-block .navbar-collapse-block .mob-nav-btn-block .wallet-btn-cover .wallet-btn-copy img {
       filter: grayscale(1) brightness(4); }
+  .theme-dark .custom-scroll::-webkit-scrollbar-track {
+    background: #232E33; }
+  .theme-dark .custom-scroll::-webkit-scrollbar-thumb {
+    background: #2966ff; }
+  .theme-dark .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #608EFF; }
+  .theme-dark .terms-sec .terms-title {
+    border-color: #373737; }
+  @media (max-width: 991px) {
+    .theme-dark .body-wrapper .nav-block .nav-logo-wrapper {
+      background-color: #000; } }
 
 /*# sourceMappingURL=dark-theme.css.map */

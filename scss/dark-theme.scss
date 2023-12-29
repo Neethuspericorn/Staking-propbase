@@ -22,7 +22,8 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .conect-wallet .walles-otr .wallet-btn, 
     .change-pass-modal .modal-dialog .modal-content, .header-wrapper .right-block .notify-dropdown .dropdown-menu, 
     .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu, 
-    .body-wrapper .nav-block .nav-logo-wrapper, .portfolio-sec .portfolio-card-sm, .header-wrapper .header-title-block .dropdown-menu
+    .portfolio-sec .portfolio-card-sm, .header-wrapper .header-title-block .dropdown-menu, 
+    .terms-sec
     {
         background-color: $dark-bg;
     }
@@ -55,7 +56,8 @@ $dark-block-2: #2B2C2E;
     .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn, .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu .dropdown-item, 
     .card-section-outer .top-block .progress-bar-section .progress-count, .nav-block .nav-footer-block .welcome-msg, 
     .welcome-cover .content-block .text-block h4, .portfolio-sec .portfolio-card-sm .label-block, .portfolio-sec .portfolio-card-sm .num-block, 
-    .header-wrapper .header-title-block .dropdown-menu .dropdown-item
+    .header-wrapper .header-title-block .dropdown-menu .dropdown-item, .terms-sec .terms-title h2, .terms-sec .terms-body-sec h3, 
+    .terms-sec .terms-body-sec p
     {
         color: $primary-light !important;
     }
@@ -983,6 +985,24 @@ $dark-block-2: #2B2C2E;
             filter: grayscale(1) brightness(4);
         }
     }
+    .custom-scroll {
+        &::-webkit-scrollbar-track {
+          background: #232E33;
+        }
+      
+        &::-webkit-scrollbar-thumb {
+          background: #2966ff;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+          background: #608EFF;
+        }
+    }
+    .terms-sec .terms-title{
+        border-color: #373737;
+    }
+    .body-wrapper .nav-block .nav-logo-wrapper{
+        @media (max-width: 991px) {
+            background-color: #000;
+        }
+    }
 }
-
-

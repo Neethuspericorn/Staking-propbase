@@ -168,6 +168,8 @@
         padding: 5px;
         background-color: #f3f4fa; }
         .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img {
+          background-color: #000;
+          border-radius: 50%;
           max-width: 27px;
           max-height: 100%; }
       .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-det {
