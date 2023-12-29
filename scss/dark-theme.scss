@@ -940,9 +940,9 @@ $dark-block-2: #2B2C2E;
             // border-color: #4E4E4E;
         }
     }
-    // input, textarea{
-    //     caret-color: $primary-light;
-    // }
+    input, textarea{
+        caret-color: $primary-light;
+    }
     .staking-app-badge{
         background-color: #353113;
         border-color: #60591C;

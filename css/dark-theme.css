@@ -606,6 +606,8 @@
     filter: grayscale(1) brightness(4); }
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .my-acc-btn .acc-icon {
     background: #282829; }
+  .theme-dark input, .theme-dark textarea {
+    caret-color: #fff; }
   .theme-dark .staking-app-badge {
     background-color: #353113;
     border-color: #60591C;

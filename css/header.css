@@ -649,7 +649,7 @@
     justify-content: center; } }
 @media (max-width: 1199px) {
   .header-wrapper .theme-toggle-btn-block {
-    margin-right: 10px; }
+    margin-right: 5px; }
 
   .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after {
     display: none; }
@@ -685,7 +685,7 @@
     margin-right: 10px; }
 
   .header-wrapper .info-block .info-val-end {
-    margin-left: 15px; }
+    margin-left: 12px; }
 
   .header-wrapper .login-btn img {
     margin-left: 5px; }
@@ -701,7 +701,7 @@
 
   .header-wrapper .header-title-block {
     flex: 1 1 auto;
-    padding-right: 15px; } }
+    padding-right: 10px; } }
 @media (max-width: 1100px) {
   .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn {
     width: 36px;
@@ -809,7 +809,7 @@
     height: 36px; }
 
   .header-wrapper .theme-toggle-btn-block {
-    margin-right: 15px; } }
+    margin-right: 10px; } }
 @media (max-width: 479px) {
   .header-wrapper .info-block {
     font-size: .75rem; }
