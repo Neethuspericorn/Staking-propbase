@@ -662,6 +662,7 @@ button {
   background-color: #2966FF !important; }
 
 .spinner-border {
+  vertical-align: middle;
   width: 22px;
   height: 22px; }
 
