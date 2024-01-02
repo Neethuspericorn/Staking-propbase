@@ -595,8 +595,12 @@ $dark-block-2: #2B2C2E;
     }
     .table-cover .custom-table .td-action-btn{
         border-color: $dark-bg;
-        &:hover img{
-            border-color: $primary-light;
+        background-color: $dark-bg;
+        .icon-light{
+            display: none;
+        }
+        .icon-dark{
+            display: block;
         }
     }
     .table-cover .custom-table .td-action-btn .edit-icon{
@@ -915,6 +919,8 @@ $dark-block-2: #2B2C2E;
     textarea:-webkit-autofill,
     textarea:-webkit-autofill:focus{
         -webkit-text-fill-color: #fff;
+        -webkit-background-clip: text;
+        box-shadow: inset 0 0 20px 20px #000 !important;
     }
     .custom-modal.crate-stake-modal .inp-block-modal .custom-inp:-webkit-autofill{
         -webkit-text-fill-color: #fff;

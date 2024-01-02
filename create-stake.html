@@ -152,7 +152,7 @@
             </div>
 
             <div class="body-content-outer">  
-                <div class="sec-title-block sec-title-filter stake-title-filter">
+                <div class="sec-title-block sec-title-filter stake-title-filter stake-title-filter-single">
                     <h2 class="sec-title">Create Stake</h2>
                     <div class="block-right">
                         <div class="title-search-box me-2">
@@ -223,12 +223,12 @@
                 <!-- table -->
                 <div class="table-sec">
                     <div class="table-cover table-responsive custom-scroll">
-                        <table class="table custom-table">
+                        <table class="table custom-table sticky-table">
                             <thead>
                                 <tr>
                                     <th>
                                         <div class="th-sort-col pointer-cursor">
-                                            Stake Type
+                                            Name
                                             <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
                                         </div>
                                     </th>
@@ -241,7 +241,7 @@
                                     </th>
                                     <th>
                                         <div class="th-sort-col pointer-cursor">
-                                        Pool Cap
+                                        Pool Cap ($PROPS)
                                         <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
                                         </div>
                                     </th>
@@ -253,7 +253,7 @@
                                     </th>
                                     <th >
                                         <div class="th-sort-col pointer-cursor">
-                                        Lock-In Period
+                                        Lock-in Period Start
                                         <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
                                         </div>
                                     </th>
@@ -265,8 +265,7 @@
                                     </th>
                                     <th>
                                         <div class="th-sort-col pointer-cursor">
-                                        Total value 
-                                        Locked
+                                        Total Staked $PROPS	
                                         <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
                                         </div>
                                     </th>
@@ -307,13 +306,16 @@
                                     <td>
                                         <div class="action-btn-block">
                                             <button class="td-action-btn">
-                                                <img src="img/td-edit.svg" alt="">
+                                                <img src="img/td-edit.svg" alt="" class="icon-light">
+                                                <img src="img/td-edit-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-delete.svg" alt="">
+                                                <img src="img/td-delete.svg" alt="" class="icon-light">
+                                                <img src="img/td-delete-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-add-rewards.svg" alt="">
+                                                <img src="img/td-add-rewards.svg" alt="" class="icon-light">
+                                                <img src="img/td-add-rewards-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
                                                 <img src="img/td-aptos.svg" alt="">
@@ -335,13 +337,16 @@
                                     <td>
                                         <div class="action-btn-block">
                                             <button class="td-action-btn">
-                                                <img src="img/td-edit.svg" alt="">
+                                                <img src="img/td-edit.svg" alt="" class="icon-light">
+                                                <img src="img/td-edit-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-delete.svg" alt="">
+                                                <img src="img/td-delete.svg" alt="" class="icon-light">
+                                                <img src="img/td-delete-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-add-rewards.svg" alt="">
+                                                <img src="img/td-add-rewards.svg" alt="" class="icon-light">
+                                                <img src="img/td-add-rewards-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
                                                 <img src="img/td-aptos.svg" alt="">
@@ -363,13 +368,16 @@
                                     <td>
                                         <div class="action-btn-block">
                                             <button class="td-action-btn">
-                                                <img src="img/td-edit.svg" alt="">
+                                                <img src="img/td-edit.svg" alt="" class="icon-light">
+                                                <img src="img/td-edit-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-delete.svg" alt="">
+                                                <img src="img/td-delete.svg" alt="" class="icon-light">
+                                                <img src="img/td-delete-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-add-rewards.svg" alt="">
+                                                <img src="img/td-add-rewards.svg" alt="" class="icon-light">
+                                                <img src="img/td-add-rewards-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
                                                 <img src="img/td-aptos.svg" alt="">
@@ -391,13 +399,16 @@
                                     <td>
                                         <div class="action-btn-block">
                                             <button class="td-action-btn">
-                                                <img src="img/td-edit.svg" alt="">
+                                                <img src="img/td-edit.svg" alt="" class="icon-light">
+                                                <img src="img/td-edit-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-delete.svg" alt="">
+                                                <img src="img/td-delete.svg" alt="" class="icon-light">
+                                                <img src="img/td-delete-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
-                                                <img src="img/td-add-rewards.svg" alt="">
+                                                <img src="img/td-add-rewards.svg" alt="" class="icon-light">
+                                                <img src="img/td-add-rewards-dark.svg" alt="" class="icon-dark">
                                             </button>
                                             <button class="td-action-btn" data-bs-toggle="modal" data-bs-target="#successModal">
                                                 <img src="img/td-aptos.svg" alt="">

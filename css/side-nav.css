@@ -195,7 +195,8 @@
   .nav-block .nav-footer-block {
     padding: 10px 15px 50px 30px;
     margin-top: auto;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    overflow: hidden; }
     .nav-block .nav-footer-block .nav-footer-logo {
       margin-bottom: 15px; }
       .nav-block .nav-footer-block .nav-footer-logo a {
@@ -222,6 +223,10 @@
       .nav-block .nav-footer-block .nav-soc-block .nav-soc:hover {
         transform: translateY(-5px); }
 
+.nav-footer-block .nav-footer-logo,
+.nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block {
+  transition-delay: .2s; }
+
 .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn {
   margin-left: -2px; }
 .nav-collapse .nav-block .nav-logo-wrapper .nav-logo .logo-txt {
@@ -231,9 +236,12 @@
 .nav-collapse .nav-block {
   width: 84px;
   max-width: 84px; }
-.nav-collapse .nav-footer-block,
 .nav-collapse .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label {
   display: none; }
+.nav-collapse .nav-footer-block .nav-footer-logo,
+.nav-collapse .nav-footer-block .welcome-msg, .nav-collapse .nav-footer-block .nav-soc-block {
+  opacity: 0;
+  transition-delay: 0s; }
 .nav-collapse .nav-block .nav-logo-wrapper {
   flex-direction: column;
   align-items: flex-start; }

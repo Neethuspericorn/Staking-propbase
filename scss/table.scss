@@ -65,12 +65,18 @@
             transition: .3s;
             img{
                 transition: .3s;
-                border: solid 1px transparent;
+                border: solid 2px transparent;
                 border-radius: 50%;
+            }
+            .icon-light{
+                display: block;
+            }
+            .icon-dark{
+                display: none;
             }
             &:hover{
                 img{
-                    border-color: #000;
+                    border-color: $primary-blue;
                 }
             }
         }
@@ -289,4 +295,17 @@
 }
 .th-w-140{
     width: 140px;
+}
+
+.sticky-table{
+    th{
+        white-space: nowrap;
+    }
+    th, td{
+        &:last-child{
+            position: sticky;
+            right: 0;
+            background-color: #fff;
+        }
+    }
 }

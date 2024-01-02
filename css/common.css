@@ -312,7 +312,11 @@ button {
 
   .sec-title-block.sec-title-filter .block-right {
     width: 100%;
-    padding-top: 15px; } }
+    padding-top: 15px; }
+
+  .sec-title-block.sec-title-filter.stake-filter-single {
+    width: auto;
+    padding-top: 0; } }
 .title-search-box .btn {
   z-index: 1; }
 .title-search-box .input-group {
@@ -399,6 +403,7 @@ button {
   border-radius: 0 !important; }
 .react-custom-select .css-1u9des2-indicatorSeparator {
   display: none; }
+.react-custom-select .css-15lsz6c-indicatorContainer,
 .react-custom-select .css-1xc3v61-indicatorContainer {
   padding-right: 0; }
 

@@ -232,6 +232,7 @@
         padding: 10px 15px 50px 30px;
         margin-top: auto;
         margin-bottom: 0;
+        overflow: hidden;
         .nav-footer-logo{
             margin-bottom: 15px;
             a{
@@ -270,6 +271,10 @@
         }
     }
 }
+.nav-footer-block .nav-footer-logo, 
+     .nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block{
+        transition-delay: .2s;
+     }
 .nav-collapse{
     .nav-block .nav-logo-wrapper .nav-toggle-btn{
         margin-left: -2px;
@@ -288,11 +293,15 @@
         max-width: 84px;
     }
     // .nav-block .nav-logo-wrapper .nav-logo .logo-txt,
-     .nav-footer-block, 
     .nav-block .navbar-collapse-block .navbar-ul .nav-item .nav-link .nav-label
     {
         display: none;
     }
+    .nav-footer-block .nav-footer-logo, 
+     .nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block{
+        opacity: 0;
+        transition-delay: 0s;
+     }
     .nav-block .nav-logo-wrapper{
         flex-direction: column;
         align-items: flex-start;

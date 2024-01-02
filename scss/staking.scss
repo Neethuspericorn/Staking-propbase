@@ -941,6 +941,10 @@
                     {
                         margin-bottom: 20px;
                     }
+                    @media(max-width:400px)
+                    {
+                        width: 50%;
+                    }
                     .props-col{
                         padding-top: 6px;
                         width: 100%;

@@ -685,6 +685,9 @@
         @media (max-width: 1679px) {
           .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer {
             margin-bottom: 20px; } }
+        @media (max-width: 400px) {
+          .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer {
+            width: 50%; } }
         .stake-modal .modal-body .rwd-inner.rwd-col-inner .detail-outer .props-col {
           padding-top: 6px;
           width: 100%; }

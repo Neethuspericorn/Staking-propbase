@@ -306,6 +306,7 @@
                         padding-right: 15px;
                     }
                     .tab-val{
+                        flex-shrink: 0;
                         flex-grow: 0;
                         font-size: 16px;
                         font-weight: 600;
