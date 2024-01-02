@@ -14,6 +14,8 @@
 .portfolio-sec .my-portfolio-col {
   flex: 0 0 auto;
   width: 440px; }
+  .portfolio-sec .my-portfolio-col .portfolio-card {
+    height: auto; }
 .portfolio-sec .portfolio-col {
   margin-bottom: 12px; }
 .portfolio-sec .col-b {
@@ -107,6 +109,7 @@
       font-weight: 600; }
 .portfolio-sec .portfolio-card {
   background-color: #fff;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 28px;
