@@ -347,6 +347,14 @@ button.close-modal {
       .fgt-modal .modal-dialog .modal-body .form-group .input-group label {
         color: #4D6090;
         font-size: 14px; }
+      .fgt-modal .modal-dialog .modal-body .form-group .input-group ::-webkit-input-placeholder {
+        color: #4D6090; }
+      .fgt-modal .modal-dialog .modal-body .form-group .input-group :-moz-placeholder {
+        color: #4D6090; }
+      .fgt-modal .modal-dialog .modal-body .form-group .input-group ::-moz-placeholder {
+        color: #4D6090; }
+      .fgt-modal .modal-dialog .modal-body .form-group .input-group :-ms-input-placeholder {
+        color: #4D6090; }
       .fgt-modal .modal-dialog .modal-body .form-group .input-group .form-control {
         width: 100%;
         background: transparent;

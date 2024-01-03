@@ -1014,4 +1014,9 @@ $dark-block-2: #2B2C2E;
     .stake-modal .modal-body .stake-min-row .stake-min-block{
         color: #B2B2B2;
     }
+    .fgt-modal .modal-dialog .modal-body .form-group .input-group{
+        @include placeholder{
+            color: $primary-light;
+        }
+    }
 }

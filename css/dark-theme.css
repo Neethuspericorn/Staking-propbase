@@ -655,5 +655,13 @@
       background-color: #000; } }
   .theme-dark .stake-modal .modal-body .stake-min-row .stake-min-block {
     color: #B2B2B2; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group ::-webkit-input-placeholder {
+    color: #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group :-moz-placeholder {
+    color: #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group ::-moz-placeholder {
+    color: #fff; }
+  .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group :-ms-input-placeholder {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

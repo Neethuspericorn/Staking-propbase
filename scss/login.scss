@@ -473,6 +473,10 @@ button.close-modal {
                         color: $input-text-color;
                         font-size: 14px;
                     }
+                    @include placeholder
+                    {
+                        color: $input-text-color;
+                    }
                     .form-control
                     {
                         width: 100%;
