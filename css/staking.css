@@ -211,6 +211,9 @@
       width: 100%; } }
   .card-section-outer .h-card-col .h-card-block {
     border-radius: 6px; }
+    @media (max-width: 1800px) {
+      .card-section-outer .h-card-col .h-card-block {
+        padding: 25px 30px; } }
     @media (max-width: 1679px) {
       .card-section-outer .h-card-col .h-card-block {
         padding: 25px 20px; } }
@@ -283,7 +286,8 @@
           font-size: 15px; } }
   .card-section-outer .top-block .txt-content {
     margin-top: 13px;
-    font-size: 13px; }
+    font-size: 13px;
+    margin-bottom: 0; }
   .card-section-outer .top-block .timer-section {
     font-size: 13px; }
     .card-section-outer .top-block .timer-section label {
@@ -377,6 +381,9 @@
       font-weight: 600;
       font-size: 15px;
       padding-left: 15px; }
+      @media (max-width: 1800px) {
+        .card-section-outer .top-block .progress-bar-section .progress-count {
+          font-size: 13px; } }
       @media (max-width: 1679px) {
         .card-section-outer .top-block .progress-bar-section .progress-count {
           font-size: 13px; } }
@@ -391,13 +398,13 @@
     font-size: 15px;
     font-weight: 500;
     width: 50%;
-    padding: 9px;
+    padding: 9px 5px;
     background: #fff;
     margin-right: 10px; }
     @media (max-width: 1679px) {
       .card-section-outer .top-block .btn-default {
         margin-right: 5px;
-        font-size: 13px; } }
+        font-size: 12px; } }
     @media (max-width: 1481px) {
       .card-section-outer .top-block .btn-default {
         font-size: 12px; } }

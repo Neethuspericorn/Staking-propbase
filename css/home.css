@@ -61,7 +61,8 @@
     display: flex;
     flex-direction: column;
     color: #2E4276;
-    border-radius: 13px; }
+    border-radius: 13px;
+    overflow: hidden; }
     .card-sec .h-card-block .top-block {
       flex: 1 1 auto; }
     .card-sec .h-card-block .bottom-block {

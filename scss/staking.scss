@@ -293,6 +293,10 @@
         .h-card-block
         {
             border-radius: 6px;
+            @media(max-width:1800px)
+            {
+                padding: 25px 30px;
+            }
             @media(max-width:1679px)
             {
                 padding: 25px 20px;
@@ -408,7 +412,7 @@
         {
             margin-top: 13px;
             font-size: 13px;
-           
+           margin-bottom: 0;
         }
         .timer-section
         {
@@ -536,6 +540,10 @@
                 font-weight: 600;
                 font-size: 15px;
                 padding-left: 15px;
+                @media(max-width:1800px)
+                {
+                    font-size: 13px;
+                }
                 @media(max-width:1679px)
                 {
                     font-size: 13px;
@@ -557,13 +565,13 @@
             font-size: 15px;
             font-weight: 500;
             width: 50%;
-            padding: 9px;
+            padding: 9px 5px;
             background: #fff;
             margin-right: 10px;
             @media(max-width:1679px)
             {
                 margin-right: 5px;
-                font-size: 13px;
+                font-size: 12px;
             }
             @media(max-width:1481px){
                 font-size: 12px;
