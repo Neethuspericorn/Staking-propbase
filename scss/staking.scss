@@ -808,6 +808,9 @@
                 @media (max-width: 1679px) {
                     font-size: 13px;
                 }
+                @media (max-width: 579px) {
+                    font-size: 12px;
+                }
                 &:first-child{
                     margin-right: 65px;
                     @media (max-width: 579px) {
@@ -865,6 +868,11 @@
                 {
                     height: 50px;
                 }
+                @media(max-width:479px){
+                    padding-left: 15px;
+                    height: 46px;
+                    font-size: 13px;
+                }
             }
             .badges {
                 position: absolute;
@@ -902,6 +910,11 @@
                         padding: 6px 15px;
                         font-size: 11px;
                         margin-right: 4px;
+                    }
+                    @media(max-width:479px){
+                        padding: 6px;
+                        font-size: 10px;
+                        margin-right: 2px;
                     }
                     &:hover{
                         border-color: $primary-blue !important;
@@ -976,9 +989,9 @@
                     {
                         margin-bottom: 20px;
                     }
-                    @media(max-width:400px)
+                    @media(max-width:420px)
                     {
-                        width: 50%;
+                        width: 100%;
                     }
                     .props-col{
                         padding-top: 6px;
@@ -1060,6 +1073,10 @@
             {
                 height: 50px;
                 font-size:14px;
+            }
+            @media(max-width:579px)
+            {
+                height: 46px;
             }
         }
         .withdraw-btn
