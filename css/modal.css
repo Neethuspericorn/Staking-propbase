@@ -997,9 +997,6 @@
 
   .claim-reward-modal .claim-reward-modal-body {
     padding: 0 35px 25px; } }
-@media (max-width: 579px) {
-  .claim-reward-modal .claim-reward-modal-body .claim-count-block h4 {
-    font-size: 21px; } }
 @media (max-width: 479px) {
   .claim-reward-modal .claim-reward-modal-body {
     padding: 0 15px 30px; } }
