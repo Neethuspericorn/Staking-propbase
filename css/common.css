@@ -191,15 +191,17 @@ button {
       display: none; }
 
   .sec-title-filter .title-search-box .input-group {
-    width: 100%;
-    height: 40px; } }
+    height: 40px;
+    width: 240px; }
+    .sec-title-filter .title-search-box .input-group .btn {
+      padding-left: 5px; } }
 @media (max-width: 579px) {
-  .stake-title-filter .title-search-box {
-    width: 200px; }
-
   .filter-wrapper .filter-nav-btn {
     margin-right: 10px; } }
 @media (max-width: 479px) {
+  .sec-title-filter .title-search-box .input-group {
+    width: 100%; }
+
   .filter-wrapper .filter-nav-btn {
     min-width: auto; }
 
@@ -347,11 +349,21 @@ button {
 @media (max-width: 1679px) {
   .title-search-box .input-group {
     height: 38px;
-    width: 280px; } }
+    width: 290px; } }
 @media (max-width: 1199px) {
   .title-search-box .input-group {
-    width: 240px;
-    padding-right: 5px; } }
+    width: 270px;
+    padding-right: 5px; }
+    .title-search-box .input-group .form-control {
+      padding-right: 0; } }
+@media (max-width: 991px) {
+  .title-search-box .input-group {
+    width: 270px;
+    padding-right: 5px; }
+    .title-search-box .input-group .form-control {
+      padding-right: 0;
+      padding-left: 15px;
+      font-size: 13px; } }
 .inp-block .form-label {
   width: 100%;
   color: #8393BA;
