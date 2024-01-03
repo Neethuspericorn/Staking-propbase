@@ -250,8 +250,6 @@
     display: flex;
     margin-bottom: 15px; }
     .card-section-outer .top-block .heading-txt .img-txt {
-      display: flex;
-      align-items: center;
       flex-shrink: 0; }
     @media (max-width: 991px) {
       .card-section-outer .top-block .heading-txt {
