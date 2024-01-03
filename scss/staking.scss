@@ -793,6 +793,33 @@
                 }
             }
         }
+        .stake-min-row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            @media (max-width: 1679px) {
+                margin-bottom: 15px;
+            }
+            .stake-min-block{
+                font-size: 14px;
+                color: #8393BA;
+                margin-bottom: 10px;
+                @media (max-width: 1679px) {
+                    font-size: 13px;
+                }
+                &:first-child{
+                    margin-right: 65px;
+                    @media (max-width: 579px) {
+                        margin-right: 35px;
+                    }
+                }
+                .val{
+                    display: inline-block;
+                    padding-left: 6px;
+                }
+            }
+        }
         .lock-period
         {
             color: $text-primary-light;

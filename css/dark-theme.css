@@ -653,5 +653,7 @@
   @media (max-width: 991px) {
     .theme-dark .body-wrapper .nav-block .nav-logo-wrapper {
       background-color: #000; } }
+  .theme-dark .stake-modal .modal-body .stake-min-row .stake-min-block {
+    color: #B2B2B2; }
 
 /*# sourceMappingURL=dark-theme.css.map */
