@@ -908,7 +908,8 @@
       .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count {
         color: #697F9B;
         font-size: 14px;
-        font-weight: 600; }
+        font-weight: 600;
+        text-align: right; }
         .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-count.txt-green {
           color: #0DAD4D; }
   .claim-reward-modal .claim-reward-modal-body .claim-count-block {
