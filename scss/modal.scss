@@ -580,6 +580,11 @@
 
 // Create stake
 .crate-stake-modal{
+    .btn-cover-modal{
+        @media($sm-1679){
+            margin-top: 5px;
+        }
+    }
     .modal-body{
         @media($sm-1679){
             padding-top: 0;
