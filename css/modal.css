@@ -762,6 +762,11 @@
   .change-pass-modal .modal-dialog .modal-body {
     padding-top: 0; }
     @media (max-width: 575px) {
+      .change-pass-modal .modal-dialog .modal-body {
+        padding: 0 0 1rem; } }
+    .change-pass-modal .modal-dialog .modal-body .alert-msg-cover .alert-msg {
+      top: calc(100% + 3px); }
+    @media (max-width: 575px) {
       .change-pass-modal .modal-dialog .modal-body .form-group {
         padding-top: 15px; } }
     .change-pass-modal .modal-dialog .modal-body .form-group .input-group {

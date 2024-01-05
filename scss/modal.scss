@@ -1027,6 +1027,13 @@
         .modal-body
         {
             padding-top: 0;
+            @media(max-width:575px)
+            {
+                padding:0 0 1rem;
+            }
+            .alert-msg-cover .alert-msg{
+                top: calc(100% + 3px);
+            }
             .form-group
             {
                 @media(max-width:575px)
