@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Home</title>
+    <link rel="icon" href="img/fav.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/home-dark.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="toggle-btn-block">
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/transactions.svg" alt="">
+                                <span class="nav-label">Transactions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/terms.svg" alt="">
+                                <span class="nav-label">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item nav-item-logout">
+                            <div class="nav-link" href="#">
+                                <img src="img/dark-mode.svg" alt="">
+                                <span class="nav-label">Dark Mode</span>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg">
+                <div class="header-title-block">
+                    <!-- <div class="live-active wallet-btn">
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                    </div> -->
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$0.0035</span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
+                    </div>
+
+                    <!-- <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div> -->
+                    <div class="header-btn-cover">
+                        <div class="theme-toggle-btn-block">
+                            <button class="theme-toggle-btn">
+                                <img src="img/theme-light.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
+                        <div class="wallet-btn-cover wallet-btn-cover-web">
+                            <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                            <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- <button class="login-btn header-btn-web"><span class="acc-label">Admin Login</span> <img src="img/user.svg" alt=""></button> -->
+                        <!-- Admin btn -->
+                        <div class="admin-h-btn-block d-flex">
+                            <div class="btn-group notify-dropdown">
+                                <button type="button" class="notify-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="notify-icon">
+                                        <img src="img/notification.svg" alt="">
+                                        <span class="new"></span>
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="notify-title">
+                                        Notifications
+                                        <span class="count">10</span>
+                                        <button class="notify-clr-btn">Clear All</button>
+                                    </li>
+                                    <li class="dropdown-scrl-li">
+                                        <div class="dropdown-item-cover custom-scroll">
+                                            <div class="dropdown-item unread">
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item unread">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="btn-group my-acc-dropdown">
+                                <button type="button" class="my-acc-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-icon"><img src="img/admin-settings.svg" alt=""></span>
+                                    <span class="acc-label">My Account</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                            <img src="img/lock-drpdown.svg" alt=""> Change password
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src="img/logout-drpdwn.svg" alt=""> Logout
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="body-content-outer body-content-outer-home">
+                
+                <div class="property-listing-cover">
+                    <div class="filter-wrapper d-flex">
+                        <div class="block-left">
+                            <div class="filter-nav-btn-wrapper d-flex">
+                                <button class="filter-nav-btn active">Home</button>
+                                <button class="filter-nav-btn">Portfolio</button>
+                                <button class="filter-nav-btn">Staking</button>
+                                <button class="filter-nav-btn">Transactions</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="home-content-outer">
+
+                    <div class="home-banner-sec">
+                        <div class="container home-banner-container">
+                            <div class="home-banner-cover">
+                                <div class="pros-label-block">
+                                    $PROPS Staking App
+                                </div>
+                                <h2>Welcome to <span>Propbase Staking</span></h2>
+                                <h3>Secure Staking for Optimized Rewards</h3>
+                                <p class="title-txt">Embark on a rewarding journey with Propbase Staking. Our seamless staking solutions empower you to grow your assets intelligently. Dive into our ecosystem, where every stake brings you closer to exciting rewards and opportunities.</p>
+                                <div class="banner-card-cover">
+                                    <div class="banner-card-wapper">
+                                        <div class="banner-col">
+                                            <div class="banner-num-card">
+                                                <p>Market Cap</p>
+                                                <h4>$28,651,568</h4>
+                                            </div>
+                                        </div>
+                                        <div class="banner-col">
+                                            <div class="banner-num-card">
+                                                <p>24 Hour Trading</p>
+                                                <h4>$49,861,578</h4>
+                                            </div>
+                                        </div>
+                                        <div class="banner-col">
+                                            <div class="banner-num-card">
+                                                <p>Fully Diluted Valuation</p>
+                                                <h4>$49,861,578</h4>
+                                            </div>
+                                        </div>
+                                        <div class="banner-col">
+                                            <div class="banner-num-card">
+                                                <p>Circulating Supply</p>
+                                                <h4>$49,861,578</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-block">
+                                    <a href="#" class="banner-btn">Stake Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container home-container">
+                        <!-- Home page content start here-->
+                        <div class="home-video-block">
+                            <div class="title-block">
+                                <h5>Video Tutorials</h5>
+                                <h2><span>Mastering PROPS Staking:</span> A <br>Comprehensive Video Tutorial Guide</h2>
+                            </div>
+                            <div class="video-block-cover">
+                                <div class="video-slider">
+                                    <div class="video-item">
+                                        <div class="video-item-cover">
+                                            <div class="left-col">
+                                                <h4>
+                                                    <span>Staking App Video</span>
+                                                </h4>
+                                                <ul>
+                                                    <li>Props Staking App Overview</li>
+                                                    <li>Benefits of Staking</li>
+                                                    <li>Reduced circulating supply</li>
+                                                    <li>Enhance PROPS utility</li>
+                                                </ul>
+                                            </div>
+                                            <div class="right-col">
+                                                <div class="video-block">
+                                                    <img class="video-thumb" src="img/video-thumb-1.jpg" alt="">
+                                                    <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoPlayModal">
+                                                        <span class="video-play-icon">
+                                                            <img src="img/play-icon.svg" alt="">
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="video-item-cover">
+                                            <div class="left-col">
+                                                <h4>
+                                                    <span>Staking App Video</span>
+                                                </h4>
+                                                <ul>
+                                                    <li>Props Staking App Overview</li>
+                                                    <li>Benefits of Staking</li>
+                                                    <li>Reduced circulating supply</li>
+                                                    <li>Enhance PROPS utility</li>
+                                                </ul>
+                                            </div>
+                                            <div class="right-col">
+                                                <div class="video-block">
+                                                    <img class="video-thumb" src="img/video-thumb-1.jpg" alt="">
+                                                    <button class="video-play-btn">
+                                                        <span class="video-play-icon">
+                                                            <img src="img/play-icon.svg" alt="">
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="video-btn-block">
+                                    <button class="btn-arrow video-prev-btn"></button>
+                                    <button class="btn-arrow video-next-btn active">
+                                        <span>Next video</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="app-img-sec">
+                            <img class="app-img" src="img/home-app.svg" alt="">
+                        </div>
+
+                        <!-- step by step -->
+
+                        <section class="step-guide">
+                  
+                           <div class="step-heading-sec">
+                              <div class="top-title">How to Stake</div>
+                              <div class="main-title"><span>Step-by-Step</span> Staking Guide</div>
+                              <div class="content-sec">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                              </div>
+                           </div>
+                           <div class="box-sec">
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step1.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 01</div>
+                                <div class="box-title">Connect Your Wallet</div>
+                                <div class="box-content"><p>Begin by connecting your Aptos Blockchain wallet to the staking platform. This wallet will be used to hold your claim staked tokens and receive rewards. Ensure your using a supported wallet Pontum, Petra, or Martian Wallets.</p></div>
+                              </div>
+
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step2.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 02</div>
+                                <div class="box-title">Choose Staking Options</div>
+                                <div class="box-content"><p>Explore the available staking options provided by the platform. This may include different staking durations, reward rates, or other parameters. Assess the risk and rewards associated with each option to make an informed decision.</p></div>
+                              </div>
+
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step3.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 03</div>
+                                <div class="box-title">Select Stake Amount </div>
+                                <div class="box-content"><p>Decide the amount of PROPS tokens you want to stake. This can vary based on your risk tolerance and investment goals. Once you've chosen your staking amount, initiate the staking process through the platform by confirming the transaction.
+                                </p></div>
+                              </div>
+
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step4.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 04</div>
+                                <div class="box-title">Monitor your  rewards </div>
+                                <div class="box-content"><p>Keep track of your staked assets and monitor any changes in rewards. Most staking platforms provide dashboards where you can view your staking status, including current stakes, earned rewards, and other relevant information.
+                                </p></div>
+                              </div>
+
+
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step5.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 05</div>
+                                <div class="box-title">Earn rewards for staking
+                                </div>
+                                <div class="box-content"><p>As your PROPS tokens are staked, you'll start earning rewards over time. These rewards are typically a percentage of your staked amount and are distributed periodically. Be aware of the staking duration and the frequency of payouts.
+                                </p></div>
+                              </div>
+
+                              <div class="box-inner">
+                                <div class="box-icon"><img src="img/step6.svg" alt="step1"></div>
+                                <div class="box-subtitle">STEP 06</div>
+                                <div class="box-title">Claim your Rewards</div>
+                                <div class="box-content"><p>When you're ready to claim your staking rewards, navigate to the platform's interface and the option to claim rewards. Follow the necessary steps to initiate the reward withdrawal process, and the earned tokens will be deposited into your connected wallet.
+                                </p></div>
+                              </div>
+
+                           </div>
+                        </section>
+                        <!-- end step by step -->
+
+                         <!-- Marketing Campaign -->
+                        <section class="campaign">
+                            <div class="campaign-top-sec">
+                                <div class="campaign-title">Marketing Campaign</div>
+                                <div class="campaign-subtitle"><span>Propbase Spark </span>Marketing Campaign</div>
+                                <div class="two-col">
+                                    <div class="left-sec">
+                                        <div class="campaign-title left-title">Marketing Campaign</div>
+                                        <div class="top-heading">Propbase Spark <span>Marketing Campaign</span> </div>
+                                        <div class="campaign-content"><p>Propbase Spark's marketing campaign, designed to amplify awareness of PROPS, our native utility token, employs dynamic content and partnerships with Key Opinion Leaders (KOLs) and influencers. By leveraging their influence in relevant communities, we extend our reach and utilize their credibility to communicate PROPS' value within the cryptocurrency ecosystem. Key performance indicators, like user engagement and platform sign-ups, guide the campaign's success in expanding awareness and fostering PROPS adoption.</p></div>
+                                        <div class="join-us"><a href="#">Join Us Now</a></div>
+                                    </div>
+                                    <div class="right-sec">
+                                        <div class="right-boxes">
+                                            <div class="rectangle-box">
+                                                <div class="campaign-title left-title">Marketing $PROPS</div>
+                                                <div class="bottom-content">Social Influencers </div>
+                                            </div>
+                                        </div>
+                                        <div class="right-boxes">
+                                            <div class="rectangle-box">
+                                                <div class="campaign-title left-title">Campaign Period</div>
+                                                <div class="bottom-content">Jan - Mar 2024</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--end  Marketing Campaign -->
+
+                        
+
+
+                            <!-- brand ambassidor -->
+                                <section class="brand-ambassidor">
+                                    <div class="content-left">
+                                        <h5 class="tagline">Propbase Spark Marketing Campaign</h5>
+                                        <h2 class="title">Become a <span> Brand Ambassador</span></h3>
+                                        <div class="content">
+                                            <p class="content-txt">Join our elite team as a brand ambassador for PROPBASE</p>
+                                            <p class="content-txt">Become an ambassador for Propbase, the premier real estate tokenization platform, and enjoy exclusive benefits, including early access to crucial information. As an ambassador, you'll play a key role in shaping the future of real estate, gaining unique opportunities and insights into our platform's advancements.</p>
+                                            <ul class="listing">
+                                                <li>Inclusivity: Open to all, from large influencers to emerging voices in RWA.</li>
+                                                <li>Early Access: Stay ahead with exclusive insights into Propbase's advancements.</li>
+                                                <li>Unique Opportunities: Shape the future of real estate with exclusive participation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="img-hldr">
+                                        <img src="img/brand-mob-bg1.png" alt="">
+                                        <div class="cta-float">
+                                            <a href="#">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </section>
+                            <!-- brand ambassidor -->
+
+                             <!-- roadmap -->
+                         <section class="section-roadmap floating-icon-left">
+                            <div class="row">
+                                <div class="col-auto col-title">
+                                    <h3 class="title">Marketing Campaign <span>Roadmap</span></h3>
+                                </div>
+                                <div class="col col-arrows">
+                                    <div class="slide-arrows">
+                                        <button class="btn-arrow btn-prev"> </button>
+                                        <button class="btn-arrow btn-next"> </button>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="col">
+        
+                                    <div class="roadmap-slider-wrp">
+                                         
+                                        <div class="roadmap-slider">
+                                            <div class="slide">
+                                                <h3 class="month-title">January</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">January 2024</h4>
+                                                    <p class="txt">
+                                                        Gear up for the launch of the PROPS Staking App with CEX and DEX listings, paving the way for an exhilarating February platform launch with the introduction of the first tokenization offerings and heightened liquidity for the PROPS token.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">February</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">February 2024</h4>
+                                                    <p class="txt">
+                                                        Embark on the full-scale Propbase platform launch, featuring the inaugural tokenization offerings and a significant boost in PROPS token liquidity, marking a pivotal milestone in our journey. Propbase Spark marketing Campaign will be in full swing!
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">March</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">March 2024</h4>
+                                                    <p class="txt">
+                                                        March sees Propbase entering a phase of rapid growth—blitzscaling the platform, expanding to additional CEXs, and laying the groundwork for a flourishing token economy. Potential Bridging to ERC-20 platforms allowing enhanced liquidity for all PROPS token Holders 
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">April</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">April 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim id porro, neque iure iste velit, accusamus voluptatem quae placeat temporibus quos impedit nisi ducimus sed, quo quaerat ratione similique.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">May</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">May 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim id porro, neque iure iste velit, accusamus voluptatem quae placeat temporibus quos impedit nisi ducimus sed, quo quaerat ratione similique.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">June</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">June 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non repellendus fugit, eaque saepe architecto nostrum itaque culpa sunt adipisci deserunt possimus ducimus, libero dignissimos rerum nesciunt facilis tenetur nam quo est optio? Doloremque, provident iusto!
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                         <!-- roadmap ends-->
+
+
+                            <!-- statistics -->
+                                <section class="statistics">
+                                    <h2 class="title">Token Circulation <span>Statistics</span></h3>
+                                    <p class="content-txt">Check PROPS token circulation stats for real-time insights on circulating supply, market cap,<br> trading volume, and prices. Stay informed for data-driven decisions.</p>
+                                    <div class="statistics-blks-wrp">
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Market Cap</h5>
+                                            <span class="numerics">$28,651,568</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>24 Hour Trading
+                                            </h5>
+                                            <span class="numerics">$49,861,578</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Fully Diluted Valuation
+                                            </h5>
+                                            <span class="numerics">$$49,861,578</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Circulating Supply
+                                            </h5>
+                                            <span class="numerics">$49,861,578</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Total Supply                                            </h5>
+                                            <span class="numerics">$28,651,568</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Max Supply
+                                            </h5>
+                                            <span class="numerics">$49,861,578</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>All-Time High
+                                            </h5>
+                                            <span class="numerics">$49,861,578</span>
+                                        </div>
+                                        <div class="statistics-blks">
+                                            <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>All-Time Low
+                                            </h5>
+                                            <span class="numerics">$49,861,578</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            <!-- statistics -->
+                        <!-- Home page content ends here-->
+
+
+                        <section class="pathway-outer">
+                            <h3>
+                                Discover $PROPS (About $PROPS) :  Your Pathway to 
+                                <span>
+                                Advanced Transactions and Utility:
+                                </span>
+                            </h3>
+                            <div class="section-pathway-content">
+                                <div class="content-area col-md-8">
+                                    $PROPS serves as the foundation of our cutting-edge real estate platform, 
+                                    providing users with a multifaceted tool for property transactions and community 
+                                    engagement. As a token native to the Aptos Blockchain, it capitalizes on the 
+                                    unique features of our blockchain infrastructure, ensuring smooth compatibility
+                                     with a wide array of wallets, exchanges, and blockchain-driven services. 
+                                     Throughout historical trends, $PROPS has demonstrated substantial growth, 
+                                     outpacing the general performance of the global cryptocurrency market.
+                                </div>
+                                <div class="img-coin col-md-4">
+                                    <img src="img/pathway-icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="props-value">
+                                 <h4>PROPS (Propbase) Token Contract Address:</h4>
+                                 <div class="input-form-text"> 
+                                    <div class="text-sec">
+                                        0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS
+                                    </div>
+                                    <div class="copy-icon">
+                                        <img src="img/copy-icon.svg">
+                                    </div>
+                                   
+                                 </div>
+                            </div>
+                        </section>
+                        <section class="utility-section">
+                            <div class="utility-outer">
+                                <h3>$PROPS Utilities:</h3>
+                                <div class="util-list">
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Staking</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Transactions</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Governance</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Membership</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Platform Fees</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12 util-main">
+                                        <div class="util-outer">
+                                            <img src="img/icon-utility.svg">
+                                            <span>Rewards</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-learn-more">
+                                    <button class="btn btn-learn">
+                                        Learn More
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="buy-props  floating-icon-left">
+                            <h3 class="txt-head">How & Where to buy <span>$PROPS?</span></h3>
+                            <div class="props-outer">
+                                <div class="text-sec-prop">
+                                    <div class="img-icn-outr">
+                                        <img src="img/step-icon.svg">
+                                    </div>
+                                    <div class="text-props-content">
+                                        <h3>
+                                            Step 1: Setup Aptos Blockchain Wallet:
+                                        </h3>
+                                        <p>
+                                            Create and set up your Aptos Blockchain Wallet, ensuring to keep your seed phrase secure for account recovery.
+                                        </p>
+                                    </div>
+                                </div>
+                                    <div class="number-txt">
+                                        01
+                                    </div>
+                            </div>
+                            <div class="props-outer">
+                                <div class="text-sec-prop">
+                                    <div class="img-icn-outr">
+                                        <img src="img/step-icon.svg">
+                                    </div>
+                                    <div class="text-props-content">
+                                        <h3>
+                                            Step 2: Add PROPS Token Contract:
+                                        </h3>
+                                        <p>
+                                            Enter the PROPS token contract address from above and add it to your wallet to facilitate transactions with the PROPS token.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="number-txt">
+                                    02
+                                </div>
+                        </div>
+                        <div class="props-outer">
+                            <div class="text-sec-prop">
+                                <div class="img-icn-outr">
+                                    <img src="img/step-icon.svg">
+                                </div>
+                                <div class="text-props-content">
+                                    <h3>
+                                        Step 3: Securely Purchase PROPS on DEX or CEX:
+                                    </h3>
+                                    <p>
+                                        Choose a decentralized exchange (DEX) or centralized exchange (CEX) of your preference to securely buy PROPS, ensuring a reliable platform for your transactions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="number-txt">
+                                03
+                            </div>
+                        </div>
+                        </section>
+
+                        <section class="section-security">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="title text-center">
+                                        Security Measures and Trust Assurance in <br/><span>Propbase Staking:</span>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="security-cont-wrp security floating-icon-left">
+                                <div class="row align-items-center">
+                                    <div class="col txt-col">
+                                        <h4 class="txt-title">Propbase Staking Security Measures:</h4>
+
+                                        <ul>
+                                            <li>Asset Protection: Robust security protocols in place for safeguarding user assets.</li>
+                                            <li>Encryption: Utilization of encryption enhanced security.</li>
+                                            <li>Privacy Assurance: Commitment to maintaining user data confidentiality and privacy</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col img-col">
+                                        <img src="img/security-img.png" alt="security">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="security-cont-wrp assurance">
+                                <div class="row align-items-center">
+                                    <div class="col txt-col">
+                                        <h4 class="txt-title">Our Assurance:</h4>
+
+                                        <ul>
+                                            <li>Audit Assurance: $PROPS audit results, Mention periodic security audits and assessments (if any)</li>
+
+                                            <li>Website Infra: Built on a robust infrastructure, our platform seamlessly supports high staking volumes.</li>
+
+                                            <li>Team Assurance: The experienced team behind Propbase ensures effective and efficient system maintenance, ensuring seamless operation without disruptions.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col img-col order-md-1">
+                                        <img src="img/assurance-img.png" alt="assurance">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </section>
+
+
+                        <section class="section-partners">
+                            <div class="partners-container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3 class="title text-center">Audits & Compliance</h3>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/certik-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="partners-container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3 class="title text-center">Our Partners :</h3>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/certik-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/aptos-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/deloitte-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/pontem-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/petra-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="partner-wrp">
+                                            <img src="img/ipfs-logo-ico.svg" alt="partner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </section>
+
+
+
+
+
+                          <!-- props on -->
+
+                          <section class="by-props-sec">
+                            <div class="heading">By <span>$PROPS on:</span></div>
+                            <div class="four-props">
+                                <div class="box-props">
+                                    <p><span class="imgs-props"><img src="img/props1.svg" alt="props1"></span> <span class="text-sec">MEXC</span></p>
+                                </div>
+                                <div class="box-props">
+                                    <p><span class="imgs-props"><img src="img/props2.svg" alt="props1"></span> <span class="text-sec">Pancake</span></p>
+                                </div>
+                                <div class="box-props">
+                                    <p><span class="imgs-props"><img src="img/props3.svg" alt="props1"></span> <span class="text-sec">Liquidswap</span></p>
+                                </div>
+                                <div class="box-props">
+                                    <p><span class="imgs-props"><img src="img/props4.svg" alt="props1"></span> <span class="text-sec">Chainge Finance</span></p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ENDprops on -->
+
+                        <!-- faq  -->
+                        <section class="section section-faq">
+                            <div class="container container-custom">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h2 class="sec-title"><span>FAQ</span>Frequently Asked Questions</h2>
+                                        <p class="sec-subtitle">Join the community and get involved today! For more information related to partnerships and<br> business related inquiries please contatct us through <a class="link" href="mailto:info@propbase.app">info@propbase.app</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Can I stake PROPS to EARN PROPS?  - Change to -Which token is obtained as rewards?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Absolutely! Investors will have the opportunity to stake their $PROPS and receive rewards in $PROPS. 
+
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    When is the anticipated launch date for the Propbase Platform?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    The anticipated launch date for the Propbase Platform is set for mid-January.
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    On which decentralized exchanges can I buy PROPS?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    As of now, some of the primary decentralized exchanges where you can purchase $PROPS can be accessed from the staking platform itself, including <a href="#">MEXC</a>, <a href="#">Pancake</a>, and <a href="#">LiquidSwap.</a> 
+                                                </div>
+                                            </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                    Is PROPS planning to list on more exchanges?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Absolutely, there's exciting news on the horizon! $PROPS is gearing up for listings on additional exchanges in the near future. Stay tuned for more updates!
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                                    What role does $PROPS play in the Propbase Platform?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    $PROPS is the native currency of the Propbase platforms and it serves as the primary medium for transactions and rewards within the Propbase Platform. It acts as the core currency utilized for various functions and rewards for users across the platform.
+
+                                                </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                    How do I get started with Propbase Staking?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Firstly, ensure you have $PROPS tokens in your possession. If you don't have any $PROPS, you can obtain them through a DEX. Once you have obtained $PROPS, head over to the <a href="#" class="link">Stake Menu</a> on our platform. From there, select your preferred Stake product and input the amount of $PROPS you intend to stake. Proceed by approving the amount and finally submit the stake transaction. We've streamlined this process to make it as user-friendly as possible. If you need any assistance or have suggestions, don't hesitate to reach out to us. We're here to assist you with any queries or feedback you may have.
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                                    How are rewards calculated in staking?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    The rewards in Propbase staking are calculated based on the number of tokens staked, the staking duration, and the annual percentage yield (APY) of the selected staking plan. The system employs a simple interest calculation method to determine the rewards.
+Rewards = P*N*R/100 (Where P: Principle, N: Staking duration in years, R: Rate of interest).
+
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                                    Is there a minimum amount required to start staking?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    The minimum staking amount might vary for each staking product. Please refer to the specific stake product details to determine the minimum staking requirement.
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                                    Can I unstake my assets before the lock-up period ends?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Certainly, users have the flexibility to unstake their staked $PROPS at any time during the staking duration. However, certain stake products might impose penalties for early withdrawals. Please review the terms and conditions of your chosen staking plan for details on early unstaking penalties.
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                                    How are the rewards distributed? Do I need to claim them manually?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Users are required to manually claim their rewards from the <a href="#" class="link">Portfolio</a> section. You can claim rewards at any time at intervals minimum 24 hours. Rewards are distributed based on the investment you made and for how long. Rewards are calculated based on the simple interest formula on the APY% given for a pool. Upon claiming, the tokens will be credited to the users' connected wallets.
+
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                                    What happens if I forget to claim my staking rewards?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Unclaimed staking rewards accumulate over time. If there is a minimum of 2 years of inactivity, the admin reserves the right to claim them back. However, it is recommended to claim rewards regularly in accordance with the mentioned vesting schedule displayed in your portfolio.
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse11">
+                                                    What are the risks involved in staking?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Like all crypto transactions, staking carries inherent market risks that might result in the potential loss of staked tokens due to market fluctuations. It's crucial to perform comprehensive research before opting for staking and to thoroughly understand the risks associated with the selected staking plan.
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse11">
+                                                    Is staking secured? How is security ensured?
+
+                                                </button>
+                                                </h2>
+                                                <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Staking protocols prioritize the security of users' assets through multiple protective measures, including encryption, smart contracts, and audited protocols. Utilizing blockchain technology, security is reinforced by its inherent characteristics such as decentralized validation, cryptography, and immutable records, preventing unauthorized data changes. Additionally, our platform underwent a thorough audit conducted by Certik, a respected and one of the best security auditing firm. Their comprehensive analysis awarded us with an excellent score, indicating a robust security level. Additionally, the contract underwent thorough testing, achieving an extensive 95% of test coverage, ensuring a high level of reliability.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse11">
+                                                    What should I do if I encounter issues with staking?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    If you encounter any issues while staking, reach out to our support team through the provided <a href="#" class="link">support form</a> . Our team will assist you in resolving any staking-related queries or issues you may have.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse11">
+                                                    When there is a crisis, is there a way to stop the pool and the invested money be retrieved?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    A pool can be stopped by declaring an emergency in the contract by the admin. Then all the invested capital and rewards so far will be returned to all the users wallet address.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse11">
+                                                    Can I unstake immediately after staking ?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    You may not be able to unstake within the first 24 hours of first staking. After which you can stake and unstake at any time.
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse11">
+                                                    Can I stake on the last day?
+                                                </button>
+                                                </h2>
+                                                <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    No, you may not be able to stake when there is only 24 hours left in the pool duration.
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- faq  -->
+
+                      
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade custom-modal video-play-modal" id="videoPlayModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe class="video-frame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -19,7 +19,23 @@
             max-width: 450px;
         }
     }
-
+    .modal-info-cover{
+        .modal-info-block{
+            background-color: #FFF6E1;
+            color: #85744C;
+            font-size: 12px;
+            padding: 15px 22px;
+            border-radius: 20px;
+            display: inline-flex;
+            padding-right: 50px;
+            img{
+                margin-right: 8px;
+            }
+            @media($sm-1679){
+                padding: 12px 20px;
+            }
+        }
+    }
     .modal-header {
         border: 0;
     }

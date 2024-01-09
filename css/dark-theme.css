@@ -23,8 +23,8 @@
   .theme-dark .header-wrapper .right-block .my-acc-dropdown .dropdown-menu, .theme-dark .conect-wallet .walles-otr .wallet-btn,
   .theme-dark .change-pass-modal .modal-dialog .modal-content, .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu,
   .theme-dark .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu,
-  .theme-dark .portfolio-sec .portfolio-card-sm, .theme-dark .header-wrapper .header-title-block .dropdown-menu,
-  .theme-dark .terms-sec
+  .theme-dark .portfolio-sec .portfolio-card-sm, .theme-dark .header-wrapper .header-title-block .dropdown-menu, .theme-dark .terms-sec,
+  .theme-dark .body-content-outer-home
    {
     background-color: #000; }
   .theme-dark .header-wrapper .info-block, .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .wallet-btn,
@@ -56,7 +56,9 @@
   .theme-dark .card-section-outer .top-block .progress-bar-section .progress-count, .theme-dark .nav-block .nav-footer-block .welcome-msg,
   .theme-dark .welcome-cover .content-block .text-block h4, .theme-dark .portfolio-sec .portfolio-card-sm .label-block, .theme-dark .portfolio-sec .portfolio-card-sm .num-block,
   .theme-dark .header-wrapper .header-title-block .dropdown-menu .dropdown-item, .theme-dark .terms-sec .terms-title h2, .theme-dark .terms-sec .terms-body-sec h3,
-  .theme-dark .terms-sec .terms-body-sec p
+  .theme-dark .terms-sec .terms-body-sec p, .theme-dark .home-banner-sec .home-banner-cover h2, .theme-dark .home-banner-sec .home-banner-cover h3,
+  .theme-dark .home-banner-sec .home-banner-cover .title-txt, .theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card h4,
+  .theme-dark .home-video-block .title-block h2, .theme-dark .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .left-col h4
    {
     color: #fff !important; }
   .theme-dark .header-wrapper .header-title-block .live-active, .theme-dark .header-wrapper .right-block .buy-btn,
@@ -323,7 +325,8 @@
   .theme-dark .claim-reward-modal .claim-reward-modal-body .claim-det-cover .claim-det-row .claim-det-label img,
   .theme-dark .claim-reward-modal .claim-reward-modal-body .connected-wallet-block .wallet-label img {
     filter: grayscale(1) brightness(2); }
-  .theme-dark .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block {
+  .theme-dark .custom-modal.claim-reward-modal .modal-info-cover .modal-info-block,
+  .theme-dark .custom-modal .modal-info-cover .modal-info-block {
     background-color: #251E0D;
     color: #FBCB5E; }
   .theme-dark .custom-modal .modal-info-cover .modal-info-block img {
@@ -663,5 +666,36 @@
     color: #fff; }
   .theme-dark .fgt-modal .modal-dialog .modal-body .form-group .input-group :-ms-input-placeholder {
     color: #fff; }
+  .theme-dark .title-search-box .input-group ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5); }
+  .theme-dark .title-search-box .input-group :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5); }
+  .theme-dark .title-search-box .input-group ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5); }
+  .theme-dark .title-search-box .input-group :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5); }
+  .theme-dark .body-content-outer-home {
+    border-top: none; }
+  .theme-dark .home-banner-sec .home-banner-cover .pros-label-block {
+    background-color: #070C40; }
+  .theme-dark .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .left-col ul li {
+    color: #484848; }
+  .theme-dark .home-video-block .video-block-cover .video-btn-block .btn-arrow.slick-disabled {
+    background-color: transparent;
+    border: 1px solid #484848; }
+  .theme-dark .home-video-block .video-block-cover .video-btn-block .btn-arrow.video-prev-btn:before {
+    border-right-color: #fff; }
+  .theme-dark .home-video-block .video-block-cover .video-btn-block .btn-arrow.video-next-btn:before {
+    border-left-color: #fff; }
+  .theme-dark .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .right-col .video-block::before {
+    background: rgba(0, 1, 38, 0.6); }
+  .theme-dark .app-img-sec::before {
+    background: rgba(0, 18, 184, 0.6); }
+  .theme-dark .home-video-block .video-block-cover .video-btn-block .btn-arrow.video-next-btn span {
+    color: #484848; }
+  .theme-dark .home-banner-sec .home-banner-cover::before {
+    background: rgba(0, 18, 184, 0.6); }
+  .theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
+    border: 1px solid #13174A; }
 
 /*# sourceMappingURL=dark-theme.css.map */

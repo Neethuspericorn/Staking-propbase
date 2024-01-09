@@ -22,6 +22,19 @@
       max-width: 1050px; }
     .custom-modal .modal-sm {
       max-width: 450px; } }
+  .custom-modal .modal-info-cover .modal-info-block {
+    background-color: #FFF6E1;
+    color: #85744C;
+    font-size: 12px;
+    padding: 15px 22px;
+    border-radius: 20px;
+    display: inline-flex;
+    padding-right: 50px; }
+    .custom-modal .modal-info-cover .modal-info-block img {
+      margin-right: 8px; }
+    @media (max-width: 1679px) {
+      .custom-modal .modal-info-cover .modal-info-block {
+        padding: 12px 20px; } }
   .custom-modal .modal-header {
     border: 0; }
   .custom-modal .btn-close {
@@ -456,6 +469,9 @@
   .logout-modal-body .btn-cover .btn {
     padding: 8px 15px !important;
     width: 120px; } }
+@media (max-width: 1679px) {
+  .crate-stake-modal .btn-cover-modal {
+    margin-top: 5px; } }
 @media (max-width: 1679px) {
   .crate-stake-modal .modal-body {
     padding-top: 0; } }
