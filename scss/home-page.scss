@@ -943,6 +943,12 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    @media ($sm-767){
+        padding: 30px 25px 20px;
+    }
+    @media ($sm-579){
+        padding: 30px 20px 20px;
+    }
 
     &::before{
         content: "";
@@ -965,6 +971,20 @@
             height: 140px;
             left: 35%;
             top: -70px;
+        }
+        @media ($sm-767){
+            width: 140px;
+            height: 140px;
+            left: 50%;
+            top: -70px;
+            transform: translateX(-50%);
+        }
+        @media ($sm-479){
+            width: 120px;
+            height: 120px;
+            top: -60px;
+            left: 45%;
+            transform: translateX(-45%);
         }
     }
     &::after{
@@ -1043,10 +1063,11 @@
                 max-width: 250px;
                 transform: none;
             }
-            a{
+            @media ($sm-767){
+                height: auto;
+            }
                 color: $primary-light;
                 text-decoration: none;
-            }
         }
     }
     .content-left{
@@ -1098,6 +1119,11 @@
             }
             @media ($sm-991){
                 font-size: 22px;
+                margin-bottom: 10px;
+            }
+            @media ($sm-579){
+                font-size: 20px;
+                line-height: 26px;
                 margin-bottom: 10px;
             }
             span{
@@ -1186,6 +1212,10 @@
       padding-top: 30px;
     padding-bottom: 30px;
     }
+    @media ($sm-991){
+        padding-top: 0px;
+      padding-bottom: 30px;
+      }
     .sec-title{
       color: $title-light;
       text-align: center;
@@ -1203,6 +1233,11 @@
       @media ($sm-1281){
         font-size: 24px;
       }
+      @media ($sm-767){
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
       span{
         color: $title-mix-blue;
         text-align: center;
@@ -1249,6 +1284,9 @@
         border: 0;
         margin-bottom: 19px;
         overflow: clip;
+        @media ($sm-1679){
+            margin-bottom: 10px;
+        }
         .accordion-button{
           box-shadow: none !important;
           border-radius: 27px;
@@ -1263,6 +1301,7 @@
           padding-right: 43px;
           padding-top: 40px;
           padding-bottom: 40px;
+          align-items: flex-start;
           @media ($sm-1679){
             font-size: 16px;
             line-height: 26px;
@@ -1332,6 +1371,24 @@
           font-size: 14px;
           font-weight: 300;
           line-height: 24px;
+          @media ($sm-1679){
+          padding-left: 35px;
+          padding-right: 35px;
+          }
+          @media ($sm-1481){
+
+            padding-left: 30px;
+          padding-right: 30px;
+          }
+          @media ($sm-1281){
+    
+            padding-left: 25px;
+          padding-right: 25px;
+          }
+          @media ($sm-991){
+            padding-left: 25px;
+          padding-right: 25px;
+          }
         }
       }
     }
@@ -1372,6 +1429,11 @@
         }
         @media ($sm-991){
             font-size: 22px;
+            margin-bottom: 10px;
+        }
+        @media ($sm-767){
+            font-size: 20px;
+            line-height: 26px;
             margin-bottom: 10px;
         }
 
@@ -1427,6 +1489,10 @@
         }
         @media ($sm-991){
             margin-top: 40px;
+            row-gap: 15px;
+        }
+        @media ($sm-991){
+            margin-top: 20px;
             row-gap: 15px;
         }
         .statistics-blks{
@@ -3050,6 +3116,7 @@ section.pathway-outer
     }
     .props-value
     {
+        position: relative;
         margin-top: 25px;
         @media($sm-1679)
         {
@@ -3094,6 +3161,11 @@ section.pathway-outer
                     font-size: 14px;
                 }
             }
+        }
+        .copy-icon{
+            background: transparent;
+            border: none;
+            outline: none;
         }
     }
 }

@@ -111,6 +111,13 @@
 
 
 .theme-dark{
+   
+    .roadmap-slider .icon:before{
+        background-color: $primary-blue !important;
+    }
+    .roadmap-slider .slide.slick-active .icon:before{
+        background-color: $primary-blue !important;
+    }
     .section-roadmap{
         .title{
             color: #ffffff;
@@ -140,20 +147,20 @@
             }
         }
 
-        .icon{
-            &:before{
-                background-color: #2B2B2B;
-            }
-        }
-        .slide{
-            &.slick-active{
-                .icon{
-                    &:before{
-                        background-color: $primary-blue;
-                    }
-                }   
-            } 
-        }
+        // .icon{
+        //     &:before{
+        //         background-color: #2B2B2B;
+        //     }
+        // }
+        // .slide{
+        //     &.slick-active{
+        //         .icon{
+        //             &:before{
+        //                 background-color: $primary-blue;
+        //             }
+        //         }   
+        //     } 
+        // }
 
         .roadmap-slider{
             .month-title,

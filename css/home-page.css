@@ -822,6 +822,12 @@
       padding: 50px 40px 20px;
       margin-top: 40px;
       margin-bottom: 40px; } }
+  @media (max-width: 767px) {
+    .brand-ambassidor {
+      padding: 30px 25px 20px; } }
+  @media (max-width: 579px) {
+    .brand-ambassidor {
+      padding: 30px 20px 20px; } }
   .brand-ambassidor::before {
     content: "";
     background: url("../img/coin-lg-brand.svg") no-repeat center;
@@ -844,6 +850,20 @@
         height: 140px;
         left: 35%;
         top: -70px; } }
+    @media (max-width: 767px) {
+      .brand-ambassidor::before {
+        width: 140px;
+        height: 140px;
+        left: 50%;
+        top: -70px;
+        transform: translateX(-50%); } }
+    @media (max-width: 479px) {
+      .brand-ambassidor::before {
+        width: 120px;
+        height: 120px;
+        top: -60px;
+        left: 45%;
+        transform: translateX(-45%); } }
   .brand-ambassidor::after {
     content: "";
     background: url("../img/coin-sm-brand.svg") no-repeat center;
@@ -904,7 +924,9 @@
       padding: 36px 44px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      color: #fff;
+      text-decoration: none; }
       @media (max-width: 1441px) {
         .brand-ambassidor .img-hldr .cta-float {
           top: 48%;
@@ -915,9 +937,9 @@
           top: unset;
           max-width: 250px;
           transform: none; } }
-      .brand-ambassidor .img-hldr .cta-float a {
-        color: #fff;
-        text-decoration: none; }
+      @media (max-width: 767px) {
+        .brand-ambassidor .img-hldr .cta-float {
+          height: auto; } }
   .brand-ambassidor .content-left {
     max-width: 556px;
     width: 100%;
@@ -966,6 +988,11 @@
       @media (max-width: 991px) {
         .brand-ambassidor .content-left .title {
           font-size: 22px;
+          margin-bottom: 10px; } }
+      @media (max-width: 579px) {
+        .brand-ambassidor .content-left .title {
+          font-size: 20px;
+          line-height: 26px;
           margin-bottom: 10px; } }
       .brand-ambassidor .content-left .title span {
         color: #2966FF; }
@@ -1042,6 +1069,10 @@
     .section-faq {
       padding-top: 30px;
       padding-bottom: 30px; } }
+  @media (max-width: 991px) {
+    .section-faq {
+      padding-top: 0px;
+      padding-bottom: 30px; } }
   .section-faq .sec-title {
     color: #2E4276;
     text-align: center;
@@ -1059,6 +1090,11 @@
     @media (max-width: 1281px) {
       .section-faq .sec-title {
         font-size: 24px; } }
+    @media (max-width: 767px) {
+      .section-faq .sec-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px; } }
     .section-faq .sec-title span {
       color: #2966FF;
       text-align: center;
@@ -1098,6 +1134,9 @@
       border: 0;
       margin-bottom: 19px;
       overflow: clip; }
+      @media (max-width: 1679px) {
+        .section-faq .accordion .accordion-item {
+          margin-bottom: 10px; } }
       .section-faq .accordion .accordion-item .accordion-button {
         box-shadow: none !important;
         border-radius: 27px;
@@ -1111,7 +1150,8 @@
         padding-left: 43px;
         padding-right: 43px;
         padding-top: 40px;
-        padding-bottom: 40px; }
+        padding-bottom: 40px;
+        align-items: flex-start; }
         @media (max-width: 1679px) {
           .section-faq .accordion .accordion-item .accordion-button {
             font-size: 16px;
@@ -1176,6 +1216,22 @@
         font-size: 14px;
         font-weight: 300;
         line-height: 24px; }
+        @media (max-width: 1679px) {
+          .section-faq .accordion .accordion-item .accordion-body {
+            padding-left: 35px;
+            padding-right: 35px; } }
+        @media (max-width: 1481px) {
+          .section-faq .accordion .accordion-item .accordion-body {
+            padding-left: 30px;
+            padding-right: 30px; } }
+        @media (max-width: 1281px) {
+          .section-faq .accordion .accordion-item .accordion-body {
+            padding-left: 25px;
+            padding-right: 25px; } }
+        @media (max-width: 991px) {
+          .section-faq .accordion .accordion-item .accordion-body {
+            padding-left: 25px;
+            padding-right: 25px; } }
 
 .statistics {
   margin-bottom: 120px; }
@@ -1214,6 +1270,11 @@
     @media (max-width: 991px) {
       .statistics .title {
         font-size: 22px;
+        margin-bottom: 10px; } }
+    @media (max-width: 767px) {
+      .statistics .title {
+        font-size: 20px;
+        line-height: 26px;
         margin-bottom: 10px; } }
     .statistics .title span {
       color: #2966FF; }
@@ -1263,6 +1324,10 @@
     @media (max-width: 991px) {
       .statistics .statistics-blks-wrp {
         margin-top: 40px;
+        row-gap: 15px; } }
+    @media (max-width: 991px) {
+      .statistics .statistics-blks-wrp {
+        margin-top: 20px;
         row-gap: 15px; } }
     .statistics .statistics-blks-wrp .statistics-blks {
       border-radius: 14px;
@@ -2339,6 +2404,7 @@ section.pathway-outer .section-pathway-content {
       section.pathway-outer .section-pathway-content .img-coin::before {
         display: none; } }
 section.pathway-outer .props-value {
+  position: relative;
   margin-top: 25px; }
   @media (max-width: 1679px) {
     section.pathway-outer .props-value {
@@ -2375,6 +2441,10 @@ section.pathway-outer .props-value {
       @media (max-width: 1679px) {
         section.pathway-outer .props-value .input-form-text .text-sec {
           font-size: 14px; } }
+  section.pathway-outer .props-value .copy-icon {
+    background: transparent;
+    border: none;
+    outline: none; }
 
 section.utility-section {
   margin-top: 55px; }

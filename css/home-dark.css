@@ -71,6 +71,10 @@
   .theme-dark .statistics .statistics-blks-wrp .statistics-blks .numerics {
     color: #fff; }
 
+.theme-dark .roadmap-slider .icon:before {
+  background-color: #2966FF !important; }
+.theme-dark .roadmap-slider .slide.slick-active .icon:before {
+  background-color: #2966FF !important; }
 .theme-dark .section-roadmap .title {
   color: #ffffff; }
 .theme-dark .section-roadmap .cont-wrp {
@@ -86,10 +90,6 @@
     border-right: 1.2em solid #ffffff; }
   .theme-dark .section-roadmap .btn-arrow.btn-next:before {
     border-left: 1.2em solid #ffffff; }
-.theme-dark .section-roadmap .icon:before {
-  background-color: #2B2B2B; }
-.theme-dark .section-roadmap .slide.slick-active .icon:before {
-  background-color: #2966FF; }
 .theme-dark .section-roadmap .roadmap-slider .month-title,
 .theme-dark .section-roadmap .roadmap-slider .month {
   color: #ffffff; }
