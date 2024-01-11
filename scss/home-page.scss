@@ -13,6 +13,7 @@
 }
 
 .body-content-outer-home{
+    overflow: hidden;
     background-color: #fff;
     border-top: solid 1px #E3E4F3;
     .filter-wrapper{
@@ -1292,14 +1293,15 @@
         background: transparent;
         border: 0;
         margin-bottom: 19px;
-        overflow: clip;
+        overflow: hidden;
+        border: 1px solid $primary-light;
+        border-radius: 12px;
         @media ($sm-1679){
             margin-bottom: 10px;
         }
         .accordion-button{
+          border: none !important;
           box-shadow: none !important;
-          border-radius: 27px;
-          border: 1px solid $primary-light;
           background-color: $accordion-light;
           font-family: $font-primary;
           font-size: 20px;
@@ -1356,10 +1358,8 @@
           }
           &:not(.collapsed){
             background-color: $accordion-light;
-            border-color: $primary-light;
-            border-bottom-color: transparent !important;
-            border-radius: 27px 27px 0px 0px;
             padding-bottom: 10px;
+            
             &:after{
               content: '-';
               color:#2966FF;
@@ -1372,14 +1372,12 @@
           padding-bottom: 40px;
           padding-left: 43px;
           padding-right: 43px;
-          border: 1px solid;
-          border-color: $primary-light;
-          border-top-color: transparent !important;
-          border-radius: 0px 0px 27px 27px ;
+          border-top: 0;
           color: $para-color;
           font-size: 14px;
           font-weight: 300;
           line-height: 24px;
+          border: 0 !important;
           @media ($sm-1679){
           padding-left: 35px;
           padding-right: 35px;
@@ -2425,7 +2423,7 @@ flex-wrap: wrap;
  
 
     .by-props-sec {
-        padding: 50px 0px;
+        padding: 10px 0px 50px;
         .four-props{
             flex-wrap: wrap;
 
@@ -2982,6 +2980,9 @@ flex-wrap: wrap;
         @media ($sm-991){
             margin-bottom: 20px;
         }
+        @media ($sm-767){
+            margin-bottom: 0;
+        }
     }
     .partner-wrp{
         padding: 35px 20px;
@@ -2992,16 +2993,20 @@ flex-wrap: wrap;
         background-color: #F8F8F8;
         border-radius: 18px;
         margin-bottom: 18px;
+        height: 120px;
         @media ($sm-1679){
+            height: 90px;
             padding: 30px 20px;
             border-radius: 16px;
             margin-bottom: 16px;
         }
         @media ($sm-1441){
+            height: 80px;
             padding: 28px 18px;
             border-radius: 14px;
         }
         @media ($sm-1281){
+            height: 65px;
             padding: 22px 18px;
             border-radius: 12px;
         }

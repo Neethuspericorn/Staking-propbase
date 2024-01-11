@@ -36,25 +36,20 @@
   padding-top: 40px; }
   .theme-dark .section-faq .accordion .accordion-item {
     background: transparent;
-    border: 0; }
+    border: 1px solid #484848; }
     .theme-dark .section-faq .accordion .accordion-item .accordion-button {
       box-shadow: none !important;
-      border: 1px solid #484848;
       background-color: #000;
       color: #fff; }
       .theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
         color: #2966FF; }
       .theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
-        background-color: #000;
-        border-color: #484848;
-        border-bottom-color: transparent !important; }
+        background-color: #000; }
         .theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
           content: '-';
           color: #2966FF; }
     .theme-dark .section-faq .accordion .accordion-item .accordion-body {
       background-color: #000;
-      border-color: #484848;
-      border-top-color: transparent !important;
       color: #fff; }
 
 .theme-dark .statistics .title {

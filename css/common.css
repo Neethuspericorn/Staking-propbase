@@ -712,4 +712,7 @@ button {
     border: none;
     margin-left: auto; }
 
+.tooltip {
+  z-index: 999; }
+
 /*# sourceMappingURL=common.css.map */
