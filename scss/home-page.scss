@@ -7,8 +7,11 @@
     @media (max-width: 1679px) {
         max-width: 1000px;
     }
+    @media (max-width: 479px) {
+        padding: 0;
+    }
 }
-// Jishil
+
 .body-content-outer-home{
     background-color: #fff;
     border-top: solid 1px #E3E4F3;
@@ -23,6 +26,9 @@
     .home-banner-container{
         position: relative;
         z-index: 1;
+        @media (max-width: 479px) {
+            padding: 0;
+        }
         &::before, &::after{
             z-index: -1;
             content: '';
@@ -153,6 +159,7 @@
 .home-video-block{
     padding-bottom: 30px;
     position: relative;
+    z-index: 2;
     &::after{
         content: '';
         position: absolute;
@@ -918,8 +925,6 @@
     
 }
 
-// Jishil end
-// Niyas
 
 .brand-ambassidor{
     background: linear-gradient(150deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0.00) 47.82%);
@@ -1051,6 +1056,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: .3s;
+            &:hover{
+                opacity: .9;
+            }
             @media ($sm-1441){
                top:48%;
                width: 300px;
@@ -1570,9 +1579,6 @@
     }
 }  
 
-// Niyas end
-
-// Anju
 .campaign{
     padding-bottom: 100px;
     .campaign-title{
@@ -1653,7 +1659,10 @@
                 text-align: left;
                 background-color:$primary-blue;
                 padding: 15px 100px;
-                
+                transition: .3s;
+                &:hover{
+                    opacity: .8;
+                }
             }
         }
 
@@ -2445,9 +2454,6 @@ flex-wrap: wrap;
 
    }
 
-// Anju End
-
-// Antony
 .floating-icon-left{
     position: relative;
     & > div{
@@ -2624,6 +2630,10 @@ flex-wrap: wrap;
         display: flex;
         .slick-slide{
             height: inherit;
+            
+        }
+        .slick-slide + div{
+            height: 100%;
         }
     }
     .month-title{
@@ -2639,7 +2649,8 @@ flex-wrap: wrap;
     }
 
     .slide{
-        display: flex;
+        display: flex !important;
+        height: 100%;
         flex-direction: column;
         padding-left: 14px;
         padding-right: 14px;
@@ -3246,6 +3257,10 @@ section.utility-section
                 height: 48px;
                 font-size: 16px;
                 font-weight: 600;
+                transition: .3s;
+                &:hover{
+                    opacity: .8;
+                }
                 @media($sm-1679)
                 {
                     font-size: 15px;

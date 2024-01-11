@@ -44,3 +44,11 @@ $('.video-slider').slick({
 	prevArrow: $('.video-prev-btn'),
 	nextArrow: $('.video-next-btn')
 });
+
+//token slider
+$('.token-slides').slick({
+	fade: true,
+	prevArrow: $('.token-slide-btns .btn-prev'),
+	nextArrow: $('.token-slide-btns .btn-next'),
+	dots: true,
+});

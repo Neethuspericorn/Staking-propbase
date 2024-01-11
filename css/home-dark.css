@@ -202,4 +202,82 @@
 .theme-dark .campaign .two-col .right-sec .right-boxes {
   border: 1px solid #3D72C5; }
 
+.theme-dark .news-sec .news-sec-cover {
+  border: 1px solid #1D2066;
+  background: linear-gradient(180deg, #111348 0%, #000 100%); }
+.theme-dark .news-sec .news-sec-cover .content-block h2,
+.theme-dark .utility-sec .title-block h2,
+.theme-dark .utility-sec .title-block p,
+.theme-dark .utility-sec .utility-col-sec .det-list li,
+.theme-dark .utility-sec .utility-col-sec .auth-det-card .name-block h4,
+.theme-dark .utility-sec .utility-col-sec .auth-det-card .auth-abt {
+  color: #fff; }
+.theme-dark .news-sec .news-sec-cover .img-block .logo-sm img {
+  filter: grayscale(1) brightness(4); }
+.theme-dark .utility-sec .utility-col-sec .auth-det-card {
+  border: 1px solid #223A60;
+  background: linear-gradient(162deg, #0C0D30 7.72%, rgba(33, 56, 114, 0) 83.68%); }
+.theme-dark .utility-sec .utility-col-sec .auth-det-card .name-block .name-outline {
+  -webkit-text-stroke: 1px #151F4B;
+  -webkit-text-fill-color: transparent; }
+.theme-dark .utility-sec .utility-col-sec .auth-det-card .soc-block .auth-soc {
+  border-color: #191B4F; }
+
+.theme-dark .top-title {
+  color: #fff; }
+  .theme-dark .top-title span {
+    color: #0C15F9; }
+.theme-dark .sched-content p {
+  color: #fff; }
+.theme-dark .table-sec1 .table {
+  border: 1px solid #1B1D3E; }
+  .theme-dark .table-sec1 .table thead {
+    border-radius: 0px 0px 8px 8px; }
+    .theme-dark .table-sec1 .table thead tr {
+      background: linear-gradient(180deg, #171B5C 0%, #0D0F33 100%), linear-gradient(0deg, #1B2F4E, #1B2F4E); }
+      .theme-dark .table-sec1 .table thead tr th {
+        color: #fff; }
+  .theme-dark .table-sec1 .table tbody tr {
+    background-color: #000000;
+    color: #fff; }
+    .theme-dark .table-sec1 .table tbody tr:nth-child(even) {
+      background-color: #020310; }
+
+.theme-dark .props-token .title {
+  color: #fff; }
+.theme-dark .props-token .benefits-listing li {
+  color: #fff; }
+.theme-dark .props-accumulation .title {
+  color: #fff; }
+.theme-dark .props-posts .title {
+  color: #fff; }
+.theme-dark .props-posts .posts-hldr .post-wrp {
+  border: 1px solid #223A60;
+  background: linear-gradient(180deg, #0D0E31 45%, rgba(34, 55, 98, 0) 100%); }
+.theme-dark .props-posts .posts-hldr .post-content {
+  color: #fff; }
+
+.theme-dark .section-powering .title,
+.theme-dark .section-powering .subtitle {
+  color: #ffffff; }
+.theme-dark .section-tokenomics .title,
+.theme-dark .section-tokenomics .subtitle {
+  color: #ffffff; }
+.theme-dark .section-powering .powering-list li,
+.theme-dark .section-tokenomics .col-title,
+.theme-dark .section-tokenomics .token-slider-wrp {
+  color: #ffffff; }
+.theme-dark .section-tokenomics .token-slider-wrp {
+  border-color: transparent;
+  background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%); }
+.theme-dark .section-tokenomics .token-slider-wrp .token-slider-ico {
+  background-color: #191b4f;
+  border: 1px solid transparent; }
+.theme-dark .section-tokenomics .token-slider-wrp .token-slide-btns .btn {
+  border: 1px solid #222665; }
+  .theme-dark .section-tokenomics .token-slider-wrp .token-slide-btns .btn img {
+    filter: brightness(0) invert(1); }
+.theme-dark .section-powering .powering-list li:after {
+  opacity: 1; }
+
 /*# sourceMappingURL=home-dark.css.map */

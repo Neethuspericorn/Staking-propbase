@@ -17,6 +17,9 @@
   @media (max-width: 1679px) {
     .home-container {
       max-width: 1000px; } }
+  @media (max-width: 479px) {
+    .home-container {
+      padding: 0; } }
 
 .body-content-outer-home {
   background-color: #fff;
@@ -31,6 +34,9 @@
     position: relative;
     z-index: 1;
     max-width: 1400px; }
+    @media (max-width: 479px) {
+      .home-banner-sec .home-banner-container {
+        padding: 0; } }
     .home-banner-sec .home-banner-container::before, .home-banner-sec .home-banner-container::after {
       z-index: -1;
       content: '';
@@ -137,7 +143,8 @@
 
 .home-video-block {
   padding-bottom: 30px;
-  position: relative; }
+  position: relative;
+  z-index: 2; }
   .home-video-block::after {
     content: '';
     position: absolute;
@@ -925,8 +932,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: .3s;
       color: #fff;
       text-decoration: none; }
+      .brand-ambassidor .img-hldr .cta-float:hover {
+        opacity: .9; }
       @media (max-width: 1441px) {
         .brand-ambassidor .img-hldr .cta-float {
           top: 48%;
@@ -1453,7 +1463,10 @@
       letter-spacing: 0em;
       text-align: left;
       background-color: #2966FF;
-      padding: 15px 100px; }
+      padding: 15px 100px;
+      transition: .3s; }
+      .campaign .two-col .join-us a:hover {
+        opacity: .8; }
     .campaign .two-col .right-sec {
       flex: 1;
       padding-left: 80px;
@@ -2005,6 +2018,8 @@
     display: flex; }
     .roadmap-slider .slick-track .slick-slide {
       height: inherit; }
+    .roadmap-slider .slick-track .slick-slide + div {
+      height: 100%; }
   .roadmap-slider .month-title {
     text-align: center;
     font-size: 24px;
@@ -2016,7 +2031,8 @@
       .roadmap-slider .month-title {
         font-size: 18px; } }
   .roadmap-slider .slide {
-    display: flex;
+    display: flex !important;
+    height: 100%;
     flex-direction: column;
     padding-left: 14px;
     padding-right: 14px; }
@@ -2504,7 +2520,10 @@ section.utility-section {
         min-width: 300px;
         height: 48px;
         font-size: 16px;
-        font-weight: 600; }
+        font-weight: 600;
+        transition: .3s; }
+        section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn:hover {
+          opacity: .8; }
         @media (max-width: 1679px) {
           section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
             font-size: 15px; } }
