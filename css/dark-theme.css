@@ -699,5 +699,7 @@
     border: 1px solid #13174A; }
   .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon img {
     filter: grayscale(1) brightness(4); }
+  .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img {
+    filter: grayscale(1) invert(1) brightness(1); }
 
 /*# sourceMappingURL=dark-theme.css.map */
