@@ -151,7 +151,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    right: -200px;
+    right: -8.5vw;
     bottom: 30px;
     background-image: url("../img/sec-floating.svg");
     background-repeat: no-repeat; }
@@ -455,10 +455,9 @@
     height: 80px; }
 
   .home-video-block::after {
-    width: 105px;
+    width: 130px;
     height: 115px;
     background-size: 100%;
-    right: -120px;
     bottom: 50px; }
 
   .home-video-block .video-block-cover .video-btn-block .btn-arrow.video-next-btn span {
@@ -523,7 +522,7 @@
     margin-bottom: 15px; }
 
   .home-video-block::after {
-    width: 80px;
+    width: 110px;
     height: 105px;
     background-size: 88%;
     right: -80px;
@@ -632,11 +631,11 @@
     width: 55%; }
 
   .home-video-block::after {
-    width: 62px;
-    height: 55px;
+    width: 80px;
+    height: 100px;
     background-size: 90%;
     right: -50px;
-    bottom: 70px; } }
+    bottom: 30px; } }
 @media (max-width: 991px) {
   .home-video-block .title-block h2 {
     font-size: 24px; }
@@ -659,6 +658,10 @@
     background: rgba(1, 1, 6, 0.63);
     top: 0; } }
 @media (max-width: 767px) {
+  .home-video-block:after {
+    bottom: auto;
+    top: 50%; }
+
   .home-video-block .video-block-cover .video-slider .video-item .video-item-cover {
     flex-wrap: wrap;
     flex-direction: column;
@@ -2015,7 +2018,7 @@
     display: flex; }
     .roadmap-slider .slick-track .slick-slide {
       height: inherit; }
-    .roadmap-slider .slick-track .slick-slide + div {
+    .roadmap-slider .slick-track .slick-slide > div {
       height: 100%; }
   .roadmap-slider .month-title {
     text-align: center;

@@ -166,7 +166,8 @@
         position: absolute;
         width: 150px;
         height: 150px;
-        right: -200px;
+        // right: -200px;
+        right: -8.5vw;
         bottom: 30px;
         background-image: url('../img/sec-floating.svg');
         background-repeat: no-repeat;
@@ -527,10 +528,10 @@
         height: 80px;
     }
     .home-video-block::after {
-        width: 105px;
+        width: 130px;
         height: 115px;
         background-size: 100%;
-        right: -120px;
+        // right: -120px;
         bottom: 50px;
     }
     .home-video-block .video-block-cover .video-btn-block .btn-arrow.video-next-btn span{
@@ -603,7 +604,7 @@
         margin-bottom: 15px;
     }
     .home-video-block::after {
-        width: 80px;
+        width: 110px;
         height: 105px;
         background-size: 88%;
         right: -80px;
@@ -723,11 +724,11 @@
         width: 55%;
     }
     .home-video-block::after {
-        width: 62px;
-        height: 55px;
+        width: 80px;
+        height: 100px;
         background-size: 90%;
         right: -50px;
-        bottom: 70px;
+        bottom: 30px;
     }
 }
 
@@ -759,6 +760,10 @@
 }
 
 @media ($sm-767){
+    .home-video-block:after{
+        bottom: auto;
+        top: 50%;
+    }
     .home-video-block .video-block-cover .video-slider .video-item .video-item-cover{
         flex-wrap: wrap;
         flex-direction: column;
@@ -2628,9 +2633,8 @@ flex-wrap: wrap;
         display: flex;
         .slick-slide{
             height: inherit;
-            
         }
-        .slick-slide + div{
+        .slick-slide > div{
             height: 100%;
         }
     }
