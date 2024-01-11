@@ -282,5 +282,7 @@
   display: none; }
 .theme-dark .section-tokenomics .img-wrp .chart-dark {
   display: block; }
+.theme-dark .table-sec1 .table tr td {
+  color: #fff !important; }
 
 /*# sourceMappingURL=home-dark.css.map */
