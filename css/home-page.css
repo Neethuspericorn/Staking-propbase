@@ -362,12 +362,12 @@
   height: auto;
   aspect-ratio: 2; }
 
-@media (max-width: 1800px) {
+@media (max-width: 1850px) {
   .home-banner-sec .home-banner-container::before {
-    left: -50px; }
+    left: -65px; }
 
   .home-banner-sec .home-banner-container::after {
-    right: -60px; } }
+    right: -75px; } }
 @media (max-width: 1679px) {
   .home-banner-sec .home-banner-container::before {
     background-size: 200px; }
