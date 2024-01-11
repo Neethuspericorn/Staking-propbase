@@ -573,4 +573,20 @@
     .section-powering .powering-list li:after{
         opacity: 1;
     }
+    .props-accumulation .graph-wrap {
+        .img-light{
+            display: none;
+        }
+        .img-dark{
+            display: block;
+        }
+    }
+    .section-tokenomics .img-wrp {
+        .chart-light{
+            display: none;
+        }
+        .chart-dark{
+            display: block;
+        }
+    }
 }

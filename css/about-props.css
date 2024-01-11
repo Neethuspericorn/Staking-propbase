@@ -847,6 +847,7 @@
       .table-sec1 .table thead tr {
         background: linear-gradient(180deg, #D4D4EA 0%, #F8F8FF 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF); }
         .table-sec1 .table thead tr th {
+          background: transparent !important;
           color: #2E4276;
           font-size: 14px;
           height: 64px;
@@ -878,6 +879,7 @@
         .table-sec1 .table tr {
           font-size: 13px; } }
       .table-sec1 .table tr td {
+        background: transparent !important;
         padding-left: 30px; }
         .table-sec1 .table tr td:last-child {
           text-align: center;
@@ -1165,6 +1167,8 @@
     width: 100%; }
     .props-accumulation .graph-wrap img {
       max-width: 100%; }
+    .props-accumulation .graph-wrap .img-dark {
+      display: none; }
 
 .props-posts {
   padding: 68px 0 154px;
@@ -1689,6 +1693,8 @@
       @media (max-width: 1199px) {
         .section-tokenomics .img-wrp img {
           max-width: 320px; } }
+    .section-tokenomics .img-wrp .chart-dark {
+      display: none; }
   .section-tokenomics .col-title {
     color: #2e4276;
     font-weight: 600;

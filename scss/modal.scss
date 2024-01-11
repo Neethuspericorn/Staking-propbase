@@ -19,6 +19,22 @@
             max-width: 450px;
         }
     }
+    .aptos-btn-block{
+        display: flex;
+        justify-content: center;
+        @media($sm-991){
+            flex-wrap: wrap;
+        }
+        button{
+            margin-top: 17px;
+
+            &.btn-border{
+                @media($sm-991){
+                    margin-top: 0;
+                }
+            }
+        }
+    }
     .modal-info-cover{
         .modal-info-block{
             background-color: #FFF6E1;

@@ -1061,4 +1061,7 @@ $dark-block-2: #2B2C2E;
     .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card{
         border: 1px solid #13174A;
     }
+    .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon img{
+        filter: grayscale(1) brightness(4);
+    }
 }

@@ -996,7 +996,7 @@
           linear-gradient(0deg, #FFFFFF, #FFFFFF);
                 
                     th {
-
+                        background: transparent !important;
                         color: #2E4276;  
                         font-size: 14px;
                         height: 64px;
@@ -1050,6 +1050,7 @@
          
 
           td{
+            background: transparent !important;
             padding-left: 30px;
             &:last-child{
                 text-align: center;
@@ -1457,6 +1458,9 @@
         width: 100%;
         img{
             max-width: 100%;
+        }
+        .img-dark{
+            display: none;
         }
     }
 }
@@ -2092,6 +2096,9 @@
             @media ($sm-1199){
                 max-width: 320px;
             }
+        }
+        .chart-dark{
+            display: none;
         }
     }
     .token-dist-col{

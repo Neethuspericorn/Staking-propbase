@@ -715,4 +715,9 @@ button {
 .tooltip {
   z-index: 999; }
 
+@media (max-width: 350px) {
+  .ant-picker-dropdown {
+    zoom: 70%;
+    left: 0 !important; } }
+
 /*# sourceMappingURL=common.css.map */

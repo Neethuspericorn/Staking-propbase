@@ -274,5 +274,13 @@
     filter: brightness(0) invert(1); }
 .theme-dark .section-powering .powering-list li:after {
   opacity: 1; }
+.theme-dark .props-accumulation .graph-wrap .img-light {
+  display: none; }
+.theme-dark .props-accumulation .graph-wrap .img-dark {
+  display: block; }
+.theme-dark .section-tokenomics .img-wrp .chart-light {
+  display: none; }
+.theme-dark .section-tokenomics .img-wrp .chart-dark {
+  display: block; }
 
 /*# sourceMappingURL=home-dark.css.map */
