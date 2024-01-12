@@ -926,3 +926,12 @@ button{
         }
     }
 }
+.table-no-data{
+    min-height: 60vh;
+    @media($sm-991){
+        min-height: 50vh;
+    }
+    @media($sm-579){
+        min-height: 40vh;
+    }
+}
