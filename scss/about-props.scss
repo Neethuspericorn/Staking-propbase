@@ -2183,7 +2183,7 @@
         }
         
         .slick-dots{
-            display: flex;
+            display: flex !important;
             @media ($sm-1199){
                  bottom: -15px;
               }
