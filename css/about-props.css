@@ -1241,7 +1241,8 @@
     @media (max-width: 370px) {
       .props-posts .title-blk {
         flex-direction: column;
-        align-items: flex-start; } }
+        align-items: flex-start;
+        align-items: center; } }
     .props-posts .title-blk .article-link {
       font-size: 18px;
       font-style: normal;
@@ -1265,6 +1266,11 @@
         .props-posts .title-blk .article-link {
           font-size: 14px;
           line-height: 24px; } }
+      @media (max-width: 370px) {
+        .props-posts .title-blk .article-link {
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 5px; } }
       .props-posts .title-blk .article-link::after {
         content: "";
         background: url(../img/arrow-long.svg) no-repeat right;
@@ -1427,6 +1433,15 @@
   @media (max-width: 767px) {
     .section-powering {
       padding-bottom: 10px; } }
+  .section-powering.floating-icon-left:before {
+    right: -7.55vw;
+    left: auto;
+    top: 35px;
+    aspect-ratio: 0.982; }
+    @media (max-width: 767px) {
+      .section-powering.floating-icon-left:before {
+        top: 35px;
+        right: -16.55vw; } }
   .section-powering .title {
     font-size: 40px;
     color: #2E4276;
@@ -1740,6 +1755,9 @@
       position: relative;
       z-index: 1;
       height: 100%; }
+      @media (max-width: 767px) {
+        .section-tokenomics .token-slider-wrp .token-slides .slick-slide {
+          padding-bottom: 25px; } }
     .section-tokenomics .token-slider-wrp .token-slider-ico {
       width: 84px;
       aspect-ratio: 1;

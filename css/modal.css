@@ -25,6 +25,8 @@
   .custom-modal .aptos-btn-block {
     display: flex;
     justify-content: center; }
+    .custom-modal .aptos-btn-block .btn-black {
+      border: solid 1px #2966FF; }
     @media (max-width: 991px) {
       .custom-modal .aptos-btn-block {
         flex-wrap: wrap; } }

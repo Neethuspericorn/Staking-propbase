@@ -22,6 +22,9 @@
     .aptos-btn-block{
         display: flex;
         justify-content: center;
+        .btn-black{
+            border: solid 1px $primary-blue;
+        }
         @media($sm-991){
             flex-wrap: wrap;
         }
