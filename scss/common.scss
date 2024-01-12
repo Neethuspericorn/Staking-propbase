@@ -904,7 +904,7 @@ button{
         width: 220px;
     }
     .ant-picker-dropdown .ant-picker-date-panel{
-        width: 245px;
+        width: 250px;
     }
     .ant-picker-dropdown .ant-picker-time-panel .ant-picker-header-view{
         font-size: 8px;
@@ -914,10 +914,8 @@ button{
     }
 }
 @media(max-width: 380px){
-    .ant-picker-dropdown {
+    .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panel-layout{
         zoom: 90%;
-        right: 22px !important;
-        left: auto !important;
     }
 }
 .sec-title-block.stake-title-filter-single{
