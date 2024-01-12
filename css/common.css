@@ -715,7 +715,7 @@ button {
 .tooltip {
   z-index: 999; }
 
-@media (max-width: 479px) {
+@media (max-width: 510px) {
   .ant-picker-dropdown .ant-picker-content td,
   .ant-picker-dropdown .ant-picker-date-panel .ant-picker-content th,
   .ant-picker-dropdown .ant-picker-time-panel-column > li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
@@ -735,7 +735,7 @@ button {
     width: 220px; }
 
   .ant-picker-dropdown .ant-picker-date-panel {
-    width: 245px; }
+    width: 250px; }
 
   .ant-picker-dropdown .ant-picker-time-panel .ant-picker-header-view {
     font-size: 8px; }
@@ -743,13 +743,11 @@ button {
   .ant-picker-dropdown .ant-picker-footer .ant-btn {
     font-size: 11px; } }
 @media (max-width: 380px) {
-  .ant-picker-dropdown {
-    zoom: 90%;
-    right: 22px !important;
-    left: auto !important; } }
+  .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panel-layout {
+    zoom: 90%; } }
 @media (max-width: 479px) {
-  .sec-title-block.stake-title-filter-single .block-right {
+  .sec-title-block.stake-filter-single .block-right {
     max-width: fit-content !important;
-    padding-top: 0; } }
+    padding-top: 0 !important; } }
 
 /*# sourceMappingURL=common.css.map */

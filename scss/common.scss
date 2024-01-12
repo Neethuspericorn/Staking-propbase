@@ -884,7 +884,7 @@ button{
     z-index: 999;
 }
 
-@media($sm-479){
+@media(max-width: 510px){
     .ant-picker-dropdown .ant-picker-content td, 
     .ant-picker-dropdown .ant-picker-date-panel .ant-picker-content th, 
     .ant-picker-dropdown .ant-picker-time-panel-column >li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
@@ -918,11 +918,11 @@ button{
         zoom: 90%;
     }
 }
-.sec-title-block.stake-title-filter-single{
+.sec-title-block.stake-filter-single{
     @media($sm-479){
         .block-right{
             max-width: fit-content !important;
-            padding-top: 0;
+            padding-top: 0 !important;
         }
     }
 }
