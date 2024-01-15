@@ -76,7 +76,8 @@
       display: block;
       border-radius: 1245px;
       background: rgba(0, 18, 184, 0.11);
-      filter: blur(137.3500061035px); }
+      filter: blur(137.3500061035px);
+      display: none !important; }
     .home-banner-sec .home-banner-cover .pros-label-block {
       border-radius: 19px;
       background: #A5B6DD;
@@ -351,7 +352,8 @@
     border-radius: 1245px;
     background: rgba(0, 18, 184, 0.25);
     filter: blur(120.3500061035px);
-    z-index: -1; }
+    z-index: -1;
+    display: none !important; }
   .app-img-sec .app-img {
     max-width: 100%; }
 
@@ -730,23 +732,25 @@
     width: 100%;
     background-position: center 3px;
     left: 0;
-    background-size: 60vw;
-    top: -100px; }
+    top: -100px;
+    background-size: auto 120px;
+    height: 70px; }
 
   .home-banner-sec {
     padding: 100px 0; }
 
   .home-banner-sec .home-banner-container::after {
     transform: none;
-    width: 100%;
+    width: 250px;
     right: 0;
-    height: 65%;
-    top: -20px;
+    top: 40%;
     bottom: auto;
-    background-size: 65vw; }
+    background-size: auto 160px;
+    height: 110px;
+    width: 250px; }
 
   .home-banner-sec .home-banner-cover .banner-card-cover {
-    padding-top: 100px; }
+    padding-top: 65px; }
 
   .app-img-sec::before {
     height: 200px; } }
@@ -755,11 +759,11 @@
     height: 335px;
     top: -50px; }
 
+  .home-banner-sec .home-banner-cover .banner-card-cover {
+    padding-top: 55px; }
+
   .home-banner-sec .home-banner-container::after {
-    background-size: 75vw;
-    height: 60%;
-    right: 6px;
-    top: 20px; }
+    top: 45%; }
 
   .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card h4 {
     font-size: 16px; }
@@ -769,9 +773,6 @@
 
   .home-banner-sec .home-banner-cover .btn-block .banner-btn {
     width: 100%; }
-
-  .home-banner-sec .home-banner-container::before {
-    background-size: 70vw; }
 
   .home-banner-sec .home-banner-cover .pros-label-block {
     font-size: 12px; }
@@ -804,14 +805,20 @@
   .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .right-col .video-block {
     min-height: 180px; } }
 @media (max-width: 420px) {
-  .home-banner-sec .home-banner-cover .banner-card-cover {
-    padding-top: 65px; }
-
   .home-banner-sec .home-banner-cover .banner-card-wapper .banner-col {
     width: 100%; }
 
   .home-banner-sec .home-banner-container::after {
-    height: 50%; } }
+    top: 38%;
+    background-size: auto 135px;
+    height: 90px;
+    width: 190px; } }
+@media (max-width: 360px) {
+  .home-banner-sec .home-banner-cover .banner-card-cover {
+    padding-top: 35px; }
+
+  .home-banner-sec .home-banner-container::after {
+    top: 41%; } }
 .brand-ambassidor {
   background: linear-gradient(150deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
   border-radius: 41px;
