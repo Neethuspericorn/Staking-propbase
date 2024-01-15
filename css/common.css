@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -23,7 +23,7 @@ ul, ol {
   padding: 0; }
 
 .body-wrapper {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   display: flex;
   min-height: 100vh; }
   @media (max-width: 991px) {
@@ -640,7 +640,7 @@ button {
   .table-no-data p {
     padding-top: 15px;
     color: #2E4276;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 0; }
@@ -752,11 +752,44 @@ button {
 
 .table-no-data-h {
   min-height: 60vh; }
+  @media (max-height: 1000px) {
+    .table-no-data-h {
+      min-height: 50vh; } }
   @media (max-width: 991px) {
     .table-no-data-h {
       min-height: 50vh; } }
-  @media (max-width: 579px) {
+  @media (max-width: 767px) {
     .table-no-data-h {
-      min-height: 40vh; } }
+      min-height: 30vh; } }
+
+.action-btn-highlight {
+  position: relative;
+  animation: pulse 1s linear infinite; }
+  .action-btn-highlight:after {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 4px solid #96e953;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: scaleUp 1s linear infinite; }
+@keyframes scaleUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0); }
+  60%,
+        100% {
+    transform: translate(-50%, -50%) scale(1); } }
+@keyframes pulse {
+  0%,
+        60%,
+        100% {
+    transform: scale(1); }
+  80% {
+    transform: scale(1.1); } }
 
 /*# sourceMappingURL=common.css.map */

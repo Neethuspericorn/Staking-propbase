@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -703,5 +703,7 @@
     filter: grayscale(1) invert(1) brightness(1); }
   .theme-dark .ant-picker-dropdown .ant-picker-header {
     color: #fff !important; }
+  .theme-dark .action-btn-highlight:after {
+    border-color: #5D972E; }
 
 /*# sourceMappingURL=dark-theme.css.map */

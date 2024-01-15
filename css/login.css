@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -275,7 +275,7 @@ button.close-modal {
   top: 104% !important; }
 .fgt-modal .modal-dialog {
   max-width: 600px !important;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins"; }
   @media (max-width: 991px) {
     .fgt-modal .modal-dialog {
       max-width: 96% !important; } }

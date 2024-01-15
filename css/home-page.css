@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -957,7 +957,7 @@
   .brand-ambassidor .content-left {
     max-width: 556px;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     flex: 1 1 auto; }
     @media (max-width: 1360px) {
       .brand-ambassidor .content-left {
@@ -966,7 +966,7 @@
       .brand-ambassidor .content-left {
         max-width: 100%; } }
     .brand-ambassidor .content-left .tagline {
-      font-family: "Poppins", sans-serif;
+      font-family: "Poppins";
       font-size: 20px;
       font-weight: 500;
       line-height: normal;
@@ -983,7 +983,7 @@
           font-size: 14px;
           margin-bottom: 10px; } }
     .brand-ambassidor .content-left .title {
-      font-family: "Poppins", sans-serif;
+      font-family: "Poppins";
       font-size: 36px;
       font-weight: 600;
       line-height: normal;
@@ -1011,7 +1011,7 @@
       .brand-ambassidor .content-left .title span {
         color: #2966FF; }
     .brand-ambassidor .content-left .content-txt {
-      font-family: "Poppins", sans-serif;
+      font-family: "Poppins";
       font-size: 18px;
       font-weight: 300;
       line-height: 28px;
@@ -1043,7 +1043,7 @@
           font-size: 14px;
           margin-bottom: 15px; } }
       .brand-ambassidor .content-left .content ul li {
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins";
         margin-bottom: 30px;
         font-size: 18px;
         font-weight: 300;
@@ -1090,7 +1090,7 @@
   .section-faq .sec-title {
     color: #2E4276;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
@@ -1120,7 +1120,7 @@
   .section-faq .sec-subtitle {
     color: #4D6090;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 20px;
     font-weight: 300;
     line-height: 30px; }
@@ -1157,7 +1157,7 @@
         border: none !important;
         box-shadow: none !important;
         background-color: #F8F8FF;
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins";
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
@@ -1258,7 +1258,7 @@
     .statistics {
       margin-bottom: 40px; } }
   .statistics .title {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 600;
     line-height: normal;
@@ -1289,7 +1289,7 @@
     .statistics .title span {
       color: #2966FF; }
   .statistics .content-txt {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
@@ -1365,7 +1365,7 @@
       .statistics .statistics-blks-wrp .statistics-blks .blks-title {
         color: #2966FF;
         text-align: center;
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins";
         font-size: 16px;
         font-weight: 500;
         line-height: normal;
@@ -1390,7 +1390,7 @@
       .statistics .statistics-blks-wrp .statistics-blks .numerics {
         color: #2E4276;
         text-align: center;
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins";
         font-size: 28px;
         font-weight: 600;
         line-height: normal; }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -933,7 +933,7 @@
       .props-token::after {
         display: none; } }
   .props-token .title {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
@@ -1123,7 +1123,7 @@
         .props-accumulation.floating-icon-right:after {
           display: none; } }
   .props-accumulation .title {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
@@ -1280,7 +1280,7 @@
             background-size: 20px;
             padding-right: 30px; } }
   .props-posts .title {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
