@@ -981,3 +981,30 @@ button{
         }
     }
 }
+
+.ant-picker-custom-range .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels{
+    overflow: hidden;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 8px;
+      }
+      &::-webkit-scrollbar-track {
+        border-radius: 3px;
+        background: #f8f6fa;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background: #ECDFF5;
+        border-radius: 3px;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background: #dfc6f1;
+      }
+    @media($sm-767){
+        max-width: 400px;
+    }
+    @media($sm-479){
+        max-width: 300px;
+    }
+}

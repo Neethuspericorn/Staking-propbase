@@ -1073,4 +1073,17 @@ $dark-block-2: #2B2C2E;
     .action-btn-highlight:after{
         border-color: #5D972E;
     }
+    .ant-picker-custom-range .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels{
+        &::-webkit-scrollbar-track {
+            background: #232E33;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background: #2966ff;
+        }
+    
+        &::-webkit-scrollbar-thumb:hover {
+            background: #608EFF;
+        }
+    }
 }
