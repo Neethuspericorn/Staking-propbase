@@ -698,7 +698,7 @@
   .theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
     border: 1px solid #13174A; }
   .theme-dark .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon img {
-    filter: grayscale(1) brightness(4); }
+    filter: grayscale(1) invert(1) brightness(1); }
   .theme-dark .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img {
     filter: grayscale(1) invert(1) brightness(1); }
   .theme-dark .ant-picker-dropdown .ant-picker-header {

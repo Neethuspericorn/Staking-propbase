@@ -1062,7 +1062,7 @@ $dark-block-2: #2B2C2E;
         border: 1px solid #13174A;
     }
     .header-wrapper .right-block .notify-dropdown .dropdown-menu .dropdown-item .icon img{
-        filter: grayscale(1) brightness(4);
+        filter: grayscale(1) invert(1) brightness(1);
     }
     .portfolio-sec .portfolio-card .my-portfolio-content .coin-det-cover .coin-det-row .c-icon img{
         filter: grayscale(1) invert(1) brightness(1);
