@@ -705,11 +705,11 @@
     color: #fff !important; }
   .theme-dark .action-btn-highlight:after {
     border-color: #5D972E; }
-  .theme-dark .ant-picker-custom-range .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-track {
+  .theme-dark .ant-picker-custom-range .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-track {
     background: #232E33; }
-  .theme-dark .ant-picker-custom-range .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-thumb {
+  .theme-dark .ant-picker-custom-range .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-thumb {
     background: #2966ff; }
-  .theme-dark .ant-picker-custom-range .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-thumb:hover {
+  .theme-dark .ant-picker-custom-range .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-thumb:hover {
     background: #608EFF; }
 
 /*# sourceMappingURL=dark-theme.css.map */

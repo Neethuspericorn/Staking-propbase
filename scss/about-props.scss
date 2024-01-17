@@ -106,7 +106,7 @@
 
 
 .utility-sec{
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     padding-top: 80px;
     position: relative;
     &.floating-icon-left:before{
@@ -134,7 +134,9 @@
         display: flex;
         .list-block{
             flex: 1 1 auto;
-            padding-right: 140px;
+            &:first-child{
+                padding-right: 35px;
+            }
         }
         .auth-det-block{
             flex: 0 0 auto;
@@ -148,7 +150,10 @@
                 color: #4D6090;
                 font-size: 20px;
                 font-weight: 300;
-                margin-bottom: 34px;
+                margin-bottom: 60px;
+                &:last-child{
+                    margin-bottom: 15px;
+                }
                 &::before{
                     content: '';
                     flex-shrink: 0;
@@ -162,79 +167,123 @@
                 }
             }
         }
-        .auth-det-card{
-            padding: 55px 20px 65px;
-            text-align: center;
-            width: 440px;
-            min-height: 250px;
-            border-radius: 27px;
-            border: 1px solid #B6C3E5;
-            background: linear-gradient(150deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0.00) 47.82%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .auth-img{
-                img{
-                    border-radius: 50%;
-                    width: 154px;
-                    height: 154px;
-                    flex-shrink: 0;
-                }
-            }
-            .name-block{
-                padding-top: 30px;
-                position: relative;
-                margin-bottom: 23px;
-                width: 100%;
-                z-index: 1;
-                .name-outline{
-                    top: -10px;
-                    font-size: 57px;
-                    font-weight: 600;
-                    -webkit-text-stroke: 1px #151F4B57;
-                    -webkit-text-fill-color: $white;
-                    position: absolute;
-                    text-wrap: nowrap;
-                    left: 0;
-                    right: 0;
-                    margin: auto;
-                    z-index: -1;
-                }
-                h4{
-                    font-size: 25px;
-                    font-weight: 600;
-                    color: $title-light;
-                    margin-bottom: 0;
-                }
-                p{
-                    margin-bottom: 0;
-                    font-size: 17px;
-                    font-weight: 300;
-                    color: $primary-blue;
-                }
-            }
-            .auth-abt{
-                font-size: 15px;
-                font-weight: 300;
-                color: #4D6090;
-                margin-bottom: 30px;
-            }
-            .soc-block{           
-                .auth-soc{
-                    display: inline-block;
-                    border: solid 1px #B6C3E5;
-                    border-radius: 50%;
-                    margin: 0 5px;
-                }
-            }
-
-        }
     }
 }
+
+.team-sec{
+    padding-bottom: 100px;
+    display: flex;
+    .team-col{
+        padding: 8px;
+        width: calc(100%/ 3);
+    }
+    .auth-det-block{
+        height: 100%;
+    }
+    .auth-det-card{
+        padding: 35px 20px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        min-height: 250px;
+        border-radius: 27px;
+        border: 1px solid #B6C3E5;
+        background: linear-gradient(150deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0.00) 47.82%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .auth-img{
+            img{
+                border-radius: 50%;
+                width: 136px;
+                height: 136px;
+                flex-shrink: 0;
+            }
+        }
+        .name-block{
+            margin-top: 40px;
+            position: relative;
+            margin-bottom: 23px;
+            width: 100%;
+            z-index: 1;
+            .name-outline{
+                top: -35px;
+                font-size: 42px;
+                font-weight: 600;
+                -webkit-text-stroke: 1px #151F4B57;
+                -webkit-text-fill-color: $white;
+                position: absolute;
+                text-wrap: nowrap;
+                left: 0;
+                right: 0;
+                margin: auto;
+                z-index: -1;
+            }
+            h4{
+                font-size: 25px;
+                font-weight: 600;
+                color: $title-light;
+                margin-bottom: 0;
+            }
+            p{
+                margin-bottom: 0;
+                font-size: 17px;
+                font-weight: 300;
+                color: $primary-blue;
+            }
+        }
+        .auth-abt{
+            font-size: 15px;
+            font-weight: 300;
+            color: #4D6090;
+            margin-bottom: 30px;
+        }
+        .soc-block{           
+            .auth-soc{
+                display: inline-block;
+                border: solid 1px #B6C3E5;
+                border-radius: 50%;
+                margin: 0 5px;
+            }
+        }
+    
+    }
+}
+
 
 @media($sm-1679){
     .abt-banner-sec .home-banner-cover .pros-label-block{
         margin-bottom: 25px;
+    }
+    .team-sec .auth-det-card {
+        padding: 30px 18px;
+    }
+    .team-sec .auth-det-card .auth-img img {
+        width: 125px;
+        height: 125px;
+    }
+    .team-sec .auth-det-card .name-block h4 {
+        font-size: 22px;
+    }
+    .team-sec .auth-det-card .name-block .name-outline {
+        top: -25px;
+        font-size: 35px;
+    }
+    .team-sec .auth-det-card .name-block {
+        margin-top: 35px;
+    }
+    .team-sec .auth-det-card .auth-abt {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .team-sec .auth-det-card .soc-block .auth-soc img{
+        width: 55px;
+    }
+    .team-sec{
+        padding-bottom: 60px;
+    }
+    .team-sec .auth-det-card .name-block p{
+        font-size: 15px;
     }
     .abt-banner-sec .home-banner-cover .title-txt{
         font-size: 18px;
@@ -285,13 +334,12 @@
     .utility-sec .utility-col-sec .det-list li{
         font-size: 17px;
     }
-    .utility-sec .utility-col-sec .list-block {
-        flex: 1 1 auto;
-        padding-right: 100px;
-    }
     .utility-sec .utility-col-sec .auth-det-card .auth-img img {
         width: 135px;
         height: 135px;
+    }
+    .utility-sec .utility-col-sec .det-list li{
+        margin-bottom: 45px;
     }
     .utility-sec .utility-col-sec .auth-det-card .name-block .name-outline{
         font-size: 44px;
@@ -325,8 +373,14 @@
 }
 
 @media($sm-1481){
+    .team-sec {
+        padding-bottom: 50px;
+    }
     .abt-banner-sec .home-banner-cover .title-txt {
         font-size: 16px;
+    }
+    .team-sec .auth-det-card {
+        padding: 30px 12px;
     }
     .news-sec .news-sec-cover .content-block h2 {
         font-size: 25px;
@@ -404,10 +458,19 @@
         padding: 30px 20px 40px;
     }
 }
-
-@media(max-width: 1300px){
-    .utility-sec .utility-col-sec .list-block {
-        padding-right: 70px;
+@media(max-width: 1370px){
+    .team-sec .auth-det-card .name-block .name-outline {
+        top: -21px;
+        font-size: 30px;
+    }
+    .team-sec .auth-det-card .name-block h4 {
+        font-size: 21px;
+    }
+    .team-sec .auth-det-card .soc-block .auth-soc img {
+        width: 50px;
+    }
+    .team-sec .auth-det-card .auth-abt br{
+        display: none;
     }
 }
 @media (max-width: 1281px){
@@ -415,9 +478,11 @@
         font-size: 26px;
     }
 }
+
 @media($sm-1199){
-    .utility-sec .utility-col-sec .list-block {
-        padding-right: 50px;
+    .team-sec .auth-det-card .auth-img img {
+        width: 120px;
+        height: 120px;
     }
     .utility-sec .utility-col-sec .auth-det-card .name-block .name-outline {
         font-size: 35px;
@@ -456,18 +521,27 @@
         padding: 55px 55px 35px 45px;
     }
 }
+
 @media(max-width: 1100px){
+    .team-sec{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        .team-col{
+            width: 350px;
+        }
+    }
     .utility-sec .utility-col-sec .det-list li, .utility-sec .title-block p{
         font-size: 14px;
     }
     .utility-sec .utility-col-sec .auth-det-card {
         width: 295px;
     }
+    .team-sec .auth-det-card .name-block {
+        margin-top: 25px;
+    }
 }
 @media($sm-991){
-    .utility-sec .utility-col-sec .list-block {
-        padding-right: 30px;
-    }
     .abt-banner-sec::before {
         background-size: 270px;
         left: -140px;
@@ -498,6 +572,34 @@
     }
 }
 @media($sm-767){
+    .utility-sec .utility-col-sec .list-block:first-child{
+        padding-right: 0;
+    }
+    .utility-sec .utility-col-sec .det-list li {
+        margin-bottom: 25px !important;
+    }
+    .utility-sec {
+        padding-bottom: 20px;
+    }
+    .team-sec .auth-det-card .name-block {
+        margin-top: 25px;
+    }
+    .team-sec .auth-det-card .auth-img img {
+        width: 110px;
+        height: 110px;
+    }
+    .team-sec .auth-det-card {
+        padding: 25px 15px;
+    }
+    .team-sec {
+        padding-bottom: 20px;
+    }
+    .team-sec .auth-det-card .name-block {
+        margin-bottom: 10px;
+    }
+    .team-sec .auth-det-card .soc-block .auth-soc img {
+        width: 45px;
+    }
     .utility-sec .utility-col-sec{
         flex-wrap: wrap;
     }
@@ -571,6 +673,16 @@
 }
 
 @media($sm-579){
+    .team-sec .auth-det-card .auth-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .team-sec{
+        .team-col{
+            width: 300px;
+            max-width: 100%;
+        }
+    }
     .abt-banner-sec.home-banner-sec .home-banner-cover::before {
         height: 350px;
         top: -35px;
@@ -579,7 +691,7 @@
         font-size: 24px;
     }
     .utility-sec {
-        padding-bottom: 25px;
+        padding-bottom: 15px;
         padding-top: 20px;
     }
     .utility-sec .utility-col-sec .det-list li::before {

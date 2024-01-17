@@ -438,8 +438,8 @@
     .utility-sec .title-block h2,
     .utility-sec .title-block p,
     .utility-sec .utility-col-sec .det-list li,
-    .utility-sec .utility-col-sec .auth-det-card .name-block h4,
-    .utility-sec .utility-col-sec .auth-det-card .auth-abt {
+    .auth-det-card .name-block h4,
+    .auth-det-card .auth-abt {
         color: $primary-light;
     }
 
@@ -447,17 +447,17 @@
         filter: grayscale(1) brightness(4);
     }
 
-    .utility-sec .utility-col-sec .auth-det-card {
+    .auth-det-card {
         border: 1px solid #223A60;
         background: linear-gradient(162deg, #0C0D30 7.72%, rgba(33, 56, 114, 0.00) 83.68%);
     }
 
-    .utility-sec .utility-col-sec .auth-det-card .name-block .name-outline {
+    .auth-det-card .name-block .name-outline {
         -webkit-text-stroke: 1px #151F4B;
         -webkit-text-fill-color: transparent;
     }
 
-    .utility-sec .utility-col-sec .auth-det-card .soc-block .auth-soc {
+    .auth-det-card .soc-block .auth-soc {
         border-color: #191B4F;
     }
 }
