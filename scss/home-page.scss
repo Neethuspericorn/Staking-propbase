@@ -123,6 +123,9 @@
                 border-radius: 10px;
                 border: 1px solid #B6C3E5;
                 height: 100%;
+                @media ($sm-579){
+                    background-color: rgba($color: #fff, $alpha: 0.90);
+                }
                 p{
                     color: $primary-blue;
                     font-size: 14px;

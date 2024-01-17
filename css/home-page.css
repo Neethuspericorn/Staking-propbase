@@ -117,6 +117,9 @@
         border-radius: 10px;
         border: 1px solid #B6C3E5;
         height: 100%; }
+        @media (max-width: 579px) {
+          .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
+            background-color: rgba(255, 255, 255, 0.9); } }
         .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p {
           color: #2966FF;
           font-size: 14px;
