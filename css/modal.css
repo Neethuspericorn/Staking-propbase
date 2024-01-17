@@ -959,6 +959,7 @@
       font-weight: 500;
       margin-bottom: 5px; }
     .claim-reward-modal .claim-reward-modal-body .claim-count-block h4 {
+      text-align: right;
       color: #2E4276;
       font-size: 15px;
       font-weight: 600; }
