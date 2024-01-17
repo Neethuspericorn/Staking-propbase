@@ -97,7 +97,30 @@
   position: relative; }
   .utility-sec.floating-icon-left:before {
     bottom: auto;
-    top: 250px; }
+    top: 100px;
+    right: -12.55vw;
+    left: auto; }
+    @media (max-width: 2000px) {
+      .utility-sec.floating-icon-left:before {
+        right: -14.55vw; } }
+    @media (max-width: 1679px) {
+      .utility-sec.floating-icon-left:before {
+        right: -12.55vw;
+        top: 70px; } }
+    @media (max-width: 1481px) {
+      .utility-sec.floating-icon-left:before {
+        top: 60px; } }
+    @media (max-width: 1199px) {
+      .utility-sec.floating-icon-left:before {
+        right: -10vw;
+        top: 60px; } }
+    @media (max-width: 991px) {
+      .utility-sec.floating-icon-left:before {
+        top: 65px;
+        right: -12vw; } }
+    @media (max-width: 767px) {
+      .utility-sec.floating-icon-left:before {
+        right: -16vw; } }
   .utility-sec .title-block h2 {
     color: #2E4276;
     font-size: 40px;
@@ -144,6 +167,9 @@
 .team-sec {
   padding-bottom: 100px;
   display: flex; }
+  .team-sec.floating-icon-left:before {
+    bottom: auto;
+    top: 75px; }
   .team-sec .team-col {
     padding: 8px;
     width: calc(100%/ 3); }
