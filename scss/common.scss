@@ -1009,3 +1009,17 @@ button{
         max-width: 300px;
     }
 }
+@media(max-width: 430px){
+    .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator{
+        font-size: 14px;
+    }
+    .custom-modal .inp-block-modal .custom-inp.ant-picker {
+        padding: 6px 10px;
+        height: 40px;
+    }
+}
+@media(max-width: 380px){
+    .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator{
+        font-size: 12px;
+    }
+}
