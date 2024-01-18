@@ -105,6 +105,12 @@
       margin-bottom: 25px; }
     .home-banner-sec .home-banner-cover .banner-card-cover {
       width: 100%; }
+      @media (max-width: 1441px) {
+        .home-banner-sec .home-banner-cover .banner-card-cover {
+          width: 880px; } }
+      @media (max-width: 1199px) {
+        .home-banner-sec .home-banner-cover .banner-card-cover {
+          width: 100%; } }
     .home-banner-sec .home-banner-cover .banner-card-wapper {
       margin: 0 -6px;
       display: flex; }
@@ -112,19 +118,35 @@
         padding: 6px;
         width: calc(100%/ 4); }
       .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
-        padding: 19px 27px;
+        padding: 19px 20px;
         text-align: left;
         border-radius: 10px;
         border: 1px solid #B6C3E5;
-        height: 100%; }
-        @media (max-width: 579px) {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.9); }
+        @media (max-width: 1679px) {
           .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
-            background-color: rgba(255, 255, 255, 0.9); } }
+            padding: 19px 15px; } }
         .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p {
           color: #2966FF;
           font-size: 14px;
-          margin-bottom: 5px; }
+          margin-bottom: 5px;
+          display: flex;
+          align-items: flex-start; }
+          .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p img {
+            margin-top: 1px;
+            margin-right: 8px;
+            width: 18px; }
+            @media (max-width: 1679px) {
+              .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p img {
+                font-size: 16px; } }
+          @media (max-width: 1679px) {
+            .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p {
+              font-size: 13px; } }
         .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card h4 {
+          margin-top: auto;
           font-size: 24px;
           font-weight: 600;
           margin-bottom: 0;
@@ -657,11 +679,7 @@
 
   .home-banner-sec .home-banner-cover::before {
     height: 350px;
-    top: 50px; }
-
-  .theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
-    background: rgba(1, 1, 6, 0.63);
-    top: 0; } }
+    top: 50px; } }
 @media (max-width: 767px) {
   .home-video-block:after {
     bottom: auto;
@@ -807,7 +825,7 @@
 
   .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .right-col .video-block {
     min-height: 180px; } }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .home-banner-sec .home-banner-cover .banner-card-wapper .banner-col {
     width: 100%; }
 

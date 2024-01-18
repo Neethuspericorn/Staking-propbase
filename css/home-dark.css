@@ -284,5 +284,8 @@
   display: block; }
 .theme-dark .table-sec1 .table tr td {
   color: #fff !important; }
+.theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card {
+  background: rgba(1, 1, 6, 0.63);
+  top: 0; }
 
 /*# sourceMappingURL=home-dark.css.map */

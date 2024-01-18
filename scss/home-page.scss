@@ -109,6 +109,12 @@
         }
         .banner-card-cover{
             width: 100%;
+            @media ($sm-1441){
+                width: 880px;
+            }
+            @media ($sm-1199){
+                width: 100%;
+            }
         }
         .banner-card-wapper{
             margin: 0 -6px;
@@ -118,20 +124,37 @@
                 width: calc(100%/ 4);
             }
             .banner-num-card{
-                padding: 19px 27px;
+                padding: 19px 20px;
                 text-align: left;
                 border-radius: 10px;
                 border: 1px solid #B6C3E5;
                 height: 100%;
-                @media ($sm-579){
-                    background-color: rgba($color: #fff, $alpha: 0.90);
+                display: flex;
+                flex-direction: column;
+                background-color: rgba($color: #fff, $alpha: 0.90);
+                @media ($sm-1679){
+                    padding: 19px 15px;
                 }
                 p{
                     color: $primary-blue;
                     font-size: 14px;
                     margin-bottom: 5px;
+                    display: flex;
+                    align-items: flex-start;
+                    img{
+                        margin-top: 1px;
+                        margin-right: 8px;
+                        width: 18px;
+                        @media ($sm-1679){
+                            font-size: 16px
+                        }
+                    }
+                    @media ($sm-1679){
+                        font-size: 13px;
+                    }
                 }
                 h4{
+                    margin-top: auto;
                     font-size: 24px;
                     font-weight: 600;
                     margin-bottom: 0;
@@ -757,11 +780,6 @@
         top: 50px;
         // filter: blur(147.35000610351562px);
     }
-    .theme-dark .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card{
-        background: rgba(1, 1, 6, 0.63);
-        top: 0;
-    }
-
 }
 
 @media ($sm-767){
@@ -934,7 +952,7 @@
         min-height: 180px;
     }
 }
-@media(max-width: 420px){
+@media(max-width: 450px){
     .home-banner-sec .home-banner-cover .banner-card-cover {
         // padding-top: 30px;
     }
