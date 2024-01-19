@@ -1025,5 +1025,13 @@ button{
     .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker{
         height: 40px;
     }
+    .custom-modal.crate-stake-modal .ant-picker-range .ant-picker-range-separator{
+        padding: 0 3px;
+    }
 }
    
+@media(max-width: 349px){
+    .custom-modal.crate-stake-modal .inp-block-modal  .ant-picker-large .ant-picker-input>input {
+        font-size: 13px;
+    }
+}
