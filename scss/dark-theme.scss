@@ -1086,4 +1086,11 @@ $dark-block-2: #2B2C2E;
             background: #608EFF;
         }
     }
+    .ant-picker-dropdown .ant-picker-prev-icon::before,
+    .ant-picker-dropdown .ant-picker-next-icon::before,
+    .ant-picker-dropdown .ant-picker-super-prev-icon::before,
+    .ant-picker-dropdown .ant-picker-super-next-icon::before{
+        border-color: #fff;
+    }
+
 }

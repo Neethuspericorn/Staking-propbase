@@ -711,5 +711,10 @@
     background: #2966ff; }
   .theme-dark .ant-picker-custom-range .ant-picker-panel-container .ant-picker-panels::-webkit-scrollbar-thumb:hover {
     background: #608EFF; }
+  .theme-dark .ant-picker-dropdown .ant-picker-prev-icon::before,
+  .theme-dark .ant-picker-dropdown .ant-picker-next-icon::before,
+  .theme-dark .ant-picker-dropdown .ant-picker-super-prev-icon::before,
+  .theme-dark .ant-picker-dropdown .ant-picker-super-next-icon::before {
+    border-color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

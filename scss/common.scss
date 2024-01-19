@@ -1009,20 +1009,21 @@ button{
         max-width: 300px;
     }
 }
-@media($sm-479){
-    
-    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker-range{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker-range.ant-picker .ant-picker-suffix{
-        position: absolute;
-        right: 8px;
-    }
-}
-
 @media(max-width: 430px){
     .filter-form-content .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator{
         font-size: 14px;
     }
 }
+@media(max-width: 400px){
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker-range.ant-picker .ant-picker-suffix{
+        display: none;
+    }
+    .custom-modal.crate-stake-modal .inp-block-modal  .ant-picker-large .ant-picker-input>input {
+        font-size: 14px;
+    }
+
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker{
+        height: 40px;
+    }
+}
+   
