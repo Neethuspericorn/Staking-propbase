@@ -1836,6 +1836,9 @@
       @media (max-width: 1199px) {
         .section-tokenomics .img-wrp img {
           max-width: 320px; } }
+      @media (max-width: 767px) {
+        .section-tokenomics .img-wrp img {
+          max-width: 340px; } }
     .section-tokenomics .img-wrp .chart-dark {
       display: none; }
   .section-tokenomics .col-title {
@@ -1995,5 +1998,32 @@
             width: 26px; } }
         .section-tokenomics .token-slider-wrp .token-slide-btns .btn:hover {
           background-color: #2966FF !important; }
+
+.graph-label-block {
+  margin-top: 20px;
+  display: flex;
+  border-radius: 13px;
+  padding: 10px 20px;
+  border: solid 1px #092E63; }
+  .graph-label-block .graph-label-card {
+    width: 50%;
+    display: flex;
+    align-items: center; }
+    .graph-label-block .graph-label-card .sts {
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      margin-right: 15px; }
+    .graph-label-block .graph-label-card .sts-blue {
+      background-color: #154EFF; }
+    .graph-label-block .graph-label-card .sts-grn {
+      background-color: #22AA30; }
+    .graph-label-block .graph-label-card .info-label .txt-sm {
+      font-size: 12px; }
+    .graph-label-block .graph-label-card .info-label .txt-cnt {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px; }
 
 /*# sourceMappingURL=about-props.css.map */

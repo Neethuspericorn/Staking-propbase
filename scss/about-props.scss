@@ -2251,6 +2251,9 @@
             @media ($sm-1199){
                 max-width: 320px;
             }
+            @media ($sm-767){
+                max-width: 340px;
+            }
         }
         .chart-dark{
             display: none;
@@ -2451,5 +2454,40 @@
             
         }
 
+    }
+}
+.graph-label-block{
+    margin-top: 20px;
+    display: flex;
+    border-radius: 13px;
+    padding: 10px 20px;
+    border: solid 1px #092E63;
+    .graph-label-card{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        .sts{
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .sts-blue{
+            background-color: #154EFF;
+        }
+        .sts-grn{
+            background-color: #22AA30;
+        }
+        .info-label{
+            .txt-sm{
+                font-size: 12px;
+            }
+            .txt-cnt{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+        }
     }
 }
