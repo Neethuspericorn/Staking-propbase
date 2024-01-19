@@ -1009,6 +1009,19 @@ button{
         max-width: 300px;
     }
 }
+@media($sm-479){
+    
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker-range{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .custom-modal.crate-stake-modal .inp-block-modal .custom-inp.ant-picker-range.ant-picker .ant-picker-suffix{
+        position: absolute;
+        right: 8px;
+    }
+    
+}
+
 @media(max-width: 430px){
     .ant-picker .ant-picker-input >input, .ant-picker .ant-picker-separator{
         font-size: 14px;
