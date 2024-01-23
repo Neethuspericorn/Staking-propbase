@@ -1416,6 +1416,9 @@
                 .info{
                     border-color: #fff;
                     color: #fff;
+                    img{
+                        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(133deg) brightness(105%) contrast(105%) !important;
+                    }
                 }
                 .tab-label{
                     color: #fff;
@@ -1433,6 +1436,7 @@
             .info{
                 border-radius: 15px;
                 border: 1px solid #697F9B;
+                border: none !important;
                 width: 15px;
                 height: 15px;
                 display: flex;
@@ -1446,6 +1450,11 @@
                 font-size: 10px;
                 font-weight: 500;
                 color: #697F9B;
+                img{
+                    max-width: 100%;
+                    filter: brightness(0) saturate(100%) invert(51%) sepia(10%) saturate(1217%) hue-rotate(174deg) brightness(94%) contrast(83%);
+
+                }
             }
             .tab-label{
                 font-size: 14px;
@@ -1639,11 +1648,17 @@
         font-size: 14px;
     }
     .staking-card-block .table-block-cover .table-card .info {
-        width: 12px;
-        height: 12px;
+        width: 13px;
+        height: 13px;
         font-size: 8px;
         right: 5px;
         top: 5px;
+    }
+}
+@media(max-width: 1350px){
+    .staking-card-block .table-block-cover .table-card .info {
+        width: 14px;
+        height: 14px;
     }
 }
 @media($sm-991){
@@ -1673,7 +1688,7 @@
         min-height: 70px;
     }
 }
-@media(max-width: 350px){
+@media(max-width: 349px){
     .staking-card-block .table-block-cover .table-card .tab-label {
         font-size: 11px;
     }
@@ -1689,8 +1704,8 @@
     .staking-card-block .progress-sm-sec .progress-col.progress-col-left{
         margin-bottom: 10px;
     }
-}
-@media(max-width: 330px){
+// }
+// @media(max-width: 340px){
     .staking-card-block .table-block-cover{
         flex-wrap: wrap;
     }

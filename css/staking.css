@@ -1062,6 +1062,8 @@
         .staking-card-block .table-block-cover .table-card.expected-reward .info {
           border-color: #fff;
           color: #fff; }
+          .staking-card-block .table-block-cover .table-card.expected-reward .info img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(133deg) brightness(105%) contrast(105%) !important; }
         .staking-card-block .table-block-cover .table-card.expected-reward .tab-label {
           color: #fff; }
         .staking-card-block .table-block-cover .table-card.expected-reward .tab-val {
@@ -1073,6 +1075,7 @@
       .staking-card-block .table-block-cover .table-card .info {
         border-radius: 15px;
         border: 1px solid #697F9B;
+        border: none !important;
         width: 15px;
         height: 15px;
         display: flex;
@@ -1086,6 +1089,9 @@
         font-size: 10px;
         font-weight: 500;
         color: #697F9B; }
+        .staking-card-block .table-block-cover .table-card .info img {
+          max-width: 100%;
+          filter: brightness(0) saturate(100%) invert(51%) sepia(10%) saturate(1217%) hue-rotate(174deg) brightness(94%) contrast(83%); }
       .staking-card-block .table-block-cover .table-card .tab-label {
         font-size: 14px;
         font-style: normal;
@@ -1264,11 +1270,15 @@
     font-size: 14px; }
 
   .staking-card-block .table-block-cover .table-card .info {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     font-size: 8px;
     right: 5px;
     top: 5px; } }
+@media (max-width: 1350px) {
+  .staking-card-block .table-block-cover .table-card .info {
+    width: 14px;
+    height: 14px; } }
 @media (max-width: 991px) {
   .staking-card-block .timer-card-cover .timer-wrapper {
     max-width: 420px;
@@ -1290,7 +1300,7 @@
   .staking-card-block .card-banner-block {
     max-height: 85px;
     min-height: 70px; } }
-@media (max-width: 350px) {
+@media (max-width: 349px) {
   .staking-card-block .table-block-cover .table-card .tab-label {
     font-size: 11px; }
 
@@ -1304,8 +1314,8 @@
     width: 100% !important; }
 
   .staking-card-block .progress-sm-sec .progress-col.progress-col-left {
-    margin-bottom: 10px; } }
-@media (max-width: 330px) {
+    margin-bottom: 10px; }
+
   .staking-card-block .table-block-cover {
     flex-wrap: wrap; }
 
