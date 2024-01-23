@@ -716,5 +716,29 @@
   .theme-dark .ant-picker-dropdown .ant-picker-super-prev-icon::before,
   .theme-dark .ant-picker-dropdown .ant-picker-super-next-icon::before {
     border-color: #fff; }
+  .theme-dark .staking-card-block .title-block h4, .theme-dark .staking-card-block .title-block p,
+  .theme-dark .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block,
+  .theme-dark .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt, .theme-dark .staking-card-block .timer-card-cover .timer-wrapper .time-col .time-label,
+  .theme-dark .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator, .theme-dark .staking-card-block .progress-sm-sec h5,
+  .theme-dark .staking-card-block .table-block-cover .table-card .tab-label, .theme-dark .staking-card-block .table-block-cover .table-card .tab-val {
+    color: #fff; }
+  .theme-dark .staking-card-block .timer-card-cover {
+    border-color: #1A1A1A; }
+  .theme-dark .staking-card-block .progress-sm-sec .progress-col,
+  .theme-dark .staking-card-block .table-block-cover .table-card, .theme-dark .staking-card-block .table-block-cover {
+    border-color: #1B1B1B; }
+  .theme-dark .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt {
+    border-color: #3A3A3A; }
+    .theme-dark .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt.active {
+      background-color: #1F1F1F; }
+  .theme-dark .staking-card-block {
+    border-color: #484848;
+    background-color: #000; }
+  .theme-dark .staking-card-block .table-block-cover .table-card.expected-reward .info {
+    border-color: #ffffff63;
+    color: #ffffff63; }
+  .theme-dark .staking-card-block .card-btm-sec .stake-btn.btn-border {
+    background-color: transparent;
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

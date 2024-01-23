@@ -1194,3 +1194,525 @@
         }
     }
 }
+
+.staking-card-block{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card-banner-block{
+        aspect-ratio: 3.198;
+        width: 100%;
+        min-height: 110px;
+        position: relative;
+        border-radius: 14px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 19, 46, 0.00) 3.5%, #00132E 91%);
+        }
+        .bnr-img-sm{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .logo-block{
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .coin-logo{
+            display: inline-flex;
+            align-items: center;
+            .img-coin{
+                width: 40px;
+            }
+            .img-coin-txt{
+                margin-left: 8px;
+                max-height: 22px;
+            }
+        }
+        .certic-label{
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            font-style: italic;
+            img{
+                margin-left: 8px;
+            }
+        }
+    }
+    .title-block{
+        margin-bottom: 20px;
+        h4{
+            font-size: 22px;
+            font-weight: 600;
+            color: #2E4276;
+        }
+        p{
+            color: #4D6090;
+            margin-bottom: 0;
+            font-size: 15px;
+        }
+    }
+    .timer-card-cover{
+        margin-bottom: 15px;
+        border-radius: 23px;
+        overflow: hidden;
+        border: 1px solid #E3E4F3;
+        .start-label{
+            border-radius: 22px 22px 0 0;
+            padding: 3px 10px;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            background-color: $primary-blue;
+            font-size: 12px;
+        }
+        .timer-wrapper{
+            display: flex;
+            align-items: center;
+            padding: 8px 25px;
+            .time-col{
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .timer-cnt{
+                    width: 53px;
+                    height: 53px;
+                    flex-shrink: 0;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 0;
+                    margin-bottom: 5px;
+                    border: solid 1px #E3E4F3;
+                    font-size: 19px;
+                    background-color: transparent;
+                    color: #4D6090;
+                    &.active{
+                        border-color: #E6EEFF;
+                        background-color: #E6EEFF;
+                    }
+                }
+                .time-label{
+                    text-align: center;
+                    font-size: 12px;
+                    color: #4D6090;
+                }
+            }
+            .dot-seprator{
+                align-self: flex-start;
+                padding-top: 2px;
+                font-size: 30px;
+                color: #4D6090;                
+                margin: 0 15px;
+                
+            }
+        }
+    }
+    .progress-sm-sec{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        .progress-col{
+            border-radius: 15px;
+            border: 1px solid #E3E4F3;
+            
+            overflow: hidden;
+            &.progress-col-left{
+                width: calc(60% - 10px);
+            }
+            &.progress-col-right{
+                width: 40%;
+            }
+        }
+        .dur-cover{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            .dur-itm-block{
+                width: 100%;
+                height: 50%;
+                min-height: 52px;
+                font-weight: 300;
+                color: #2E4276;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                span{
+                    font-weight: 700;
+                }
+            }
+            .apy-block{
+                background-color: $primary-blue;
+                color: #fff;
+            }
+            .dur-block{
+                flex-direction: column;
+            }
+        }
+        .progress-bar-block{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 15px 10px;
+        }
+        .text-block{
+            flex: 1 1 auto;
+        }
+        .progress-label{
+            font-size: 14px;
+            color: $primary-blue;
+            margin-bottom: 5px;
+        }
+        h5{
+            font-size: 16px;
+            font-weight: 600;
+            color: #2E4276;
+            margin-bottom: 0;
+        }
+        .progress-block{
+            flex: 0 0 auto;
+            width: 90px;
+        }
+    }
+    .table-block-cover{
+        width: 100%;
+        display: flex;
+        border-radius: 15px;
+        border: 1px solid #E3E4F3;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        .table-card{
+            padding: 10px 15px;
+            position: relative;
+            width: 50%;
+            &.expected-reward{
+                background-color: $primary-blue;
+                border-radius: 0 15px 15px 0;
+                .info{
+                    border-color: #fff;
+                    color: #fff;
+                }
+                .tab-label{
+                    color: #fff;
+                }
+                .tab-val{
+                    color: #fff;
+                }
+            }
+            &:nth-child(odd){
+                border-right: 1px solid #E3E4F3;
+            }
+            &.card-br-b{
+                border-bottom: 1px solid #E3E4F3;
+            }
+            .info{
+                border-radius: 15px;
+                border: 1px solid #697F9B;
+                width: 15px;
+                height: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 0;
+                flex-shrink: 0;
+                position: absolute;
+                right: 8px;
+                top: 8px;
+                font-size: 10px;
+                font-weight: 500;
+                color: #697F9B;
+            }
+            .tab-label{
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;;
+                color: #697F9B;
+                margin-bottom: 8px;
+            }
+            .tab-val{
+                color: #2E4276;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+            }
+        }
+    }
+    .card-btm-sec{
+        flex: 0 0 auto;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        padding-top: 15px;
+        flex-wrap: wrap;
+        .badge-staking-date {
+            width: 100%;
+            span {
+                border: 1px solid $btn-border-green;
+                background: $light-green;
+                padding: 7px 26px;
+                border-radius: 50px;
+                margin-bottom: 17px;
+                margin-top: 12px;
+                color:$btn-green-text;
+                display: inline-block;
+                font-size: 13px;
+                font-weight: 500;
+                @media(max-width:1679px)
+                {
+                    font-size: 11px;
+                }
+                @media(max-width:575px)
+                {
+                    padding: 7px 12px;
+                }
+            }
+        }
+        .stake-btn{
+            padding: 12px 15px;
+            text-decoration: none;
+            width: calc(50% - 5px);
+            display: block;
+            text-align: center;
+            &.not-allowed{
+                opacity: .5;
+            }
+            &.btn-border{
+                color: #697f9b;
+                border: 1px solid #B6C3E5 !important;
+            }
+        }
+    }
+}
+@media($sm-1679){
+    .staking-card-block .progress-sm-sec h5{
+        font-size: 14px;
+    }
+    .staking-card-block .card-banner-block .coin-logo .img-coin {
+        width: 32px;
+    }
+    .staking-card-block .card-banner-block .coin-logo .img-coin-txt {
+        max-height: 18px;
+    }
+    .staking-card-block .card-banner-block .certic-label{
+        font-size: 12px;
+    }
+    .staking-card-block .card-banner-block .certic-label img{
+        width: 20px;
+    }
+    .staking-card-block .title-block h4 {
+        font-size: 18px;
+    }
+    .staking-card-block .title-block p{
+        font-size: 13px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .time-col .time-label{
+        font-size: 10px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator {
+        font-size: 24px;
+        padding-top: 2px;
+    }
+    .staking-card-block{
+        padding: 15px;
+    }
+    .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block{
+        font-size: 13px;
+        min-height: 30px;
+    }
+    .staking-card-block .table-block-cover .table-card .tab-val{
+        font-size: 14px;
+    }
+    .staking-card-block .table-block-cover .table-card .tab-label{
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .staking-card-block .table-block-cover .table-card {
+        padding: 9px 12px;
+    }
+    .staking-card-block .progress-sm-sec, .staking-card-block .table-block-cover, 
+    .staking-card-block .timer-card-cover {
+        margin-bottom: 10px;
+    }
+    .staking-card-block .card-btm-sec .stake-btn{
+        font-size: 14px;
+    }
+    .staking-card-block .card-banner-block{
+        max-height: 110px;
+        margin-bottom: 12px;
+    }
+    .staking-card-block .title-block {
+        margin-bottom: 12px;
+    }
+    .staking-card-block .table-block-cover .table-card .tab-val{
+        margin-bottom: 0;
+    }
+    .staking-card-block .card-btm-sec{
+        padding-top: 10px;
+    }
+    .staking-card-block .progress-sm-sec .dur-cover .apy-block{
+        padding: 5px;
+    }
+    .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block.dur-block{
+        padding: 10px 5px;
+    }
+    .staking-card-block .card-btm-sec .stake-btn {
+        padding: 10px 15px;
+    }
+}
+@media($sm-1481){
+    .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+    .staking-card-block .card-banner-block{
+        max-height: 100px;
+        min-height: 95px;
+    }
+    .staking-card-block .card-banner-block .logo-block{
+        padding: 10px;
+    }
+    .staking-card-block .card-banner-block .coin-logo .img-coin {
+        width: 25px;
+    }
+    .staking-card-block .card-banner-block .coin-logo .img-coin-txt {
+        max-height: 15px;
+    }
+    .staking-card-block .card-banner-block .certic-label img {
+        width: 19px;
+    }
+    .staking-card-block .card-banner-block .certic-label{
+        font-size: 11px;
+    }
+    .staking-card-block .title-block h4 {
+        font-size: 16px;
+    }
+    .staking-card-block .title-block p {
+        font-size: 12px;
+    }
+    .staking-card-block .progress-sm-sec h5 {
+        font-size: 13px;
+    }
+    .staking-card-block .progress-sm-sec .progress-bar-block {
+        padding: 10px 10px;
+    }
+    .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
+        font-size: 12px;
+        min-height: 26px;
+        line-height: 15px;
+    }
+    .staking-card-block .table-block-cover .table-card .tab-label {
+        margin-bottom: 3px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .staking-card-block .table-block-cover .table-card .info {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+        right: 5px;
+        top: 5px;
+    }
+}
+@media($sm-991){
+    .staking-card-block .timer-card-cover .timer-wrapper{
+        max-width: 420px;
+        margin: 0 auto;
+    }
+}
+@media($sm-579){
+    .staking-card-block .card-btm-sec .stake-btn {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt{
+        margin-bottom: 2px;
+    }
+}
+@media(max-width: 380px){
+    .staking-card-block .timer-card-cover .timer-wrapper {
+        padding: 8px 10px;
+    }
+    .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator{
+        margin: 0 5px;
+    }
+    .staking-card-block .card-banner-block{
+        max-height: 85px;
+        min-height: 70px;
+    }
+}
+@media(max-width: 350px){
+    .staking-card-block .table-block-cover .table-card .tab-label {
+        font-size: 11px;
+    }
+    .staking-card-block .table-block-cover .table-card .tab-val {
+        font-size: 12px;
+    }
+    .staking-card-block .progress-sm-sec{
+        flex-wrap: wrap;
+    }
+    .staking-card-block .progress-sm-sec .progress-col{
+        width: 100% !important;
+    }
+    .staking-card-block .progress-sm-sec .progress-col.progress-col-left{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 330px){
+    .staking-card-block .table-block-cover{
+        flex-wrap: wrap;
+    }
+    .staking-card-block .table-block-cover .table-card{
+        width: 100%;
+        border-bottom: 1px solid #E3E4F3;
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
+    .staking-card-block .table-block-cover .table-card.expected-reward{
+        border-radius: 0 0 15px 15px;
+    }
+    .staking-card-block .table-block-cover .table-card:nth-child(odd){
+        border-right: 0;
+    }
+    .staking-card-block .table-block-cover .table-card .info {
+        right: 7px;
+        top: 6px;
+    }
+    .staking-card-block .card-btm-sec .stake-btn {
+        width: calc(50% - 3px);
+
+    }
+}

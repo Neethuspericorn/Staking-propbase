@@ -614,5 +614,7 @@
       width: 100%; }
       .portfolio-sec .portfolio-card .title-wrapper .title-btn-block .title-sel {
         flex: 1 1 auto; } }
+.portfolio-card .table-no-data-h {
+  min-height: auto !important; }
 
 /*# sourceMappingURL=portfolio.css.map */
