@@ -1731,3 +1731,38 @@
 
     }
 }
+
+.filter-wrapper{
+    .block-left{
+        max-width: 100%;
+    }
+}
+@media(max-width:579px){
+    .filter-wrapper {
+        padding: 13px 0;
+    }
+}
+.filter-nav-btn-wrapper.filter-nav-scroll{
+    @media(max-width:767px){
+        overflow: hidden;
+        overflow-x: auto;
+        .filter-nav-btn{
+            margin-right: 8px;
+            text-wrap: nowrap;
+            min-width: auto;
+            &::after{
+                bottom: 0 !important;
+            }
+        }
+    }
+    @media(max-width:579px){
+        .filter-nav-btn{
+            margin-right: 3px;
+            margin-bottom: 5px;
+            padding: 7px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
