@@ -742,5 +742,7 @@
     color: #fff; }
   .theme-dark .staking-card-block .table-block-cover .table-card .info img {
     filter: none; }
+  .theme-dark .card-section-outer .pool-title {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

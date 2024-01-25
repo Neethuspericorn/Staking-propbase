@@ -1587,7 +1587,9 @@
   padding-top: 5px;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  color: #2E4276;
+  margin-bottom: 10px; }
   @media (max-width: 1679px) {
     .card-section-outer .pool-title {
       font-size: 17px; } }
