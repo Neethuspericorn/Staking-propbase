@@ -1583,5 +1583,19 @@
 
   .welcome-stake-outer-new .content-block p {
     font-size: 12px; } }
+.card-section-outer .pool-title {
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0; }
+  @media (max-width: 1679px) {
+    .card-section-outer .pool-title {
+      font-size: 17px; } }
+  @media (max-width: 1199px) {
+    .card-section-outer .pool-title {
+      font-size: 16px; } }
+  @media (max-width: 579px) {
+    .card-section-outer .pool-title {
+      font-size: 15px; } }
 
 /*# sourceMappingURL=staking.css.map */
