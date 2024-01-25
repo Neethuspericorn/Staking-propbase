@@ -1794,6 +1794,7 @@
             position: left;
             size: cover;
         };
+        background-position: calc(100% + 20px);
     }
     &::after{
         content: '';
@@ -1832,6 +1833,7 @@
         font-style: italic;
         font-size: 14px;
         z-index: 3;
+        color: $primary-light;
         img{
             margin-left: 8px;
         }
@@ -1858,6 +1860,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 15px;
+            color: $primary-light;
             img{
                 margin-right: 8px;
             }
@@ -1865,6 +1868,7 @@
         p{
             font-size: 16px;
             margin-bottom: 0;
+            color: $primary-light;
         }
     }
 }
