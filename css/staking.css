@@ -160,6 +160,8 @@
         margin-bottom: 25px;
         display: flex;
         justify-content: space-between; }
+        .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner:last-child {
+          margin-bottom: 8px; }
         @media (max-width: 1679px) {
           .staking-dashboard-outer .total-value-outer .tot-detl-outer .total-inner {
             margin-bottom: 20px; } }
@@ -1342,7 +1344,7 @@
 
 @media (max-width: 579px) {
   .filter-wrapper {
-    padding: 13px 0; } }
+    padding: 13px 10px; } }
 @media (max-width: 767px) {
   .filter-nav-btn-wrapper.filter-nav-scroll {
     overflow: hidden;
@@ -1360,5 +1362,222 @@
     padding: 7px; }
     .filter-nav-btn-wrapper.filter-nav-scroll .filter-nav-btn:last-child {
       margin-right: 0; } }
+
+.welcome-stake-outer-new {
+  margin-right: 15px;
+  padding: 50px 50px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 6px;
+  flex: 1 1 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 23px 20px 30px;
+  background: linear-gradient(93deg, #0153C9 0.77%, #0007B8 99.69%); }
+  .welcome-stake-outer-new::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 40%;
+    background-image: url("../img/soon-bg-left.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover; }
+  .welcome-stake-outer-new::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 240px;
+    background-image: url("../img/soon-bg-right.svg");
+    background-repeat: no-repeat;
+    background-position: right; }
+  .welcome-stake-outer-new .logo-bg {
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: auto;
+    right: 28%;
+    opacity: .5; }
+    .welcome-stake-outer-new .logo-bg img {
+      max-height: calc(100% - 20px); }
+  .welcome-stake-outer-new .certic-block {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    background-color: #00117E;
+    border-radius: 20px;
+    padding: 5px 10px;
+    right: 12px;
+    top: 20px;
+    font-style: italic;
+    font-size: 14px;
+    z-index: 3; }
+    .welcome-stake-outer-new .certic-block img {
+      margin-left: 8px; }
+  .welcome-stake-outer-new .content-block {
+    width: 70%;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: 15%;
+    position: relative;
+    z-index: 2; }
+    .welcome-stake-outer-new .content-block .logo-block {
+      margin-bottom: 12px; }
+    .welcome-stake-outer-new .content-block h2 {
+      margin-bottom: 12px;
+      font-size: 35px;
+      font-weight: 600;
+      color: #fff; }
+    .welcome-stake-outer-new .content-block h3 {
+      font-size: 28px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px; }
+      .welcome-stake-outer-new .content-block h3 img {
+        margin-right: 8px; }
+    .welcome-stake-outer-new .content-block p {
+      font-size: 16px;
+      margin-bottom: 0; }
+
+@media (max-width: 1679px) {
+  .welcome-stake-outer-new .content-block h2 {
+    font-size: 26px; }
+
+  .welcome-stake-outer-new .content-block h3 {
+    font-size: 21px; }
+
+  .welcome-stake-outer-new .content-block h3 img {
+    width: 32px; }
+
+  .welcome-stake-outer-new .content-block .logo-block img {
+    height: 25px; }
+
+  .welcome-stake-outer-new .content-block p {
+    font-size: 14px; }
+
+  .welcome-stake-outer-new .content-block {
+    max-width: 370px; }
+
+  .welcome-stake-outer-new .certic-block {
+    font-size: 12px;
+    top: 14px; }
+    .welcome-stake-outer-new .certic-block img {
+      width: 20px; }
+
+  .welcome-stake-outer-new::before {
+    width: 30%;
+    background-position: calc(100% + 50px);
+    background-size: auto 248px; } }
+@media (max-width: 1481px) {
+  .welcome-stake-outer-new .content-block .logo-block img {
+    height: 22px; }
+
+  .welcome-stake-outer-new .content-block h2 {
+    font-size: 24px; }
+
+  .welcome-stake-outer-new .content-block h3 {
+    font-size: 19px; }
+
+  .welcome-stake-outer-new .content-block h3 img {
+    width: 30px; }
+
+  .welcome-stake-outer-new .content-block p {
+    font-size: 13px; }
+
+  .welcome-stake-outer-new {
+    align-items: center; }
+
+  .welcome-stake-outer-new .content-block {
+    max-width: 338px;
+    margin-right: 12%; }
+
+  .welcome-stake-outer-new::before {
+    background-position: calc(100% + 35px);
+    background-size: auto 200px; } }
+@media (max-width: 1400px) {
+  .welcome-stake-outer-new::before {
+    background-position: calc(100% + 25px);
+    background-size: auto 180px; } }
+@media (max-width: 1300px) {
+  .welcome-stake-outer-new::before {
+    background-position: calc(100% + 0px);
+    background-size: contain; }
+
+  .welcome-stake-outer-new .content-block {
+    margin-right: 8%; } }
+@media (max-width: 1199px) {
+  .welcome-stake-outer-new .content-block {
+    margin-right: 20%; }
+
+  .welcome-stake-outer-new::before {
+    width: 35%; }
+
+  .welcome-stake-outer-new .content-block h2 {
+    font-size: 22px; }
+
+  .welcome-stake-outer-new .content-block h3 {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  .welcome-stake-outer-new::before {
+    width: 30%; }
+
+  .welcome-stake-outer-new .content-block {
+    margin-right: 15%; } }
+@media (max-width: 640px) {
+  .welcome-stake-outer-new::before {
+    display: none; }
+
+  .welcome-stake-outer-new .content-block {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 10%; }
+
+  .welcome-stake-outer-new .logo-bg {
+    left: 18%;
+    right: auto;
+    opacity: .5; } }
+@media (max-width: 579px) {
+  .welcome-stake-outer-new .content-block {
+    margin-left: 0; }
+
+  .welcome-stake-outer-new .content-block h2 {
+    font-size: 20px; }
+
+  .welcome-stake-outer-new .content-block h3 {
+    font-size: 16px; }
+
+  .welcome-stake-outer-new .content-block h3 img {
+    width: 26px; }
+
+  .welcome-stake-outer-new .logo-bg {
+    left: 12%; }
+
+  .welcome-stake-outer-new .logo-bg {
+    height: 90%; } }
+@media (max-width: 479px) {
+  .welcome-stake-outer-new .certic-block {
+    font-size: 11px; }
+
+  .welcome-stake-outer-new .content-block .logo-block img {
+    height: 19px; }
+
+  .welcome-stake-outer-new .content-block h2 {
+    font-size: 18px; }
+
+  .welcome-stake-outer-new .content-block h3 {
+    font-size: 14px; }
+
+  .welcome-stake-outer-new .content-block h3 img {
+    width: 24px; }
+
+  .welcome-stake-outer-new .content-block p {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=staking.css.map */
