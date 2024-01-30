@@ -1374,6 +1374,9 @@
   position: relative;
   padding: 23px 20px 30px;
   background: linear-gradient(93deg, #0153C9 0.77%, #0007B8 99.69%); }
+  @media (max-width: 1199px) {
+    .welcome-stake-outer-new {
+      margin-right: 0; } }
   .welcome-stake-outer-new::before {
     content: '';
     position: absolute;
