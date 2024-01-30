@@ -374,6 +374,8 @@
     align-items: center; }
     .card-section-outer .top-block .progress-bar-section .progress-bar-block {
       flex: 1 1 auto; }
+      .card-section-outer .top-block .progress-bar-section .progress-bar-block .CircularProgressbar .CircularProgressbar-text {
+        fill: #2e4276; }
     .card-section-outer .top-block .progress-bar-section .progress-count {
       flex: 0 0 auto;
       color: #0C15F9;
@@ -1285,13 +1287,34 @@
   .staking-card-block .timer-card-cover .timer-wrapper {
     max-width: 420px;
     margin: 0 auto; } }
+@media (max-width: 767px) {
+  .staking-card-block .table-block-cover .table-card {
+    padding-right: 15px; }
+
+  .staking-card-block .table-block-cover .table-card .info {
+    width: 12px;
+    height: 12px;
+    right: 4px;
+    top: 4px; } }
 @media (max-width: 579px) {
   .staking-card-block .card-btm-sec .stake-btn {
-    padding: 9px 15px;
+    padding: 11px 15px;
     font-size: 13px; }
 
   .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt {
     margin-bottom: 2px; } }
+@media (max-width: 479px) {
+  .staking-card-block .progress-sm-sec .progress-block {
+    width: 70px; }
+
+  .staking-card-block .progress-sm-sec .progress-label {
+    font-size: 12px; }
+
+  .staking-card-block {
+    padding: 15px 12px; } }
+@media (max-width: 400px) {
+  .staking-card-block .progress-sm-sec .progress-block {
+    width: 55px; } }
 @media (max-width: 380px) {
   .staking-card-block .timer-card-cover .timer-wrapper {
     padding: 8px 10px; }
@@ -1536,7 +1559,11 @@
     width: 30%; }
 
   .welcome-stake-outer-new .content-block {
-    margin-right: 15%; } }
+    margin-right: 15%; }
+
+  .staking-card-block .table-block-cover .table-card {
+    padding-top: 12px;
+    padding-bottom: 14px; } }
 @media (max-width: 640px) {
   .welcome-stake-outer-new::before {
     display: none; }
@@ -1567,7 +1594,19 @@
     left: 12%; }
 
   .welcome-stake-outer-new .logo-bg {
-    height: 90%; } }
+    height: 90%; }
+
+  .staking-card-block .title-block {
+    margin-bottom: 20px; }
+
+  .staking-card-block .card-banner-block {
+    margin-bottom: 14px; }
+
+  .staking-card-block .timer-card-cover {
+    margin-bottom: 12px; }
+
+  .staking-card-block .table-block-cover .table-card .tab-label {
+    margin-bottom: 8px; } }
 @media (max-width: 479px) {
   .welcome-stake-outer-new .certic-block {
     font-size: 11px; }

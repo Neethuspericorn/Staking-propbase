@@ -34,7 +34,8 @@ ul,ol{
     &.nav-collapse{
         @media ($lg-992) {
             .content-block-outer{
-                max-width: calc(100% - 95px);
+                // max-width: calc(100% - 95px);
+                max-width: calc(100% - 84px);
             }
         }
     }

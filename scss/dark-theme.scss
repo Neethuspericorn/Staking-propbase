@@ -1132,4 +1132,9 @@ $dark-block-2: #2B2C2E;
     .card-section-outer .pool-title{
         color: #fff;
     }
+    .staking-card-block .progress-sm-sec .progress-block{
+        .CircularProgressbar .CircularProgressbar-text{
+            fill: #fff;
+        }
+    }
 }

@@ -744,5 +744,7 @@
     filter: none; }
   .theme-dark .card-section-outer .pool-title {
     color: #fff; }
+  .theme-dark .staking-card-block .progress-sm-sec .progress-block .CircularProgressbar .CircularProgressbar-text {
+    fill: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */
