@@ -1140,8 +1140,8 @@
       .staking-card-block .card-btm-sec .stake-btn.not-allowed {
         opacity: .5; }
       .staking-card-block .card-btm-sec .stake-btn.btn-border {
-        color: #697f9b;
-        border: 1px solid #B6C3E5 !important; }
+        color: #2966FF;
+        border: 1px solid #2966FF !important; }
 
 @media (max-width: 1679px) {
   .staking-card-block .progress-sm-sec h5 {
