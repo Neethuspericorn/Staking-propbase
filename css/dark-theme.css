@@ -746,7 +746,9 @@
     color: #fff; }
   .theme-dark .staking-card-block .progress-sm-sec .progress-block .CircularProgressbar .CircularProgressbar-text {
     fill: #fff; }
-  .theme-dark .custom-inp .css-13cymwt-control input {
+  .theme-dark .custom-inp .css-feonkk-Input2, .theme-dark .custom-inp .css-1cfo1cf {
+    color: #fff !important; }
+  .theme-dark .custom-inp .css-hlgwow > div {
     color: #fff !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */

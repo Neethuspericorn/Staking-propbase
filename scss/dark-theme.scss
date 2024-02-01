@@ -1137,7 +1137,10 @@ $dark-block-2: #2B2C2E;
             fill: #fff;
         }
     }
-    .custom-inp  .css-13cymwt-control input{
+    .custom-inp .css-feonkk-Input2, .custom-inp .css-1cfo1cf{
+        color: $primary-light !important;
+    }
+    .custom-inp .css-hlgwow > div{
         color: $primary-light !important;
     }
 }

@@ -255,7 +255,8 @@
 
 .nav-footer-block .nav-footer-logo,
 .nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block {
-  transition-delay: .2s; }
+  transition-delay: 1s;
+  opacity: 1; }
 
 .nav-collapse .nav-footer-block {
   display: none; }
