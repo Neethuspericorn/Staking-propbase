@@ -746,5 +746,7 @@
     color: #fff; }
   .theme-dark .staking-card-block .progress-sm-sec .progress-block .CircularProgressbar .CircularProgressbar-text {
     fill: #fff; }
+  .theme-dark .custom-inp .css-13cymwt-control input {
+    color: #fff !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */
