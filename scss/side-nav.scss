@@ -262,11 +262,14 @@
         }
     }
     .nav-footer-block{
-        padding: 10px 15px 20px 30px;
+        padding: 10px 35px 20px 30px;
         margin-top: auto;
         margin-bottom: 0;
         overflow: hidden;
         flex: 0 0 auto;
+        @media ($sm-1679) {
+            padding: 10px 20px 10px 30px;
+        }
         .nav-footer-logo{
             margin-bottom: 15px;
             a{
@@ -281,6 +284,15 @@
             font-size: 16px;
             color: $primary-light;
             color: #486191;
+            height: 50px;
+            overflow: hidden;
+            @media ($sm-1679) {
+                height: 45px;
+            }
+            @media ($sm-1441) {
+                height: auto;
+                overflow: unset;
+            }
             span{
                 text-transform: capitalize;
                 font-weight: 600;
@@ -307,10 +319,15 @@
 }
 .nav-footer-block .nav-footer-logo, 
      .nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block{
-        transition-delay: 1s;
         opacity: 1;
+        visibility: visible;
      }
 .nav-collapse{
+    .nav-footer-block .nav-footer-logo, 
+     .nav-footer-block .welcome-msg, .nav-footer-block .nav-soc-block{
+        opacity: 0;
+        visibility: hidden;
+     }
     .nav-footer-block{
         display: none;
     }
