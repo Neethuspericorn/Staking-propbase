@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../fonts/fonts.css");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -9,14 +9,6 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-/* how to use this variabile*/
-/* .forms{
-   @include placeholder{
-    opacity: 1;color: #a5aeb7;
-  } */
-/* @include transition (.2s ease-out all); */
-/*    @include flexbox();
-    @include justify-content (center);*/
 .not-found-cover {
   padding: 15px;
   width: 100%;
@@ -26,24 +18,26 @@
   justify-content: center; }
   .not-found-cover .not-found-block {
     text-align: center;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Poppins"; }
     .not-found-cover .not-found-block h2 {
       font-size: 46px;
       font-weight: 700;
-      color: #292D32;
+      color: #2E4276;
       margin-bottom: 15px; }
     .not-found-cover .not-found-block p {
       color: #697F9B;
       font-size: 18px; }
     .not-found-cover .not-found-block .not-img {
       width: 340px; }
+    .not-found-cover .not-found-block .not-img-dark {
+      display: none; }
     .not-found-cover .not-found-block .back-btn-p {
       margin-top: 30px;
       margin-bottom: 0; }
     .not-found-cover .not-found-block .back-btn {
       display: inline-block;
-      border: solid 1px #292D32;
-      background-color: #292D32;
+      border: solid 1px #2E4276;
+      background-color: #2E4276;
       padding: 12px 55px;
       font-size: 16px;
       color: #fff;
@@ -52,7 +46,7 @@
       transition: .3s; }
       .not-found-cover .not-found-block .back-btn:hover {
         background-color: #fff;
-        color: #292D32; }
+        color: #2E4276; }
 
 @media (max-width: 1679px) {
   .not-found-cover .not-found-block .not-img {
@@ -103,7 +97,10 @@
     font-size: 14px; } }
 @media (max-width: 767px) {
   .not-found-cover .not-found-block .not-img {
-    width: 140px; } }
+    width: 140px; }
+
+  .not-found-cover .not-found-block.maintenance-found-block .not-img {
+    width: 150px; } }
 @media (max-width: 579px) {
   .not-found-cover {
     min-height: 50vh;

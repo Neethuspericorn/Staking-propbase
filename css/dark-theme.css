@@ -750,5 +750,13 @@
     color: #fff !important; }
   .theme-dark .custom-inp .css-hlgwow > div {
     color: #fff !important; }
+  .theme-dark .not-found-cover {
+    background-color: #000; }
+    .theme-dark .not-found-cover h2, .theme-dark .not-found-cover p {
+      color: #fff; }
+  .theme-dark .not-found-cover .not-found-block .not-img-light {
+    display: none; }
+  .theme-dark .not-found-cover .not-found-block .not-img-dark {
+    display: inline-block; }
 
 /*# sourceMappingURL=dark-theme.css.map */

@@ -1143,4 +1143,19 @@ $dark-block-2: #2B2C2E;
     .custom-inp .css-hlgwow > div{
         color: $primary-light !important;
     }
+    .not-found-cover{
+        background-color: $dark-bg;
+        h2, p{
+            color: $primary-light;
+        }
+    }
+    .not-found-cover .not-found-block{
+        .not-img-light{
+            display: none;
+        }
+        .not-img-dark{
+            display: inline-block;
+        }
+        
+    }
 }

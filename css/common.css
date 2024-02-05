@@ -829,5 +829,7 @@ button {
 @media (max-width: 349px) {
   .custom-modal.crate-stake-modal .inp-block-modal .ant-picker-large .ant-picker-input > input {
     font-size: 13px; } }
+.nav-tooltip {
+  padding-left: 8px; }
 
 /*# sourceMappingURL=common.css.map */
