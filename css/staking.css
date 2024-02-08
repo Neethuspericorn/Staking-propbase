@@ -944,6 +944,10 @@
       font-weight: 600;
       color: #2E4276; }
     .staking-card-block .title-block p {
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
       color: #4D6090;
       margin-bottom: 0;
       font-size: 15px; }
