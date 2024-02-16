@@ -354,7 +354,8 @@
         .card-section-outer .top-block ul li {
           font-size: 13px; } }
   .card-section-outer .top-block .pool-cap-txt {
-    margin-top: 20px; }
+    margin-top: 20px;
+    display: flex; }
     .card-section-outer .top-block .pool-cap-txt .pool-label {
       font-weight: 600;
       font-size: 16px; }
@@ -736,7 +737,15 @@
           padding-top: 6px;
           width: 100%; }
   .stake-modal .modal-body .pool-cap-txt {
-    color: #2E4276; }
+    color: #2E4276;
+    display: flex;
+    align-items: center; }
+    .stake-modal .modal-body .pool-cap-txt .current-pool-label {
+      display: flex;
+      align-items: center; }
+    @media (max-width: 579px) {
+      .stake-modal .modal-body .pool-cap-txt {
+        flex-wrap: wrap; } }
     @media (max-width: 991px) {
       .stake-modal .modal-body .pool-cap-txt {
         margin-top: 20px; } }
@@ -754,6 +763,20 @@
       @media (max-width: 1679px) {
         .stake-modal .modal-body .pool-cap-txt .pool-cont {
           font-size: 16px; } }
+      @media (max-width: 579px) {
+        .stake-modal .modal-body .pool-cap-txt .pool-cont {
+          font-size: 15px; } }
+    .stake-modal .modal-body .pool-cap-txt .rem-pool-label {
+      margin-left: auto;
+      padding-right: 40px;
+      display: flex;
+      align-items: center; }
+      @media (max-width: 579px) {
+        .stake-modal .modal-body .pool-cap-txt .rem-pool-label {
+          width: 100%;
+          padding-top: 5px; } }
+      .stake-modal .modal-body .pool-cap-txt .rem-pool-label .pool-cont {
+        padding-left: 2px; }
   .stake-modal .modal-body .progress-bar-section {
     display: flex;
     justify-content: space-between;
@@ -1043,13 +1066,19 @@
       display: flex;
       align-items: center;
       height: 100%;
-      padding: 15px 10px; }
+      padding: 0 !important; }
     .staking-card-block .progress-sm-sec .text-block {
       flex: 1 1 auto; }
+    .staking-card-block .progress-sm-sec .text-block-inner {
+      border-bottom: solid 1px #E3E4F3;
+      padding: 7px 5px 7px 10px; }
+      .staking-card-block .progress-sm-sec .text-block-inner:last-child {
+        padding-top: 5px;
+        border-bottom: 0; }
     .staking-card-block .progress-sm-sec .progress-label {
       font-size: 14px;
       color: #2966FF;
-      margin-bottom: 5px; }
+      margin-bottom: 3px; }
     .staking-card-block .progress-sm-sec h5 {
       font-size: 16px;
       font-weight: 600;
@@ -1057,7 +1086,10 @@
       margin-bottom: 0; }
     .staking-card-block .progress-sm-sec .progress-block {
       flex: 0 0 auto;
-      width: 90px; }
+      width: 90px;
+      height: 100%;
+      border-left: solid 1px #E3E4F3;
+      padding: 5px; }
   .staking-card-block .table-block-cover {
     width: 100%;
     display: flex;
@@ -1156,7 +1188,10 @@
 
 @media (max-width: 1679px) {
   .staking-card-block .progress-sm-sec h5 {
-    font-size: 14px; }
+    font-size: 12px; }
+
+  .staking-card-block .progress-sm-sec .progress-label {
+    font-size: 12px; }
 
   .staking-card-block .card-banner-block .coin-logo .img-coin {
     width: 32px; }
@@ -1234,6 +1269,9 @@
   .staking-card-block .card-btm-sec .stake-btn {
     padding: 10px 15px; } }
 @media (max-width: 1481px) {
+  .staking-card-block .progress-sm-sec .progress-block {
+    width: 85px; }
+
   .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator {
     font-size: 20px;
     padding-top: 2px; }
@@ -1262,9 +1300,6 @@
 
   .staking-card-block .title-block p {
     font-size: 12px; }
-
-  .staking-card-block .progress-sm-sec h5 {
-    font-size: 13px; }
 
   .staking-card-block .progress-sm-sec .progress-bar-block {
     padding: 10px 10px; }
@@ -1316,17 +1351,14 @@
   .staking-card-block .timer-card-cover .timer-wrapper .time-col .timer-cnt {
     margin-bottom: 2px; } }
 @media (max-width: 479px) {
-  .staking-card-block .progress-sm-sec .progress-block {
-    width: 70px; }
-
   .staking-card-block .progress-sm-sec .progress-label {
-    font-size: 12px; }
+    font-size: 11px; }
 
   .staking-card-block {
     padding: 15px 12px; } }
 @media (max-width: 400px) {
   .staking-card-block .progress-sm-sec .progress-block {
-    width: 55px; } }
+    width: 80px; } }
 @media (max-width: 380px) {
   .staking-card-block .timer-card-cover .timer-wrapper {
     padding: 8px 10px; }
@@ -1338,6 +1370,9 @@
     max-height: 85px;
     min-height: 70px; } }
 @media (max-width: 349px) {
+  .staking-card-block .progress-sm-sec .progress-block {
+    width: 90px; }
+
   .staking-card-block .table-block-cover .table-card .tab-label {
     font-size: 11px; }
 

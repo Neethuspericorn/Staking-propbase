@@ -510,6 +510,7 @@
         .pool-cap-txt
         {
             margin-top: 20px;
+            display: flex;
             .pool-label
             {
                 font-weight: 600;
@@ -1009,6 +1010,16 @@
         .pool-cap-txt
         {
             color: $text-primary-dark;
+            display: flex;
+            align-items: center;
+            .current-pool-label{
+                display: flex;
+                align-items: center;
+            }
+            @media(max-width:579px)
+            {
+                flex-wrap: wrap;
+            }
             @media(max-width:991px)
             {
                 margin-top: 20px;
@@ -1031,6 +1042,23 @@
                 @media(max-width:1679px)
                 {
                     font-size: 16px;
+                }
+                @media(max-width:579px)
+                {
+                    font-size: 15px;
+                }
+            }
+            .rem-pool-label{
+                margin-left: auto;
+                padding-right: 40px;
+                display: flex;
+                align-items: center;
+                @media(max-width:579px){
+                    width: 100%;
+                    padding-top: 5px;
+                }
+                .pool-cont{
+                    padding-left: 2px;
                 }
             }
         }
@@ -1393,15 +1421,23 @@
             display: flex;
             align-items: center;
             height: 100%;
-            padding: 15px 10px;
+            padding: 0 !important;
         }
         .text-block{
             flex: 1 1 auto;
         }
+        .text-block-inner{
+            border-bottom: solid 1px #E3E4F3;
+            padding: 7px 5px 7px 10px;
+            &:last-child{
+                padding-top: 5px;
+                border-bottom: 0;
+            }
+        }
         .progress-label{
             font-size: 14px;
             color: $primary-blue;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
         }
         h5{
             font-size: 16px;
@@ -1412,6 +1448,9 @@
         .progress-block{
             flex: 0 0 auto;
             width: 90px;
+            height: 100%;
+            border-left: solid 1px #E3E4F3;
+            padding: 5px;
         }
     }
     .table-block-cover{
@@ -1534,7 +1573,10 @@
 }
 @media($sm-1679){
     .staking-card-block .progress-sm-sec h5{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .staking-card-block .progress-sm-sec .progress-label{
+        font-size: 12px;
     }
     .staking-card-block .card-banner-block .coin-logo .img-coin {
         width: 32px;
@@ -1614,6 +1656,9 @@
     }
 }
 @media($sm-1481){
+    .staking-card-block .progress-sm-sec .progress-block{
+        width: 85px;
+    }
     .staking-card-block .timer-card-cover .timer-wrapper .dot-seprator {
         font-size: 20px;
         padding-top: 2px;
@@ -1642,9 +1687,6 @@
     }
     .staking-card-block .title-block p {
         font-size: 12px;
-    }
-    .staking-card-block .progress-sm-sec h5 {
-        font-size: 13px;
     }
     .staking-card-block .progress-sm-sec .progress-bar-block {
         padding: 10px 10px;
@@ -1706,11 +1748,8 @@
     }
 }
 @media($sm-479){
-    .staking-card-block .progress-sm-sec .progress-block {
-        width: 70px;
-    }
     .staking-card-block .progress-sm-sec .progress-label {
-        font-size: 12px;
+        font-size: 11px;
     }
     .staking-card-block {
         padding: 15px 12px;
@@ -1718,7 +1757,7 @@
 }
 @media(max-width: 400px){
     .staking-card-block .progress-sm-sec .progress-block {
-        width: 55px;
+        width: 80px;
     }
 }
 @media(max-width: 380px){
@@ -1734,6 +1773,9 @@
     }
 }
 @media(max-width: 349px){
+    .staking-card-block .progress-sm-sec .progress-block {
+        width: 90px;
+    }
     .staking-card-block .table-block-cover .table-card .tab-label {
         font-size: 11px;
     }

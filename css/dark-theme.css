@@ -758,5 +758,7 @@
     display: none; }
   .theme-dark .not-found-cover .not-found-block .not-img-dark {
     display: inline-block; }
+  .theme-dark .staking-card-block .progress-sm-sec .text-block-inner, .theme-dark .staking-card-block .progress-sm-sec .progress-block {
+    border-color: #1B1B1B; }
 
 /*# sourceMappingURL=dark-theme.css.map */
