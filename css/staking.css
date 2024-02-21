@@ -970,7 +970,11 @@
     .staking-card-block .title-block h4 {
       font-size: 22px;
       font-weight: 600;
-      color: #2E4276; }
+      color: #2E4276;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
     .staking-card-block .title-block p {
       display: -webkit-box;
       -webkit-line-clamp: 1;
