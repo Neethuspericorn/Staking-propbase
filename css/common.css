@@ -679,7 +679,8 @@ button {
   height: 22px; }
 
 .not-allowed {
-  cursor: not-allowed !important; }
+  cursor: not-allowed !important;
+  opacity: .7; }
 
 .custom-modal .inp-block-modal .custom-inp.ant-picker {
   padding: 8px 15px; }
