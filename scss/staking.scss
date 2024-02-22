@@ -919,7 +919,7 @@
                         margin-right: 4px;
                     }
                     @media(max-width:479px){
-                        padding: 6px;
+                        padding: 6px 8px;
                         font-size: 10px;
                         margin-right: 2px;
                     }
@@ -1016,7 +1016,7 @@
                 display: flex;
                 align-items: center;
             }
-            @media(max-width:579px)
+            @media(max-width:767px)
             {
                 flex-wrap: wrap;
             }
@@ -1029,9 +1029,14 @@
                 color: $text-primary-dark;
                 font-weight: 600;
                 font-size: 16px;
+                padding-right: 2px;
                 @media(max-width:1679px)
                 {
                     font-size: 13px;
+                }
+                @media(max-width:479px)
+                {
+                    font-size: 11px;
                 }
             }
             .pool-cont
@@ -1045,15 +1050,17 @@
                 }
                 @media(max-width:579px)
                 {
-                    font-size: 15px;
+                    font-size: 14px;
                 }
             }
             .rem-pool-label{
                 margin-left: auto;
-                padding-right: 40px;
+                
                 display: flex;
                 align-items: center;
-                @media(max-width:579px){
+                @media(max-width:767px)
+                {
+                    padding-right: 0;
                     width: 100%;
                     padding-top: 5px;
                 }
