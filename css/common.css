@@ -834,6 +834,12 @@ button {
   padding-left: 8px; }
 
 .header-tooltip {
-  z-index: 999; }
+  z-index: 1500; }
+
+.img-light {
+  display: block; }
+
+.img-dark {
+  display: none; }
 
 /*# sourceMappingURL=common.css.map */
