@@ -45,7 +45,8 @@
       width: 250px;
       background-repeat: no-repeat;
       height: 100%;
-      top: 0; }
+      top: 0;
+      display: none !important; }
     .home-banner-sec .home-banner-container::before {
       top: -50px;
       left: 0;
@@ -99,7 +100,7 @@
       font-weight: 600; }
     .home-banner-sec .home-banner-cover .title-txt {
       color: #4D6090;
-      padding: 0 80px;
+      padding: 0 !important;
       font-size: 18px;
       font-weight: 300;
       margin-bottom: 25px; }
@@ -152,7 +153,10 @@
           margin-bottom: 0;
           color: #2E4276; }
     .home-banner-sec .home-banner-cover .btn-block {
-      padding-top: 45px; }
+      padding: 15px 0 40px; }
+      @media (max-width: 579px) {
+        .home-banner-sec .home-banner-cover .btn-block {
+          padding: 10px 0 25px; } }
       .home-banner-sec .home-banner-cover .btn-block .banner-btn {
         text-align: center;
         width: 300px;
@@ -412,7 +416,7 @@
     font-size: 14px; }
 
   .home-banner-sec {
-    padding: 80px 50px 80px; }
+    padding: 50px 50px 80px; }
 
   .home-banner-sec .home-banner-cover h2 {
     font-size: 36px; }
@@ -509,7 +513,7 @@
     padding: 0 100px; }
 
   .home-banner-sec {
-    padding: 50px 50px 80px; }
+    padding: 40px 50px 70px; }
 
   .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card h4 {
     font-size: 19px; }
@@ -577,9 +581,6 @@
 @media (max-width: 1199px) {
   .home-banner-sec .home-banner-cover .banner-card-cover {
     max-width: 500px; }
-
-  .home-banner-sec .home-banner-cover .btn-block {
-    padding-top: 26px; }
 
   .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .left-col ul li {
     font-size: 14px;
@@ -758,7 +759,7 @@
     height: 70px; }
 
   .home-banner-sec {
-    padding: 100px 0; }
+    padding: 30px 0 50px; }
 
   .home-banner-sec .home-banner-container::after {
     transform: none;
@@ -770,18 +771,12 @@
     height: 110px;
     width: 250px; }
 
-  .home-banner-sec .home-banner-cover .banner-card-cover {
-    padding-top: 65px; }
-
   .app-img-sec::before {
     height: 200px; } }
 @media (max-width: 479px) {
   .home-banner-sec .home-banner-cover::before {
     height: 335px;
     top: -50px; }
-
-  .home-banner-sec .home-banner-cover .banner-card-cover {
-    padding-top: 55px; }
 
   .home-banner-sec .home-banner-container::after {
     top: 45%; }
@@ -835,9 +830,6 @@
     height: 90px;
     width: 190px; } }
 @media (max-width: 360px) {
-  .home-banner-sec .home-banner-cover .banner-card-cover {
-    padding-top: 35px; }
-
   .home-banner-sec .home-banner-container::after {
     top: 41%; } }
 .brand-ambassidor {

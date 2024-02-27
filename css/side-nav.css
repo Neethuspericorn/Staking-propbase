@@ -108,6 +108,9 @@
       @media (max-width: 1679px) {
         .nav-block .navbar-collapse-block .navbar-ul {
           padding-top: 5px; } }
+      @media (max-width: 991px) {
+        .nav-block .navbar-collapse-block .navbar-ul {
+          padding-top: 20px; } }
       .nav-block .navbar-collapse-block .navbar-ul .nav-item {
         margin-bottom: 12px; }
         @media (max-width: 1679px) {
