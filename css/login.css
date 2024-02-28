@@ -139,7 +139,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff; }
+      color: #fff;
+      transition: .3s; }
+      .login-wrapper .login-left-block .form-group .login-btn:hover {
+        opacity: .8; }
       @media (max-width: 1679px) {
         .login-wrapper .login-left-block .form-group .login-btn {
           margin-top: 30px;
@@ -590,5 +593,54 @@ button.close-modal {
   .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control {
     height: 42px;
     font-size: 15px; } }
+.fa2-block .verify-block {
+  text-align: center; }
+  .fa2-block .verify-block h4 {
+    color: #2E4276;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 15px; }
+  .fa2-block .verify-block p {
+    max-width: 420px;
+    margin: 0 auto 15px;
+    color: #697F9B;
+    text-align: center;
+    font-size: 15px; }
+    @media (max-width: 1679px) {
+      .fa2-block .verify-block p {
+        font-size: 14px; } }
+.fa2-block .verify-block p {
+  font-family: "Poppins";
+  max-width: 100%; }
+.fa2-block .auth-inp-wrapper {
+  justify-content: center;
+  padding-top: 25px; }
+  .fa2-block .auth-inp-wrapper .auth-inp {
+    border-radius: 16px;
+    border: 1px solid #E3E4F3;
+    background: #F3F4FA;
+    width: 56px;
+    height: 64px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    margin: 2px 8px; }
+  .fa2-block .auth-inp-wrapper .auth-inp::-webkit-inner-spin-button,
+  .fa2-block .auth-inp-wrapper .auth-inp::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; }
+.fa2-block .qr-block {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px 5px;
+  margin-bottom: 15px; }
+.fa2-block .btn-block {
+  padding-top: 35px;
+  text-align: center; }
+  .fa2-block .btn-block .btn-2fa-validate {
+    width: 284px; }
 
 /*# sourceMappingURL=login.css.map */

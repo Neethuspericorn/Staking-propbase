@@ -112,7 +112,7 @@
     {
         background: $primary-light;
         padding: 30px 22px;
-        border-radius:6px;
+        border-radius:20px;
         flex: 0 0 28%;
         @media(max-width:1679px)
         {
@@ -2159,7 +2159,7 @@
 }
 
 .welcome-stake-outer-v3{
-    border-radius: 6px;
+    border-radius: 20px;
     flex: 1 1 auto;
     background: linear-gradient(180deg, #CFE0FF 0%, rgba(255, 255, 255, 0) 139.86%);
     margin-right: 15px;

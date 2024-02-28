@@ -1169,7 +1169,7 @@ $dark-block-2: #2B2C2E;
         color: #fff;
     }
     .welcome-stake-outer-v3 .bnr-title{
-        border-color: #484848;
+        border-color: rgba($color: #484848, $alpha: 0.3);
     }
     .welcome-stake-outer-v3 .item-row .item-col.item-col-lg::before{
         background: radial-gradient(55.25% 55.25% at 50% 50%, rgba(41, 102, 255, 0.3) 0%, rgba(41, 102, 255, 0) 100%);
@@ -1185,5 +1185,13 @@ $dark-block-2: #2B2C2E;
     }
     .img-dark{
         display: block;
+    }
+    .fa2-block .verify-block p{
+        color: $white;
+    }
+    .fa2-block .auth-inp-wrapper .auth-inp{
+        background-color: $dark-bg;
+        color: white;
+        border-color: #4E4E4E;
     }
 }
