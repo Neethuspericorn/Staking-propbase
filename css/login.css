@@ -626,6 +626,22 @@ button.close-modal {
     font-family: "Poppins";
     font-size: 16px;
     margin: 2px 8px; }
+    @media (max-width: 1481px) {
+      .fa2-block .auth-inp-wrapper .auth-inp {
+        width: 52px;
+        height: 60px; } }
+    @media (max-width: 579px) {
+      .fa2-block .auth-inp-wrapper .auth-inp {
+        width: 45px;
+        height: 55px;
+        border-radius: 12px; } }
+    @media (max-width: 479px) {
+      .fa2-block .auth-inp-wrapper .auth-inp {
+        margin: 2px 4px; } }
+    @media (max-width: 350px) {
+      .fa2-block .auth-inp-wrapper .auth-inp {
+        width: 40px;
+        height: 52px; } }
   .fa2-block .auth-inp-wrapper .auth-inp::-webkit-inner-spin-button,
   .fa2-block .auth-inp-wrapper .auth-inp::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -640,7 +656,11 @@ button.close-modal {
 .fa2-block .btn-block {
   padding-top: 35px;
   text-align: center; }
-  .fa2-block .btn-block .btn-2fa-validate {
-    width: 284px; }
+  .fa2-block .btn-block .login-btn {
+    max-width: 450px;
+    margin: 0 auto; }
+    @media (max-width: 1679px) {
+      .fa2-block .btn-block .login-btn {
+        max-width: 430px; } }
 
 /*# sourceMappingURL=login.css.map */
