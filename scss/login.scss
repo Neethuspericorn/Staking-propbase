@@ -826,8 +826,8 @@ button.close-modal {
 
     .auth-inp-wrapper {
         justify-content: center;
-        padding-top: 25px;
-
+        padding-top: 15px;
+        margin-bottom: 15px;
         .auth-inp {
             border-radius: 16px;
             border: 1px solid #E3E4F3;
@@ -914,7 +914,6 @@ button.close-modal {
     }
 }
 .gen-qr-block{
-    padding-top: 15px;
     p{        
         color: #fff;
         font-size: 15px;

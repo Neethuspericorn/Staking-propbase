@@ -614,7 +614,8 @@ button.close-modal {
   max-width: 100%; }
 .fa2-block .auth-inp-wrapper {
   justify-content: center;
-  padding-top: 25px; }
+  padding-top: 15px;
+  margin-bottom: 15px; }
   .fa2-block .auth-inp-wrapper .auth-inp {
     border-radius: 16px;
     border: 1px solid #E3E4F3;
@@ -684,23 +685,21 @@ button.close-modal {
     .fa2-block .back-btn .back-login-btn:hover img {
       transform: translateX(-5px); }
 
-.gen-qr-block {
-  padding-top: 15px; }
-  .gen-qr-block p {
-    color: #fff;
-    font-size: 15px;
-    text-align: center; }
-    @media (max-width: 1679px) {
-      .gen-qr-block p {
-        font-size: 14px; } }
-  .gen-qr-block .qr-gen-btn {
-    font-style: italic;
-    font-weight: 500;
-    color: #2966FF;
-    background-color: transparent;
-    padding: 0;
-    margin-left: 2px;
-    text-decoration: underline; }
+.gen-qr-block p {
+  color: #fff;
+  font-size: 15px;
+  text-align: center; }
+  @media (max-width: 1679px) {
+    .gen-qr-block p {
+      font-size: 14px; } }
+.gen-qr-block .qr-gen-btn {
+  font-style: italic;
+  font-weight: 500;
+  color: #2966FF;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 2px;
+  text-decoration: underline; }
 
 .fa2-block-cover {
   flex: 1 1 auto;
