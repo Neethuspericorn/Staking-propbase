@@ -871,6 +871,9 @@ button.close-modal {
         justify-content: center;
         padding: 10px 15px 5px;
         margin-bottom: 15px;
+        svg{
+            border: solid 1px #fff;
+        }
     }
 
     .btn-block {
@@ -884,11 +887,36 @@ button.close-modal {
             }
         }
     }
+    .back-btn{
+        text-align: center;
+        margin-bottom: 15px;
+        .back-login-btn{
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            font-size: 15px;
+            color: #fff;
+            font-style: italic;
+            img{
+                margin-right: 8px;
+                filter: grayscale(1) invert(1) brightness(2);
+                @media ($sm-1679) {
+                    height: 13px;
+                    transition: .3s;
+                }
+            }
+            &:hover{
+                img{
+                    transform: translateX(-5px);
+                }
+            }
+        }
+    }
 }
 .gen-qr-block{
     padding-top: 15px;
     p{        
-        color: #697F9B;
+        color: #fff;
         font-size: 15px;
         text-align: center;
         @media(max-width:1679px){
@@ -899,5 +927,10 @@ button.close-modal {
         font-style: italic;
         font-weight: 500;
         color: $primary-blue;
+        background-color: transparent;
+        padding: 0;
+        margin-left: 2px;
+        text-decoration: underline;
     }
+    
 }

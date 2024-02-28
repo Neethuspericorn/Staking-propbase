@@ -653,6 +653,8 @@ button.close-modal {
   justify-content: center;
   padding: 10px 15px 5px;
   margin-bottom: 15px; }
+  .fa2-block .qr-block svg {
+    border: solid 1px #fff; }
 .fa2-block .btn-block {
   padding-top: 35px;
   text-align: center; }
@@ -662,11 +664,30 @@ button.close-modal {
     @media (max-width: 1679px) {
       .fa2-block .btn-block .login-btn {
         max-width: 430px; } }
+.fa2-block .back-btn {
+  text-align: center;
+  margin-bottom: 15px; }
+  .fa2-block .back-btn .back-login-btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    font-style: italic; }
+    .fa2-block .back-btn .back-login-btn img {
+      margin-right: 8px;
+      filter: grayscale(1) invert(1) brightness(2); }
+      @media (max-width: 1679px) {
+        .fa2-block .back-btn .back-login-btn img {
+          height: 13px;
+          transition: .3s; } }
+    .fa2-block .back-btn .back-login-btn:hover img {
+      transform: translateX(-5px); }
 
 .gen-qr-block {
   padding-top: 15px; }
   .gen-qr-block p {
-    color: #697F9B;
+    color: #fff;
     font-size: 15px;
     text-align: center; }
     @media (max-width: 1679px) {
@@ -675,6 +696,10 @@ button.close-modal {
   .gen-qr-block .qr-gen-btn {
     font-style: italic;
     font-weight: 500;
-    color: #2966FF; }
+    color: #2966FF;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 2px;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=login.css.map */
