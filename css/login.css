@@ -663,4 +663,18 @@ button.close-modal {
       .fa2-block .btn-block .login-btn {
         max-width: 430px; } }
 
+.gen-qr-block {
+  padding-top: 15px; }
+  .gen-qr-block p {
+    color: #697F9B;
+    font-size: 15px;
+    text-align: center; }
+    @media (max-width: 1679px) {
+      .gen-qr-block p {
+        font-size: 14px; } }
+  .gen-qr-block .qr-gen-btn {
+    font-style: italic;
+    font-weight: 500;
+    color: #2966FF; }
+
 /*# sourceMappingURL=login.css.map */

@@ -885,3 +885,19 @@ button.close-modal {
         }
     }
 }
+.gen-qr-block{
+    padding-top: 15px;
+    p{        
+        color: #697F9B;
+        font-size: 15px;
+        text-align: center;
+        @media(max-width:1679px){
+            font-size: 14px;
+        }
+    }
+    .qr-gen-btn{
+        font-style: italic;
+        font-weight: 500;
+        color: $primary-blue;
+    }
+}

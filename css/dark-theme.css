@@ -783,5 +783,7 @@
     background-color: #000;
     color: white;
     border-color: #4E4E4E; }
+  .theme-dark .gen-qr-block p {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */
