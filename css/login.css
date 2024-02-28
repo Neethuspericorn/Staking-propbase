@@ -702,4 +702,10 @@ button.close-modal {
     margin-left: 2px;
     text-decoration: underline; }
 
+.fa2-block-cover {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 /*# sourceMappingURL=login.css.map */
