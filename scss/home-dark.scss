@@ -315,29 +315,32 @@
             .box-props{
                 background: linear-gradient(0deg, #050D16, #050D16),
                 linear-gradient(0deg, #09192B, #09192B);
-                
+                border-color: #09192B;
                 &:nth-child(2){
                     background: linear-gradient(0deg, #031212, #031212),
                     linear-gradient(0deg, #062222, #062222);
-    
+                    border-color: #062222;
                 }
     
                 &:nth-child(3){
                     background: linear-gradient(0deg, #100414, #100414),
                     linear-gradient(0deg, #280A33, #280A33);
-    
+                    border-color: #280A33;
                 }
-    
-                &:last-child{
+                &:nth-child(4){
                     background: linear-gradient(0deg, #0F0F0F, #0F0F0F),
                     linear-gradient(0deg, #1E1D1D, #1E1D1D);
-    
+                    border-color: #1E1D1D;
+                }
+                &:nth-child(5){
+                    background: linear-gradient(0deg, #081c1c, #0a2222), 
+                    linear-gradient(0deg, #062222, #062222);
+                    border-color: #062222;
                 }
     
-                p{
+                
                     color: $primary-light;
-                }
-    }
+                    }
     }
     
     }}

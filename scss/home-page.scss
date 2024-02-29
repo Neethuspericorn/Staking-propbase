@@ -3,7 +3,7 @@
     padding: 0 50px;
 }
 .home-container{
-    max-width: 1130px;
+    max-width: 1200px;
     @media (max-width: 1679px) {
         max-width: 1000px;
     }
@@ -59,7 +59,7 @@
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
-        max-width: 970px;
+        max-width: 1050px;
         text-align: center;
         &::before{
             z-index: -1;
@@ -504,7 +504,7 @@
         font-size: 21px;
     }
     .home-banner-sec .home-banner-cover{
-        max-width: 900px;
+        max-width: 1000px;
     }
     .home-banner-sec .home-banner-container::before {
         background-size: 180px;
@@ -2324,7 +2324,7 @@ flex-wrap: wrap;
             display: none;
         }
    }
-   @media (min-width: 768px) and (max-width: 1199px) {
+   @media (min-width: 768px) and (max-width: 1300px) {
 
     .box-sec .box-inner {
         width: 48%;
@@ -2363,39 +2363,64 @@ flex-wrap: wrap;
             border-radius: 15px;
             padding: 20px 15px;
             padding-right: 5px;
-            p{
+            min-height: 85px;
+            border: solid 1px #B8DCFF;
+            @media ($sm-1679) {
+                min-height: 78px;
+            }
+            @media ($sm-1481) {
+                min-height: 75px;
+                padding-left: 12px;
+            }
+            @media ($sm-1199) {
+                padding-left: 15px;
+            }
+            
                 font-size: 17px;
                 font-weight: 400;
-                line-height: 27px;
                 letter-spacing: 0em;
                 text-align: left;
                 margin: 0;
                 color: #2E4276;
                 display: flex;
                 align-items: center;
-            }
-          
+            
             background:#B8DCFF;
             
             &:nth-child(2){
                 background:#DFFAFC;
+                border-color: #BEE3E3;
 
             }
 
             &:nth-child(3){
                 background:#F8E1FF;
-
+                border-color: #F8E1FF;
             }
-
+            &:nth-child(4){
+                background:#E6E6E6;
+                border-color: #E6E6E6;
+            } 
+            
             &:last-child{
                 background:#E6E6E6;
             }
+            &:nth-child(5){
+                background:#d2faff;
+                border-color: #E6E6E6;
+            } 
 
             .imgs-props{
-                padding-right: 10px;
+                margin-right: 10px;
                 max-width: 37px;
                 max-height: 37px;
-
+                @media ($sm-1679) {
+                    max-width: 32px;
+                }
+                @media ($sm-1481) {
+                    max-width: 30px;
+                    margin-right: 8px;
+                }
                 img{
                     max-width: 100%;
                     max-height: 100%;
@@ -2418,10 +2443,8 @@ flex-wrap: wrap;
          }
         .four-props {
             
-            .box-props {
-                p{
-                    font-size: 13px;
-                }
+            .box-props {                
+                font-size: 14px;                
             }
 
         }
@@ -2492,6 +2515,7 @@ flex-wrap: wrap;
             flex-wrap: wrap;
 
             .box-props{
+                min-height: 60px;
                 width: 48%;
                 margin-bottom: 20px;
             }
@@ -2502,19 +2526,21 @@ flex-wrap: wrap;
     .by-props-sec .four-props .box-props{
         width: 100%;
         padding-left: 25px;
+        min-height: auto;
     }
    }
    @media (min-width: 768px) and (max-width: 1199px) {
 
     
     .by-props-sec {
-        padding: 50px 0px;
+        padding: 30px 0px;
         .four-props{
             flex-wrap: wrap;
 
             .box-props{
                 width: 48%;
                 margin-bottom: 20px;
+                min-height: 70px;
             }
         }
     }
@@ -2878,6 +2904,9 @@ flex-wrap: wrap;
             margin-top: 20px;
         }
          
+        @media ($sm-579){
+            padding: 25px;
+        }
         .title{
             font-size: 25px;
         }
@@ -2951,6 +2980,9 @@ flex-wrap: wrap;
                 padding-bottom: 30px;
                 margin-left: auto;
                 margin-right: auto;
+            }
+            @media ($sm-991){
+                padding-top: 0;
             }
             img{
                 max-width: 340px;
