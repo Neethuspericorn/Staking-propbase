@@ -785,5 +785,12 @@
     border-color: #4E4E4E; }
   .theme-dark .gen-qr-block p {
     color: #fff; }
+  .theme-dark .nav-block .buy-pros-dropdown .dropdown-menu {
+    border: solid 1px #484848;
+    background-color: #000; }
+    .theme-dark .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item {
+      color: #fff; }
+    .theme-dark .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item:hover {
+      background-color: #131313; }
 
 /*# sourceMappingURL=dark-theme.css.map */

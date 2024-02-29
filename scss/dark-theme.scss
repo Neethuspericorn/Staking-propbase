@@ -1199,4 +1199,14 @@ $dark-block-2: #2B2C2E;
             color: #fff;
         }
     }
+    .nav-block .buy-pros-dropdown .dropdown-menu{
+        border: solid 1px $dark-border;
+        background-color: $dark-bg;
+        .dropdown-item{
+            color: $primary-light;
+        }
+        .dropdown-item:hover{
+            background-color: #131313;
+        }
+    }
 }

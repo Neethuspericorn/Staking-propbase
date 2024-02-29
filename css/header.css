@@ -719,6 +719,9 @@
     width: 36px;
     height: 36px; } }
 @media (max-width: 991px) {
+  .header-wrapper .buy-pros-select-block {
+    display: none; }
+
   .header-wrapper .right-block .buy-pros-dropdown {
     margin-right: 0; }
 

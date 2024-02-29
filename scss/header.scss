@@ -839,6 +839,9 @@
 }
 
 @media($sm-991){
+    .header-wrapper .buy-pros-select-block{
+        display: none;
+    }
     .header-wrapper .right-block .buy-pros-dropdown{
         margin-right: 0;
     }
@@ -987,3 +990,5 @@
         }
     }
 }
+// navbar
+

@@ -117,12 +117,12 @@
         @media(max-width:1679px)
         {
             flex: 0 0 35%;
-            padding:20px 22px;
+            padding:20px 20px;
         }
         @media(max-width:1441px)
         {
             flex: 0 0 40%;
-            padding:20px 22px;
+            padding:20px 18px;
         }
         @media(max-width:1199px)
         {
@@ -1396,9 +1396,15 @@
             overflow: hidden;
             &.progress-col-left{
                 width: calc(60% - 10px);
+                @media($sm-1679){
+                    width: calc(64% - 10px);
+                }
             }
             &.progress-col-right{
                 width: 40%;
+                @media($sm-1679){
+                    width: 36%;
+                }
             }
         }
         .dur-cover{
@@ -1703,7 +1709,6 @@
         padding: 10px 10px;
     }
     .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
-        font-size: 12px;
         min-height: 26px;
         line-height: 15px;
     }
@@ -1749,6 +1754,19 @@
         top: 4px;
     }
 }
+
+@media (max-width: 700px) {
+    .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block{
+        font-size: 14px;
+    }
+    .staking-card-block .progress-sm-sec .progress-col.progress-col-right{
+        width: 35%;
+    }
+    .staking-card-block .progress-sm-sec .progress-col.progress-col-left {
+        width: calc(65% - 10px);
+    }
+}
+
 @media($sm-579){
     .staking-card-block .card-btm-sec .stake-btn {
         padding: 11px 15px;
@@ -2183,6 +2201,7 @@
         max-width: 1000px;
         margin: 0 auto;
         img{
+            width: 250px;
             max-width: 100%;
         }
         
@@ -2193,6 +2212,12 @@
             &.item-col-lg{
                 position: relative;
                 padding: 30px 15px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: auto;
+                    max-width: 100%;
+                }
                 &::before{
                     content: '';
                     position: absolute;
@@ -2223,6 +2248,7 @@
                 text-align: center;
                 color: $primary-blue;
                 .a-link{
+                    white-space: nowrap;
                     color: $primary-blue;
                     text-decoration: underline;
                     font-size: 13px;
@@ -2237,15 +2263,17 @@
     }
 }
 @media(max-width:1679px){
+    .welcome-stake-outer-v3 .item-row .item-col.item-col-lg {
+        padding: 22px 15px;
+    }
     .welcome-stake-outer-v3 .bnr-title{
         font-size: 14px;
     }
     .welcome-stake-outer-v3 .item-row .icon img{
-        max-height: 45px;
-        max-width: 150px;
+        width: 200px;
     }
     .welcome-stake-outer-v3 .item-row .icon-lg img{
-        max-height: 130px;
+        max-height: 160px;
     }
     .welcome-stake-outer-v3 .item-row {
         max-width: 700px;
@@ -2259,10 +2287,13 @@
 }
 @media(max-width:1481px){
     .welcome-stake-outer-v3 .item-row .icon-lg{
-        min-width: 180px;
+        min-width: 150px;
     }
     .welcome-stake-outer-v3 .item-row .icon img{
-        max-width: 100%;
+        width: 170px;
+    }
+    .welcome-stake-outer-v3 .item-row .icon-lg img {
+        max-height: 140px;
     }
 }
 @media(max-width:1199px){
@@ -2270,9 +2301,25 @@
         margin-right: 0;
     }
 }
+@media(max-width:680px){
+    .welcome-stake-outer-v3 .item-row .icon img{
+        width: 150px;
+        max-width: 100%;
+    }
+    .welcome-stake-outer-v3 .item-row .item-col{
+        padding: 15px 0;
+    }
+    .welcome-stake-outer-v3 .item-row .icon-lg {
+        min-width: 140px;
+    }
+}
+
 @media(max-width:579px){
     .welcome-stake-outer-v3 .item-row .icon-lg {
-        min-width: 150px;
+        min-width: 100px;
+    }
+    .welcome-stake-outer-v3 .item-row .item-col p .a-link{
+        white-space: nowrap;
     }
     .welcome-stake-outer-v3 .item-row .item-col p .a-link{
         font-size: 11px;
@@ -2296,7 +2343,7 @@
         max-height: 38px;
     }
     .welcome-stake-outer-v3 .item-row .icon-lg img {
-        max-height: 90px;
+        max-height: 115px;
     }
     .welcome-stake-outer-v3 .item-row .icon img{
         max-width: 150px;
@@ -2314,6 +2361,6 @@
         max-height: 80%;
     }
     .welcome-stake-outer-v3 .item-row .item-col.item-col-lg {
-        padding: 20px 15px;
+        padding: 15px;
     }
 }

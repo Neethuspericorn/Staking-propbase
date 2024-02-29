@@ -55,6 +55,9 @@
     .nav-block .nav-logo-wrapper .toggle-btn-block {
       padding: 10px 0;
       display: flex; }
+      @media (max-width: 991px) {
+        .nav-block .nav-logo-wrapper .toggle-btn-block {
+          align-items: center; } }
     .nav-block .nav-logo-wrapper .nav-toggle-btn {
       margin-left: auto;
       transition: .3s;
@@ -429,5 +432,81 @@
   .nav-block .navbar-collapse-block .wallet-btn-block-mob .wallet-btn-mob {
     padding: 12px;
     font-size: 15px; } }
+.nav-block .buy-pros-dropdown {
+  margin-right: 12px; }
+  @media (min-width: 991px) {
+    .nav-block .buy-pros-dropdown {
+      display: none; } }
+  @media (max-width: 479px) {
+    .nav-block .buy-pros-dropdown {
+      margin-right: 8px; } }
+  .nav-block .buy-pros-dropdown .buy-pros-btn {
+    width: 140px;
+    max-height: 38px;
+    padding: 9px 18px;
+    border-radius: 20px;
+    border: solid 1px #2966FF;
+    color: #fff;
+    background: #2966FF;
+    display: flex;
+    align-items: center;
+    font-size: 13px; }
+    @media (max-width: 479px) {
+      .nav-block .buy-pros-dropdown .buy-pros-btn {
+        font-size: 12px;
+        width: 116px;
+        padding: 9px 15px; } }
+    @media (max-width: 380px) {
+      .nav-block .buy-pros-dropdown .buy-pros-btn {
+        width: 110px;
+        padding: 8px 15px;
+        padding-left: 11px; } }
+    .nav-block .buy-pros-dropdown .buy-pros-btn .acc-label {
+      margin-right: 8px; }
+    .nav-block .buy-pros-dropdown .buy-pros-btn::after {
+      margin-left: auto;
+      margin-right: 2px;
+      border-top-color: #4D6090;
+      border-top: 0.4em solid;
+      border-right: 0.4em solid transparent;
+      border-left: 0.4em solid transparent; }
+  .nav-block .buy-pros-dropdown .dropdown-menu {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 5px;
+    margin-top: 20px !important;
+    min-width: 190px; }
+    .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item {
+      display: flex;
+      align-items: center;
+      border-radius: 8px;
+      height: 52px;
+      font-size: 13px;
+      color: #2E4276;
+      transition: .3s; }
+      .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item .icon {
+        flex-grow: 0;
+        margin-right: 10px;
+        width: 22px; }
+        .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item .icon img {
+          max-width: 100%;
+          border-radius: 50%; }
+      .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item:hover {
+        background: #F0F1F9; }
+      .nav-block .buy-pros-dropdown .dropdown-menu .dropdown-item.item-disbaled {
+        opacity: .5;
+        cursor: not-allowed; }
+
+@media (max-width: 380px) {
+  .nav-block .nav-logo-wrapper .nav-logo img {
+    max-width: 100px; }
+
+  .nav-block .nav-logo-wrapper .nav-logo .logo-img img {
+    max-width: 24px; }
+
+  .nav-block .nav-logo-wrapper {
+    padding: 5px 10px; } }
 
 /*# sourceMappingURL=side-nav.css.map */
