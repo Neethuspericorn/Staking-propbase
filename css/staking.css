@@ -1283,6 +1283,9 @@
   .staking-card-block .card-btm-sec .stake-btn {
     padding: 10px 15px; } }
 @media (max-width: 1481px) {
+  .staking-card-block .table-block-cover .table-card .tab-val {
+    font-size: 13px; }
+
   .staking-card-block .progress-sm-sec .progress-block {
     width: 85px; }
 
