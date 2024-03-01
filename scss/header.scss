@@ -992,3 +992,17 @@
 }
 // navbar
 
+
+.buy-pros-select-block{
+    .props-title{
+        padding: 12px 15px;
+        border-bottom: solid 1px #E3E4F3;
+        margin: 0 -5px;
+        margin-bottom: 5px;
+        h4{
+            color: $text-primary-dark;
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    }
+}

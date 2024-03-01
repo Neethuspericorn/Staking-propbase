@@ -848,5 +848,14 @@
     flex-grow: 1; }
     .filter-wrapper .filter-nav-btn:last-child {
       margin-right: 0; } }
+.buy-pros-select-block .props-title {
+  padding: 12px 15px;
+  border-bottom: solid 1px #E3E4F3;
+  margin: 0 -5px;
+  margin-bottom: 5px; }
+  .buy-pros-select-block .props-title h4 {
+    color: #2E4276;
+    font-size: 13px;
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=header.css.map */
