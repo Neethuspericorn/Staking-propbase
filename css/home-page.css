@@ -2109,7 +2109,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; }
+    position: relative;
+    height: 50px !important; }
     .roadmap-slider .icon:before {
       content: '';
       left: calc(-50% - 14px);
@@ -2707,5 +2708,30 @@ section.buy-props {
     @media (max-width: 1679px) {
       section.buy-props .img-icn-outr {
         margin-right: 27px; } }
+
+.ambassador-program-outer {
+  padding-top: 70px; }
+  @media (max-width: 1679px) {
+    .ambassador-program-outer {
+      padding-top: 50px; } }
+  @media (max-width: 1481px) {
+    .ambassador-program-outer {
+      padding-top: 45px; } }
+  @media (max-width: 991px) {
+    .ambassador-program-outer {
+      padding-top: 30px; } }
+  @media (max-width: 579px) {
+    .ambassador-program-outer {
+      padding-top: 25px; } }
+
+.body-content-outer-home .filter-wrapper {
+  padding-bottom: 0 !important;
+  overflow-y: hidden;
+  overflow-x: auto; }
+  .body-content-outer-home .filter-wrapper .filter-nav-btn-wrapper .filter-nav-btn {
+    white-space: nowrap;
+    padding: 12px 12px; }
+    .body-content-outer-home .filter-wrapper .filter-nav-btn-wrapper .filter-nav-btn::after {
+      bottom: 1px; }
 
 /*# sourceMappingURL=home-page.css.map */

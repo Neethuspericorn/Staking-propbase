@@ -175,7 +175,9 @@ button {
     min-width: 90px; } }
 @media (max-width: 767px) {
   .filter-wrapper .filter-nav-btn {
-    min-width: 80px; }
+    min-width: 70px;
+    margin-right: 6px;
+    padding: 7px 12px; }
 
   .filter-wrapper .title-search-box .input-group {
     width: 100%; }

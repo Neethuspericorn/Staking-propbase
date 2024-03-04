@@ -890,4 +890,8 @@
     font-size: 13px;
     margin-bottom: 0; }
 
+@media (max-width: 767px) {
+  .filter-wrapper {
+    padding: 11px 12px; } }
+
 /*# sourceMappingURL=header.css.map */

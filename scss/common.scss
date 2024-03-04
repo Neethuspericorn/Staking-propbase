@@ -203,8 +203,10 @@ button{
 }
 @media($sm-767){
     .filter-wrapper .filter-nav-btn {
-        min-width: 80px;
+        min-width: 70px;
         // font-size: 13px;
+        margin-right: 6px;
+        padding: 7px 12px;
     }
     .filter-wrapper .title-search-box .input-group{
         width: 100%;

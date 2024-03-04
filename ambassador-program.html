@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Home</title>
+    <link rel="icon" href="img/fav.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/home-dark.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="toggle-btn-block">
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/transactions.svg" alt="">
+                                <span class="nav-label">Transactions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/terms.svg" alt="">
+                                <span class="nav-label">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item nav-item-logout">
+                            <div class="nav-link" href="#">
+                                <img src="img/dark-mode.svg" alt="">
+                                <span class="nav-label">Dark Mode</span>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg sticky-lg-top">
+                <div class="header-title-block">
+                    <!-- <div class="live-active wallet-btn">
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                    </div> -->
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$0.0035</span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
+                    </div>
+
+                    <!-- <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div> -->
+                    <div class="header-btn-cover">
+                        <div class="theme-toggle-btn-block">
+                            <button class="theme-toggle-btn">
+                                <img src="img/theme-light.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
+                        <div class="wallet-btn-cover wallet-btn-cover-web">
+                            <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                            <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- <button class="login-btn header-btn-web"><span class="acc-label">Admin Login</span> <img src="img/user.svg" alt=""></button> -->
+                        <!-- Admin btn -->
+                        <div class="admin-h-btn-block d-flex">
+                            <div class="btn-group notify-dropdown">
+                                <button type="button" class="notify-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="notify-icon">
+                                        <img src="img/notification.svg" alt="">
+                                        <span class="new"></span>
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="notify-title">
+                                        Notifications
+                                        <span class="count">10</span>
+                                        <button class="notify-clr-btn">Clear All</button>
+                                    </li>
+                                    <li class="dropdown-scrl-li">
+                                        <div class="dropdown-item-cover custom-scroll">
+                                            <div class="dropdown-item unread">
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item unread">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="btn-group my-acc-dropdown">
+                                <button type="button" class="my-acc-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-icon"><img src="img/admin-settings.svg" alt=""></span>
+                                    <span class="acc-label">My Account</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                            <img src="img/lock-drpdown.svg" alt=""> Change password
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src="img/logout-drpdwn.svg" alt=""> Logout
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="body-content-outer body-content-outer-home">
+                
+                <div class="property-listing-cover">
+                    <div class="filter-wrapper d-flex custom-scroll">
+                        <div class="block-left">
+                            <div class="filter-nav-btn-wrapper d-flex">
+                                <button class="filter-nav-btn">Home</button>
+                                <button class="filter-nav-btn">Portfolio</button>
+                                <button class="filter-nav-btn">Staking</button>
+                                <button class="filter-nav-btn">Transactions</button>
+                                <button class="filter-nav-btn active">Ambassador Program</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="home-content-outer">
+
+                    <div class="container home-container ambassador-program-outer">
+                        <!-- Marketing Campaign -->
+                        <section class="campaign">
+                            <div class="campaign-top-sec">
+                                <div class="campaign-title">Marketing Campaign</div>
+                                <div class="campaign-subtitle"><span>Propbase Spark </span>Marketing Campaign</div>
+                                <div class="two-col">
+                                    <div class="left-sec">
+                                        <div class="campaign-title left-title">Marketing Campaign</div>
+                                        <div class="top-heading">Propbase Spark <span>Marketing Campaign</span> </div>
+                                        <div class="campaign-content"><p>Propbase Spark's marketing campaign, designed to amplify awareness of PROPS, our native utility token, employs dynamic content and partnerships with Key Opinion Leaders (KOLs) and influencers. By leveraging their influence in relevant communities, we extend our reach and utilize their credibility to communicate PROPS' value within the cryptocurrency ecosystem. Key performance indicators, like user engagement and platform sign-ups, guide the campaign's success in expanding awareness and fostering PROPS adoption.</p></div>
+                                        <div class="join-us"><a href="#">Join Us Now</a></div>
+                                    </div>
+                                    <div class="right-sec">
+                                        <div class="right-boxes">
+                                            <div class="rectangle-box">
+                                                <div class="campaign-title left-title">Marketing $PROPS</div>
+                                                <div class="bottom-content">Social Influencers </div>
+                                            </div>
+                                        </div>
+                                        <div class="right-boxes">
+                                            <div class="rectangle-box">
+                                                <div class="campaign-title left-title">Campaign Period</div>
+                                                <div class="bottom-content">Jan - Mar 2024</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--end  Marketing Campaign -->
+                    
+                        <!-- brand ambassidor -->
+                            <section class="brand-ambassidor">
+                                <div class="content-left">
+                                    <h5 class="tagline">Propbase Spark Marketing Campaign</h5>
+                                    <h2 class="title">Become a <span> Brand Ambassador</span></h3>
+                                    <div class="content">
+                                        <p class="content-txt">Join our elite team as a brand ambassador for PROPBASE</p>
+                                        <p class="content-txt">Become an ambassador for Propbase, the premier real estate tokenization platform, and enjoy exclusive benefits, including early access to crucial information. As an ambassador, you'll play a key role in shaping the future of real estate, gaining unique opportunities and insights into our platform's advancements.</p>
+                                        <ul class="listing">
+                                            <li>Inclusivity: Open to all, from large influencers to emerging voices in RWA.</li>
+                                            <li>Early Access: Stay ahead with exclusive insights into Propbase's advancements.</li>
+                                            <li>Unique Opportunities: Shape the future of real estate with exclusive participation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="img-hldr">
+                                    <img src="img/brand-mob-bg1.png" alt="">
+                                    <a href="#" class="cta-float">
+                                        Apply Now
+                                    </a>
+                                </div>
+                            </section>
+                        <!-- brand ambassidor -->
+
+                        <!-- roadmap -->
+                        <section class="section-roadmap floating-icon-left">
+                            <div class="row">
+                                <div class="col-auto col-title">
+                                    <h3 class="title">Marketing Campaign <span>Roadmap</span></h3>
+                                </div>
+                                <div class="col col-arrows">
+                                    <div class="slide-arrows">
+                                        <button class="btn-arrow btn-prev"> </button>
+                                        <button class="btn-arrow btn-next"> </button>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="col">
+        
+                                    <div class="roadmap-slider-wrp">
+                                         
+                                        <div class="roadmap-slider">
+                                            <div class="slide">
+                                                <h3 class="month-title">January</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">January 2024</h4>
+                                                    <p class="txt">
+                                                        Gear up for the launch of the PROPS Staking App with CEX and DEX listings, paving the way for an exhilarating February platform launch with the introduction of the first tokenization offerings and heightened liquidity for the PROPS token.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">February</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">February 2024</h4>
+                                                    <p class="txt">
+                                                        Embark on the full-scale Propbase platform launch, featuring the inaugural tokenization offerings and a significant boost in PROPS token liquidity, marking a pivotal milestone in our journey. Propbase Spark marketing Campaign will be in full swing!
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">March</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">March 2024</h4>
+                                                    <p class="txt">
+                                                        March sees Propbase entering a phase of rapid growth—blitzscaling the platform, expanding to additional CEXs, and laying the groundwork for a flourishing token economy. Potential Bridging to ERC-20 platforms allowing enhanced liquidity for all PROPS token Holders 
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">April</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">April 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim id porro, neque iure iste velit, accusamus voluptatem quae placeat temporibus quos impedit nisi ducimus sed, quo quaerat ratione similique.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">May</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">May 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim id porro, neque iure iste velit, accusamus voluptatem quae placeat temporibus quos impedit nisi ducimus sed, quo quaerat ratione similique.
+                                                    </p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="slide">
+                                                <h3 class="month-title">June</h3>
+                                                <div class="icon">
+                                                    <img src="img/rodmap-ico.svg" alt="roadmap">
+                                                </div>
+                                                <div class="cont-wrp">
+                                                    <h4 class="month">June 2024</h4>
+                                                    <p class="txt">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non repellendus fugit, eaque saepe architecto nostrum itaque culpa sunt adipisci deserunt possimus ducimus, libero dignissimos rerum nesciunt facilis tenetur nam quo est optio? Doloremque, provident iusto!
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- roadmap ends-->
+
+                        <!-- Home page content ends here-->
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade custom-modal video-play-modal" id="videoPlayModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe class="video-frame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
