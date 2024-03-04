@@ -322,10 +322,10 @@
     margin-bottom: 10px; }
 
   .nav-block {
-    width: 235px; }
+    width: 230px; }
 
   .body-wrapper .content-block-outer {
-    max-width: calc(100% - 235px); } }
+    max-width: calc(100% - 230px); } }
 @media (max-width: 991px) {
   .nav-collapse .nav-block .nav-logo-wrapper .nav-logo .logo-txt img {
     width: auto !important; }

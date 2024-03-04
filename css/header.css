@@ -542,10 +542,10 @@
     margin-left: 15px; }
 
   .header-wrapper .info-block {
-    margin-right: 25px; }
+    margin-right: 18px; }
 
   .header-wrapper .info-block .info-val-end {
-    margin-left: 30px; }
+    margin-left: 20px; }
 
   .header-wrapper .right-block .buy-btn {
     width: 150px; }
@@ -567,6 +567,27 @@
 
   .filter-wrapper {
     padding: 13px 20px; } }
+@media (max-width: 1550px) {
+  .header-wrapper .header-title-block .live-active {
+    font-size: 13px;
+    padding: 9px 12px; }
+
+  .header-wrapper .right-block .my-acc-dropdown, .header-wrapper .right-block .notify-dropdown {
+    margin-left: 8px; }
+
+  .header-wrapper .right-block .buy-pros-dropdown {
+    margin-right: 8px; }
+
+  .header-wrapper .theme-toggle-btn-block {
+    margin-right: 10px; }
+
+  .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn {
+    font-size: 13px;
+    width: 130px;
+    padding: 9px 11px 9px 9px; }
+
+  .header-wrapper .info-block {
+    font-size: 13px; } }
 @media (max-width: 1481px) {
   .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
     width: 154px; }
@@ -621,9 +642,13 @@
 
   .header-wrapper .right-block .buy-btn {
     width: auto; } }
-@media (max-width: 1300px) {
+@media (max-width: 1450px) {
   .header-wrapper .header-title-block .live-active .label-web {
     display: none; }
+
+  .header-wrapper .right-block .notify-dropdown .notify-btn {
+    width: 36px;
+    height: 36px; }
 
   .header-wrapper .right-block .my-acc-dropdown .my-acc-btn {
     width: 36px;
@@ -647,22 +672,26 @@
     display: inline-flex;
     align-items: center;
     justify-content: center; } }
-@media (max-width: 1199px) {
-  .header-wrapper .theme-toggle-btn-block {
-    margin-right: 5px; }
-
+@media (max-width: 1300px) {
   .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after {
     display: none; }
 
   .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     padding: 5px;
     align-items: center;
     justify-content: center; }
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .cart-mob {
+      display: block; }
+    .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .acc-label {
+      display: none; }
 
-  .header-wrapper .right-block .buy-pros-block .pros-label {
-    display: none; }
+  .header-wrapper .wallet-btn-cover .wallet-btn {
+    height: 36px; } }
+@media (max-width: 1199px) {
+  .header-wrapper .theme-toggle-btn-block {
+    margin-right: 5px; }
 
   .header-wrapper .right-block .buy-pros-block .buy-pros-btn {
     height: 36px;
@@ -670,9 +699,6 @@
 
   .header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
     min-width: 135px; }
-
-  .header-wrapper .right-block .notify-dropdown .notify-btn {
-    width: 40px; }
 
   .header-wrapper .header-title-block .live-active .status {
     margin-right: 5px; }
@@ -718,6 +744,12 @@
   .header-wrapper .right-block .notify-dropdown .notify-btn {
     width: 36px;
     height: 36px; } }
+@media (min-width: 992px) and (max-width: 1100px) {
+  .header-wrapper .info-block {
+    font-size: 11px; }
+
+  .header-wrapper .header-title-block .live-active {
+    font-size: 10px; } }
 @media (max-width: 991px) {
   .header-wrapper .buy-pros-select-block {
     display: none; }
