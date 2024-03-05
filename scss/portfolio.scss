@@ -763,3 +763,60 @@
 .portfolio-card .table-no-data-h{
     min-height: auto !important;
 }
+
+
+.portfolio-container{
+    margin: 0 auto;
+    max-width: 1300px;
+    @media (max-width: 1800px) {
+        padding: 0 7vw;    
+    }
+    @media ($sm-1481) {
+        padding: 0 5vw;    
+    }
+    @media ($sm-1199) {
+        padding: 0;    
+    }
+}
+
+.portfolio-sec{
+    .statistics {
+        padding-top: 8px;
+        margin-bottom: 30px;
+        .statistics-blks-wrp{
+            margin-top: 0;
+            row-gap: unset;
+            column-gap: unset;
+            justify-content: space-between;
+            .statistics-blks{
+                width: calc((100% / 3) - 12px);
+                flex: unset;
+                margin-bottom: 20px;
+                @media ($sm-767) {
+                    width: calc(50% - 10px);
+                }
+                @media ($sm-479) {
+                    width: 100%;
+                }
+                .blks-title{
+                    margin-bottom: 10px;
+                    min-height: auto !important;
+                }
+                .numerics{
+                    @media ($sm-1679) {
+                        font-size: 22px;
+                    }
+                    @media ($sm-1481) {
+                        font-size: 20px;
+                    }
+                    @media ($sm-991) {
+                        font-size: 18px;
+                    }
+                    @media ($sm-767) {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

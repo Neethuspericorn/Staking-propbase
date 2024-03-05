@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Potfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/home-dark.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="toggle-btn-block">
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg">
+                <div class="header-title-block">
+                    <div class="live-active wallet-btn">
+                        <span class="status"></span> Live on APTOS mainnet
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$0.0035</span>
+                        <span class="info-val info-val-end">03.54%</span>
+                    </div>
+
+                    
+                    <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="wallet-btn-cover wallet-btn-cover-web">
+                        <button class="wallet-btn">0xf7e2...1380bf</button>
+                        <button class="wallet-btn-copy copy-btn">
+                            <img src="img/copy.svg" alt="">
+                        </button>
+                    </div>
+                    <button class="login-btn header-btn-web">Admin Login <img src="img/user.svg" alt=""></button>
+                </div>
+            </div>
+
+            <div class="body-content-outer">
+                <div class="property-listing-cover">
+                    <div class="filter-wrapper d-flex">
+                        <div class="block-left">
+                            <div class="filter-nav-btn-wrapper d-flex">
+                                <button class="filter-nav-btn">Home</button>
+                                <button class="filter-nav-btn">Portfolio</button>
+                                <button class="filter-nav-btn active">$PROPS Price</button>
+                                <button class="filter-nav-btn">Staking</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="portfolio-sec">
+                    <div class="portfolio-container">
+                        <div class="row lg-row gx-2">
+                            <div class="col lg-graph-col portfolio-col">
+                                <div class="lg-graph">
+                                    <div class="graph-det-top">
+                                        <div class="graph-title-block d-flex">
+                                            <div class="graph-title">
+                                                <div class="g-logo">
+                                                    <span class="g-logo-block">
+                                                        <img src="img/logo-img-coin.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="graph-det">
+                                                    <p class="g-label">$Props Price</p>
+                                                    <p class="g-rate">$0.0035 
+                                                        <span class="decs"><img src="img/pros-dwn.svg" alt=""> 03.54% (1W)</span>
+                                                        <span class="incs"><img src="img/pros-dwn.svg" alt=""> 03.54% (1W)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="g-filter-block">
+                                                <div class="filter-btn-cover">
+                                                    <button class="filter-btn active">1D</button>
+                                                    <button class="filter-btn">7D</button>
+                                                    <button class="filter-btn">1M</button>
+                                                    <button class="filter-btn">1Y</button>
+                                                    <button class="filter-btn">All</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="graph-block">
+                                            <!-- graph goes here -->
+                                            <img style="margin: 0 auto; max-width: 100%;" src="img/graph1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                           
+                        </div>
+
+                        <section class="statistics">
+                            <div class="statistics-blks-wrp">
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Market Cap</h5>
+                                    <span class="numerics">$28,651,568</span>
+                                </div>
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Trading Volume
+                                    </h5>
+                                    <span class="numerics">$49,861,578</span>
+                                </div>
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Total Supply
+                                    </h5>
+                                    <span class="numerics">$$49,861,578</span>
+                                </div>
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>PROPS in Circulation
+                                    </h5>
+                                    <span class="numerics">$49,861,578</span>
+                                </div>
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Circulating supply %</h5>
+                                    <span class="numerics">$28,651,568</span>
+                                </div>
+                                <div class="statistics-blks">
+                                    <h5 class="blks-title"><span><img src="img/info-qstn-mark.svg" alt=""></span>Total Holders
+                                    </h5>
+                                    <span class="numerics">$49,861,578</span>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    
+                </div>
+                               
+            </div>
+        </div>
+    </div>
+
+    <!-- claimRewardModal -->
+    <div class="modal fade custom-modal claim-reward-modal"
+        id="claimRewardModal" tabindex="-1" aria-labelledby="claimRewardModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="claim-reward-modal-body">
+                        <div class="modal-title">
+                            <h4>
+                                <span class="title-icon">
+                                    <img src="img/claim-earing.svg" alt="">
+                                </span> 
+                                Claim Earning
+                            </h4>
+                        </div>
+
+                        <div class="claim-count-block">
+                            <p>Staked $PROPS</p>
+                            <h4>6435</h4>
+                        </div>
+                        <div class="claim-count-block">
+                            <p>Rewards</p>
+                            <h4>Approx. $6435</h4>
+                        </div>
+                        <div class="claim-count-block">
+                            <p>Claimable $PROPS</p>
+                            <h4 class="txt-green">6435</h4>
+                        </div>
+                        <div class="btn-otr">
+                            <button class="btn-def claim-btn">Claim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- success modal -->
+    <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <img src="img/suceess-icon.svg">
+                        <h2>
+                            Claim Successful!
+                        </h2>
+                        <h5>
+                            You have successfully claimed the required amount
+                        </h5>
+                    </div>
+                    <div class="stake-detail pb-2">
+                        <div class="stake-amt">
+                            <div class="stake-amt-txt">
+                                Txn Hash
+                            </div>
+                            <div class="stake-rupees">
+                                0xdd57254632hrg4325432435464675r4t464654
+                            </div>
+                        </div>
+                        <div class="stake-amt mb-0">
+                            <div class="stake-amt-txt">
+                                Claimed Token Count
+                            </div>
+                            <div class="stake-rupees">
+                                64
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn-black">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

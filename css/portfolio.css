@@ -617,4 +617,51 @@
 .portfolio-card .table-no-data-h {
   min-height: auto !important; }
 
+.portfolio-container {
+  margin: 0 auto;
+  max-width: 1300px; }
+  @media (max-width: 1800px) {
+    .portfolio-container {
+      padding: 0 7vw; } }
+  @media (max-width: 1481px) {
+    .portfolio-container {
+      padding: 0 5vw; } }
+  @media (max-width: 1199px) {
+    .portfolio-container {
+      padding: 0; } }
+
+.portfolio-sec .statistics {
+  padding-top: 8px;
+  margin-bottom: 30px; }
+  .portfolio-sec .statistics .statistics-blks-wrp {
+    margin-top: 0;
+    row-gap: unset;
+    column-gap: unset;
+    justify-content: space-between; }
+    .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
+      width: calc((100% / 3) - 12px);
+      flex: unset;
+      margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
+          width: calc(50% - 10px); } }
+      @media (max-width: 479px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
+          width: 100%; } }
+      .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .blks-title {
+        margin-bottom: 10px;
+        min-height: auto !important; }
+      @media (max-width: 1679px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+          font-size: 22px; } }
+      @media (max-width: 1481px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+          font-size: 20px; } }
+      @media (max-width: 991px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+          font-size: 18px; } }
+      @media (max-width: 767px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+          font-size: 17px; } }
+
 /*# sourceMappingURL=portfolio.css.map */
