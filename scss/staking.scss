@@ -1429,9 +1429,11 @@
             .apy-block{
                 background-color: $primary-blue;
                 color: #fff;
+                height: 45%;
             }
             .dur-block{
                 flex-direction: column;
+                height: 55%;
             }
         }
         .progress-bar-block{
@@ -1630,7 +1632,7 @@
     }
     .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block{
         font-size: 13px;
-        min-height: 30px;
+        min-height: 40px;
     }
     .staking-card-block .table-block-cover .table-card .tab-val{
         font-size: 14px;
@@ -1712,7 +1714,8 @@
         padding: 10px 10px;
     }
     .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
-        min-height: 26px;
+        min-height: 40px;
+        font-size: 12px;
         line-height: 15px;
     }
     .staking-card-block .table-block-cover .table-card .tab-label {
@@ -1819,6 +1822,10 @@
     }
     .staking-card-block .progress-sm-sec .progress-col{
         width: 100% !important;
+
+    }
+    .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block{
+        height: auto !important;
     }
     .staking-card-block .progress-sm-sec .progress-col.progress-col-left{
         margin-bottom: 10px;

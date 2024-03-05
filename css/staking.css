@@ -1073,9 +1073,11 @@
           font-weight: 700; }
       .staking-card-block .progress-sm-sec .dur-cover .apy-block {
         background-color: #2966FF;
-        color: #fff; }
+        color: #fff;
+        height: 45%; }
       .staking-card-block .progress-sm-sec .dur-cover .dur-block {
-        flex-direction: column; }
+        flex-direction: column;
+        height: 55%; }
     .staking-card-block .progress-sm-sec .progress-bar-block {
       display: flex;
       align-items: center;
@@ -1242,7 +1244,7 @@
 
   .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
     font-size: 13px;
-    min-height: 30px; }
+    min-height: 40px; }
 
   .staking-card-block .table-block-cover .table-card .tab-val {
     font-size: 14px; }
@@ -1322,7 +1324,8 @@
     padding: 10px 10px; }
 
   .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
-    min-height: 26px;
+    min-height: 40px;
+    font-size: 12px;
     line-height: 15px; }
 
   .staking-card-block .table-block-cover .table-card .tab-label {
@@ -1409,6 +1412,9 @@
 
   .staking-card-block .progress-sm-sec .progress-col {
     width: 100% !important; }
+
+  .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
+    height: auto !important; }
 
   .staking-card-block .progress-sm-sec .progress-col.progress-col-left {
     margin-bottom: 10px; }
