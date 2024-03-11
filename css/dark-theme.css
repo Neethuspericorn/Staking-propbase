@@ -796,5 +796,23 @@
     border-color: rgba(72, 72, 72, 0.7); }
     .theme-dark .buy-pros-select-block .props-title h4 {
       color: #fff; }
+  .theme-dark .my-portfolio-col-lg .title-wrapper {
+    border-color: #484848; }
+  .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .portfolio-card-title .sub-title-block h6 {
+    color: #fff; }
+  .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .portfolio-card-title {
+    border-color: #373737; }
+    .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .portfolio-card-title .title-info img {
+      filter: grayscale(1) brightness(1); }
+  .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .eql-block .eql-content h6, .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .eql-block .eql-content p {
+    color: #fff; }
+  .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .tab-item-wrapper .tab-item-label, .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .tab-item-wrapper .tab-item-cnt {
+    color: #fff; }
+  .theme-dark .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 {
+    border-color: #292D32 !important; }
+  .theme-dark .img-light-theme {
+    display: none; }
+  .theme-dark .img-dark-theme {
+    display: inline-block; }
 
 /*# sourceMappingURL=dark-theme.css.map */

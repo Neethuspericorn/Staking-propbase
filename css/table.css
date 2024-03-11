@@ -242,8 +242,8 @@
 .sticky-table th {
   white-space: nowrap; }
 .sticky-table th:last-child, .sticky-table td:last-child {
-  position: sticky;
-  right: 0;
+  position: sticky !important;
+  right: -1px;
   background-color: #fff; }
 
 /*# sourceMappingURL=table.css.map */

@@ -1215,4 +1215,37 @@ $dark-block-2: #2B2C2E;
             color: $primary-light;
         }
     }
+    .my-portfolio-col-lg .title-wrapper{
+        border-color: #484848;
+    }
+    .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .portfolio-card-title .sub-title-block h6{
+        color: $primary-light;
+    }
+    .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .portfolio-card-title{
+        border-color: #373737;
+        .title-info img{
+            filter: grayscale(1) brightness(1);
+        }
+    }
+    .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .eql-block {
+        .eql-content {
+            h6, p{
+                color: $primary-light;
+            }
+        }
+    }
+    .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .tab-item-wrapper {
+        .tab-item-label, .tab-item-cnt{
+            color: $primary-light;
+        }
+    }
+    .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3{
+        border-color: #292D32 !important;
+    }
+    .img-light-theme{
+        display: none;
+    }
+    .img-dark-theme{
+        display: inline-block;
+    }
 }

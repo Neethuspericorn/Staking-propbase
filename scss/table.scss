@@ -305,8 +305,8 @@
     }
     th, td{
         &:last-child{
-            position: sticky;
-            right: 0;
+            position: sticky !important;
+            right: -1px;
             background-color: #fff;
         }
     }
