@@ -770,12 +770,12 @@
 
 .portfolio-container{
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1400px;
     @media (max-width: 1800px) {
-        padding: 0 7vw;    
+        padding: 0 3vw;    
     }
     @media ($sm-1481) {
-        padding: 0 5vw;    
+        padding: 0 15px;    
     }
     @media ($sm-1199) {
         padding: 0;    
@@ -792,9 +792,12 @@
             column-gap: unset;
             justify-content: space-between;
             .statistics-blks{
-                width: calc((100% / 3) - 12px);
+                width: calc((100% / 4) - 12px);
                 flex: unset;
                 margin-bottom: 20px;
+                @media (max-width: 1260px) {
+                    width: calc((100% / 3) - 12px);
+                }
                 @media ($sm-767) {
                     width: calc(50% - 10px);
                 }
@@ -805,19 +808,26 @@
                     margin-bottom: 10px;
                     min-height: auto !important;
                 }
-                .numerics{
+                .blks-title{
                     @media ($sm-1679) {
-                        font-size: 22px;
+                        font-size: 13px;
                     }
-                    @media ($sm-1481) {
+                }
+                .numerics{
+                    font-size: 24px;
+                    @media ($sm-1679) {
                         font-size: 20px;
                     }
-                    @media ($sm-991) {
+                    @media ($sm-1481) {
                         font-size: 18px;
                     }
-                    @media ($sm-767) {
+                    @media ($sm-991) {
+                        font-size: 16px;
+                    }
+                    @media ($sm-479) {
                         font-size: 17px;
                     }
+                    
                 }
             }
         }

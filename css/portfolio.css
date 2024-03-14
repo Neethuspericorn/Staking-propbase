@@ -621,13 +621,13 @@
 
 .portfolio-container {
   margin: 0 auto;
-  max-width: 1300px; }
+  max-width: 1400px; }
   @media (max-width: 1800px) {
     .portfolio-container {
-      padding: 0 7vw; } }
+      padding: 0 3vw; } }
   @media (max-width: 1481px) {
     .portfolio-container {
-      padding: 0 5vw; } }
+      padding: 0 15px; } }
   @media (max-width: 1199px) {
     .portfolio-container {
       padding: 0; } }
@@ -641,9 +641,12 @@
     column-gap: unset;
     justify-content: space-between; }
     .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
-      width: calc((100% / 3) - 12px);
+      width: calc((100% / 4) - 12px);
       flex: unset;
       margin-bottom: 20px; }
+      @media (max-width: 1260px) {
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
+          width: calc((100% / 3) - 12px); } }
       @media (max-width: 767px) {
         .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks {
           width: calc(50% - 10px); } }
@@ -654,17 +657,22 @@
         margin-bottom: 10px;
         min-height: auto !important; }
       @media (max-width: 1679px) {
-        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
-          font-size: 22px; } }
-      @media (max-width: 1481px) {
-        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
-          font-size: 20px; } }
-      @media (max-width: 991px) {
-        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
-          font-size: 18px; } }
-      @media (max-width: 767px) {
-        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
-          font-size: 17px; } }
+        .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .blks-title {
+          font-size: 13px; } }
+      .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+        font-size: 24px; }
+        @media (max-width: 1679px) {
+          .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+            font-size: 20px; } }
+        @media (max-width: 1481px) {
+          .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+            font-size: 18px; } }
+        @media (max-width: 991px) {
+          .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+            font-size: 16px; } }
+        @media (max-width: 479px) {
+          .portfolio-sec .statistics .statistics-blks-wrp .statistics-blks .numerics {
+            font-size: 17px; } }
 
 .my-portfolio-col-lg .title-wrapper {
   border-bottom: solid 1px #E3E4F3; }
