@@ -3529,19 +3529,11 @@ section.buy-props {
     }
 }
 
-.body-content-outer-home{
-    .filter-wrapper {
-        padding-bottom: 0 !important;
-        overflow-y: hidden;
-        overflow-x: auto;
-        .filter-nav-btn-wrapper{
-            .filter-nav-btn{
-                white-space: nowrap;
-                padding: 12px 12px;
-                &::after{
-                    bottom: 1px;
-                }
-            }
+.home-tab-outer{
+    .filter-wrapper .filter-nav-btn{
+        @media (max-width: 400px) {
+            flex-grow: unset;
+            padding: 7px 8px;
         }
     }
 }

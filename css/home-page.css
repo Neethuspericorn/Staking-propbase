@@ -1371,7 +1371,7 @@
       border: 2px solid #A1BBFF;
       background: #fff;
       padding: 30px 15px;
-      flex: 0 0 20%;
+      flex: 0 0 23%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -2724,14 +2724,9 @@ section.buy-props {
     .ambassador-program-outer {
       padding-top: 25px; } }
 
-.body-content-outer-home .filter-wrapper {
-  padding-bottom: 0 !important;
-  overflow-y: hidden;
-  overflow-x: auto; }
-  .body-content-outer-home .filter-wrapper .filter-nav-btn-wrapper .filter-nav-btn {
-    white-space: nowrap;
-    padding: 12px 12px; }
-    .body-content-outer-home .filter-wrapper .filter-nav-btn-wrapper .filter-nav-btn::after {
-      bottom: 1px; }
+@media (max-width: 400px) {
+  .home-tab-outer .filter-wrapper .filter-nav-btn {
+    flex-grow: unset;
+    padding: 7px 8px; } }
 
 /*# sourceMappingURL=home-page.css.map */
