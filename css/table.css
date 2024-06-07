@@ -246,4 +246,19 @@
   right: -1px;
   background-color: #fff; }
 
+.card-table .text-b {
+  font-weight: 500; }
+.card-table .text-red {
+  color: #FC5252 !important; }
+.card-table .text-orange {
+  color: #F3AA01 !important; }
+.card-table .text-green {
+  color: #0DAD4D !important; }
+.card-table .text-blue {
+  color: #0C15F9 !important; }
+.card-table .text-dark {
+  color: #2E4276 !important; }
+.card-table .text-light-blue {
+  color: #A2A2DF !important; }
+
 /*# sourceMappingURL=table.css.map */

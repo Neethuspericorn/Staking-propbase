@@ -814,5 +814,7 @@
     display: none; }
   .theme-dark .img-dark-theme {
     display: inline-block; }
+  .theme-dark .table-cover .custom-table {
+    background-color: #000; }
 
 /*# sourceMappingURL=dark-theme.css.map */
