@@ -246,19 +246,19 @@
   right: -1px;
   background-color: #fff; }
 
-.portfolio-sec .portfolio-card .card-table td.text-b {
+.portfolio-sec .portfolio-card .card-table td .text-b {
   font-weight: 500; }
-.portfolio-sec .portfolio-card .card-table td.text-red {
+.portfolio-sec .portfolio-card .card-table td .text-red {
   color: #FC5252 !important; }
-.portfolio-sec .portfolio-card .card-table td.text-orange {
+.portfolio-sec .portfolio-card .card-table td .text-orange {
   color: #F3AA01 !important; }
-.portfolio-sec .portfolio-card .card-table td.text-green {
+.portfolio-sec .portfolio-card .card-table td .text-green {
   color: #0DAD4D !important; }
-.portfolio-sec .portfolio-card .card-table td.text-blue {
+.portfolio-sec .portfolio-card .card-table td .text-blue {
   color: #0C15F9 !important; }
-.portfolio-sec .portfolio-card .card-table td.text-dark {
+.portfolio-sec .portfolio-card .card-table td .text-dark {
   color: #2E4276 !important; }
-.portfolio-sec .portfolio-card .card-table td.text-light-blue {
+.portfolio-sec .portfolio-card .card-table td .text-light-blue {
   color: #A2A2DF !important; }
 
 /*# sourceMappingURL=table.css.map */

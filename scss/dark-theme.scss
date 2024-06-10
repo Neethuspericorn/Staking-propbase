@@ -1252,25 +1252,25 @@ $dark-block-2: #2B2C2E;
         background-color: $dark-bg;
     }
     .portfolio-sec .portfolio-card .card-table td{
-        &.text-b{
+        .text-b{
             font-weight: 500;
         }
-        &.text-red{
+        .text-red{
             color: #FC5252 !important;
         }
-        &.text-orange{
+        .text-orange{
             color: #F3AA01 !important;
         }
-        &.text-green{
+        .text-green{
             color: #0DAD4D !important;
         }
-        &.text-blue{
+        .text-blue{
             color: #0C15F9 !important;
         }
-        &.text-dark{
+        .text-dark{
             color: $primary-dark !important;
         }
-        &.text-light-blue{
+        .text-light-blue{
             color: #A2A2DF !important;
         }  
     }
