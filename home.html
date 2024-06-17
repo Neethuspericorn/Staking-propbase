@@ -206,11 +206,11 @@
                         </div>
                         <div class="buy-pros-select-block">
                             <div class="btn-group buy-pros-dropdown">
-                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="modal" data-bs-target="#buyPropsModal">
                                     <img class="cart-mob" src="img/buy_token.svg" alt="">
                                     <span class="acc-label">Buy $PROPS</span>
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-end">
+                                <!-- <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
                                         <a class="dropdown-item" type="button">
                                             <span class="icon">
@@ -239,7 +239,7 @@
                                             </span> Chainge Finance
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
@@ -1316,6 +1316,94 @@ Rewards = P*N*R/100 (Where P: Principle, N: Staking duration in years, R: Rate o
                 <iframe class="video-frame" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
             </div>
         </div>
+        </div>
+    </div>
+
+
+    <!-- Buy props Modal -->   
+    <div class="modal fade custom-modal connect-wallet-modal buy-props-modal" id="buyPropsModal" tabindex="-1" aria-labelledby="walletModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="conect-wallet">
+                        <div class="wallet-title">Buy $PROPS</div>
+                        
+                        <div class="walles-otr">
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn active">
+                                    <div class="wallet-icon">
+                                        <img src="img/pros-mex.svg" alt="">
+                                    </div>
+                                    MEXC
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn">
+                                    <div class="wallet-icon">
+                                        <img src="img/pros-pan.svg" alt="">
+                                    </div>
+                                    Pancake
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn">
+                                    <div class="wallet-icon">
+                                        <img src="img/coin-liquid.svg" alt="">
+                                    </div>
+                                    Liquidswap
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn">
+                                    <div class="wallet-icon">
+                                        <img src="img/coin-chaing.svg" alt="">
+                                    </div>
+                                    Chainge Finance
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn item-disbaled">
+                                    <div class="wallet-icon">
+                                        <img src="img/bitget.svg" alt="">
+                                    </div>
+                                    Bitget
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn">
+                                    <div class="wallet-icon">
+                                        <img src="img/gate-io.svg" alt="">
+                                    </div>
+                                    Gate.io
+                                </button>
+                            </div>
+
+                            <div class="props-btn-card">
+                                <button class="btn wallet-btn">
+                                    <div class="wallet-icon">
+                                        <img src="img/bitmart.svg" alt="">
+                                    </div>
+                                    BitMart
+                                </button>
+                            </div>
+
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     

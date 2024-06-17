@@ -383,19 +383,22 @@
                     width: 130px;
                 }
                 .acc-label{
-                    margin-left: 10px;
-                    margin-right: 8px;
+                    text-align: center;
+                    width: 100%;
+                    // margin-left: 10px;
+                    // margin-right: 8px;
                     @media($sm-1199){
                         display: none;
                     }
                 }
                 &::after{
-                    margin-left: auto;
-                    margin-right: 2px;
-                    border-top-color: $input-text-color;
-                    border-top: 0.4em solid;
-                    border-right: 0.4em solid transparent;
-                    border-left: 0.4em solid transparent;
+                    display: none !important;
+                    // margin-left: auto;
+                    // margin-right: 2px;
+                    // border-top-color: $input-text-color;
+                    // border-top: 0.4em solid;
+                    // border-right: 0.4em solid transparent;
+                    // border-left: 0.4em solid transparent;
                 }
             }
             .dropdown-menu{
@@ -882,9 +885,9 @@
     }
 }
 @media($sm-991){
-    .header-wrapper .buy-pros-select-block{
-        display: none;
-    }
+    // .header-wrapper .buy-pros-select-block{
+    //     display: none;
+    // }
     .header-wrapper .right-block .buy-pros-dropdown{
         margin-right: 0;
     }

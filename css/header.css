@@ -330,18 +330,13 @@
             font-size: 13px;
             width: 130px; } }
         .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .acc-label {
-          margin-left: 10px;
-          margin-right: 8px; }
+          text-align: center;
+          width: 100%; }
           @media (max-width: 1199px) {
             .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn .acc-label {
               display: none; } }
         .header-wrapper .right-block .buy-pros-dropdown .buy-pros-btn::after {
-          margin-left: auto;
-          margin-right: 2px;
-          border-top-color: #4D6090;
-          border-top: 0.4em solid;
-          border-right: 0.4em solid transparent;
-          border-left: 0.4em solid transparent; }
+          display: none !important; }
       .header-wrapper .right-block .buy-pros-dropdown .dropdown-menu {
         border-radius: 10px;
         background: #FFF;
@@ -751,9 +746,6 @@
   .header-wrapper .header-title-block .live-active {
     font-size: 10px; } }
 @media (max-width: 991px) {
-  .header-wrapper .buy-pros-select-block {
-    display: none; }
-
   .header-wrapper .right-block .buy-pros-dropdown {
     margin-right: 0; }
 

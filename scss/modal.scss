@@ -1621,3 +1621,145 @@
         }
     }
 }
+
+
+.connect-wallet-modal{
+    .conect-wallet .walles-otr .wallet-btn {
+        @media ($sm-767) {
+            height: 60px;
+            flex: 1 1 auto;
+        }
+    }
+    .conect-wallet .walles-otr .wallet-btn{
+        // @media ($sm-767) {
+        //     display: none;
+        // }
+        // &.active{
+        //     display: flex;
+        // }
+    }
+    .conect-wallet .wallet-title{
+        margin-bottom: 0;
+    }
+    .wallet-desc{
+        display: none;
+    }
+
+    .wallet-address-mob{
+        display: block;
+        width: 100%;
+        @media (min-width:991px) {
+            display: none;
+        }
+        margin-top: 15px;
+        .wlt-label{
+            text-align: left;
+            color: $text-primary-dark;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .wallet-det{
+            height: 60px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #E3E4F3;
+            background: #FFF;
+            border-radius: 8px;
+            width: 100%;
+            @media ($sm-479) {
+                padding: 10px 15px;
+            }
+            .addrs{
+                font-size: 13px;
+                font-weight: 500;
+                flex: 1 1 auto;
+                padding-right: 10px;
+            }
+            .ads-copy-btn{
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                flex-shrink: 0;
+                border: solid 1px #e1e1fe;
+            }
+        }
+    }
+    .btn-cover {
+        @media ($sm-579) {
+            margin-top: 20px;
+        }
+        .primary-button{
+            @media ($sm-579) {
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.buy-props-modal{
+    .conect-wallet {
+        max-width: 100%;
+        @media ($sm-767) {
+            padding: 0;
+        }
+        @media ($sm-479) {
+            margin-bottom: 20px;
+        }
+    }
+    .modal-dialog {
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+    }
+    .walles-otr {
+        column-gap: unset;
+        flex-wrap: wrap;
+        @media ($sm-767) {
+            flex-direction: row;
+            margin-top: 20px;
+        }
+    }
+    .props-btn-card{
+        width: 25%;
+        padding: 12px;
+        @media ($sm-1199) {
+            width: calc(33.3%);
+        }
+        @media ($sm-767) {
+            width: 50%;
+            padding: 8px 10px;
+        }
+        @media (max-width: 450px) {
+            width: 100%;
+        }
+        .wallet-btn{
+            width: 100%;
+            margin: 0;
+            justify-content: flex-start;
+            text-align: left;
+            @media ($sm-479) {
+                font-size: 12px;
+            }
+            @media (max-width: 450px) {
+                height: 48px !important;
+            }
+            &.item-disbaled{
+                opacity: .5;
+                cursor: not-allowed;
+            }
+            .wallet-icon{
+                flex-shrink: 0;
+                @media ($sm-479) {
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
