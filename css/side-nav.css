@@ -432,11 +432,11 @@
   .nav-block .navbar-collapse-block .wallet-btn-block-mob .wallet-btn-mob {
     padding: 12px;
     font-size: 15px; } }
+.nav-block .buy-pros-select-block {
+  display: none !important; }
 .nav-block .buy-pros-dropdown {
-  margin-right: 12px; }
-  @media (min-width: 991px) {
-    .nav-block .buy-pros-dropdown {
-      display: none; } }
+  margin-right: 12px;
+  display: none !important; }
   @media (max-width: 479px) {
     .nav-block .buy-pros-dropdown {
       margin-right: 8px; } }

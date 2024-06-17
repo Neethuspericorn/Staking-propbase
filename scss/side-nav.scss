@@ -527,11 +527,12 @@
 
 
 .nav-block{
+    .buy-pros-select-block{
+        display: none !important;
+    }
     .buy-pros-dropdown{
         margin-right: 12px;
-        @media (min-width: 991px) {
-            display: none;
-        }
+        display: none !important;
         @media ($sm-479) {
             margin-right: 8px;
         }
