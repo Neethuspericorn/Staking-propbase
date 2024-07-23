@@ -830,5 +830,16 @@
     color: #2E4276 !important; }
   .theme-dark .portfolio-sec .portfolio-card .card-table td .text-light-blue {
     color: #A2A2DF !important; }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover {
+    background-color: #151618; }
+    .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn {
+      background-color: #151618;
+      color: #fff; }
+      .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn:hover {
+        background-color: #2B2C2E; }
+      .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn.active {
+        background-color: #2966FF; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img {
+    filter: grayscale(1) invert(1) brightness(2); }
 
 /*# sourceMappingURL=dark-theme.css.map */

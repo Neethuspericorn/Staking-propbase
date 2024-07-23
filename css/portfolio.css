@@ -878,5 +878,242 @@
 
   .my-portfolio-col-lg .content-wrapper-portfolio .portfolio-col-3 .tab-item-wrapper .tab-item-cnt {
     font-size: 13px; } }
+.portfolio-page-wrapper {
+  display: flex; }
+  .portfolio-page-wrapper .portfolio-left-col {
+    flex: 1 1 auto;
+    max-width: calc(100% - 430px);
+    padding-right: 15px; }
+  .portfolio-page-wrapper .portfolio-staked-graph-block {
+    margin-bottom: 20px;
+    border: solid 1px #3B3B3B;
+    border-radius: 9px;
+    padding: 30px; }
+    @media (max-width: 1679px) {
+      .portfolio-page-wrapper .portfolio-staked-graph-block {
+        padding: 20px 15px;
+        margin-bottom: 15px; } }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px; }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .title-left p {
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 5px; }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: 600; }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block {
+      padding: 8px 0; }
+      .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover {
+        border-radius: 4px;
+        background: #E8EFFF;
+        padding: 5px;
+        display: flex; }
+        .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn {
+          margin: 1px;
+          padding: 5px 10px;
+          font-size: 12px;
+          font-weight: 500;
+          transition: .3s;
+          border-radius: 5px;
+          color: #2E4276;
+          background: #E8EFFF; }
+          .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn:hover {
+            background-color: #fff; }
+          .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn.active {
+            background-color: #2966FF; }
+  .portfolio-page-wrapper .portfolio-right-col {
+    flex: 0 0 auto;
+    width: 430px; }
+  .portfolio-page-wrapper .my-portfolio-card {
+    width: 100%;
+    border: 1px solid #3B3B3B;
+    border-radius: 12px;
+    padding: 30px 15px 20px;
+    background-color: #000; }
+    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
+      display: flex;
+      align-items: center;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 25px; }
+      .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img {
+        margin-right: 8px; }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block {
+      margin-bottom: 25px;
+      border-radius: 9px;
+      background: linear-gradient(99.08deg, #2966FF 15.1%, #1547C2 80.16%);
+      padding: 20px;
+      color: #fff; }
+      .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 10px; }
+      .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h3 {
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 10px; }
+      .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
+        margin-bottom: 0;
+        font-size: 15px;
+        font-weight: 600; }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block {
+      margin-bottom: 20px; }
+      .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+        display: flex;
+        font-size: 13px;
+        align-items: center;
+        margin-bottom: 15px;
+        color: #737373; }
+        .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title span {
+          display: inline-block;
+          padding-right: 8px;
+          flex: 0 0 auto; }
+        .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title::after {
+          content: '';
+          flex: 1 1 auto;
+          width: 100%;
+          background-color: #1C1C1C;
+          height: 1px;
+          display: block; }
+      .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm {
+        border: 1px solid #1C1C1C;
+        border-radius: 8px;
+        display: flex;
+        padding: 18px;
+        margin-bottom: 12px;
+        align-items: center; }
+        .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon {
+          flex: 0 0 auto;
+          width: 38px; }
+        .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data {
+          padding-left: 15px; }
+          .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data p {
+            margin-bottom: 5px;
+            font-size: 13px; }
+          .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 {
+            margin-bottom: 0;
+            font-weight: 700;
+            font-size: 15px; }
+            .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 .coin {
+              font-weight: 500; }
+            .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 .bal {
+              display: inline-block;
+              padding-left: 12px;
+              color: #525252;
+              font-size: 12px; }
+
+@media (max-width: 1679px) {
+  .portfolio-page-wrapper .portfolio-right-col {
+    width: 360px; }
+
+  .portfolio-page-wrapper .portfolio-left-col {
+    max-width: calc(100% - 360px); }
+
+  .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
+    font-size: 18px; }
+
+  .portfolio-page-wrapper .my-portfolio-card {
+    padding: 20px 15px 0; }
+
+  .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
+    font-size: 16px;
+    margin-bottom: 20px; }
+    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img {
+      width: 22px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm {
+    padding: 12px 15px;
+    margin-bottom: 10px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 {
+    font-size: 14px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 .bal {
+    font-size: 11px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h3 {
+    font-size: 21px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
+    font-size: 15px; }
+
+  .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title {
+    margin-bottom: 15px; } }
+@media (max-width: 1481px) {
+  .portfolio-page-wrapper .portfolio-right-col {
+    width: 320px; }
+
+  .portfolio-page-wrapper .portfolio-left-col {
+    max-width: calc(100% - 320px); }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block {
+    margin-bottom: 20px;
+    padding: 15px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h3 {
+    font-size: 18px;
+    margin-bottom: 6px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
+    font-size: 14px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
+    font-size: 13px;
+    margin-bottom: 6px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
+    font-size: 15px;
+    margin-bottom: 15px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img {
+    width: 20px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm {
+    padding: 12px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon img {
+    width: 34px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon {
+    width: 36px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data p {
+    font-size: 12px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 {
+    font-size: 13px; }
+
+  .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 .bal {
+    font-size: 10px;
+    padding-left: 8px; }
+
+  .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
+    font-size: 16px; }
+
+  .portfolio-page-wrapper .portfolio-staked-graph-block {
+    padding: 15px;
+    margin-bottom: 15px; } }
+@media (max-width: 1199px) {
+  .portfolio-page-wrapper {
+    flex-wrap: wrap; }
+    .portfolio-page-wrapper .portfolio-left-col {
+      width: 100%;
+      max-width: 100%; }
+    .portfolio-page-wrapper .portfolio-right-col {
+      width: 100%; } }
+@media (max-width: 579px) {
+  .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
+    font-size: 15px; } }
+@media (max-width: 479px) {
+  .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title {
+    flex-wrap: wrap; }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title .title-left {
+      width: 100%;
+      padding-bottom: 5px; } }
 
 /*# sourceMappingURL=portfolio.css.map */

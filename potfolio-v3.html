@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Potfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/portfolio-new.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="toggle-btn-block">
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg sticky-lg-top">
+                <div class="header-title-block">
+                    <!-- <div class="live-active wallet-btn">
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                    </div> -->
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$0.0035</span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
+                    </div>
+
+                    <!-- <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div> -->
+                    <div class="header-btn-cover">
+                        <div class="theme-toggle-btn-block">
+                            <button class="theme-toggle-btn">
+                                <img src="img/theme-light.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
+                        <div class="wallet-btn-cover wallet-btn-cover-web">
+                            <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                            <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- <button class="login-btn header-btn-web"><span class="acc-label">Admin Login</span> <img src="img/user.svg" alt=""></button> -->
+                        <!-- Admin btn -->
+                        <div class="admin-h-btn-block d-flex">
+                            <div class="btn-group notify-dropdown">
+                                <button type="button" class="notify-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="notify-icon">
+                                        <img src="img/notification.svg" alt="">
+                                        <span class="new"></span>
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="notify-title">
+                                        Notifications
+                                        <span class="count">10</span>
+                                        <button class="notify-clr-btn">Clear All</button>
+                                    </li>
+                                    <li class="dropdown-scrl-li">
+                                        <div class="dropdown-item-cover custom-scroll">
+                                            <div class="dropdown-item unread">
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item unread">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="btn-group my-acc-dropdown">
+                                <button type="button" class="my-acc-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-icon"><img src="img/admin-settings.svg" alt=""></span>
+                                    <span class="acc-label">My Account</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                            <img src="img/lock-drpdown.svg" alt=""> Change password
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src="img/logout-drpdwn.svg" alt=""> Logout
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="body-content-outer">
+                <div class="property-listing-cover">
+                    <div class="filter-wrapper d-flex">
+                        <div class="block-left">
+                            <div class="filter-nav-btn-wrapper d-flex">
+                                <button class="filter-nav-btn">Home</button>
+                                <button class="filter-nav-btn active">Portfolio</button>
+                                <button class="filter-nav-btn">Staking</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="portfolio-sec">
+                    <div class="portfolio-page-wrapper">
+                        <!-- Left sec -->
+                        <div class="portfolio-left-col">
+                            <!-- Graph col -->
+                            <div class="portfolio-staked-graph-block">
+                                <div class="staked-graph-title">
+                                    <div class="title-left">
+                                        <p>total amount staked</p>
+                                        <h2>1,88,569.42 $PROPS</h2>
+                                    </div>
+                                    <div class="graph-btn-right">
+                                        <div class="g-filter-block">
+                                            <div class="filter-btn-cover">
+                                                <button class="filter-btn active">1D</button>
+                                                <button class="filter-btn">7D</button>
+                                                <button class="filter-btn">1M</button>
+                                                <button class="filter-btn">1Y</button>
+                                                <button class="filter-btn">All</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-staked-graph">
+                                    Graph
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12 portfolio-col">
+                                    <div class="portfolio-card">
+                                        <div class="title-wrapper">
+                                            <div class="title-block">
+                                                <div class="title-icon">
+                                                    <img src="img/reward.svg" alt="">
+                                                </div>
+                                                <h2>My Stakes</h2>
+                                            </div>
+                                        </div>
+                                        <div class="content-block">
+                                            <div class="sm-table-block table-responsive custom-scroll">
+                                                <table class="table card-table sticky-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Type of Staking</th>
+                                                            <th>$PROPS Staked</th>
+                                                            <th>$PROPS Unstaked</th>
+                                                            <th>Staked On</th>
+                                                            <th>Maturity Date</th>
+                                                            <th>APY %</th>
+                                                            <th>Claimed Rewards</th>
+                                                            <th>Claimed $Props</th>
+                                                            <th>Penality</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light">300</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light text-center">3500</td>
+                                                            <td class="txt-blue text-center">3500</td>
+                                                            <td>35</td>
+                                                            <td>
+                                                                <div class="btn-stakes">
+                                                                    <button class="btn-def claim-btn rewards-btn">Claim Rewards</button>
+                                                                    <button class="btn-def claim-btn unstake-btn" data-bs-toggle="modal" data-bs-target="#claimRewardModal">Unstake</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light">300</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light text-center">3500</td>
+                                                            <td class="txt-blue text-center">3500</td>
+                                                            <td>35</td>
+                                                            <td>
+                                                                <div class="btn-stakes">
+                                                                    <button class="btn-def claim-btn rewards-btn">Claim Rewards</button>
+                                                                    <button class="btn-def claim-btn unstake-btn" data-bs-toggle="modal" data-bs-target="#claimRewardModal">Unstake</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light">300</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light text-center">3500</td>
+                                                            <td class="txt-blue text-center">3500</td>
+                                                            <td>35</td>
+                                                            <td>
+                                                                <div class="btn-stakes">
+                                                                <button class="btn-def claim-btn" data-bs-toggle="modal" data-bs-target="#claimRewardModal">Claim</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light">300</td>
+                                                            <td class="txt-light">3500</td>
+                                                            <td class="txt-light">30%</td>
+                                                            <td class="txt-light text-center">3500</td>
+                                                            <td class="txt-blue text-center">3500</td>
+                                                            <td>35</td>
+                                                            <td>
+                                                                <div class="btn-stakes">
+                                                                    <button class="btn-def claim-btn rewards-btn">Claim Rewards</button>
+                                                                    <button class="btn-def claim-btn unstake-btn" data-bs-toggle="modal" data-bs-target="#claimRewardModal">Unstake</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                      
+                                
+                                <div class="col-12 portfolio-col">
+                                    <div class="portfolio-card">
+                                        <div class="title-wrapper">
+                                            <div class="title-block">
+                                                <div class="title-icon">
+                                                    <img src="img/history.svg" alt="">
+                                                </div>
+                                                <h2>Claim History</h2>
+                                            </div>
+                                        </div>
+                                        <div class="content-block">
+                                            <div class="sm-table-block table-responsive custom-scroll">
+                                                <table class="table card-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Transaction Hash</th>
+                                                            <th>Type of Staking</th>
+                                                            <th>Claimed date and time</th>
+                                                            <th>Claimed</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="txt-b">64fyt7647654r43...</td>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">12 may 2023, 12.34 EST</td>
+                                                            <td class="txt-b txt-blue">123.45</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">64fyt7647654r43...</td>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">12 may 2023, 12.34 EST</td>
+                                                            <td class="txt-b txt-blue">123.45</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">64fyt7647654r43...</td>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">12 may 2023, 12.34 EST</td>
+                                                            <td class="txt-b txt-blue">123.45</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="txt-b">64fyt7647654r43...</td>
+                                                            <td class="txt-b">Long Term</td>
+                                                            <td class="txt-light">12 may 2023, 12.34 EST</td>
+                                                            <td class="txt-b txt-blue">123.45</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="table-pagination-cover">
+                                                <div class="select-block">
+                                                    Rows per page
+                                                    <select class="pagination-select" name="" id="">
+                                                        <option value="">10</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- <div class="entries-block">
+                                                    Showing 1 to 5 of 20 entries
+                                                </div> -->
+                                                <div class="pagination-block">
+                                                    <nav aria-label="Page">
+                                                        <ul class="pagination">
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Previous">
+                                                                    <img src="img/arw-left.svg" alt="">
+                                                                </a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item"><span class="page-link-dots">&#183;&#183;&#183;</span></li>
+                                                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Next">
+                                                                    <img src="img/arw-right.svg" alt="">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+
+                        <!-- Right sec -->
+                        <div class="portfolio-right-col">
+                            <div class="my-portfolio-card">
+                                <div class="my-portfolio-title">
+                                    <img src="img/port-walt.svg" alt=""> My Portfolio
+                                </div>
+                                <div class="wallet-bal-block">
+                                    <p>Wallet Balance</p>
+                                    <h3>115,846,727.37 PROPS </h3>
+                                    <h4>$ 14,358,297.03 USD</h4>
+                                </div>
+                                <div class="pool-block">
+                                    <h5 class="pool-title"><span>Active Pool</span></h5>
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/active-pool-1.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Total Staked in Active Pool</p>
+                                            <h6>846,727.37 <span class="coin">PROPS</span> <span class="bal">$14,345 USD</span></h6>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/active-pool-2.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Total Rewards in Active Pool</p>
+                                            <h6>145,11.11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/active-pool-3.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Total Rewards Collected</p>
+                                            <h6>145,11.11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/active-pool-4.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Total Rewards Yet to Claim</p>
+                                            <h6>148,11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="pool-block">
+                                    <h5 class="pool-title"><span>Expired Pools</span></h5>
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/exp-pool-1.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>PROPS available to Withdraw </p>
+                                            <h6>145,11.11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/exp-pool-2.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Staked Amount Withdrawn</p>
+                                            <h6>345,11.11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="pool-card-sm">
+                                        <div class="icon">
+                                            <img src="img/exp-pool-3.svg" alt="">
+                                        </div>
+                                        <div class="pool-data">
+                                            <p>Rewards Withdrawn</p>
+                                            <h6>145,11.11 <span class="coin">PROPS</span></h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+                               
+            </div>
+        </div>
+    </div>
+
+    <!-- claimRewardModal -->
+    <div class="modal fade custom-modal claim-reward-modal"
+        id="claimRewardModal" tabindex="-1" aria-labelledby="claimRewardModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="claim-reward-modal-body">
+                        <div class="modal-title">
+                            <h4>
+                                <span class="title-icon">
+                                    <img src="img/claim-earing.svg" alt="">
+                                </span> 
+                                Claim Earning
+                            </h4>
+                        </div>
+
+                        <div class="claim-count-block">
+                            <p>Staked $PROPS</p>
+                            <h4>6435</h4>
+                        </div>
+                        <div class="claim-count-block">
+                            <p>Rewards</p>
+                            <h4>Approx. $6435</h4>
+                        </div>
+                        <div class="claim-count-block">
+                            <p>Claimable $PROPS</p>
+                            <h4 class="txt-green">6435</h4>
+                        </div>
+                        <div class="btn-otr">
+                            <button class="btn-def claim-btn">Claim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- success modal -->
+    <div class="modal fade custom-modal success-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="img/modal-close.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="crate-stake-modal-body">
+                    <div class="modal-title">
+                        <img src="img/suceess-icon.svg">
+                        <h2>
+                            Claim Successful!
+                        </h2>
+                        <h5>
+                            You have successfully claimed the required amount
+                        </h5>
+                    </div>
+                    <div class="stake-detail pb-2">
+                        <div class="stake-amt">
+                            <div class="stake-amt-txt">
+                                Txn Hash
+                            </div>
+                            <div class="stake-rupees">
+                                0xdd57254632hrg4325432435464675r4t464654
+                            </div>
+                        </div>
+                        <div class="stake-amt mb-0">
+                            <div class="stake-amt-txt">
+                                Claimed Token Count
+                            </div>
+                            <div class="stake-rupees">
+                                64
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn-black">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

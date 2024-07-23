@@ -1274,4 +1274,20 @@ $dark-block-2: #2B2C2E;
             color: #A2A2DF !important;
         }  
     }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover{
+        background-color: #151618;
+        .filter-btn{
+            background-color: #151618;
+            color: #fff;
+            &:hover{
+                background-color: #2B2C2E;
+            }
+            &.active{
+                background-color: $primary-blue;
+            }
+        }
+    }
+    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img{
+        filter: grayscale(1) invert(1) brightness(2);
+    }
 }
