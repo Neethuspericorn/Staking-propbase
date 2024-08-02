@@ -1287,7 +1287,60 @@ $dark-block-2: #2B2C2E;
             }
         }
     }
-    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img{
+    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img, 
+    .maturing-pools-sec .maturing-title-sec .title-icon{
         filter: grayscale(1) invert(1) brightness(2);
+    }
+
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .grph-select{
+        background-color: #151618;
+        color: #fff;
+        border-color: #151618;
+        background-image: url(../img/drp-arrow-white.svg);
+    }
+
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown {
+        .dropdown-toggle{
+            background-color: #151618;
+            color: #fff;
+            border-color: #151618;
+            background-image: url(../img/drp-arrow-white.svg);
+        }
+        .dropdown-menu {
+            border: solid 1px #484848;
+            background-color: #000;
+            .dropdown-item{
+                color: #fff;
+                &:hover {
+                    background-color: #131313;
+                }
+            }
+        }
+    }
+
+    .maturing-pools-sec .trending-card{
+        background-color: #000;
+        border-color: #383838;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price p {
+        color: #ababab;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price{
+        border-color: #FFFFFF26;
+    }
+    .maturing-pools-sec .trending-card{
+        background-image: url('../img/trending-bg.svg');
+    }
+    .maturing-pools-sec .trending-card .datas h4, 
+    .maturing-pools-sec .trending-card .datas .datas-block .val-det, 
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price h5, 
+    .maturing-pools-sec .maturing-title-sec h2{
+        color: #fff;
+    }
+    .maturing-pools-sec .maturing-title-sec .tab-col .filter-nav-btn-wrapper {
+        border-color: #484848;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+        color: #fff;
     }
 }

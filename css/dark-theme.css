@@ -839,7 +839,43 @@
         background-color: #2B2C2E; }
       .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn.active {
         background-color: #2966FF; }
-  .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img {
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img,
+  .theme-dark .maturing-pools-sec .maturing-title-sec .title-icon {
     filter: grayscale(1) invert(1) brightness(2); }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .grph-select {
+    background-color: #151618;
+    color: #fff;
+    border-color: #151618;
+    background-image: url(../img/drp-arrow-white.svg); }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-toggle {
+    background-color: #151618;
+    color: #fff;
+    border-color: #151618;
+    background-image: url(../img/drp-arrow-white.svg); }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-menu {
+    border: solid 1px #484848;
+    background-color: #000; }
+    .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-menu .dropdown-item {
+      color: #fff; }
+      .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-menu .dropdown-item:hover {
+        background-color: #131313; }
+  .theme-dark .maturing-pools-sec .trending-card {
+    background-color: #000;
+    border-color: #383838; }
+  .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price p {
+    color: #ababab; }
+  .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price {
+    border-color: #FFFFFF26; }
+  .theme-dark .maturing-pools-sec .trending-card {
+    background-image: url("../img/trending-bg.svg"); }
+  .theme-dark .maturing-pools-sec .trending-card .datas h4,
+  .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-det,
+  .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price h5,
+  .theme-dark .maturing-pools-sec .maturing-title-sec h2 {
+    color: #fff; }
+  .theme-dark .maturing-pools-sec .maturing-title-sec .tab-col .filter-nav-btn-wrapper {
+    border-color: #484848; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

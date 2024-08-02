@@ -1115,7 +1115,7 @@
         .staked-graph-title{
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            // align-items: center;
             margin-bottom: 20px;
         }
         .title-left{
@@ -1131,6 +1131,89 @@
             }
         }
         .graph-btn-right{
+            .g-filter-block .filter-btn-cover .filter-btn{
+                font-size: 11px !important;
+                padding: 2px 10px 1px !important;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .g-filter-block{
+                align-items: center;
+            }
+            .bottom-lgd{
+                .grph-legend-dropdown{
+                    .dropdown-toggle{
+                        border-radius: 6px;
+                        border: 1px solid #484848;
+                        background: $primary-light;
+                        color: #292D32;
+                        font-family: $font-primary;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        outline: none;
+                        box-shadow: none;
+                        padding: 8px 30px 8px 10px;
+                        background-image: url(../img/drp-arrow.svg);
+                        background-repeat: no-repeat;
+                        background-position: 90% 12px;
+                        display: inline-table;
+                        display: flex;
+                        align-items: center;
+                        &::after{
+                            display: none;
+                        }
+                        @media (max-width: 370px) {
+                            width: 100%;
+                            text-align: left;
+                        }
+                    }
+                    .leg-color{
+                        display: inline-block;
+                        width: 9px;
+                        height: 9px;
+                        border-radius: 3px;
+                        background-color: #2966FF;
+                        margin-right: 8px;
+                    }
+                    .dropdown-item{
+                        font-size: 12px;
+                    }
+                    .dropdown-menu{
+                        @media (max-width: 370px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            
+            .grph-select{
+                border-radius: 6px;
+                border: 1px solid #E3E4F3;
+                background: #FFF;
+                color: #292D32;
+                font-family: "Poppins", sans-serif;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                outline: none;
+                box-shadow: none;
+                padding: 8px 30px 8px 10px;
+                background-image: url(../img/drp-arrow.svg);
+                background-repeat: no-repeat;
+                background-position: 90% center;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                margin: 0;
+                &::after{
+                    display: none;
+                }
+            }
+
             .g-filter-block{
                 padding: 8px 0;
                 .filter-btn-cover{
@@ -1193,11 +1276,34 @@
                 font-size: 27px;
                 font-weight: 700;
                 margin-bottom: 10px;
+                span{
+                    font-weight: 400;
+                }
             }
             h4{
                 margin-bottom: 0;
                 font-size: 15px;
                 font-weight: 600;
+            }
+        }
+        .prop-wal-bal-block{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #1C1C1C;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 15px;
+            .wal-bal-label{
+                font-size: 13px;
+                img{
+                    margin-right: 8px;
+                }
+            }
+            .wal-bal-amt{
+                color: $primary-blue;
+                font-size: 14px;
+                font-weight: 700;
             }
         }
         .pool-block{
@@ -1222,6 +1328,61 @@
                     display: block;
                 }
             }
+            .est-pool-card-sm{
+                border: 1px solid #1C1C1C;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-between;
+                padding: 18px;
+                margin-bottom: 12px;
+                align-items: center;
+                .label-left{
+                    font-size: 10px;
+                    color: #717171;
+                    color: #fff;
+                    .period{
+                        width: 60px;
+                        font-size: 13px;
+                        color: #fff;
+                        display: inline-block;
+                    }
+                    .val{
+                        padding-left: 15px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        .props{
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .est-off{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #767676;
+                }
+            }
+            .stats-wrapper{
+                display: flex;
+                justify-content: space-between;
+                .stats-col{
+                    width: calc((100% / 3) - 5px);
+                    border: 1px solid #1C1C1C;
+                    background: #0D0D0D;
+                    color: #fff;
+                    min-height: 80px;
+                    padding: 20px 2px 10px 13px;
+                    border-radius: 8px;
+                    p{
+                        font-size: 13px;
+                        margin-bottom: 2px;
+                    }
+                    h4{
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+            }
             .pool-card-sm{
                 border: 1px solid #1C1C1C;
                 border-radius: 8px;
@@ -1234,7 +1395,36 @@
                     width: 38px;
                 }
                 .pool-data{
+                    flex: 1 1 auto;
+                    position: relative;
                     padding-left: 15px;
+                    .claim-btn-sm{
+                        display: inline-flex;
+                        align-items: center;
+                        border: 1px solid #141925;
+                        background-color: #141925;
+                        color: #fff;
+                        padding: 4px 15px;
+                        max-height: 27px;
+                        font-size: 12px;
+                        border-radius: 20px;
+                        transition: .3s;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        &:hover{
+                            opacity: .8;
+                        }
+                        img{
+                            margin-right: 5px;
+                        }
+                        @media ($sm-1679) {
+                            right: -5px;
+                            font-size: 11px;
+                        }
+                    }
                     p{
                         margin-bottom: 5px;
                         font-size: 13px;
@@ -1259,12 +1449,154 @@
     }
 }
 
+
+
+
+.maturing-pools-sec{
+    background-color: transparent;
+    border: solid 1px #3B3B3B;
+    border-radius: 9px;
+    padding: 10px 25px 25px;
+    margin-bottom: 15px;
+    .maturing-title-sec{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .left-col{
+            display: flex;
+            align-items: center;
+        }
+        .title-icon{
+            padding-right: 13px;
+        }
+        h2{
+            margin-bottom: 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #2E4276;
+        }
+        .tab-col{
+            flex-shrink: 0;
+            border: none;
+            .filter-nav-btn-wrapper{
+                border-bottom: solid 1px #E3E4F3;
+            }
+            .filter-nav-btn{
+                font-size: 13px;
+                &::after{
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    .slick-track{
+        margin-left: -8px;
+    }
+    .slick-list{
+        padding-right: 45%;
+        @media (max-width: 2000px) {
+            padding-right: 30%;
+        }
+    }
+
+    .item{
+        padding: 0 8px;
+    }
+    .trending-card{
+        width: 100%;
+        height: 100%;
+        border: 1px solid $border-grey;
+        background-color: #fff;
+        border-radius: 16px;
+        text-decoration: none;
+        display: flex;
+        padding: 20px 15px;
+        position: relative;
+        background-image: url('../img/trending-bg-white.svg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        .icons{
+            display: flex;
+            align-items: center;
+            flex: 0 0 auto;
+            width: 45px;
+            .coins{
+                img{
+                    max-width: 100%;
+                }
+                // &:nth-child(2){
+                //     transform: translateX(-5px);
+                // }
+            }
+        }
+        .datas{
+            padding-left: 15px;
+            flex: 1 1 auto;
+            color: $text-primary-dark;
+            h4{
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                color: $text-primary-dark;
+            }
+            .datas-block{
+                display: flex;
+                .val-det{
+                    font-size: 14px;
+                    font-weight: 600;
+                    width: 24%;
+                }
+                .val-price{
+                    flex-grow: 1;
+                    padding-left: 15px;
+                    border-left: solid 1px #E3E4F3;
+                    p{
+                        margin-bottom: 5px;
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: $text-primary-light;
+                    }
+                    h5{
+                        margin-bottom: 0;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 @media ($sm-1679) {
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block{
+        padding: 12px 15px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm{
+        padding: 15px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col{
+        padding: 16px 2px 10px 13px;
+        min-height: 75px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data p {
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon img{
+        width: 34px;
+    }
     .portfolio-page-wrapper .portfolio-right-col {
-        width: 360px;
+        width: 370px;
     }
     .portfolio-page-wrapper .portfolio-left-col {
-        max-width: calc(100% - 360px);
+        max-width: calc(100% - 370px);
     }
     .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
         font-size: 18px;
@@ -1298,14 +1630,111 @@
     .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title{
         margin-bottom: 15px;
     }
+    
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
+        font-size: 14px;
+    }
+
+    .portfolio-page-wrapper .portfolio-staked-graph-block .title-left p {
+        font-size: 11px;
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn {
+        font-size: 10px !important;
+        padding: 3px 10px 1px !important;
+    }
+    .maturing-pools-sec .maturing-title-sec {
+        h2{
+            font-size: 18px;
+        }
+        .title-icon img{
+            max-height: 20px;
+        }
+    }
+    .maturing-pools-sec .trending-card .icons {
+        width: auto;
+        img{
+            width: 38px;
+        }
+    }
+    .maturing-pools-sec .trending-card .datas h4 {
+        font-size: 13px;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price p{
+        font-size: 11px;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price h5{
+        font-size: 12px;
+    }
+    .maturing-pools-sec {
+        padding: 10px 20px 20px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .period {
+        width: 56px;
+        font-size: 12px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col p {
+        font-size: 12px;
+    }
+    .maturing-pools-sec {
+        padding: 10px 20px 20px;
+    }
 }
 
 @media($sm-1481){
+    .maturing-pools-sec .maturing-title-sec h2 {
+        font-size: 16px;
+    }
+    .maturing-pools-sec {
+        padding: 10px 18px 15px;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price p{
+        font-size: 11px;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price h5{
+        font-size: 12px;
+    }
+    .maturing-pools-sec .trending-card .icons img {
+        width: 35px;
+    }
+    .maturing-pools-sec .trending-card .icons {
+        width: 40px;
+    }
+    .maturing-pools-sec .trending-card{
+        padding: 17px 12px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col {
+        padding: 14px 2px 10px 10px;
+        min-height: 66px;
+    }
     .portfolio-page-wrapper .portfolio-right-col {
-        width: 320px;
+        width: 340px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .period {
+        width: 54px;
+        font-size: 11px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .val {
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .est-off {
+        font-size: 11px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col h4{
+        font-size: 13px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col p {
+        font-size: 11px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm {
+        padding: 12px 15px;
     }
     .portfolio-page-wrapper .portfolio-left-col {
-        max-width: calc(100% - 320px);
+        max-width: calc(100% - 340px);
     }
     .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block {
         margin-bottom: 20px;
@@ -1317,10 +1746,6 @@
     }
     .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
         font-size: 14px;
-    }
-    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
-        font-size: 13px;
-        margin-bottom: 6px;
     }
     .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
         font-size: 15px;
@@ -1341,7 +1766,7 @@
         width: 36px;
     }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 {
         font-size: 13px;
@@ -1357,31 +1782,245 @@
         padding: 15px;
         margin-bottom: 15px;
     }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-label {
+        font-size: 12px;
+    }
 }
 
+@media (max-width: 1400px) {
+    .maturing-pools-sec .slick-list {
+        padding-right: 20%;
+    } 
+}
+
+@media (max-width: 1300px) {
+    .maturing-pools-sec .slick-list {
+        padding-right: 10%;
+    } 
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title.total-rewards-accured-title{
+        flex-wrap: wrap;
+        .title-left{
+            width: 100%;
+        }
+        .graph-btn-right{
+            width: 100%;
+            .bottom-lgd{
+                .grph-legend-dropdown{
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media($sm-1367){
+    .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
+        font-size: 15px;
+    }
+}
 @media($sm-1199){
+    .maturing-pools-sec .slick-list {
+        padding-right: 28%;
+    } 
     .portfolio-page-wrapper{
         flex-wrap: wrap;
         .portfolio-left-col{
             width: 100%;
             max-width: 100%;
+            order: 2;
+            padding-right: 0;
         }
         .portfolio-right-col{
             width: 100%;
+            order: 1;
+            margin-bottom: 20px;
         }
     }
 }
+@media($sm-767){
+    .maturing-pools-sec .slick-list {
+        padding-right: 10%;
+    }
+    
+    .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title.total-rewards-accured-title{
+        flex-wrap: wrap;
+        .title-left{
+            width: 100%;
+        }
+        .graph-btn-right{
+            padding-top: 10px;
+            width: 100%;
+            .bottom-lgd{
+                .grph-legend-dropdown{
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block {
+        padding: 8px 0 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .maturing-pools-sec .slick-list {
+        padding-right: 0;
+    } 
+}
 @media($sm-579){
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm {
+        padding: 12px 10px;
+    }
+    .maturing-pools-sec .slick-track {
+        margin-left: 0;
+    }
+    .maturing-pools-sec .item {
+        padding: 0 2px;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price{
+        padding-left: 12px;
+    }
+    .maturing-pools-sec {
+        padding: 10px 15px 15px;
+    }
+    .maturing-pools-sec .maturing-title-sec .tab-col .filter-nav-btn {
+        font-size: 12px;
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block{
+        flex-wrap: wrap;
+        .grph-select, .filter-btn-cover{
+            margin-bottom: 10px;
+        }
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title{
+        flex-wrap: wrap;
+        .title-left{
+            width: 100%;
+        }
+        .graph-btn-right{
+            width: 100%;
+            .bottom-lgd{
+                .grph-legend-dropdown{
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
     .portfolio-page-wrapper .portfolio-staked-graph-block .title-left h2 {
         font-size: 15px;
     }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block h4 {
+        font-size: 12px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
 }
+
+@media (max-width: 530px) {
+    .portfolio-page-wrapper .my-portfolio-card {
+        padding: 15px 12px 0;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block{
+        flex-wrap: wrap;
+
+    }
+    .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price{
+        width: 55%;
+        margin-bottom: 15px;
+        &:nth-child(odd){
+            width: 45%;
+            flex-shrink: 0;
+        }
+    }
+    .theme-dark .maturing-pools-sec .trending-card{
+        align-items: flex-start;
+    }
+}
+
 @media($sm-479){
     .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title{
         flex-wrap: wrap;
         .title-left{
             width: 100%;
             padding-bottom: 5px;
+        }
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm {
+        padding: 12px 10px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .val {
+        padding-left: 10px;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .period {
+        width: 45px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon img {
+        width: 26px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data {
+        padding-left: 5px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon {
+        width: 30px;
+    }
+    .maturing-pools-sec .maturing-title-sec .tab-col{
+        width: 100%;
+        padding: 8px 0 !important;
+    }
+    .theme-dark .maturing-pools-sec .trending-card{
+        position: relative;
+    }
+    .maturing-pools-sec .trending-card .icons{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+    .maturing-pools-sec .trending-card .datas {
+        padding-left: 0;
+    }
+    .maturing-pools-sec .trending-card .datas .datas-block {
+        padding-top: 20px;
+    }
+    .maturing-pools-sec .trending-card .datas h4{
+        padding-left: 50px;
+        padding-top: 8px;
+    }
+}
+// @media (max-width: 400px) {
+//     .maturing-pools-sec .trending-card .datas .datas-block .val-price{
+//         width: 100% !important;
+//         flex-shrink: 0;
+//     }
+// }
+
+@media (max-width: 340px) {
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col {
+        padding: 14px 2px 10px 6px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block {
+        padding: 12px 10px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data .claim-btn-sm {
+        right: -5px;
+        font-size: 11px;
+        top: auto;
+        bottom: -7px;
+        img{
+            display: none;
         }
     }
 }

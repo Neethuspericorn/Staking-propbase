@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <title>Propbase :: Potfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/header.css">
@@ -346,11 +348,16 @@
                             <div class="portfolio-staked-graph-block">
                                 <div class="staked-graph-title">
                                     <div class="title-left">
-                                        <p>total amount staked</p>
+                                        <p>Total amount staked</p>
                                         <h2>1,88,569.42 $PROPS</h2>
                                     </div>
                                     <div class="graph-btn-right">
-                                        <div class="g-filter-block">
+                                        <div class="g-filter-block d-flex">
+                                            <select class="grph-select me-2" name="" id="">
+                                                <option value="">Total amount staked</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                            </select>
                                             <div class="filter-btn-cover">
                                                 <button class="filter-btn active">1D</button>
                                                 <button class="filter-btn">7D</button>
@@ -359,10 +366,195 @@
                                                 <button class="filter-btn">All</button>
                                             </div>
                                         </div>
+                                        <div class="bottom-lgd d-flex">
+                                            <div class="dropdown grph-legend-dropdown ms-auto">
+                                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <span class="leg-color"></span> Summer Pool
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                                  <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="leg-color"></span> Summer Pool
+                                                    </a>
+                                                </li>
+                                                  <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="leg-color" style="background-color: green;"></span> Purchase Amount
+                                                    </a>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="portfolio-staked-graph">
-                                    Graph
+                                    <img src="img/graph-pf-1.svg" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <!-- graph rewards -->
+                            <div class="portfolio-staked-graph-block">
+                                <div class="staked-graph-title total-rewards-accured-title">
+                                    <div class="title-left">
+                                        <p>Total Rewards Accured</p>
+                                        <h2>1,88,569.42 $PROPS</h2>
+                                    </div>
+                                    <div class="graph-btn-right">
+                                        <div class="g-filter-block d-flex">
+                                            <select class="grph-select me-2" name="" id="">
+                                                <option value="">Total Rewards Accrued</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                            </select>
+                                            <select class="grph-select me-2" name="" id="">
+                                                <option value="">Active pool</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                            </select>
+                                            <div class="filter-btn-cover">
+                                                <button class="filter-btn active">1D</button>
+                                                <button class="filter-btn">7D</button>
+                                                <button class="filter-btn">1M</button>
+                                                <button class="filter-btn">1Y</button>
+                                                <button class="filter-btn">All</button>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-lgd d-flex">
+                                            <div class="dropdown grph-legend-dropdown ms-auto">
+                                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <span class="leg-color"></span> Summer Pool
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                                  <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="leg-color"></span> Summer Pool
+                                                    </a>
+                                                </li>
+                                                  <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="leg-color" style="background-color: green;"></span> Purchase Amount
+                                                    </a>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-staked-graph">
+                                    <img src="img/graph-pf-2.svg" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <!-- maturing pools sec -->
+                            <div class="maturing-pools-sec">
+                                <div class="maturing-title-sec">
+                                    <div class="left-col">
+                                        <span class="title-icon">
+                                            <img src="img/reward.svg" alt="">
+                                        </span>
+                                        <h2>My Stakes</h2>
+                                    </div>
+                                    <div class="tab-col filter-wrapper mb-0">
+                                        <div class="filter-nav-btn-wrapper d-flex">
+                                            <button class="filter-nav-btn active">Pools expiring soon</button>
+                                            <button class="filter-nav-btn ">Pools expired</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="maturing-pools-slider">
+                                    <div class="item">
+                                        <a href="#" class="trending-card">
+                                            <div class="icons">
+                                                <span class="coins">
+                                                    <img src="img/apt-white-slider.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <div class="datas">
+                                                <h4>Wyandham Garden Residences</h4>
+                                                <div class="datas-block">
+                                                    <div class="val-price">
+                                                        <p>Maturity date</p>
+                                                        <h5>23 Feb 2024</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>APY</p>
+                                                        <h5>20%</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Staked Amount</p>
+                                                        <h5>$1,552</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Rewards Yet To Claim</p>
+                                                        <h5>178</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+        
+                                    <div class="item">
+                                        <a href="#" class="trending-card">
+                                            <div class="icons">
+                                                <span class="coins">
+                                                    <img src="img/apt-white-slider.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <div class="datas">
+                                                <h4>Wyandham Garden Residences</h4>
+                                                <div class="datas-block">
+                                                    <div class="val-price">
+                                                        <p>Maturity date</p>
+                                                        <h5>23 Feb 2024</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>APY</p>
+                                                        <h5>20%</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Staked Amount</p>
+                                                        <h5>$1,552</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Rewards Yet To Claim</p>
+                                                        <h5>178</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+        
+                                    <div class="item">
+                                        <a href="#" class="trending-card">
+                                            <div class="icons">
+                                                <span class="coins">
+                                                    <img src="img/apt-white-slider.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <div class="datas">
+                                                <h4>Wyandham Garden Residences</h4>
+                                                <div class="datas-block">
+                                                    <div class="val-price">
+                                                        <p>Maturity date</p>
+                                                        <h5>23 Feb 2024</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>APY</p>
+                                                        <h5>20%</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Staked Amount</p>
+                                                        <h5>$1,552</h5>
+                                                    </div>
+                                                    <div class="val-price">
+                                                        <p>Rewards Yet To Claim</p>
+                                                        <h5>178</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -568,10 +760,73 @@
                                     <img src="img/port-walt.svg" alt=""> My Portfolio
                                 </div>
                                 <div class="wallet-bal-block">
-                                    <p>Wallet Balance</p>
-                                    <h3>115,846,727.37 PROPS </h3>
+                                    <p>Total Amount Staked</p>
+                                    <h3>115,846,727.37 <span>PROPS</span> </h3>
                                     <h4>$ 14,358,297.03 USD</h4>
                                 </div>
+
+                                <div class="prop-wal-bal-block">
+                                    <div class="wal-bal-label">
+                                        <img src="img/wal-bal.svg" alt="">
+                                        PROPS Wallet Balance :
+                                    </div>
+                                    <div class="wal-bal-amt">
+                                        $23,242.89
+                                    </div>
+                                </div>
+
+                                <div class="pool-block">
+                                    <h5 class="pool-title"><img class="me-2" src="img/est-rew.svg" alt=""> <span>Estimated Rewards</span></h5>
+                                    <div class="est-pool-card-sm">
+                                        <div class="label-left">
+                                            <span class="period">Daily</span>:
+                                            <span class="val">127.37 <span class="props">PROPS</span></span>
+                                        </div>
+                                        <div class="est-off">
+                                            $14,345 USD
+                                        </div>
+                                    </div>
+
+                                    <div class="est-pool-card-sm">
+                                        <div class="label-left">
+                                            <span class="period">Weekly</span>:
+                                            <span class="val">127.37 <span class="props">PROPS</span></span>
+                                        </div>
+                                        <div class="est-off">
+                                            $14,345 USD
+                                        </div>
+                                    </div>
+
+                                    <div class="est-pool-card-sm">
+                                        <div class="label-left">
+                                            <span class="period">Monthly</span>:
+                                            <span class="val">127.37 <span class="props">PROPS</span></span>
+                                        </div>
+                                        <div class="est-off">
+                                            $14,345 USD
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="pool-block">
+                                    <h5 class="pool-title"><span>Pool Stats</span></h5>
+                                    <div class="stats-wrapper">
+                                        <div class="stats-col">
+                                            <p>No of Pools</p>
+                                            <h4>12</h4>
+                                        </div>
+                                        <div class="stats-col">
+                                            <p>Active Pool</p>
+                                            <h4>7</h4>
+                                        </div>
+                                        <div class="stats-col">
+                                            <p>Inactive Pool</p>
+                                            <h4>5</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="pool-block">
                                     <h5 class="pool-title"><span>Active Pool</span></h5>
                                     <div class="pool-card-sm">
@@ -611,6 +866,7 @@
                                         <div class="pool-data">
                                             <p>Total Rewards Yet to Claim</p>
                                             <h6>148,11 <span class="coin">PROPS</span></h6>
+                                            <button class="claim-btn-sm"><img src="img/claim-xs.svg" alt=""> Claim</button>
                                         </div>
                                     </div>
 
@@ -752,11 +1008,31 @@
         </div>
     </div>
 
-
+    
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <!-- Slider -->
+    <script>
+        $(document).ready(function () {
+            $('.maturing-pools-slider').slick({
+                arrows: false,
+                dots: false,
+                // autoplay: true,
+                slidesToShow: 1,
+                responsive: [
+                    {
+                    breakpoint: 650,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                    },
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
