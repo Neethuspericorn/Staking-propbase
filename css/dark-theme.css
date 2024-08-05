@@ -840,7 +840,9 @@
       .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover .filter-btn.active {
         background-color: #2966FF; }
   .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img,
-  .theme-dark .maturing-pools-sec .maturing-title-sec .title-icon {
+  .theme-dark .maturing-pools-sec .maturing-title-sec .title-icon,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-label img,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title img {
     filter: grayscale(1) invert(1) brightness(2); }
   .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .grph-select {
     background-color: #151618;
@@ -876,6 +878,48 @@
   .theme-dark .maturing-pools-sec .maturing-title-sec .tab-col .filter-nav-btn-wrapper {
     border-color: #484848; }
   .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+    color: #fff; }
+  .theme-dark .maturing-pools-sec {
+    background-color: #000;
+    border-color: #3B3B3B; }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block {
+    background-color: #000;
+    border-color: #3B3B3B; }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .title-left,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .period,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
+    color: #fff; }
+  .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-toggle {
+    border: 1px solid #151618;
+    background: #151618;
+    color: #fff; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card {
+    background: #000;
+    border-color: #3B3B3B; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block {
+    border-color: #1C1C1C; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+    color: #737373; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title::after {
+    background-color: #1C1C1C; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col {
+    border: 1px solid #1C1C1C;
+    background: #0D0D0D; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col {
+    border-color: #1C1C1C;
+    background: #0D0D0D;
+    color: #fff; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm,
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm {
+    border-color: #1C1C1C; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data p, .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 {
+    color: #fff; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data h6 .bal {
+    color: #525252; }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data .claim-btn-sm {
+    border-color: #141925;
+    background-color: #141925;
     color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

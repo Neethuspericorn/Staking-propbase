@@ -1288,7 +1288,9 @@ $dark-block-2: #2B2C2E;
         }
     }
     .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title img, 
-    .maturing-pools-sec .maturing-title-sec .title-icon{
+    .maturing-pools-sec .maturing-title-sec .title-icon, 
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-label img, 
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title img{
         filter: grayscale(1) invert(1) brightness(2);
     }
 
@@ -1341,6 +1343,64 @@ $dark-block-2: #2B2C2E;
         border-color: #484848;
     }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+        color: #fff;
+    }
+    .maturing-pools-sec {
+        background-color: #000;
+        border-color: #3B3B3B;
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block{
+        background-color: #000;
+        border-color: #3B3B3B;
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .title-left, 
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left, 
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm .label-left .period, 
+    .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title{
+        color: #fff;
+    }
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-toggle{
+        border: 1px solid #151618;
+        background: #151618;
+        color: #fff;
+    }
+    .portfolio-page-wrapper .my-portfolio-card {
+        background: #000;
+        border-color: #3B3B3B;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block{
+        border-color: #1C1C1C;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title {
+        color: #737373;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title::after{
+        background-color: #1C1C1C;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col {
+        border: 1px solid #1C1C1C;
+        background: #0D0D0D;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .stats-wrapper .stats-col{
+        border-color: #1C1C1C;
+        background: #0D0D0D;
+        color: #fff;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm, 
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .est-pool-card-sm{
+        border-color: #1C1C1C;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data {
+        p, h6{
+            color: #fff;
+        }
+        h6 .bal{
+            color: #525252;
+        }
+    }
+    .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data .claim-btn-sm {
+        border-color: #141925;
+        background-color: #141925;
         color: #fff;
     }
 }
