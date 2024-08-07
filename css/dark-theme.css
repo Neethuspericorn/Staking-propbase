@@ -891,8 +891,8 @@
   .theme-dark .portfolio-page-wrapper .my-portfolio-card .my-portfolio-title {
     color: #fff; }
   .theme-dark .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown .dropdown-toggle {
-    border: 1px solid #151618;
-    background: #151618;
+    border-color: #151618;
+    background-color: #151618;
     color: #fff; }
   .theme-dark .portfolio-page-wrapper .my-portfolio-card {
     background: #000;

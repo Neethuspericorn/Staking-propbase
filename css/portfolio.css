@@ -1635,5 +1635,24 @@
     bottom: -7px; }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data .claim-btn-sm img {
       display: none; } }
+.total-btn-cover {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  background-color: #151618;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px; }
+  .total-btn-cover .total-btn {
+    font-size: 10px;
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff; }
+    .total-btn-cover .total-btn.active {
+      background-color: #2966FF; }
+  .total-btn-cover .total-btn-grp {
+    padding-left: 5px; }
 
 /*# sourceMappingURL=portfolio.css.map */
