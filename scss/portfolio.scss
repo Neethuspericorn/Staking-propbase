@@ -2028,27 +2028,3 @@
         }
     }
 }
-
-.total-btn-cover{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    background-color: #151618;
-    margin-right: 5px;
-    border-radius: 5px;
-    padding: 5px;
-    .total-btn{
-        font-size: 10px;
-        text-align: center;
-        padding: 4px 10px;
-        border-radius: 20px;
-        background-color: transparent;
-        color: #fff;
-        &.active{
-            background-color: $primary-blue;
-        }
-    }
-    .total-btn-grp{
-        padding-left: 5px;
-    }
-}
