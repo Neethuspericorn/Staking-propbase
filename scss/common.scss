@@ -1056,3 +1056,36 @@ button{
 .img-dark-theme{
     display: none;
 }
+
+.table-no-data-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 15px;
+    min-height: 120px;
+    width: 100%;
+    p{
+        padding-top: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        color: $text-primary-dark;
+        margin-bottom: 0;
+    }
+    @media($sm-1679){
+        img{
+            width: 34px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    @media($sm-579){
+        img{
+            width: 30px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }    
+}

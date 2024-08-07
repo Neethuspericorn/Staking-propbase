@@ -921,5 +921,7 @@
     border-color: #141925;
     background-color: #141925;
     color: #fff; }
+  .theme-dark .table-no-data-sm p {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

@@ -847,4 +847,29 @@ button {
 .img-dark-theme {
   display: none; }
 
+.table-no-data-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 15px;
+  min-height: 120px;
+  width: 100%; }
+  .table-no-data-sm p {
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E4276;
+    margin-bottom: 0; }
+  @media (max-width: 1679px) {
+    .table-no-data-sm img {
+      width: 34px; }
+    .table-no-data-sm p {
+      font-size: 13px; } }
+  @media (max-width: 579px) {
+    .table-no-data-sm img {
+      width: 30px; }
+    .table-no-data-sm p {
+      font-size: 12px; } }
+
 /*# sourceMappingURL=common.css.map */

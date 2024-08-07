@@ -1205,6 +1205,51 @@
     @media (max-width: 2000px) {
       .maturing-pools-sec .slick-list {
         padding-right: 30%; } }
+  @media (max-width: 1440px) {
+    .maturing-pools-sec .expired-pools-slider .slick-track {
+      margin-left: -5px; } }
+  @media (max-width: 991px) {
+    .maturing-pools-sec .expired-pools-slider .slick-track {
+      margin-left: 0; } }
+  .maturing-pools-sec .expired-pools-slider .slick-list {
+    padding-right: 100px; }
+    @media (max-width: 2000px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 40px; } }
+    @media (max-width: 1679px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 20px; } }
+    @media (max-width: 1481px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 10px; } }
+    @media (max-width: 1440px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 35%;
+        margin-right: 10px0; } }
+    @media (max-width: 1300px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 25%; } }
+    @media (max-width: 1199px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 5%; } }
+    @media (max-width: 1100px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 40%; } }
+    @media (max-width: 991px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 0; } }
+    @media (max-width: 820px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 35%; } }
+    @media (max-width: 767px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 25%; } }
+    @media (max-width: 579px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list {
+        padding-right: 0; } }
+    @media (max-width: 1679px) {
+      .maturing-pools-sec .expired-pools-slider .slick-list .item {
+        padding: 0 5px; } }
   .maturing-pools-sec .item {
     padding: 0 8px; }
   .maturing-pools-sec .trending-card {
@@ -1255,6 +1300,9 @@
             margin-bottom: 0;
             font-size: 13px;
             font-weight: 500; }
+  .maturing-pools-sec .item-single .trending-card {
+    width: 600px;
+    max-width: 100%; }
 
 @media (max-width: 1679px) {
   .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block {

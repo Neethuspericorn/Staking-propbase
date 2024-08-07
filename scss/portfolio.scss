@@ -1504,6 +1504,58 @@
             padding-right: 30%;
         }
     }
+    .expired-pools-slider{
+        .slick-track {
+            @media (max-width: 1440px) {
+                margin-left: -5px;
+            }
+            @media (max-width: 991px) {
+                margin-left: 0;
+            }
+        }
+        .slick-list{
+            padding-right: 100px;
+            @media (max-width: 2000px) {
+                padding-right: 40px;
+            }
+            @media ($sm-1679) {
+                padding-right: 20px;
+            }
+            @media ($sm-1481) {
+                padding-right: 10px;
+            }
+            @media (max-width: 1440px) {
+                padding-right: 35%;
+                margin-right: 10px0;
+            }
+            @media (max-width: 1300px) {
+                padding-right: 25%;
+            }
+            @media (max-width: 1199px) {
+                padding-right: 5%;
+            }
+            @media (max-width: 1100px) {
+                padding-right: 40%;
+            }
+            @media (max-width: 991px) {
+                padding-right: 0;
+            }
+            @media (max-width: 820px) {
+                padding-right: 35%;
+            }
+            @media (max-width: 767px) {
+                padding-right: 25%;
+            }
+            @media (max-width: 579px) {
+                padding-right: 0;
+            }
+            .item {
+                @media ($sm-1679) {
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
 
     .item{
         padding: 0 8px;
@@ -1570,6 +1622,10 @@
                 }
             }
         }
+    }
+    .item-single .trending-card{
+        width: 600px;
+        max-width: 100%;
     }
 }
 
