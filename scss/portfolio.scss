@@ -1304,6 +1304,7 @@
                 }
             }
             .wal-bal-amt{
+                text-align: right;
                 color: $primary-blue;
                 font-size: 14px;
                 font-weight: 700;
@@ -1499,6 +1500,7 @@
         margin-left: -8px;
     }
     .slick-list{
+        padding-left: 0 !important;
         padding-right: 45%;
         @media (max-width: 2000px) {
             padding-right: 30%;
@@ -1514,6 +1516,7 @@
             }
         }
         .slick-list{
+            padding-left: 0 !important;
             padding-right: 100px;
             @media (max-width: 2000px) {
                 padding-right: 40px;
@@ -1858,6 +1861,12 @@
         padding-right: 10%;
     } 
 }
+@media (max-width: 1250px) {
+    .maturing-pools-sec .slick-list {
+        padding-right: 15px;
+    } 
+}
+
 @media (min-width: 1200px) and (max-width: 1300px) {
     .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title.total-rewards-accured-title{
         flex-wrap: wrap;
@@ -2028,6 +2037,18 @@
 }
 
 @media (max-width: 440px) {
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block {
+        padding: 12px 10px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-label img {
+        margin-right: 2px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-label {
+        font-size: 11px;
+    }
+    .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block .wal-bal-amt{
+        font-size: 12px;
+    }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .icon img {
         width: 26px;
     }
