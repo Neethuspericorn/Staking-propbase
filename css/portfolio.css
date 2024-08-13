@@ -1202,7 +1202,7 @@
   .maturing-pools-sec .slick-track {
     margin-left: -8px; }
   .maturing-pools-sec .slick-list {
-    padding-left: 0 !important;
+    padding-left: 3px !important;
     padding-right: 45%; }
     @media (max-width: 2000px) {
       .maturing-pools-sec .slick-list {
@@ -1214,7 +1214,7 @@
     .maturing-pools-sec .expired-pools-slider .slick-track {
       margin-left: 0; } }
   .maturing-pools-sec .expired-pools-slider .slick-list {
-    padding-left: 0 !important;
+    padding-left: 3px !important;
     padding-right: 100px; }
     @media (max-width: 2000px) {
       .maturing-pools-sec .expired-pools-slider .slick-list {
@@ -1308,6 +1308,15 @@
     max-width: 100%; }
 
 @media (max-width: 1679px) {
+  .maturing-pools-sec .trending-card .datas {
+    padding-left: 12px; }
+
+  .maturing-pools-sec .trending-card .datas .datas-block .val-price {
+    padding-left: 10px; }
+
+  .maturing-pools-sec .trending-card {
+    padding: 18px 10px; }
+
   .portfolio-page-wrapper .my-portfolio-card .prop-wal-bal-block {
     padding: 12px 15px; }
 
@@ -1388,7 +1397,7 @@
   .maturing-pools-sec .trending-card .icons {
     width: auto; }
     .maturing-pools-sec .trending-card .icons img {
-      width: 38px; }
+      width: 36px; }
 
   .maturing-pools-sec .trending-card .datas h4 {
     font-size: 13px; }
@@ -1412,6 +1421,9 @@
   .maturing-pools-sec {
     padding: 10px 20px 20px; } }
 @media (max-width: 1481px) {
+  .maturing-pools-sec .trending-card .datas .datas-block .val-price h5 {
+    font-size: 11px; }
+
   .maturing-pools-sec .maturing-title-sec h2 {
     font-size: 16px; }
 
@@ -1561,6 +1573,12 @@
 
   .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block {
     padding: 8px 0 0; } }
+@media (max-width: 650px) {
+  .maturing-pools-sec .item {
+    padding-right: 0; }
+
+  .maturing-pools-sec .slick-list {
+    padding-left: 0 !important; } }
 @media (max-width: 620px) {
   .maturing-pools-sec .slick-list {
     padding-right: 0; } }
@@ -1610,21 +1628,21 @@
   .portfolio-page-wrapper .my-portfolio-card .wallet-bal-block p {
     font-size: 11px;
     margin-bottom: 3px; } }
-@media (max-width: 530px) {
+@media (max-width: 540px) {
   .portfolio-page-wrapper .my-portfolio-card {
     padding: 15px 12px 0; }
 
   .maturing-pools-sec .trending-card .datas .datas-block {
     flex-wrap: wrap; }
 
-  .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price {
-    width: 55%;
+  .maturing-pools-sec .trending-card .datas .datas-block .val-price {
+    width: 50%;
     margin-bottom: 15px; }
-    .theme-dark .maturing-pools-sec .trending-card .datas .datas-block .val-price:nth-child(odd) {
-      width: 45%;
-      flex-shrink: 0; }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price:nth-child(odd) {
+      flex-shrink: 0;
+      padding-right: 5px; }
 
-  .theme-dark .maturing-pools-sec .trending-card {
+  .maturing-pools-sec .trending-card {
     align-items: flex-start; } }
 @media (max-width: 479px) {
   .portfolio-page-wrapper .portfolio-staked-graph-block .staked-graph-title {
@@ -1700,6 +1718,21 @@
     top: auto;
     bottom: -7px; }
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-card-sm .pool-data .claim-btn-sm img {
-      display: none; } }
+      display: none; }
+
+  .maturing-pools-sec .trending-card .datas .datas-block .val-price {
+    width: 100%;
+    margin-bottom: 8px;
+    border-left: 0;
+    border-bottom: solid 1px;
+    padding-left: 5px;
+    padding-bottom: 10px; }
+    .maturing-pools-sec .trending-card .datas .datas-block .val-price:last-child {
+      border: none;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+
+  .maturing-pools-sec .trending-card .datas .datas-block {
+    padding-top: 5px; } }
 
 /*# sourceMappingURL=portfolio.css.map */
