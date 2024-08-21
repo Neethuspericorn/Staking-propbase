@@ -1,0 +1,271 @@
+@import "partials/partials";
+.admn-dashboard-sec{
+    .admn-title{
+        font-size: 19px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: $text-primary-dark;
+    }
+    .dashboard-tab-cover{
+        .db-tab-btn{
+            border: 1px solid #E3E4F3;
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 12px 25px;
+            .tab-title{
+                margin: 0;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        .db-graph-wrapper{
+
+        }
+        .db-tab-body{
+            padding: 20px 0 10px;
+            .db-graph-col{
+                margin-bottom: 20px;
+            }
+            .db-graph-card{
+                border: 1px solid #E3E4F3;
+                background-color: #fff;
+                border-radius: 13px;
+                padding: 30px 40px;
+                height: 100%;
+                .graph-title-wrapper{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 30px;
+                    .graph-title-block{
+                        color: $text-primary-dark;
+                        p{
+                            font-size: 14px;
+                            margin-bottom: 2px;
+                            text-transform: capitalize;
+                        }
+                        h4{
+                            font-size: 20px;
+                            font-weight: 600;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .right-block{
+                        .filter-btn-cover{
+                            border-radius: 4px;
+                            background: #E8EFFF;
+                            padding: 5px;
+                            display: flex;
+                            .filter-btn{
+                                margin: 1px;
+                                padding: 4px 8px;
+                                font-size: 11px;
+                                font-weight: 500;
+                                transition: .3s;
+                                border-radius: 5px;
+                                color: #2E4276;
+                                background: #E8EFFF;
+                                &:hover{
+                                    background-color: #fff;
+                                }
+                                &.active{
+                                    background-color: $primary-blue;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .select-block{
+                            .grph-legend-dropdown{
+                                .dropdown-toggle{
+                                    border-radius: 6px;
+                                    border: 1px solid #E3E4F3;
+                                    background: $primary-light;
+                                    color: $text-primary-dark;
+                                    font-family: $font-primary;
+                                    font-size: 10px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    outline: none;
+                                    box-shadow: none;
+                                    padding: 8px 30px 8px 10px;
+                                    background-image: url(../img/drp-arrow.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: 90% 12px;
+                                    display: inline-table;
+                                    display: flex;
+                                    align-items: center;
+                                    width: 100%;
+                                    &::after{
+                                        display: none;
+                                    }
+                                    @media (max-width: 370px) {
+                                        width: 100%;
+                                        text-align: left;
+                                    }
+                                }
+                                .leg-color{
+                                    display: inline-block;
+                                    width: 7px;
+                                    height: 7px;
+                                    border-radius: 2px;
+                                    background-color: #2966FF;
+                                    margin-right: 8px;
+                                    margin-top: -2px;
+                                }
+                                .dropdown-item{
+                                    font-size: 12px;
+                                }
+                                .dropdown-menu{
+                                    @media (max-width: 370px) {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .leg-wrapper{
+                    justify-content: flex-end;
+                    margin-bottom: 20px;
+                    .leg-item{
+                        display: flex;
+                        align-items: center;
+                        font-size: 13px;
+                        margin-bottom: 10px;
+                        color: $text-primary-dark;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                        .leg-dot{
+                            display: inline-block;
+                            width: 7px;
+                            height: 7px;
+                            border-radius: 50%;
+                            background-color: #2966FF;
+                            margin-right: 15px;
+                            &.dot-grn{
+                                background-color: #22F9B8;
+                            }
+                        }
+                        img{
+                            margin-left: 5px;
+                            opacity: .5;
+                        }
+                    }
+                }
+                .db-graph-block{
+                    .graph-sm-col{
+                        margin: 0 auto;
+                        max-width: 360px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media ($sm-1679) {
+    .admn-dashboard-sec .admn-title{
+        font-size: 17px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn .tab-title{
+        font-size: 14px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn {
+        padding: 12px 20px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card{
+        padding: 20px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block p {
+        font-size: 13px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block h4{
+        font-size: 17px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .filter-btn-cover .filter-btn {
+        padding: 2px 8px;
+        font-size: 10px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper {
+        margin-bottom: 20px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item{
+        font-size: 12px;
+    }
+}
+
+@media ($sm-1481) {
+    .admn-dashboard-sec .admn-title {
+        font-size: 15px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn .tab-title {
+        font-size: 13px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn {
+        padding: 12px 15px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block h4 {
+        font-size: 15px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card {
+        padding: 20px 15px;
+    }
+}
+
+@media ($sm-579) {
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block p {
+        font-size: 12px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block h4 {
+        font-size: 14px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item{
+        font-size: 11px;
+        img{
+            width: 10px;
+        }
+    }
+}
+
+@media ($sm-479) {
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper{
+        flex-wrap: wrap;
+        .graph-title-block{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .right-block{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .filter-btn-cover{
+                margin-top: .5rem;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+@media (max-width: 350px) {
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block {
+        .filter-btn-cover{
+            width: 100%;
+            margin-right: 0;
+        }
+        .select-block{
+            width: 100%;
+        }
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .filter-btn-cover .filter-btn{
+        flex-grow: 1;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .select-block .grph-legend-dropdown .dropdown-toggle{
+        background-position: 94% 12px;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .filter-btn-cover .filter-btn {
+        padding: 4px 8px;
+    }
+}

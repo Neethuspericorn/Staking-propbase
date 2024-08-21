@@ -1105,7 +1105,7 @@
     
     .portfolio-staked-graph-block{
         background-color: #fff;
-        border: solid 1px #fff;
+        border: solid 1px #E3E4F3;
         margin-bottom: 20px;
         border-radius: 9px;
         padding: 30px;
@@ -1954,9 +1954,9 @@
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
     .maturing-pools-sec .slick-list {
-        padding-right: 0;
+        padding-right: 0 !important;
     } 
 }
 @media($sm-579){

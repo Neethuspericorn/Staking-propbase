@@ -1274,7 +1274,8 @@ $dark-block-2: #2B2C2E;
             color: #A2A2DF !important;
         }  
     }
-    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover{
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block .filter-btn-cover, 
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .filter-btn-cover{
         background-color: #151618;
         .filter-btn{
             background-color: #151618;
@@ -1294,14 +1295,16 @@ $dark-block-2: #2B2C2E;
         filter: grayscale(1) invert(1) brightness(2);
     }
 
-    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .grph-select{
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .grph-select, 
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .select-block .grph-legend-dropdown .dropdown-toggle{
         background-color: #151618;
         color: #fff;
         border-color: #151618;
         background-image: url(../img/drp-arrow-white.svg);
     }
 
-    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown {
+    .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .bottom-lgd .grph-legend-dropdown, 
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .select-block .grph-legend-dropdown{
         .dropdown-toggle{
             background-color: #151618;
             color: #fff;
@@ -1406,4 +1409,18 @@ $dark-block-2: #2B2C2E;
     .table-no-data-sm p{
         color: #fff;
     }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn, 
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card{
+        border-color: #3B3B3B;
+        background-color: #000;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item img{
+        opacity: 0;
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block, 
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item, 
+    .admn-dashboard-sec .admn-title{
+        color: #fff;
+    }
+    
 }
