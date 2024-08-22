@@ -1419,8 +1419,11 @@ $dark-block-2: #2B2C2E;
     }
     .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block, 
     .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item, 
-    .admn-dashboard-sec .admn-title{
+    .admn-dashboard-sec .admn-title, .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn .tab-title{
         color: #fff;
     }
-    
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn button::after{
+        border-color: #353535;
+        background-image: url('../img/acc-up-arrw-white.svg');
+    }
 }

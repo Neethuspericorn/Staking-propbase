@@ -1734,5 +1734,9 @@
 
   .maturing-pools-sec .trending-card .datas .datas-block {
     padding-top: 5px; } }
+.portfolio-sec .portfolio-page-wrapper {
+  flex-wrap: wrap; }
+  .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col {
+    width: 100%; }
 
 /*# sourceMappingURL=portfolio.css.map */

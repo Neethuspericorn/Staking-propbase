@@ -14,17 +14,40 @@
   font-weight: 600;
   margin-bottom: 20px;
   color: #2E4276; }
+.admn-dashboard-sec .dashboard-tab-cover .accordion-item {
+  margin-bottom: 20px; }
+.admn-dashboard-sec .dashboard-tab-cover .accordion, .admn-dashboard-sec .dashboard-tab-cover .accordion-item {
+  background: transparent;
+  border: none; }
 .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn {
   border: 1px solid #E3E4F3;
   background-color: #fff;
   border-radius: 12px;
   padding: 12px 25px; }
+  .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none; }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn button::after {
+      content: '';
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-image: url("../img/acc-up-arrw.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      border: solid 1px #2E4276;
+      transform: rotate(180deg);
+      transition: .3s; }
   .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn .tab-title {
     margin: 0;
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #2E4276; }
 .admn-dashboard-sec .dashboard-tab-cover .db-tab-body {
-  padding: 20px 0 10px; }
+  padding: 20px 0 0; }
   .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-col {
     margin-bottom: 20px; }
   .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card {

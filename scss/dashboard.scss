@@ -7,22 +7,49 @@
         color: $text-primary-dark;
     }
     .dashboard-tab-cover{
+        .accordion-item{
+            margin-bottom: 20px;
+        }
+        .accordion, .accordion-item{
+            background: transparent;
+            border: none;
+        }
         .db-tab-btn{
             border: 1px solid #E3E4F3;
             background-color: #fff;
             border-radius: 12px;
             padding: 12px 25px;
+            button{
+                padding: 0;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+                &::after{
+                    content: '';
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background-image: url('../img/acc-up-arrw.svg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    border: solid 1px #2E4276;
+                    transform: rotate(180deg);
+                    transition: .3s;
+                }
+            }
             .tab-title{
                 margin: 0;
                 font-size: 16px;
                 font-weight: 500;
+                color: $text-primary-dark;
             }
         }
         .db-graph-wrapper{
 
         }
         .db-tab-body{
-            padding: 20px 0 10px;
+            padding: 20px 0 0;
             .db-graph-col{
                 margin-bottom: 20px;
             }

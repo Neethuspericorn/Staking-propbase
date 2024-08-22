@@ -940,7 +940,10 @@
     opacity: 0; }
   .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block,
   .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .leg-wrapper .leg-item,
-  .theme-dark .admn-dashboard-sec .admn-title {
+  .theme-dark .admn-dashboard-sec .admn-title, .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn .tab-title {
     color: #fff; }
+  .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn button::after {
+    border-color: #353535;
+    background-image: url("../img/acc-up-arrw-white.svg"); }
 
 /*# sourceMappingURL=dark-theme.css.map */

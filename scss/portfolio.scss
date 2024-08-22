@@ -2142,3 +2142,10 @@
         padding-top: 5px;
     }
 }
+
+.portfolio-sec .portfolio-page-wrapper{
+    flex-wrap: wrap;
+    .portfolio-fluid-col{
+        width: 100%;
+    }
+}
