@@ -1118,6 +1118,13 @@
             justify-content: space-between;
             // align-items: center;
             margin-bottom: 20px;
+            &.total-rewards-accured-title{
+                .g-filter-block{
+                    @media ($sm-767) {
+                        justify-content: unset;
+                    }
+                }
+            }
         }
         .title-left{
             color: $text-primary-dark;
@@ -1141,6 +1148,10 @@
             }
             .g-filter-block{
                 align-items: center;
+                justify-content: flex-end;
+                @media ($sm-579) {
+                    justify-content: unset;
+                }
             }
             .bottom-lgd{
                 .grph-legend-dropdown{
@@ -1159,7 +1170,7 @@
                         padding: 8px 30px 8px 10px;
                         background-image: url(../img/drp-arrow.svg);
                         background-repeat: no-repeat;
-                        background-position: 90% 12px;
+                        background-position: calc(100% - 15px) 12px;
                         display: inline-table;
                         display: flex;
                         align-items: center;
@@ -1205,7 +1216,7 @@
                 padding: 8px 30px 8px 10px;
                 background-image: url(../img/drp-arrow.svg);
                 background-repeat: no-repeat;
-                background-position: 90% center;
+                background-position: calc(100% - 15px) center;
                 -webkit-appearance: none;
                 -moz-appearance: none;
                 appearance: none;
@@ -1249,10 +1260,14 @@
     }
     .my-portfolio-card{
         width: 100%;
+        height: calc(100% - 15px);
         border: 1px solid #E3E4F3;
         border-radius: 12px;
         padding: 30px 15px 20px;
         background-color: #fff;
+        @media ($sm-1199) {
+            height: auto;    
+        }
         .my-portfolio-title{
             display: flex;
             align-items: center;
@@ -1941,7 +1956,7 @@
         }
     }
     .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block {
-        padding: 8px 0 0;
+        padding: 8px 0;
     }
 }
 
@@ -1980,6 +1995,7 @@
     }
     .portfolio-page-wrapper .portfolio-staked-graph-block .graph-btn-right .g-filter-block{
         flex-wrap: wrap;
+        padding: 8px 0 0;
         .grph-select, .filter-btn-cover{
             margin-bottom: 10px;
         }
@@ -2147,5 +2163,8 @@
     flex-wrap: wrap;
     .portfolio-fluid-col{
         width: 100%;
+        @media ($sm-1199) {
+            order: 3;
+        }
     }
 }

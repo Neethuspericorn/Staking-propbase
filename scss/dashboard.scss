@@ -34,8 +34,13 @@
                     background-repeat: no-repeat;
                     display: inline-block;
                     border: solid 1px #2E4276;
-                    transform: rotate(180deg);
+                    transform: rotate(0deg);
                     transition: .3s;
+                }
+                &.collapsed {
+                    &::after{
+                        transform: rotate(180deg);
+                    }
                 }
             }
             .tab-title{
