@@ -578,7 +578,7 @@
         margin-bottom: 20px;
     }
     .portfolio-sec .portfolio-card .title-wrapper .title-block h2{
-        font-size: 18px;
+        font-size: 17px;
     }
     .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img{
         max-width: 21px;
@@ -1337,6 +1337,10 @@
                     display: inline-block;
                     padding-right: 8px;
                     flex: 0 0 auto;
+                    .info-i{
+                        margin-left: 3px;
+                        width: 12px;
+                    }
                 }
                 &::after{
                     content: '';
@@ -1735,7 +1739,7 @@
     }
     .maturing-pools-sec .maturing-title-sec {
         h2{
-            font-size: 18px;
+            font-size: 17px;
         }
         .title-icon img{
             max-height: 20px;

@@ -444,7 +444,7 @@
     margin-bottom: 20px; }
 
   .portfolio-sec .portfolio-card .title-wrapper .title-block h2 {
-    font-size: 18px; }
+    font-size: 17px; }
 
   .portfolio-sec .portfolio-card .title-wrapper .title-block .title-icon img {
     max-width: 21px; }
@@ -1073,6 +1073,9 @@
           display: inline-block;
           padding-right: 8px;
           flex: 0 0 auto; }
+          .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title span .info-i {
+            margin-left: 3px;
+            width: 12px; }
         .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title::after {
           content: '';
           flex: 1 1 auto;
@@ -1401,7 +1404,7 @@
     padding: 3px 10px 1px !important; }
 
   .maturing-pools-sec .maturing-title-sec h2 {
-    font-size: 18px; }
+    font-size: 17px; }
   .maturing-pools-sec .maturing-title-sec .title-icon img {
     max-height: 20px; }
 

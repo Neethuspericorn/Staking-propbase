@@ -945,5 +945,7 @@
   .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-btn button::after {
     border-color: #353535;
     background-image: url("../img/acc-up-arrw-white.svg"); }
+  .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title span .info-i {
+    filter: none; }
 
 /*# sourceMappingURL=dark-theme.css.map */
