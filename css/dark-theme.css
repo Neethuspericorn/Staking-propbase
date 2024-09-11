@@ -947,5 +947,11 @@
     background-image: url("../img/acc-up-arrw-white.svg"); }
   .theme-dark .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title span .info-i {
     filter: none; }
+  .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block p img {
+    filter: grayscale(1) brightness(1); }
+  .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn {
+    background: #151618; }
+    .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn img {
+      filter: grayscale(1) brightness(4); }
 
 /*# sourceMappingURL=dark-theme.css.map */

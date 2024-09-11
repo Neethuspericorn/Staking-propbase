@@ -1429,4 +1429,13 @@ $dark-block-2: #2B2C2E;
     .portfolio-page-wrapper .my-portfolio-card .pool-block .pool-title span .info-i{
         filter: none;
     }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block p img{
+        filter: grayscale(1) brightness(1);
+    }
+    .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn {
+        background: #151618;
+        img{
+            filter: grayscale(1) brightness(4);
+        }
+    }
 }

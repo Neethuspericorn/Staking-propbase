@@ -68,10 +68,30 @@
           font-size: 14px;
           margin-bottom: 2px;
           text-transform: capitalize; }
+          .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block p img {
+            margin-left: 2px; }
         .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .graph-title-block h4 {
           font-size: 20px;
           font-weight: 600;
           margin-bottom: 0; }
+      .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn {
+        border-radius: 4px;
+        background: #E8EFFF;
+        height: 31px;
+        margin-left: 5px;
+        width: 32px; }
+        @media (max-width: 479px) {
+          .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn {
+            margin-top: .5rem;
+            margin-right: 5px;
+            margin-left: 0; } }
+        @media (max-width: 350px) {
+          .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn {
+            margin-left: 5px;
+            height: 35px;
+            width: 40px; } }
+      .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .btn-top-block {
+        align-items: center; }
       .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .right-block .filter-btn-cover {
         border-radius: 4px;
         background: #E8EFFF;
