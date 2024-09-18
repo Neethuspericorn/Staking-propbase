@@ -36,6 +36,7 @@
                     border: solid 1px #2E4276;
                     transform: rotate(0deg);
                     transition: .3s;
+                    background-size: auto;
                 }
                 &.collapsed {
                     &::after{
@@ -213,6 +214,44 @@
                     .graph-sm-col{
                         margin: 0 auto;
                         max-width: 360px;
+                    }
+                    &.db-graph-block-relative{
+                        position: relative;
+                        .graph-wallet-address{
+                            position: absolute;
+                            top: 0;
+                            left: 5px;
+                            width: calc(100% - 10px);
+                            padding: 5px 12px;
+                            border-radius: 6px;
+                            background-color: #151618;
+                            color: #fff;
+                            z-index: 9;
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            color: $text-primary-dark;
+                            border-color: solid 1px #3B3B3B;
+                            @media ($sm-1679) {
+                                font-size: 13px;
+                            }
+                            .address-block{
+                                max-width: calc(100% - 80px);
+                            }
+                            .copy-btn-def{
+                                margin-left: auto;
+                                margin-right: 8px;
+                            }
+                            .close-btn{
+                                background-color: transparent;
+                                border: none;
+                                padding: 3px;
+                                margin-right: 0;
+                                img{
+                                    width: 15px;
+                                }
+                            }
+                        }
                     }
                 }
             }

@@ -872,4 +872,9 @@ button {
     .table-no-data-sm p {
       font-size: 12px; } }
 
+.copy-btn-def {
+  background-color: transparent;
+  padding: 3px;
+  border: none; }
+
 /*# sourceMappingURL=common.css.map */

@@ -953,5 +953,11 @@
     background: #151618; }
     .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .graph-title-wrapper .date-picker-btn img {
       filter: grayscale(1) brightness(4); }
+  .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address {
+    background-color: #151618;
+    color: #fff;
+    border-color: #3B3B3B; }
+    .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address img {
+      filter: grayscale(1) brightness(4); }
 
 /*# sourceMappingURL=dark-theme.css.map */
