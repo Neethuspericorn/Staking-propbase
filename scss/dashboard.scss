@@ -224,14 +224,13 @@
                             width: calc(100% - 10px);
                             padding: 5px 12px;
                             border-radius: 6px;
-                            background-color: #151618;
-                            color: #fff;
+                            background-color: #E8EFFF;
                             z-index: 9;
                             display: flex;
                             align-items: center;
                             font-size: 14px;
                             color: $text-primary-dark;
-                            border-color: solid 1px #3B3B3B;
+                            border: solid 1px #E3E4F3;
                             @media ($sm-1679) {
                                 font-size: 13px;
                             }

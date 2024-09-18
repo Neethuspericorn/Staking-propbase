@@ -186,14 +186,13 @@
         width: calc(100% - 10px);
         padding: 5px 12px;
         border-radius: 6px;
-        background-color: #151618;
-        color: #fff;
+        background-color: #E8EFFF;
         z-index: 9;
         display: flex;
         align-items: center;
         font-size: 14px;
         color: #2E4276;
-        border-color: solid 1px #3B3B3B; }
+        border: solid 1px #E3E4F3; }
         @media (max-width: 1679px) {
           .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address {
             font-size: 13px; } }
