@@ -180,13 +180,10 @@
     .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative {
       position: relative; }
       .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address {
-        position: absolute;
-        top: 0;
-        left: 5px;
-        width: calc(100% - 10px);
+        width: 100%;
         padding: 5px 12px;
         border-radius: 6px;
-        background-color: #E8EFFF;
+        background-color: transparent;
         z-index: 9;
         display: flex;
         align-items: center;
