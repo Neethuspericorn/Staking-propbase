@@ -180,24 +180,24 @@
     .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative {
       position: relative; }
       .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address {
-        width: 100%;
         padding: 5px 12px;
         border-radius: 6px;
         background-color: transparent;
         z-index: 9;
-        display: flex;
+        display: inline-flex;
         align-items: center;
         font-size: 14px;
         color: #2E4276;
-        border: solid 1px #E3E4F3; }
+        border: solid 1px #E3E4F3;
+        min-width: 35%; }
         @media (max-width: 1679px) {
           .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address {
             font-size: 13px; } }
         .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address .address-block {
-          max-width: calc(100% - 80px); }
+          padding-right: 15px;
+          flex: 1 0 auto; }
         .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address .copy-btn-def {
-          margin-left: auto;
-          margin-right: 8px; }
+          flex-shrink: 0; }
         .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address .close-btn {
           background-color: transparent;
           border: none;

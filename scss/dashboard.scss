@@ -218,25 +218,28 @@
                     &.db-graph-block-relative{
                         position: relative;
                         .graph-wallet-address{
-                            width: 100%;
                             padding: 5px 12px;
                             border-radius: 6px;
                             background-color: transparent;
                             z-index: 9;
-                            display: flex;
+                            display: inline-flex;
                             align-items: center;
                             font-size: 14px;
                             color: $text-primary-dark;
                             border: solid 1px #E3E4F3;
+                            min-width: 35%;
                             @media ($sm-1679) {
                                 font-size: 13px;
                             }
                             .address-block{
-                                max-width: calc(100% - 80px);
+                                padding-right: 15px;
+                                // max-width: calc(100% - 80px);
+                                flex: 1 0 auto;
                             }
                             .copy-btn-def{
-                                margin-left: auto;
-                                margin-right: 8px;
+                                flex-shrink: 0;
+                                // margin-left: auto;
+                                // margin-right: 8px;
                             }
                             .close-btn{
                                 background-color: transparent;
