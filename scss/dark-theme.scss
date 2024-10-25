@@ -720,7 +720,7 @@ $dark-block-2: #2B2C2E;
     .ant-picker-dropdown .ant-picker-header-view button{
         color: $primary-light;
     }
-    .ant-picker-dropdown .ant-picker-content th, .ant-picker-dropdown .ant-picker-content td{
+    .ant-picker-dropdown .ant-picker-content th{
         color: $primary-light;
     }
     .ant-picker-dropdown .ant-picker-range-arrow::before{
@@ -1444,5 +1444,12 @@ $dark-block-2: #2B2C2E;
         img{
             filter: grayscale(1) brightness(4);
         }
+    }
+
+    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell {
+        color: rgba($color: #fff, $alpha: 0.25);
+    }
+    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell-in-view {
+        color: #fff;
     }
 }
