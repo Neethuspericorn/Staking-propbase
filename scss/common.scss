@@ -1095,3 +1095,14 @@ button{
     padding: 3px;
     border: none;
 }
+.ant-picker-dropdown .ant-picker-panel-container {
+    @media (max-width: 620px) {        
+        zoom: 82%;
+    }
+    .ant-picker-panels{
+        @media ($sm-479) {
+            flex-wrap: wrap !important;
+            flex-direction: column;
+        }
+    }
+}

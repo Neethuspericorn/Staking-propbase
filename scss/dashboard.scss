@@ -7,6 +7,7 @@
         color: $text-primary-dark;
     }
     .dashboard-tab-cover{
+        overflow: hidden;
         .accordion-item{
             margin-bottom: 20px;
         }
