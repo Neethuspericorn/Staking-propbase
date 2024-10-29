@@ -1095,7 +1095,7 @@ button{
     padding: 3px;
     border: none;
 }
-.ant-picker-dropdown .ant-picker-panel-container {
+.ant-picker-dropdown.ant-picker-dropdown-range .ant-picker-panel-container {
     @media (max-width: 620px) {        
         zoom: 82%;
     }
