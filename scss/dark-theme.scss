@@ -1445,15 +1445,12 @@ $dark-block-2: #2B2C2E;
             filter: grayscale(1) brightness(4);
         }
     }
-    :where(.css-apn68).ant-picker-dropdown .ant-picker-content th, 
-    :where(.css-apn68).ant-picker-dropdown .ant-picker-content td {
-        color: #fff;
-    }
-    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell {
+    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell, 
+    :where(.css-apn68).ant-picker-dropdown .ant-picker-cell {
         color: rgba($color: #fff, $alpha: 0.25);
     }
-    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell-in-view {
+    :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell-in-view, 
+    :where(.css-apn68).ant-picker-dropdown .ant-picker-cell-in-view {
         color: #fff;
     }
-    
 }
