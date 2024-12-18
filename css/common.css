@@ -877,4 +877,12 @@ button {
   padding: 3px;
   border: none; }
 
+@media (max-width: 620px) {
+  .ant-picker-dropdown.ant-picker-dropdown-range .ant-picker-panel-container {
+    zoom: 82%; } }
+@media (max-width: 479px) {
+  .ant-picker-dropdown.ant-picker-dropdown-range .ant-picker-panel-container .ant-picker-panels {
+    flex-wrap: wrap !important;
+    flex-direction: column; } }
+
 /*# sourceMappingURL=common.css.map */

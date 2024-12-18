@@ -1057,7 +1057,9 @@
     .staking-card-block .progress-sm-sec .dur-cover {
       height: 100%;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
       .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
         width: 100%;
         height: 50%;
@@ -1068,14 +1070,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px; }
+        padding: 10px;
+        line-height: 20px; }
         .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block span {
-          font-weight: 700; }
+          font-weight: 600; }
       .staking-card-block .progress-sm-sec .dur-cover .apy-block {
         background-color: #2966FF;
         color: #fff;
-        height: 45%; }
+        height: 45%;
+        max-height: 45px; }
       .staking-card-block .progress-sm-sec .dur-cover .dur-block {
+        flex-grow: 1;
         flex-direction: column;
         height: 55%; }
     .staking-card-block .progress-sm-sec .progress-bar-block {
@@ -1243,7 +1248,8 @@
     padding: 15px; }
 
   .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 16px;
     min-height: 40px; }
 
   .staking-card-block .table-block-cover .table-card .tab-val {
@@ -1364,7 +1370,8 @@
     top: 4px; } }
 @media (max-width: 700px) {
   .staking-card-block .progress-sm-sec .dur-cover .dur-itm-block {
-    font-size: 14px; }
+    font-size: 14px;
+    line-height: 19px; }
 
   .staking-card-block .progress-sm-sec .progress-col.progress-col-right {
     width: 35%; }

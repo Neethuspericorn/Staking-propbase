@@ -462,7 +462,7 @@
     border: solid 1px #484848; }
   .theme-dark .ant-picker-dropdown .ant-picker-header-view button {
     color: #fff; }
-  .theme-dark .ant-picker-dropdown .ant-picker-content th, .theme-dark .ant-picker-dropdown .ant-picker-content td {
+  .theme-dark .ant-picker-dropdown .ant-picker-content th {
     color: #fff; }
   .theme-dark .ant-picker-dropdown .ant-picker-range-arrow::before {
     background: #000; }
@@ -958,5 +958,15 @@
     border-color: #3B3B3B; }
     .theme-dark .admn-dashboard-sec .dashboard-tab-cover .db-tab-body .db-graph-card .db-graph-block.db-graph-block-relative .graph-wallet-address img {
       filter: grayscale(1) brightness(4); }
+  .theme-dark :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell,
+  .theme-dark :where(.css-apn68).ant-picker-dropdown .ant-picker-cell {
+    color: rgba(255, 255, 255, 0.25); }
+  .theme-dark :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell-in-view,
+  .theme-dark :where(.css-apn68).ant-picker-dropdown .ant-picker-cell-in-view {
+    color: #fff; }
+  .theme-dark :where(.css-1adbn6x).ant-picker-dropdown .ant-picker-cell.ant-picker-cell-disabled,
+  .theme-dark :where(.css-apn68).ant-picker-dropdown .ant-picker-cell.ant-picker-cell-disabled {
+    color: rgba(255, 255, 255, 0.25);
+    opacity: 1 !important; }
 
 /*# sourceMappingURL=dark-theme.css.map */
