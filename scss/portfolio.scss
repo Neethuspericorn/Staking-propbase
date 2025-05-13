@@ -2170,5 +2170,29 @@
         @media ($sm-1199) {
             order: 3;
         }
+        .portfolio-card .card-table {
+            .mob-tr{
+                @media (min-width: 991px) {
+                    display: none;
+                }
+                td{
+                    padding-top: 0;
+                }
+            }
+            tr{
+                &:nth-child(odd){
+                    td{
+                        border: none !important;
+                    }
+                }
+            }
+            td{
+                &.stakes-btn-td{
+                    @media (max-width: 991px) {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }

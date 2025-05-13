@@ -1756,5 +1756,15 @@
     @media (max-width: 1199px) {
       .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col {
         order: 3; } }
+    @media (min-width: 991px) {
+      .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col .portfolio-card .card-table .mob-tr {
+        display: none; } }
+    .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col .portfolio-card .card-table .mob-tr td {
+      padding-top: 0; }
+    .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col .portfolio-card .card-table tr:nth-child(odd) td {
+      border: none !important; }
+    @media (max-width: 991px) {
+      .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col .portfolio-card .card-table td.stakes-btn-td {
+        display: none; } }
 
 /*# sourceMappingURL=portfolio.css.map */

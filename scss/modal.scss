@@ -1714,8 +1714,12 @@
         }
     }
     .modal-dialog {
-        @media (min-width: 1200px) {
-            max-width: 1140px;
+        // @media (min-width: 1200px) {
+        //     max-width: 1140px;
+        // }
+        @media (min-width: 992px){
+        // max-width: 800px;
+            max-width: 600px;
         }
     }
     .walles-otr {
@@ -1727,15 +1731,15 @@
         }
     }
     .props-btn-card{
-        width: 25%;
+        width: 50%;
         padding: 12px;
-        @media ($sm-1199) {
-            width: calc(33.3%);
-        }
-        @media ($sm-767) {
-            width: 50%;
-            padding: 8px 10px;
-        }
+        // @media ($sm-1199) {
+        //     width: calc(33.3%);
+        // }
+        // @media ($sm-767) {
+        //     width: 50%;
+        //     padding: 8px 10px;
+        // }
         @media (max-width: 450px) {
             width: 100%;
         }

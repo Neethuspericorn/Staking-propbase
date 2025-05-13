@@ -1271,9 +1271,9 @@
   @media (max-width: 479px) {
     .buy-props-modal .conect-wallet {
       margin-bottom: 20px; } }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .buy-props-modal .modal-dialog {
-    max-width: 1140px; } }
+    max-width: 600px; } }
 .buy-props-modal .walles-otr {
   column-gap: unset;
   flex-wrap: wrap; }
@@ -1282,15 +1282,8 @@
       flex-direction: row;
       margin-top: 20px; } }
 .buy-props-modal .props-btn-card {
-  width: 25%;
+  width: 50%;
   padding: 12px; }
-  @media (max-width: 1199px) {
-    .buy-props-modal .props-btn-card {
-      width: calc(33.3%); } }
-  @media (max-width: 767px) {
-    .buy-props-modal .props-btn-card {
-      width: 50%;
-      padding: 8px 10px; } }
   @media (max-width: 450px) {
     .buy-props-modal .props-btn-card {
       width: 100%; } }
