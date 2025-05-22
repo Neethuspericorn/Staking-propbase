@@ -790,9 +790,9 @@ $dark-block-2: #2B2C2E;
         color: #B2B2B2;
         background-color: $dark-bg !important;
         &.active{
-            color: $primary-light;
+            color: $primary-blue;
             border-color: $primary-light;
-            background-color: $dark-bg !important;
+            background-color: #fff !important;
         }
         &:hover{
             border-color: $primary-light;

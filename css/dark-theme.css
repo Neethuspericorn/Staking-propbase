@@ -512,9 +512,9 @@
     color: #B2B2B2;
     background-color: #000 !important; }
     .theme-dark .conect-wallet .walles-otr .wallet-btn.active {
-      color: #fff;
+      color: #2966FF;
       border-color: #fff;
-      background-color: #000 !important; }
+      background-color: #fff !important; }
     .theme-dark .conect-wallet .walles-otr .wallet-btn:hover {
       border-color: #fff; }
   .theme-dark .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark {
