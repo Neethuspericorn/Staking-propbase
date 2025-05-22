@@ -114,6 +114,10 @@
       @media (max-width: 991px) {
         .nav-block .navbar-collapse-block .navbar-ul {
           padding-top: 20px; } }
+      @media (max-width: 579px) {
+        .nav-block .navbar-collapse-block .navbar-ul {
+          max-height: calc(100vh - 100px);
+          overflow-y: auto; } }
       .nav-block .navbar-collapse-block .navbar-ul .nav-item {
         margin-bottom: 12px; }
         @media (max-width: 1679px) {
@@ -338,7 +342,7 @@
 
   .nav-block .nav-footer-block {
     padding-top: 35px;
-    display: block; }
+    display: none; }
 
   .nav-block .nav-logo-wrapper .nav-toggle-btn {
     border: solid 1px transparent; }

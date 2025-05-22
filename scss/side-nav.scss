@@ -124,7 +124,10 @@
             @media (max-width: 991px) {
                 padding-top: 20px;
             }
-            
+            @media (max-width: 579px) {
+                max-height: calc(100vh - 100px);
+                overflow-y: auto;
+            }
             .nav-item{
                 margin-bottom: 12px;
                 @media (max-width: 1679px) {
@@ -417,7 +420,7 @@
     }
     .nav-block .nav-footer-block{
         padding-top: 35px;
-        display: block;
+        display: none;
     }
     .nav-block .nav-logo-wrapper .nav-toggle-btn{
         border: solid 1px transparent;
