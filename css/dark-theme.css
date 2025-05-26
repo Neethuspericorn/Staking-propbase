@@ -516,7 +516,9 @@
       border-color: #fff;
       background-color: #fff !important; }
     .theme-dark .conect-wallet .walles-otr .wallet-btn:hover {
-      border-color: #fff; }
+      color: #2966FF;
+      border-color: #fff;
+      background-color: #fff !important; }
   .theme-dark .login-wrapper .login-left-block .bottom-content .checkbox-container input:checked ~ .checkmark {
     background-color: #000;
     border: solid 1px #D3E3F8; }

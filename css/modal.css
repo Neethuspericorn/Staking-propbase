@@ -265,7 +265,8 @@
       box-shadow: none; }
       .conect-wallet .walles-otr .wallet-btn:hover, .conect-wallet .walles-otr .wallet-btn.active {
         border: 1px solid #2966FF;
-        background: #EDF2FF; }
+        background: #2966FF;
+        color: #fff; }
       .conect-wallet .walles-otr .wallet-btn .wallet-icon {
         width: 30px;
         height: 30px;

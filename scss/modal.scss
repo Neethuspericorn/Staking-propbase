@@ -322,7 +322,8 @@
             &:hover,
             &.active {
                 border: 1px solid $primary-blue;
-                background: #EDF2FF;
+                background: $primary-blue;
+                color: #fff;
             }
             
 
