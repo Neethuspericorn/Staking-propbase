@@ -2179,10 +2179,12 @@
                     padding-top: 0;
                 }
             }
-            tr{
-                &:nth-child(odd){
-                    td{
-                        border: none !important;
+            &.my-stakes-table{
+                tr{
+                    &:nth-child(odd){
+                        td{
+                            border: none !important;
+                        }
                     }
                 }
             }
