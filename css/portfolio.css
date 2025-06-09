@@ -1767,4 +1767,93 @@
       .portfolio-sec .portfolio-page-wrapper .portfolio-fluid-col .portfolio-card .card-table td.stakes-btn-td {
         display: none; } }
 
+@media (max-width: 767px) {
+  .mystakes-col-web {
+    display: none; } }
+
+.mystakes-col-mob {
+  margin-bottom: 30px !important;
+  padding-top: 15px; }
+  @media (min-width: 767px) {
+    .mystakes-col-mob {
+      display: none; } }
+  .mystakes-col-mob .portfolio-card {
+    border: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    display: block !important;
+    border-radius: 0 !important; }
+  .mystakes-col-mob .mystakes-card-cover .mystakes-card {
+    background-color: #fff;
+    border: 1px solid #E3E4F3;
+    border-radius: 14px;
+    margin-bottom: 18px; }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .item-label {
+      color: #8393BA;
+      font-size: 13px;
+      margin-bottom: 4px; }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .item-val {
+      color: #2E4276;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 0; }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .title-block {
+      padding: 20px 25px;
+      position: relative;
+      border-bottom: solid 1px #E3E4F3; }
+      @media (max-width: 400px) {
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .title-block {
+          padding: 20px 15px; } }
+      .mystakes-col-mob .mystakes-card-cover .mystakes-card .title-block .apy-val {
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        font-size: 13px;
+        color: #0DAD4D; }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover {
+      padding: 18px 20px;
+      border-bottom: solid 1px #E3E4F3; }
+      @media (max-width: 400px) {
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover {
+          padding: 15px; } }
+      .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover .col-2-wrapper {
+        flex-wrap: wrap; }
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover .col-2-wrapper .col-2-card {
+          padding: 9px 5px;
+          width: 50%; }
+          @media (max-width: 350px) {
+            .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover .col-2-wrapper .col-2-card {
+              width: 100%; } }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .card-btn-block {
+      padding: 10px 25px 30px; }
+      @media (max-width: 400px) {
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .card-btn-block {
+          padding: 10px 15px 25px; } }
+      .mystakes-col-mob .mystakes-card-cover .mystakes-card .card-btn-block .stake-btn {
+        width: 100%;
+        color: #fff;
+        background-color: #2966FF;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 14px 15px;
+        transition: .3s; }
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .card-btn-block .stake-btn:hover {
+          opacity: .8; }
+        .mystakes-col-mob .mystakes-card-cover .mystakes-card .card-btn-block .stake-btn.unstake-btn {
+          background-color: #EE8728;
+          margin-top: 18px; }
+  .mystakes-col-mob .mystakes-pagination .table-pagination-cover {
+    padding: 20px 0;
+    border: none;
+    margin-top: 0 !important; }
+    @media (max-width: 400px) {
+      .mystakes-col-mob .mystakes-pagination .table-pagination-cover {
+        padding: 15px 0; } }
+    .mystakes-col-mob .mystakes-pagination .table-pagination-cover .pagination-block {
+      justify-content: center !important;
+      margin: 0 auto;
+      padding-top: 0 !important; }
+
 /*# sourceMappingURL=portfolio.css.map */

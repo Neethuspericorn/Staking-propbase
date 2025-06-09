@@ -1460,4 +1460,18 @@ $dark-block-2: #2B2C2E;
         color: rgba($color: #fff, $alpha: 0.25);
         opacity: 1 !important;
     }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card{
+        background-color: transparent;
+        border-color: #2F2F2F;
+    }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .item-label {
+        color: #8C8C8C;
+    }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .item-val {
+       color: #fff;
+    }
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .title-block, 
+    .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover{
+        border-color: #2F2F2F;
+    }
 }
