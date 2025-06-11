@@ -980,5 +980,90 @@
   .theme-dark .mystakes-col-mob .mystakes-card-cover .mystakes-card .title-block,
   .theme-dark .mystakes-col-mob .mystakes-card-cover .mystakes-card .col-2-cover {
     border-color: #2F2F2F; }
+  .theme-dark .bridge-body-cover .bridge-banner-sec .tut-block {
+    border: 1px solid #181818;
+    background-color: #0D0D0D; }
+    .theme-dark .bridge-body-cover .bridge-banner-sec .tut-block .tut-link {
+      color: #fff; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block {
+    background-color: #0D0D0D; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card {
+    border: 1px solid #181818; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data p {
+    color: #7B7B7B; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data h5 {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
+    border-left: 1px solid #222222; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon {
+    background-color: #202020; }
+    .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon img {
+      filter: none; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block p {
+    color: #7B7B7B; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select {
+    color: #fff; }
+    .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select option {
+      background-color: #000; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
+    color: #4B4B4B; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn {
+    background-color: #151515;
+    color: #787878; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val p {
+    color: #4B4B4B; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val h5 {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .trnsf-img-block .icon {
+    border: 1px solid #1B1B1B;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 0.5) 0%, rgba(19, 19, 19, 0.5) 100%); }
+    .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .trnsf-img-block .icon img {
+      filter: none; }
+  .theme-dark .bridge-body-cover .data-connect-cover .fee-det-wrapper .fee-label {
+    color: #767676; }
+  .theme-dark .bridge-body-cover .data-connect-cover .fee-det-wrapper .fee-info {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-title {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card {
+    border: 1px solid #222222;
+    background-color: #0E0E0E; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block {
+    background-color: #1E1E1E; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block.sts-delivered {
+    background-color: #121E17; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col p {
+    color: #767676; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-id {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trs-copy-btn img img {
+    filter: none; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block {
+    background-color: #1E1E1E;
+    color: #fff; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-icon {
+    background-color: #1C1C1C; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block .currnt-sts .sts-ind {
+    background-color: #fff; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col p {
+    color: #767676; }
+  .theme-dark .my-transaction-table-cover .trns-history-table td .trx-icon {
+    background-color: #1C1C1C; }
+  .theme-dark .bridge-body-cover .bridge-banner-sec p {
+    color: #757575; }
+  .theme-dark .bridge-body-cover {
+    background-color: transparent; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-title img {
+    filter: grayscale(1) brightness(10); }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trs-copy-btn img {
+    filter: none; }
+  .theme-dark .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block .currnt-sts {
+    color: #fff; }
+  .theme-dark .bridge-tab-cover .bridge-tab-block {
+    border-color: #282828; }
+  .theme-dark .bridge-tab-cover .bridge-tab-block .bridge-tab-btn {
+    color: #707070; }
+  .theme-dark .bridge-body-outer {
+    background-color: transparent; }
 
 /*# sourceMappingURL=dark-theme.css.map */

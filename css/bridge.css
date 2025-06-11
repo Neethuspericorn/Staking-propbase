@@ -1,0 +1,473 @@
+@import url("../../fonts/fonts.css");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.bridge-body-outer {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px; }
+  @media (max-width: 579px) {
+    .bridge-body-outer {
+      padding: 0; } }
+  @media (max-width: 991px) {
+    .bridge-body-outer .bridge-tab-body-2 {
+      display: none; } }
+
+.bridge-body-cover {
+  display: flex;
+  justify-content: center; }
+  .bridge-body-cover .bridge-data-outer {
+    width: 100%;
+    max-width: 855px; }
+    @media (max-width: 1679px) {
+      .bridge-body-cover .bridge-data-outer {
+        max-width: 600px; } }
+    @media (max-width: 1199px) {
+      .bridge-body-cover .bridge-data-outer {
+        max-width: 530px; } }
+    @media (max-width: 767px) {
+      .bridge-body-cover .bridge-data-outer {
+        max-width: 480px; } }
+  .bridge-body-cover .bridge-banner-sec {
+    text-align: center;
+    padding: 30px 0 50px; }
+    @media (max-width: 1679px) {
+      .bridge-body-cover .bridge-banner-sec {
+        padding: 20px 0 30px; } }
+    @media (max-width: 579px) {
+      .bridge-body-cover .bridge-banner-sec {
+        padding: 30px 0 50px; } }
+    .bridge-body-cover .bridge-banner-sec h2 {
+      color: #2966FF;
+      font-size: 20px;
+      font-weight: 500; }
+    .bridge-body-cover .bridge-banner-sec p {
+      color: #8393BA;
+      font-size: 14px;
+      max-width: 320px;
+      margin: 0 auto 40px; }
+    .bridge-body-cover .bridge-banner-sec .tut-block {
+      width: 100%;
+      border: 1px solid #E3E4F3;
+      border-radius: 14px;
+      background-color: #f4f7fd;
+      padding: 20px; }
+      @media (max-width: 360px) {
+        .bridge-body-cover .bridge-banner-sec .tut-block {
+          padding: 15px 10px; } }
+      .bridge-body-cover .bridge-banner-sec .tut-block .tut-link {
+        text-decoration: underline;
+        color: #2E4276;
+        font-size: 13px;
+        transition: .3s; }
+        @media (max-width: 360px) {
+          .bridge-body-cover .bridge-banner-sec .tut-block .tut-link {
+            font-size: 12px; } }
+        .bridge-body-cover .bridge-banner-sec .tut-block .tut-link:hover {
+          opacity: .8; }
+        .bridge-body-cover .bridge-banner-sec .tut-block .tut-link img {
+          margin-right: 10px; }
+  .bridge-body-cover .data-connect-cover {
+    margin-bottom: 50px; }
+    .bridge-body-cover .data-connect-cover .connect-card-outer {
+      margin-bottom: 40px; }
+      .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connected-id {
+          display: flex;
+          align-items: center; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connected-id img {
+            margin-right: 7px;
+            max-width: 16px;
+            max-height: 17px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connected-id .cnt-id {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+            font-size: 15px;
+            color: #0DAD4D; }
+            @media (max-width: 1679px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connected-id .cnt-id {
+                font-size: 14px; } }
+            @media (max-width: 360px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connected-id .cnt-id {
+                max-width: 120px; } }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connect-btn {
+          flex-shrink: 0;
+          margin-left: auto;
+          text-decoration: none;
+          color: #2966FF;
+          font-size: 15px;
+          transition: .3s;
+          border: none;
+          box-shadow: none;
+          outline: none;
+          background-color: transparent;
+          padding: 2px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connect-btn:hover {
+            opacity: .8; }
+      .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card {
+        border-radius: 14px;
+        border: 1px solid #E3E4F3; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block {
+          display: flex;
+          background-color: #f4f7fd;
+          border-radius: 14px 14px 0 0; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block {
+            flex-grow: 1;
+            padding: 13px; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon {
+              background-color: #E3E4F3;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              flex-shrink: 0;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon img {
+                filter: grayscale(1) invert(1); }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data {
+              padding-left: 10px; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data h5 {
+                color: #2E4276;
+                margin: 0;
+                font-size: 12px;
+                font-weight: 500; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data p {
+                color: #8393BA;
+                font-size: 12px;
+                font-weight: 300;
+                margin-bottom: 2px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
+            padding: 13px;
+            padding-left: 20px;
+            border-left: 1px solid #E3E4F3;
+            flex-shrink: 0;
+            width: 40%;
+            display: flex;
+            align-items: center; }
+            @media (max-width: 767px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
+                width: 150px; } }
+            @media (max-width: 360px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
+                padding-left: 10px; } }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block p {
+              color: #8393BA;
+              font-size: 12px;
+              font-weight: 300;
+              margin-bottom: 2px; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select {
+              padding: 0;
+              background-color: transparent;
+              border: none;
+              color: #2E4276;
+              font-size: 12px;
+              font-weight: 500;
+              outline: none; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select option {
+                background-color: #fff; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-block {
+          padding: 13px; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
+          color: #4B4B4B;
+          border: none;
+          box-shadow: none;
+          outline: none;
+          width: 100px;
+          padding: 0;
+          font-size: 16px;
+          font-weight: 500;
+          background-color: transparent;
+          margin-bottom: 10px; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn {
+          background-color: #dbe2f6;
+          color: #2E4276;
+          display: inline-block;
+          border-radius: 5px;
+          padding: 5px 8px;
+          color: #2E4276;
+          font-size: 13px;
+          border: none;
+          box-shadow: none;
+          outline: none; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn.active {
+            background-color: #2966FF !important;
+            color: #fff !important; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val {
+          margin-left: auto;
+          padding-left: 15px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val p {
+            color: #8393BA;
+            font-size: 13px;
+            margin-bottom: 5px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val h5 {
+            color: #2E4276;
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0; }
+      .bridge-body-cover .data-connect-cover .connect-card-outer .trnsf-img-block {
+        text-align: center;
+        padding: 25px 15px 15px; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .trnsf-img-block .icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #E3E4F3;
+          border-radius: 50%;
+          width: 46px;
+          height: 46px;
+          background: #E3E4F3; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .trnsf-img-block .icon img {
+            filter: brightness(0) saturate(100%) invert(36%) sepia(37%) saturate(616%) hue-rotate(185deg) brightness(92%) contrast(88%); }
+    .bridge-body-cover .data-connect-cover .fee-det-wrapper {
+      justify-content: space-between;
+      margin-bottom: 15px; }
+      .bridge-body-cover .data-connect-cover .fee-det-wrapper .fee-label {
+        font-size: 13px;
+        padding-right: 15px;
+        color: #2E4276; }
+      .bridge-body-cover .data-connect-cover .fee-det-wrapper .fee-info {
+        color: #2E4276;
+        font-size: 13px; }
+    .bridge-body-cover .data-connect-cover .bridge-btn-block {
+      padding-top: 15px; }
+      .bridge-body-cover .data-connect-cover .bridge-btn-block .bridge-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #2966FF;
+        color: #fff;
+        border: none; }
+        .bridge-body-cover .data-connect-cover .bridge-btn-block .bridge-btn:hover {
+          opacity: .8; }
+        .bridge-body-cover .data-connect-cover .bridge-btn-block .bridge-btn img {
+          margin-right: 8px; }
+  @media (min-width: 991px) {
+    .bridge-body-cover .my-transaction-mob {
+      display: none !important; } }
+  .bridge-body-cover .my-transaction-cover .my-transaction-title {
+    color: #2E4276;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px; }
+    .bridge-body-cover .my-transaction-cover .my-transaction-title img {
+      margin-right: 10px; }
+  .bridge-body-cover .my-transaction-cover .my-transaction-card {
+    margin-bottom: 15px;
+    border: 1px solid #e3e4f3;
+    border-radius: 14px;
+    background-color: #f4f7fd;
+    padding: 22px 22px 15px; }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block {
+      margin-bottom: 15px;
+      border-radius: 13px;
+      background-color: #d1d1d1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #8393BA;
+      padding: 12px; }
+      .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block span {
+        display: inline-block; }
+      .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block .currnt-sts {
+        color: #2E4276;
+        display: inline-flex;
+        align-items: center;
+        padding-left: 6px; }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block .currnt-sts .sts-ind {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          margin-right: 5px;
+          background-color: #2E4276; }
+      .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block.sts-delivered {
+        background-color: #b8e3ca; }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block.sts-delivered .currnt-sts {
+          color: #0DAD4D !important; }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block.sts-delivered .sts-ind {
+          background-color: #0DAD4D !important; }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper {
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col {
+        padding: 15px 0;
+        max-width: 50%; }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col:nth-child(odd) {
+          padding-right: 10px; }
+        @media (max-width: 370px) {
+          .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col {
+            font-size: 12px;
+            max-width: 100%;
+            width: 100%;
+            padding-right: 0 !important; } }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col p {
+          font-size: 12px;
+          color: #8393BA;
+          margin-bottom: 5px; }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data {
+          display: flex;
+          align-items: center; }
+          .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E3E4F3;
+            width: 19px;
+            height: 19px;
+            border-radius: 5px; }
+            .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-icon img {
+              max-height: 95%;
+              max-width: 100%; }
+          .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-id {
+            color: #2E4276;
+            padding: 0 8px;
+            font-size: 14px;
+            max-width: 115px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+            @media (max-width: 400px) {
+              .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-id {
+                font-size: 13px;
+                max-width: 100px; } }
+            @media (max-width: 370px) {
+              .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-id {
+                max-width: 200px; } }
+        .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trs-copy-btn {
+          padding: 1px;
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+          line-height: 12px; }
+          .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trs-copy-btn img {
+            filter: brightness(0) saturate(100%) invert(36%) sepia(37%) saturate(616%) hue-rotate(185deg) brightness(92%) contrast(88%); }
+
+.table-pagination-cover.mob-card-pagination {
+  border: none;
+  background-color: transparent;
+  justify-content: center; }
+  @media (max-width: 670px) {
+    .table-pagination-cover.mob-card-pagination .pagination-block {
+      justify-content: center !important; } }
+  .table-pagination-cover.mob-card-pagination .pagination-block .pagination .page-item .page-link {
+    width: 35px;
+    height: 35px; }
+  .table-pagination-cover.mob-card-pagination .pagination-block .pagination .page-item .page-link-dots {
+    height: 35px; }
+
+.my-transaction-web {
+  padding-top: 25px; }
+  @media (max-width: 767px) {
+    .my-transaction-web {
+      display: none !important; } }
+
+.my-transaction-table-cover .trns-history-table td.sts-td .sts-ind {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background-color: #fff; }
+.my-transaction-table-cover .trns-history-table td.sts-delivered {
+  color: #0DAD4D !important; }
+  .my-transaction-table-cover .trns-history-table td.sts-delivered .sts-ind {
+    background-color: #0DAD4D; }
+.my-transaction-table-cover .trns-history-table td .trx-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3E4F3;
+  width: 19px;
+  height: 19px;
+  border-radius: 5px;
+  margin-right: 8px; }
+  .my-transaction-table-cover .trns-history-table td .trx-icon img {
+    max-height: 95%;
+    max-width: 100%; }
+.my-transaction-table-cover .trns-history-table td .trx-id-td {
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+.my-transaction-table-cover .trns-history-table td .trx-data-td {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; }
+
+@media (max-width: 991px) {
+  .bridge-tab-cover {
+    display: none; } }
+.bridge-tab-cover .bridge-tab-block {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: solid 1px #E3E4F3;
+  display: flex;
+  max-width: 855px; }
+  @media (max-width: 1679px) {
+    .bridge-tab-cover .bridge-tab-block {
+      max-width: 600px; } }
+  @media (max-width: 1199px) {
+    .bridge-tab-cover .bridge-tab-block {
+      max-width: 530px; } }
+  @media (max-width: 767px) {
+    .bridge-tab-cover .bridge-tab-block {
+      max-width: 480px; } }
+  .bridge-tab-cover .bridge-tab-block .bridge-tab-btn {
+    width: 50%;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #2E4276;
+    transition: .3s;
+    position: relative;
+    font-size: 16px; }
+    @media (max-width: 1679px) {
+      .bridge-tab-cover .bridge-tab-block .bridge-tab-btn {
+        padding: 15px;
+        font-size: 15px; } }
+    @media (max-width: 579px) {
+      .bridge-tab-cover .bridge-tab-block .bridge-tab-btn {
+        padding: 20px 15px; } }
+    .bridge-tab-cover .bridge-tab-block .bridge-tab-btn::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      background-color: #2966FF;
+      height: 2px;
+      transition: .3s; }
+    .bridge-tab-cover .bridge-tab-block .bridge-tab-btn:hover, .bridge-tab-cover .bridge-tab-block .bridge-tab-btn.active {
+      color: #2966FF !important; }
+      .bridge-tab-cover .bridge-tab-block .bridge-tab-btn:hover::after, .bridge-tab-cover .bridge-tab-block .bridge-tab-btn.active::after {
+        width: 99%; }
+      .bridge-tab-cover .bridge-tab-block .bridge-tab-btn:hover img, .bridge-tab-cover .bridge-tab-block .bridge-tab-btn.active img {
+        filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%) !important; }
+    .bridge-tab-cover .bridge-tab-block .bridge-tab-btn img {
+      margin-right: 15px; }
+
+/*# sourceMappingURL=bridge.css.map */

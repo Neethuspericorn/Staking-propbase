@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Home</title>
+    <link rel="icon" href="img/fav.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/bridge.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="toggle-btn-block">
+                        <!-- buy props -->
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="props-title">
+                                        <h4>How to Buy PROPS</h4>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/bitget.svg" alt="">
+                                            </span> Bitget
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block custom-scroll">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/transactions.svg" alt="">
+                                <span class="nav-label">Transactions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/terms.svg" alt="">
+                                <span class="nav-label">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item nav-item-logout">
+                            <div class="nav-link" href="#">
+                                <img src="img/dark-mode.svg" alt="">
+                                <span class="nav-label">Dark Mode</span>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg sticky-lg-top">
+                <div class="header-title-block">
+                    <!-- <div class="live-active wallet-btn">
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                    </div> -->
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$ 0.045 USD</span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
+                        <span class="info-val info-val-end">$ 14,910,900 USD</span>
+                    </div>
+
+                    <!-- <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div> -->
+                    <div class="header-btn-cover">
+                        <div class="theme-toggle-btn-block">
+                            <button class="theme-toggle-btn">
+                                <img src="img/theme-light.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="props-title">
+                                        <h4>How to Buy PROPS</h4>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/bitget.svg" alt="">
+                                            </span> Bitget
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
+                        <div class="wallet-btn-cover wallet-btn-cover-web">
+                            <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                            <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#walletModal">0xf7e2...1380bf</button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- <button class="login-btn header-btn-web"><span class="acc-label">Admin Login</span> <img src="img/user.svg" alt=""></button> -->
+                        <!-- Admin btn -->
+                        <div class="admin-h-btn-block d-flex">
+                            <div class="btn-group notify-dropdown">
+                                <button type="button" class="notify-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="notify-icon">
+                                        <img src="img/notification.svg" alt="">
+                                        <span class="new"></span>
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="notify-title">
+                                        Notifications
+                                        <span class="count">10</span>
+                                        <button class="notify-clr-btn">Clear All</button>
+                                    </li>
+                                    <li class="dropdown-scrl-li">
+                                        <div class="dropdown-item-cover custom-scroll">
+                                            <div class="dropdown-item unread">
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item unread">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="btn-group my-acc-dropdown">
+                                <button type="button" class="my-acc-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-icon"><img src="img/admin-settings.svg" alt=""></span>
+                                    <span class="acc-label">My Account</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                            <img src="img/lock-drpdown.svg" alt=""> Change password
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src="img/logout-drpdwn.svg" alt=""> Logout
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="body-content-outer">
+                
+                <div class="bridge-body-outer">
+                    <div class="bridge-tab-cover">
+                        <div class="bridge-tab-block">
+                            <button class="bridge-tab-btn active">
+                                <img src="img/bridge-tab.svg" alt=""> Bridge PROPS
+                            </button>
+                            <button class="bridge-tab-btn">
+                                <img src="img/history-tab.svg" alt=""> History
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- tab 1 -->
+                    <div class="bridge-tab-body">
+                        <div class="bridge-body-cover">
+                            <div class="bridge-data-outer">
+                                <div class="bridge-banner-sec">
+                                    <h2>Bridge Props</h2>
+                                    <p>Use Propbase Bridge to transfer an asset across multiple chains.</p>
+                                    <div class="tut-block">
+                                        <img src="img/info-circle.svg" alt=""> <a class="tut-link" href="#">Read the Tutorial before bridging ?</a>
+                                    </div>
+                                </div>
+        
+                                <div class="data-connect-cover">
+                                    <div class="connect-card-outer">
+                                        <div class="connect-btn-block">
+                                            <div class="connected-id">
+                                                <img src="img/connected-icon.png" alt="">
+                                                <div class="cnt-id">1FfmbHfnpaZjKFvyi1o....</div>
+                                            </div>
+                                            <button class="connect-btn">Connect</button>
+                                        </div>
+                                        <div class="data-connect-card">
+                                            <div class="data-title-block">
+                                                <div class="left-block d-flex">
+                                                    <div class="props-icon">
+                                                        <img src="img/connect-props.svg" alt="">
+                                                    </div>
+                                                    <div class="sm-data">
+                                                        <p>Token</p>
+                                                        <h5>propbase</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <div class="right-block-inner">
+                                                        <p>Network</p>
+                                                        <div class="select-block">
+                                                            <select class="connect-select">
+                                                                <option value="">Select</option>
+                                                                <option value="">Select 1</option>
+                                                                <option value="">Select 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="data-block">
+                                                <div class="coin-wrapper d-flex">
+                                                    <div class="props-val">
+                                                        <div class="props-inp-block">
+                                                            <input class="props-inp" type="text" value="0">
+                                                        </div>
+                                                        <div class="max-btn-block">
+                                                            <button class="max-btn">Max</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bal-val">
+                                                        <p>Balance</p>
+                                                        <h5>0.00</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="trnsf-img-block">
+                                            <span class="icon">
+                                                <img src="img/trnsf-icon.svg" alt="">
+                                            </span>
+                                        </div>
+        
+                                        <div class="connect-btn-block">
+                                            <div class="connected-id">
+                                                <img src="img/connected-icon.png" alt="">
+                                                <div class="cnt-id">1FfmbHfnpaZjKFvyi1o....</div>
+                                            </div>
+                                            <button class="connect-btn">Connect</button>
+                                        </div>
+                                        <div class="data-connect-card">
+                                            <div class="data-title-block">
+                                                <div class="left-block d-flex">
+                                                    <div class="props-icon">
+                                                        <img src="img/connect-props.svg" alt="">
+                                                    </div>
+                                                    <div class="sm-data">
+                                                        <p>Token</p>
+                                                        <h5>propbase</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <div class="right-block-inner">
+                                                        <p>Network</p>
+                                                        <div class="select-block">
+                                                            <select class="connect-select">
+                                                                <option value="">Select</option>
+                                                                <option value="">Select 1</option>
+                                                                <option value="">Select 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="data-block">
+                                                <div class="coin-wrapper d-flex">
+                                                    <div class="props-val">
+                                                        <div class="props-inp-block">
+                                                            <input class="props-inp" type="text" value="0">
+                                                        </div>
+                                                        <div class="max-btn-block">
+                                                            <button class="max-btn">Max</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bal-val">
+                                                        <p>Balance</p>
+                                                        <h5>0.00</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="fee-det-wrapper d-flex">
+                                        <div class="fee-label">
+                                            Gas on destination <img src="img/info-circle-sm.svg" alt="">
+                                        </div>
+                                        <div class="fee-info">
+                                            -
+                                        </div>
+                                    </div>
+                                    <div class="fee-det-wrapper d-flex">
+                                        <div class="fee-label">
+                                            Fee <img src="img/info-circle-sm.svg" alt="">
+                                        </div>
+                                        <div class="fee-info">
+                                            100 Props
+                                        </div>
+                                    </div>
+                                    <div class="bridge-btn-block">
+                                        <button class="bridge-btn">
+                                            <img src="img/bridge-btn.svg" alt="">
+                                            Bridge now
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class="my-transaction-cover my-transaction-mob">
+                                    <div class="my-transaction-title">
+                                        <img src="img/my-trans.svg" alt=""> My Transaction
+                                    </div>
+        
+                                    <div class="my-transaction-card">
+                                        <div class="status-block sts-delivered">
+                                            <span class="sts-label">Status :</span>
+                                            <span class="currnt-sts"><span class="sts-ind"></span> Delivered</span>
+                                        </div>
+                                        <div class="trnx-data-wrapper d-flex">
+                                            <div class="trnx-data-col">
+                                                <p>Source Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>From</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Destination Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Created</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+        
+                                    <div class="my-transaction-card">
+                                        <div class="status-block sts-delivered">
+                                            <span class="sts-label">Status :</span>
+                                            <span class="currnt-sts"><span class="sts-ind"></span> Delivered</span>
+                                        </div>
+                                        <div class="trnx-data-wrapper d-flex">
+                                            <div class="trnx-data-col">
+                                                <p>Source Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>From</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Destination Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Created</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+        
+                                    <div class="my-transaction-card">
+                                        <div class="status-block">
+                                            <span class="sts-label">Status :</span>
+                                            <span class="currnt-sts"><span class="sts-ind"></span> Confirmed</span>
+                                        </div>
+                                        <div class="trnx-data-wrapper d-flex">
+                                            <div class="trnx-data-col">
+                                                <p>Source Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>From</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Destination Tx Hash</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="trnx-data-col">
+                                                <p>Created</p>
+                                                <div class="trnx-data d-flex">
+                                                    <span class="trx-icon">
+                                                        <img src="img/trx-icon.svg" alt="">
+                                                    </span>
+                                                    <div class="trx-id">
+                                                        0x9a37a611067a611067
+                                                    </div>
+                                                    <button class="trs-copy-btn">
+                                                        <img src="img/trx-copy.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="mob-card-pagination table-pagination-cover">
+                                        <div class="pagination-block">
+                                            <nav aria-label="Page">
+                                                <ul class="pagination">
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Previous">
+                                                            <img src="img/arw-left.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><span class="page-link-dots">&#183;&#183;&#183;</span></li>
+                                                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Next">
+                                                            <img src="img/arw-right.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- tab 2 -->
+                    <div class="bridge-tab-body bridge-tab-body-2">
+                        <div class="my-transaction-table-cover my-transaction-web">
+                            <div class="sec-title-block sec-title-filter">
+                                <h2 class="sec-title">Your History</h2>
+                                <div class="block-right">
+                                    <div class="title-search-box me-2">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+                                            <button class="btn" type="button" id="button-search">
+                                                <img src="img/search.svg" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown filter-dropdown-group">
+                                        <button class="btn filter-dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false" data-bs-auto-close="outside">
+                                            Filters <img src="img/filter.svg" alt="">
+                                        </button>
+        
+                                        <div class="dropdown-menu filter-dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
+                                            <div class="filter-title">
+                                                <h4>Filter By</h4>
+                                                <button class="filter-close-btn">
+                                                    <img src="img/filter-close.svg" alt="">
+                                                </button>
+                                            </div>
+                                            <div class="filter-form-content">
+                                                <form action="">
+                                                    <div class="inp-cover">
+                                                        <div class="inp-block alert-msg-cover">
+                                                            <label for="" class="form-label">Property Type</label>
+                                                            <select class="custom-inp form-select custom-selectbox" name="" id="">
+                                                                <option value="">Select Property Type</option>
+                                                                <option value="">Type 1</option>
+                                                                <option value="">Type 2</option>
+                                                            </select>
+                                                            <span class="alert-msg">Required *</span>
+                                                        </div>
+                                                        <div class="inp-block alert-msg-cover">
+                                                            <label for="" class="form-label">Purchase date</label>
+                                                            <input type="text" class="custom-inp">
+                                                            <span class="alert-msg">Required *</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-block">
+                                                        <button class="btn btn-reset">Reset</button>
+                                                        <button class="btn btn-save">Save</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="table-sec trns-history-table">
+                                <div class="table-cover table-responsive min-h-0">
+                                    <table class="table custom-table">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <div class="th-sort-col pointer-cursor">
+                                                        Status
+                                                        <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                    </div>
+                                                </th>
+                                                <th>Source Tx Hash
+                                                    <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                </th>
+                                                <th>From
+                                                    <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                </th>
+                                                <th>Destination Tx Hash
+                                                    <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                </th>
+                                                <th>Source Tx Hash
+                                                    <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="sts-td sts-delivered">
+                                                    <span class="sts-ind "></span> Delivered
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td class="sts-td">
+                                                    <span class="sts-ind"></span> Confirm
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sts-td sts-delivered">
+                                                    <span class="sts-ind "></span> Delivered
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sts-td sts-delivered">
+                                                    <span class="sts-ind "></span> Delivered
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sts-td sts-delivered">
+                                                    <span class="sts-ind "></span> Delivered
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sts-td sts-delivered">
+                                                    <span class="sts-ind "></span> Delivered
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="trx-data-td">
+                                                        <span class="trx-icon">
+                                                            <img src="img/trx-icon.svg" alt="">
+                                                        </span>
+                                                        <div class="trx-id-td">
+                                                            0xcc80737a9b1d731fd8b0d6da1a.....
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    about 12 hours ago
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                        
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-pagination-cover">
+                                <div class="select-block">
+                                    Rows per page
+                                    <select class="pagination-select" name="" id="">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                                <div class="entries-block">
+                                    Showing 1 to 10 of 39 entries
+                                </div>
+                                <div class="pagination-block">
+                                    <nav aria-label="Page">
+                                        <ul class="pagination">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <img src="img/arw-left.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><span class="page-link-dots">&#183;&#183;&#183;</span></li>
+                                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <img src="img/arw-right.svg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
