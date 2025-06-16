@@ -127,6 +127,9 @@
           .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block {
             flex-grow: 1;
             padding: 13px; }
+            @media (max-width: 380px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block {
+                padding-left: 10px; } }
             .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon {
               background-color: #E3E4F3;
               width: 44px;
@@ -136,8 +139,16 @@
               display: inline-flex;
               align-items: center;
               justify-content: center; }
+              @media (max-width: 380px) {
+                .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon {
+                  width: 35px;
+                  height: 35px; } }
               .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon img {
+                max-width: 25px;
                 filter: grayscale(1) invert(1); }
+                @media (max-width: 380px) {
+                  .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .props-icon img {
+                    max-width: 16px; } }
             .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data {
               padding-left: 10px; }
               .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .left-block .sm-data h5 {
@@ -152,7 +163,7 @@
                 margin-bottom: 2px; }
           .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
             padding: 13px;
-            padding-left: 20px;
+            padding-left: 15px;
             border-left: 1px solid #E3E4F3;
             flex-shrink: 0;
             width: 40%;
@@ -161,24 +172,48 @@
             @media (max-width: 767px) {
               .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
                 width: 150px; } }
-            @media (max-width: 360px) {
+            @media (max-width: 380px) {
               .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block {
                 padding-left: 10px; } }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner {
+              display: flex; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon {
+                background-color: #E3E4F3;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                flex-shrink: 0;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center; }
+                @media (max-width: 380px) {
+                  .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon {
+                    width: 35px;
+                    height: 35px; } }
+                .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon img {
+                  max-width: 25px; }
+                  @media (max-width: 380px) {
+                    .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon img {
+                      max-width: 16px; } }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .sm-data {
+                padding-left: 10px; }
             .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block p {
               color: #8393BA;
               font-size: 12px;
               font-weight: 300;
               margin-bottom: 2px; }
-            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select {
-              padding: 0;
-              background-color: transparent;
-              border: none;
-              color: #2E4276;
-              font-size: 12px;
-              font-weight: 500;
-              outline: none; }
-              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select option {
-                background-color: #fff; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block {
+              margin-left: -4px; }
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select {
+                padding: 0;
+                background-color: transparent;
+                border: none;
+                color: #2E4276;
+                font-size: 12px;
+                font-weight: 500;
+                outline: none; }
+                .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select option {
+                  background-color: #fff; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-block {
           padding: 13px; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
@@ -186,7 +221,7 @@
           border: none;
           box-shadow: none;
           outline: none;
-          width: 100px;
+          max-width: 95%;
           padding: 0;
           font-size: 16px;
           font-weight: 500;
@@ -207,6 +242,8 @@
             background-color: #2966FF !important;
             color: #fff !important; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val {
+          text-align: right;
+          flex-shrink: 0;
           margin-left: auto;
           padding-left: 15px; }
           .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val p {

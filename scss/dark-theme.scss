@@ -1609,4 +1609,10 @@ $dark-block-2: #2B2C2E;
     .bridge-body-outer{
         background-color: transparent;
     }
+    .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon{
+        background-color: #202020;
+    }
+    .img-filter-dark{
+        filter: grayscale(1) invert(1);
+    }
 }

@@ -134,6 +134,9 @@
                     .left-block{
                         flex-grow: 1;
                         padding: 13px;
+                        @media (max-width: 380px) {
+                            padding-left: 10px;
+                        }
                         .props-icon{
                             background-color: #E3E4F3;
                             width: 44px;
@@ -143,8 +146,16 @@
                             display: inline-flex;
                             align-items: center;
                             justify-content: center;
+                            @media (max-width: 380px) {
+                                width: 35px;
+                                height: 35px;
+                            }
                             img{
+                                max-width: 25px;
                                 filter: grayscale(1) invert(1);
+                                @media (max-width: 380px) {
+                                    max-width: 16px;
+                                }
                             }
                         }
                         .sm-data{
@@ -165,7 +176,7 @@
                     }
                     .right-block{
                         padding: 13px;
-                        padding-left: 20px;
+                        padding-left: 15px;
                         border-left: 1px solid #E3E4F3;
                         flex-shrink: 0;
                         width: 40%;
@@ -174,8 +185,34 @@
                         @media ($sm-767) {
                             width: 150px;
                         }
-                        @media (max-width: 360px) {
+                        @media (max-width: 380px) {
                             padding-left: 10px;
+                        }
+                        .right-block-inner{
+                            display: flex;
+                            .props-icon{
+                                background-color: #E3E4F3;
+                                width: 44px;
+                                height: 44px;
+                                border-radius: 50%;
+                                flex-shrink: 0;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                @media (max-width: 380px) {
+                                    width: 35px;
+                                    height: 35px;
+                                }
+                                img{
+                                    max-width: 25px;
+                                    @media (max-width: 380px) {
+                                        max-width: 16px;
+                                    }
+                                }
+                            }
+                            .sm-data{
+                                padding-left: 10px;
+                            }
                         }
                         p{
                             color: $text-primary-light;
@@ -184,6 +221,7 @@
                             margin-bottom: 2px;
                         }
                         .select-block{
+                            margin-left: -4px;
                             .connect-select{
                                 padding: 0;
                                 background-color: transparent;
@@ -209,7 +247,8 @@
                             border: none;
                             box-shadow: none;
                             outline: none;
-                            width: 100px;
+                            // width: 100px;
+                            max-width: 95%;
                             padding: 0;
                             font-size: 16px;
                             font-weight: 500;
@@ -234,6 +273,8 @@
                         }
                     }
                     .bal-val{
+                        text-align: right;
+                        flex-shrink: 0;
                         margin-left: auto;
                         padding-left: 15px;
                         p{

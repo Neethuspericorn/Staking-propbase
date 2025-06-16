@@ -1065,5 +1065,9 @@
     color: #707070; }
   .theme-dark .bridge-body-outer {
     background-color: transparent; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon {
+    background-color: #202020; }
+  .theme-dark .img-filter-dark {
+    filter: grayscale(1) invert(1); }
 
 /*# sourceMappingURL=dark-theme.css.map */
