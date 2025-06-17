@@ -54,7 +54,7 @@
             border: 1px solid #E3E4F3;
             border-radius: 14px;
             background-color: #f4f7fd;
-            padding: 20px;
+            padding: 16px 20px;
             @media (max-width: 360px) {
                 padding: 15px 10px;
             }
@@ -72,6 +72,71 @@
                 img{
                     margin-right: 10px;
                 }
+            }
+        }
+    }
+    .tokn-liq-det-block{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        @media (max-width: 380px) {
+            flex-wrap: wrap;
+        }
+        .tokn-liq-card{
+            padding: 12px 15px;
+            border-radius: 8px;
+            width: calc(50% - 5px);
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f7fd;
+            border: 1px solid #E3E4F3;
+            @media (max-width: 380px) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .icon-block{
+                align-items: center;
+                .props-icon{
+                    background-color: #E3E4F3;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    flex-shrink: 0;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    @media (max-width: 380px) {
+                        width: 35px;
+                        height: 35px;
+                    }
+                    img{
+                        max-width: 18px;
+                        @media (max-width: 380px) {
+                            max-width: 14px;
+                        }
+                    }
+                }
+                .sm-data{
+                    padding-left: 10px;
+                    h5{
+                        color: $text-primary-dark;
+                        margin: 0;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: $text-primary-light;
+                        font-size: 12px;
+                        font-weight: 300;
+                        margin-bottom: 2px;
+                    }
+                }
+                
+            }
+            h4{
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 15px;
             }
         }
     }
@@ -608,6 +673,132 @@
             }
             img{
                 margin-right: 15px;
+            }
+        }
+    }
+}
+.passcode-bridge{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 25px;
+    @media ($sm-767) {
+        min-height: auto;
+    }
+    @media (max-width: 420px) {
+        padding: 30px 10px;
+    }
+    .passcode-content-block{
+        width: 100%;
+        max-width: 600px;
+        padding: 80px 45px;
+        border-radius: 16px;
+        border: 1px solid #373737;
+        background: #010101;
+        // display: flex;
+        // align-items: center;
+        // flex-direction: column;
+        border: 1px solid #E3E4F3;
+        background-color: #fff;
+        @media ($sm-1481) {
+            max-width: 550px;
+            padding: 70px 40px;
+        }
+        @media ($sm-1199) {
+            max-width: 500px;
+            padding: 60px 40px;
+        }
+        @media ($sm-767) {
+            padding: 50px 40px;
+        }
+        @media (max-width: 420px) {
+            padding: 50px 25px;
+        }
+        h2{
+            text-align: center;
+            font-size: 26px;
+            color: $text-primary-dark;
+            font-weight: 400;
+            margin-bottom: 35px;
+            @media ($sm-1679) {
+                font-size: 24px;
+            }
+            @media ($sm-1481) {
+                font-size: 22px;
+            }
+            @media ($sm-579) {
+                font-size: 20px;
+            }
+            span{
+                font-weight: 600;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+            color: #9FA0A3;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .form-block{
+            width: 405px;
+            max-width: 100%;
+            margin: 0 auto;
+            .alert-msg-cover .alert-msg{
+                left: 0;
+            }
+            .inp-block{
+                margin-bottom: 15px;
+                .form-label{
+                    color: #9FA0A3;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                    @media ($sm-579) {
+                        font-size: 13px;
+                    }
+                }
+                .form-control{
+                    padding: 5px 25px;
+                    height: 50px;
+                    font-size: 15px;
+                    width: 100%;
+                    border-radius: 8px;
+                    border: 1px solid #E3E4F3;
+                    background: #fff;
+                    color: $text-primary-dark;
+                    @media ($sm-1679) {
+                        height: 46px;
+                        font-size: 14px;
+                    }
+                    @media ($sm-1481) {
+                        height: 44px;
+                    }
+                    @media ($sm-1199) {
+                        height: 42px;
+                    }
+                    &:-webkit-autofill{
+                        -webkit-text-fill-color: #fff;
+                    }
+                }
+            }
+            .btn-block{
+                padding-top: 15px;
+                text-align: center;
+                .proceed-btn{
+                    padding: 12px 15px;
+                    width: 223px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    display: inline-block;
+                    cursor: pointer;
+                    @media ($sm-579) {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
             }
         }
     }

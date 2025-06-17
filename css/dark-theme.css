@@ -1069,5 +1069,23 @@
     background-color: #202020; }
   .theme-dark .img-filter-dark {
     filter: grayscale(1) invert(1); }
+  .theme-dark .passcode-bridge .passcode-content-block {
+    background-color: #000;
+    border: 1px solid #181818; }
+  .theme-dark .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
+    background-color: #0D0D0D;
+    border-color: #484848;
+    color: #fff; }
+  .theme-dark .passcode-bridge .passcode-content-block h2 {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon {
+    background-color: #202020; }
+  .theme-dark .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data p {
+    color: #7B7B7B; }
+  .theme-dark .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data h5 {
+    color: #fff; }
+  .theme-dark .bridge-body-cover .tokn-liq-det-block .tokn-liq-card {
+    background-color: #0D0D0D;
+    border-color: #181818; }
 
 /*# sourceMappingURL=dark-theme.css.map */

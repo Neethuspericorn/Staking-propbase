@@ -58,7 +58,7 @@
       border: 1px solid #E3E4F3;
       border-radius: 14px;
       background-color: #f4f7fd;
-      padding: 20px; }
+      padding: 16px 20px; }
       @media (max-width: 360px) {
         .bridge-body-cover .bridge-banner-sec .tut-block {
           padding: 15px 10px; } }
@@ -74,6 +74,61 @@
           opacity: .8; }
         .bridge-body-cover .bridge-banner-sec .tut-block .tut-link img {
           margin-right: 10px; }
+  .bridge-body-cover .tokn-liq-det-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px; }
+    @media (max-width: 380px) {
+      .bridge-body-cover .tokn-liq-det-block {
+        flex-wrap: wrap; } }
+    .bridge-body-cover .tokn-liq-det-block .tokn-liq-card {
+      padding: 12px 15px;
+      border-radius: 8px;
+      width: calc(50% - 5px);
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f7fd;
+      border: 1px solid #E3E4F3; }
+      @media (max-width: 380px) {
+        .bridge-body-cover .tokn-liq-det-block .tokn-liq-card {
+          width: 100%;
+          margin-bottom: 15px; } }
+      .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block {
+        align-items: center; }
+        .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon {
+          background-color: #E3E4F3;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          flex-shrink: 0;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center; }
+          @media (max-width: 380px) {
+            .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon {
+              width: 35px;
+              height: 35px; } }
+          .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon img {
+            max-width: 18px; }
+            @media (max-width: 380px) {
+              .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon img {
+                max-width: 14px; } }
+        .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data {
+          padding-left: 10px; }
+          .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data h5 {
+            color: #2E4276;
+            margin: 0;
+            font-size: 12px;
+            font-weight: 500; }
+          .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data p {
+            color: #8393BA;
+            font-size: 12px;
+            font-weight: 300;
+            margin-bottom: 2px; }
+      .bridge-body-cover .tokn-liq-det-block .tokn-liq-card h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 15px; }
   .bridge-body-cover .data-connect-cover {
     margin-bottom: 50px; }
     .bridge-body-cover .data-connect-cover .connect-card-outer {
@@ -506,5 +561,116 @@
         filter: brightness(0) saturate(100%) invert(51%) sepia(78%) saturate(7453%) hue-rotate(221deg) brightness(105%) contrast(101%) !important; }
     .bridge-tab-cover .bridge-tab-block .bridge-tab-btn img {
       margin-right: 15px; }
+
+.passcode-bridge {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 25px; }
+  @media (max-width: 767px) {
+    .passcode-bridge {
+      min-height: auto; } }
+  @media (max-width: 420px) {
+    .passcode-bridge {
+      padding: 30px 10px; } }
+  .passcode-bridge .passcode-content-block {
+    width: 100%;
+    max-width: 600px;
+    padding: 80px 45px;
+    border-radius: 16px;
+    border: 1px solid #373737;
+    background: #010101;
+    border: 1px solid #E3E4F3;
+    background-color: #fff; }
+    @media (max-width: 1481px) {
+      .passcode-bridge .passcode-content-block {
+        max-width: 550px;
+        padding: 70px 40px; } }
+    @media (max-width: 1199px) {
+      .passcode-bridge .passcode-content-block {
+        max-width: 500px;
+        padding: 60px 40px; } }
+    @media (max-width: 767px) {
+      .passcode-bridge .passcode-content-block {
+        padding: 50px 40px; } }
+    @media (max-width: 420px) {
+      .passcode-bridge .passcode-content-block {
+        padding: 50px 25px; } }
+    .passcode-bridge .passcode-content-block h2 {
+      text-align: center;
+      font-size: 26px;
+      color: #2E4276;
+      font-weight: 400;
+      margin-bottom: 35px; }
+      @media (max-width: 1679px) {
+        .passcode-bridge .passcode-content-block h2 {
+          font-size: 24px; } }
+      @media (max-width: 1481px) {
+        .passcode-bridge .passcode-content-block h2 {
+          font-size: 22px; } }
+      @media (max-width: 579px) {
+        .passcode-bridge .passcode-content-block h2 {
+          font-size: 20px; } }
+      .passcode-bridge .passcode-content-block h2 span {
+        font-weight: 600; }
+    .passcode-bridge .passcode-content-block p {
+      text-align: center;
+      font-size: 13px;
+      color: #9FA0A3;
+      font-weight: 500;
+      margin-bottom: 0; }
+    .passcode-bridge .passcode-content-block .form-block {
+      width: 405px;
+      max-width: 100%;
+      margin: 0 auto; }
+      .passcode-bridge .passcode-content-block .form-block .alert-msg-cover .alert-msg {
+        left: 0; }
+      .passcode-bridge .passcode-content-block .form-block .inp-block {
+        margin-bottom: 15px; }
+        .passcode-bridge .passcode-content-block .form-block .inp-block .form-label {
+          color: #9FA0A3;
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 5px; }
+          @media (max-width: 579px) {
+            .passcode-bridge .passcode-content-block .form-block .inp-block .form-label {
+              font-size: 13px; } }
+        .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
+          padding: 5px 25px;
+          height: 50px;
+          font-size: 15px;
+          width: 100%;
+          border-radius: 8px;
+          border: 1px solid #E3E4F3;
+          background: #fff;
+          color: #2E4276; }
+          @media (max-width: 1679px) {
+            .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
+              height: 46px;
+              font-size: 14px; } }
+          @media (max-width: 1481px) {
+            .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
+              height: 44px; } }
+          @media (max-width: 1199px) {
+            .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
+              height: 42px; } }
+          .passcode-bridge .passcode-content-block .form-block .inp-block .form-control:-webkit-autofill {
+            -webkit-text-fill-color: #fff; }
+      .passcode-bridge .passcode-content-block .form-block .btn-block {
+        padding-top: 15px;
+        text-align: center; }
+        .passcode-bridge .passcode-content-block .form-block .btn-block .proceed-btn {
+          padding: 12px 15px;
+          width: 223px;
+          font-weight: 400;
+          text-decoration: none;
+          display: inline-block;
+          cursor: pointer; }
+          @media (max-width: 579px) {
+            .passcode-bridge .passcode-content-block .form-block .btn-block .proceed-btn {
+              width: 100%;
+              font-size: 14px; } }
 
 /*# sourceMappingURL=bridge.css.map */

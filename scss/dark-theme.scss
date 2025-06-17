@@ -1615,4 +1615,33 @@ $dark-block-2: #2B2C2E;
     .img-filter-dark{
         filter: grayscale(1) invert(1);
     }
+    .passcode-bridge .passcode-content-block{
+        background-color: #000;
+        border: 1px solid #181818;
+    }
+    .passcode-bridge .passcode-content-block .form-block .inp-block .form-control{
+        background-color: #0D0D0D;
+        border-color: #484848;
+        color: #fff;
+    }
+    .passcode-bridge .passcode-content-block h2{
+        color: #fff;
+    }
+    .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block {
+        .props-icon{
+            background-color: #202020;
+        }
+        .sm-data {
+            p{
+                color: #7B7B7B;
+            }
+            h5{
+                color: #fff;
+            }
+        }
+    }
+    .bridge-body-cover .tokn-liq-det-block .tokn-liq-card{
+        background-color: #0D0D0D;
+        border-color: #181818;
+    }
 }
