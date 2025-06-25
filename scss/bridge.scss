@@ -347,7 +347,9 @@
                                 font-size: 12px;
                                 font-weight: 500;
                                 outline: none;
+                                border-radius: 0 !important;
                                 option{
+                                    border-radius: 0;
                                     background-color: #fff;
                                 }
                             }
@@ -466,6 +468,20 @@
     .my-transaction-mob{
         @media (min-width: 991px) {
             display: none !important;
+        }
+        .title-search-box{
+            width: 100%;
+            margin-bottom: 20px;
+            .input-group{
+                padding-left: 10px;
+                padding-right: 10px;
+                height: 42px;
+                width: 100%;
+                max-width: 100%;
+                .form-control{
+                    font-size: 14px;
+                }
+            }
         }
     }
     .my-transaction-cover{

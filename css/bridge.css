@@ -307,8 +307,10 @@
                 color: #2E4276;
                 font-size: 12px;
                 font-weight: 500;
-                outline: none; }
+                outline: none;
+                border-radius: 0 !important; }
                 .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .select-block .connect-select option {
+                  border-radius: 0;
                   background-color: #fff; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-block {
           padding: 13px; }
@@ -397,6 +399,17 @@
   @media (min-width: 991px) {
     .bridge-body-cover .my-transaction-mob {
       display: none !important; } }
+  .bridge-body-cover .my-transaction-mob .title-search-box {
+    width: 100%;
+    margin-bottom: 20px; }
+    .bridge-body-cover .my-transaction-mob .title-search-box .input-group {
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 42px;
+      width: 100%;
+      max-width: 100%; }
+      .bridge-body-cover .my-transaction-mob .title-search-box .input-group .form-control {
+        font-size: 14px; }
   .bridge-body-cover .my-transaction-cover .my-transaction-title {
     color: #2E4276;
     font-size: 16px;
