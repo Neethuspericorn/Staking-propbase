@@ -133,6 +133,47 @@
     margin-bottom: 50px; }
     .bridge-body-cover .data-connect-cover .connect-card-outer {
       margin-bottom: 40px; }
+      .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block {
+        margin-bottom: 20px; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper {
+          display: flex;
+          border: 1px solid #E3E4F3;
+          border-radius: 8px;
+          align-items: stretch; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-inp-block {
+            flex-grow: 1; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-inp-block .id-inp {
+              padding: 10px 15px;
+              width: 100%;
+              max-width: 90%;
+              background-color: transparent;
+              border: none;
+              color: #2E4276; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-copy-btn {
+            background-color: #E3E4F3;
+            border: none;
+            border-left: solid 1px #E3E4F3;
+            padding: 5px;
+            width: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            border-radius: 0 8px 8px 0; }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .verify-det {
+          padding-top: 5px;
+          display: flex;
+          align-items: center; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .verify-det span {
+            display: inline-flex;
+            align-items: center;
+            font-size: 13px; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .verify-det span img {
+              margin-right: 8px; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .verify-det .verified {
+            color: #0DAD4D; }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .verify-det .invalid {
+            color: #FC5252; }
       .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block {
         display: flex;
         align-items: center;

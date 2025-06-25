@@ -1087,5 +1087,14 @@
   .theme-dark .bridge-body-cover .tokn-liq-det-block .tokn-liq-card {
     background-color: #0D0D0D;
     border-color: #181818; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-copy-btn img {
+    filter: grayscale(1) invert(1); }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper {
+    border: 1px solid #181818; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-copy-btn {
+    background-color: #0D0D0D;
+    border-left: solid 1px #181818; }
+  .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-inp-block .id-inp {
+    color: #fff; }
 
 /*# sourceMappingURL=dark-theme.css.map */

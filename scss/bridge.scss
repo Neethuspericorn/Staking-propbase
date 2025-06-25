@@ -143,6 +143,58 @@
     .data-connect-cover{
         margin-bottom: 50px;
         .connect-card-outer{
+            .id-add-block{
+                margin-bottom: 20px;
+                .id-add-wrapper{
+                    display: flex;
+                    border: 1px solid #E3E4F3;
+                    border-radius: 8px;
+                    align-items: stretch;
+                    .id-inp-block{
+                        flex-grow: 1;
+                        .id-inp{
+                            padding: 10px 15px;
+                            width: 100%;
+                            max-width: 90%;
+                            background-color: transparent;
+                            border: none;
+                            color: $text-primary-dark;
+                        }
+                    }
+                    .id-copy-btn{
+                        background-color: #E3E4F3;
+                        border: none;
+                        border-left: solid 1px #E3E4F3;
+                        padding: 5px;
+                        width: 50px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-shrink: 0;
+                        border-radius: 0 8px 8px 0;
+                    }
+                }
+                .verify-det{
+                    padding-top: 5px;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        display: inline-flex;
+                        align-items: center;
+                        font-size: 13px;
+                        img{
+                            margin-right: 8px;
+                        }
+                    }
+                    .verified{
+                        color: #0DAD4D;
+                    }
+                    .invalid{
+                        color: #FC5252;
+                    }
+                }
+            }
+
             margin-bottom: 40px;
             .connect-btn-block{
                 display: flex;
