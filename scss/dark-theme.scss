@@ -1604,7 +1604,10 @@ $dark-block-2: #2B2C2E;
         border-color: #282828;
     }
     .bridge-tab-cover .bridge-tab-block .bridge-tab-btn{
-        color: #707070;
+        color: #fff;
+        img{
+            filter: grayscale(1) invert(1) brightness(2);
+        }
     }
     .bridge-body-outer{
         background-color: transparent;
@@ -1617,7 +1620,7 @@ $dark-block-2: #2B2C2E;
     }
     .passcode-bridge .passcode-content-block{
         background-color: #000;
-        border: 1px solid #2c2c2c;
+        border: 1px solid #323232;
     }
     .passcode-bridge .passcode-content-block .form-block .inp-block .form-control{
         background-color: #0D0D0D;

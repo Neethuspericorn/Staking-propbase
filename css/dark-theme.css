@@ -1062,7 +1062,9 @@
   .theme-dark .bridge-tab-cover .bridge-tab-block {
     border-color: #282828; }
   .theme-dark .bridge-tab-cover .bridge-tab-block .bridge-tab-btn {
-    color: #707070; }
+    color: #fff; }
+    .theme-dark .bridge-tab-cover .bridge-tab-block .bridge-tab-btn img {
+      filter: grayscale(1) invert(1) brightness(2); }
   .theme-dark .bridge-body-outer {
     background-color: transparent; }
   .theme-dark .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon {
@@ -1071,7 +1073,7 @@
     filter: grayscale(1) invert(1); }
   .theme-dark .passcode-bridge .passcode-content-block {
     background-color: #000;
-    border: 1px solid #2c2c2c; }
+    border: 1px solid #323232; }
   .theme-dark .passcode-bridge .passcode-content-block .form-block .inp-block .form-control {
     background-color: #0D0D0D;
     border-color: #484848;
