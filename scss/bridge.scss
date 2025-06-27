@@ -632,6 +632,25 @@
     @media (max-width: 767px) {
         display: none !important;
     }
+    .table{
+        .acc-actn{
+            width: 40px;
+        }
+        .table-acc-btn{
+            background-color: transparent;
+            border: none;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 20px;
+                filter: brightness(5);
+            }
+        }
+    }
 }
 .my-transaction-table-cover{
     .trns-history-table{
@@ -865,6 +884,85 @@
                     @media ($sm-579) {
                         width: 100%;
                         font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.more-det-outer{
+    .status-title{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .more-det-row{
+        flex-wrap: wrap;
+        display: flex;
+        .more-det-col{
+            background-color: #0D0D0D;
+            border: 1px solid #181818;
+            border-radius: 8px;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            margin-right: 15px;
+            margin-left: 0;
+            min-height: 78px;
+            h5{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 600;
+                .status{
+                    padding-left: 10px;
+                    font-size: 13px;
+                    display: inline-block;
+                    color: #0DAD4D;
+                    font-weight: 400;
+                    margin-left: 5px;
+                    text-align: right;
+                    margin-left: auto;
+                    &.status-warning{
+                        color: $primary-blue;
+                    }
+                    &.status-dngr{
+                        color: #FC5252;
+                    }
+                }
+                .lbl-sm{
+                    display: inline-block;
+                    margin-left: 5px;
+                    font-size: 13px;
+                    font-weight: 400;
+
+                    color: #9f9f9f;
+                }
+            }
+            .id-data-col{
+                display: flex;
+                align-items: center;
+                .data-id{
+                    color: #fff;
+                    font-size: 13px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    max-width: 200px;
+                }
+                .more-sm-btn{
+                    background-color: #1A1A1B;
+                    border: none;
+                    margin-left: 8px;
+                    padding: 0;
+                    width: 30px;                
+                    height: 30px;
+                    border-radius: 5px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        filter: brightness(5);
                     }
                 }
             }
