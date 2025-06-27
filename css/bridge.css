@@ -32,9 +32,10 @@
     @media (max-width: 1199px) {
       .bridge-body-cover .bridge-data-outer {
         max-width: 530px; } }
-    @media (max-width: 767px) {
+    @media (max-width: 579px) {
       .bridge-body-cover .bridge-data-outer {
-        max-width: 480px; } }
+        padding-left: 10px;
+        padding-right: 10px; } }
   .bridge-body-cover .bridge-banner-sec {
     text-align: center;
     padding: 30px 0 50px; }
@@ -441,14 +442,15 @@
           transform: rotate(180deg); }
     .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover {
       margin: 10px 0;
-      border-top: 1px solid #222222;
+      border-top: 1px solid #E3E4F3;
       padding-top: 15px; }
       .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover h3 {
+        color: #2E4276;
         font-size: 14px;
         font-weight: 600; }
       .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col {
-        background-color: #161616;
-        border: 1px solid #222222;
+        background-color: #fff;
+        border: 1px solid #E3E4F3;
         border-radius: 8px;
         display: inline-block;
         padding: 10px 15px;
@@ -459,7 +461,8 @@
           display: flex;
           align-items: center;
           font-size: 15px;
-          font-weight: 600; }
+          font-weight: 600;
+          color: #2E4276; }
           .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col h5 .status {
             padding-left: 10px;
             font-size: 12px;
@@ -478,19 +481,20 @@
             margin-left: 5px;
             font-size: 13px;
             font-weight: 400;
-            color: #9f9f9f; }
+            color: #8393BA; }
         .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col {
           display: flex;
           align-items: center; }
           .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .data-id {
-            color: #fff;
-            font-size: 14px;
+            padding-right: 10px;
+            color: #2E4276;
+            font-size: 13px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             max-width: 200px; }
           .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn {
-            background-color: #292929;
+            background-color: #e3e4f3;
             border: none;
             margin-left: 8px;
             padding: 0;
@@ -501,8 +505,7 @@
             align-items: center;
             justify-content: center; }
             .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn img {
-              max-width: 14px;
-              filter: brightness(5); }
+              max-width: 14px; }
     .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block {
       margin-bottom: 15px;
       border-radius: 13px;
@@ -618,8 +621,7 @@
     align-items: center;
     justify-content: center; }
     .my-transaction-web .table .table-acc-btn img {
-      width: 20px;
-      filter: brightness(5); }
+      width: 20px; }
 
 .my-transaction-table-cover .trns-history-table td.sts-td .sts-ind {
   display: inline-block;
@@ -822,14 +824,15 @@
               font-size: 14px; } }
 
 .more-det-outer .status-title {
+  color: #2E4276;
   font-size: 14px;
   font-weight: 700; }
 .more-det-outer .more-det-row {
   flex-wrap: wrap;
   display: flex; }
   .more-det-outer .more-det-row .more-det-col {
-    background-color: #0D0D0D;
-    border: 1px solid #181818;
+    background-color: #fff;
+    border: 1px solid #E3E4F3;
     border-radius: 8px;
     display: inline-block;
     padding: 10px 20px;
@@ -841,7 +844,8 @@
       display: flex;
       align-items: center;
       font-size: 15px;
-      font-weight: 600; }
+      font-weight: 600;
+      color: #2E4276; }
       .more-det-outer .more-det-row .more-det-col h5 .status {
         padding-left: 10px;
         font-size: 13px;
@@ -860,19 +864,19 @@
         margin-left: 5px;
         font-size: 13px;
         font-weight: 400;
-        color: #9f9f9f; }
+        color: #8393BA; }
     .more-det-outer .more-det-row .more-det-col .id-data-col {
       display: flex;
       align-items: center; }
       .more-det-outer .more-det-row .more-det-col .id-data-col .data-id {
-        color: #fff;
+        color: #2E4276;
         font-size: 13px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         max-width: 200px; }
       .more-det-outer .more-det-row .more-det-col .id-data-col .more-sm-btn {
-        background-color: #1A1A1B;
+        background-color: #e3e4f3;
         border: none;
         margin-left: 8px;
         padding: 0;
@@ -882,7 +886,5 @@
         display: inline-flex;
         align-items: center;
         justify-content: center; }
-        .more-det-outer .more-det-row .more-det-col .id-data-col .more-sm-btn img {
-          filter: brightness(5); }
 
 /*# sourceMappingURL=bridge.css.map */

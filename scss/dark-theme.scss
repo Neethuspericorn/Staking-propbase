@@ -1660,4 +1660,38 @@ $dark-block-2: #2B2C2E;
     .bridge-body-cover .data-connect-cover .connect-card-outer .id-add-block .id-add-wrapper .id-inp-block .id-inp{
         color: #fff;
     }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover h3{
+        color: #fff;
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover {
+        border-color: #222222;
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col, 
+    .more-det-outer .more-det-row .more-det-col{
+        background-color: #161616;
+        border: 1px solid #222222;
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col h5, 
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .data-id, 
+    .more-det-outer .more-det-row .more-det-col h5, .more-det-outer .more-det-row .more-det-col .id-data-col .data-id, 
+    .more-det-outer .status-title{
+        color: #fff;
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col h5 .lbl-sm, 
+    .more-det-outer .more-det-row .more-det-col h5 .lbl-sm{
+        color: #9f9f9f;
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn, 
+    .more-det-outer .more-det-row .more-det-col .id-data-col .more-sm-btn{
+        background-color: #292929;
+        img{
+            filter: brightness(5);
+        }
+    }
+    .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover {
+        border-color: #222222;
+    }
+    .my-transaction-web .table .table-acc-btn img {
+        filter: brightness(5);
+    }
 }
