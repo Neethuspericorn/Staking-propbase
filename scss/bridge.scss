@@ -501,6 +501,106 @@
             border-radius: 14px;
             background-color: #f4f7fd;
             padding: 22px 22px 15px;
+            .show-more-btn-block{
+                text-align: center;
+                .show-more-btn-mob{
+                    display: inline-flex;
+                    align-items: center;
+                    padding: 3px 5px;
+                    background-color: transparent;
+                    border: none;
+                    font-size: 13px;
+                    color: $primary-blue;
+                    img{
+                        width: 14px;
+                        margin-left: 5px;
+                        transition: .3s;
+                    }
+                    &.hide{
+                        img{
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+            .more-card-data-cover{
+                margin: 10px 0;
+                border-top: 1px solid #222222;
+                padding-top: 15px;
+                h3{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                .more-det-col{
+                    background-color: #161616;
+                    border: 1px solid #222222;
+                    border-radius: 8px;
+                    display: inline-block;
+                    padding: 10px 15px;
+                    margin-left: 0;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    h5{
+                        display: flex;
+                        align-items: center;
+                        font-size: 15px;
+                        font-weight: 600;
+                        .status{
+                            padding-left: 10px;
+                            font-size: 12px;
+                            display: inline-block;
+                            color: #0DAD4D;
+                            font-weight: 400;
+                            margin-left: 5px;
+                            text-align: right;
+                            margin-left: auto;
+                            &.status-warning{
+                                color: $primary-blue;
+                            }
+                            &.status-dngr{
+                                color: #FC5252;
+                            }
+                        }
+                        .lbl-sm{
+                            display: inline-block;
+                            margin-left: 5px;
+                            font-size: 13px;
+                            font-weight: 400;
+
+                            color: #9f9f9f;
+                        }
+                    }
+                    .id-data-col{
+                        display: flex;
+                        align-items: center;
+                        .data-id{
+                            color: #fff;
+                            font-size: 14px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            max-width: 200px;
+                        }
+                        .more-sm-btn{
+                            background-color: #292929;
+                            border: none;
+                            margin-left: 8px;
+                            padding: 0;
+                            width: 30px;                
+                            height: 30px;
+                            border-radius: 5px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                                max-width: 14px;
+                                filter: brightness(5);
+                            }
+                        }
+                    }
+                }
+            }
+
             .status-block{
                 margin-bottom: 15px;
                 border-radius: 13px;
