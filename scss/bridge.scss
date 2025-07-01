@@ -758,6 +758,7 @@
     .trns-history-table{
         td{
             &.sts-td{
+                white-space: nowrap;
                 .sts-ind{
                     display: inline-block;
                     width: 8px;

@@ -623,13 +623,15 @@
     .my-transaction-web .table .table-acc-btn img {
       width: 20px; }
 
-.my-transaction-table-cover .trns-history-table td.sts-td .sts-ind {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  margin-right: 6px;
-  background-color: #fff; }
+.my-transaction-table-cover .trns-history-table td.sts-td {
+  white-space: nowrap; }
+  .my-transaction-table-cover .trns-history-table td.sts-td .sts-ind {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #fff; }
 .my-transaction-table-cover .trns-history-table td.sts-delivered {
   color: #0DAD4D !important; }
   .my-transaction-table-cover .trns-history-table td.sts-delivered .sts-ind {
