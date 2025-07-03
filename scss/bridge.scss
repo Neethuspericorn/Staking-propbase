@@ -30,6 +30,34 @@
             padding-right: 10px;
         }
     }
+    .tut-info-block{
+        display: flex;
+        border: 1px solid #DFD04C;
+        background-color: #FFF27E;
+        border-radius: 14px;
+        padding: 15px;
+        .info-i{
+            display: inline-block;
+            margin-right: 5px;
+            margin-top: -2px;
+            img{
+                filter: brightness(0) saturate(100%) invert(15%) sepia(42%) saturate(600%) hue-rotate(7deg) brightness(93%) contrast(97%);
+            }
+            @media ($sm-579) {
+                img{
+                    width: 14px;
+                }
+            }
+        }
+        .info-data{
+            text-align: left;
+            font-size: 13px;
+            color: #70650C;
+            @media ($sm-579) {
+                font-size: 12px;
+            }
+        }
+    }
     .bridge-banner-sec{
         text-align: center;
         padding: 30px 0 50px;
@@ -94,6 +122,7 @@
             @media (max-width: 380px) {
                 width: 100%;
                 margin-bottom: 15px;
+                align-items: unset;
             }
             .icon-block{
                 align-items: center;
@@ -113,7 +142,7 @@
                     img{
                         max-width: 18px;
                         @media (max-width: 380px) {
-                            max-width: 14px;
+                            max-width: 20px;
                         }
                     }
                 }
@@ -237,6 +266,9 @@
                     outline: none;
                     background-color: transparent;
                     padding: 2px;
+                    @media (max-width: 380px) {
+                        font-size: 14px;
+                    }
                     &:hover{
                         opacity: .8;
                     }
@@ -361,7 +393,24 @@
                     padding: 13px;
                 }
                 .coin-wrapper{
+                    @media (max-width: 370px) {
+                        flex-wrap: wrap;
+                    }
                     .props-val{
+                        flex-grow: 1;
+                        max-width: calc(100% - 70px);
+                        @media (max-width: 370px) {
+                            width: 100%;
+                            max-width: 100%;
+                            display: flex;
+                        }
+                        .props-inp-block{
+                            @media (max-width: 370px) {
+                                width: 100%;
+                                flex-grow: 1;
+                                max-width: calc(100% - 50px);
+                            }
+                        }
                         .props-inp{
                             color: #4B4B4B;
                             border: none;
@@ -374,6 +423,18 @@
                             font-weight: 500;
                             background-color: transparent;
                             margin-bottom: 10px;
+                            @media ($sm-479) {
+                                font-size: 15px;
+                            }
+                            @media (max-width: 370px) {
+                                font-size: 14px;
+                            }
+                        }
+                        .max-btn-block{
+                            @media (max-width: 370px) {
+                                flex-shrink: 0;
+                                margin-left: auto;
+                            }
                         }
                         .max-btn{
                             background-color: #dbe2f6;
@@ -397,6 +458,12 @@
                         flex-shrink: 0;
                         margin-left: auto;
                         padding-left: 15px;
+                        @media (max-width: 370px) {
+                            text-align: left;
+                            width: 100%;
+                            padding-left: 0;
+                            padding-top: 10px;
+                        }
                         p{
                             color: $text-primary-light;
                             font-size: 13px;
@@ -671,6 +738,7 @@
                             width: 19px;
                             height: 19px;
                             border-radius: 5px;
+                            margin-right: 8px;
                             img{
                                 max-height: 95%;
                                 max-width: 100%;
@@ -678,7 +746,7 @@
                         }
                         .trx-id{
                             color: $text-primary-dark;
-                            padding: 0 8px;
+                            padding-right: 8px;
                             font-size: 14px;
                             max-width: 115px;
                             white-space: nowrap;

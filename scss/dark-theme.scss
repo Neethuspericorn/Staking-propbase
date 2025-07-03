@@ -1694,4 +1694,16 @@ $dark-block-2: #2B2C2E;
     .my-transaction-web .table .table-acc-btn img {
         filter: brightness(5);
     }
+    .bridge-body-cover .tut-info-block{
+        background-color: #353113;
+        border-color: #60591C;
+        .info-i{
+            img{
+                filter: brightness(0) saturate(100%) invert(92%) sepia(87%) saturate(6698%) hue-rotate(313deg) brightness(105%) contrast(97%);
+            }
+        }
+        .info-data{
+            color: #FFEE57;
+        }
+    }
 }

@@ -36,6 +36,28 @@
       .bridge-body-cover .bridge-data-outer {
         padding-left: 10px;
         padding-right: 10px; } }
+  .bridge-body-cover .tut-info-block {
+    display: flex;
+    border: 1px solid #DFD04C;
+    background-color: #FFF27E;
+    border-radius: 14px;
+    padding: 15px; }
+    .bridge-body-cover .tut-info-block .info-i {
+      display: inline-block;
+      margin-right: 5px;
+      margin-top: -2px; }
+      .bridge-body-cover .tut-info-block .info-i img {
+        filter: brightness(0) saturate(100%) invert(15%) sepia(42%) saturate(600%) hue-rotate(7deg) brightness(93%) contrast(97%); }
+      @media (max-width: 579px) {
+        .bridge-body-cover .tut-info-block .info-i img {
+          width: 14px; } }
+    .bridge-body-cover .tut-info-block .info-data {
+      text-align: left;
+      font-size: 13px;
+      color: #70650C; }
+      @media (max-width: 579px) {
+        .bridge-body-cover .tut-info-block .info-data {
+          font-size: 12px; } }
   .bridge-body-cover .bridge-banner-sec {
     text-align: center;
     padding: 30px 0 50px; }
@@ -93,7 +115,8 @@
       @media (max-width: 380px) {
         .bridge-body-cover .tokn-liq-det-block .tokn-liq-card {
           width: 100%;
-          margin-bottom: 15px; } }
+          margin-bottom: 15px;
+          align-items: unset; } }
       .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block {
         align-items: center; }
         .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon {
@@ -113,7 +136,7 @@
             max-width: 18px; }
             @media (max-width: 380px) {
               .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .props-icon img {
-                max-width: 14px; } }
+                max-width: 20px; } }
         .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data {
           padding-left: 10px; }
           .bridge-body-cover .tokn-liq-det-block .tokn-liq-card .icon-block .sm-data h5 {
@@ -212,6 +235,9 @@
           outline: none;
           background-color: transparent;
           padding: 2px; }
+          @media (max-width: 380px) {
+            .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connect-btn {
+              font-size: 14px; } }
           .bridge-body-cover .data-connect-cover .connect-card-outer .connect-btn-block .connect-btn:hover {
             opacity: .8; }
       .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card {
@@ -315,36 +341,68 @@
                   background-color: #fff; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-block {
           padding: 13px; }
-        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
-          color: #4B4B4B;
-          border: none;
-          box-shadow: none;
-          outline: none;
-          max-width: 95%;
-          padding: 0;
-          font-size: 16px;
-          font-weight: 500;
-          background-color: transparent;
-          margin-bottom: 10px; }
-        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn {
-          background-color: #dbe2f6;
-          color: #2E4276;
-          display: inline-block;
-          border-radius: 5px;
-          padding: 5px 8px;
-          color: #2E4276;
-          font-size: 13px;
-          border: none;
-          box-shadow: none;
-          outline: none; }
-          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn.active {
-            background-color: #2966FF !important;
-            color: #fff !important; }
+        @media (max-width: 370px) {
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper {
+            flex-wrap: wrap; } }
+        .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val {
+          flex-grow: 1;
+          max-width: calc(100% - 70px); }
+          @media (max-width: 370px) {
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val {
+              width: 100%;
+              max-width: 100%;
+              display: flex; } }
+          @media (max-width: 370px) {
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp-block {
+              width: 100%;
+              flex-grow: 1;
+              max-width: calc(100% - 50px); } }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
+            color: #4B4B4B;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            max-width: 95%;
+            padding: 0;
+            font-size: 16px;
+            font-weight: 500;
+            background-color: transparent;
+            margin-bottom: 10px; }
+            @media (max-width: 479px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
+                font-size: 15px; } }
+            @media (max-width: 370px) {
+              .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .props-inp {
+                font-size: 14px; } }
+          @media (max-width: 370px) {
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn-block {
+              flex-shrink: 0;
+              margin-left: auto; } }
+          .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn {
+            background-color: #dbe2f6;
+            color: #2E4276;
+            display: inline-block;
+            border-radius: 5px;
+            padding: 5px 8px;
+            color: #2E4276;
+            font-size: 13px;
+            border: none;
+            box-shadow: none;
+            outline: none; }
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .props-val .max-btn.active {
+              background-color: #2966FF !important;
+              color: #fff !important; }
         .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val {
           text-align: right;
           flex-shrink: 0;
           margin-left: auto;
           padding-left: 15px; }
+          @media (max-width: 370px) {
+            .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val {
+              text-align: left;
+              width: 100%;
+              padding-left: 0;
+              padding-top: 10px; } }
           .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .coin-wrapper .bal-val p {
             color: #8393BA;
             font-size: 13px;
@@ -563,13 +621,14 @@
             background-color: #E3E4F3;
             width: 19px;
             height: 19px;
-            border-radius: 5px; }
+            border-radius: 5px;
+            margin-right: 8px; }
             .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-icon img {
               max-height: 95%;
               max-width: 100%; }
           .bridge-body-cover .my-transaction-cover .my-transaction-card .trnx-data-wrapper .trnx-data-col .trnx-data .trx-id {
             color: #2E4276;
-            padding: 0 8px;
+            padding-right: 8px;
             font-size: 14px;
             max-width: 115px;
             white-space: nowrap;

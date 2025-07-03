@@ -1124,5 +1124,12 @@
     border-color: #222222; }
   .theme-dark .my-transaction-web .table .table-acc-btn img {
     filter: brightness(5); }
+  .theme-dark .bridge-body-cover .tut-info-block {
+    background-color: #353113;
+    border-color: #60591C; }
+    .theme-dark .bridge-body-cover .tut-info-block .info-i img {
+      filter: brightness(0) saturate(100%) invert(92%) sepia(87%) saturate(6698%) hue-rotate(313deg) brightness(105%) contrast(97%); }
+    .theme-dark .bridge-body-cover .tut-info-block .info-data {
+      color: #FFEE57; }
 
 /*# sourceMappingURL=dark-theme.css.map */
