@@ -317,7 +317,7 @@
                   max-width: 25px; }
                   @media (max-width: 380px) {
                     .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .props-icon img {
-                      max-width: 16px; } }
+                      max-width: 22px; } }
               .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block .right-block-inner .sm-data {
                 padding-left: 10px; }
             .bridge-body-cover .data-connect-cover .connect-card-outer .data-connect-card .data-title-block .right-block p {
@@ -562,8 +562,15 @@
             display: inline-flex;
             align-items: center;
             justify-content: center; }
+            @media (max-width: 479px) {
+              .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn {
+                width: 25px;
+                height: 27px; } }
             .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn img {
               max-width: 14px; }
+              @media (max-width: 479px) {
+                .bridge-body-cover .my-transaction-cover .my-transaction-card .more-card-data-cover .more-det-col .id-data-col .more-sm-btn img {
+                  max-width: 12px; } }
     .bridge-body-cover .my-transaction-cover .my-transaction-card .status-block {
       margin-bottom: 15px;
       border-radius: 13px;

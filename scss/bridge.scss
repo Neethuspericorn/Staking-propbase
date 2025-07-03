@@ -356,7 +356,7 @@
                                 img{
                                     max-width: 25px;
                                     @media (max-width: 380px) {
-                                        max-width: 16px;
+                                        max-width: 22px;
                                     }
                                 }
                             }
@@ -663,8 +663,15 @@
                             display: inline-flex;
                             align-items: center;
                             justify-content: center;
+                            @media ($sm-479) {
+                                width: 25px;                
+                                height: 27px;
+                            }
                             img{
                                 max-width: 14px;
+                                @media ($sm-479) {
+                                    max-width: 12px;
+                                }
                             }
                         }
                     }
