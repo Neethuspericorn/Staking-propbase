@@ -97,6 +97,21 @@
           opacity: .8; }
         .bridge-body-cover .bridge-banner-sec .tut-block .tut-link img {
           margin-right: 10px; }
+      .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 {
+        display: flex; }
+        .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data {
+          padding-left: 15px; }
+          .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data p {
+            text-align: left;
+            max-width: 100%;
+            margin: 0;
+            color: #2E4276; }
+            @media (max-width: 579px) {
+              .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data p {
+                font-size: 12px; } }
+            .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data p span {
+              font-weight: 700;
+              color: #2966FF; }
   .bridge-body-cover .tokn-liq-det-block {
     display: flex;
     justify-content: space-between;

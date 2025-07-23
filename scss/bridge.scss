@@ -102,6 +102,25 @@
                     margin-right: 10px;
                 }
             }
+            &.bridge-info-1{
+                display: flex;
+                .info-data{
+                    padding-left: 15px;
+                    p{
+                        text-align: left;
+                        max-width: 100%;
+                        margin: 0;
+                        color: $text-primary-dark;
+                        @media ($sm-579) {
+                            font-size: 12px;
+                        }
+                        span{
+                            font-weight: 700;
+                            color: $primary-blue;
+                        }
+                    }
+                }
+            }
         }
     }
     .tokn-liq-det-block{
