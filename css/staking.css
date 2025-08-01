@@ -1201,11 +1201,19 @@
       width: calc(50% - 5px);
       display: block;
       text-align: center; }
+      @media (max-width: 479px) {
+        .staking-card-block .card-btm-sec .stake-btn {
+          width: 100%;
+          border-radius: 8px !important;
+          padding: 15px !important; } }
       .staking-card-block .card-btm-sec .stake-btn.not-allowed {
         opacity: .5; }
       .staking-card-block .card-btm-sec .stake-btn.btn-border {
         color: #2966FF;
         border: 1px solid #2966FF !important; }
+        @media (max-width: 479px) {
+          .staking-card-block .card-btm-sec .stake-btn.btn-border {
+            margin-top: 10px; } }
 
 @media (max-width: 1679px) {
   .staking-card-block .progress-sm-sec h5 {
@@ -1443,10 +1451,7 @@
 
   .staking-card-block .table-block-cover .table-card .info {
     right: 7px;
-    top: 6px; }
-
-  .staking-card-block .card-btm-sec .stake-btn {
-    width: calc(50% - 3px); } }
+    top: 6px; } }
 .filter-wrapper .block-left {
   max-width: 100%; }
 

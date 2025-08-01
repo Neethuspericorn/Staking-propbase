@@ -1585,12 +1585,20 @@
             width: calc(50% - 5px);
             display: block;
             text-align: center;
+            @media ($sm-479) {
+                width: 100%;
+                border-radius: 8px !important;
+                padding: 15px !important;
+            }
             &.not-allowed{
                 opacity: .5;
             }
             &.btn-border{
                 color: $primary-blue;
                 border: 1px solid $primary-blue !important;
+                @media ($sm-479) {
+                    margin-top: 10px;
+                }
             }
         }
     }
@@ -1859,10 +1867,7 @@
         right: 7px;
         top: 6px;
     }
-    .staking-card-block .card-btm-sec .stake-btn {
-        width: calc(50% - 3px);
 
-    }
 }
 
 .filter-wrapper{

@@ -132,6 +132,9 @@
   .card-sec .h-card-block p {
     font-size: 13px; } }
 @media (max-width: 479px) {
+  .card-sec .h-card-block .join-btn {
+    padding: 15px; }
+
   .welcome-cover .content-block {
     flex-wrap: wrap;
     flex-direction: column; }

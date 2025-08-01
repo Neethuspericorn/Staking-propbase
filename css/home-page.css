@@ -169,6 +169,10 @@
         display: inline-block;
         text-decoration: none;
         border-radius: 28px; }
+        @media (max-width: 479px) {
+          .home-banner-sec .home-banner-cover .btn-block .banner-btn {
+            padding: 15px;
+            border-radius: 8px; } }
         .home-banner-sec .home-banner-cover .btn-block .banner-btn:hover {
           opacity: .8; }
 
@@ -1496,7 +1500,14 @@
       text-align: left;
       background-color: #2966FF;
       padding: 15px 100px;
-      transition: .3s; }
+      transition: .3s;
+      display: inline-block; }
+      @media (max-width: 479px) {
+        .campaign .two-col .join-us a {
+          width: 100%;
+          text-align: center;
+          padding: 15px;
+          border-radius: 8px; } }
       .campaign .two-col .join-us a:hover {
         opacity: .8; }
     .campaign .two-col .right-sec {
@@ -2608,6 +2619,12 @@ section.utility-section {
         @media (max-width: 1679px) {
           section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
             font-size: 15px; } }
+        @media (max-width: 479px) {
+          section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
+            padding: 15px;
+            border-radius: 8px;
+            width: 100%;
+            height: auto; } }
 
 section.buy-props {
   margin-top: 115px; }

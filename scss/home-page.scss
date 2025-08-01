@@ -180,6 +180,10 @@
                 display: inline-block;
                 text-decoration: none;
                 border-radius: 28px;
+                @media ($sm-479) {
+                    padding: 15px;
+                    border-radius: 8px;
+                }
                 &:hover{
                     opacity: .8;
                 }
@@ -1719,6 +1723,13 @@
                 background-color:$primary-blue;
                 padding: 15px 100px;
                 transition: .3s;
+                display: inline-block;
+                @media ($sm-479) {
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px;
+                    border-radius: 8px;
+                }
                 &:hover{
                     opacity: .8;
                 }
@@ -3370,6 +3381,12 @@ section.utility-section
                 @media($sm-1679)
                 {
                     font-size: 15px;
+                }
+                @media ($sm-479) {
+                    padding: 15px;
+                    border-radius: 8px;
+                    width: 100%;
+                    height: auto;
                 }
             }
         }

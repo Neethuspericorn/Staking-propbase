@@ -797,6 +797,11 @@ button.close-modal {
         font-size: 15px;
     }
 }
+@media ($sm-479) {
+    .passcode-body-cover .passcode-content-block .form-block .btn-block .proceed-btn{
+        width: 100%;
+    }
+}
 .fa2-block{
     .verify-block {
         text-align: center;

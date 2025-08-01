@@ -593,6 +593,9 @@ button.close-modal {
   .passcode-body-cover .passcode-content-block .form-block .inp-block .form-control {
     height: 42px;
     font-size: 15px; } }
+@media (max-width: 479px) {
+  .passcode-body-cover .passcode-content-block .form-block .btn-block .proceed-btn {
+    width: 100%; } }
 .fa2-block .verify-block {
   text-align: center; }
   .fa2-block .verify-block h4 {
