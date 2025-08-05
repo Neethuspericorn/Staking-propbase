@@ -2607,7 +2607,7 @@ section.utility-section {
       margin-top: 32px; }
       section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
         color: #fff;
-        border-radius: 28px;
+        border-radius: 8px;
         background: #2966FF;
         min-width: 300px;
         height: 48px;

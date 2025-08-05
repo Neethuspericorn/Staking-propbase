@@ -146,7 +146,8 @@
             margin-left: 12px;
             .notify-btn{
                 border: none;
-                border-radius: 20px;
+                // border-radius: 20px;
+                border-radius: 8px;
                 padding: 6px 10px;
                 width: 60px;
                 text-align: center;
@@ -293,7 +294,8 @@
                 width: 185px;
                 max-height: 40px;
                 padding: 9px 18px 9px 13px;
-                border-radius: 20px;
+                // border-radius: 20px;
+                border-radius: 8px;
                 background: #E8EFFF;
                 border: none;
                 display: flex;
@@ -358,7 +360,8 @@
                 width: 160px;
                 max-height: 40px;
                 padding: 9px 18px 9px 13px;
-                border-radius: 20px;
+                // border-radius: 20px;
+                border-radius: 8px;
                 // background: $primary-light;
                 // color: $input-text-color;
                 border: solid 1px $primary-blue;
@@ -506,7 +509,8 @@
         }
     }
     .wallet-btn{
-        border-radius: 20px;
+        // border-radius: 20px;
+        border-radius: 8px;
         // color: $primary-light;
         // background: $primary-blue;
         background-color: #fff;
