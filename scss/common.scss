@@ -54,7 +54,7 @@ ul,ol{
 
 .primary-btn{
     background-color: $primary-blue;
-    border-radius: 34px;
+    border-radius: 8px;
     color: $primary-light;
     font-weight: 500;
     padding: 10px 15px;
@@ -70,7 +70,8 @@ ul,ol{
 }
 .btn-border{
     background-color: $primary-light;
-    border-radius: 34px;
+    // 
+    border-radius: 8px;
     color: $primary-dark;
     font-weight: 500;
     padding: 10px 15px;
@@ -83,7 +84,8 @@ ul,ol{
 .btn-def{
     text-decoration: none;
     display: inline-block;
-    border-radius: 34px;
+    // border-radius: 34px;
+    border-radius: 8px;
     color: $primary-dark;
     font-weight: 500;
     padding: 10px 15px;
@@ -395,7 +397,8 @@ button{
         z-index: 1;
     }
     .input-group{
-        border-radius: 20px;
+        // border-radius: 20px;
+        border-radius: 8px;
         border: 1px solid #E3E4F3;
         background: #FFF;
         height: 40px;
@@ -587,7 +590,8 @@ button{
         height: 40px;
         font-size: 14px;
         padding: 8px 25px;
-        border-radius: 20px;
+        // border-radius: 20px;
+        border-radius: 8px;
         border: 1px solid #E3E4F3 !important;
         background: #FFF !important;
         color: $text-primary-light;
@@ -671,7 +675,8 @@ button{
                 min-width: 124px;
                 padding: 8px 15px;
                 text-align: center;
-                border-radius: 20px;
+                // border-radius: 20px;
+                border-radius: 8px;
                 transition: .3s;
                 &:hover{
                     opacity: .8;

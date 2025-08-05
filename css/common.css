@@ -53,7 +53,7 @@ ul, ol {
 
 .primary-btn {
   background-color: #2966FF;
-  border-radius: 34px;
+  border-radius: 8px;
   color: #fff;
   font-weight: 500;
   padding: 10px 15px;
@@ -68,7 +68,7 @@ ul, ol {
 
 .btn-border {
   background-color: #fff;
-  border-radius: 34px;
+  border-radius: 8px;
   color: #2E4276;
   font-weight: 500;
   padding: 10px 15px;
@@ -80,7 +80,7 @@ ul, ol {
 .btn-def {
   text-decoration: none;
   display: inline-block;
-  border-radius: 34px;
+  border-radius: 8px;
   color: #2E4276;
   font-weight: 500;
   padding: 10px 15px;
@@ -332,7 +332,7 @@ button {
 .title-search-box .btn {
   z-index: 1; }
 .title-search-box .input-group {
-  border-radius: 20px;
+  border-radius: 8px;
   border: 1px solid #E3E4F3;
   background: #FFF;
   height: 40px;
@@ -481,7 +481,7 @@ button {
   height: 40px;
   font-size: 14px;
   padding: 8px 25px;
-  border-radius: 20px;
+  border-radius: 8px;
   border: 1px solid #E3E4F3 !important;
   background: #FFF !important;
   color: #8393BA;
@@ -549,7 +549,7 @@ button {
       min-width: 124px;
       padding: 8px 15px;
       text-align: center;
-      border-radius: 20px;
+      border-radius: 8px;
       transition: .3s; }
       .filter-dropdown-menu .filter-form-content .btn-block .btn:hover {
         opacity: .8; }

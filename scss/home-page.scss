@@ -179,7 +179,7 @@
                 background-color: $primary-blue;
                 display: inline-block;
                 text-decoration: none;
-                border-radius: 28px;
+                border-radius: 8px;
                 @media ($sm-479) {
                     padding: 15px;
                     border-radius: 8px;
@@ -1713,7 +1713,7 @@
         .join-us{
             a{
                 text-decoration: none;
-                border-radius: 28px;
+                border-radius: 8px;
                 color: #fff;
                 font-size: 16px;
                 font-weight: 700;

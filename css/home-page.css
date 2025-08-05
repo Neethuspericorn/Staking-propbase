@@ -168,7 +168,7 @@
         background-color: #2966FF;
         display: inline-block;
         text-decoration: none;
-        border-radius: 28px; }
+        border-radius: 8px; }
         @media (max-width: 479px) {
           .home-banner-sec .home-banner-cover .btn-block .banner-btn {
             padding: 15px;
@@ -1491,7 +1491,7 @@
         text-align: left; }
     .campaign .two-col .join-us a {
       text-decoration: none;
-      border-radius: 28px;
+      border-radius: 8px;
       color: #fff;
       font-size: 16px;
       font-weight: 700;
