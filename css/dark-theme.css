@@ -1133,5 +1133,21 @@
       color: #FFEE57; }
   .theme-dark .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data p {
     color: #7B7B7B; }
+  .theme-dark .my-transaction-table-cover .sec-title-block .block-right .id-block-sm {
+    border-color: #4E4E4E; }
+    .theme-dark .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .icon-sm {
+      background-color: #161616; }
+    .theme-dark .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .trns-id {
+      color: #fff; }
+    .theme-dark .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .id-copy-btn img {
+      filter: brightness(5); }
+  .theme-dark .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm {
+    border-color: #4E4E4E; }
+    .theme-dark .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .icon-sm {
+      background-color: #161616; }
+    .theme-dark .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .trns-id {
+      color: #fff; }
+    .theme-dark .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .id-copy-btn img {
+      filter: brightness(5); }
 
 /*# sourceMappingURL=dark-theme.css.map */

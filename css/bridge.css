@@ -485,6 +485,56 @@
       max-width: 100%; }
       .bridge-body-cover .my-transaction-mob .title-search-box .input-group .form-control {
         font-size: 14px; }
+  .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px; }
+    @media (max-width: 370px) {
+      .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper {
+        flex-direction: column;
+        margin-bottom: 10px; } }
+    .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm {
+      display: flex;
+      align-items: center;
+      border-radius: 8px;
+      border: 1px solid #E3E4F3;
+      height: 42px;
+      padding: 5px;
+      width: 50%; }
+      @media (max-width: 370px) {
+        .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm {
+          width: 100%; } }
+      .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .icon-sm {
+        width: 32px;
+        height: 100%;
+        background-color: #e3e4f3;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px; }
+        .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .icon-sm img {
+          max-width: 25px;
+          max-height: 80%; }
+          @media (max-width: 1679px) {
+            .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .icon-sm img {
+              max-height: 20px; } }
+      .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .trns-id {
+        font-size: 14px;
+        margin: 0 15px;
+        color: #2E4276; }
+        @media (max-width: 1679px) {
+          .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .trns-id {
+            font-size: 13px; } }
+      .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .id-copy-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        width: 25px;
+        margin-left: auto; }
+        .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper .id-block-sm .id-copy-btn img {
+          max-width: 12px; }
   .bridge-body-cover .my-transaction-cover .my-transaction-title {
     color: #2E4276;
     font-size: 16px;
@@ -705,6 +755,56 @@
     .my-transaction-web .table .table-acc-btn img {
       width: 20px; }
 
+.my-transaction-table-cover .sec-title-block .block-right .id-block-sm {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #E3E4F3;
+  height: 40px;
+  padding: 5px; }
+  @media (max-width: 1679px) {
+    .my-transaction-table-cover .sec-title-block .block-right .id-block-sm {
+      height: 38px; } }
+  .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .icon-sm {
+    width: 32px;
+    height: 100%;
+    background-color: #e3e4f3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; }
+    .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .icon-sm img {
+      max-width: 25px;
+      max-height: 80%; }
+      @media (max-width: 1679px) {
+        .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .icon-sm img {
+          max-height: 20px; } }
+  .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .trns-id {
+    font-size: 14px;
+    margin: 0 8px;
+    color: #2E4276; }
+    @media (max-width: 1679px) {
+      .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .trns-id {
+        font-size: 13px; } }
+  .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .id-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    width: 25px; }
+    .my-transaction-table-cover .sec-title-block .block-right .id-block-sm .id-copy-btn img {
+      max-width: 12px; }
+@media (max-width: 1199px) {
+  .my-transaction-table-cover .sec-title-block .block-right .title-search-box .input-group {
+    width: 180px; }
+    .my-transaction-table-cover .sec-title-block .block-right .title-search-box .input-group .form-control {
+      padding-left: 15px; } }
+@media (max-width: 1199px) {
+  .my-transaction-table-cover .sec-title-block .block-right .filter-dropdown-group .filter-dropdown-btn {
+    height: 38px;
+    padding: 8px 15px;
+    width: 125px; } }
 .my-transaction-table-cover .trns-history-table td.sts-td {
   white-space: nowrap; }
   .my-transaction-table-cover .trns-history-table td.sts-td .sts-ind {

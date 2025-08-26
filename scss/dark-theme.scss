@@ -1709,4 +1709,34 @@ $dark-block-2: #2B2C2E;
     .bridge-body-cover .bridge-banner-sec .tut-block.bridge-info-1 .info-data p{
         color: #7B7B7B;
     }
+    .my-transaction-table-cover .sec-title-block .block-right .id-block-sm{
+        border-color: #4E4E4E;
+        .icon-sm{
+            background-color: #161616;
+        }
+        .trns-id{
+            color: #fff;
+        }
+        .id-copy-btn{
+            img{
+                filter: brightness(5);
+            }
+        }
+    }
+    .bridge-body-cover .my-transaction-cover .transaction-id-mob-wrapper{
+        .id-block-sm{
+            border-color: #4E4E4E;
+            .icon-sm{
+                background-color: #161616;
+            }
+            .trns-id{
+                color: #fff;
+            }
+            .id-copy-btn{
+                img{
+                    filter: brightness(5);
+                }
+            }
+        }
+    }
 }
