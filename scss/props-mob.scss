@@ -4,7 +4,7 @@
     .title-row{
         display: flex;
         font-family: $font-primary;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         .data-block{
             margin-left: 8vw;
             @media (max-width: 350px) {
@@ -13,6 +13,7 @@
             &:first-child{
                 margin-left: 0;
             }
+            
             p{
                 font-family: $font-primary;
                 font-size: 13px;
@@ -36,5 +37,32 @@
     }
     .graph-block{
         width: 100%;
+        height: 400px;
+    }
+    .g-filter-block{
+        margin-bottom: 15px;
+        .filter-btn-cover{
+            border-radius: 4px;
+            background: #151618;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            .filter-btn{
+                margin: 1px;
+                padding: 5px 15px;
+                font-size: 12px;
+                font-weight: 500;
+                transition: .3s;
+                border-radius: 5px;
+                color: #fff;
+                background: #151618;
+                &:hover{
+                    background-color: #2B2C2E;
+                }
+                &.active{
+                    background-color: #2B2C2E;
+                }
+            }
+        }
     }
 }
