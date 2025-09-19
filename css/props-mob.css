@@ -1,0 +1,43 @@
+@import url("../../fonts/fonts.css");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.props-price-mob-sec {
+  background-color: #000; }
+  .props-price-mob-sec .title-row {
+    display: flex;
+    font-family: "Poppins";
+    margin-bottom: 25px; }
+    .props-price-mob-sec .title-row .data-block {
+      margin-left: 8vw; }
+      @media (max-width: 350px) {
+        .props-price-mob-sec .title-row .data-block {
+          margin-left: 5vw; } }
+      .props-price-mob-sec .title-row .data-block:first-child {
+        margin-left: 0; }
+      .props-price-mob-sec .title-row .data-block p {
+        font-family: "Poppins";
+        font-size: 13px;
+        color: #848484;
+        margin-bottom: 8px; }
+      .props-price-mob-sec .title-row .data-block h4 {
+        font-family: "Poppins";
+        margin-bottom: 0;
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff; }
+        .props-price-mob-sec .title-row .data-block h4.txt-grn {
+          color: #0DAD4D; }
+        .props-price-mob-sec .title-row .data-block h4.txt-red {
+          color: #FC5252; }
+  .props-price-mob-sec .graph-block {
+    width: 100%; }
+
+/*# sourceMappingURL=props-mob.css.map */

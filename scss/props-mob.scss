@@ -1,0 +1,40 @@
+@import "partials/partials";
+.props-price-mob-sec{
+    background-color: #000;
+    .title-row{
+        display: flex;
+        font-family: $font-primary;
+        margin-bottom: 25px;
+        .data-block{
+            margin-left: 8vw;
+            @media (max-width: 350px) {
+                margin-left: 5vw;
+            }
+            &:first-child{
+                margin-left: 0;
+            }
+            p{
+                font-family: $font-primary;
+                font-size: 13px;
+                color: #848484;
+                margin-bottom: 8px;
+            }
+            h4{
+                font-family: $font-primary;
+                margin-bottom: 0;
+                font-size: 13px;
+                font-weight: 600;
+                color: #fff;
+                &.txt-grn{
+                    color: #0DAD4D;
+                }
+                &.txt-red{
+                    color: #FC5252;
+                }
+            }
+        }
+    }
+    .graph-block{
+        width: 100%;
+    }
+}
