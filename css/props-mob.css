@@ -15,9 +15,17 @@
   .props-price-mob-sec .title-row {
     display: flex;
     font-family: "Poppins";
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    justify-content: space-between; }
     .props-price-mob-sec .title-row .data-block {
-      margin-left: 8vw; }
+      padding: 15px;
+      min-height: 90px;
+      background-color: #0E0E10;
+      border-radius: 9px;
+      width: calc(50% - 6px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
       @media (max-width: 350px) {
         .props-price-mob-sec .title-row .data-block {
           margin-left: 5vw; } }
@@ -25,13 +33,13 @@
         margin-left: 0; }
       .props-price-mob-sec .title-row .data-block p {
         font-family: "Poppins";
-        font-size: 12px;
-        color: #848484;
+        font-size: 14px;
+        color: #9FAAC6;
         margin-bottom: 8px; }
       .props-price-mob-sec .title-row .data-block h4 {
         font-family: "Poppins";
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 600;
         color: #fff; }
         .props-price-mob-sec .title-row .data-block h4.txt-grn {
