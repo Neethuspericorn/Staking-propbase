@@ -28,20 +28,33 @@
       justify-content: center; }
       @media (max-width: 350px) {
         .props-price-mob-sec .title-row .data-block {
-          margin-left: 5vw; } }
+          margin-left: 5vw;
+          padding: 12px; } }
       .props-price-mob-sec .title-row .data-block:first-child {
         margin-left: 0; }
       .props-price-mob-sec .title-row .data-block p {
         font-family: "Poppins";
-        font-size: 14px;
+        font-size: 13px;
         color: #9FAAC6;
         margin-bottom: 8px; }
+        @media (max-width: 360px) {
+          .props-price-mob-sec .title-row .data-block p {
+            font-size: 12px; } }
+        @media (max-width: 330px) {
+          .props-price-mob-sec .title-row .data-block p {
+            font-size: 11px; } }
       .props-price-mob-sec .title-row .data-block h4 {
         font-family: "Poppins";
         margin-bottom: 0;
         font-size: 14px;
         font-weight: 600;
         color: #fff; }
+        @media (max-width: 360px) {
+          .props-price-mob-sec .title-row .data-block h4 {
+            font-size: 13px; } }
+        @media (max-width: 330px) {
+          .props-price-mob-sec .title-row .data-block h4 {
+            font-size: 12px; } }
         .props-price-mob-sec .title-row .data-block h4.txt-grn {
           color: #0DAD4D; }
         .props-price-mob-sec .title-row .data-block h4.txt-red {

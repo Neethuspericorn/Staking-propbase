@@ -18,6 +18,7 @@
             justify-content: center;
             @media (max-width: 350px) {
                 margin-left: 5vw;
+                padding: 12px;
             }
             &:first-child{
                 margin-left: 0;
@@ -25,9 +26,15 @@
             
             p{
                 font-family: $font-primary;
-                font-size: 14px;
+                font-size: 13px;
                 color: #9FAAC6;
                 margin-bottom: 8px;
+                @media (max-width: 360px) {
+                    font-size: 12px;
+                }
+                @media (max-width: 330px) {
+                    font-size: 11px;
+                }
             }
             h4{
                 font-family: $font-primary;
@@ -35,6 +42,12 @@
                 font-size: 14px;
                 font-weight: 600;
                 color: #fff;
+                @media (max-width: 360px) {
+                    font-size: 13px;
+                }
+                @media (max-width: 330px) {
+                    font-size: 12px;
+                }
                 &.txt-grn{
                     color: #0DAD4D;
                 }
