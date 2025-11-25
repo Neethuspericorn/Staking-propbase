@@ -5,30 +5,85 @@
         border-radius: 0;
         border-bottom: solid 1px #484848;
         background-color: #fff;
+        overflow-y: auto;
+        @media ($sm-1679) {
+            padding: 10px 20px;
+        }
+        
+        .filter-nav-btn::after{
+            @media ($sm-1679) {
+                bottom: -10px !important;
+            }   
+        }
     }
-
+    .pool-web-block{
+        @media ($sm-767) {
+            display: none;
+        }
+    }
+    .pool-mob-block{
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
     .liq-pool-title-wrapper{
         justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
+        @media ($sm-1679) {
+            margin-bottom: 25px;
+        }
+        @media ($sm-1481) {
+            margin-bottom: 20px;
+        }
+        @media ($sm-767) {
+            flex-wrap: wrap;
+        }
         .title-left-block{
+            @media ($sm-767) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            @media ($sm-579) {
+                order: 2;
+            }
             h4{
                 color: $primary-blue;
                 font-size: 20px;
                 font-weight: 500;
                 margin-bottom: 5px;
+                @media ($sm-1679) {
+                    font-size: 17px;
+                }
+                @media ($sm-1481) {
+                    font-size: 15px;
+                }
             }
             p{
                 margin: 0;
                 font-size: 14px;
                 color: #697081;
+                @media ($sm-1679) {
+                    font-size: 13px;
+                }
             }
         }
         .title-center-block{
+            @media ($sm-579) {
+                width: 100%;
+                order: 1;
+            }
             .pool-tab-btn-block{
                 border-radius: 16px;
                 background-color: #0E0E10;
                 padding: 8px;
+                @media ($sm-1481) {
+                    padding: 6px;
+                }
+                @media ($sm-1481) {
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                }
                 .pool-tab-btn{
                     border-radius: 11px;
                     min-width: 190px;
@@ -40,6 +95,23 @@
                     font-size: 20px;
                     font-weight: 500;
                     margin: 1px;
+                    @media ($sm-1679) {
+                        min-width: 170px;
+                        font-size: 16px;
+                        padding: 9px 11px;
+                    }
+                    @media ($sm-1481) {
+                        min-width: 160px;
+                        font-size: 14px;
+                        padding: 11px;
+                    }
+                    @media ($sm-1199) {
+                        min-width: 100px;
+                    }
+                    @media ($sm-579) {
+                        flex-grow: 1;
+                        width: calc(50% - 5px);
+                    }
                     &.active, &:hover{
                         background-color: $primary-blue;
                         color: #fff;
@@ -49,12 +121,41 @@
         }
         .title-right-block{
             display: flex;
+            @media ($sm-579) {
+                width: 100%;
+                order: 3;
+                justify-content: space-between;
+            }
             .primary-btn{
                 font-size: 15px;
                 padding: 14px;
                 min-width: 188px;
+                @media ($sm-1679) {
+                    padding: 13px;
+                    min-width: 170px;
+                    font-size: 14px;
+                }
+                @media ($sm-1481) {
+                    padding: 11px;
+                    min-width: 150px;
+                    font-size: 12px;
+                }
+                @media ($sm-1199) {
+                    min-width: auto;
+                    font-size: 12px;
+                    padding: 10px 15px;
+                }
                 &:last-child{
                     margin-left: 18px;
+                    @media ($sm-1199) {
+                        margin-left: 10px;
+                    }
+                }
+                @media ($sm-579) {
+                    flex-grow: 1;
+                    width: calc(50% - 5px);
+                    margin-left: 0;
+                    height: 48px;
                 }
             }
         }
@@ -74,6 +175,9 @@
                 background: transparent !important;
                 padding: 20px 15px;
                 border: none !important;
+                @media ($sm-1679) {
+                    padding: 15px;
+                }
                 .th-info{
                     margin-top: -2px;
                 }
@@ -105,11 +209,23 @@
                 }
                 .txt-block{
                     padding-left: 20px;
+                    @media ($sm-1679) {
+                        padding-left: 15px;
+                    }
+                    @media ($sm-1199) {
+                        padding-left: 8px;
+                    }
                     h4{
                         color: #fff;
                         margin-bottom: 0;
                         font-size: 18px;
                         font-weight: 500;
+                        @media ($sm-1679) {
+                            font-size: 16px;
+                        }
+                        @media ($sm-1481) {
+                            font-size: 14px;
+                        }
                     }
                     p{
                         margin: 0;
@@ -122,6 +238,14 @@
                 display: flex;
                 .sm-btn{
                     margin-right: 10px;
+                    img{
+                        @media ($sm-1679) {
+                            max-height: 14px;
+                        }
+                        @media ($sm-1481) {
+                            max-height: 12px;
+                        }
+                    }
                 }
                 .earnings-dropdown{
                     .dropdown-menu{
@@ -183,6 +307,9 @@
             tbody{
                 tr{
                     border-bottom: solid 15px #000;
+                    @media ($sm-1481) {
+                        border-bottom: solid 10px #000;
+                    }
                 }
             }
             td{
@@ -190,11 +317,118 @@
                 padding-top: 25px;
                 padding-bottom: 25px;
                 border: none !important;
+                @media ($sm-1679) {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                @media ($sm-1481) {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
                 &:first-child{
                     border-radius: 8px 0 0 15px;
                 }
                 &:last-child{
                     border-radius: 0 8px 15px 0;
+                }
+            }
+        }
+    }
+
+    .pool-mob-block{
+        .pool-mob-card{
+            background-color: #0E0E10;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 10px;
+            .pool-td-block{
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                .td-logo-block{
+                    display: flex;
+                    align-items: center;
+                    .logo-icn{
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        padding: 7px;
+                        background-color: #26282C;
+                        &:nth-child(2){
+                            background-color: #181A1C;
+                            margin-left: -10px;
+                        }
+                        img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+                .txt-block{
+                    padding-left: 20px;
+                    h4{
+                        color: #fff;
+                        margin-bottom: 0;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    p{
+                        margin: 0;
+                        color: #697081;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .card-det-wrapper{
+                justify-content: space-between;
+                margin-bottom: 25px;
+                @media (max-width: 390px) {
+                    flex-wrap: wrap;
+                    margin-bottom: 20px;
+                }
+                .card-det-sm{
+                    padding-right: 10px;
+                    &:last-child{
+                        @media (max-width: 390px) {
+                            width: 100%;
+                            padding-top: 15px;
+                        }
+                    }
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                    p{
+                        color: #697081;
+                        font-size: 14px;
+                        margin-bottom: 4px;
+                        .info{
+                            display: inline-block;
+                            transform: translateY(-1px);
+                        }
+                    }
+                    h4{
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+            }
+            .btn-block-btm{
+                display: flex;
+                justify-content: space-between;
+                .primary-btn{
+                    width: calc(50% - 5px);
+                    padding: 12px 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    img{
+                        margin-right: 6px;
+                        max-height: 12px;
+                    }
                 }
             }
         }

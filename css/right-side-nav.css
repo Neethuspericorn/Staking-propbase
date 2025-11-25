@@ -34,8 +34,11 @@
     min-height: 80px;
     flex-shrink: 0;
     border-bottom: 1px solid #e3e4f3;
-    justify-content: space-between;
-    margin-bottom: 15px; }
+    justify-content: space-between; }
+    @media (max-width: 1679px) {
+      .right-side-nav .top-sec {
+        padding: 15px;
+        min-height: 71px; } }
     @media (max-width: 479px) {
       .right-side-nav .top-sec {
         padding: 20px 15px;
@@ -52,7 +55,7 @@
         color: #2E4276;
         font-size: 18px;
         font-weight: 500; }
-        @media (max-width: 479px) {
+        @media (max-width: 1679px) {
           .right-side-nav .top-sec .left-block .dw-title {
             font-size: 16px; } }
     .right-side-nav .top-sec .right-block .right-settings-btn {
@@ -62,6 +65,9 @@
     flex-grow: 1;
     overflow-y: auto;
     padding: 25px; }
+    @media (max-width: 400px) {
+      .right-side-nav .nav-body {
+        padding: 25px 18px; } }
     .right-side-nav .nav-body.custom-scroll::-webkit-scrollbar {
       width: 8px;
       border-radius: 5px; }
@@ -82,8 +88,18 @@
         justify-content: space-between;
         align-items: center; }
         .right-side-nav .nav-body .liq-card .top-item .val-left {
-          font-size: 18px;
-          font-weight: 600; }
+          flex-grow: 1;
+          padding-right: 10px; }
+          .right-side-nav .nav-body .liq-card .top-item .val-left .val-inp {
+            background-color: transparent;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            width: 100%; }
+            @media (max-width: 1679px) {
+              .right-side-nav .nav-body .liq-card .top-item .val-left .val-inp {
+                font-size: 16px; } }
         .right-side-nav .nav-body .liq-card .top-item .data-block-right .select-block {
           background-color: #1C1C1F;
           border-radius: 10px;
@@ -117,6 +133,9 @@
             font-weight: 500;
             color: #fff;
             margin-bottom: 2px; }
+            @media (max-width: 1679px) {
+              .right-side-nav .nav-body .liq-card .top-item .data-block-right .select-block .dtls h4 {
+                font-size: 13px; } }
           .right-side-nav .nav-body .liq-card .top-item .data-block-right .select-block .dtls p {
             margin: 0;
             color: #697081;
@@ -124,6 +143,9 @@
       .right-side-nav .nav-body .liq-card .range-data-wrapper {
         padding-top: 18px;
         align-items: center; }
+        @media (max-width: 1679px) {
+          .right-side-nav .nav-body .liq-card .range-data-wrapper {
+            padding-top: 14px; } }
         .right-side-nav .nav-body .liq-card .range-data-wrapper .amnt-left {
           font-size: 14px;
           color: #697081; }
@@ -141,6 +163,9 @@
             font-size: 12px;
             margin-left: 8px;
             transition: .3s; }
+            @media (max-width: 1679px) {
+              .right-side-nav .nav-body .liq-card .range-data-wrapper .rng-block .rng-btn {
+                font-size: 11px; } }
             .right-side-nav .nav-body .liq-card .range-data-wrapper .rng-block .rng-btn:hover {
               opacity: .8; }
             .right-side-nav .nav-body .liq-card .range-data-wrapper .rng-block .rng-btn.active {
@@ -155,8 +180,18 @@
         font-weight: 500; }
         .right-side-nav .nav-body .type-info-wrapper .type-info.info-off {
           color: #697081; }
+      .right-side-nav .nav-body .type-info-wrapper .type-select {
+        font-size: 13px;
+        font-weight: 500;
+        color: #697081;
+        background-color: transparent;
+        border: none; }
     .right-side-nav .nav-body .lg-btn-block .primary-btn {
-      padding: 14px; }
+      padding: 14px;
+      font-size: 15px; }
+      @media (max-width: 1679px) {
+        .right-side-nav .nav-body .lg-btn-block .primary-btn {
+          font-size: 14px; } }
     .right-side-nav .nav-body .currency-reserve-card {
       background-color: #141417;
       border-radius: 18px;
@@ -165,9 +200,15 @@
         margin-bottom: 20px;
         color: #fff;
         font-size: 15px; }
+        @media (max-width: 1679px) {
+          .right-side-nav .nav-body .currency-reserve-card .reserves-title {
+            font-size: 14px; } }
       .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper {
         justify-content: space-between;
         margin-bottom: 30px; }
+        @media (max-width: 1679px) {
+          .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper {
+            margin-bottom: 20px; } }
         .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper .sep {
           color: #fff;
           font-size: 14px;
@@ -190,9 +231,15 @@
           margin-bottom: 5px;
           font-size: 14px;
           font-weight: 500; }
+          @media (max-width: 1679px) {
+            .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper .props-sm-block .pr-data h4 {
+              font-size: 13px; } }
         .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper .props-sm-block .pr-data p {
           margin: 0;
           font-size: 14px; }
+          @media (max-width: 1679px) {
+            .right-side-nav .nav-body .currency-reserve-card .props-dif-wrapper .props-sm-block .pr-data p {
+              font-size: 13px; } }
       .right-side-nav .nav-body .currency-reserve-card .apr-block {
         background-color: #1C1C1F;
         border-radius: 11px;
