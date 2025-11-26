@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/liquidity-pool.css">
     <link rel="stylesheet" href="css/right-side-nav.css">
     <link rel="stylesheet" href="css/dark-theme.css">
@@ -1183,6 +1184,161 @@
         </div>
     </div>
     <!-- Right end -->
+
+    <!-- Create stake modal -->
+    <div class="modal fade custom-modal add-liquidity-modal" id="createStakeModal" tabindex="-1" aria-labelledby="createStakeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="liq-modal-body">
+                        <div class="modal-title">
+                            <h2>Add Liquidity</h2>
+                        </div>
+
+                        <div class="">
+                            <div class="add-liq-card d-flex align-items-center justify-content-between">
+                                <div class="input-block">
+                                    <input type="text" class="liq-inp" value="0.5">
+                                </div>
+                                <div class="coin-right d-flex align-items-center">
+                                    PROPS
+                                    <div class="icon">
+                                        <img src="img/prop-coin-xs.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="add-liq-card d-flex align-items-center justify-content-between">
+                                <div class="input-block">
+                                    <input type="text" class="liq-inp" value="0.5">
+                                </div>
+                                <div class="coin-right d-flex align-items-center">
+                                    USDC
+                                    <div class="icon">
+                                        <img src="img/coin-dol.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="expt-output-block mt-3">
+                                <div class="title-block d-flex align-items-center justify-content-between">
+                                    <div class="title-left">
+                                        Expected Output
+                                    </div>
+                                    <div class="title-right">
+                                        14.14 LP
+                                    </div>
+                                </div>
+                                <div class="op-cover">
+                                    <div class="op-wrapper mb-1 d-flex align-items-center justify-content-between">
+                                        <div class="op-label">
+                                            Minimum set after
+                                        </div>
+                                        <div class="op-val">
+                                            1APT
+                                        </div>
+                                    </div>
+                                    <div class="op-wrapper d-flex align-items-center justify-content-between">
+                                        <div class="op-label">
+                                            Slippage (0.50%)
+                                        </div>
+                                        <div class="op-val">
+                                            2.928 USDC
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="liq-info">Output is estimated. you will receive at least 14.14 LP or the transaction will revert.</p>
+                            
+                            <div class="btn-cover-modal">
+                                <button class="btn btn-def m-0 btn-save w-100">Confirm</button>
+                            </div>
+                        </div>
+
+                        <!-- Confrimation sec -->
+                        <div class="confirmation-cover text-center d-none">
+                            <div class="img-block">
+                                <div class="img-cover">
+                                    <img src="img/props-conform.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Waiting for Liquidity Confirmation</h4>
+                                <p>We’re waiting for your wallet to authorize the liquidity addition.</p>
+                            </div>
+                        </div>
+                        <!-- Confrimation warning -->
+                        <div class="confirmation-cover text-center d-none">
+                            <div class="img-block">
+                                <div class="img-cover img-warning">
+                                    <img src="img/md-warning.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Something Went Wrong</h4>
+                                <p>An unexpected error occurred; try again or refresh your wallet connection.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create pool -->
+    <div class="modal fade custom-modal add-liquidity-modal" id="createStakeModal" tabindex="-1" aria-labelledby="createStakeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="liq-modal-body">
+                        <div class="modal-title">
+                            <h2>Create Pool</h2>
+                        </div>
+                        <!-- Confrimation sec -->
+                        <div class="confirmation-cover text-center">
+                            <div class="img-block">
+                                <div class="img-cover">
+                                    <img src="img/props-conform.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Waiting for Pool Confirmation</h4>
+                                <p>Approve the request in your wallet to finalize the new pool.</p>
+                            </div>
+                        </div>
+                        <!-- Confrimation warning -->
+                        <div class="confirmation-cover text-center">
+                            <div class="img-block">
+                                <div class="img-cover img-warning">
+                                    <img src="img/succss-grn.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Pool Created Successfully</h4>
+                                <p>You’ve successfully created a new pool on the network.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

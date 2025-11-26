@@ -1308,4 +1308,160 @@
         .buy-props-modal .props-btn-card .wallet-btn .wallet-icon {
           margin-right: 12px; } }
 
+.add-liquidity-modal .liq-modal-body {
+  padding: 0 20px 20px; }
+  @media (max-width: 370px) {
+    .add-liquidity-modal .liq-modal-body {
+      padding: 0 0 20px; } }
+.add-liquidity-modal .add-liq-card {
+  background-color: #141417;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 10px; }
+  @media (max-width: 1679px) {
+    .add-liquidity-modal .add-liq-card {
+      padding: 20px; } }
+  @media (max-width: 1481px) {
+    .add-liquidity-modal .add-liq-card {
+      padding: 15px; } }
+  .add-liquidity-modal .add-liq-card .input-block {
+    max-width: 200px; }
+    .add-liquidity-modal .add-liq-card .input-block .liq-inp {
+      border: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      padding: 0;
+      background-color: transparent;
+      width: 100%; }
+      @media (max-width: 1679px) {
+        .add-liquidity-modal .add-liq-card .input-block .liq-inp {
+          font-size: 15px; } }
+  .add-liquidity-modal .add-liq-card .coin-right {
+    color: #fff;
+    font-size: 14px; }
+    @media (max-width: 1679px) {
+      .add-liquidity-modal .add-liq-card .coin-right {
+        font-size: 13px; } }
+    .add-liquidity-modal .add-liq-card .coin-right .icon {
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      padding: 7px;
+      background-color: #2B2B32;
+      margin-left: 12px; }
+.add-liquidity-modal .expt-output-block {
+  margin-bottom: 15px;
+  border: 1px solid #1F1F22;
+  border-radius: 18px; }
+  .add-liquidity-modal .expt-output-block .title-block {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #1F1F22;
+    padding: 15px 20px; }
+    @media (max-width: 1679px) {
+      .add-liquidity-modal .expt-output-block .title-block {
+        font-size: 13px; } }
+  .add-liquidity-modal .expt-output-block .op-cover {
+    padding: 11px 20px; }
+    .add-liquidity-modal .expt-output-block .op-cover .op-wrapper {
+      font-size: 14px;
+      color: #697081; }
+      @media (max-width: 1679px) {
+        .add-liquidity-modal .expt-output-block .op-cover .op-wrapper {
+          font-size: 13px; } }
+.add-liquidity-modal .liq-info {
+  font-size: 12px;
+  color: #697081;
+  margin-bottom: 25px; }
+.add-liquidity-modal .btn-cover-modal .btn-def {
+  padding: 14px; }
+.add-liquidity-modal .confirmation-cover .img-block {
+  margin: 50px 0; }
+  @media (max-width: 1679px) {
+    .add-liquidity-modal .confirmation-cover .img-block {
+      margin: 35px 0; } }
+  @media (max-width: 1481px) {
+    .add-liquidity-modal .confirmation-cover .img-block {
+      margin: 30px 0 25px; } }
+  .add-liquidity-modal .confirmation-cover .img-block .img-cover {
+    width: 125px;
+    height: 125px;
+    border: solid 5px #1E1E23;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: relative; }
+    @media (max-width: 1679px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover {
+        width: 110px;
+        height: 110px; } }
+    @media (max-width: 1481px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover {
+        width: 100px;
+        height: 100px; } }
+    @media (max-width: 479px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover {
+        width: 80px;
+        height: 80px; } }
+    @media (max-width: 1679px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover img {
+        max-width: 40px; } }
+    @media (max-width: 1481px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover img {
+        max-width: 36px; } }
+    @media (max-width: 479px) {
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover img {
+        max-width: 26px; } }
+    .add-liquidity-modal .confirmation-cover .img-block .img-cover::before {
+      content: '';
+      border: solid 5px #2966FF;
+      border-left-color: #1E1E23;
+      border-top-color: #1E1E23;
+      border-radius: 50%;
+      position: absolute;
+      inset: -5px;
+      background-color: transparent;
+      animation: spin 2s linear infinite; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+    .add-liquidity-modal .confirmation-cover .img-block .img-cover.img-warning {
+      background-color: #111114;
+      border-color: #111114; }
+      .add-liquidity-modal .confirmation-cover .img-block .img-cover.img-warning::before {
+        display: none; }
+.add-liquidity-modal .confirmation-cover .text-data {
+  margin: 0 auto 20px;
+  max-width: 320px; }
+  .add-liquidity-modal .confirmation-cover .text-data h4 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600; }
+    @media (max-width: 1679px) {
+      .add-liquidity-modal .confirmation-cover .text-data h4 {
+        font-size: 16px; } }
+    @media (max-width: 370px) {
+      .add-liquidity-modal .confirmation-cover .text-data h4 {
+        font-size: 15px; } }
+  .add-liquidity-modal .confirmation-cover .text-data p {
+    margin-bottom: 0;
+    color: #697081;
+    font-size: 12px;
+    padding: 0 15px; }
+    @media (max-width: 370px) {
+      .add-liquidity-modal .confirmation-cover .text-data p {
+        padding: 0; } }
+
 /*# sourceMappingURL=modal.css.map */

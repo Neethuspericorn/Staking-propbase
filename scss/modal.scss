@@ -1768,3 +1768,191 @@
         }
     }
 }
+
+.add-liquidity-modal{
+    .liq-modal-body{
+        padding: 0 20px 20px;
+        @media (max-width: 370px) {
+            padding: 0 0 20px;
+        }
+    }
+    .add-liq-card{
+        background-color: #141417;
+        border-radius: 18px;
+        padding: 25px;
+        margin-bottom: 10px;
+        @media ($sm-1679) {
+            padding: 20px;
+        }
+        @media ($sm-1481) {
+            padding: 15px;
+        }
+        .input-block{
+            max-width: 200px;
+            .liq-inp{
+                border: none;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                padding: 0;
+                background-color: transparent;
+                width: 100%;
+                @media ($sm-1679) {
+                    font-size: 15px;
+                }
+            }
+        }
+        .coin-right{
+            color: #fff;
+            font-size: 14px;
+            @media ($sm-1679) {
+                font-size: 13px;
+            }
+            .icon{
+                flex-shrink: 0;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                padding: 7px;
+                background-color: #2B2B32;
+                margin-left: 12px;
+            }
+        }
+    }
+    .expt-output-block{
+        margin-bottom: 15px;
+        border: 1px solid #1F1F22;
+        border-radius: 18px;
+        .title-block{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            border-bottom: 1px solid #1F1F22;
+            padding: 15px 20px;
+            @media ($sm-1679) {
+                font-size: 13px;
+            }
+        }
+        .op-cover{
+            padding: 11px 20px;
+            .op-wrapper{
+                font-size: 14px;
+                color: #697081;
+                @media ($sm-1679) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .liq-info{
+        font-size: 12px;
+        color: #697081;
+        margin-bottom: 25px;
+    }
+    .btn-cover-modal{
+        .btn-def{
+            padding: 14px;
+        }
+    }
+    
+    .confirmation-cover{
+        .img-block{
+            margin: 50px 0;
+            @media ($sm-1679) {
+                margin: 35px 0;
+            }
+            @media ($sm-1481) {
+                margin: 30px 0 25px;
+            }
+            .img-cover{
+                width: 125px;
+                height: 125px;
+                border: solid 5px #1E1E23;
+                border-radius: 50%;
+                margin: 0 auto;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                position: relative;
+                @media ($sm-1679) {
+                    width: 110px;
+                    height: 110px;
+                }
+                @media ($sm-1481) {
+                    width: 100px;
+                    height: 100px;
+                }
+                @media ($sm-479) {
+                    width: 80px;
+                    height: 80px;
+                }
+                img{
+                    @media ($sm-1679) {
+                        max-width: 40px;
+                    }
+                    @media ($sm-1481) {
+                        max-width: 36px;
+                    }
+                    @media ($sm-479) {
+                        max-width: 26px;
+                    }
+                }
+                &::before{
+                    content: '';
+                    border: solid 5px $primary-blue;
+                    border-left-color: #1E1E23;
+                    border-top-color: #1E1E23;
+                    border-radius: 50%;
+                    position: absolute;
+                    inset: -5px;
+                    background-color: transparent;
+                    animation: spin 2s linear infinite;
+                }
+                @keyframes spin {
+                    from {
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+                &.img-warning{
+                    background-color: #111114;
+                    border-color: #111114;
+                    &::before{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .text-data{
+            margin: 0 auto 20px;
+            max-width: 320px;
+            h4{
+                color: #fff;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+                @media ($sm-1679) {
+                    font-size: 16px;
+                }
+                @media (max-width: 370px) {
+                    font-size: 15px;
+                }
+            }
+            p{
+                margin-bottom: 0;
+                color: #697081;
+                font-size: 12px;
+                padding: 0 15px;
+                @media (max-width: 370px) {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
