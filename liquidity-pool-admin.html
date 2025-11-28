@@ -901,15 +901,39 @@
                 </span>
             </div>
             <div class="right-block">
-                <button class="right-settings-btn">
-                    <img src="img/side-settings.svg" alt="">
-                </button>
+                <div class="dropdown right-settings-dropdown">
+                    <button class="btn settings-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="img/side-settings.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-title">
+                            Settings
+                        </div>
+                        <div class="slippage-cal-cover">
+                            <div class="slp-title">
+                                Slippage Tolerance <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                            </div>
+                            <div class="slp-btn-cover">
+                                <button class="slp-btn active">0.1%</button>
+                                <button class="slp-btn">0.5%</button>
+                                <button class="slp-btn">1.0%</button>
+                            </div>
+                            <div class="slp-inp-block">
+                                <div class="input-group">
+                                    <input type="text" value="1.5" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="nav-body custom-scroll">
 
             <!-- Add liquidity 1 1st data -->
-            <div class="add-liq-init ">
+            <div class="add-liq-init">
                 <div class="liq-card">
                     <div class="top-item">
                         <div class="val-left">
@@ -1179,6 +1203,59 @@
                     </button>
                 </div>
     
+            </div>
+
+            <!-- Remove liquidity -->
+            <div class="add-liq-init ">
+                <div class="currency-reserve-card remove-liquidity-card mb-3">
+                    <h4 class="reserves-title">Remove Liquidity <span class="info ms-1"><img src="img/info-circle.svg" alt=""></span></h4>
+                    <div class="lp-title-wrapper d-flex">
+                        <div class="lp-title">LP Token</div>
+                        <div class="lp-val">088</div>
+                    </div>
+                    <div class="val-range-cover">
+                        <div class="rng-val">
+                            10%
+                        </div>
+                        <div class="rng-slider">
+                            Slider goes here..
+                        </div>
+                        <div class="btn-cover">
+                            <button class="rng-btn active">25%</button>
+                            <button class="rng-btn">50%</button>
+                            <button class="rng-btn">75%</button>
+                            <button class="rng-btn">Max</button>
+                        </div>
+                    </div>
+                    <h4 class="reserves-title mb-2">Output</h4>
+                    <div class="props-dif-wrapper align-items-center d-flex">
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>PROPS</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                        <div class="sep">-</div>
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/coin-dol.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>ceUSDC</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg-btn-block">
+                    <button class="primary-btn w-100">
+                        Approve
+                    </button>
+                </div>
             </div>
 
         </div>
