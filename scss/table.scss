@@ -335,3 +335,67 @@
         color: #A2A2DF !important;
     }  
 }
+.td-single-row{
+    text-wrap: nowrap;
+}
+td{
+    .td-copy-btn{
+        margin-left: 5px;        
+        line-height: 0;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        img{
+            filter: grayscale(1) brightness(10);
+        }
+    }
+}
+
+.item-sts-nw {
+    display: inline-flex;
+    align-items: center;
+    color: #666B78;
+
+    &::before {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        display: inline-block;
+        content: '';
+        margin-right: 5px;
+        background-color: #666B78;
+    }
+
+    &.active {
+        color: #3EF66C;
+
+        &::before {
+            background-color: #3EF66C;
+        }
+    }
+    
+    &.completed {
+        color: #3EF6D1;
+        &::before {
+            background-color: #3EF6D1;
+        }
+    }
+    &.pending {
+        color: #FF5900;
+        &::before {
+            background-color: #FF5900;
+        }
+    }
+    &.active-blue {
+        color: #2966FF;
+        &::before {
+            background-color: #2966FF;
+        }
+    }
+    &.rejected {
+        color: #FF0004;
+        &::before {
+            background-color: #FF0004;
+        }
+    }
+}

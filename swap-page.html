@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Propbase :: Bridge</title>
+    <link rel="icon" href="img/fav.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/liquidity-pool.css">
+    <link rel="stylesheet" href="css/swap.css">
+    <link rel="stylesheet" href="css/right-side-nav.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body class="theme-dark">
+    <div class="body-wrapper">
+        <!-- Side nav -->
+        <div class="nav-block">
+            <div class="nav-block-inner">
+                <div class="nav-logo-wrapper">
+                    <div class="logo-block">
+                        <a class="nav-logo" href="#">
+                            <span class="logo-img">
+                                <img src="img/logo-img.svg" alt="">
+                            </span>
+                            <span class="logo-txt">
+                                <img src="img/logo-propbase.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="toggle-btn-block">
+                        <!-- buy props -->
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="props-title">
+                                        <h4>How to Buy PROPS</h4>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/bitget.svg" alt="">
+                                            </span> Bitget
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <button class="nav-toggle-btn" id="navToggleBtn">
+                            <!-- <img src="img/nav-toggle.svg" alt=""> -->
+                            <span class="line-cover">
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                                <span class="nav-line"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse-block custom-scroll">
+                    <ul class="navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span class="nav-icon">
+                                    <img src="img/nav-home.svg" alt="">
+                                </span>
+                                <span class="nav-label">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/bridge-nav-icon.svg" alt="">
+                                <span class="nav-label">Bridge Props</span>
+                                <span class="new-label">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-briefcase.svg" alt="">
+                                <span class="nav-label">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/nav-wallet.svg" alt="">
+                                <span class="nav-label">Staking</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/abt-nav.svg" alt="">
+                                <span class="nav-label">About $PROPS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/web-nav.svg" alt="">
+                                <span class="nav-label">Website</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="img/paper-nav.svg" alt="">
+                                <span class="nav-label">Whitepaper</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/transactions.svg" alt="">
+                                <span class="nav-label">Transactions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/terms.svg" alt="">
+                                <span class="nav-label">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-logout">
+                            <a class="nav-link" href="#">
+                                <img src="img/support-nav.svg" alt="">
+                                <span class="nav-label">Support</span>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item nav-item-logout">
+                            <div class="nav-link" href="#">
+                                <img src="img/dark-mode.svg" alt="">
+                                <span class="nav-label">Dark Mode</span>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="mob-nav-btn-block">
+                        <div class="wallet-btn-cover">
+                            <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">
+                                0xf7e2...1380bf
+                            </button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="login-btn">Admin Login <img src="img/user.svg" alt=""></button>
+                    </div>
+
+
+                    <div class="nav-footer-block">
+                        <div class="nav-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-full.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="welcome-msg">Welcome to the future of 
+                            <span>real estate investing!</span></p>
+                        <div class="nav-soc-block">
+                            <a href="#" class="nav-soc">
+                                <img src="img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/twtr.svg" alt="">
+                            </a>
+                            <a href="#" class="nav-soc">
+                                <img src="img/tele.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right sec -->
+        <div class="content-block-outer">
+            <!-- Header -->
+            <div class="header-wrapper shadow-bg sticky-lg-top">
+                <div class="header-title-block">
+                    <!-- <div class="live-active wallet-btn">
+                        <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                    </div> -->
+                    <div class="aptos-select-block">
+                        <div class="btn-group live-aptos-dropdown">
+                            <button type="button" class="live-active wallet-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="status"></span> <span class="label-web">Live on</span> APTOS mainnet
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status active"></span> APTOS mainnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" type="button">
+                                        <span class="status"></span> APTOS testnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-block">
+                    <div class="info-block">
+                        <span class="info-label">$Props: </span>
+                        <span class="info-val">$ 0.045 USD</span>
+                        <span class="info-val info-val-end pros-val pros-val-down">
+                            <img src="img/pros-dwn.svg" alt=""> 03.54%
+                        </span>
+                        <span class="info-val info-val-end">$ 14,910,900 USD</span>
+                    </div>
+
+                    <!-- <div class="buy-pros-block">
+                        <span class="pros-label">Buy $PROPS</span>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/pancake.svg" alt="">
+                        </a>
+                        <a href="#" class="buy-pros-btn">
+                            <img src="img/mexc.svg" alt="">
+                        </a>
+                    </div> -->
+                    <div class="header-btn-cover">
+                        <div class="theme-toggle-btn-block">
+                            <button class="theme-toggle-btn">
+                                <img src="img/theme-light.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="buy-pros-select-block">
+                            <div class="btn-group buy-pros-dropdown">
+                                <button type="button" class="buy-pros-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="cart-mob" src="img/buy_token.svg" alt="">
+                                    <span class="acc-label">Buy $PROPS</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="props-title">
+                                        <h4>How to Buy PROPS</h4>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-mex.svg" alt="">
+                                            </span> MEXC
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/pros-pan.svg" alt="">
+                                            </span> Pancake
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" type="button">
+                                            <span class="icon">
+                                                <img src="img/coin-liquid.svg" alt="">
+                                            </span> Liquidswap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item">
+                                            <span class="icon">
+                                                <img src="img/coin-chaing.svg" alt="">
+                                            </span> Chainge Finance
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item item-disbaled">
+                                            <span class="icon">
+                                                <img src="img/bitget.svg" alt="">
+                                            </span> Bitget
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <button class="wallet-btn buy-btn"><img class="cart-mob" src="img/cart-icon.svg" alt=""> <span class="buy-label">Buy $PROPS</span></button> -->
+                        <div class="wallet-btn-cover wallet-btn-cover-web">
+                            <!-- <button class="wallet-btn" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button> -->
+                            <button class="wallet-btn wallet-btn-connected" data-bs-toggle="modal" data-bs-target="#createStakeModal">0xf7e2...1380bf</button>
+                            <button class="wallet-btn-copy copy-btn">
+                                <img src="img/copy.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- <button class="login-btn header-btn-web"><span class="acc-label">Admin Login</span> <img src="img/user.svg" alt=""></button> -->
+                        <!-- Admin btn -->
+                        <div class="admin-h-btn-block d-flex">
+                            <div class="btn-group notify-dropdown">
+                                <button type="button" class="notify-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="notify-icon">
+                                        <img src="img/notification.svg" alt="">
+                                        <span class="new"></span>
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="notify-title">
+                                        Notifications
+                                        <span class="count">10</span>
+                                        <button class="notify-clr-btn">Clear All</button>
+                                    </li>
+                                    <li class="dropdown-scrl-li">
+                                        <div class="dropdown-item-cover custom-scroll">
+                                            <div class="dropdown-item unread">
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item unread">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item">
+                                                <button class="notify-close-btn"><img src="img/notify-close.svg" alt=""></button>
+                                                <div class="icon">
+                                                    <img src="img/notf-logo.svg" alt="">
+                                                </div>
+                                                <div class="det">
+                                                    <p><b>Staking period is over</b> for long term stake.</p>
+                                                    <div class="time">6 minutes ago</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="btn-group my-acc-dropdown">
+                                <button type="button" class="my-acc-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="acc-icon"><img src="img/admin-settings.svg" alt=""></span>
+                                    <span class="acc-label">My Account</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                                            <img src="img/lock-drpdown.svg" alt=""> Change password
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src="img/logout-drpdwn.svg" alt=""> Logout
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="body-content-outer">
+
+                <div class="liq-pool-body-outer">
+                    <div class="filter-wrapper liq-tab-wrapper d-flex">
+                        <button class="filter-nav-btn active">Home</button>
+                        <button class="filter-nav-btn">Portfolio</button>
+                        <button class="filter-nav-btn">Staking</button>
+                        <button class="filter-nav-btn">Pool</button>
+                        <button class="filter-nav-btn">Transactions</button>
+                    </div>
+
+                    <div class="swap-page-outer">
+                        <div class="swap-filter-cover">
+                            <div class="filter-wrapper d-flex">
+                                <button class="filter-nav-btn active">
+                                    <img src="img/swap-tab-icon.svg" alt=""> Swap
+                                </button>
+                                <button class="filter-nav-btn">
+                                    <img src="img/history-tab-icon.svg" alt=""> History
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Swap section -->
+
+                        <!-- Swap tab -->
+                        <div class="swap-toggle-outer">
+                            
+                            <div class="swap-toggle-outer">
+                                <div class="swap-tab-cover">
+                                    <div class="swap-title-sec d-flex align-items-center justify-content-between">
+                                        <div class="left-block">
+                                            <h2>Swap</h2>
+                                            <p>Trade tokens in an instant</p>
+                                        </div>
+                                        <div class="right-block d-flex">
+                                            <button class="link-btn">
+                                                <img src="img/link-icon.svg" alt="">
+                                            </button>
+
+                                            <div class="dropdown swap-sett-dropdown">
+                                                <button class="btn settings-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <img src="img/side-settings.svg" alt="">
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <div class="dropdown-title">
+                                                        Settings
+                                                    </div>
+                                                    <div class="slippage-cal-cover">
+                                                        <div class="slp-title">
+                                                            Slippage Tolerance <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                                                        </div>
+                                                        <div class="slp-btn-cover">
+                                                            <button class="slp-btn active">0.1%</button>
+                                                            <button class="slp-btn">0.5%</button>
+                                                            <button class="slp-btn">1.0%</button>
+                                                        </div>
+                                                        <div class="slp-inp-block">
+                                                            <div class="input-group">
+                                                                <input type="text" value="1.5" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
+                                                                <span class="input-group-text" id="basic-addon2">%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swap-data-wrapper">
+                                        <div class="row">
+                                            <div class="col-xl-6 swap-data-col">
+                                                <div class="col-left-sec">
+                                                    <div class="swap-card-cover">
+                                                        <div class="liq-card liq-card-1">
+                                                            <div class="top-item">
+                                                                <div class="val-left">
+                                                                    <input type="text" class="val-inp" value="0.5">
+                                                                </div>
+                                                                <div class="data-block-right">
+                                                                    <div class="select-block">
+                                                                        <div class="arw">
+                                                                            <img src="img/arw-bottom-white.svg" alt="">
+                                                                        </div>
+                                                                        <div class="rht-block">
+                                                                            <div class="dtls">
+                                                                                <h4>PROPS</h4>
+                                                                                <p>Balance : 1,2.4242</p>
+                                                                            </div>
+                                                                            <div class="icon-block">
+                                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                            
+                                                            <div class="range-data-wrapper d-flex">
+                                                                <div class="amnt-left">
+                                                                    $0.01
+                                                                </div>
+                                                                <div class="rng-block d-flex">
+                                                                    <button class="rng-btn">25%</button>
+                                                                    <button class="rng-btn">50%</button>
+                                                                    <button class="rng-btn">75%</button>
+                                                                    <button class="rng-btn">MAX</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                            
+                                                        <div class="liq-card liq-card-2">
+                                                            <div class="top-item">
+                                                                <div class="val-left">
+                                                                    <input type="text" class="val-inp" value="0.5">
+                                                                </div>
+                                                                <div class="data-block-right">
+                                                                    <div class="select-block">
+                                                                        <div class="arw">
+                                                                            <img src="img/arw-bottom-white.svg" alt="">
+                                                                        </div>
+                                                                        <div class="rht-block">
+                                                                            <div class="dtls">
+                                                                                <h4>PROPS</h4>
+                                                                                <p>Balance : 1,2.4242</p>
+                                                                            </div>
+                                                                            <div class="icon-block">
+                                                                                <img src="img/coin-dol.svg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                            
+                                                            <div class="range-data-wrapper d-flex">
+                                                                <div class="amnt-left">
+                                                                    $0.01 <span class="val-sm">99.834%</span>
+                                                                </div>
+                                                                <div class="rng-block d-flex">
+                                                                    <button class="rng-btn">25%</button>
+                                                                    <button class="rng-btn">50%</button>
+                                                                    <button class="rng-btn">75%</button>
+                                                                    <button class="rng-btn">MAX</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                            
+                                                        <div class="lg-btn-block lg-btn-web">
+                                                            <button class="primary-btn w-100">
+                                                                Connect wallet
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-6 price-data-col">
+                                                <div class="price-data-cover">
+                                                    <h3 class="col-title">Price</h3>
+                                                    <div class="price-swap-cover d-flex justify-content-between">
+                                                        <div class="price">
+                                                            1 USDC
+                                                            <img class="icon-swp" src="img/price-swap.svg" alt="">
+                                                            415.39 PROPS
+                                                        </div>
+                                                        <div class="sep"></div>
+                                                        <div class="price">
+                                                            1 USDC
+                                                            <img class="icon-swp" src="img/price-swap.svg" alt="">
+                                                            415.39 PROPS
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-table-item">
+                                                        <div class="data-table-wrapper d-flex">
+                                                            <div class="data-label">
+                                                                Minimum Received <span class="ms-1"><img src="img/info-circle.svg" alt=""></span>
+                                                            </div>
+                                                            <div class="data-val">
+                                                                0.09676 USDC
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-table-wrapper d-flex">
+                                                            <div class="data-label">
+                                                                Price Impact <span class="ms-1"><img src="img/info-circle.svg" alt=""></span>
+                                                            </div>
+                                                            <div class="data-val">
+                                                                <span class="vam-impct">
+                                                                    <img src="img/imp-info.svg" alt=""> 0.00%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-table-wrapper d-flex">
+                                                            <div class="data-label">
+                                                                Liquidity Provider Fee <span class="ms-1"><img src="img/info-circle.svg" alt=""></span>
+                                                            </div>
+                                                            <div class="data-val">
+                                                                0.04993 PROPS
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btm-val">
+                                                        <div class="data-table-wrapper mb-0 d-flex">
+                                                            <div class="data-label">
+                                                                Liquidity Provider Fee <span class="ms-1"><img src="img/info-circle.svg" alt=""></span>
+                                                            </div>
+                                                            <div class="data-val">
+                                                                0.04993 PROPS
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="lg-btn-block lg-btn-mob">
+                                                <button class="primary-btn w-100">
+                                                    Connect wallet
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Swap History -->
+                        <div class="swap-toggle-outer d-none">
+                            <div class="swap-history-cover">
+
+                                <div class="sec-title-block sec-title-filter stake-title-filter">
+                                    <h2 class="sec-title">Your  History</h2>
+                                    <div class="block-right">
+                                        <div class="title-search-box me-2">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+                                                <button class="btn" type="button" id="button-search">
+                                                    <img src="img/search.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown filter-dropdown-group">
+                                            <button class="btn filter-dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                                aria-expanded="false" data-bs-auto-close="outside">
+                                                <span class="filter-label">Filters</span> <img src="img/filter.svg" alt="">
+                                            </button>
+
+                                            <div class="dropdown-menu filter-dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
+                                                <div class="filter-title">
+                                                    <h4>Filter By</h4>
+                                                    <button class="filter-close-btn">
+                                                        <img src="img/filter-close.svg" alt="">
+                                                    </button>
+                                                </div>
+                                                <div class="filter-form-content">
+                                                    <form action="">
+                                                        <div class="inp-cover">
+                                                            <div class="inp-block alert-msg-cover">
+                                                                <label for="" class="form-label">Stake Type</label>
+                                                                <select class="custom-inp form-select custom-selectbox" name="" id="">
+                                                                    <option value="">Long Term</option>
+                                                                    <option value="">Short Term</option>
+                                                                    <option value="">Short Term</option>
+                                                                </select>
+                                                                <span class="alert-msg">Required *</span>
+                                                            </div>
+                                                            <div class="inp-block alert-msg-cover">
+                                                                <label for="" class="form-label">Date Range</label>
+                                                                <input type="text" class="custom-inp">
+                                                                <span class="alert-msg">Required *</span>
+                                                            </div>
+                                                            <div class="inp-block alert-msg-cover">
+                                                                <label for="" class="form-label">Status</label>
+                                                                <select class="custom-inp form-select custom-selectbox" name="" id="">
+                                                                    <option value="">All</option>
+                                                                    <option value="">New</option>
+                                                                    <option value="">New</option>
+                                                                </select>
+                                                                <span class="alert-msg">Required *</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-block">
+                                                            <button class="btn btn-reset">Reset</button>
+                                                            <button class="btn btn-save">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- table -->
+                                <div class="table-sec">
+                                    <div class="table-cover table-responsive custom-scroll">
+                                        <table class="table custom-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            From Token
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            From Amount
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            To Token
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            To Amount
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            Date & Time
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th >
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            Source Tx Hash
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    <th >
+                                                        <div class="th-sort-col pointer-cursor">
+                                                            Status
+                                                            <span class="th-sort"><img src="img/td-sort.svg" alt=""></span>
+                                                        </div>
+                                                    </th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                            </div>
+                                                            PROPS
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/coin-dol.svg" alt="">
+                                                            </div>
+                                                            ceUSDC
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>2025-11-17 14:22</td>
+                                                    <td class="td-single-row">6146cc...3a69d0 <button class="td-copy-btn"><img src="img/td-copy-new.svg" alt=""></button>
+                                                    <td>
+                                                        <div class="item-sts-nw active">
+                                                            Success
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                            </div>
+                                                            PROPS
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/coin-dol.svg" alt="">
+                                                            </div>
+                                                            ceUSDC
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>2025-11-17 14:22</td>
+                                                    <td class="td-single-row">6146cc...3a69d0 <button class="td-copy-btn"><img src="img/td-copy-new.svg" alt=""></button>
+                                                    <td>
+                                                        <div class="item-sts-nw pending">
+                                                            Pending
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                            </div>
+                                                            PROPS
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/coin-dol.svg" alt="">
+                                                            </div>
+                                                            ceUSDC
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>2025-11-17 14:22</td>
+                                                    <td class="td-single-row">6146cc...3a69d0 <button class="td-copy-btn"><img src="img/td-copy-new.svg" alt=""></button>
+                                                    <td>
+                                                        <div class="item-sts-nw rejected">
+                                                            Failed
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                            </div>
+                                                            PROPS
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/coin-dol.svg" alt="">
+                                                            </div>
+                                                            ceUSDC
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>2025-11-17 14:22</td>
+                                                    <td class="td-single-row">6146cc...3a69d0 <button class="td-copy-btn"><img src="img/td-copy-new.svg" alt=""></button>
+                                                    <td>
+                                                        <div class="item-sts-nw rejected">
+                                                            Failed
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/logo-img-coin.svg" alt="">
+                                                            </div>
+                                                            PROPS
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>
+                                                        <div class="tokn-block">
+                                                            <div class="tokn-icon">
+                                                                <img src="img/coin-dol.svg" alt="">
+                                                            </div>
+                                                            ceUSDC
+                                                        </div>
+                                                    </td>
+                                                    <td>$ 120.50</td>
+                                                    <td>2025-11-17 14:22</td>
+                                                    <td class="td-single-row">6146cc...3a69d0 <button class="td-copy-btn"><img src="img/td-copy-new.svg" alt=""></button>
+                                                    <td>
+                                                        <div class="item-sts-nw rejected">
+                                                            Failed
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                            
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="table-pagination-cover">
+                                    <div class="select-block">
+                                        Rows per page
+                                        <select class="pagination-select" name="" id="">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="entries-block">
+                                        Showing 1 to 10 of 39 entries
+                                    </div>
+                                    <div class="pagination-block">
+                                        <nav aria-label="Page">
+                                            <ul class="pagination">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <img src="img/arw-left.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><span class="page-link-dots">&#183;&#183;&#183;</span></li>
+                                                <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">11</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <img src="img/arw-right.svg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                             </div>
+                         </div>
+
+
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Right Slider -->
+    <!-- right-nav-open open class name -->
+    <div class="right-side-nav">
+        <div class="top-sec d-flex align-items-center">
+            <div class="left-block d-flex align-items-center">
+                <button class="right-nav-back-btn">
+                     <img src="img/drw-arrw-left.svg" alt="">
+                </button>
+                <span class="dw-title">
+                    Add Liquidity
+                </span>
+            </div>
+            <div class="right-block">
+                <div class="dropdown right-settings-dropdown">
+                    <button class="btn settings-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="img/side-settings.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <div class="dropdown-title">
+                            Settings
+                        </div>
+                        <div class="slippage-cal-cover">
+                            <div class="slp-title">
+                                Slippage Tolerance <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                            </div>
+                            <div class="slp-btn-cover">
+                                <button class="slp-btn active">0.1%</button>
+                                <button class="slp-btn">0.5%</button>
+                                <button class="slp-btn">1.0%</button>
+                            </div>
+                            <div class="slp-inp-block">
+                                <div class="input-group">
+                                    <input type="text" value="1.5" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-body custom-scroll">
+
+            <!-- Add liquidity 1 1st data -->
+            <div class="add-liq-init">
+                <div class="liq-card">
+                    <div class="top-item">
+                        <div class="val-left">
+                            <input type="text" class="val-inp" value="0.5">
+                        </div>
+                        <div class="data-block-right">
+                            <div class="select-block">
+                                <div class="arw">
+                                    <img src="img/arw-bottom-white.svg" alt="">
+                                </div>
+                                <div class="rht-block">
+                                    <div class="dtls">
+                                        <h4>PROPS</h4>
+                                        <p>Balance : 1,2.4242</p>
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/logo-img-coin.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="range-data-wrapper d-flex">
+                        <div class="amnt-left">
+                            $0.01
+                        </div>
+                        <div class="rng-block d-flex">
+                            <button class="rng-btn">25%</button>
+                            <button class="rng-btn">50%</button>
+                            <button class="rng-btn">75%</button>
+                            <button class="rng-btn">MAX</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="liq-card">
+                    <div class="top-item">
+                        <div class="val-left">
+                            <input type="text" class="val-inp" value="0.5">
+                        </div>
+                        <div class="data-block-right">
+                            <div class="select-block">
+                                <div class="arw">
+                                    <img src="img/arw-bottom-white.svg" alt="">
+                                </div>
+                                <div class="rht-block">
+                                    <div class="dtls">
+                                        <h4>PROPS</h4>
+                                        <p>Balance : 1,2.4242</p>
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/logo-img-coin.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="range-data-wrapper d-flex">
+                        <div class="amnt-left">
+                            $0.01
+                        </div>
+                        <div class="rng-block d-flex">
+                            <button class="rng-btn">25%</button>
+                            <button class="rng-btn">50%</button>
+                            <button class="rng-btn">75%</button>
+                            <button class="rng-btn">MAX</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="type-info-wrapper d-flex justify-content-between">
+                    <div class="type-info">
+                        Curve Type <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                    </div>
+                    <div class="type-info info-off">
+                        <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                        <select class="type-select">
+                            <option value="">Uncorrelated</option>
+                            <option value="">Uncorrelated</option>
+                            <option value="">Uncorrelated</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="lg-btn-block mb-3">
+                    <button class="primary-btn w-100">
+                        Add Liquidity
+                    </button>
+                </div>
+    
+                <div class="currency-reserve-card">
+                    <h4 class="reserves-title">Currency Reserves <span class="info ms-1"><img src="img/info-circle.svg" alt=""></span></h4>
+                    <div class="props-dif-wrapper align-items-center d-flex">
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>PROPS</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                        <div class="sep">-</div>
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/coin-dol.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>ceUSDC</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="apr-block d-flex align-items-center justify-content-between">
+                        <div class="apr-label">
+                            Pool APR <span class="info ms-1"><img src="img/info-circle.svg" alt=""></span>
+                        </div>
+                        <div class="apr-data">
+                            <!-- < 0.01% -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search block -->
+            <div class="token-search-cover d-none">
+                <div class="input-group search-group">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                    <button class="btn search-btn" type="button" id="button-addon2">
+                        <img src="img/search-blue.svg" alt="">
+                    </button>
+                </div>
+                <div class="search-list">
+                    <div class="search-card card-disabled d-flex">
+                        <div class="left-block d-flex">
+                            <div class="icon">
+                                <img src="img/coin-dol.svg" alt="">
+                            </div>
+                            <div class="data">
+                                <h4>USDC</h4>
+                                <p>USDC Coin Verified</p>
+                            </div>
+                        </div>
+                        <div class="rgt-val">
+                            $ 1200.02 USD
+                        </div>
+                    </div>
+                    <div class="search-card d-flex">
+                        <div class="left-block d-flex">
+                            <div class="icon">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="data">
+                                <h4>USDC</h4>
+                                <p>USDC Coin Verified</p>
+                            </div>
+                        </div>
+                        <div class="rgt-val">
+                            $ 1200.02 USD
+                        </div>
+                    </div>
+                    <div class="search-card card-disabled d-flex">
+                        <div class="left-block d-flex">
+                            <div class="icon">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="data">
+                                <h4>USDC</h4>
+                                <p>USDC Coin Verified</p>
+                            </div>
+                        </div>
+                        <div class="rgt-val">
+                            $ 1200.02 USD
+                        </div>
+                    </div>
+                    <div class="search-card d-flex">
+                        <div class="left-block d-flex">
+                            <div class="icon">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="data">
+                                <h4>USDC</h4>
+                                <p>USDC Coin Verified</p>
+                            </div>
+                        </div>
+                        <div class="rgt-val">
+                            $ 1200.02 USD
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create Pool -->
+            <div class="add-liq-init d-none">
+                <div class="liq-card">
+                    <div class="top-item">
+                        <div class="val-left">
+                            1.5
+                        </div>
+                        <div class="data-block-right">
+                            <div class="select-block">
+                                <div class="arw">
+                                    <img src="img/arw-bottom-white.svg" alt="">
+                                </div>
+                                <div class="rht-block">
+                                    <div class="dtls">
+                                        <h4>PROPS</h4>
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/logo-img-coin.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="range-data-wrapper d-flex">
+                        <div class="amnt-left">
+                            $0.01
+                        </div>
+                        <div class="rng-block d-flex">
+                            <button class="rng-btn">25%</button>
+                            <button class="rng-btn">50%</button>
+                            <button class="rng-btn">75%</button>
+                            <button class="rng-btn">MAX</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="liq-card">
+                    <div class="top-item">
+                        <div class="val-left">
+                            1.5
+                        </div>
+                        <div class="data-block-right">
+                            <div class="select-block">
+                                <div class="arw">
+                                    <img src="img/arw-bottom-white.svg" alt="">
+                                </div>
+                                <div class="rht-block">
+                                    <div class="dtls">
+                                        <h4>PROPS</h4>
+                                    </div>
+                                    <div class="icon-block">
+                                        <img src="img/logo-img-coin.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="type-info-wrapper d-flex justify-content-between">
+                    <div class="type-info">
+                        Curve Type <span class="info"><img src="img/info-circle.svg" alt=""></span>
+                    </div>
+                    <div class="type-info info-off">
+                        <span class="info"><img src="img/info-circle.svg" alt=""></span> Uncorrelated
+                    </div>
+                </div>
+    
+                <div class="lg-btn-block mb-3">
+                    <button class="primary-btn w-100">
+                        Create Pool
+                    </button>
+                </div>
+    
+            </div>
+
+            <!-- Remove liquidity -->
+            <div class="add-liq-init ">
+                <div class="currency-reserve-card remove-liquidity-card mb-3">
+                    <h4 class="reserves-title">Remove Liquidity <span class="info ms-1"><img src="img/info-circle.svg" alt=""></span></h4>
+                    <div class="lp-title-wrapper d-flex">
+                        <div class="lp-title">LP Token</div>
+                        <div class="lp-val">088</div>
+                    </div>
+                    <div class="val-range-cover">
+                        <div class="rng-val">
+                            10%
+                        </div>
+                        <div class="rng-slider">
+                            Slider goes here..
+                        </div>
+                        <div class="btn-cover">
+                            <button class="rng-btn active">25%</button>
+                            <button class="rng-btn">50%</button>
+                            <button class="rng-btn">75%</button>
+                            <button class="rng-btn">Max</button>
+                        </div>
+                    </div>
+                    <h4 class="reserves-title mb-2">Output</h4>
+                    <div class="props-dif-wrapper align-items-center d-flex">
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/logo-img-coin.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>PROPS</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                        <div class="sep">-</div>
+                        <div class="props-sm-block align-items-center d-flex">
+                            <div class="icon-block">
+                                <img src="img/coin-dol.svg" alt="">
+                            </div>
+                            <div class="pr-data">
+                                <h4>ceUSDC</h4>
+                                <p>$ 120.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg-btn-block">
+                    <button class="primary-btn w-100">
+                        Approve
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Right end -->
+ 
+
+    <!-- Create pool -->
+    <div class="modal fade custom-modal add-liquidity-modal" id="createStakeModal" tabindex="-1" aria-labelledby="createStakeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="img/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="liq-modal-body">
+                        <div class="modal-title">
+                            <h2>Create Pool</h2>
+                        </div>
+                        <!-- Confrimation sec -->
+                        <div class="confirmation-cover text-center">
+                            <div class="img-block">
+                                <div class="img-cover">
+                                    <img src="img/props-conform.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Waiting for Pool Confirmation</h4>
+                                <p>Approve the request in your wallet to finalize the new pool.</p>
+                            </div>
+                        </div>
+                        <!-- Confrimation warning -->
+                        <div class="confirmation-cover text-center">
+                            <div class="img-block">
+                                <div class="img-cover img-warning">
+                                    <img src="img/succss-grn.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text-data">
+                                <h4>Pool Created Successfully</h4>
+                                <p>You’ve successfully created a new pool on the network.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

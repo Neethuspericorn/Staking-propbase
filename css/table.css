@@ -261,4 +261,49 @@
 .portfolio-sec .portfolio-card .card-table td .text-light-blue {
   color: #A2A2DF !important; }
 
+.td-single-row {
+  text-wrap: nowrap; }
+
+td .td-copy-btn {
+  margin-left: 5px;
+  line-height: 0;
+  border: none;
+  padding: 0;
+  background-color: transparent; }
+  td .td-copy-btn img {
+    filter: grayscale(1) brightness(10); }
+
+.item-sts-nw {
+  display: inline-flex;
+  align-items: center;
+  color: #666B78; }
+  .item-sts-nw::before {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    content: '';
+    margin-right: 5px;
+    background-color: #666B78; }
+  .item-sts-nw.active {
+    color: #3EF66C; }
+    .item-sts-nw.active::before {
+      background-color: #3EF66C; }
+  .item-sts-nw.completed {
+    color: #3EF6D1; }
+    .item-sts-nw.completed::before {
+      background-color: #3EF6D1; }
+  .item-sts-nw.pending {
+    color: #FF5900; }
+    .item-sts-nw.pending::before {
+      background-color: #FF5900; }
+  .item-sts-nw.active-blue {
+    color: #2966FF; }
+    .item-sts-nw.active-blue::before {
+      background-color: #2966FF; }
+  .item-sts-nw.rejected {
+    color: #FF0004; }
+    .item-sts-nw.rejected::before {
+      background-color: #FF0004; }
+
 /*# sourceMappingURL=table.css.map */
