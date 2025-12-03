@@ -1,6 +1,21 @@
 @import "partials/partials";
 
+.liq-pool-body-outer{
+    .filter-wrapper.liq-tab-wrapper .filter-nav-btn{
+        @media (max-width: 479px) {
+            padding: 7px 15px;
+        }
+        @media (max-width: 400px) {
+            margin-right: 5px;
+            padding: 7px 15px;
+        }
+    }
+    .liq-tab-wrapper{
+        padding: 10px !important;
+    }
+}
 .swap-page-outer{
+    margin-bottom: 30px;
     .swap-filter-cover{
         display: flex;
         justify-content: center;
@@ -10,11 +25,25 @@
         }
         .filter-wrapper{
             margin-bottom: 0;
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
             border-bottom: 1px solid #282828;
+            border-radius: 0;
+            @media ($sm-579) {
+                width: 100%;
+            }
             .filter-nav-btn{
                 min-width: 245px;
+                @media ($sm-1199) {
+                    min-width: 200px;
+                }
+                @media ($sm-991) {
+                    min-width: 180px;
+                }
+                @media ($sm-579) {
+                    width: 50%;
+                    min-width: auto;
+                }
                 img{
                     margin-right: 12px;
                 }
@@ -49,6 +78,9 @@
             margin-top: 15px;
             @media (min-width: 580px) {
                 display: none;
+            }
+            .primary-btn{
+                padding: 15px;
             }
         }
         .swap-title-sec{
@@ -438,6 +470,11 @@
     .swap-history-cover{
         max-width: 1300px;
         margin: 0 auto;
+        .history-table-web{
+            @media ($sm-579) {
+                display: none;
+            }
+        }
         table{
             .tokn-block{
                 display: flex;
@@ -455,6 +492,96 @@
                     img{
                         max-width: 100%;
                         max-height: 100%;
+                    }
+                }
+            }
+        }
+        .history-card-mob{
+            @media (min-width: 580px) {
+                display: none;
+            }
+            .history-card{
+                border-radius: 20px;
+                background-color: #0E0E10;
+                margin-bottom: 15px;
+                .title-id-block{
+                    padding: 17px 20px 10px;
+                    .ids{
+                        color: #fff;
+                        font-size: 13px;
+                        @media (max-width: 400px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .data-item-wrapper{
+                    background-color: #141418;
+                    .data-item{
+                        padding: 25px 10px 25px 20px;
+                        height: 100%;
+                        align-items: center;
+                        width: 50%;
+                        @media (max-width: 400px) {
+                            padding: 20px 10px 20px 15px;
+                        }
+                        &:first-child{
+                            border-right: solid 1.5px #0E0E10;
+                        }
+                        .icon-block{
+                            flex-shrink: 0;
+                            width: 41px;
+                            height: 41px;
+                            border-radius: 50%;
+                            background-color: #202024;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 8px;
+                            margin-right: 10px;
+                            @media (max-width: 400px) {
+                                width: 35px;
+                                height: 35px;
+                            }
+                            img{
+                                max-width: 20px;
+                                @media (max-width: 400px) {
+                                    max-width: 18px;
+                                }
+                            }
+                        }
+                        .txt-block{
+                            h4{
+                                font-size: 14px;
+                                font-weight: 600;
+                                margin-bottom: 4px;
+                                @media (max-width: 400px) {
+                                    font-size: 13px;
+                                }
+                            }
+                            p{
+                                margin: 0;
+                                font-size: 14px;
+                                @media (max-width: 400px) {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btm-val{
+                    padding: 16px 20px;
+                    .date{
+                        font-size: 14px;
+                        color: #fff;
+                        @media (max-width: 400px) {
+                            font-size: 13px;
+                        }
+                    }
+                    .status{
+                        font-size: 13px;
+                        @media (max-width: 400px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
