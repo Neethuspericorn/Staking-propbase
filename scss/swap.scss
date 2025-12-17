@@ -59,15 +59,21 @@
     .swap-tab-cover{
         background-color: #0E0E10;
         border-radius: 35px;
-        max-width: 985px;
+        max-width: 1150px;
         margin: 0 auto;
         padding: 20px 30px 45px;
+        @media ($sm-1441) {
+            padding: 20px 20px 45px;
+        }
         @media ($sm-579) {
             border-radius: 30px;
         }
         @media ($sm-479) {
             border-radius: 25px;
             padding: 25px 18px;
+        }
+        @media (max-width: 360px) {
+            padding: 25px 12px;
         }
         .lg-btn-web{
             @media ($sm-579) {
@@ -81,6 +87,16 @@
             }
             .primary-btn{
                 padding: 15px;
+            }
+        }
+        .swap-data-col{
+            @media (min-width: 1200px) and (max-width: 1300px) {
+                width: 45%;
+            }
+        }
+        .price-data-col{
+            @media (min-width: 1200px) and (max-width: 1300px) {
+                width: 55%;
             }
         }
         .swap-title-sec{
@@ -209,22 +225,31 @@
                     padding: 15px;
                     padding-left: 20px;
                     margin-bottom: 10px;
+                    @media ($sm-479) {
+                        padding-left: 15px;
+                    }
                     &.liq-card-1{
                         position: relative;
                         padding-bottom: 25px;
-                        &::after{
-                            content: '';
-                            width: 33px;
-                            height: 33px;
+                        .toggle-btn{
+                            width: 35px;
+                            height: 35px;
                             border-radius: 50%;
-                            background-image: url('../img/card-swap-icon.svg');
-                            background-repeat: no-repeat;
-                            background-position: center;
                             position: absolute;
                             left: 0;
                             right: 0;
                             margin: 0 auto;
                             bottom: -20px;
+                            padding: 0;
+                            border: none;
+                            background-color: transparent;
+                            transition: .3s;
+                            &:hover{
+                                opacity: .8;
+                            }
+                            img{
+                                max-width: 100%;
+                            }
                         }
                     }
                     &.liq-card-2{
@@ -234,9 +259,15 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
+                        @media (max-width: 360px) {
+                            flex-direction: column;
+                        }
                         .val-left{
                             flex-grow: 1;
                             padding-right: 10px;
+                            @media (max-width: 360px) {
+                                padding-right: 0;
+                            }
                             .val-inp{
                                 background-color: transparent;
                                 border: none;
@@ -250,13 +281,23 @@
                             }
                         }
                         .data-block-right{
+                            @media (max-width: 360px) {
+                                width: 100%;
+                                margin-top: 5px;
+                            }
                             .select-block{
                                 background-color: #1C1C1F;
                                 border-radius: 10px;
-                                min-width: 200px;
+                                min-width: 250px;
                                 display: flex;
                                 align-items: center;
-                                padding: 10px 12px 10px 20px;
+                                padding: 10px 12px 10px 15px;
+                                @media (max-width: 420px) {
+                                    min-width: 190px;
+                                }
+                                @media (max-width: 350px) {
+                                    width: 100%;
+                                }
                                 .arw{
                                     flex-shrink: 0;
                                     margin-right: 8px;
@@ -292,11 +333,17 @@
                                         @media ($sm-1679) {
                                             font-size: 13px;
                                         }
+                                        @media (max-width: 420px) {
+                                            font-size: 12px;
+                                        }
                                     }
                                     p{
                                         margin: 0;
                                         color: #697081;
                                         font-size: 12px;
+                                        @media (max-width: 420px) {
+                                            font-size: 11px;
+                                        }
                                     }
                                 }
                             }
@@ -376,21 +423,23 @@
                     padding: 12px 18px;
                     border-radius: 6px;
                     margin-bottom: 35px;
+                    @media ($sm-1441) {
+                        padding: 12px 10px;
+                    }
                     @media ($sm-579) {
                         margin-bottom: 30px;
+                        flex-wrap: wrap;
+                        flex-direction: column;
                     }
                     @media ($sm-479) {
                         padding: 12px;
                     }
-                    @media (max-width: 410px) {
-                        flex-wrap: wrap;
-                        flex-direction: column;
-                    }
+                    
                     .price{
                         display: inline-flex;
                         align-items: center;
                         font-size: 12px;
-                        @media ($sm-479) {
+                        @media ($sm-1441) {
                             font-size: 11px;
                         }
                         .icon-swp{
@@ -402,7 +451,7 @@
                         height: 14px;
                         width: 1.5px;
                         background-color: #44444F;
-                        @media (max-width: 410px) {
+                        @media (max-width: 579px) {
                             height: 1.5px;
                             width: 25px;
                             margin: 10px 0;

@@ -56,9 +56,12 @@
   .swap-page-outer .swap-tab-cover {
     background-color: #0E0E10;
     border-radius: 35px;
-    max-width: 985px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 20px 30px 45px; }
+    @media (max-width: 1441px) {
+      .swap-page-outer .swap-tab-cover {
+        padding: 20px 20px 45px; } }
     @media (max-width: 579px) {
       .swap-page-outer .swap-tab-cover {
         border-radius: 30px; } }
@@ -66,6 +69,9 @@
       .swap-page-outer .swap-tab-cover {
         border-radius: 25px;
         padding: 25px 18px; } }
+    @media (max-width: 360px) {
+      .swap-page-outer .swap-tab-cover {
+        padding: 25px 12px; } }
     @media (max-width: 579px) {
       .swap-page-outer .swap-tab-cover .lg-btn-web {
         display: none; } }
@@ -76,6 +82,12 @@
           display: none; } }
       .swap-page-outer .swap-tab-cover .lg-btn-mob .primary-btn {
         padding: 15px; }
+    @media (min-width: 1200px) and (max-width: 1300px) {
+      .swap-page-outer .swap-tab-cover .swap-data-col {
+        width: 45%; } }
+    @media (min-width: 1200px) and (max-width: 1300px) {
+      .swap-page-outer .swap-tab-cover .price-data-col {
+        width: 55%; } }
     .swap-page-outer .swap-tab-cover .swap-title-sec {
       margin-bottom: 25px; }
       .swap-page-outer .swap-tab-cover .swap-title-sec .left-block h2 {
@@ -175,31 +187,44 @@
       padding: 15px;
       padding-left: 20px;
       margin-bottom: 10px; }
+      @media (max-width: 479px) {
+        .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card {
+          padding-left: 15px; } }
       .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-1 {
         position: relative;
         padding-bottom: 25px; }
-        .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-1::after {
-          content: '';
-          width: 33px;
-          height: 33px;
+        .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-1 .toggle-btn {
+          width: 35px;
+          height: 35px;
           border-radius: 50%;
-          background-image: url("../img/card-swap-icon.svg");
-          background-repeat: no-repeat;
-          background-position: center;
           position: absolute;
           left: 0;
           right: 0;
           margin: 0 auto;
-          bottom: -20px; }
+          bottom: -20px;
+          padding: 0;
+          border: none;
+          background-color: transparent;
+          transition: .3s; }
+          .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-1 .toggle-btn:hover {
+            opacity: .8; }
+          .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-1 .toggle-btn img {
+            max-width: 100%; }
       .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card.liq-card-2 {
         padding-top: 20px; }
       .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item {
         display: flex;
         justify-content: space-between;
         align-items: center; }
+        @media (max-width: 360px) {
+          .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item {
+            flex-direction: column; } }
         .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .val-left {
           flex-grow: 1;
           padding-right: 10px; }
+          @media (max-width: 360px) {
+            .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .val-left {
+              padding-right: 0; } }
           .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .val-left .val-inp {
             background-color: transparent;
             border: none;
@@ -210,13 +235,23 @@
             @media (max-width: 1679px) {
               .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .val-left .val-inp {
                 font-size: 16px; } }
+        @media (max-width: 360px) {
+          .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right {
+            width: 100%;
+            margin-top: 5px; } }
         .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block {
           background-color: #1C1C1F;
           border-radius: 10px;
-          min-width: 200px;
+          min-width: 250px;
           display: flex;
           align-items: center;
-          padding: 10px 12px 10px 20px; }
+          padding: 10px 12px 10px 15px; }
+          @media (max-width: 420px) {
+            .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block {
+              min-width: 190px; } }
+          @media (max-width: 350px) {
+            .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block {
+              width: 100%; } }
           .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block .arw {
             flex-shrink: 0;
             margin-right: 8px; }
@@ -248,10 +283,16 @@
               @media (max-width: 1679px) {
                 .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block .dtls h4 {
                   font-size: 13px; } }
+              @media (max-width: 420px) {
+                .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block .dtls h4 {
+                  font-size: 12px; } }
             .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block .dtls p {
               margin: 0;
               color: #697081;
               font-size: 12px; }
+              @media (max-width: 420px) {
+                .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .top-item .data-block-right .select-block .dtls p {
+                  font-size: 11px; } }
       .swap-page-outer .swap-tab-cover .swap-data-wrapper .col-left-sec .liq-card .range-data-wrapper {
         padding-top: 18px;
         align-items: center; }
@@ -313,21 +354,22 @@
         padding: 12px 18px;
         border-radius: 6px;
         margin-bottom: 35px; }
+        @media (max-width: 1441px) {
+          .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover {
+            padding: 12px 10px; } }
         @media (max-width: 579px) {
           .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover {
-            margin-bottom: 30px; } }
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            flex-direction: column; } }
         @media (max-width: 479px) {
           .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover {
             padding: 12px; } }
-        @media (max-width: 410px) {
-          .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover {
-            flex-wrap: wrap;
-            flex-direction: column; } }
         .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover .price {
           display: inline-flex;
           align-items: center;
           font-size: 12px; }
-          @media (max-width: 479px) {
+          @media (max-width: 1441px) {
             .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover .price {
               font-size: 11px; } }
           .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover .price .icon-swp {
@@ -337,7 +379,7 @@
           height: 14px;
           width: 1.5px;
           background-color: #44444F; }
-          @media (max-width: 410px) {
+          @media (max-width: 579px) {
             .swap-page-outer .swap-tab-cover .swap-data-wrapper .price-data-cover .price-swap-cover .sep {
               height: 1.5px;
               width: 25px;
