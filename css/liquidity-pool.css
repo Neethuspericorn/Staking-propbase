@@ -355,7 +355,10 @@
       width: calc(50% - 5px);
       padding: 12px 10px;
       font-size: 12px;
-      font-weight: 600; }
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
       .liq-pool-body-outer .pool-mob-block .pool-mob-card .btn-block-btm .primary-btn img {
         margin-right: 6px;
         max-height: 12px; }
