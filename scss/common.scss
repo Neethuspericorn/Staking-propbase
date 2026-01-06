@@ -1119,3 +1119,21 @@ button{
         }
     }
 }
+
+.home-btn-wrapper-outer{
+    padding: 0 !important;
+    .home-btn-wrapper{
+        padding: 13px 15px;
+        overflow-y: auto;
+        width: 100%;
+        max-width: 100%;
+        .filter-nav-btn{
+            &::after{
+                bottom: -13px !important;
+            }
+            @media (max-width: 579px) {
+                margin-right: 15px;
+            }
+        }
+    }
+}

@@ -893,4 +893,17 @@ button {
     flex-wrap: wrap !important;
     flex-direction: column; } }
 
+.home-btn-wrapper-outer {
+  padding: 0 !important; }
+  .home-btn-wrapper-outer .home-btn-wrapper {
+    padding: 13px 15px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 100%; }
+    .home-btn-wrapper-outer .home-btn-wrapper .filter-nav-btn::after {
+      bottom: -13px !important; }
+    @media (max-width: 579px) {
+      .home-btn-wrapper-outer .home-btn-wrapper .filter-nav-btn {
+        margin-right: 15px; } }
+
 /*# sourceMappingURL=common.css.map */
