@@ -446,4 +446,52 @@
 .sidedrawer-tooltip {
   z-index: 10100 !important; }
 
+.right-side-nav .nav-body .create-pool-card {
+  margin-bottom: 20px; }
+  @media (max-width: 1481px) {
+    .right-side-nav .nav-body .create-pool-card {
+      margin-bottom: 15px; } }
+  .right-side-nav .nav-body .create-pool-card .sec-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 12px; }
+    @media (max-width: 1679px) {
+      .right-side-nav .nav-body .create-pool-card .sec-label {
+        font-size: 13px; } }
+  .right-side-nav .nav-body .create-pool-card .input-block .input-item {
+    min-height: 70px;
+    background-color: #141417;
+    border-radius: 18px;
+    padding: 20px 15px;
+    color: #fff;
+    width: 100%;
+    border: none; }
+    @media (max-width: 1679px) {
+      .right-side-nav .nav-body .create-pool-card .input-block .input-item {
+        min-height: 66px; } }
+    @media (max-width: 1481px) {
+      .right-side-nav .nav-body .create-pool-card .input-block .input-item {
+        min-height: 60px;
+        padding: 16px 15px; } }
+  .right-side-nav .nav-body .create-pool-card .create-pool-group .form-control {
+    color: #fff;
+    border: none;
+    background-color: transparent; }
+  .right-side-nav .nav-body .create-pool-card .create-pool-group .input-group-text {
+    color: #3D414C; }
+  .right-side-nav .nav-body .create-pool-card .create-pool-group .input-group-text, .right-side-nav .nav-body .create-pool-card .create-pool-group .form-control {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 0; }
+    @media (max-width: 1679px) {
+      .right-side-nav .nav-body .create-pool-card .create-pool-group .input-group-text, .right-side-nav .nav-body .create-pool-card .create-pool-group .form-control {
+        font-size: 16px; } }
+    @media (max-width: 1481px) {
+      .right-side-nav .nav-body .create-pool-card .create-pool-group .input-group-text, .right-side-nav .nav-body .create-pool-card .create-pool-group .form-control {
+        font-size: 15px; } }
+
 /*# sourceMappingURL=right-side-nav.css.map */
