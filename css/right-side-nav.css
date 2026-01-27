@@ -213,12 +213,80 @@
             margin: 0;
             color: #697081;
             font-size: 12px; }
+      .right-side-nav .nav-body .liq-card .stake-val-block {
+        display: flex;
+        align-items: center;
+        background-color: #1C1C1F;
+        border-radius: 10px;
+        min-width: 215px;
+        display: flex;
+        align-items: center;
+        padding: 13px 12px;
+        justify-content: flex-end;
+        flex-shrink: 0; }
+        @media (max-width: 1679px) {
+          .right-side-nav .nav-body .liq-card .stake-val-block {
+            padding: 10px 12px; } }
+        @media (max-width: 400px) {
+          .right-side-nav .nav-body .liq-card .stake-val-block {
+            min-width: auto; } }
+        .right-side-nav .nav-body .liq-card .stake-val-block .props-name {
+          font-size: 18px;
+          font-weight: 500;
+          color: #fff;
+          white-space: nowrap;
+          margin-right: 13px; }
+          @media (max-width: 1679px) {
+            .right-side-nav .nav-body .liq-card .stake-val-block .props-name {
+              font-size: 15px; } }
+          @media (max-width: 479px) {
+            .right-side-nav .nav-body .liq-card .stake-val-block .props-name {
+              font-size: 14px; } }
+          @media (max-width: 400px) {
+            .right-side-nav .nav-body .liq-card .stake-val-block .props-name {
+              font-size: 13px; } }
+        .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block {
+          display: flex;
+          align-items: center; }
+          .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block .logo-icn {
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            padding: 7px;
+            background-color: #2B2B32; }
+            @media (max-width: 1679px) {
+              .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block .logo-icn {
+                width: 26px;
+                height: 26px; } }
+            @media (max-width: 400px) {
+              .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block .logo-icn {
+                width: 22px;
+                height: 22px; } }
+            .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block .logo-icn img {
+              max-width: 100%; }
+            .right-side-nav .nav-body .liq-card .stake-val-block .data-logo-block .logo-icn:nth-child(2) {
+              margin-left: -10px; }
       .right-side-nav .nav-body .liq-card .range-data-wrapper {
         padding-top: 18px;
         align-items: center; }
         @media (max-width: 1679px) {
           .right-side-nav .nav-body .liq-card .range-data-wrapper {
             padding-top: 14px; } }
+        @media (max-width: 400px) {
+          .right-side-nav .nav-body .liq-card .range-data-wrapper.range-data-wrapper-stake {
+            flex-wrap: wrap;
+            padding-top: 5px; }
+            .right-side-nav .nav-body .liq-card .range-data-wrapper.range-data-wrapper-stake .amnt-left {
+              width: 100%;
+              margin-bottom: 12px; }
+            .right-side-nav .nav-body .liq-card .range-data-wrapper.range-data-wrapper-stake .rng-block {
+              width: 100%; }
+              .right-side-nav .nav-body .liq-card .range-data-wrapper.range-data-wrapper-stake .rng-block .rng-btn:first-child {
+                margin-left: 0; } }
         .right-side-nav .nav-body .liq-card .range-data-wrapper .amnt-left {
           font-size: 13px;
           color: #697081; }
@@ -245,6 +313,17 @@
               opacity: 1;
               background-color: #2966FF;
               color: #fff; }
+    .right-side-nav .nav-body .staked-data-card {
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      font-size: 12px;
+      padding: 16px;
+      border-radius: 8px;
+      background-color: #141417C9;
+      margin-bottom: 15px; }
+      .right-side-nav .nav-body .staked-data-card .data-val {
+        font-weight: 600; }
     .right-side-nav .nav-body .type-info-wrapper {
       padding-top: 15px;
       margin-bottom: 20px; }

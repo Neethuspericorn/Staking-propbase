@@ -254,11 +254,94 @@
                     }
                 }
             }
+
+            .stake-val-block{
+                display: flex;
+                align-items: center;
+                background-color: #1C1C1F;
+                border-radius: 10px;
+                min-width: 215px;
+                display: flex;
+                align-items: center;
+                padding: 13px 12px;
+                justify-content: flex-end;
+                flex-shrink: 0;
+                @media ($sm-1679) {
+                    padding: 10px 12px;
+                }
+                @media (max-width: 400px) {
+                    min-width: auto;
+                }
+                .props-name{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                    white-space: nowrap;
+                    margin-right: 13px;
+                    @media ($sm-1679) {
+                        font-size: 15px;
+                    }
+                    @media ($sm-479) {
+                        font-size: 14px;
+                    }
+                    @media (max-width: 400px) {
+                        font-size: 13px;
+                    }
+                }
+
+                .data-logo-block{
+                    display: flex;
+                    align-items: center;
+                    .logo-icn {
+                        flex-shrink: 0;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        padding: 7px;
+                        background-color: #2B2B32;
+                        @media ($sm-1679) {
+                            width: 26px;
+                            height: 26px;
+                        }
+                        @media (max-width: 400px) {
+                            width: 22px;
+                            height: 22px;
+                        }
+                        img{
+                            max-width: 100%;
+                        }
+                        &:nth-child(2){
+                            margin-left: -10px;
+                        }
+                    }
+                }
+            }
             .range-data-wrapper{
                 padding-top: 18px;
                 align-items: center;
                 @media ($sm-1679) {
                     padding-top: 14px;
+                }
+                &.range-data-wrapper-stake{
+                    @media (max-width: 400px) {
+                        flex-wrap: wrap;
+                        padding-top: 5px;
+                        .amnt-left{
+                            width: 100%;
+                            margin-bottom: 12px;
+                        }
+                        .rng-block{
+                            width: 100%;
+                            .rng-btn{
+                                &:first-child{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                    }
                 }
                 .amnt-left{
                     font-size: 13px;
@@ -291,6 +374,20 @@
                         }
                     }
                 }
+            }
+        }
+
+        .staked-data-card{
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: 12px;
+            padding: 16px;
+            border-radius: 8px;
+            background-color: #141417C9;
+            margin-bottom: 15px;
+            .data-val{
+                font-weight: 600;
             }
         }
 

@@ -154,7 +154,10 @@
     border: none !important; }
     .liq-pool-body-outer .pools-table-sec .table-cover .pools-table-container {
       overflow-y: visible !important; }
+      .liq-pool-body-outer .pools-table-sec .table-cover .pools-table-container.farms-table-container {
+        overflow-y: auto !important; }
   .liq-pool-body-outer .pools-table-sec .custom-table thead th {
+    white-space: nowrap;
     background: transparent !important;
     padding: 20px 15px;
     border: none !important; }
@@ -207,9 +210,29 @@
         margin: 0;
         color: #697081;
         font-size: 12px; }
+  .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .staked-lp-val {
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px; }
+  .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .td-logo-block .logo-icn {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    background-color: #25272B; }
+    .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .td-logo-block .logo-icn:nth-child(2) {
+      margin-left: -3px; }
+  .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .txt-block {
+    padding-left: 5px; }
+    .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .txt-block h4 {
+      font-size: 12px;
+      white-space: nowrap; }
+      @media (max-width: 1679px) {
+        .liq-pool-body-outer .pools-table-sec .custom-table .staked-lp-td-block .txt-block h4 {
+          font-size: 10px; } }
   .liq-pool-body-outer .pools-table-sec .custom-table .pool-td-btn-block {
     display: flex; }
     .liq-pool-body-outer .pools-table-sec .custom-table .pool-td-btn-block .sm-btn {
+      white-space: nowrap;
       margin-right: 10px; }
       @media (max-width: 1679px) {
         .liq-pool-body-outer .pools-table-sec .custom-table .pool-td-btn-block .sm-btn img {
@@ -288,10 +311,13 @@
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 10px; }
+  @media (max-width: 390px) {
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card {
+      padding: 12px; } }
   .liq-pool-body-outer .pool-mob-block .pool-mob-card .pool-td-block {
     display: flex;
     align-items: center;
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     .liq-pool-body-outer .pool-mob-block .pool-mob-card .pool-td-block .td-logo-block {
       display: flex;
       align-items: center; }
@@ -321,6 +347,57 @@
         margin: 0;
         color: #697081;
         font-size: 12px; }
+  .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .td-logo-block {
+      display: flex;
+      align-items: center; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .td-logo-block .logo-icn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 7px;
+        background-color: #26282C; }
+        .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .td-logo-block .logo-icn:nth-child(2) {
+          background-color: #181A1C;
+          margin-left: -10px; }
+        .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .td-logo-block .logo-icn img {
+          max-width: 100%;
+          max-height: 100%; }
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .txt-block {
+      padding-left: 20px; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .txt-block h4 {
+        color: #fff;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 500; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block .txt-block p {
+        margin: 0;
+        color: #697081;
+        font-size: 12px; }
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .staked-lp-val {
+      color: #fff;
+      display: inline-block;
+      margin-right: 10px; }
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .td-logo-block .logo-icn {
+      width: 14px;
+      height: 14px;
+      padding: 3px;
+      background-color: #25272B; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .td-logo-block .logo-icn:nth-child(2) {
+        margin-left: -3px; }
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .txt-block {
+      padding-left: 5px; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .txt-block h4 {
+        font-size: 12px; }
+        @media (max-width: 1679px) {
+          .liq-pool-body-outer .pool-mob-block .pool-mob-card .staked-lp-td-block.staked-lp-td-block .txt-block h4 {
+            font-size: 10px; } }
   .liq-pool-body-outer .pool-mob-block .pool-mob-card .card-det-wrapper {
     justify-content: space-between;
     margin-bottom: 25px; }
@@ -359,9 +436,26 @@
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (max-width: 390px) {
+        .liq-pool-body-outer .pool-mob-block .pool-mob-card .btn-block-btm .primary-btn {
+          font-size: 11px; } }
       .liq-pool-body-outer .pool-mob-block .pool-mob-card .btn-block-btm .primary-btn img {
         margin-right: 6px;
         max-height: 12px; }
+        @media (max-width: 390px) {
+          .liq-pool-body-outer .pool-mob-block .pool-mob-card .btn-block-btm .primary-btn img {
+            display: none; } }
+  @media (max-width: 390px) {
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card.pool-mob-card-farming .card-det-wrapper-top {
+      flex-wrap: nowrap; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card.pool-mob-card-farming .card-det-wrapper-top .card-det-sm {
+        width: auto;
+        padding-top: 0; } }
+  @media (max-width: 415px) {
+    .liq-pool-body-outer .pool-mob-block .pool-mob-card.pool-mob-card-farming .card-det-wrapper-lg {
+      flex-wrap: wrap; }
+      .liq-pool-body-outer .pool-mob-block .pool-mob-card.pool-mob-card-farming .card-det-wrapper-lg .card-det-sm {
+        width: 100%; } }
 
 .farm-action-th {
   width: 150px; }

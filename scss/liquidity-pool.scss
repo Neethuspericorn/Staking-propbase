@@ -167,11 +167,14 @@
             border: none !important;
             .pools-table-container{
                 overflow-y: visible !important;
-
+                &.farms-table-container{
+                    overflow-y: auto !important;
+                }
             }
         }
         .custom-table {
             thead th{
+                white-space: nowrap;
                 background: transparent !important;
                 padding: 20px 15px;
                 border: none !important;
@@ -234,9 +237,37 @@
                     }
                 }
             }
+            .staked-lp-td-block{
+                .staked-lp-val{
+                    color: #fff;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+                .td-logo-block .logo-icn{
+                    width: 14px;
+                    height: 14px;
+                    padding: 3px;
+                    background-color: #25272B;
+                    &:nth-child(2){
+                        margin-left: -3px;
+                    }
+                }
+                .txt-block {
+                    padding-left: 5px;
+                    h4{
+                        font-size: 12px;
+                        white-space: nowrap;
+                        @media ($sm-1679) {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            
             .pool-td-btn-block{
                 display: flex;
                 .sm-btn{
+                    white-space: nowrap;
                     margin-right: 10px;
                     img{
                         @media ($sm-1679) {
@@ -341,10 +372,13 @@
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 10px;
+            @media (max-width: 390px) {
+                padding: 12px;
+            }
             .pool-td-block{
                 display: flex;
                 align-items: center;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 .td-logo-block{
                     display: flex;
                     align-items: center;
@@ -379,6 +413,72 @@
                         margin: 0;
                         color: #697081;
                         font-size: 12px;
+                    }
+                }
+            }
+            .staked-lp-td-block{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                .td-logo-block{
+                    display: flex;
+                    align-items: center;
+                    .logo-icn{
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        padding: 7px;
+                        background-color: #26282C;
+                        &:nth-child(2){
+                            background-color: #181A1C;
+                            margin-left: -10px;
+                        }
+                        img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+                .txt-block{
+                    padding-left: 20px;
+                    h4{
+                        color: #fff;
+                        margin-bottom: 0;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    p{
+                        margin: 0;
+                        color: #697081;
+                        font-size: 12px;
+                    }
+                }
+                &.staked-lp-td-block{
+                    .staked-lp-val{
+                        color: #fff;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    .td-logo-block .logo-icn{
+                        width: 14px;
+                        height: 14px;
+                        padding: 3px;
+                        background-color: #25272B;
+                        &:nth-child(2){
+                            margin-left: -3px;
+                        }
+                    }
+                    .txt-block {
+                        padding-left: 5px;
+                        h4{
+                            font-size: 12px;
+                            @media ($sm-1679) {
+                                font-size: 10px;
+                            }
+                        }
                     }
                 }
             }
@@ -428,9 +528,34 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    @media (max-width: 390px) {
+                        font-size: 11px;
+                    }
                     img{
                         margin-right: 6px;
                         max-height: 12px;
+                        @media (max-width: 390px) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.pool-mob-card-farming{
+                .card-det-wrapper-top{
+                    @media (max-width: 390px) {
+                        flex-wrap: nowrap;
+                        .card-det-sm{
+                            width: auto;
+                            padding-top: 0;
+                        }
+                    }
+                }
+                .card-det-wrapper-lg{
+                    @media (max-width: 415px) {
+                        flex-wrap: wrap;
+                        .card-det-sm{
+                            width: 100%;
+                        }
                     }
                 }
             }
