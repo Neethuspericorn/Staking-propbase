@@ -46,6 +46,7 @@
             }
             @media ($sm-579) {
                 order: 2;
+                margin-bottom: 0;
             }
             h4{
                 color: $primary-blue;
@@ -118,6 +119,44 @@
                     }
                 }
             }
+            .farming-tab-block{
+                @media ($sm-579) {
+                    margin-bottom: 20px;
+                }
+                .farming-tab-btn{
+                    padding: 12px 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 16px;
+                    background-color: transparent;
+                    border: none;
+                    color: $text-primary-dark;
+                    transition: .3s;
+                    position: relative;
+                    font-size: 16px;
+                    color: #697081;
+                    @media ($sm-1679) {
+                        font-size: 14px;
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0;
+                        background-color: #2966FF;
+                        height: 2px;
+                        transition: .3s;
+                    }
+                    &:hover, &.active{
+                        color: $primary-blue !important;
+                        &::after {
+                            width: 99%;
+                        }
+                    }
+                }
+            }
         }
         .title-right-block{
             display: flex;
@@ -184,6 +223,9 @@
                 .th-info{
                     margin-top: -2px;
                 }
+            }
+            td{
+                white-space: nowrap;
             }
             .pool-td-block{
                 display: flex;
@@ -269,6 +311,12 @@
                 .sm-btn{
                     white-space: nowrap;
                     margin-right: 10px;
+                    font-size: 12px;
+                    padding: 7px 15px;
+                    min-width: 80px;
+                    &.sm-btn-stake{
+                        background-color: #1F1F23;
+                    }
                     img{
                         @media ($sm-1679) {
                             max-height: 14px;
