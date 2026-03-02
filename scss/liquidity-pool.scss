@@ -46,7 +46,6 @@
             }
             @media ($sm-579) {
                 order: 2;
-                margin-bottom: 0;
             }
             h4{
                 color: $primary-blue;
@@ -96,26 +95,39 @@
                     font-size: 20px;
                     font-weight: 500;
                     margin: 1px;
+                    position: relative;
                     @media ($sm-1679) {
-                        min-width: 170px;
-                        font-size: 16px;
+                        min-width: 140px;
+                        font-size: 14px;
                         padding: 9px 11px;
                     }
                     @media ($sm-1481) {
-                        min-width: 160px;
-                        font-size: 14px;
+                        min-width: 100px;
+                        font-size: 13px;
                         padding: 11px;
                     }
                     @media ($sm-1199) {
-                        min-width: 100px;
+                        min-width: 90px;
                     }
                     @media ($sm-579) {
                         flex-grow: 1;
                         width: calc(50% - 5px);
                     }
-                    &.active, &:hover{
-                        background-color: $primary-blue;
-                        color: #fff;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0;
+                        background-color: #2966FF;
+                        height: 2px;
+                        transition: .3s;
+                    }
+                    &:hover, &.active{
+                        color: $primary-blue !important;
+                        &::after {
+                            width: 99%;
+                        }
                     }
                 }
             }

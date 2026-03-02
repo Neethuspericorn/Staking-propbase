@@ -45,8 +45,7 @@
       margin-bottom: 15px; } }
   @media (max-width: 579px) {
     .liq-pool-body-outer .liq-pool-title-wrapper .title-left-block {
-      order: 2;
-      margin-bottom: 0; } }
+      order: 2; } }
   .liq-pool-body-outer .liq-pool-title-wrapper .title-left-block h4 {
     color: #2966FF;
     font-size: 20px;
@@ -90,27 +89,38 @@
       transition: .3s;
       font-size: 20px;
       font-weight: 500;
-      margin: 1px; }
+      margin: 1px;
+      position: relative; }
       @media (max-width: 1679px) {
         .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn {
-          min-width: 170px;
-          font-size: 16px;
+          min-width: 140px;
+          font-size: 14px;
           padding: 9px 11px; } }
       @media (max-width: 1481px) {
         .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn {
-          min-width: 160px;
-          font-size: 14px;
+          min-width: 100px;
+          font-size: 13px;
           padding: 11px; } }
       @media (max-width: 1199px) {
         .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn {
-          min-width: 100px; } }
+          min-width: 90px; } }
       @media (max-width: 579px) {
         .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn {
           flex-grow: 1;
           width: calc(50% - 5px); } }
-      .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn.active, .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn:hover {
+      .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
         background-color: #2966FF;
-        color: #fff; }
+        height: 2px;
+        transition: .3s; }
+      .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn:hover, .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn.active {
+        color: #2966FF !important; }
+        .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn:hover::after, .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .pool-tab-btn-block .pool-tab-btn.active::after {
+          width: 99%; }
   @media (max-width: 579px) {
     .liq-pool-body-outer .liq-pool-title-wrapper .title-center-block .farming-tab-block {
       margin-bottom: 20px; } }
